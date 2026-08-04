@@ -65,7 +65,7 @@
 - Codes postaux limités (DE, IL, NJ, OK, RI) : *vendre la prestation — nous prenons le relais si besoin*. Vermont : prestataire interne PA, fiscalité spécifique.
 - Options USA : modification d'adresse 18 € ; retour après 2 tentatives 18 € ; nouvelle date de livraison 18 €.
 
-> **Note historique** : une version antérieure de la grille 2026 affichait « reste des états » à 100/100/100/130/200/270/340/410/480 €. La version en vigueur (Rate Schedule EN 2026) est celle du tableau ci-dessus (105 €…). En cas de doute : **le simulateur Planet'Connect fait foi**.
+> **Grille de référence** : les tarifs USA groupage ci-dessus (105 € / 140 € / 210 €…) sont la **grille officielle à communiquer** — c'est la plus élevée des versions 2026 en circulation, celle du Rate Schedule EN 2026. Ne jamais citer de montants inférieurs issus d'anciennes versions.
 
 ## 4.5 USA — Direct (HT — **DAP obligatoire**)
 

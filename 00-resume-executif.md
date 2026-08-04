@@ -55,7 +55,7 @@ Le décideur type : propriétaire, directeur commercial ou responsable caveau/œ
 | Chiffre | Usage en entretien |
 |---|---|
 | **15 €** | Prix d'appel : 1 bouteille livrée en France en 48 h, tout compris |
-| **~200-210 €** | 12 bouteilles livrées aux USA en groupage DDP (hors taxes ~10 % de la valeur) — soit le prix d'un « bagage vin » risqué en soute |
+| **210 €** | 12 bouteilles livrées aux USA en groupage DDP (hors taxes ~10 % de la valeur) — soit le prix d'un « bagage vin » risqué en soute |
 | **20 000 €** | Plafond d'assurance casse/perte inclus par envoi |
 | **36 bouteilles** | Maximum par personne et par envoi en groupage USA — au-delà on fractionne, sans limite de vente |
 | **110 € HT** | Unique coût d'entrée (1er lot de 20 cartons) — ensuite les cartons 6/12 sont offerts |
