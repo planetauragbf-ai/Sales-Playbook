@@ -4,13 +4,56 @@
 
 ---
 
-## 1.1 Carte d'identité
+## 1.1 Édito — « Les certitudes de Floriane »
+
+*Floriane Février, Fondatrice & Gérante*
+
+Chez Planet Aura, nous ne transportons qu'un seul type de produit : le vin, le champagne et les spiritueux. Ce choix n'est pas une limite, c'est notre force : derrière chaque bouteille, il y a un vigneron, une récolte, une réputation. Notre statut de commissionnaire de transport signifie que nous organisons le transport en notre nom propre et que nous portons une **obligation de résultat sur l'ensemble de la chaîne**.
+
+En quelques années, nous sommes passés de quelques expéditions à **plus de 200 clients actifs** et un chiffre d'affaires **dépassant le million d'euros** (à revalider avant diffusion externe), avec une filiale aux États-Unis pour accompagner nos clients jusqu'au dernier kilomètre. Notre ambition : **devenir la référence du transport international du vin** — y compris demain avec le voilier-cargo **VELA** pour décarboner la traversée transatlantique.
+
+> **Phrase à utiliser (notre porte d'entrée commerciale) :** « Vos clients américains méritent mieux qu'un colis bloqué à la douane. »
+
+Quatre repères guident chacune de nos décisions — et doivent guider les vôtres en rendez-vous :
+
+1. **Fiabilité**
+2. **Proximité**
+3. **Sens du détail**
+4. **Responsabilité**
+
+> ⚠️ **POINT DE VIGILANCE —** Les chiffres cités dans cet édito (clients actifs, CA, périmètre de la structure américaine et de VELA) sont des photographies à un instant donné : faites-les revalider par la direction avant tout usage externe (proposition, presse, salon).
+
+## 1.2 Le mot d'accueil d'Emma — notre culture d'équipe
+
+*Emma, Chargée de projets & développement*
+
+Bienvenue dans l'équipe. Avant les grilles tarifaires et les scripts, retenez notre culture en trois idées :
+
+1. **On dit ce qu'on fait, et on fait ce qu'on dit.** On préfère une vérité utile à une promesse confortable : si un délai est tendu, on le dit ; si un envoi présente un risque, on le présente avant l'envoi.
+2. **On apprend ensemble.** Vin, douane, Incoterms, droits d'accises : personne ne maîtrise tout en arrivant. Posez vos questions, l'équipe est là pour ça.
+3. **On améliore en continu.** Annotez ce playbook : il grandit avec vos retours du terrain.
+
+| La boussole de l'équipe | Ce que ça veut dire au quotidien |
+|---|---|
+| Dire vrai | Une vérité utile plutôt qu'une promesse confortable |
+| Apprendre ensemble | Vin, douane, Incoterms, accises : on monte en compétence à plusieurs |
+| Améliorer en continu | Le playbook s'annote et s'enrichit avec les retours de chacun |
+
+> 💡 **LE CONSEIL DE FLORIANE —** Aucun guide ne remplace le terrain : écoutez vos clients, c'est là que tout s'apprend.
+
+## 1.3 Carte d'identité
 
 | Élément | Détail |
 |---|---|
 | Raison sociale | **SARL Planet Aura** |
+| Dirigeants | **Floriane Février** (Gérante) & **Brice de Monplanet** (Associé) |
+| Date de création | **6 mai 2019** |
 | Capital social | 1 000 € |
 | Immatriculation | RCS de Castres n° **850 624 636** |
+| Code NAF/APE | **52.29B** — Affrètement et organisation des transports |
+| Convention collective | Transports routiers et activités auxiliaires du transport — **IDCC 16** |
+| Effectif | Une dizaine de salariés (à revalider) |
+| Clôture d'exercice | 31/12 |
 | N° TVA intracommunautaire | **FR54 850 624 636** |
 | N° SIRET | 850 624 636 00021 |
 | Statut réglementé | **Commissionnaire de transport** — n° CE **761901191** |

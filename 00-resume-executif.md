@@ -66,6 +66,42 @@ Le décideur type : propriétaire, directeur commercial ou responsable caveau/œ
 
 Cycle court : de 1 rendez-vous (salon, saison estivale) à 4-6 semaines. La vraie bataille n'est pas la signature, c'est **l'activation** : un adhérent qui fait son premier envoi dans le mois devient récurrent.
 
+## En synthèse : une méthode exigeante au service de la proximité
+
+Le principal résultat de ce playbook n'est pas une nouvelle promesse : c'est la capacité à décider plus vite ce que Planet Aura peut promettre, à qui, à quel prix et avec quelle preuve.
+
+| Difficulté rencontrée | Choix réalisé | Bénéfice |
+|---|---|---|
+| Livrables riches mais contradictoires | Séparer faits publics, données internes et hypothèses | Discours plus fiable et auditable |
+| Marché 2026 moins porteur | Protéger la marge et diversifier les segments/destinations | Croissance moins dépendante d'un seul pari |
+| Évolution du dispositif VELA (transport à la voile) | Créer cinq conditions contractuelles et opérationnelles avant toute promesse | Innovation vendue sans surpromesse |
+| Petite équipe, nombreuses tâches | SLA, score PA-FIT et automatisations minimales | Temps concentré sur les bons dossiers |
+| Donnée CRM incomplète | Définitions, champs et rituels communs | Forecast et apprentissage comparables |
+
+### Ce que les commerciaux doivent pouvoir attendre
+
+- Une réponse claire sur la cible, le message, le niveau de preuve et le prochain geste.
+- Un devis plus rapide parce que les données du dossier sont complètes, pas parce que les contrôles sont contournés.
+- Une autonomie réelle à l'intérieur de garde-fous : marge, promesses, contrats, conformité et escalade.
+- Des retours fondés sur les conversions, les motifs de perte et la qualité de service, pas sur le volume d'activité seul.
+- Des preuves vivantes : cas clients autorisés, données de service, méthodes carbone et retours d'opérations.
+
+### La boucle de méthode en 6 étapes
+
+```
++--------+   +---------------+   +-----------+   +-----------+   +---------+   +-----------+
+| Cibler |-->| Diagnostiquer |-->| Concevoir |-->| Sécuriser |-->| Prouver |-->| Apprendre |
++--------+   +---------------+   +-----------+   +-----------+   +---------+   +-----------+
+     ^                                                                              |
+     +------------------------------------------------------------------------------+
+```
+
+La boucle se referme : ce que nous apprenons à chaque cycle (conversions, motifs de perte, qualité de service) redéfinit les cibles et les messages du cycle suivant.
+
+> **REPÈRE —** La prochaine frontière n'est pas d'ajouter des pages à ce playbook : elle est de relier CRM, coûts de transport, incidents et valeur client pour prédire le cost-to-serve, recommander le bon mode et personnaliser l'accompagnement sans diluer l'humain.
+
 ---
 
 *La suite du playbook détaille chacun de ces points, avec les scripts, grilles, objections et procédures complètes.*
+
+> 📌 **À RETENIR —** Le prospect n'achète pas un transport : il cherche à réduire son risque. Chaque étape de la méthode — cibler, diagnostiquer, concevoir, sécuriser, prouver, apprendre — sert à démontrer que confier ses expéditions à Planet Aura est la décision la moins risquée pour lui et pour ses clients.
