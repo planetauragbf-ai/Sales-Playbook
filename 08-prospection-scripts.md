@@ -257,7 +257,7 @@ Chaque grande évolution du marché se traduit par un argument et une question �
 
 - **Personnalisation obligatoire** : nom du domaine, appellation, un fait vérifiable (site, avis, salon). Les emails génériques brûlent le territoire.
 - **RGPD** : prospection B2B légitime ; toujours un lien/mention de désinscription dans les campagnes ; les données clients finaux ne servent JAMAIS à notre prospection.
-- **Un canal ne suffit pas** : la séquence gagnante est téléphone + email + (terrain ou salon). 
+- **Un canal ne suffit pas** : la séquence gagnante est téléphone + email + (terrain ou salon).
 - **Tenue du CRM** : chaque touche loggée, chaque no-show recyclé, chaque « non » qualifié (raison, date de recontact).
 
 ---

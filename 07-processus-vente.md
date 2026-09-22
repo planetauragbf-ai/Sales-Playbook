@@ -20,7 +20,7 @@
 | 6. Activé | **Premier envoi réel effectué** | ≤ 30 jours après signature |
 | 7. Récurrent | ≥ 3 envois sur un trimestre ou usage saisonnier régulier | — |
 
-> **La vente n'est pas finie à l'étape 5.** Un adhérent signé mais jamais activé ne vaut rien. Le commercial est responsable jusqu'à l'étape 6 incluse.
+> **REPÈRE —** **La vente n'est pas finie à l'étape 5.** Un adhérent signé mais jamais activé ne vaut rien. Le commercial est responsable jusqu'à l'étape 6 incluse.
 
 ### 7.1.1 Critères de passage, SLA et preuves CRM
 
@@ -203,7 +203,7 @@ Email type post-RDV (sous 24 h) avec :
 4. Formulaire de mandat SEPA (si le magasin souhaite payer lui-même).
 5. Proposition de 2 créneaux de formation caveau.
 
-**Relances** : J+3 (téléphone), J+7 (email valeur : cas client), J+15 (dernier rappel avant saison). Après 3 relances sans réponse : nurturing trimestriel.
+**Relances** : J+3 (téléphone), J+7 (email valeur : cas client), J+15 (dernier rappel avant saison). Après 3 relances sans réponse : passage en nurture 45 jours (cf. règles d'hygiène, 7.1.1), puis nurturing trimestriel.
 
 ### La structure d'une proposition formalisée (8 blocs)
 

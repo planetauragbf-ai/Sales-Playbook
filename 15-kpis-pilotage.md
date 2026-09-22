@@ -98,14 +98,6 @@ Avant de présenter un objectif ou un plan chiffré, on vérifie que les chiffre
 
 ## 15.7 Rituels d'équipe
 
-| Rituel | Fréquence | Contenu |
-|---|---|---|
-| Stand-up pipeline | Hebdo (30') | Deals en mouvement, blocages, next steps datés |
-| Revue de comptes (tiers A + rouges) | Mensuelle | Health score, plans d'action |
-| Revue funnel & KPIs | Mensuelle | Taux de conversion, SLA, activité |
-| Retro trimestrielle | Trimestre | Deals gagnés/perdus (raisons), veille concurrence, mise à jour playbook |
-| Préparation saison / renouvellement | Févr. & mai | Campagnes, formations saisonniers, objectifs |
-
 ### Pas de rituel sans sortie obligatoire
 
 Un rituel qui ne produit rien est une réunion. Chaque rituel de la cadence a une sortie obligatoire — si elle n'est pas produite, le rituel n'a pas eu lieu.
@@ -113,11 +105,13 @@ Un rituel qui ne produit rien est une réunion. Chaque rituel de la cadence a un
 | Rituel | Cadence / durée | Participants | Sortie obligatoire |
 |---|---|---|---|
 | Signaux chauds | Chaque jour / 10 min | Commercial | Réponse ou tâche datée |
-| Pipeline | Hebdomadaire / 45 min | Direction + commerce | Forecast, blocages, prochaine action |
+| Pipeline (deals en mouvement, blocages) | Hebdomadaire / 45 min | Direction + commerce | Forecast, blocages, prochaine action datée |
 | Commerce-opérations | Hebdomadaire / 30 min | Commerce + ADV/logistique | Faisabilités, risques et SLA |
-| Performance | Mensuel / 60 min | Marketing + ventes + direction | Funnel, marge, sources et tests |
+| Performance (funnel & KPIs) | Mensuel / 60 min | Marketing + ventes + direction | Funnel, marge, sources et tests |
+| Revue de comptes (tiers A + rouges) | Mensuel | Commerce + direction | Health scores, plans d'action |
 | Voix du client | Mensuel / 30 min | ADV + commerce | Incidents, CSAT, objections et preuves |
-| Playbook | Trimestriel / 90 min | Propriétaires de chapitres | Version, décisions et archive |
+| Playbook (retro : wins/pertes, veille concurrence) | Trimestriel / 90 min | Propriétaires de chapitres | Version, décisions et archive |
+| Préparation saison / renouvellement | Févr. & mai | Commerce + direction | Campagnes, formations saisonniers, objectifs |
 
 ### Ordre du jour de la revue mensuelle de performance (60 minutes)
 

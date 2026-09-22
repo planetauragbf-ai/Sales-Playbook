@@ -119,40 +119,23 @@ Les scripts A-E sont les réponses développées. Quand le temps manque — salo
 
 ## G. Battlecards : répondre sans dénigrer
 
-Quand l'objection cite un concurrent, la méthode est en trois temps : **Reconnaître** (ce que le concurrent fait bien — sincèrement), **Recentrer** (déplacer la comparaison sur notre terrain) et **Question** (rendre la main au prospect).
+Quand l'objection cite un concurrent, la méthode est en trois temps : **Reconnaître** (ce que le concurrent fait bien — sincèrement), **Recentrer** (déplacer la comparaison sur notre terrain) et **Question** (rendre la main au prospect). Le détail concurrent par concurrent — tableau Reconnaître/Recentrer/Question, battle cards de fond et règles de déontologie — est au chap. 10 (§ 10.9) : s'y référer plutôt que de le dupliquer ici. Ci-dessous, les deux battlecards les plus utiles en traitement d'objection.
 
-### G.1 Réponses types face aux concurrents cités
-
-| Situation | Reconnaître | Recentrer | Question |
-|---|---|---|---|
-| « Viticolis est moins cher/simple » | Très bon standard digital et petits volumes | Comparer flux complet, pays, douane et SAV | Quel cas sort de leur standard ? |
-| « Dartess offre tout » | Capacité et intégration fortes | Mesurer agilité, interlocuteur et vitesse de décision | Quelle personnalisation vous manque ? |
-| « DHL est mondial » | Réseau et échelle incontestables | Faire valoir expertise vin, attention et arbitrage multi-mode | Qui connaît votre cuvée et vos contraintes ? |
-| « Notre transitaire suffit » | Un process existe déjà | Proposer un flux mal couvert ou un benchmark | Où perdez-vous le plus de temps/visibilité ? |
-| « Je prendrai un compte UPS/FedEx en direct » | Réseaux performants — nous les utilisons nous-mêmes | Contrat alcool, emballages ISTA 3A, douane et claims inclus chez nous | Qui gère le dossier douane et les litiges ? |
-
-### G.2 Battlecard « Trop cher » (développée)
+### G.1 Battlecard « Trop cher » (développée)
 
 - **Réponse** : « Comparons le coût complet avant la remise. »
 - **Clarifier** : quel écart doit être expliqué ou réduit ?
 - **Preuve** : prix rendu, charge interne, incidents et options comparables.
 - **À éviter** : défendre le tarif avant d'avoir compris le référentiel du prospect.
 
-### G.3 Battlecard « Déjà un transitaire » (développée)
+### G.2 Battlecard « Déjà un transitaire » (développée)
 
 - **Réponse** : il n'est pas nécessaire de tout remplacer — comparons un flux mal couvert, pas tout le compte.
 - **Clarifier** : quel flux, marché ou incident est le moins bien couvert ?
 - **Preuve** : proposer un diagnostic ou un pilote limité.
 - **À éviter** : dénigrer le prestataire en place ou promettre une supériorité générale.
 
-### G.4 Règles de battlecard
-
-- Ne jamais inventer un prix, un SLA ou une faiblesse concurrente.
-- Dater chaque information publique et conserver l'URL de la source.
-- Comparer le même périmètre : transport, assurance, douane, stockage, SAV, taxe, last mile.
-- Si le concurrent est mieux adapté, le dire : la crédibilité crée les opportunités futures.
-
-> 🚫 **INTERDIT —** Dénigrer nommément un concurrent ou lui attribuer une faiblesse non vérifiée. La battlecard sert à recentrer la comparaison sur notre terrain, jamais à attaquer.
+> 🚫 **INTERDIT —** Dénigrer nommément un concurrent ou lui attribuer une faiblesse non vérifiée. La battlecard sert à recentrer la comparaison sur notre terrain, jamais à attaquer. Les règles complètes (informations datées et sourcées, périmètre comparable, honnêteté quand le concurrent est mieux adapté) sont au chap. 10, § 10.9.
 
 ## H. Méthode générale (rappel)
 

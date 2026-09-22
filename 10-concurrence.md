@@ -2,7 +2,7 @@
 
 *Contre qui nous vendons vraiment, et comment gagner chaque duel.*
 
-> ⚠️ Règle de conduite : **on ne dénigre jamais un concurrent nommément** face à un prospect. On pose des questions qui révèlent les écarts, et on laisse le prospect conclure. Les éléments ci-dessous sont des repères internes ; vérifier les offres concurrentes avant un combat serré — elles évoluent.
+> ⚠️ **POINT DE VIGILANCE —** Règle de conduite : **on ne dénigre jamais un concurrent nommément** face à un prospect. On pose des questions qui révèlent les écarts, et on laisse le prospect conclure. Les éléments ci-dessous sont des repères internes ; vérifier les offres concurrentes avant un combat serré — elles évoluent.
 
 ---
 
@@ -18,9 +18,7 @@ Dans **plus de la moitié des deals**, on ne perd pas contre un concurrent — o
 
 ## 10.2 Le terrain de jeu : le marché du freight forwarding
 
-Notre métier — la commission de transport international, ou « freight forwarding » — est un secteur massif : plus de 160 milliards de dollars dans le monde, environ 40 milliards d'euros en France (source XERFI), avec une croissance modérée de +3 à 4 % par an, portée par la complexité croissante des chaînes logistiques et la demande de solutions durables.
-
-Le secteur est dominé par des géants généralistes — Geodis, CMA CGM, DHL — opérant en maritime, aérien, routier et ferroviaire. Ces mastodontes ne sont pas taillés pour les contraintes très spécifiques du vin : c'est dans cet interstice que vit un spécialiste comme Planet Aura.
+Rappel du cadrage marché (détail au chap. 2.4) : le freight forwarding — la commission de transport international — pèse plus de 160 milliards de dollars dans le monde et environ 40 milliards d'euros en France (XERFI), en croissance de +3 à 4 % par an. Le secteur est dominé par des géants généralistes (Geodis, CMA CGM, DHL), puissants mais non taillés pour les contraintes très spécifiques du vin : c'est dans cet interstice que vit un spécialiste comme Planet Aura.
 
 ## 10.3 Les 7 familles d'acteurs
 
@@ -31,7 +29,7 @@ Avant de dérouler un argumentaire, identifier à quoi — ou à qui — on se c
 | 1. Spécialistes mondiaux des boissons | Hillebrand Gori | Réseau mondial, groupage, puissance techno, notoriété | Standardisés, moins accessibles aux petits comptes et aux demandes atypiques |
 | 2. Grands groupes généralistes | GEODIS, UPS, FedEx, DHL | Couverture multimodale, capacité, prix agressifs | Centrés flux plus que métier ; peu de conseil douane/accises |
 | 3. Logisticiens spécialisés vin | Dartess | Stockage, préparation, distribution, ancrage viticole | Forts sur le contractuel et le volume ; moins sur l'export « clé en main » et les petits envois |
-| 4. Spécialistes export vin | Viticolis, Vinotrans, Eureka, MBE | Concurrents directs : expertise, proximité, flexibilité | Capacité d'extension et services intégrés plus limités |
+| 4. Spécialistes export vin | Viticolis, Vinotrans, Eureka Logistique, MBE | Concurrents directs : expertise, proximité, flexibilité | Capacité d'extension et services intégrés plus limités |
 | 5. Plateformes digitales | — | Rapidité, self-service, comparaison tarifaire | Peu d'accompagnement humain ; dossiers complexes mal couverts |
 | 6. Transporteurs directs | — | Accès direct, tarif ponctuel | Le client coordonne seul douane, documents et incidents |
 | 7. Gestion 100 % interne | Les équipes du client | Sentiment de contrôle, pas d'intermédiaire | Chronophage, dépendante d'une personne, sans veille réglementaire |
@@ -105,7 +103,7 @@ Se positionner par catégorie, pas par caricature. Force publique, risque réel 
 | Viticolis | >3 000 professionnels, plateforme, petits volumes, +50 pays | Prix, automatisation, e-commerce | Orchestration grand export et sur-mesure |
 | Dartess | 104 000 m², 10 entrepôts, offre intégrée | Échelle et profondeur logistique | Agilité et proximité décisionnelle |
 | Vinotrans | Spécialisation vin, volumes de 48 à 6 000 bouteilles | Expertise comparable | USA, B2C et projet personnalisé |
-| Eureka Wine | International, emballage, logistique vins | Couverture et expertise USA | Interlocuteur unique et flexibilité |
+| Eureka Logistique | International, emballage, logistique vins | Couverture et expertise USA | Interlocuteur unique et flexibilité |
 | Grain de Sail / TOWT | Fret à voile déjà commercialisé | Rend l'argument « premier » indéfendable | Neutralité modale + expertise vin |
 | DHL + VELA | Réseau mondial et porte-à-porte annoncé (partenariat VELA × DHL Global Forwarding France, 22/06/2026) | Puissance commerciale, et même navire | Petits flux, relation, spécialisation |
 
@@ -113,7 +111,7 @@ Se positionner par catégorie, pas par caricature. Force publique, risque réel 
 
 Face à ces spécialistes, la différence ne se joue pas sur le principe — nous sommes tous spécialistes — mais sur le niveau d'intégration.
 
-> 💡 **BONNE PRATIQUE —** Ce qui nous distingue des autres spécialistes : 1) l'obligation de résultat de commissionnaire, sur toute la chaîne ; 2) une filiale américaine (licences TTB) qui livre en DDP jusqu'au dernier kilomètre ; 3) une plateforme propriétaire, Planet'Connect (devis, dossiers, suivi) ; 4) une offre bas-carbone exclusive via VELA.
+> 💡 **BONNE PRATIQUE —** Ce qui nous distingue des autres spécialistes : 1) l'obligation de résultat de commissionnaire, sur toute la chaîne ; 2) une filiale américaine (licences TTB) qui livre en DDP jusqu'au dernier kilomètre ; 3) une plateforme propriétaire, Planet'Connect (devis, dossiers, suivi) ; 4) une offre bas-carbone via le partenariat VELA (option conditionnelle — jamais présentée comme exclusive, cf. chap. 3.8 et le partenariat VELA × DHL du 22/06/2026).
 
 ## 10.6 Le marché selon Porter (5 forces + 1)
 

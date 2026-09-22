@@ -2,7 +2,7 @@
 
 *La réassurance qui fait signer : notre réseau, nos cas d'usage, nos chiffres.*
 
-> ⚠️ Avant de citer nommément un adhérent en prospection, vérifier qu'il est actif et d'accord (les mentions ci-dessous sont un vivier interne issu de l'activité réelle — demander l'autorisation pour tout usage public type logo/témoignage écrit).
+> ⚠️ **POINT DE VIGILANCE —** Avant de citer nommément un adhérent en prospection, vérifier qu'il est actif et d'accord (les mentions ci-dessous sont un vivier interne issu de l'activité réelle — demander l'autorisation pour tout usage public type logo/témoignage écrit).
 
 ---
 

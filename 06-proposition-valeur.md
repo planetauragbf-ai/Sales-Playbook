@@ -134,7 +134,7 @@ Tous les arguments ne se valent pas. Avant chaque rendez-vous, classez les vôtr
 2. « Combien repartent en achetant moins que ce qu'ils voulaient ? » → ex. 1 sur 3
 3. « Panier moyen qu'ils auraient pris avec livraison ? » → ex. 12 btls × 25 € = 300 €
 
-→ 10 ventes/semaine × 300 € × 20 semaines = **60 000 € de CA potentiel additionnel/an**. Même à 25 % de conversion réelle : **15 000 €/an**, pour 110 € d'investissement initial. 
+→ 10 ventes/semaine × 300 € × 20 semaines = **60 000 € de CA potentiel additionnel/an**. Même à 25 % de conversion réelle : **15 000 €/an**, pour 110 € d'investissement initial.
 
 **Et côté trésorerie** : « Le client paie son transport par CB — vous n'avancez rien. Vous encaissez le vin, comme d'habitude. »
 
