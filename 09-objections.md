@@ -1,6 +1,6 @@
 # 09 — TRAITEMENT DES OBJECTIONS
 
-*25+ objections réelles, avec la méthode et les mots. Structure : Accuser réception → Recadrer → Prouver → Verrouiller.*
+*25+ objections réelles, avec la méthode et les mots. Structure : Accueillir → Clarifier → Prouver → Vérifier.*
 
 ---
 
@@ -28,6 +28,8 @@
 
 ### O-7. « Et si le colis est bloqué en douane ? »
 > « Notre travail est justement d'éviter ça : documents d'accompagnement édités par nous, DDP avec taxes payées d'avance, certificat CIVC géré pour le champagne, POA automatisé pour le Canada et les gros envois US. Quand une douane demande un document (ça arrive, par exemple un formulaire FDA aux USA), c'est nous qui le traitons — pas vous, pas votre client. »
+
+> ✅ **CE QUI FONCTIONNE —** Retourner l'objection douane USA au lieu de la subir : depuis le durcissement des droits américains (15 %, chiffre à revalider), plus les règles se compliquent, plus un partenaire qui maîtrise le DDP taxes prépayées devient précieux. La complexité douanière n'est pas un frein à la vente : c'est précisément la raison d'être du service.
 
 ### O-8. « J'ai eu une mauvaise expérience avec un transporteur. »
 > « Racontez-moi — c'est important. *(Écouter.)* Ce que vous décrivez, c'est le fonctionnement d'un transporteur : il exécute, et quand ça se passe mal, vous êtes seul face au guichet réclamations. Nous sommes commissionnaire : obligation de résultat écrite dans nos CGS, un interlocuteur nommé, et c'est nous qui menons les recours contre les transporteurs — vous n'y touchez jamais. »
@@ -94,11 +96,75 @@
 
 ---
 
-## Méthode générale (rappel)
+## F. Le format court : réponse courte + question de retour
 
-1. **Accuser réception** sans se justifier (« Bonne question », « Vous avez raison de la poser »).
-2. **Creuser** avant de répondre (« Qu'est-ce qui vous fait dire ça ? » — souvent l'objection réelle est ailleurs).
-3. **Répondre court**, avec un fait/chiffre de la documentation officielle.
-4. **Verrouiller** : « Si ce point est réglé, qu'est-ce qui nous empêche de créer votre compte cette semaine ? »
+Les scripts A-E sont les réponses développées. Quand le temps manque — salon, appel entrant, relance — utilisez le format court : **une réponse en une phrase, suivie d'une question de retour** qui rend la parole au prospect. La question de retour a deux vertus : elle fait émerger l'objection réelle (souvent différente de celle exprimée) et elle vous garde la main sur l'entretien.
+
+| Objection | Réponse courte | Question de retour |
+|---|---|---|
+| Trop cher | Comparons le coût complet avant la remise. | Quel écart doit être expliqué ou réduit ? |
+| Trop long | Protégeons d'abord la date impérative. | Quelle flexibilité existe réellement ? |
+| Météo/chaleur | Proposons le départ différé plutôt qu'une promesse. | Quelle fenêtre d'expédition convient à votre client ? |
+| Petits volumes | Testons grille, groupage ou non-adéquation. | Quel est l'envoi type ? |
+| Déjà un transitaire | Comparons un flux mal couvert, pas tout le compte. | Où est-il le moins adapté ? |
+| Envoyez des infos | Oui, ciblons le document utile. | Prix, délai, douane, impact ou sécurité ? |
+| Pas de budget | Non prioritaire ou non budgété ? | Quand l'arbitrage a-t-il lieu ? |
+| Pas le temps | Votre part se limite à 3 minutes de saisie. | Qui saisirait les commandes côté équipe ? |
+| Température/casse | Validons spécifications, emballage et assurance. | Quelles exigences sont obligatoires ? |
+| Douane complexe | Clarifions importateur, incoterm et données. | Où est la zone d'incertitude ? |
+| Plusieurs décideurs | Faisons une revue commune par risque. | Qui doit participer ? |
+| Solution trop récente | Séparons références Planet Aura et preuve du pilote. | Un pilote limité est-il acceptable ? |
+
+> 💡 **BONNE PRATIQUE —** Une seule preuve par objection : choisissez LA preuve adaptée à l'objection réelle (prix rendu, grille, carte de couverture, référence…) plutôt que d'empiler les arguments. Puis enregistrez la réponse du prospect et la prochaine étape **mot pour mot** — c'est votre matière pour la relance suivante.
+
+## G. Battlecards : répondre sans dénigrer
+
+Quand l'objection cite un concurrent, la méthode est en trois temps : **Reconnaître** (ce que le concurrent fait bien — sincèrement), **Recentrer** (déplacer la comparaison sur notre terrain) et **Question** (rendre la main au prospect).
+
+### G.1 Réponses types face aux concurrents cités
+
+| Situation | Reconnaître | Recentrer | Question |
+|---|---|---|---|
+| « Viticolis est moins cher/simple » | Très bon standard digital et petits volumes | Comparer flux complet, pays, douane et SAV | Quel cas sort de leur standard ? |
+| « Dartess offre tout » | Capacité et intégration fortes | Mesurer agilité, interlocuteur et vitesse de décision | Quelle personnalisation vous manque ? |
+| « DHL est mondial » | Réseau et échelle incontestables | Faire valoir expertise vin, attention et arbitrage multi-mode | Qui connaît votre cuvée et vos contraintes ? |
+| « Notre transitaire suffit » | Un process existe déjà | Proposer un flux mal couvert ou un benchmark | Où perdez-vous le plus de temps/visibilité ? |
+| « Je prendrai un compte UPS/FedEx en direct » | Réseaux performants — nous les utilisons nous-mêmes | Contrat alcool, emballages ISTA 3A, douane et claims inclus chez nous | Qui gère le dossier douane et les litiges ? |
+
+### G.2 Battlecard « Trop cher » (développée)
+
+- **Réponse** : « Comparons le coût complet avant la remise. »
+- **Clarifier** : quel écart doit être expliqué ou réduit ?
+- **Preuve** : prix rendu, charge interne, incidents et options comparables.
+- **À éviter** : défendre le tarif avant d'avoir compris le référentiel du prospect.
+
+### G.3 Battlecard « Déjà un transitaire » (développée)
+
+- **Réponse** : il n'est pas nécessaire de tout remplacer — comparons un flux mal couvert, pas tout le compte.
+- **Clarifier** : quel flux, marché ou incident est le moins bien couvert ?
+- **Preuve** : proposer un diagnostic ou un pilote limité.
+- **À éviter** : dénigrer le prestataire en place ou promettre une supériorité générale.
+
+### G.4 Règles de battlecard
+
+- Ne jamais inventer un prix, un SLA ou une faiblesse concurrente.
+- Dater chaque information publique et conserver l'URL de la source.
+- Comparer le même périmètre : transport, assurance, douane, stockage, SAV, taxe, last mile.
+- Si le concurrent est mieux adapté, le dire : la crédibilité crée les opportunités futures.
+
+> 🚫 **INTERDIT —** Dénigrer nommément un concurrent ou lui attribuer une faiblesse non vérifiée. La battlecard sert à recentrer la comparaison sur notre terrain, jamais à attaquer.
+
+## H. Méthode générale (rappel)
+
+Les 4 temps : **Accueillir → Clarifier → Prouver → Vérifier.**
+
+1. **Accueillir** : accuser réception sans se justifier (« Bonne question », « Vous avez raison de la poser »).
+2. **Clarifier** : creuser avant de répondre (« Qu'est-ce qui vous fait dire ça ? » — souvent l'objection réelle est ailleurs).
+3. **Prouver** : répondre court, avec **une seule preuve** — un fait/chiffre de la documentation officielle, adapté à l'objection réelle.
+4. **Vérifier** : contrôler l'effet de la réponse et verrouiller : « Si ce point est réglé, qu'est-ce qui nous empêche de créer votre compte cette semaine ? »
+
+Puis **tracer** : réponse du prospect et prochaine étape enregistrées mot pour mot.
 
 **Interdits absolus** : inventer une couverture d'assurance, promettre un délai ferme, critiquer nommément un concurrent, improviser un tarif hors grille.
+
+> 📌 **À RETENIR —** Une objection est une demande d'information, pas un refus. Méthode en 4 temps : Accueillir, Clarifier, Prouver, Vérifier. Une seule preuve par objection, une question de retour pour garder la main, jamais de dénigrement — et la réponse du prospect enregistrée mot pour mot pour préparer la relance.

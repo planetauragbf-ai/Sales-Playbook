@@ -21,7 +21,39 @@ Notre réseau couvre **toutes les typologies de la cible**, dans toutes les rég
 
 **L'effet réseau à vendre** : « Quand un domaine voisin du vôtre expédie déjà avec nous, son bouche-à-oreille est notre meilleure publicité — demandez-lui. »
 
-## 11.2 Cas d'usage narratifs (storytelling prêt à l'emploi)
+## 11.2 Les références publiques « Ils nous font confiance »
+
+Le site Planet Aura publie une sélection de références sous la mention « Ils nous font confiance ». Ces dix comptes sont **publics** : ils constituent un échantillon observable de la clientèle, pas un classement par chiffre d'affaires. Ils se citent en rendez-vous comme preuve sociale, et chacun porte un **signal ICP** qui aide à qualifier le prospect en face de vous.
+
+| Compte public | Typologie observable | Signal utile en rendez-vous |
+|---|---|---|
+| Domaine La Barroche | Domaine viticole premium | Terroir, export et image de marque |
+| Château Fortia | Domaine de Châteauneuf-du-Pape | Cuvées à valeur et clientèle internationale |
+| Domaine du Grand Tinel | Domaine familial | Besoin d'accompagnement export |
+| Famille Gonnet | Famille de producteurs | Multi-cuvées et patrimoine |
+| Château Fleur de Lisse | Grand Cru Saint-Émilion | Premium, traçabilité et distribution |
+| Château Romanin | Domaine viticole | Positionnement et expérience client |
+| Domaine de la Citadelle | Domaine du Luberon | Œnotourisme et international |
+| Champagne Pol Couronne | Maison de champagne | Produit sensible et expédition premium |
+| Cave de Vouvray | Cave / effervescents | Volumes et complexité de gamme |
+| Maison Veuve Amiot | Maison de fines bulles | Export de produit réglementé |
+
+> **REPÈRE —** Caractéristiques prioritaires qui ressortent de cet échantillon : professionnel du vin, flux national/international, produit à valeur ou fragile, besoin de délégation, récurrence possible, intérêt pour une relation suivie. La priorité P1 doit ensuite être validée par CA, marge, fréquence et potentiel CRM.
+
+> ⚠️ **POINT DE VIGILANCE —** La publication de ces noms par Planet Aura ne vaut pas autorisation automatique d'usage commercial de leur logo ou d'un témoignage écrit. En prospection, citer uniquement les références autorisées (voir l'avertissement en tête de chapitre et le vivier du § 11.1).
+
+### Références techniques (intégration e-commerce / API)
+
+Pour les prospects équipés d'une boutique en ligne, deux références nommées complètent le Cas 5 ci-dessous :
+
+- **Terre de Mistral** : frais de port et suivi affichés automatiquement sur sa boutique en ligne via l'API Planet'Connect.
+- **Château de Beaupré** : client de l'intégration API (dans le cadre du partenariat Direct Château).
+
+Argument associé : l'API et sa documentation technique sont fournies **gratuitement**, les identifiants sont directement disponibles dans le compte adhérent ; seul l'interfaçage (développeur ou prestataire de l'adhérent) reste à sa charge.
+
+> ⚠️ **POINT DE VIGILANCE —** Les identifiants API (clé + mot de passe) sont confidentiels : à ne partager qu'avec un développeur habilité, jamais en clair par e-mail.
+
+## 11.3 Cas d'usage narratifs (storytelling prêt à l'emploi)
 
 ### Cas 1 — Le groupage USA qui change le panier
 « Un client du Texas visite un domaine adhérent, il voulait "quelques bouteilles". Avec la solution d'expédition affichée au caveau, il repart sur **24 bouteilles livrées à Southlake, taxes prépayées**, payées par carte au comptoir. Trois semaines plus tard, livraison à domicile. Ce client est dans le fichier du domaine : il recommandera à distance l'année suivante. »
@@ -38,7 +70,7 @@ Notre réseau couvre **toutes les typologies de la cible**, dans toutes les rég
 ### Cas 5 — L'e-shop connecté
 « Un château du vignoble niçois a intégré notre service à sa boutique en ligne : chaque commande "shipping" nous est automatiquement notifiée et déclenche le processus. Le caveau physique et le site web vendent le même service sans double saisie. »
 
-## 11.3 Chiffres de réassurance (issus de la documentation & de l'activité)
+## 11.4 Chiffres de réassurance (issus de la documentation & de l'activité)
 
 | Chiffre | Source / usage |
 |---|---|
@@ -51,7 +83,26 @@ Notre réseau couvre **toutes les typologies de la cible**, dans toutes les rég
 | Signature électronique + plateforme : adhésion en **10 minutes** | Planet'Connect |
 | Cartons **ISTA 3A** (norme UPS) | Documentation cartonnage |
 
-## 11.4 Objets de preuve à montrer physiquement
+### Les KPIs entreprise (grille de 8 stats — à jour 2025-2026)
+
+Huit chiffres qui racontent l'entreprise en une minute, à dérouler en ouverture ou en réponse à « vous êtes qui, vous êtes gros comment ? » :
+
+| KPI | Chiffre |
+|---|---|
+| Chiffre d'affaires 2025 | **1,15 M€** (+14 % vs 2024) |
+| Clients actifs | **220+** (sur 604 comptes au total) |
+| Entrepôt à Castres | **323 m²** (+300 m³ acquis en 2026) |
+| Destinations | **100+** (UE, USA, Asie…) |
+| Expéditions par an | **~6 000** (~38 502 bouteilles) |
+| Part des États-Unis | **80 %** des expéditions (marché n°1) |
+| Transport décarboné VELA | **−90 %** de CO2 sur la traversée transatlantique |
+| Note Google | **4,8/5** (296 avis clients) |
+
+À compléter par un repère d'implantation : filiale aux USA implantée à **Chicago, Illinois, depuis janvier 2024** (flyer de prospection).
+
+> ⚠️ **POINT DE VIGILANCE —** Le flyer de prospection porte encore des chiffres antérieurs (500 adhérents, plus de 130 pays de livraison, 58 994 bouteilles expédiées en 2023, export = 90 % des expéditions). En rendez-vous, citer en priorité la grille de KPIs 2025-2026 ci-dessus et ne pas mélanger les deux millésimes de chiffres.
+
+## 11.5 Objets de preuve à montrer physiquement
 
 1. **Le carton 6 bouteilles** avec ses alvéoles — le toucher vaut mille slides.
 2. **Le simulateur en direct** sur les vins du prospect.
@@ -60,9 +111,32 @@ Notre réseau couvre **toutes les typologies de la cible**, dans toutes les rég
 5. **Une capture de suivi de livraison** aux USA (anonymisée).
 6. **La grille 2026 imprimée** (FR + EN) — objet laissé sur place avec la carte de visite.
 
-## 11.5 Programme de témoignages (à animer en continu)
+## 11.6 Preuves de marché sourcées (pour légitimer le besoin)
+
+Trois chiffres externes, sourcés, prêts à citer en rendez-vous quand le prospect doute que l'expédition BtoC soit un vrai sujet :
+
+| Preuve de marché | Source | Ce qu'elle démontre au prospect |
+|---|---|---|
+| **15,6 Md€** d'exports français de vins & spiritueux, dont **3,8 Md€** vers les USA (+5 %) | FEVS 2024 | La filière mise sur l'international : l'export est un pilier vital |
+| Jusqu'à **53 %** des ventes d'un domaine passent par le direct-au-consommateur | Silicon Valley Bank | Un besoin d'expédition massif, au cœur du modèle des domaines |
+| Le freight forwarding pèse **plus de 40 Md€** en France | XERFI | Un marché profond, mais dominé par des généralistes non spécialisés vin |
+
+> 💡 **BONNE PRATIQUE —** Enchaîner les trois preuves dans cet ordre : le marché existe (FEVS), le besoin est chez le prospect (SVB), et personne de spécialisé ne le sert vraiment (XERFI) — puis conclure sur notre positionnement de spécialiste vin.
+
+## 11.7 Programme de témoignages (à animer en continu)
+
+### Le socle existant
+
+- Note Google : **4,8/5 sur 296 avis clients** — à citer et à montrer sur téléphone en rendez-vous.
+- Avis nommés déjà exploités sur le flyer de prospection : **Valérie – La Cave de Vauvray** et **Manon – Kite de Kerbellec** (extraits avec notes).
+
+### L'animation en continu
 
 - Après chaque **premier envoi réussi** : demander une phrase de témoignage + autorisation de citer.
 - Après chaque **sinistre résolu** : idem — les témoignages post-incident sont les plus puissants.
 - Objectif annuel : 1 témoignage écrit par région + 2 études de cas détaillées (une domaine, une caviste) + photos caveau avec PLV.
 - Centraliser dans le dossier partagé « Références » ; tenir à jour la liste des adhérents citables.
+
+---
+
+> 📌 **À RETENIR —** La preuve se joue à trois étages : des **références nommées** (le réseau du § 11.1 et les dix comptes publics du § 11.2), des **chiffres internes** (assurance 20 000 €/envoi, 4,8/5 sur Google, KPIs 2025-2026) et des **preuves de marché sourcées** (FEVS, SVB, XERFI). Toujours associer une preuve au doute exprimé par le prospect — et ne jamais citer nommément un adhérent sans avoir vérifié qu'il est actif et d'accord.

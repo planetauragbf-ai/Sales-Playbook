@@ -49,7 +49,28 @@ Leads → Qualifiés → RDV tenus → Propositions → Signatures → Activés 
 - **Churn annuel** (non-renouvellement documentation) : < 15 % en nombre, < 8 % en valeur.
 - **NPS adhérents** (enquête annuelle au renouvellement) : > 50.
 
-## 15.5 Prévision (forecast) simple et honnête
+## 15.5 Les formules exactes : 10 KPI, leur fréquence et leur piège
+
+Un KPI sans formule partagée finit toujours en débat d'interprétation. Chaque indicateur ci-dessous a une formule unique, une fréquence de lecture et le piège classique qui fausse la mesure.
+
+| KPI | Formule | Fréquence | Piège à éviter |
+|---|---|---|---|
+| Taux de contact | Comptes avec interaction / comptes contactés | Hebdo | Compter les ouvertures d'email comme des réponses |
+| Taux de RDV | RDV tenus / comptes contactés | Hebdo | Mélanger RDV réservés et RDV tenus |
+| MQL → SQL | SQL acceptés / MQL transmis | Mensuel | Changer la définition selon la source |
+| Win rate | Opportunités gagnées / opportunités clôturées | Mensuel | Inclure des dossiers encore ouverts |
+| Cycle médian | Médiane (date de closing − date de qualification) | Mensuel | Utiliser la moyenne seule |
+| Panier moyen | CA signé / clients gagnés | Mensuel | Confondre signé et facturé |
+| Marge contributive | CA − coûts variables directs | Par dossier | Appliquer un coefficient comme si c'était une marge nette |
+| OTIF | Livraisons complètes à l'heure / livraisons | Mensuel | Définition de « l'heure » non convenue avec le client |
+| Quote SLA | Devis émis dans le SLA / devis complets | Hebdo | Démarrer le chrono avant que le dossier soit complet |
+| Hygiène forecast | Opportunités complètes / opportunités ouvertes | Hebdo | Conserver des opportunités zombies |
+
+> ⚠️ **POINT DE VIGILANCE —** Un coût multiplié par 1,30 n'est pas une « marge nette ». La marge contributive se calcule dossier par dossier : CA moins coûts variables directs. C'est elle qui pilote les décisions de prix, de mix ou de disqualification.
+
+> **REPÈRE — BASELINE D'ABORD.** Pendant les 90 premiers jours, on mesure sans maquiller. On fixe ensuite les cibles par segment et par offre, à partir des médianes réellement observées. Toute cible communiquée à l'extérieur doit préciser sa période, son périmètre, sa source et son propriétaire.
+
+## 15.6 Prévision (forecast) simple et honnête
 
 Méthode par engagement, pas par intuition :
 
@@ -62,7 +83,20 @@ Méthode par engagement, pas par intuition :
 
 **Valeur d'un adhérent (année 1)** : nb d'envois estimés × prestation moyenne (~150-250 € selon mix destinations) + options (CIVC, stockage). Réviser après 90 jours d'historique réel.
 
-## 15.6 Rituels d'équipe
+### Le test d'arithmétique : auto-contrôle des ordres de grandeur
+
+Avant de présenter un objectif ou un plan chiffré, on vérifie que les chiffres tiennent ensemble. Exemples de contrôles :
+
+| Contrôle | Calcul juste | Erreur classique |
+|---|---|---|
+| Cartons par palettes | 20 palettes × 20 cartons = 400 cartons | Écrire 600 cartons ou 30 palettes |
+| Tonnage | 400 cartons × 18 kg = 7,2 t | Annoncer 20 palettes ET 8 t (incohérent) |
+| Chiffre d'affaires | 400 cartons × 238 € = 95 200 € | Annoncer 20 palettes ET 100 k€ (incohérent) |
+| Seuil de capacité | 8 t à 18 kg/carton = 445 cartons ≈ 22,25 palettes | Garder le triptyque volume/prix/capacité sans le rebaseliner |
+
+> ⚠️ **POINT DE VIGILANCE —** Si un des trois chiffres (volume, prix, capacité) bouge, on rebaseline les deux autres. Un plan dont l'arithmétique ne tombe pas juste perd toute crédibilité en revue de direction — et en face du client.
+
+## 15.7 Rituels d'équipe
 
 | Rituel | Fréquence | Contenu |
 |---|---|---|
@@ -72,7 +106,46 @@ Méthode par engagement, pas par intuition :
 | Retro trimestrielle | Trimestre | Deals gagnés/perdus (raisons), veille concurrence, mise à jour playbook |
 | Préparation saison / renouvellement | Févr. & mai | Campagnes, formations saisonniers, objectifs |
 
-## 15.7 Hygiène CRM (règles d'or)
+### Pas de rituel sans sortie obligatoire
+
+Un rituel qui ne produit rien est une réunion. Chaque rituel de la cadence a une sortie obligatoire — si elle n'est pas produite, le rituel n'a pas eu lieu.
+
+| Rituel | Cadence / durée | Participants | Sortie obligatoire |
+|---|---|---|---|
+| Signaux chauds | Chaque jour / 10 min | Commercial | Réponse ou tâche datée |
+| Pipeline | Hebdomadaire / 45 min | Direction + commerce | Forecast, blocages, prochaine action |
+| Commerce-opérations | Hebdomadaire / 30 min | Commerce + ADV/logistique | Faisabilités, risques et SLA |
+| Performance | Mensuel / 60 min | Marketing + ventes + direction | Funnel, marge, sources et tests |
+| Voix du client | Mensuel / 30 min | ADV + commerce | Incidents, CSAT, objections et preuves |
+| Playbook | Trimestriel / 90 min | Propriétaires de chapitres | Version, décisions et archive |
+
+### Ordre du jour de la revue mensuelle de performance (60 minutes)
+
+| Minutes | Contenu |
+|---|---|
+| 0-10 | Qualité de la donnée et écarts de définition |
+| 10-25 | Funnel par source, ICP et séquence |
+| 25-40 | Pipeline, win/loss, cycle et marge |
+| 40-50 | OTIF, incidents, CSAT et expansion |
+| 50-60 | Un test à arrêter, un test à amplifier, un propriétaire et une date |
+
+> 💡 **BONNE PRATIQUE —** La revue mensuelle commence par la qualité de la donnée, pas par les résultats. Si les définitions divergent ou si le CRM est sale, les 50 minutes suivantes ne valent rien. Et elle se termine toujours par une décision : un test qu'on arrête, un test qu'on amplifie, un propriétaire, une date.
+
+## 15.8 Qui décide quoi : la matrice RACI
+
+Cinq décisions reviennent sans cesse et créent des frictions si personne ne sait qui tranche. La matrice ci-dessous fixe les rôles : **R** réalise, **A** décide (accountable), **C** est consulté, **I** est informé.
+
+| Décision | R | A | C | I |
+|---|---|---|---|---|
+| Ciblage / séquence | Marketing/BD | Direction commerciale | Commercial | ADV |
+| Faisabilité / délai | ADV/logistique | Responsable opérations | Commercial | Client |
+| Prix / remise | Commercial | Direction | Finance/logistique | ADV |
+| Allégation / cas client | Marketing | Direction | RSE/juridique/partenaire | Commerce |
+| Passage aux opérations | Commercial + ADV | Responsable opérations | Logistique | Direction |
+
+> 🚫 **INTERDIT —** Accorder une remise ou publier une allégation client (chiffre, nom, promesse carbone) sans le A de la ligne concernée. Un commercial réalise la proposition de prix, la direction la décide.
+
+## 15.9 Hygiène CRM (règles d'or)
 
 1. Tout contact loggé **sous 24 h** (appel, email, visite, salon).
 2. Toute opportunité a **une prochaine action datée** — sinon elle est fermée (perdue/nurturing).
@@ -80,7 +153,7 @@ Méthode par engagement, pas par intuition :
 4. Les fiches adhérents portent : tiers, health score, contacts caveau À JOUR (les saisonniers changent !), destinations récurrentes, particularités (CIVC, POA fréquents, e-shop connecté).
 5. Les leads inbound (formulaire site) sont **routés le jour même** avec horodatage du premier rappel.
 
-## 15.8 Tableau de bord mensuel type (une page)
+## 15.10 Tableau de bord mensuel type (une page)
 
 - Envois du mois (vs N-1) & CA services — par région, par destination.
 - Nouveaux signés / nouveaux activés / taux d'activation 30 j.
@@ -88,3 +161,29 @@ Méthode par engagement, pas par intuition :
 - Pipeline pondéré 90 jours vs objectif.
 - Top 3 wins (avec raison) / top 3 pertes (avec raison).
 - Incidents notables du mois (sinistres majeurs, retards groupage) — pour aligner le discours commercial du mois suivant.
+
+## 15.11 Feuille de route commerciale budgétée (sept. 2026 → 2027)
+
+Le pilotage se traduit en plan d'action daté, budgété et conditionné : chaque chantier a un responsable, un temps alloué, un budget et un critère de passage à l'étape suivante. Pas de critère atteint, pas d'étape suivante.
+
+| Période | Chantier | Responsable | Temps | Budget | Critère de passage |
+|---|---|---|---|---|---|
+| S1-S2 (sept. 2026) | Nettoyage CRM, listes A/B/C, champs obligatoires | Emma + Adam | 24 h | 0 € | ≥ 95 % des comptes prioritaires exploitables |
+| M1 (oct.) | Landing page, one-pager par ICP, FAQ preuves/risques | — | 36 h | 600 € | — |
+| M2 (nov.) | 3 séquences Brevo, listes repoussoir, reporting HubSpot | — | 20 h | 200 € | — |
+| M2-M8 | Tests LinkedIn sur 3 clusters (100 € puis montée progressive) | — | 3 h/sem | 900 € | Coût par SQL comparé à l'outbound |
+| M3 (janv. 2027) | Webinaire export : coût rendu, conformité, preuve responsable | Emma + expert | 20 h | 300 € | 10 inscrits ICP et 3 diagnostics |
+| M4-M10 | Deux salons en visiteur, RDV prébookés, suivi sous 48 h | Adam + Emma | 24 h | 1 000 € | 8 RDV qualifiés par événement |
+| Après validation | Pilote VELA : dossier pilote, calcul rendu, FAQ carbone, plan de secteurs | — | — | — | Validations préalables obtenues |
+
+> **REPÈRE —** Plafond total : **3 000 € de dépenses externes maximum**. Le temps interne est une capacité à réserver, pas un coût salarial. Sont exclus du plafond : voyages, stands, impressions et développements logiciels.
+
+### Les trois horizons
+
+| Horizon | Priorité |
+|---|---|
+| 0-90 jours | Assainir la donnée, prouver le message, réactiver les comptes à bon fit |
+| 3-12 mois | Industrialiser séquences et cas clients ; pilote VELA seulement après validations |
+| 12-36 mois | Comptes récurrents, partenaires internationaux, automatisation rentable |
+
+> 📌 **À RETENIR —** Un KPI n'est utile que s'il a une formule partagée, une fréquence de lecture et une décision associée. On mesure d'abord 90 jours sans maquiller (baseline), puis on fixe les cibles par segment. Chaque rituel produit une sortie obligatoire, chaque décision a un responsable (RACI), et chaque chiffre présenté passe le test d'arithmétique. La feuille de route apprend vite avec 3 000 € maximum : pas de critère de passage atteint, pas d'étape suivante.

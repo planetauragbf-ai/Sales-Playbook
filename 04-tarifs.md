@@ -2,7 +2,7 @@
 
 *Toutes les grilles officielles 2026, prêtes à l'emploi en rendez-vous. Bouteilles = 0,75 L. Les tarifs sont révisés chaque année et publiés sur Planet'Connect (CGS art. 7.1).*
 
-> ⚠️ **Règles de lecture** : UE = TTC. Hors UE = HT (hors TVA française). Délais = jours ouvrables, **estimatifs**, hors douane. Express > 120 bouteilles, caisses bois d'origine, palettes : **devis personnalisé**.
+> ⚠️ **POINT DE VIGILANCE — Règles de lecture :** UE = TTC. Hors UE = HT (hors TVA française). Délais = jours ouvrables, **estimatifs**, hors douane. Express > 120 bouteilles, caisses bois d'origine, palettes : **devis personnalisé**.
 
 ---
 
@@ -51,6 +51,10 @@
 
 \* DAP uniquement — DDP non applicable.
 
+> **REPÈRE —** Norvège, composition géographique des deux zones : **Sud** = Møre og Romsdal, Innlandet, Vestland, Buskerud, Oslo, Akershus, Østfold, Vestfold, Telemark, Rogaland, Agder ; **Nord** = Finnmark, Troms, Nordland, Trøndelag.
+
+> ⚠️ **POINT DE VIGILANCE —** Le visuel interne des zones Norvège numérote Zone 1 = Nord et Zone 2 = Sud, à l'inverse des libellés de la grille ci-dessus (à revalider). En clientèle, raisonner en « Sud » / « Nord » (et sur les comtés listés ci-dessus), jamais en numéro de zone seul.
+
 ## 4.4 USA — Groupage (HT — **DDP obligatoire**)
 
 | Destination | 1 | 2 | 3 | 6 | 12 | 18 | 24 | 30 | 36 btls | Délai |
@@ -65,7 +69,7 @@
 - Codes postaux limités (DE, IL, NJ, OK, RI) : *vendre la prestation — nous prenons le relais si besoin*. Vermont : prestataire interne PA, fiscalité spécifique.
 - Options USA : modification d'adresse 18 € ; retour après 2 tentatives 18 € ; nouvelle date de livraison 18 €.
 
-> **Grille de référence** : les tarifs USA groupage ci-dessus (105 € / 140 € / 210 €…) sont la **grille officielle à communiquer** — c'est la plus élevée des versions 2026 en circulation, celle du Rate Schedule EN 2026. Ne jamais citer de montants inférieurs issus d'anciennes versions.
+> ⚠️ **POINT DE VIGILANCE — Grille de référence :** les tarifs USA groupage ci-dessus (105 € / 140 € / 210 €…) sont la **grille officielle à communiquer** — c'est la plus élevée des versions 2026 en circulation, celle du Rate Schedule EN 2026. Ne jamais citer de montants inférieurs issus d'anciennes versions.
 
 ## 4.5 USA — Direct (HT — **DAP obligatoire**)
 
@@ -102,6 +106,8 @@
 | Assurance casse & perte | Incluse (max 20 000 €/envoi) — order form client final : 3 % × (vin + transport) |
 | Assurance complémentaire > 20 000 € | À souscrire avant expédition (nous consulter) |
 
+> ⚠️ **POINT DE VIGILANCE —** Certificat de Champagne : **obligatoire pour toute exportation de champagne hors UE**. Un certificat de deux pages couvre 12 bouteilles maximum ; il est délivré par le CIVC (certificat.origine-ext@civc.fr) et les **deux originaux doivent voyager dans la pochette collée à l'extérieur du carton** — sans eux, le colis est immobilisé en douane. Nouveauté : Planet Aura peut réaliser la demande auprès du CIVC pour le client, au tarif de 15 € HT par demande d'expédition (dont 10 € HT de certificat CIVC).
+
 ## 4.8 Cartonnage
 
 | Offre | Conditions | Tarif |
@@ -122,6 +128,10 @@
 | 32 × 22 × 41 | 6 bouteilles | 3,37 € |
 | 44,5 × 32 × 41 | 12 bouteilles | 6,19 € |
 | 16 × 16 × 43 | 1 magnum | 3,41 € |
+
+Le conditionnement se fait **uniquement en cartons pleins certifiés norme UPS ISTA 3A**, commandés via Planet'Connect par lots de 20.
+
+> ✅ **CE QUI FONCTIONNE —** Le forfait initial de 110 € HT (1er lot de 20 cartons, puis gratuits) est souvent la **seule dépense « d'entrée »** d'un nouvel adhérent : un excellent levier pour lever la dernière hésitation en fin d'entretien.
 
 ## 4.9 Stockage & Picking (HT — entrepôt Castres)
 
@@ -176,7 +186,7 @@ Offre de livraison **express lendemain matin** en France métropolitaine, tarif�
 
 Zones complémentaires (Belgique-Luxembourg, Espagne, Corse : supplément 25,60 €/colis…) : grille interne dédiée. Frais annexes : changement d'adresse 9 € ; retour expéditeur après 2 tentatives 18 € ; nouvelle date de livraison 18 € ; enlèvement jour même 3 €.
 
-> Cette grille est un **outil interne** (coûts + marge 37 %) : en externe, ne communiquer que les prix de vente.
+> ⚠️ **POINT DE VIGILANCE —** Cette grille est un **outil interne** (coûts + marge 37 %) : en externe, ne communiquer que les prix de vente.
 
 ## 4.11 Exemples de paniers chiffrés (à utiliser en rendez-vous)
 
@@ -191,3 +201,47 @@ Zones complémentaires (Belgique-Luxembourg, Espagne, Corse : supplément 25,60 
 | Amateur US de whisky, 6 btls à 400 € | 180 € + taxes (10,3 % + 3 €/btl ≈ 59 €) + 17 € | **≈ 256 €**, 21 j |
 
 **Réflexe de présentation** : toujours ramener au **prix par bouteille livrée** (ex. USA 12 btls ≈ 17,5 €/btl transport) et comparer au coût/risque de la valise (excédent bagage 50-100 €, casse non assurée, franchise douanière dépassée).
+
+## 4.12 Grille « VELA » issue du PAC — une base de travail, pas une promesse automatique
+
+La grille ci-dessous, issue du PAC, **documente une intention 2025-2026**. Elle doit être **confirmée dans l'outil tarifaire et par la direction avant tout envoi externe** : validité, périmètre HT/TTC, zones, incoterms, assurance et remises doivent être approuvés.
+
+| Bouteilles | Ancien aérien | Aérien révisé | VELA catalogue | VELA promo 2026 |
+|---|---|---|---|---|
+| 1 | 100 € | 110 € | 140 € | 119 € |
+| 2 | 100 € | 110 € | 140 € | 119 € |
+| 3 | 100 € | 110 € | 140 € | 119 € |
+| 6 | 130 € | 140 € | 180 € | 153 € |
+| 12 | 200 € | 220 € | 280 € | 238 € |
+| 18 | 270 € | 360 € | 450 € | 382,50 € |
+| 24 | 340 € | 445 € | 560 € | 476 € |
+| 30 | 410 € | 575 € | 720 € | 612 € |
+| 36 | 480 € | 660 € | 825 € | 701,25 € |
+
+> ⚠️ **POINT DE VIGILANCE — ALERTE FINANCE.** Les livrables emploient « marge nette » pour un calcul **coût × 1,30**, qui correspond à un **taux de marque / marge commerciale** (selon le dénominateur), pas à une marge comptable. Coûts, taxes, assurance, last mile et contingence doivent être réconciliés avant de s'engager.
+
+### Mise en pratique
+
+- Une grille historique sert à **préparer le calcul**, jamais à engager automatiquement le prix.
+- Sur le terrain : **recalculer coût rendu + taxes + assurance + marge**, fixer la **validité** et les **exceptions**.
+- Trace attendue : **devis daté, hypothèses écrites, niveau d'approbation identifiable**.
+
+## 4.13 Prix et négociation — protéger la valeur et la marge
+
+**Règle d'or : négocier le périmètre avant le prix. Une concession n'existe qu'avec une contrepartie et une validation adaptée.**
+
+| Demande | Clarifier | Levier possible | Validation |
+|---|---|---|---|
+| Remise | Écart sur transport ou coût complet ? | Volume, durée, paiement, standardisation | Direction |
+| Délai | Date impérative ou préférence ? | Mode, fenêtre, cut-off | Logistique |
+| Service inclus | Quel risque veut-on couvrir ? | Option, périmètre ou SLA | ADV / direction |
+| Pilote gratuit | Quel apprentissage et engagement ? | Périmètre réduit, cas client autorisé | Direction |
+| Prix fixe long | Quels indices et volumes ? | Période, clause et forecast | Finance / direction |
+
+> ✅ **CE QUI FONCTIONNE —** Le script mot à mot : « Je peux étudier une optimisation, mais pas retirer arbitrairement de la valeur. Quel levier pouvez-vous engager en contrepartie : volume prévisionnel, consolidation, fenêtre plus large, durée, paiement ou pilote mieux défini ? »
+
+> 🚫 **INTERDIT —** Cinq points **non négociables** : conformité et exactitude des données ; faisabilité, sécurité et assurance ; cut-offs et partage des responsabilités ; marge plancher et pouvoir de remise ; usage exact des allégations environnementales.
+
+> 💡 **BONNE PRATIQUE —** Clarifier la demande avant de concéder quoi que ce soit ; échanger un levier contre un engagement explicite (volume, délai, durée ou paiement) ; enregistrer concession, contrepartie, marge et approbateur.
+
+> 📌 **À RETENIR —** Les grilles 4.1 à 4.9 sont les tarifs officiels 2026 à communiquer tels quels (4.10 : outil interne, ne citer que les prix de vente) ; la grille VELA (4.12) n'est qu'une base de travail à faire valider par la direction avant tout envoi externe. En rendez-vous : ramener au prix par bouteille livrée, négocier le périmètre avant le prix, et ne jamais concéder sans contrepartie ni approbateur identifié.

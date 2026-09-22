@@ -6,6 +6,17 @@
 
 ## 16.1 Fiche réflexe comptoir (à plastifier pour les adhérents)
 
+**LES 4 DONNÉES À DEMANDER SYSTÉMATIQUEMENT** (version affichette — symboles géants, lisibles depuis le comptoir) :
+
+| Symbole | Donnée à collecter |
+|---|---|
+| **#** | Nombre de bouteilles (volume de la commande) |
+| **kg** | Poids et dimensions des colis |
+| **€** | Valeur des vins — base des taxes ET de l'assurance |
+| **→** | Adresse complète de livraison (sans PO Box) + date souhaitée |
+
+> **REPÈRE —** Sans ces 4 données, aucune simulation ni commande n'est possible. Tout le reste de la fiche en découle.
+
 **QUAND UN CLIENT VEUT SE FAIRE LIVRER :**
 
 1. ✅ **Simuler le prix** : Planet'Connect → Simulateur → destination + nb de bouteilles (afficher transport + estimation taxes DDP).
@@ -83,6 +94,27 @@ Next step : [action datée] — Probabilité : [%]
 
 *(Dossiers sources : « $DOCUMENTS PLANET AURA ADHERENT 2026 » → « DOCUMENT ADH 2026 (NOUVEAU CLIENT) » / « (CLIENT ACTIF AU 1/04) » / version Corse dédiée.)*
 
+### Zoom sur trois documents clés du kit
+
+**Order Form 2026** (bon de commande client final, en anglais) :
+- Adresse de livraison avec mention **« NO PO BOX accepted »** + adresse de facturation si différente.
+- Tableau de commande : description du vin, nombre de bouteilles, couleur, contenance (cl), % alc., valeur unitaire €, total.
+- Bloc de totaux : valeur des vins (HT), service de transport, option DDP (taxes et droits simulés), assurance perte & casse, **TOTAL des services Planet Aura payé par carte**.
+- Cases à cocher d'acceptation des conditions (le client déclare avoir lu et accepté les termes, la responsabilité hors périmètre transport, le droit de refuser une expédition).
+- Bloc paiement CB : numéro, expiration, code de sécurité, type de carte — mention en rouge **« No American Express please »**.
+
+**Manuel utilisateur adhérent 2026** — 9 sections, dans l'ordre : interlocuteurs, fonctionnement, cartonnage, procédure d'envoi, assurances & litiges, certificat Champagne, destinations spécifiques, spiritueux, stockage. C'est le document de référence de la formation caveau (chap. 12) : le commercial doit savoir y renvoyer l'adhérent section par section.
+
+**Mode d'emploi Planet'Connect** — manuel de 37 pages couvrant la prise en main complète de la plateforme (simulateur, commandes, suivi, factures, e-signature). À joindre systématiquement au pack de bienvenue.
+
+> ⚠️ **POINT DE VIGILANCE —** Le mandat SEPA contient les identifiants bancaires du magasin : il se remplit et se transmet via les canaux officiels uniquement, jamais recopié dans un email libre ni dans un support de vente.
+
+### Le flyer de prospection — chiffres clés affichés
+
+Le flyer remis en prospection (et la PLV « We ship worldwide ») met en avant trois chiffres : **500 adhérents**, **130 pays desservis**, **90 % export**.
+
+> ⚠️ **POINT DE VIGILANCE —** Cohérence des discours : la grille tarifaire couvre ~50 destinations, le flyer annonce 130 pays (recherche de solution possible au-delà de la grille). En RDV, présentez toujours les deux niveaux : « ~50 destinations tarifées immédiatement, jusqu'à 130 pays sur étude ».
+
 ## 16.7 Glossaire
 
 | Terme | Définition |
@@ -103,6 +135,20 @@ Next step : [action datée] — Probabilité : [%]
 | **Valeur déclarée** | Valeur des vins saisie à la commande — base des taxes ET de l'indemnisation |
 | **Départ différé** | Report d'expédition en période de canicule (l'altération thermique n'est pas assurée) |
 | **Tiers A/B/C** | Segmentation du portefeuille par potentiel annuel |
+
+### Termes de pilotage commercial (avec la décision qu'ils déclenchent)
+
+Un terme de pilotage ne sert que s'il déclenche une décision. D'où la troisième colonne.
+
+| Terme | Définition | Décision associée |
+|---|---|---|
+| **ICP** | Ideal Customer Profile — profil de client idéal | Où concentrer l'effort de prospection |
+| **MQL / SQL** | Lead qualifié par le marketing / par la vente | Quand changer de propriétaire du lead |
+| **SPIN** | Situation, Problème, Implication, Need-payoff (Rackham, 1988) | Comment diagnostiquer sans pitcher trop tôt |
+| **SLA** | Service Level Agreement — engagement de niveau de service | Quand agir et quand escalader |
+| **OTIF** | On Time In Full — livré complet et à l'heure | Comment mesurer la qualité d'exécution |
+| **MAP** | Mutual Action Plan — plan d'action mutuel (décision, responsable, livrable, échéance, dépendance) | Comment verrouiller le chemin vers la signature |
+| **PA-FIT** | Score de qualification d'un compte (adéquation avec l'offre Planet Aura) | Quels comptes prioriser, lesquels disqualifier |
 
 ## 16.8 FAQ express (réponses en une phrase)
 
@@ -135,8 +181,48 @@ Next step : [action datée] — Probabilité : [%]
 
 ---
 
-## 16.10 Mise à jour de ce playbook
+## 16.10 Hiérarchie de preuve : quel chiffre a le droit de sortir ?
+
+Avant de citer un chiffre en RDV, dans un email ou dans une proposition, identifiez son niveau de preuve. Un chiffre sans niveau identifié ne sort pas.
+
+| Niveau | Source | Usage autorisé |
+|---|---|---|
+| **1** | Contrat signé, CRM, finance, preuve opérationnelle | Opposable — utilisable en proposition et en engagement client |
+| **2** | Source publique primaire datée (FEVS, OIV, douanes…) | Argumentaire marché — toujours citer la source et l'année |
+| **3** | Livrable interne documenté (étude, plan, analyse) | Usage interne — à requalifier en niveau 1 ou 2 avant diffusion |
+| **4** | Hypothèse de travail | Toujours étiquetée comme telle — jamais présentée comme un fait |
+
+> ⚠️ **POINT DE VIGILANCE —** Le glissement classique : une hypothèse (niveau 4) répétée trois fois en réunion devient un « fait » dans un email client. C'est exactement ce que cette hiérarchie empêche.
+
+## 16.11 Sources et références du playbook
+
+Les chiffres de marché de ce playbook s'appuient sur les sources suivantes (à citer avec l'année lorsque vous les réutilisez) :
+
+| Source | Ce qu'on y trouve |
+|---|---|
+| FEVS | Communiqué exportations vins & spiritueux 2024 |
+| OIV | Bilan mondial de la vigne et du vin 2024 |
+| Vin & Société | Chiffres clés de la filière |
+| Le Monde | Droits de douane américains de 15 % sur les vins européens (2025) |
+| XERFI | Étude du freight forwarding en France |
+| Silicon Valley Bank / IWSR | État du marché du vin 2025-2026 |
+| CNIL | Règles de prospection B2B (emails, téléphone) |
+| Viticolis, Vinotrans, Dartess, Eureka Logistique | Veille concurrentielle logistique vins |
+| VELA, TOWT, Grain de Sail | Transport maritime à la voile (veille décarbonation) |
+
+> **REPÈRE —** Les chiffres de ce playbook sont arrêtés à la date d'édition. FEVS et OIV publient chaque année : vérifier leurs dernières publications avant toute diffusion externe d'un chiffre de marché.
+
+## 16.12 Gouvernance et mise à jour de ce playbook
 
 - **Propriétaire** : direction commerciale.
-- **Cycle** : revue trimestrielle (retro) + refonte annuelle à la publication de la documentation N+1 (grilles, CGS, destinations).
+- **Cycle** : revue trimestrielle (retro) + refonte annuelle à la publication de la documentation N+1 (grilles, CGS, destinations) — et mise à jour immédiate après tout changement majeur (grille, réglementation, destination).
 - **Contributions** : tout commercial peut proposer une modification (nouvelle objection rencontrée, verbatim gagnant, veille concurrence) — la vérité du terrain fait le playbook.
+- **Diffusion** : document strictement interne. On ne transfère jamais le playbook intégral à un prospect, un client ou un partenaire — seuls les supports approuvés sortent : brochure/flyer, devis, CGS, grilles tarifaires, cas client autorisé, FAQ.
+
+> 🚫 **INTERDIT —** Ne jamais partager à l'extérieur, sous aucune forme : coûts d'achat, marges, concentration du CA, données CRM, clauses des contrats partenaires.
+
+> ⚠️ **POINT DE VIGILANCE —** Toute promesse hors standard — délai garanti, engagement de température, exclusivité, remise, allégation carbone — requiert une **validation écrite de la direction** avant d'être formulée au client.
+
+---
+
+> 📌 **À RETENIR —** Ce chapitre est votre boîte à outils de 30 secondes : la fiche réflexe et ses 4 données (# / kg / € / →) pour le comptoir, les checklists pour ne rien oublier, le glossaire pour parler juste, la hiérarchie de preuve pour ne diffuser que des chiffres sourcés — et une règle d'or : le playbook reste interne, seuls les supports approuvés sortent.
