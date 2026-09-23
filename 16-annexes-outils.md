@@ -70,7 +70,26 @@ ROI évoqué : [calcul] — Objections : [lesquelles + traitement]
 Next step : [action datée] — Probabilité : [%]
 ```
 
-## 16.5 Trames email prêtes (rappel des chapitres)
+## 16.5 Quel support dégainer face à quelle problématique
+
+La règle : **une problématique exprimée → un support montré**. Inventaire des ressources existantes (et de celles à créer, signalées) :
+
+| Problématique du prospect | Support à dégainer | Où |
+|---|---|---|
+| « Je perds des ventes au caveau avec les étrangers » | Simulateur en direct sur SES vins + chiffre œnotourisme sourcé (207 €/visite) | Planet'Connect · S04-S05 |
+| « Est-ce que ça marche vraiment ? » | Avis Google en direct (≈ 300 avis, 4,8-5/5) + verbatims multilingues | Chap. 11.2 · téléphone du prospect |
+| « Les USA, c'est trop compliqué » | Carte des États + déroulé 10 étapes + cas Texas 24 bouteilles | Chap. 03/14 · cas 11.4 |
+| « Et si ça casse ? » | Carton ISTA 3A en main + procédure 48 h + cas « casse bien gérée » | Objet physique · chap. 13 · cas 11.4 |
+| « Combien ça coûte ? » | Grille officielle FR/EN imprimée + exemples de paniers chiffrés | Annexes 17.9 · chap. 4.11 |
+| « Comment mes clients paient ? » | Order Form officiel vierge | Annexe 17.11 |
+| « J'ai un e-shop » | Boutique Terre de Mistral en démo + table des connexions API | Chap. 3.13 |
+| « On est engagés en RSE » | Option VELA (dans les règles 3.8) + 51 % vérifient une certification (S06) | Chap. 3.8 · S06/S09 |
+| Premier contact froid | Flyer tri-volet + PLV « We ship worldwide » | Annexe 17.8 · kit A17 |
+| **À créer** (roadmap) | Vidéo démo Planet'Connect · one-pager par ICP · 2-3 études de cas chiffrées autorisées (A18) | Chantiers M1-M2 (chap. 15.11) |
+
+Pages publiques du site utilisables en rendez-vous : planet-aura.com (accueil + avis), /nos-services, /expeditions-grand-export, /simulateur-de-couts, /faq — à ouvrir en direct plutôt qu'à imprimer.
+
+### Trames email prêtes (rappel des chapitres)
 
 - Cold FR domaine / Champagne / EN caviste → chap. 8.2-8.4
 - Post-RDV proposition → chap. 7.5

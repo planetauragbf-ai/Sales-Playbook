@@ -398,4 +398,31 @@ Contrôles automatiques à paramétrer dans le CRM : aucune clôture « Gagnée 
 
 ---
 
+## 7.16 La semaine type du commercial (tâches récurrentes consolidées)
+
+Tout ce que le playbook demande, ramené à une seule page. Les volumes renvoient aux cibles du chap. 15.3 ; les rituels au chap. 15.7 ; l'hygiène CRM au chap. 7.15.
+
+**Chaque jour (60-90 min de socle) :**
+
+| Moment | Tâche | Règle |
+|---|---|---|
+| Matin (10') | Rituel « signaux chauds » : inbound, réponses, alertes comptes | Réponse ou tâche datée — inbound rappelé < 24 h |
+| Matin (bloc 1-2 h) | Prospection : appels + emails de la cadence en cours | Les créneaux 10 h-12 h sont sanctuarisés pour le téléphone |
+| Après-midi | RDV démo / visites terrain / propositions | Proposition envoyée < 24 h après le RDV |
+| Fin de journée (15') | CRM : chaque touche loggée, chaque opportunité avec prochaine action datée | Un deal sans next step est un deal mort |
+
+**Chaque semaine :**
+
+- Lundi : contrôle d'hygiène du pipeline (% d'opportunités complètes ≥ 95 %, dédoublonnage) + préparation des cibles de la semaine.
+- Rituel pipeline (45') avec la direction ; rituel commerce-opérations (30') avec l'ADV/logistique.
+- Volumes cibles hors saison : ~25 appels aboutis, ~25 emails personnalisés, 4-6 RDV démo, 2 visites adhérents, 3 demandes de recommandation (chap. 15.3 ; en saison, bascule sur 4-5 visites et le support caveau).
+
+**Chaque mois / saison :**
+
+- Revue de comptes tiers A + comptes rouges ; revue funnel & KPIs ; voix du client.
+- Formations caveau : 2-3 sur mai-juin (préparation dès avril : supports, kits, créneaux) ; hors saison, 1 créneau hebdo réservé à la préparation ou re-formation à la demande.
+- Campagne du mois (chap. 8.10) : renouvellement (févr.-avril), « prêts pour la saison », storage d'été, Noël USA (avant mi-novembre).
+
+> **REPÈRE —** La semaine type n'est pas un emploi du temps imposé : c'est le contrat minimal d'activité. Ce qui se négocie, c'est l'ordre des blocs — jamais leur existence.
+
 > 📌 **À RETENIR —** Le pipeline n'avance qu'à la preuve : chaque étape a un critère de sortie, un SLA et une trace CRM. On trie avec CAVE, on chiffre la priorité avec PA-FIT, on diagnostique avec SPIN avant de démontrer, on propose au maximum 3 options avec un plan d'action mutuel, on négocie le périmètre avant le prix — et la vente n'est finie qu'au premier envoi réel, transmis à l'exploitation avec un dossier prêt complet.

@@ -23,7 +23,7 @@ Chaque source ci-dessous a été vérifiée en ligne (septembre 2026). En rendez
 | S10 | **CIVC** — Comité Champagne | Certificat d'origine obligatoire hors UE ; demande : certificat.origine-ext@civc.fr — 03 26 51 19 30 | comitechampagne.fr |
 | S11 | **Douane française** — accises & CRD | Références EMCS/DA, capsules représentatives de droits, circulation des produits soumis à accises | douane.gouv.fr |
 | S12 | **La Poste Pro** — « Expédier du vin aux États-Unis » | Page qui documente publiquement les restrictions des solutions postales — utile face à l'objection « La Poste est moins chère » (O-3) | laposte.fr/professionnel/expedier/expedier-vin-etats-unis |
-| S13 | **Google / planet-aura.com** — avis clients | **5/5 sur Google, 291 avis** (relevé sept. 2026) ; verbatims multilingues publics (FR/EN/FI/NL) repris au chap. 11.2 — la preuve à montrer en direct sur le téléphone du prospect | planet-aura.com (bloc avis Google) |
+| S13 | **Google / planet-aura.com** — avis clients | **≈ 300 avis Google — fiche Google : 4,8/5 (296 avis) ; widget site : 5/5 (291 avis)** (relevés sept. 2026) ; verbatims multilingues publics (FR/EN/FI/NL) repris au chap. 11.2 — la preuve à montrer en direct sur le téléphone du prospect | planet-aura.com (bloc avis Google) |
 
 > **REPÈRE —** Règle de citation : un chiffre sans source, millésime et périmètre n'entre ni dans un support, ni dans un rendez-vous. En cas de conflit entre deux sources, la plus récente et la plus officielle gagne — et on le note ici.
 
@@ -160,5 +160,45 @@ Le mandat de prélèvement SEPA (2 pages) pour les points de vente payeurs.
 > 🚫 **INTERDIT —** Le mandat SEPA **rempli** contient les coordonnées bancaires du magasin : transmission par les canaux officiels uniquement, jamais de copie dans un support de vente ni par messagerie non sécurisée. Seul le formulaire **vierge** figure ici.
 
 ---
+
+## 17.13 Couverture du brief éditorial (audit de septembre 2026)
+
+Le playbook a été audité question par question contre le brief de rédaction (checklist « avant de débuter » + les 10 axes). Verdicts :
+
+| Question du brief | Verdict | Où c'est traité |
+|---|---|---|
+| Éléments à connaître (entreprise, statut, offre, tarifs, réglementation) | Couvert | Chap. 01, 03, 04, 14 |
+| Tâches à opérer / semaine type | Couvert | **Chap. 7.16 (nouveau)** + 15.3, 15.7 |
+| Avantages ET caractéristiques reliés aux besoins | Couvert | Chap. 03, 06, 05 (jobs/pains/gains) |
+| Preuves à montrer | Couvert | Chap. 11 (dont avis Google 11.2), 17 |
+| Image de l'entreprise (telle qu'elle est) | Couvert | Chap. 1.10, 6.10-6.11 |
+| Culture d'entreprise | Couvert | Chap. 1.1, 1.2, 1.10 |
+| Cibles : ICP depuis les 10 meilleurs clients + priorisation P1/P2 | Couvert | Chap. 5.1-5.3, 11.3 |
+| Buyer personas (psychologie, canaux, objectifs, frustrations, objections) | Couvert | Chap. 5.4+ |
+| Problématiques des cibles → solutions | Couvert | Chap. 05, 06 + **table 16.5 (nouveau)** |
+| Prospection : qui, comment, message, **outils** | Couvert | Chap. 08 + **8.13 stack & sources (nouveau)** |
+| Rendez-vous : étapes, attentes du R1, critères de réussite | Couvert | Chap. 7.4 + trame R1 |
+| Qualification : critères d'investissement | Couvert | CAVE (7.3) + score PA-FIT |
+| Développement de solution : suivi, parcours d'achat, MAP | Couvert | Chap. 7.5+ (proposition, options, MAP, négociation) |
+| Processus étape par étape + durée du cycle + SPIN | Couvert | Chap. 7 (pipeline, durées 7.13, SPIN) |
+| Ressources marketing reliées aux problématiques | Couvert | **16.5 (nouveau)** + 11, 17 — vidéos/one-pagers : à créer (roadmap) |
+| Sales Operations (onboarding, CRM, automation, BI, CLM) | Couvert | Chap. 12.8, 7.15 + **15.12 stack (nouveau)** |
+| KPIs + méthode de suivi | Couvert | Chap. 15 (formules, rituels, RACI, dashboard) |
+| Start with why, SWOT, positionnement, organigramme | Couvert | Chap. 6 (Golden Circle), 1.11 (SWOT), 10 (mapping), 1.5 |
+| Conclusion (démarche, valeur, difficultés, ouverture) + sources citées | Couvert | **17.14 (nouveau)** + système S01-S13 |
+
+## 17.14 Conclusion & ouverture
+
+**La démarche.** Ce playbook a été construit en croisant trois matières : la documentation officielle 2026 de Planet Aura (CGS, grilles, manuel, formulaires — reproduites en annexes), les travaux internes existants (les deux playbooks maquettés, dont le mémoire d'Emma, analysés page par page), et des sources externes vérifiées une à une (S01-S13). Chaque chiffre porte sa source et son millésime ; chaque divergence entre supports est signalée « à revalider » plutôt que tranchée arbitrairement.
+
+**Sa valeur ajoutée.** Une seule référence, au lieu de savoirs dispersés : le nouveau commercial y trouve son plan 30-60-90, l'équipe ses scripts, ses grilles, ses preuves et ses garde-fous — et la direction un langage commun (définitions de KPIs, règles de promesse, doctrine des chiffres). Le document est régénérable d'une commande (dossier build/), donc maintenable à chaque évolution de grille ou d'offre.
+
+**Les difficultés rencontrées — et comment elles ont été traitées.**
+
+- **Chiffres divergents entre supports** (CA, effectif, volume de bouteilles, adresse, note Google) → doctrine : les deux valeurs citées, un POINT DE VIGILANCE, la mention « à revalider » avant tout usage externe.
+- **Périmètres mouvants** (filiale US, VELA, entrepôt sous douane) → statuts explicites (« en développement », « dossier en instruction ») et règles de vente associées (ce qu'on dit / ce qu'on ne dit jamais).
+- **Annexes incomplètes** → catalogue A1-A18 avec statuts, qui transforme les manques en liste de collecte plutôt qu'en zones d'ombre.
+
+**L'ouverture.** Les chantiers qui prolongeront ce document : la commercialisation encadrée de **VELA** (2027) et des **offres USA all-inclusive sur mesure**, l'extension **spiritueux**, le dossier **entrepôt sous douane / entrepositaire agréé**, les ressources à créer (vidéo démo, one-pagers ICP, études de cas A18), la **matrice de compétences** pour la formation continue, et les dashboards HubSpot de la roadmap M2. À chaque jalon atteint, une ligne change dans ce playbook — c'est le rituel trimestriel qui l'y inscrit.
 
 > 📌 **À RETENIR —** Ce chapitre est vivant : chaque document À FOURNIR transmis (manuel utilisateur, POA, certificat CIVC, mode d'emploi Planet'Connect, exports de mails, kit PLV, études de cas) est intégré à l'édition suivante. Un playbook dont les annexes sont complètes fait gagner un rendez-vous : tout se montre séance tenante.

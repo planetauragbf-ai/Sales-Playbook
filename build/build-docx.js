@@ -189,13 +189,14 @@ function convertFile(md, fileName) {
   let i = 0;
 
   const tryPlace = (headingText) => {
-    for (let k = 0; k < placements.length; k++) {
+    const out2 = [];
+    for (let k = 0; k < placements.length; ) {
       if (new RegExp(placements[k].after, 'i').test(headingText)) {
         const p = placements.splice(k, 1)[0];
-        return figure(p.img, p.w, p.caption);
-      }
+        out2.push(...figure(p.img, p.w, p.caption));
+      } else k++;
     }
-    return [];
+    return out2;
   };
 
   while (i < lines.length) {

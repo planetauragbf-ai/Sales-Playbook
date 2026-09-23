@@ -262,4 +262,27 @@ Chaque grande évolution du marché se traduit par un argument et une question �
 
 ---
 
+## 8.13 La stack et les sources de prospection
+
+**Les outils (qui fait quoi) :**
+
+| Outil | Rôle | Règle d'usage |
+|---|---|---|
+| **HubSpot** (CRM) | Système de vérité : comptes, contacts, deals, consentements | Tout contact loggé < 24 h ; aucune liste hors CRM |
+| **Brevo** | Séquences email + campagnes réseau | Modèles validés uniquement ; désinscription systématique (chap. 14.8) |
+| **Planet'Connect** | Simulateur en démo, compte de démonstration | La démo se fait toujours sur les vins du prospect |
+| **LinkedIn** | Social selling (chap. 8.6) : connexion + message 2 | Compte personnel soigné ; Sales Navigator selon dotation (à confirmer avec la direction) |
+| **Téléphone / WhatsApp Business** | Canal principal des cadences + relation adhérents | Appel loggé dans HubSpot (objet, verbatim utile, next step) |
+| Google Workspace (Drive/Docs/Sheets, Meet) | Supports partagés, visio, dossiers de renouvellement | Documents officiels : uniquement depuis le Drive de référence |
+
+**Où trouver les comptes (constitution des listes) :**
+
+1. **Le terrain et la carte** : Google Maps par appellation (domaines avec caveau, notes élevées, avis en anglais = clientèle étrangère), tournées géographiques (chap. 7.2).
+2. **Les annuaires filière** : Vignerons Indépendants (adhérents par région), interprofessions (CIVC, CIVP, Inter Rhône…), labels Vignobles & Découvertes, listes exposants des salons.
+3. **Les registres d'entreprises** : Pappers / societe.com pour qualifier (forme juridique, dirigeants, santé financière) avant un rendez-vous P1.
+4. **Les signaux numériques** : e-shops sans option de livraison internationale, avis TripAdvisor/Google mentionnant des touristes étrangers, offres d'emploi saisonnières caveau (chap. 5.4).
+5. **Le réseau** : recommandations d'adhérents (à demander à chaque premier envoi réussi), prescripteurs œnotourisme.
+
+> **REPÈRE —** L'ICP (chap. 5) dit QUI chercher ; cette page dit OÙ et AVEC QUOI. Une liste qui n'est pas dans HubSpot n'existe pas — et un compte non qualifié (PA-FIT, chap. 7) ne monte pas en cadence.
+
 > 📌 **À RETENIR —** Le prospect n'achète pas un transport : il cherche à réduire son risque. Plus vous démontrez que vous comprenez son marché — signaux d'achat repérés, questions de découverte, cadence personnalisée qui s'arrête dès la première réponse — plus votre proposition devient évidente.

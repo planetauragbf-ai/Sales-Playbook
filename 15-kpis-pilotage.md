@@ -180,4 +180,18 @@ Le pilotage se traduit en plan d'action daté, budgété et conditionné : chaqu
 | 3-12 mois | Industrialiser séquences et cas clients ; pilote VELA seulement après validations |
 | 12-36 mois | Comptes récurrents, partenaires internationaux, automatisation rentable |
 
+## 15.12 La stack Sales Ops (vue d'ensemble)
+
+| Domaine | Outil / dispositif | Usage & propriétaire |
+|---|---|---|
+| CRM | **HubSpot** | Système de vérité (comptes, deals, consentements) — dictionnaire de données et score d'hygiène au chap. 7.15 |
+| Marketing automation | **Brevo** | Séquences et campagnes (3 séquences socle en roadmap M1-M2) ; scénarios de nurturing à enrichir |
+| Plateforme métier | **Planet'Connect** (+ API) | Commandes, suivi, factures, e-signature, mails automatiques (~30 modèles) — modifications via Emma |
+| Collaboration | **Google Workspace** (Drive, Docs/Sheets, Gmail, Meet) + WhatsApp Business | Drive = source unique des documents officiels (dossiers adhérents 2026) ; visio et messagerie |
+| Reporting / BI | Dashboards HubSpot + tableau de bord mensuel une page (15.10) | Revue mensuelle de performance ; reporting HubSpot renforcé en roadmap M2 |
+| Cycle de contrat (CLM) | Signature électronique Planet'Connect + archivage Drive | Documentation annuelle re-signée chaque année (mars-avril) ; avenants et résiliations : traités par la direction, à formaliser |
+| Onboarding & formation | Plan 30-60-90 (chap. 12.8) + rituel playbook trimestriel | Le playbook EST le support de formation ; matrice de compétences à construire (proposition en ouverture, 17.14) |
+
+> ⚠️ **POINT DE VIGILANCE —** Les éléments notés « à confirmer / à construire » (licences Sales Navigator, dashboards avancés, matrice de compétences, process avenants) sont des chantiers Sales Ops, pas des acquis : ne pas les présenter comme existants.
+
 > 📌 **À RETENIR —** Un KPI n'est utile que s'il a une formule partagée, une fréquence de lecture et une décision associée. On mesure d'abord 90 jours sans maquiller (baseline), puis on fixe les cibles par segment. Chaque rituel produit une sortie obligatoire, chaque décision a un responsable (RACI), et chaque chiffre présenté passe le test d'arithmétique. La feuille de route apprend vite avec 3 000 € maximum : pas de critère de passage atteint, pas d'étape suivante.

@@ -32,3 +32,11 @@ module.exports['17-annexes-documentaires.md'] = [
   { after: '^17\\.7 Annexe A13', img: 'pics/mails_auto2.png', w: 380, caption: 'Aperçu de la bibliothèque de mails automatiques Planet’Connect' },
   { after: '^17\\.8 Annexe A14', img: 'pics/flyer1.png', w: 440, caption: 'Flyer de prospection — face extérieure' },
 ];
+
+// Documents officiels intégraux (chapitre 17.9-17.12)
+const annexPages = [];
+for (let i = 1; i <= 5; i++) annexPages.push({ after: '^17\\.9 Annexe A2', img: `annexes/grille_ship-${i}.png`, w: 470, caption: i === 5 ? 'Grille tarifaire shipping 2026 — document officiel (5 pages)' : '' });
+for (let i = 1; i <= 3; i++) annexPages.push({ after: '^17\\.10 Annexe A4', img: `annexes/grille_stock-${i}.png`, w: 470, caption: i === 3 ? 'Grille tarifaire stockage & picking 2026 — document officiel (3 pages)' : '' });
+annexPages.push({ after: '^17\\.11 Annexe A6', img: 'annexes/orderform-1.png', w: 470, caption: 'Order Form 2026 — formulaire officiel vierge' });
+for (let i = 1; i <= 2; i++) annexPages.push({ after: '^17\\.12 Annexe A7', img: `annexes/sepa-${i}.png`, w: 470, caption: i === 2 ? 'Formulaire de mandat SEPA — document officiel (2 pages)' : '' });
+module.exports['17-annexes-documentaires.md'].push(...annexPages);

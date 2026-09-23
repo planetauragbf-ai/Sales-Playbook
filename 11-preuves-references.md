@@ -21,9 +21,11 @@ Notre réseau couvre **toutes les typologies de la cible**, dans toutes les rég
 
 **L'effet réseau à vendre** : « Quand un domaine voisin du vôtre expédie déjà avec nous, son bouche-à-oreille est notre meilleure publicité — demandez-lui. »
 
-## 11.2 La note publique : 5/5 sur Google — 291 avis
+## 11.2 La note publique Google : près de 300 avis, entre 4,8 et 5/5
 
-Planet Aura affiche **5/5 sur Google avec 291 avis** (relevé sur planet-aura.com, septembre 2026). C'est la preuve la plus rapide à montrer : elle est publique, vérifiable en direct sur le téléphone du prospect, et elle vient des **clients finaux** — précisément ceux que l'adhérent nous confie.
+Planet Aura affiche **près de 300 avis Google** : la fiche Google indique **4,8/5 (296 avis)** et le widget du site planet-aura.com **5/5 (291 avis)** — relevés de septembre 2026. C'est la preuve la plus rapide à montrer : publique, vérifiable en direct sur le téléphone du prospect, et venant des **clients finaux** — précisément ceux que l'adhérent nous confie.
+
+> ⚠️ **POINT DE VIGILANCE —** Les deux compteurs vivent : avant de citer un chiffre précis, ouvrir la fiche Google en direct. Formulation toujours juste : « près de 300 avis, note entre 4,8 et 5 ».
 
 **Verbatims réels à citer** (affichés publiquement, avec nom d'auteur) :
 
@@ -38,7 +40,7 @@ Planet Aura affiche **5/5 sur Google avec 291 avis** (relevé sur planet-aura.co
 | Sofia Salmi | « Viinit tuli sovitusti ja nopeasti perille. » *(« Les vins sont arrivés comme convenu et rapidement », finnois)* | Une clientèle finale réellement internationale |
 | Stepan Lianozov | « Great service !!! Got all the bottles and a gift ! Amazing. » | L'enthousiasme spontané, jusqu'au petit geste |
 
-**Usage en rendez-vous** : ouvrir Google devant le prospect (« ne me croyez pas sur parole — lisez ce que disent les clients de nos adhérents »), glisser la note 5/5 · 291 avis dans chaque proposition commerciale et sur la PLV comptoir. *(Source : S13, chap. 17.1.)*
+**Usage en rendez-vous** : ouvrir Google devant le prospect (« ne me croyez pas sur parole — lisez ce que disent les clients de nos adhérents »), glisser la note Google (≈ 300 avis, 4,8-5/5) dans chaque proposition commerciale et sur la PLV comptoir. *(Source : S13, chap. 17.1.)*
 
 > ✅ **CE QUI FONCTIONNE —** L'avis en langue étrangère (finnois, néerlandais, anglais) est un argument à part entière : il prouve au domaine que ses visiteurs étrangers seront pris en charge dans leur langue, jusqu'au bout.
 
