@@ -46,3 +46,18 @@ module.exports['17-annexes-documentaires.md'].push(
   { after: '^17\\.13 Annexe A9', img: 'annexes/pconnect_sommaire-02.png', w: 430, caption: 'Mode d’emploi Planet’Connect — couverture et sommaire (37 pages)' },
   { after: '^17\\.14 Annexe A8', img: 'annexes/shipform-1.png', w: 340, caption: 'Formulaire de shipping par email — onglet FORMULAIRE (modèle officiel 2026)' }
 );
+// Captures réelles Planet'Connect (mode d'emploi officiel)
+module.exports['12-onboarding-retention.md'].push(
+  { after: '^12\\.9 Prise en main', img: 'pics/pc_login.png', w: 430, caption: 'L’écran de connexion Planet’Connect (app.planet-aura.com)' }
+);
+module.exports['03-offres-services.md'].push(
+  { after: 'Créer un shipping : les 6 champs', img: 'pics/pc_edition.png', w: 470, caption: 'Édition d’un shipping dans Planet’Connect (capture réelle)' },
+  { after: 'Les statuts de suivi', img: 'pics/pc_shippings.png', w: 470, caption: 'La liste « Vos shippings » et leurs statuts (capture réelle)' }
+);
+module.exports['04-tarifs.md'].push(
+  { after: '^4\\.11 Exemples de paniers', img: 'pics/pc_sim_usa.png', w: 440, caption: 'Simulation réelle États-Unis dans Planet’Connect : transport, assurance, taxes DDP' }
+);
+module.exports['07-processus-vente.md'] = module.exports['07-processus-vente.md'] || [];
+module.exports['07-processus-vente.md'].push(
+  { after: 'handoff commercial', img: 'pics/pc_enlevements.png', w: 440, caption: 'Les lieux d’enlèvement de l’adhérent, gérés dans Planet’Connect' }
+);
