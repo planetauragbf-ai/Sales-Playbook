@@ -309,6 +309,23 @@ Les modèles sont gérés dans Planet'Connect (onglet Communication > Modèles).
 
 > ⚠️ **POINT DE VIGILANCE —** Les identifiants API sont **confidentiels** : à ne partager qu'avec un développeur habilité, jamais en clair par e-mail.
 
+### La feuille de route produit — ce qui arrive sur Planet'Connect
+
+La plateforme évolue en continu. Projets en cours de développement, à connaître pour projeter le prospect (et savoir répondre « c'est prévu ») :
+
+| Projet | Ce que ça changera | Pour qui |
+|---|---|---|
+| **Chat en ligne à deux niveaux** | Un assistant **IA** pour les réponses immédiates (tarifs, statuts, procédures) + un chat avec un **humain derrière** pour les cas complexes — directement dans Planet'Connect | Adhérents & clients finaux |
+| **Ticketing de gestion des sinistres** | Chaque sinistre devient un **ticket suivi** (dépôt des photos, statut du recours, échanges horodatés) au lieu du circuit email — traçabilité totale du signalement à l'indemnisation | Adhérents & exploitation |
+| **Plugins e-commerce clé en main** | Extensions **WordPress / WooCommerce, Shopify**… : l'API sans développeur — l'adhérent installe le plugin et sa boutique affiche frais de port et suivi Planet Aura | E-commerçants, domaines digitalisés |
+| **CRM poussé intégré** *(en cours)* | Gestion de la relation client de l'adhérent directement dans Planet'Connect : historique clients finaux, relances, réachat | Adhérents |
+| **Dashboards de suivi (côté admin)** | Tableaux de bord intégrés à Planet'Connect, connectés en **API à Ship24** : vision temps réel de tous les flux, tous transporteurs confondus | Exploitation & direction |
+| **Page de suivi personnalisée Planet Aura** | Page de tracking aux couleurs Planet Aura (API **Ship24**) : le client final suit son colis sur NOTRE page, quelle que soit la chaîne de transporteurs — fin des liens UPS/FedEx éclatés | Clients finaux & adhérents |
+
+**Comment en parler en rendez-vous** : « La plateforme que vous voyez aujourd'hui s'enrichit chaque année — chat intégré, plugins e-commerce prêts à installer, suivi unifié : vous adhérez à un outil qui grandit. »
+
+> ⚠️ **POINT DE VIGILANCE —** Ces projets sont **en développement** : ni date ferme, ni démonstration, ni engagement contractuel tant qu'ils ne sont pas livrés. On les cite comme trajectoire (« c'est en cours de développement »), jamais comme acquis — et tout prospect dont la signature dépendrait d'une de ces briques est remonté à la direction.
+
 ## 3.14 Modes de paiement
 
 | Payeur | Moyens |

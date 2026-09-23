@@ -33,6 +33,8 @@ Signalement (≤48 h, photos) → Ouverture dossier S_xxxx → Analyse PA
 - Les recours transporteurs et assurance sont **notre travail**, jamais celui de l'adhérent ni du client final.
 - Les délais de recours transporteurs sont courts (ex. réclamations sous 30 jours chez certains transporteurs) : d'où l'importance vitale du signalement sous 48 h.
 
+> **REPÈRE —** À venir : un **ticketing de gestion des sinistres** intégré à Planet'Connect est en développement (chap. 3.13) — chaque dossier deviendra un ticket suivi en ligne (photos, statuts, échanges). En attendant sa livraison, le circuit reste : signalement sous 48 h par email avec photos à contact@planet-aura.com.
+
 ## 13.4 Ce que le commercial DIT à l'adhérent lors d'un incident
 
 **Dans l'heure :**

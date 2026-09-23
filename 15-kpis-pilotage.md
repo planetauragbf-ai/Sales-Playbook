@@ -188,6 +188,7 @@ Le pilotage se traduit en plan d'action daté, budgété et conditionné : chaqu
 | Marketing automation | **Brevo** | Séquences et campagnes (3 séquences socle en roadmap M1-M2) ; scénarios de nurturing à enrichir |
 | Plateforme métier | **Planet'Connect** (+ API) | Commandes, suivi, factures, e-signature, mails automatiques (~30 modèles) — modifications via Emma |
 | Gestion des stocks | **Planet'Stock** (nouveau, en déploiement) | Suivi des stocks entrepôt liés à l'offre stockage & picking (chap. 3.9) — périmètre à confirmer |
+| Roadmap plateforme (en développement) | Chat IA + chat humain, ticketing sinistres, plugins WordPress/WooCommerce/Shopify, **CRM intégré**, dashboards admin + page de suivi personnalisée (API **Ship24**) | Feuille de route produit Planet'Connect (chap. 3.13) — à citer comme trajectoire, jamais comme acquis |
 | Collaboration | **Google Workspace** (Drive, Docs/Sheets, Gmail, Meet) + WhatsApp Business | Drive = source unique des documents officiels (dossiers adhérents 2026) ; visio et messagerie |
 | Reporting / BI | Dashboards HubSpot + tableau de bord mensuel une page (15.10) | Revue mensuelle de performance ; reporting HubSpot renforcé en roadmap M2 |
 | Cycle de contrat (CLM) | Signature électronique Planet'Connect + archivage Drive | Documentation annuelle re-signée chaque année (mars-avril) ; avenants et résiliations : traités par la direction, à formaliser |
