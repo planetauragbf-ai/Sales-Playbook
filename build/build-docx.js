@@ -43,6 +43,26 @@ const CHAPTER_ICONS = {
 // (ajusté après la synthèse du workflow d'analyse)
 const IMAGE_PLACEMENTS = require('./image-placements.js');
 
+// Schémas "codés" : un bloc ``` dont le contenu matche `match` est remplacé par l'image
+const DIAGRAMS = [
+  { match: /Cibler.*Diagnostiquer/s, img: 'diagrams/d00_loop.png', w: 500 },
+  { match: /LE POINT DE VENTE \(adhérent\)/, img: 'diagrams/d01_triangle.png', w: 520 },
+  { match: /2019 ─+ 2023/, img: 'diagrams/d01_timeline.png', w: 520 },
+  { match: /Flux prévisible.*sailing/s, img: 'diagrams/d03_vela.png', w: 500 },
+  { match: /PICK-UP → FIRST MILES/, img: 'diagrams/d03_status.png', w: 480 },
+  { match: /P1\s+\| Maison premium/, img: 'diagrams/d05_segments.png', w: 500 },
+  { match: /Économie ──► Exécution/, img: 'diagrams/d05_comite.png', w: 500 },
+  { match: /FLUX CLIENT & DÉCISION/, img: 'diagrams/d08_influence.png', w: 400 },
+  { match: /Prospect ──► Adhérent/, img: 'diagrams/d05_cycle.png', w: 360 },
+  { match: /PLANET AURA.*NOTRE CLIENT PRO/s, img: 'diagrams/d06_b2b2c.png', w: 520 },
+  { match: /1\. LEAD → 2\. QUALIFIÉ/, img: 'diagrams/d07_pipeline.png', w: 520 },
+  { match: /300 comptes ciblés/, img: 'diagrams/d07_funnel.png', w: 400 },
+  { match: /GÉNÉRALISTE\s+SPÉCIALISTE VIN/, img: 'diagrams/d10_mapping.png', w: 500 },
+  { match: /Signalement \(≤48 h/, img: 'diagrams/d13_sinistre.png', w: 520 },
+  { match: /SOURCES\s+──►\s+HUBSPOT/, img: 'diagrams/d14_data.png', w: 440 },
+  { match: /Leads → Qualifiés → RDV tenus/, img: 'diagrams/d15_funnel.png', w: 520 },
+];
+
 function img(name, wPx, hPx) {
   const p = path.join(A, name);
   const data = fs.readFileSync(p);
@@ -166,6 +186,12 @@ function convertFile(md, fileName) {
       const code = [];
       while (i < lines.length && !/^```/.test(lines[i])) { code.push(lines[i]); i++; }
       i++;
+      const blockText = code.join('\n');
+      const diag = DIAGRAMS.find(d => d.match.test(blockText));
+      if (diag) {
+        out.push(...figure(diag.img, diag.w, diag.caption || ''));
+        continue;
+      }
       code.forEach(c => out.push(new Paragraph({
         shading: { type: ShadingType.CLEAR, fill: 'F0F4F6' },
         spacing: { before: 0, after: 0 },
@@ -328,13 +354,13 @@ const titlePage = [
   }),
   new Paragraph({
     alignment: AlignmentType.CENTER, spacing: { before: 320 },
-    children: [new TextRun({ text: '2026   ·   VERSION 2.0   ·   CONFIDENTIEL — DOCUMENT INTERNE', bold: true, size: 20, color: NAVY })]
+    children: [new TextRun({ text: 'ÉDITION 2026   ·   RÉSERVÉ À L’ÉQUIPE COMMERCIALE PLANET AURA   ·   CONFIDENTIEL', bold: true, size: 20, color: NAVY })]
   }),
   new Paragraph({
     alignment: AlignmentType.CENTER, spacing: { before: 80 },
     children: [new TextRun({ text: 'SARL Planet Aura — 5 Impasse François Arago, 81100 Castres — www.planet-aura.com', size: 17, color: GRAY })]
   }),
-  new Paragraph({ alignment: AlignmentType.CENTER, spacing: { before: 300 }, children: [imgAuto('pics/illus_iso.png', 620)] }),
+  new Paragraph({ alignment: AlignmentType.CENTER, spacing: { before: 260 }, children: [imgAuto('pics/photo_cover.png', 205)] }),
 ];
 
 // ---------- pages d'ouverture de partie ----------
