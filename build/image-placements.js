@@ -40,3 +40,9 @@ for (let i = 1; i <= 3; i++) annexPages.push({ after: '^17\\.10 Annexe A4', img:
 annexPages.push({ after: '^17\\.11 Annexe A6', img: 'annexes/orderform-1.png', w: 470, caption: 'Order Form 2026 — formulaire officiel vierge' });
 for (let i = 1; i <= 2; i++) annexPages.push({ after: '^17\\.12 Annexe A7', img: `annexes/sepa-${i}.png`, w: 470, caption: i === 2 ? 'Formulaire de mandat SEPA — document officiel (2 pages)' : '' });
 module.exports['17-annexes-documentaires.md'].push(...annexPages);
+// A9 / A8 (17.13-17.14)
+module.exports['17-annexes-documentaires.md'].push(
+  { after: '^17\\.13 Annexe A9', img: 'annexes/pconnect_cover-01.png', w: 300, caption: '' },
+  { after: '^17\\.13 Annexe A9', img: 'annexes/pconnect_sommaire-02.png', w: 430, caption: 'Mode d’emploi Planet’Connect — couverture et sommaire (37 pages)' },
+  { after: '^17\\.14 Annexe A8', img: 'annexes/shipform-1.png', w: 340, caption: 'Formulaire de shipping par email — onglet FORMULAIRE (modèle officiel 2026)' }
+);

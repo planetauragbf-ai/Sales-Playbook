@@ -211,9 +211,15 @@ Brice)        1er salarié    (Inwood, NY)                        dédié       
 - **Mai 2025** : mise en ligne de **Planet'Connect** et de son API — devis, expéditions, automatisation et suivi digitalisés ; simulateur, commandes, facturation, signature électronique de la documentation annuelle.
 - **Fin 2025** : arrivée d'**Adam**, premier commercial dédié, après des années de bouche-à-oreille.
 - **2026** : achat d'un entrepôt de **plus de 300 m²** (mai) ; lancement de la solution **Spiritueux USA (B2C, DDP)** ; enrichissement stockage & picking ; documentation 2026 signée électroniquement.
-- **Demain** : voilier-cargo **VELA** (-90 % de CO2 sur le transatlantique), nouveaux marchés et nouveaux services.
+- **Demain** : voilier-cargo **VELA** (-90 % de CO2 sur le transatlantique), nouveaux marchés et nouveaux services. — s'y ajoute le **projet d'ouverture d'une annexe en Champagne**.
 
 > **Storytelling recommandé (30 secondes) :** « Planet Aura est née d'un constat simple dans les caveaux : chaque été, des dizaines de ventes échouent au moment où le client demande *"et comment je fais pour le rapporter chez moi ?"*. Nous avons construit la réponse : une plateforme, des emballages homologués, la douane et les taxes gérées d'avance, une assurance incluse — et aujourd'hui un réseau d'adhérents dans toutes les régions viticoles, avec notre propre présence aux États-Unis. »
+
+### Le projet d'annexe en Champagne
+
+Planet Aura porte un **projet d'ouverture d'une annexe en Champagne** — un ancrage physique au cœur du vignoble le plus exportateur en valeur. Ce que cela changera commercialement : proximité immédiate avec les maisons et vignerons (enlèvements accélérés, dépôt local), gestion sur place des flux à certificat CIVC, et un signal fort envoyé au segment champagne (chap. 5), déjà stratégique pour le groupage USA.
+
+> ⚠️ **POINT DE VIGILANCE —** Projet **en cours de structuration** : lieu, calendrier et périmètre exacts à confirmer auprès de la direction. En rendez-vous : « nous préparons un ancrage en Champagne » — jamais de date ni d'adresse tant que ce n'est pas officialisé.
 
 ## 1.9 Chiffres clés et trajectoire
 

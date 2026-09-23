@@ -121,15 +121,48 @@ Un **compte démo** est disponible pour dérouler une démonstration en RDV : c'
 
 > ⚠️ **POINT DE VIGILANCE —** Ne partez jamais en RDV sans maîtriser le simulateur en conditions réelles : un commercial qui hésite devant l'écran décrédibilise la promesse de simplicité du service.
 
-## 12.10 Feuille de route du premier mois (J+30 du commercial)
+## 12.10 Planning opérationnel — « Votre premier mois chez Planet Aura »
 
-| Semaine | Priorités | Livrables de fin de semaine |
-|---|---|---|
-| **Semaine 1** | Immersion : lecture du playbook et du manuel utilisateur, prise en main de Planet'Connect (étapes 1 et 2), intégration aux rituels d'équipe | Questions consignées, accès et outils opérationnels |
-| **Semaine 2** | Maîtrise de l'offre : devis et expéditions test au simulateur (étape 3), assister à une formation caveau (cf. 12.2), premiers shadow calls | Une simulation complète déroulée sans aide |
-| **Semaine 3** | Terrain accompagné : visites en binôme, découverte du portefeuille et du cycle de vie prospect → adhérent → actif → fidélisé, premières qualifications d'inactifs | Compte-rendu de visites, premières fiches comptes à jour dans le CRM |
-| **Semaine 4** | Certification J+30 : offre, ICP, CRM, conformité ; shadow call réalisé ; débrief avec le manager | Certification validée + objectifs J+60 fixés |
+Le déroulé opérationnel remis au nouvel arrivant le jour 1. Chaque semaine a ses journées types, son binôme référent et son livrable — la certification J+30 (12.8) en est l'aboutissement.
 
+**Semaine 1 — Immersion & outils** *(référents : Emma + manager)*
+
+| Jour | Programme |
+|---|---|
+| J1 | Accueil, visite bureau + entrepôt de Castres, boussole d'équipe (dire vrai · apprendre ensemble · améliorer en continu), remise du playbook, création des accès (Planet'Connect, HubSpot, Google Workspace) |
+| J2 | Lecture guidée du playbook (parties 1-2) + manuel utilisateur adhérent ; observation du flux d'un shipping réel de bout en bout |
+| J3 | Formation Planet'Connect avec Emma (mode d'emploi 37 p., annexe 17.15) : connexion, simulateur, création de shipping, suivi, factures |
+| J4 | Immersion exploitation : préparation de commandes, cartonnage ISTA 3A en main, statuts de suivi, mails automatiques |
+| J5 | Rituels de la semaine (signaux chauds, pipeline) en observateur + questions consignées et débrief |
+
+**Semaine 2 — Maîtrise de l'offre** *(référents : Adam + Emma)*
+
+| Jour | Programme |
+|---|---|
+| J6-J7 | Devis au simulateur en conditions réelles (UE, USA groupage/direct, spiritueux) + expéditions test ; quiz grilles & incoterms |
+| J8 | Conformité : fiche USA (POA, États), Canada, Suède/Vinoflow, certificat CIVC — chap. 14 certifié |
+| J9 | Shadow calls avec Adam (prospection + qualification PA-FIT) ; écoute et grilles d'observation |
+| J10 | Assister à une formation caveau (12.2) ; préparer sa propre trame |
+| Livrable | Une simulation complète déroulée sans aide + les 26 objections principales sues |
+
+**Semaine 3 — Terrain accompagné** *(référent : Adam)*
+
+| Jour | Programme |
+|---|---|
+| J11-J13 | Visites adhérents et prospects en binôme (2-3 RDV) ; compte-rendus CRM sous 24 h |
+| J14 | Découverte du portefeuille : tiers A/B/C, health scores, cycle prospect → adhérent → actif → fidélisé ; premières qualifications de dormants |
+| J15 | Premiers appels en autonomie supervisée (cadence chap. 8.7) + débrief |
+| Livrable | Fiches comptes à jour + 1 RDV obtenu en propre |
+
+**Semaine 4 — Certification & lancement** *(référents : manager + direction)*
+
+| Jour | Programme |
+|---|---|
+| J16-J18 | Montée en autonomie : cadences actives, préparation du premier RDV solo, co-rédaction d'une proposition |
+| J19 | **Certification J+30** : offre, ICP, CRM, conformité + un shadow call validé (12.8) |
+| J20 | Débrief manager : objectifs J+60 fixés, territoire/segments attribués, semaine type (7.16) adoptée |
+
+> **REPÈRE —** Règle du premier mois : **on observe avant de faire, on fait accompagné avant de faire seul** — et chaque question posée est une erreur évitée devant un prospect.
 ---
 
 > 📌 **À RETENIR —** Un adhérent signé n'a de valeur que s'il expédie : premier envoi réel sous 30 jours, formation caveau systématique, moments de vérité (premier envoi, premier sinistre, pic saisonnier, renouvellement) traités sans faute. La fidélisation se pilote (health score, rituels par tiers, bilan annuel chiffré) et commence en interne : un commercial certifié à J+30 et autonome à J+90 est la meilleure assurance rétention du réseau.

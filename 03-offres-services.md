@@ -21,6 +21,7 @@
 | Services | Certificat Champagne (CIVC) | Champagne | Géré par nous : 15 € HT/demande |
 | Digital | Planet'Connect | Tous | Simulateur, commandes, suivi, factures, e-signature |
 | Digital | API Planet'Connect | E-commerçants, domaines digitalisés | Gratuite : frais de port et suivi intégrés à la boutique de l'adhérent |
+| Digital | **Planet'Stock** (nouveau) | Adhérents stockage & picking | Nouveau logiciel de gestion des stocks lié à l'entrepôt (voir 3.9) |
 
 ---
 
@@ -186,6 +187,14 @@ Au-delà des grilles standard, Planet Aura développe des **packages USA clé en
 - **Argument de vente** : le client confie son stock sans avancer de trésorerie — stockage fiscal + douane + transport de bout en bout, un service à forte valeur ajoutée et différenciant.
 
 > ⚠️ **POINT DE VIGILANCE —** Le dossier est **en cours d'instruction** auprès des services douaniers : en parler au conditionnel (« nous préparons », « à venir »), jamais comme un service déjà actif.
+
+### Planet'Stock — le nouveau logiciel de gestion des stocks
+
+En complément de Planet'Connect, Planet Aura déploie **Planet'Stock**, son **nouveau logiciel dédié à la gestion des stocks** de l'offre stockage & picking : visibilité sur les références stockées à l'entrepôt (entrées, sorties, niveaux), lien direct avec les demandes d'expédition, et traçabilité des mouvements pour l'adhérent comme pour l'exploitation.
+
+**Argument de vente** : « Votre stock chez nous n'est pas une boîte noire : avec Planet'Stock, vous savez ce qui entre, ce qui sort et ce qui reste — et vos expéditions puisent dedans sans double saisie. »
+
+> ⚠️ **POINT DE VIGILANCE —** Logiciel **en cours de déploiement** : périmètre exact des fonctionnalités, calendrier et modalités d'accès à confirmer auprès de la direction avant toute démonstration ou promesse ferme en rendez-vous.
 
 ## 3.10 Cartonnage & emballage — la condition de l'assurance
 

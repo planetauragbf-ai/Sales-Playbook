@@ -51,8 +51,8 @@ Statuts : **INCLUS** = intégré dans ce chapitre ou dans le corps du playbook �
 | A5 | Manuel utilisateur adhérent 2026 | PDF maquetté 19 pages (9 sections) | **INCLUS** en synthèse (chap. 16.6) — PDF original **À FOURNIR** en pièce jointe d'édition |
 | A6 | Order Form 2026 | Bon de commande client final (EN) avec bloc CB | **INCLUS** — formulaire officiel vierge (17.11) |
 | A7 | Formulaire de mandat SEPA | Formulaire vierge officiel | **INCLUS** — document officiel (17.12) |
-| A8 | Formulaire de shipping par email (xlsx) | Modèle Excel normalisé 2026 | **À FOURNIR** (capture des onglets) |
-| A9 | Mode d'emploi Planet'Connect (37 p.) | Manuel complet de la plateforme | **À FOURNIR** (PDF ou captures des écrans clés) |
+| A8 | Formulaire de shipping par email (xlsx) | Modèle Excel normalisé 2026 | **INCLUS** — modèle officiel (17.14) |
+| A9 | Mode d'emploi Planet'Connect (37 p.) | Manuel complet de la plateforme | **INCLUS** — manuel officiel, sommaire et couverture (17.13) |
 | A10 | Captures Planet'Connect | Simulateur, création de shipping, suivi, factures | **CAPTURE** (17.6) — compléments (commande, factures) **À FOURNIR** |
 | A11 | Cartes des zones USA (vin & spiritueux) | Cartes choroplèthes par État, 3 statuts | **CAPTURE** (chap. 03 & 14) — originaux HD **À FOURNIR** |
 | A12 | Carte Norvège (2 zones) | Carte des comtés par zone tarifaire | **CAPTURE** (chap. 14) |
@@ -161,7 +161,15 @@ Le mandat de prélèvement SEPA (2 pages) pour les points de vente payeurs.
 
 ---
 
-## 17.13 Couverture du brief éditorial (audit de septembre 2026)
+## 17.13 Annexe A9 — Mode d'emploi Planet'Connect (manuel officiel, 37 pages)
+
+Le manuel complet de la plateforme, structuré en 16 modules : Se connecter · Mot de passe oublié · Première connexion · Accueil · Actualités · FAQ · Interlocuteurs · **Simulateur** · **Shippings** · Cartonnages · Mon compte · Ma grille tarifaire · Mes vins · Mes destinataires · Mes lieux d'enlèvement · Factures. C'est le support de référence de l'étape « Lire le process » de la prise en main (chap. 12.9) et du pack de bienvenue adhérent (chap. 16.6).
+
+## 17.14 Annexe A8 — Formulaire de shipping par email (modèle officiel 2026)
+
+Le fichier Excel normalisé pour les adhérents qui préfèrent l'email à la plateforme. Deux onglets : **FORMULAIRE** (date de la demande, donneur d'ordre/facturation, lieu d'enlèvement, destinataire, détail des vins, incoterm) et **CONDITIONS D'EXPÉDITIONS**. Règle affichée sur le document : **tout formulaire incomplet est retourné** — d'où la fiche réflexe des 4 données (chap. 16.1). À retourner à contact@planet-aura.com.
+
+## 17.15 Couverture du brief éditorial (audit de septembre 2026)
 
 Le playbook a été audité question par question contre le brief de rédaction (checklist « avant de débuter » + les 10 axes). Verdicts :
 
@@ -185,9 +193,9 @@ Le playbook a été audité question par question contre le brief de rédaction 
 | Sales Operations (onboarding, CRM, automation, BI, CLM) | Couvert | Chap. 12.8, 7.15 + **15.12 stack (nouveau)** |
 | KPIs + méthode de suivi | Couvert | Chap. 15 (formules, rituels, RACI, dashboard) |
 | Start with why, SWOT, positionnement, organigramme | Couvert | Chap. 6 (Golden Circle), 1.11 (SWOT), 10 (mapping), 1.5 |
-| Conclusion (démarche, valeur, difficultés, ouverture) + sources citées | Couvert | **17.14 (nouveau)** + système S01-S13 |
+| Conclusion (démarche, valeur, difficultés, ouverture) + sources citées | Couvert | **17.16 (nouveau)** + système S01-S13 |
 
-## 17.14 Conclusion & ouverture
+## 17.16 Conclusion & ouverture
 
 **La démarche.** Ce playbook a été construit en croisant trois matières : la documentation officielle 2026 de Planet Aura (CGS, grilles, manuel, formulaires — reproduites en annexes), les travaux internes existants (les deux playbooks maquettés, dont le mémoire d'Emma, analysés page par page), et des sources externes vérifiées une à une (S01-S13). Chaque chiffre porte sa source et son millésime ; chaque divergence entre supports est signalée « à revalider » plutôt que tranchée arbitrairement.
 
@@ -199,6 +207,6 @@ Le playbook a été audité question par question contre le brief de rédaction 
 - **Périmètres mouvants** (filiale US, VELA, entrepôt sous douane) → statuts explicites (« en développement », « dossier en instruction ») et règles de vente associées (ce qu'on dit / ce qu'on ne dit jamais).
 - **Annexes incomplètes** → catalogue A1-A18 avec statuts, qui transforme les manques en liste de collecte plutôt qu'en zones d'ombre.
 
-**L'ouverture.** Les chantiers qui prolongeront ce document : la commercialisation encadrée de **VELA** (2027) et des **offres USA all-inclusive sur mesure**, l'extension **spiritueux**, le dossier **entrepôt sous douane / entrepositaire agréé**, les ressources à créer (vidéo démo, one-pagers ICP, études de cas A18), la **matrice de compétences** pour la formation continue, et les dashboards HubSpot de la roadmap M2. À chaque jalon atteint, une ligne change dans ce playbook — c'est le rituel trimestriel qui l'y inscrit.
+**L'ouverture.** Les chantiers qui prolongeront ce document : la commercialisation encadrée de **VELA** (2027) et des **offres USA all-inclusive sur mesure**, l'extension **spiritueux**, le **projet d'annexe en Champagne** (ancrage physique au cœur du segment le plus stratégique), le déploiement de **Planet'Stock** (nouveau logiciel de gestion des stocks, chap. 3.9), le dossier **entrepôt sous douane / entrepositaire agréé**, les ressources à créer (vidéo démo, one-pagers ICP, études de cas A18), la **matrice de compétences** pour la formation continue, et les dashboards HubSpot de la roadmap M2. À chaque jalon atteint, une ligne change dans ce playbook — c'est le rituel trimestriel qui l'y inscrit.
 
 > 📌 **À RETENIR —** Ce chapitre est vivant : chaque document À FOURNIR transmis (manuel utilisateur, POA, certificat CIVC, mode d'emploi Planet'Connect, exports de mails, kit PLV, études de cas) est intégré à l'édition suivante. Un playbook dont les annexes sont complètes fait gagner un rendez-vous : tout se montre séance tenante.
