@@ -90,7 +90,7 @@ Il est dominé par des géants généralistes — **Geodis, CMA CGM, DHL** — q
 
 ### a) L'œnotourisme : le caveau devient un canal de vente international
 
-- La France accueille chaque année **10 à 12 millions d'œnotouristes**, dont une part importante d'étrangers (Américains, Britanniques, Belges, Suisses, Canadiens, Asiatiques) concentrés sur nos régions cibles.
+- La France a accueilli **12 millions d'œnotouristes en 2023** (Atout France, +20 % vs 2016), dont **5,4 millions d'étrangers (+29 %)** — top nationalités : Britanniques, Belges, Américains — concentrés sur nos régions cibles. Une visite au domaine génère en moyenne **207 €, dont 60 % en achats de vin sur place** (Observatoire Winalist 2026). *(Sources détaillées : chap. 17.1, S04-S05.)*
 - Le visiteur étranger a un **panier potentiel élevé** mais un **frein physique absolu** : la valise. Limites bagages (souvent 2-3 bouteilles réalistes), risque de casse, interdictions cabine, franchise douanière au retour.
 - Chaque caveau qui reçoit des étrangers **perd structurellement des ventes** sans solution d'expédition : c'est notre gisement. Le service transforme un achat « souvenir » de 2 bouteilles en commande de 6, 12, 24 ou 36 bouteilles livrées à domicile.
 

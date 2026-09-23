@@ -13,7 +13,7 @@ const FILES = [
   '03-offres-services.md','04-tarifs.md','05-cibles-personas.md','06-proposition-valeur.md',
   '07-processus-vente.md','08-prospection-scripts.md','09-objections.md','10-concurrence.md',
   '11-preuves-references.md','12-onboarding-retention.md','13-sav-sinistres.md',
-  '14-conformite-reglementation.md','15-kpis-pilotage.md','16-annexes-outils.md'
+  '14-conformite-reglementation.md','15-kpis-pilotage.md','16-annexes-outils.md','17-annexes-documentaires.md'
 ];
 
 // ---- Charte Planet Aura (issue des playbooks maquettés : teal logo, navy, accent orange)
@@ -36,7 +36,7 @@ const CHAPTER_ICONS = {
   '05-cibles-personas.md':'ch-05','06-proposition-valeur.md':'ch-06','07-processus-vente.md':'ch-07',
   '08-prospection-scripts.md':'ch-08','09-objections.md':'ch-09','10-concurrence.md':'ch-10',
   '11-preuves-references.md':'ch-11','12-onboarding-retention.md':'ch-12','13-sav-sinistres.md':'ch-13',
-  '14-conformite-reglementation.md':'ch-14','15-kpis-pilotage.md':'ch-15','16-annexes-outils.md':'ch-16'
+  '14-conformite-reglementation.md':'ch-14','15-kpis-pilotage.md':'ch-15','16-annexes-outils.md':'ch-16','17-annexes-documentaires.md':'ch-17'
 };
 
 // Placements d'images : fichier md -> [{after: regex ligne de titre, img, w(px), caption}]
@@ -83,19 +83,39 @@ function figure(name, wPx, caption) {
 }
 
 // ---------- inline parsing ----------
+// Emojis -> pictos premium (image inline)
+const EMOJI_ICONS = {
+  '🇺🇸': 'b-us', '🇨🇦': 'b-ca', '☀️': 'mini-sun', '☀': 'mini-sun', '🍾': 'mini-bottle',
+  '📦': 'mini-package', '✈️': 'mini-plane', '✈': 'mini-plane', '☎️': 'mini-phone', '☎': 'mini-phone',
+  '✅': 'b-ok', '⚠️': 'b-warn', '⚠': 'b-warn', '💡': 'b-tip', '🚫': 'b-no', '📌': 'b-pin',
+  '🚨': 'b-warn', '❗': 'b-warn', '🕐': 'mini-clock',
+};
+const EMOJI_RE = new RegExp('(' + Object.keys(EMOJI_ICONS).sort((a, b) => b.length - a.length).map(e => e.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|') + ')', 'g');
+
+function pushText(runs, text, style) {
+  let last = 0, m;
+  EMOJI_RE.lastIndex = 0;
+  while ((m = EMOJI_RE.exec(text)) !== null) {
+    if (m.index > last) runs.push(new TextRun({ text: text.slice(last, m.index), ...style }));
+    runs.push(img(`icons/${EMOJI_ICONS[m[1]]}.png`, 14, 14));
+    last = m.index + m[1].length;
+  }
+  if (last < text.length) runs.push(new TextRun({ text: text.slice(last), ...style }));
+}
+
 function inlineRuns(text, base = {}) {
   text = text.replace(/\[([^\]]+)\]\(([^)]+)\)/g, '$1').replace(/\\\*/g, '*');
   const runs = [];
   const re = /(\*\*([^*]+)\*\*|\*([^*]+)\*|`([^`]+)`)/g;
   let last = 0, m;
   while ((m = re.exec(text)) !== null) {
-    if (m.index > last) runs.push(new TextRun({ text: text.slice(last, m.index), ...base }));
-    if (m[2] !== undefined) runs.push(new TextRun({ text: m[2], bold: true, ...base }));
-    else if (m[3] !== undefined) runs.push(new TextRun({ text: m[3], italics: true, ...base }));
+    if (m.index > last) pushText(runs, text.slice(last, m.index), base);
+    if (m[2] !== undefined) pushText(runs, m[2], { bold: true, ...base });
+    else if (m[3] !== undefined) pushText(runs, m[3], { italics: true, ...base });
     else if (m[4] !== undefined) runs.push(new TextRun({ text: m[4], font: 'Consolas', size: 18, shading: { type: ShadingType.CLEAR, fill: 'EDF2F4' }, ...base }));
     last = m.index + m[0].length;
   }
-  if (last < text.length) runs.push(new TextRun({ text: text.slice(last), ...base }));
+  if (last < text.length) pushText(runs, text.slice(last), base);
   if (runs.length === 0) runs.push(new TextRun({ text: '', ...base }));
   return runs;
 }
@@ -247,20 +267,22 @@ function convertFile(md, fileName) {
       const quote = [];
       while (i < lines.length && /^>\s?/.test(lines[i])) { quote.push(lines[i].replace(/^>\s?/, '')); i++; }
       const head = quote[0] || '';
-      // Système sémantique d'encadrés (charte Planet Aura)
-      let bar = TEAL, fill = 'E8F1F4', txtColor = DARK, labelColor = TEAL;
-      if (/^(🚫|❗)|\*\*(INTERDIT|ALERTE|DÉCISION IMMÉDIATE|NON-ÉLIGIBLE)/.test(head)) { bar = RED; fill = 'FDECEA'; labelColor = RED; }
-      else if (/^(⚠️|💡)|\*\*(LE CONSEIL|BONNE PRATIQUE|POINT DE VIGILANCE|À CONFIRMER|RÈGLE)/.test(head)) { bar = ORANGE; fill = 'FDF0E4'; labelColor = ORANGE; }
-      else if (/^✅|\*\*CE QUI FONCTIONNE/.test(head)) { bar = GREEN; fill = 'E8F3EC'; labelColor = GREEN; }
-      else if (/^📌|\*\*À RETENIR/.test(head)) { bar = ORANGE; fill = DARKBG; txtColor = 'FFFFFF'; labelColor = 'FFFFFF'; }
+      // Système sémantique d'encadrés (charte Planet Aura) + badge picto premium
+      let bar = TEAL, fill = 'E8F1F4', txtColor = DARK, labelColor = TEAL, badge = 'b-info';
+      if (/^(🚫|❗)|\*\*(INTERDIT|ALERTE|DÉCISION IMMÉDIATE|NON-ÉLIGIBLE)/.test(head)) { bar = RED; fill = 'FDECEA'; labelColor = RED; badge = 'b-no'; }
+      else if (/^💡|\*\*(LE CONSEIL|BONNE PRATIQUE)/.test(head)) { bar = ORANGE; fill = 'FDF0E4'; labelColor = ORANGE; badge = 'b-tip'; }
+      else if (/^⚠️|\*\*(POINT DE VIGILANCE|À CONFIRMER|RÈGLE)/.test(head)) { bar = ORANGE; fill = 'FDF0E4'; labelColor = ORANGE; badge = 'b-warn'; }
+      else if (/^✅|\*\*CE QUI FONCTIONNE/.test(head)) { bar = GREEN; fill = 'E8F3EC'; labelColor = GREEN; badge = 'b-ok'; }
+      else if (/^📌|\*\*À RETENIR/.test(head)) { bar = ORANGE; fill = DARKBG; txtColor = 'FFFFFF'; labelColor = 'FFFFFF'; badge = 'b-pin'; }
       quote.forEach((q, qi) => {
         if (q.trim() === '') { out.push(new Paragraph({ spacing: { after: 60 }, children: [] })); return; }
-        // colore le label en tête ("**LABEL —** reste")
+        // colore le label en tête ("**LABEL —** reste"), emoji remplacé par le badge picto
         let kids;
-        const lm = qi === 0 ? q.match(/^([⚠️💡🚫❗✅📌]*\s*)\*\*([^*]+?)(\s*[—:-])?\*\*\s*(.*)$/) : null;
+        const lm = qi === 0 ? q.match(/^([⚠️💡🚫❗✅📌🚨]*\s*)\*\*([^*]+?)(\s*[—:-])?\*\*\s*(.*)$/) : null;
         if (lm) {
           kids = [
-            new TextRun({ text: (lm[1] || '') + lm[2].toUpperCase() + (lm[3] ? ' —' : ''), bold: true, size: 18, color: labelColor }),
+            img(`icons/${badge}.png`, 16, 16),
+            new TextRun({ text: '  ' + lm[2].toUpperCase() + (lm[3] ? ' —' : ''), bold: true, size: 18, color: labelColor }),
             new TextRun({ text: '  ' }),
             ...inlineRuns(lm[4] || '', { size: 20, color: txtColor })
           ];
@@ -368,7 +390,7 @@ const PARTS = {
   '00-resume-executif.md': { num: 'PARTIE 1', title: 'Comprendre', chapters: ['00 · Résumé exécutif', '01 · L’entreprise Planet Aura', '02 · Le marché', '03 · Offre & services', '04 · Tarification 2026'] },
   '05-cibles-personas.md': { num: 'PARTIE 2', title: 'Vendre', chapters: ['05 · Cibles & personas', '06 · Proposition de valeur', '07 · Processus de vente', '08 · Prospection', '09 · Objections', '10 · Concurrence', '11 · Preuves & références'] },
   '12-onboarding-retention.md': { num: 'PARTIE 3', title: 'Fidéliser & opérer', chapters: ['12 · Onboarding & fidélisation', '13 · SAV & sinistres', '14 · Conformité & réglementation'] },
-  '15-kpis-pilotage.md': { num: 'PARTIE 4', title: 'Piloter', chapters: ['15 · KPIs & pilotage', '16 · Annexes & boîte à outils'] },
+  '15-kpis-pilotage.md': { num: 'PARTIE 4', title: 'Piloter', chapters: ['15 · KPIs & pilotage', '16 · Annexes & boîte à outils', '17 · Annexes documentaires & sources'] },
 };
 
 function partOpener(p) {
@@ -415,7 +437,7 @@ const footerP = new Footer({
       new TextRun({ text: 'PLANET AURA · COMMISSIONNAIRE DE TRANSPORT VINS & SPIRITUEUX', size: 14, color: GRAY }),
       new TextRun({ text: '\t', size: 14 }),
       new TextRun({ text: 'PAGE ', size: 14, color: ORANGE, bold: true }),
-      new TextRun({ children: [PageNumber.CURRENT], size: 15, color: TEALD, bold: true }),
+      new TextRun({ children: [PageNumber.CURRENT], size: 14, color: ORANGE, bold: true }),
     ]
   })]
 });

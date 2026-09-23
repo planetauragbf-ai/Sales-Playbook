@@ -26,3 +26,9 @@ module.exports = {
     { after: 'Norvège', img: 'pics/norway.png', w: 380, caption: 'Norvège — les deux zones tarifaires' },
   ],
 };
+// Annexes documentaires (chapitre 17)
+module.exports['17-annexes-documentaires.md'] = [
+  { after: '^17\\.6 Annexe A10', img: 'pics/sim_devis.png', w: 470, caption: 'Simulateur Planet’Connect — devis DDP (taxes prépayées)' },
+  { after: '^17\\.7 Annexe A13', img: 'pics/mails_auto2.png', w: 380, caption: 'Aperçu de la bibliothèque de mails automatiques Planet’Connect' },
+  { after: '^17\\.8 Annexe A14', img: 'pics/flyer1.png', w: 440, caption: 'Flyer de prospection — face extérieure' },
+];

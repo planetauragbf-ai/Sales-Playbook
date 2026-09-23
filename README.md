@@ -43,6 +43,7 @@ Il est construit à partir de la documentation officielle 2026 de l'entreprise :
 | 14 | [Conformité & réglementation](14-conformite-reglementation.md) | Douane, accises, DDP/DAP, États US, Canada, certificat Champagne |
 | 15 | [KPIs & pilotage commercial](15-kpis-pilotage.md) | Indicateurs, rituels, prévisions, CRM |
 | 16 | [Annexes & boîte à outils](16-annexes-outils.md) | Checklists, modèles, glossaire, FAQ express, documents à envoyer |
+| 17 | [Annexes documentaires & sources](17-annexes-documentaires.md) | CGS intégrales, grilles, captures Planet'Connect, flyer, sources externes vérifiées (S01-S12), catalogue A1-A18 |
 
 ## Règles d'or (à lire avant tout)
 
