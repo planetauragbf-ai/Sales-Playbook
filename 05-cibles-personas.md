@@ -54,6 +54,7 @@
 - **Contexte** : les salons (Vignerons Indépendants…) concentrent des centaines de producteurs en 3 jours.
 - **Approche** : offre packagée « salon » — adhésion sur place, documentation dédiée, démo simulateur sur tablette.
 - **Volume play** : beaucoup de petites signatures ; l'activation post-salon est la clé (cf. chap. 12).
+- **Nouvel étage** : l'axe organisateurs (GL events, Aux Vignobles !, Break Events) — logistique des exposants + présence visiteur/mini-stand (chap. 3.7 et 8.5) : chaque événement devient à la fois un client logistique et un vivier de prospects.
 
 ### Segment 6 — Distilleries & spiritueux (nouveau 2026)
 

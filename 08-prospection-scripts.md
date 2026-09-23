@@ -81,6 +81,23 @@
 
 **Après le salon** : email sous 48 h à tous les contacts (compte créé pour les signés, RDV pour les tièdes), rappel téléphonique sous 7 jours. Un contact salon non rappelé en 7 jours est perdu.
 
+### L'axe organisateurs : GL events, Aux Vignobles !, Break Events
+
+Au-delà du stand par stand, l'axe événementiel se travaille **au niveau des organisateurs** — nous assurons déjà groupage, national et export autour de ces événements ; la présence s'y structure :
+
+| Niveau | Ce qu'on y fait | Statut |
+|---|---|---|
+| **Prestataire logistique de l'événement** | Groupage aller/retour des exposants + expédition des ventes des visiteurs (offre 3.7) | En cours sur plusieurs événements |
+| **Visiteur outillé** | Tournée des stands avec tablette (simulateur), collecte de cartes, qualification à chaud | Déploiement progressif |
+| **Mini-stand Planet Aura** | Présence visible « We ship worldwide » : les exposants ET les visiteurs viennent à nous | **Bientôt** sur une sélection d'événements |
+| **Partenariat organisateur** | Être référencé « transporteur officiel vin » dans le kit exposant de l'organisateur | Objectif — à négocier par la direction |
+
+**Le pitch organisateur** : « Vos exposants vendent plus quand leurs visiteurs peuvent se faire livrer — et un salon dont on repart les mains libres est un salon où l'on achète davantage. Nous prenons en charge la logistique de vos exposants (aller, ventes, retour) et nous équipons vos allées. »
+
+**Kit de tournée salon (visiteur/mini-stand)** : tablette avec simulateur + compte démo, flyers tri-volet, grilles FR/EN, order forms, cartons de démonstration, QR code vers planet-aura.com (avis Google en preuve).
+
+> 💡 **BONNE PRATIQUE —** Sur un salon dont nous gérons la logistique exposants, chaque palette livrée est une entrée en matière : « c'est nous qui avons livré votre stand — parlons de vos clients qui ne peuvent pas repartir avec leurs achats. »
+
 ## 8.6 LinkedIn (maisons structurées, directeurs commerciaux)
 
 **Message de connexion** : « Bonjour [Prénom], nous accompagnons des [maisons de Champagne / châteaux de X] sur l'expédition B2C internationale (USA en DDP notamment). Au plaisir d'échanger. »

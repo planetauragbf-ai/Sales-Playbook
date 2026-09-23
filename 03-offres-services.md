@@ -15,6 +15,9 @@
 | Shipping | **Spiritueux USA DDP** (nouveau 2026) | Domaines, distilleries, cavistes | Offre rare sur le marché |
 | Shipping | Option VELA — fret vélique (conditionnelle) | Flux France-USA prévisibles, cuvées premium | Option maritime à faibles émissions, pilote sous conditions (voir 3.8) |
 | Shipping | France frais/express (base Chronofresh) | Adhérents & particuliers | Livraison lendemain matin |
+| Shipping | **Ligne retour USA → France** | Adhérents, filiale US | Rapatriements et flux inverses (palettes New York → Castres), sur devis |
+| Services | **Service « Gant Blanc » VIP** | Grandes entreprises, maisons premium | Accompagnement sur mesure de bout en bout, interlocuteur dédié |
+| Services | **Logistique événementielle** (salons & foires) | Exposants (GL events, Aux Vignobles !, Break Events…) | Groupage aller/retour salon + expédition des ventes (national & export) |
 | Logistique | Stockage & picking (entrepôt Castres) | Domaines, e-commerçants | Sécurisé 24/7, picking offert si transport PA |
 | Services | Cartonnage grand export ISTA 3A | Tous | 1er lot 110 € HT puis **gratuit** |
 | Services | Assurance casse/perte | Tous | Incluse jusqu'à 20 000 €/envoi |
@@ -122,6 +125,48 @@ Au-delà des grilles standard, Planet Aura développe des **packages USA clé en
 - **Afrique du Sud** : dès 68 €, 8 jours. **Jersey** : DAP only, dès 50 €.
 - **DOM** (DAP, HT) : Guadeloupe/Martinique/Saint-Martin dès 70 € ; Réunion/Saint-Barthélemy dès 65 € ; 7-8 jours hors douane.
 - **Destination absente de la grille ?** Réponse type : « Nous faisons une recherche spécifique — jamais un refus sec, jamais une promesse en séance. »
+
+### Et dans l'autre sens — la ligne retour USA → France
+
+Grâce à la filiale Planet Aura Inc. et au flux de groupage régulier, Planet Aura opère aussi le **sens retour : États-Unis → France** (palettes New York → Castres). Cas d'usage à vendre :
+
+- **Rapatriement d'invendus ou de stocks** d'un adhérent ou d'un importateur américain.
+- **Retours et réexpéditions** de commandes (colis refusés, adresses erronées) réinjectés dans le circuit sans être perdus.
+- **Envois depuis les USA vers la France** pour les clients du réseau (échantillons, reprises, flux inverses) — **sur devis, nous consulter**.
+
+**Argument de vente** : « La ligne ne roule pas à vide : nous maîtrisons les deux sens. Un problème côté américain n'est jamais une impasse — on sait faire revenir la marchandise. »
+
+> ⚠️ **POINT DE VIGILANCE —** Flux sur devis et sous contraintes douanières spécifiques (réimportation, statuts des marchandises) : chiffrage et faisabilité par l'exploitation avant tout engagement.
+
+### Le service « Gant Blanc » — l'accompagnement VIP grands comptes
+
+Pour les **grandes entreprises et maisons premium** (groupes, maisons de champagne structurées, grands domaines, conciergeries d'affaires), Planet Aura propose un **service « Gant Blanc »** : le sur-mesure de bout en bout.
+
+| Composante | Ce que le compte VIP obtient |
+|---|---|
+| Interlocuteur dédié | Un référent unique nommé, joignable en direct — pas de standard |
+| Enlèvements prioritaires | Créneaux réservés, flexibilité sur les urgences |
+| Emballage & préparation premium | Conditionnement soigné, contrôles renforcés, exigences d'image respectées (coffrets, éditions limitées) |
+| Suivi proactif personnalisé | Alertes avant que le client demande ; comptes rendus réguliers de flux |
+| SAV prioritaire | Traitement en tête de file, communication au nom du compte |
+| Reporting dédié | Bilan périodique des expéditions, incidents et délais |
+
+**Quand le proposer** : compte tiers A à forte exigence d'image, volumes réguliers, direction sensible au niveau de service plus qu'au prix. **Tarification sur mesure** — construite avec la direction, compte par compte.
+
+**Argument de vente** : « Vos bouteilles portent votre image jusqu'à la porte du client. Le Gant Blanc, c'est la garantie que chaque maillon — de l'enlèvement au SAV — est traité au niveau de votre maison. »
+
+### La logistique événementielle — salons & foires aux vins
+
+Les salons grand public et professionnels (réseaux **GL events**, foires **Aux Vignobles !**, événements **Break Events**…) concentrent en un lieu des dizaines de vignerons qui vendent en direct : exactement notre terrain. Planet Aura accompagne **les exposants de bout en bout** :
+
+- **Groupage aller** : acheminement mutualisé des palettes des exposants vers le salon.
+- **Expédition des ventes du salon** : le visiteur achète au stand et repart les mains libres — livraison **nationale ou export** (UE, USA, monde) via nos grilles standard.
+- **Groupage retour** : rapatriement des invendus vers les domaines après l'événement.
+- **Stockage tampon** : entrepôt de Castres avant/après événement (chap. 3.9).
+
+**Argument exposant** : « Vendez au salon comme au caveau : sans limite de valise. Nous livrons vos clients chez eux — et vos invendus rentrent avec nous. »
+
+> **REPÈRE —** Cet axe est aussi un canal d'acquisition : voir le plan de présence salons (chap. 8.5) — Planet Aura s'intègre progressivement en **visiteur puis mini-stand** sur une sélection d'événements.
 
 ## 3.8 Option VELA — le fret vélique bas-carbone (offre conditionnelle)
 
