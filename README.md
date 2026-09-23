@@ -22,29 +22,6 @@ Il est construit à partir de la documentation officielle 2026 de l'entreprise :
 | En charge du suivi adhérents | Chapitres 12, 13, 15 |
 | Manager commercial | Chapitres 07, 15, 16 |
 
-## Sommaire
-
-| # | Chapitre | Contenu |
-|---|---|---|
-| 00 | [Résumé exécutif](00-resume-executif.md) | L'essentiel en 5 minutes : qui nous sommes, ce que nous vendons, à qui, comment |
-| 01 | [L'entreprise Planet Aura](01-entreprise.md) | Identité, statut juridique, équipe, interlocuteurs, écosystème partenaires |
-| 02 | [Le marché](02-marche.md) | Œnotourisme, export B2C, tendances, taille de marché, moteurs d'achat |
-| 03 | [Offre & services](03-offres-services.md) | Shipping monde, USA groupage/direct, spiritueux, stockage & picking, Planet'Connect |
-| 04 | [Tarification 2026](04-tarifs.md) | Toutes les grilles : UE, DOM, pays tiers, USA, spiritueux, options, cartonnage, stockage |
-| 05 | [Cibles & personas](05-cibles-personas.md) | ICP, segments, personas détaillés, signaux d'achat |
-| 06 | [Proposition de valeur](06-proposition-valeur.md) | Pitchs, différenciateurs, ROI adhérent, elevator pitches |
-| 07 | [Processus de vente](07-processus-vente.md) | Pipeline, étapes, qualification, critères de passage, closing |
-| 08 | [Prospection : scripts & séquences](08-prospection-scripts.md) | Cold call, emails FR/EN, salons, LinkedIn, relances |
-| 09 | [Traitement des objections](09-objections.md) | 25+ objections avec réponses structurées |
-| 10 | [Paysage concurrentiel](10-concurrence.md) | Catégories de concurrents, battlecards, positionnement |
-| 11 | [Preuves & références](11-preuves-references.md) | Réseau d'adhérents, cas d'usage, chiffres de réassurance |
-| 12 | [Onboarding & fidélisation](12-onboarding-retention.md) | Activation adhérent, adoption Planet'Connect, upsell, renouvellement |
-| 13 | [SAV & gestion des sinistres](13-sav-sinistres.md) | Ce que le commercial doit savoir : procédures, assurance, discours client |
-| 14 | [Conformité & réglementation](14-conformite-reglementation.md) | Douane, accises, DDP/DAP, États US, Canada, certificat Champagne |
-| 15 | [KPIs & pilotage commercial](15-kpis-pilotage.md) | Indicateurs, rituels, prévisions, CRM |
-| 16 | [Annexes & boîte à outils](16-annexes-outils.md) | Checklists, modèles, glossaire, FAQ express, documents à envoyer |
-| 17 | [Annexes documentaires & sources](17-annexes-documentaires.md) | CGS intégrales, grilles, captures Planet'Connect, flyer, sources externes vérifiées (S01-S12), catalogue A1-A18 |
-
 ## Règles d'or (à lire avant tout)
 
 1. **Nous vendons de la sérénité, pas du transport.** L'adhérent vend plus de vin au caveau parce que la question « et comment je le ramène chez moi ? » a une réponse simple.

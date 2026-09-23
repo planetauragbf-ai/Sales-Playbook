@@ -249,11 +249,6 @@ function convertFile(md, fileName) {
       const txt = m[2].replace(/\*\*/g, '');
       const H = [HeadingLevel.HEADING_1, HeadingLevel.HEADING_2, HeadingLevel.HEADING_3, HeadingLevel.HEADING_4][lvl - 1];
       const kids = [];
-      if (lvl === 1 && iconName && !firstH1Done) {
-        kids.push(img(`icons/${iconName}.png`, 30, 30));
-        kids.push(new TextRun({ text: '  ' }));
-        firstH1Done = true;
-      }
       let inner = inlineRuns(txt, {
         bold: true,
         color: lvl === 1 ? NAVY : lvl === 2 ? TEALD : NAVY,
@@ -286,8 +281,9 @@ function convertFile(md, fileName) {
       else if (/^⚠️|\*\*(POINT DE VIGILANCE|À CONFIRMER|RÈGLE)/.test(head)) { bar = ORANGE; fill = 'FDF0E4'; labelColor = ORANGE; badge = 'b-warn'; }
       else if (/^✅|\*\*CE QUI FONCTIONNE/.test(head)) { bar = GREEN; fill = 'E8F3EC'; labelColor = GREEN; badge = 'b-ok'; }
       else if (/^📌|\*\*À RETENIR/.test(head)) { bar = ORANGE; fill = DARKBG; txtColor = 'FFFFFF'; labelColor = 'FFFFFF'; badge = 'b-pin'; }
+      const calloutParas = [];
       quote.forEach((q, qi) => {
-        if (q.trim() === '') { out.push(new Paragraph({ spacing: { after: 60 }, children: [] })); return; }
+        if (q.trim() === '') { calloutParas.push(new Paragraph({ spacing: { after: 60 }, children: [] })); return; }
         // colore le label en tête ("**LABEL —** reste"), emoji remplacé par le badge picto
         let kids;
         const lm = qi === 0 ? q.match(/^([⚠️💡🚫❗✅📌🚨]*\s*)\*\*([^*]+?)(\s*[—:-])?\*\*\s*(.*)$/) : null;
@@ -301,15 +297,30 @@ function convertFile(md, fileName) {
         } else {
           kids = inlineRuns(q, { size: 20, color: txtColor });
         }
-        out.push(new Paragraph({
-          indent: { left: 360 },
-          border: { left: { style: BorderStyle.SINGLE, size: 18, color: bar } },
-          shading: { type: ShadingType.CLEAR, fill },
-          spacing: { before: 40, after: 40 },
+        calloutParas.push(new Paragraph({
+          spacing: { before: 30, after: 30 },
           children: kids
         }));
       });
-      out.push(new Paragraph({ spacing: { after: 100 }, children: [] }));
+      out.push(new Table({
+        width: { size: CONTENT_W, type: WidthType.DXA },
+        columnWidths: [CONTENT_W],
+        borders: {
+          left: { style: BorderStyle.SINGLE, size: 22, color: bar },
+          top: { style: BorderStyle.SINGLE, size: 6, color: bar },
+          bottom: { style: BorderStyle.SINGLE, size: 6, color: bar },
+          right: { style: BorderStyle.SINGLE, size: 6, color: bar },
+          insideHorizontal: { style: BorderStyle.NONE },
+          insideVertical: { style: BorderStyle.NONE },
+        },
+        rows: [new TableRow({ children: [new TableCell({
+          width: { size: CONTENT_W, type: WidthType.DXA },
+          shading: { type: ShadingType.CLEAR, fill },
+          margins: { top: 90, bottom: 90, left: 200, right: 160 },
+          children: calloutParas
+        })] })]
+      }));
+      out.push(new Paragraph({ spacing: { after: 120 }, children: [] }));
       continue;
     }
 
@@ -386,15 +397,15 @@ const titlePage = [
       new TextRun({ text: 'Vous permettre de vous concentrer sur votre savoir-faire : Planet Aura orchestre l’expédition, la douane, le suivi et la résolution des aléas.', size: 18, color: DARK })
     ]
   }),
+  new Paragraph({ alignment: AlignmentType.CENTER, spacing: { before: 300 }, children: [imgAuto('pics/photo_cover.png', 205)] }),
   new Paragraph({
-    alignment: AlignmentType.CENTER, spacing: { before: 320 },
+    alignment: AlignmentType.CENTER, spacing: { before: 240 },
     children: [new TextRun({ text: 'ÉDITION 2026   ·   RÉSERVÉ À L’ÉQUIPE COMMERCIALE PLANET AURA   ·   CONFIDENTIEL', bold: true, size: 20, color: NAVY })]
   }),
   new Paragraph({
     alignment: AlignmentType.CENTER, spacing: { before: 80 },
-    children: [new TextRun({ text: 'SARL Planet Aura — 5 Impasse François Arago, 81100 Castres — www.planet-aura.com', size: 17, color: GRAY })]
+    children: [new TextRun({ text: 'SARL Planet Aura - 5 Impasse François Arago, 81100 Castres - www.planet-aura.com', size: 17, color: GRAY })]
   }),
-  new Paragraph({ alignment: AlignmentType.CENTER, spacing: { before: 260 }, children: [imgAuto('pics/photo_cover.png', 205)] }),
 ];
 
 // ---------- pages d'ouverture de partie ----------
@@ -406,29 +417,52 @@ const PARTS = {
 };
 
 function partOpener(p) {
+  const numOnly = p.num.replace(/\D/g, '');
+  const band = new Table({
+    width: { size: CONTENT_W, type: WidthType.DXA },
+    columnWidths: [CONTENT_W],
+    borders: {
+      top: { style: BorderStyle.NONE }, bottom: { style: BorderStyle.SINGLE, size: 28, color: ORANGE },
+      left: { style: BorderStyle.NONE }, right: { style: BorderStyle.NONE },
+      insideHorizontal: { style: BorderStyle.NONE }, insideVertical: { style: BorderStyle.NONE },
+    },
+    rows: [new TableRow({ children: [new TableCell({
+      width: { size: CONTENT_W, type: WidthType.DXA },
+      shading: { type: ShadingType.CLEAR, fill: DARKBG },
+      margins: { top: 500, bottom: 500, left: 420, right: 420 },
+      children: [
+        new Paragraph({
+          spacing: { after: 40 },
+          children: [new TextRun({ text: numOnly, bold: true, size: 160, color: TEAL, font: 'Georgia' })]
+        }),
+        new Paragraph({
+          spacing: { after: 90 },
+          children: [new TextRun({ text: 'P A R T I E   ' + numOnly, bold: true, size: 22, color: ORANGE })]
+        }),
+        new Paragraph({
+          children: [new TextRun({ text: p.title, bold: true, size: 72, color: 'FFFFFF', font: 'Georgia' })]
+        }),
+      ]
+    })] })]
+  });
   return [
     new Paragraph({ children: [new PageBreak()] }),
-    new Paragraph({ spacing: { before: 2600 }, children: [] }),
-    new Paragraph({
-      alignment: AlignmentType.CENTER,
-      children: [new TextRun({ text: p.num.split('').join(' '), bold: true, size: 24, color: TEAL })]
+    new Paragraph({ spacing: { before: 1500 }, children: [] }),
+    band,
+    new Paragraph({ spacing: { before: 500, after: 140 },
+      children: [new TextRun({ text: 'DANS CETTE PARTIE', bold: true, size: 18, color: GRAY })]
     }),
-    new Paragraph({
-      alignment: AlignmentType.CENTER, spacing: { before: 160 },
-      children: [new TextRun({ text: p.title, bold: true, size: 64, color: NAVY, font: 'Georgia' })]
+    ...p.chapters.map(c => {
+      const m = c.match(/^(\d{2})\s*·\s*(.*)$/);
+      return new Paragraph({
+        indent: { left: 200 },
+        spacing: { after: 90 },
+        children: m ? [
+          new TextRun({ text: m[1], bold: true, size: 24, color: ORANGE }),
+          new TextRun({ text: '   ' + m[2], size: 24, color: DARK }),
+        ] : [new TextRun({ text: c, size: 24, color: DARK })]
+      });
     }),
-    new Paragraph({
-      alignment: AlignmentType.CENTER, spacing: { before: 160, after: 300 },
-      children: [new TextRun({ text: '━━━━━━', size: 24, color: ORANGE })]
-    }),
-    new Paragraph({
-      alignment: AlignmentType.CENTER, spacing: { after: 120 },
-      children: [new TextRun({ text: 'DANS CETTE PARTIE', bold: true, size: 17, color: GRAY })]
-    }),
-    ...p.chapters.map(c => new Paragraph({
-      alignment: AlignmentType.CENTER, spacing: { after: 60 },
-      children: [new TextRun({ text: c, size: 21, color: DARK })]
-    })),
   ];
 }
 
@@ -436,7 +470,7 @@ function partOpener(p) {
 let content = [];
 FILES.forEach(f => {
   if (PARTS[f]) content = content.concat(partOpener(PARTS[f]));
-  const md = fs.readFileSync(path.join(SRC, f), 'utf8');
+  const md = fs.readFileSync(path.join(SRC, f), 'utf8').replace(/—/g, '-');
   content = content.concat(convertFile(md, f));
 });
 
