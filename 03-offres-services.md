@@ -103,6 +103,14 @@ Tout au long du parcours : suivi en temps réel, assurance et SAV personnalisé.
 
 **Cibles nouvelles** : distilleries (whisky français, gin, armagnac, cognac, calvados), cavistes premium, domaines produisant marc/fine. **Argument choc** : « Très peu d'acteurs sur le marché savent expédier des spiritueux en B2C aux USA. Nous, oui, depuis 2026. »
 
+### En développement — les offres « USA all-inclusive » sur mesure
+
+Au-delà des grilles standard, Planet Aura développe des **packages USA clé en main travaillés compte par compte** pour les adhérents à flux américain régulier (maisons, domaines premium, cavistes à forte clientèle US) : un prix unique par commande couvrant **transport + taxes DDP + assurance + cartons + stockage saisonnier (départ différé) + gestion POA/documents + SAV bilingue**, avec des paliers négociés selon le volume annuel et, le cas échéant, l'option réexpédition ou l'intégration API à l'e-shop.
+
+**Ce que ça change en vente** : l'adhérent affiche à son client américain UN prix rendu domicile, sans ligne de frais — l'expérience d'achat la plus simple du marché, et pour l'adhérent une grille personnalisée qui récompense le volume.
+
+> ⚠️ **POINT DE VIGILANCE —** Offre **en développement** : on la présente comme une co-construction (« nous travaillons des formules all-inclusive sur mesure pour les comptes comme le vôtre — construisons la vôtre »), on collecte les besoins (volumes, États, paniers), et tout engagement chiffré passe par la direction. Ne jamais annoncer une grille all-inclusive ferme sans validation.
+
 ## 3.7 Autres destinations export (grille pays tiers)
 
 - **Royaume-Uni** : dès 30 €, 4 jours. **Suisse** : dès 30 €, 5 jours. **Liechtenstein**, **Islande**, **Serbie**.
@@ -278,7 +286,17 @@ Les modèles sont gérés dans Planet'Connect (onglet Communication > Modèles).
 - Un « pont » entre Planet'Connect et la boutique en ligne ou l'outil de gestion de l'adhérent : **frais de port affichés automatiquement au paiement**, commandes, expéditions et statuts synchronisés.
 - **API et documentation technique fournies gratuitement** ; les identifiants (clé + mot de passe API) sont disponibles directement dans le compte adhérent.
 - L'interfaçage et le coût de développement restent **à la charge de l'adhérent** (son développeur ou prestataire).
-- Références à citer : **Terre de Mistral** (frais de port + suivi automatiques sur sa boutique), partenariat **Direct Château**, **Château de Beaupré**.
+
+**Connexions API réussies — en production (à citer en rendez-vous) :**
+
+| Adhérent connecté | Ce que l'API fait chez lui | Bénéfice démontré |
+|---|---|---|
+| **Terre de Mistral** | Frais de port calculés en direct au checkout + suivi automatique | Le client final paie le juste prix de transport sans devis manuel |
+| **Direct Château** | Partenariat d'intégration de la plateforme | Distribution du service à l'échelle d'un réseau |
+| **Château de Beaupré** | Boutique connectée à Planet'Connect | Zéro double saisie entre e-shop et expédition |
+| **Château de Bellet** | Chaque commande « shipping » de l'e-shop notifie automatiquement l'exploitation | La commande web déclenche l'expédition sans intervention du caveau |
+
+> ✅ **CE QUI FONCTIONNE —** En rendez-vous avec un prospect qui a un e-shop : montrer la boutique de Terre de Mistral, faire une simulation de panier et laisser le prix de transport s'afficher tout seul. La démonstration vaut tous les argumentaires.
 
 > ⚠️ **POINT DE VIGILANCE —** Les identifiants API sont **confidentiels** : à ne partager qu'avec un développeur habilité, jamais en clair par e-mail.
 

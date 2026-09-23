@@ -21,7 +21,28 @@ Notre réseau couvre **toutes les typologies de la cible**, dans toutes les rég
 
 **L'effet réseau à vendre** : « Quand un domaine voisin du vôtre expédie déjà avec nous, son bouche-à-oreille est notre meilleure publicité — demandez-lui. »
 
-## 11.2 Les références publiques « Ils nous font confiance »
+## 11.2 La note publique : 5/5 sur Google — 291 avis
+
+Planet Aura affiche **5/5 sur Google avec 291 avis** (relevé sur planet-aura.com, septembre 2026). C'est la preuve la plus rapide à montrer : elle est publique, vérifiable en direct sur le téléphone du prospect, et elle vient des **clients finaux** — précisément ceux que l'adhérent nous confie.
+
+**Verbatims réels à citer** (affichés publiquement, avec nom d'auteur) :
+
+| Client | Avis (verbatim) | Ce que ça prouve |
+|---|---|---|
+| Kurt Lieberman | « Usually, when we visit France, it is hard to ship wine back to the U.S… Planet Aura was efficient and kept things simple. » | Le parcours USA sans friction — notre produit phare |
+| Tim McClure | « Both Planet Aura shipments have already arrived in perfect condition… The communication was excellent. » | Intégrité produit + communication proactive |
+| suzann gabriel | « Our case of wine shipped from our trip to France in March, arrived in perfect condition. Transition time about 5 weeks. » | L'expérience œnotouriste type, délais honnêtes compris |
+| Robert Myriam | « Service de livraison fiable et sans soucis pour une première livraison. » | La première expérience réussie — l'activation |
+| Paul Papi | « Commande arrivée rapidement. Emballage parfait. » | Le cartonnage homologué, jugé par le client |
+| Loek Derks | « All went very well again, I'm very happy with their services. » | La récurrence (« again ») — des clients qui reviennent |
+| Sofia Salmi | « Viinit tuli sovitusti ja nopeasti perille. » *(« Les vins sont arrivés comme convenu et rapidement », finnois)* | Une clientèle finale réellement internationale |
+| Stepan Lianozov | « Great service !!! Got all the bottles and a gift ! Amazing. » | L'enthousiasme spontané, jusqu'au petit geste |
+
+**Usage en rendez-vous** : ouvrir Google devant le prospect (« ne me croyez pas sur parole — lisez ce que disent les clients de nos adhérents »), glisser la note 5/5 · 291 avis dans chaque proposition commerciale et sur la PLV comptoir. *(Source : S13, chap. 17.1.)*
+
+> ✅ **CE QUI FONCTIONNE —** L'avis en langue étrangère (finnois, néerlandais, anglais) est un argument à part entière : il prouve au domaine que ses visiteurs étrangers seront pris en charge dans leur langue, jusqu'au bout.
+
+## 11.3 Les références publiques « Ils nous font confiance »
 
 Le site Planet Aura publie une sélection de références sous la mention « Ils nous font confiance ». Ces dix comptes sont **publics** : ils constituent un échantillon observable de la clientèle, pas un classement par chiffre d'affaires. Ils se citent en rendez-vous comme preuve sociale, et chacun porte un **signal ICP** qui aide à qualifier le prospect en face de vous.
 
@@ -53,7 +74,7 @@ Argument associé : l'API et sa documentation technique sont fournies **gratuite
 
 > ⚠️ **POINT DE VIGILANCE —** Les identifiants API (clé + mot de passe) sont confidentiels : à ne partager qu'avec un développeur habilité, jamais en clair par e-mail.
 
-## 11.3 Cas d'usage narratifs (storytelling prêt à l'emploi)
+## 11.4 Cas d'usage narratifs (storytelling prêt à l'emploi)
 
 ### Cas 1 — Le groupage USA qui change le panier
 « Un client du Texas visite un domaine adhérent, il voulait "quelques bouteilles". Avec la solution d'expédition affichée au caveau, il repart sur **24 bouteilles livrées à Southlake, taxes prépayées**, payées par carte au comptoir. Trois semaines plus tard, livraison à domicile. Ce client est dans le fichier du domaine : il recommandera à distance l'année suivante. »
@@ -70,7 +91,7 @@ Argument associé : l'API et sa documentation technique sont fournies **gratuite
 ### Cas 5 — L'e-shop connecté
 « Un château du vignoble niçois a intégré notre service à sa boutique en ligne : chaque commande "shipping" nous est automatiquement notifiée et déclenche le processus. Le caveau physique et le site web vendent le même service sans double saisie. »
 
-## 11.4 Chiffres de réassurance (issus de la documentation & de l'activité)
+## 11.5 Chiffres de réassurance (issus de la documentation & de l'activité)
 
 | Chiffre | Source / usage |
 |---|---|
@@ -102,7 +123,7 @@ Huit chiffres qui racontent l'entreprise en une minute, à dérouler en ouvertur
 
 > ⚠️ **POINT DE VIGILANCE —** Le flyer de prospection porte encore des chiffres antérieurs (500 adhérents, plus de 130 pays de livraison, 58 994 bouteilles expédiées en 2023, export = 90 % des expéditions). En rendez-vous, citer en priorité la grille de KPIs 2025-2026 ci-dessus et ne pas mélanger les deux millésimes de chiffres.
 
-## 11.5 Objets de preuve à montrer physiquement
+## 11.6 Objets de preuve à montrer physiquement
 
 1. **Le carton 6 bouteilles** avec ses alvéoles — le toucher vaut mille slides.
 2. **Le simulateur en direct** sur les vins du prospect.
@@ -111,7 +132,7 @@ Huit chiffres qui racontent l'entreprise en une minute, à dérouler en ouvertur
 5. **Une capture de suivi de livraison** aux USA (anonymisée).
 6. **La grille 2026 imprimée** (FR + EN) — objet laissé sur place avec la carte de visite.
 
-## 11.6 Preuves de marché sourcées (pour légitimer le besoin)
+## 11.7 Preuves de marché sourcées (pour légitimer le besoin)
 
 Trois chiffres externes, sourcés, prêts à citer en rendez-vous quand le prospect doute que l'expédition BtoC soit un vrai sujet :
 
@@ -123,7 +144,7 @@ Trois chiffres externes, sourcés, prêts à citer en rendez-vous quand le prosp
 
 > 💡 **BONNE PRATIQUE —** Enchaîner les trois preuves dans cet ordre : le marché existe (FEVS), le besoin est chez le prospect (SVB), et personne de spécialisé ne le sert vraiment (XERFI) — puis conclure sur notre positionnement de spécialiste vin.
 
-## 11.7 Programme de témoignages (à animer en continu)
+## 11.8 Programme de témoignages (à animer en continu)
 
 ### Le socle existant
 

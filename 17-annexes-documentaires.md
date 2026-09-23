@@ -23,6 +23,7 @@ Chaque source ci-dessous a été vérifiée en ligne (septembre 2026). En rendez
 | S10 | **CIVC** — Comité Champagne | Certificat d'origine obligatoire hors UE ; demande : certificat.origine-ext@civc.fr — 03 26 51 19 30 | comitechampagne.fr |
 | S11 | **Douane française** — accises & CRD | Références EMCS/DA, capsules représentatives de droits, circulation des produits soumis à accises | douane.gouv.fr |
 | S12 | **La Poste Pro** — « Expédier du vin aux États-Unis » | Page qui documente publiquement les restrictions des solutions postales — utile face à l'objection « La Poste est moins chère » (O-3) | laposte.fr/professionnel/expedier/expedier-vin-etats-unis |
+| S13 | **Google / planet-aura.com** — avis clients | **5/5 sur Google, 291 avis** (relevé sept. 2026) ; verbatims multilingues publics (FR/EN/FI/NL) repris au chap. 11.2 — la preuve à montrer en direct sur le téléphone du prospect | planet-aura.com (bloc avis Google) |
 
 > **REPÈRE —** Règle de citation : un chiffre sans source, millésime et périmètre n'entre ni dans un support, ni dans un rendez-vous. En cas de conflit entre deux sources, la plus récente et la plus officielle gagne — et on le note ici.
 
@@ -44,12 +45,12 @@ Statuts : **INCLUS** = intégré dans ce chapitre ou dans le corps du playbook �
 | Réf. | Annexe | Contenu attendu | Statut |
 |---|---|---|---|
 | A1 | Conditions Générales de Services 2026 | Texte intégral (17 articles + signature électronique) | **INCLUS** (17.3) |
-| A2 | Grille tarifaire shipping 2026 (FR) | Toutes les grilles par destination | **INCLUS** (chap. 04, reproduction intégrale) |
+| A2 | Grille tarifaire shipping 2026 (FR) | Toutes les grilles par destination | **INCLUS** — document officiel intégral (17.9) + reproduction chap. 04 |
 | A3 | Rate Schedule 2026 (EN) | Version anglaise remise aux clients finaux | **INCLUS** (17.4, texte intégral) |
-| A4 | Grille tarifaire stockage & picking 2026 | Palettes, colis, fournitures, assurance | **INCLUS** (17.5, texte intégral) |
+| A4 | Grille tarifaire stockage & picking 2026 | Palettes, colis, fournitures, assurance | **INCLUS** — document officiel intégral (17.10) + texte 17.5 |
 | A5 | Manuel utilisateur adhérent 2026 | PDF maquetté 19 pages (9 sections) | **INCLUS** en synthèse (chap. 16.6) — PDF original **À FOURNIR** en pièce jointe d'édition |
-| A6 | Order Form 2026 | Bon de commande client final (EN) avec bloc CB | Structure détaillée **INCLUSE** (chap. 16.6) — scan du formulaire vierge **À FOURNIR** |
-| A7 | Formulaire de mandat SEPA | Formulaire vierge officiel | **À FOURNIR** |
+| A6 | Order Form 2026 | Bon de commande client final (EN) avec bloc CB | **INCLUS** — formulaire officiel vierge (17.11) |
+| A7 | Formulaire de mandat SEPA | Formulaire vierge officiel | **INCLUS** — document officiel (17.12) |
 | A8 | Formulaire de shipping par email (xlsx) | Modèle Excel normalisé 2026 | **À FOURNIR** (capture des onglets) |
 | A9 | Mode d'emploi Planet'Connect (37 p.) | Manuel complet de la plateforme | **À FOURNIR** (PDF ou captures des écrans clés) |
 | A10 | Captures Planet'Connect | Simulateur, création de shipping, suivi, factures | **CAPTURE** (17.6) — compléments (commande, factures) **À FOURNIR** |
@@ -60,7 +61,7 @@ Statuts : **INCLUS** = intégré dans ce chapitre ou dans le corps du playbook �
 | A15 | Certificat de Champagne (exemple) | Spécimen anonymisé des 2 pages CIVC | **À FOURNIR** |
 | A16 | POA USA & POA Canada (modèles) | Formulaires Power of Attorney envoyés aux destinataires | **À FOURNIR** (spécimens anonymisés) |
 | A17 | Kit PLV « We ship worldwide » | Affichette comptoir, chevalet, stickers — photos en situation | **À FOURNIR** |
-| A18 | Études de cas & témoignages clients | 2-3 cas chiffrés autorisés + verbatims adhérents | **À FOURNIR** (cf. programme chap. 11.5) |
+| A18 | Études de cas & témoignages clients | 2-3 cas chiffrés autorisés + verbatims adhérents | **À FOURNIR** (cf. programme chap. 11.8) |
 
 > ⚠️ **POINT DE VIGILANCE —** Les annexes marquées À FOURNIR sont attendues auprès de la direction/exploitation : transmettre les fichiers (PDF, scans, exports) pour intégration à l'édition suivante du playbook. Ne jamais diffuser à l'extérieur le mandat SEPA rempli ni un POA nominatif.
 
@@ -140,6 +141,24 @@ La plateforme déclenche une trentaine de modèles en 6 familles (confirmation d
 
 Le tri-volet remis en prospection : « Entreprise à taille humaine en constante évolution », nos partenaires, nos avis, nos services (stockage, picking, livraison, assurance), « Spécialisation dans le vin, champagne & spiritueux », et les chiffres affichés (500 adhérents · 130 pays · 90 % export — cf. vigilance chap. 16.6).
 
+## 17.9 Annexe A2 — Grille tarifaire shipping 2026 (document officiel intégral)
+
+Le document officiel remis aux adhérents, reproduit page par page (5 pages) : conditions générales de lecture, grilles UE/DOM/pays tiers, USA groupage et direct, spiritueux, options et frais.
+
+## 17.10 Annexe A4 — Grille tarifaire stockage & picking 2026 (document officiel intégral)
+
+Le document officiel (3 pages) : grilles palettes et colis, fournitures, assurance, conditions.
+
+## 17.11 Annexe A6 — Order Form 2026 (formulaire officiel vierge)
+
+Le bon de commande client final (anglais) avec bloc de paiement CB — celui que le client remplit au comptoir.
+
+## 17.12 Annexe A7 — Formulaire de mandat SEPA (document officiel)
+
+Le mandat de prélèvement SEPA (2 pages) pour les points de vente payeurs.
+
+> 🚫 **INTERDIT —** Le mandat SEPA **rempli** contient les coordonnées bancaires du magasin : transmission par les canaux officiels uniquement, jamais de copie dans un support de vente ni par messagerie non sécurisée. Seul le formulaire **vierge** figure ici.
+
 ---
 
-> 📌 **À RETENIR —** Ce chapitre est vivant : chaque document À FOURNIR transmis (SEPA, POA, certificat CIVC, mode d'emploi Planet'Connect, exports de mails, kit PLV, études de cas) est intégré à l'édition suivante. Un playbook dont les annexes sont complètes fait gagner un rendez-vous : tout se montre séance tenante.
+> 📌 **À RETENIR —** Ce chapitre est vivant : chaque document À FOURNIR transmis (manuel utilisateur, POA, certificat CIVC, mode d'emploi Planet'Connect, exports de mails, kit PLV, études de cas) est intégré à l'édition suivante. Un playbook dont les annexes sont complètes fait gagner un rendez-vous : tout se montre séance tenante.
