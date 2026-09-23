@@ -3,7 +3,8 @@ const path = require('path');
 const {
   Document, Packer, Paragraph, TextRun, ImageRun, Table, TableRow, TableCell,
   HeadingLevel, AlignmentType, WidthType, ShadingType, BorderStyle,
-  LevelFormat, PageBreak, Footer, PageNumber, VerticalAlign
+  LevelFormat, PageBreak, Footer, PageNumber, VerticalAlign,
+  Bookmark, InternalHyperlink, TabStopType, LeaderType
 } = require('docx');
 
 const SRC = require('path').join(__dirname, '..');
@@ -38,6 +39,10 @@ const CHAPTER_ICONS = {
   '11-preuves-references.md':'ch-11','12-onboarding-retention.md':'ch-12','13-sav-sinistres.md':'ch-13',
   '14-conformite-reglementation.md':'ch-14','15-kpis-pilotage.md':'ch-15','16-annexes-outils.md':'ch-16','17-annexes-documentaires.md':'ch-17'
 };
+
+// ---- Sommaire interactif : registre des titres (rempli au fil du parsing)
+const tocRegistry = [];
+const plainHeading = (t) => t.replace(/\*\*/g, '').replace(/[⚠️💡🚫❗✅📌🚨🇺🇸🇨🇦☀️🍾📦✈️☎️]/g, '').trim();
 
 // Placements d'images : fichier md -> [{after: regex ligne de titre, img, w(px), caption}]
 // (ajusté après la synthèse du workflow d'analyse)
@@ -249,11 +254,17 @@ function convertFile(md, fileName) {
         kids.push(new TextRun({ text: '  ' }));
         firstH1Done = true;
       }
-      kids.push(...inlineRuns(txt, {
+      let inner = inlineRuns(txt, {
         bold: true,
         color: lvl === 1 ? NAVY : lvl === 2 ? TEALD : NAVY,
         size: lvl === 1 ? 34 : lvl === 2 ? 26 : lvl === 3 ? 23 : 21
-      }));
+      });
+      if (lvl <= 2) {
+        const key = `toc${tocRegistry.length}`;
+        tocRegistry.push({ key, level: lvl, text: plainHeading(txt), file: fileName });
+        inner = [new Bookmark({ id: key, children: inner })];
+      }
+      kids.push(...inner);
       out.push(new Paragraph({
         heading: H,
         spacing: { before: lvl === 1 ? 240 : 200, after: 120 },
@@ -422,12 +433,65 @@ function partOpener(p) {
 }
 
 // ---------- build ----------
-let children = [...titlePage];
+let content = [];
 FILES.forEach(f => {
-  if (PARTS[f]) children = children.concat(partOpener(PARTS[f]));
+  if (PARTS[f]) content = content.concat(partOpener(PARTS[f]));
   const md = fs.readFileSync(path.join(SRC, f), 'utf8');
-  children = children.concat(convertFile(md, f));
+  content = content.concat(convertFile(md, f));
 });
+
+// ---------- sommaire détaillé & interactif ----------
+let tocPages = {};
+try { tocPages = JSON.parse(fs.readFileSync(path.join(__dirname, 'toc-pages.json'), 'utf8')); } catch (e) {}
+const PART_OF_FILE = {};
+{ let cur = null; FILES.forEach(f => { if (PARTS[f]) cur = PARTS[f]; PART_OF_FILE[f] = cur; }); }
+
+function tocParagraphs() {
+  const paras = [new Paragraph({ children: [new PageBreak()] })];
+  paras.push(new Paragraph({
+    spacing: { before: 200, after: 60 },
+    children: [new TextRun({ text: 'SOMMAIRE', bold: true, size: 40, color: NAVY, font: 'Georgia' })]
+  }));
+  paras.push(new Paragraph({
+    border: { bottom: { style: BorderStyle.SINGLE, size: 12, color: ORANGE } },
+    spacing: { after: 80 }, children: []
+  }));
+  paras.push(new Paragraph({
+    spacing: { after: 180 },
+    children: [new TextRun({ text: 'Chaque entrée est cliquable — dans Word comme dans le PDF.', italics: true, size: 17, color: GRAY })]
+  }));
+  let lastPart = null;
+  tocRegistry.forEach(h => {
+    const part = PART_OF_FILE[h.file];
+    if (h.level === 1 && part && part !== lastPart) {
+      lastPart = part;
+      paras.push(new Paragraph({
+        shading: { type: ShadingType.CLEAR, fill: DARKBG },
+        spacing: { before: 200, after: 80 },
+        children: [new TextRun({ text: `  ${part.num}  ·  ${part.title.toUpperCase()}`, bold: true, size: 19, color: 'FFFFFF' })]
+      }));
+    }
+    const page = tocPages[h.key] !== undefined ? String(tocPages[h.key]) : '0';
+    const isH1 = h.level === 1;
+    paras.push(new Paragraph({
+      tabStops: [{ type: TabStopType.RIGHT, position: CONTENT_W, leader: LeaderType.DOT }],
+      indent: isH1 ? undefined : { left: 460 },
+      spacing: { before: isH1 ? 110 : 26, after: isH1 ? 30 : 0 },
+      children: [
+        new InternalHyperlink({
+          anchor: h.key,
+          children: [new TextRun({ text: h.text, bold: isH1, size: isH1 ? 21 : 17, color: isH1 ? NAVY : DARK })]
+        }),
+        new TextRun({ text: '\t', size: isH1 ? 21 : 17 }),
+        new TextRun({ text: page, bold: isH1, size: isH1 ? 19 : 16, color: isH1 ? ORANGE : TEALD }),
+      ]
+    }));
+  });
+  return paras;
+}
+
+let children = [...titlePage, ...tocParagraphs(), ...content];
+fs.writeFileSync(path.join(__dirname, 'toc-map.json'), JSON.stringify(tocRegistry, null, 1));
 
 const footerP = new Footer({
   children: [new Paragraph({
