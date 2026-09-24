@@ -108,6 +108,21 @@ Dès la première semaine, le nouveau commercial s'installe dans les rituels de 
 
 > 💡 **BONNE PRATIQUE —** Lisez ce playbook, annotez-le, revenez-y. Mais souvenez-vous qu'aucun guide ne remplace le terrain : c'est en écoutant les clients que vous deviendrez un excellent commercial.
 
+### La bibliothèque des procédures : le dossier « Nouveaux process 2026 »
+
+Depuis 2026, toutes les procédures opérationnelles sont écrites et centralisées dans un dossier Drive unique, organisé en 6 volets - c'est la référence à ouvrir chaque fois qu'un « comment on fait, déjà ? » se présente :
+
+| Volet | Contenu |
+|---|---|
+| 1. Informations internes | Réunions/formation, banques & liens de paiement, demandes CIVC, fournisseurs cartonnages, matrice de compétences « Missions Planet Aura » |
+| 2. Planet'Connect | Prise en main et procédures back-office |
+| 3. Cotations | Le process cotation en 5 étapes (chap. 7.17) |
+| 4. UE & pays tiers | Procédure opérationnelle complète : suivi, commandes, logistique, portails transporteurs |
+| 5. USA | First miles, groupage USA & spiritueux, last miles, justificatifs d'exportation, **retour NY → France** |
+| 6. Sinistres | L'arbre décisionnel officiel (chap. 13) |
+
+La **matrice de compétences « Missions Planet Aura »** liste les savoir-faire attendus par domaine (gestion générale, back-office, commandes UE & pays tiers, USA direct, groupages, documents) : elle sert de check-list de montée en compétence pendant le plan 30-60-90 - cocher au fur et à mesure avec son tuteur.
+
 ## 12.9 Prise en main de Planet'Connect — la méthode en 4 étapes
 
 Planet'Connect est l'outil quotidien de l'adhérent : le commercial doit le maîtriser mieux que lui. La montée en compétence suit 4 étapes :

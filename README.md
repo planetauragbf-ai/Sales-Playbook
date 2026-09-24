@@ -1,8 +1,8 @@
 # PLANET AURA — SALES PLAYBOOK 2026
 
-> **Le manuel de référence de l'équipe commerciale Planet Aura**
-> Version 1.0 — Août 2026 — Document interne & confidentiel
-> Équivalent : 70+ pages A4
+> **Le manuel de référence de l'équipe commerciale & marketing Planet Aura**
+> Version 1.1 — Septembre 2026 — Document interne & confidentiel
+> Chiffres consolidés depuis les dashboards Planet'Connect (extraction du 24/09/2026)
 
 ---
 
@@ -10,7 +10,7 @@
 
 Ce playbook rassemble **tout ce qu'un commercial Planet Aura doit savoir, dire et faire** pour recruter, activer et fidéliser des adhérents (domaines viticoles, maisons de champagne, cavistes, acteurs de l'œnotourisme) sur nos services d'expédition internationale de vins, champagnes et spiritueux en B2C.
 
-Il est construit à partir de la documentation officielle 2026 de l'entreprise : Conditions Générales de Services, grilles tarifaires shipping / stockage & picking / cartonnage, manuel utilisateur, mode d'emploi Planet'Connect, order form, ainsi que de la pratique opérationnelle réelle (groupages USA, gestion des sinistres, relation transporteurs).
+Il est construit à partir de la documentation officielle 2026 de l'entreprise : Conditions Générales de Services, grilles tarifaires shipping / stockage & picking / cartonnage, manuel utilisateur, mode d'emploi Planet'Connect, order form, les **procédures internes 2026** (dossier « Nouveaux process » : sinistres, cotations, UE & pays tiers, USA) et les **dashboards admin de Planet'Connect** (chiffres réels d'activité), ainsi que de la pratique opérationnelle réelle (groupages USA, gestion des sinistres, relation transporteurs).
 
 ## Comment utiliser ce playbook
 

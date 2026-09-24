@@ -426,3 +426,31 @@ Tout ce que le playbook demande, ramené à une seule page. Les volumes renvoien
 > **REPÈRE —** La semaine type n'est pas un emploi du temps imposé : c'est le contrat minimal d'activité. Ce qui se négocie, c'est l'ordre des blocs — jamais leur existence.
 
 > 📌 **À RETENIR —** Le pipeline n'avance qu'à la preuve : chaque étape a un critère de sortie, un SLA et une trace CRM. On trie avec CAVE, on chiffre la priorité avec PA-FIT, on diagnostique avec SPIN avant de démontrer, on propose au maximum 3 options avec un plan d'action mutuel, on négocie le périmètre avant le prix — et la vente n'est finie qu'au premier envoi réel, transmis à l'exploitation avec un dossier prêt complet.
+
+## 7.17 Demandes hors grille : le process cotation officiel
+
+Quand la demande sort des grilles (palette, pays « sur devis uniquement », B2B événementiel, flux atypique), on ne bricole pas un prix : on suit le **process cotation 2026** (Drive, Nouveaux process > Cotations), en 5 étapes :
+
+```
+Le client demande un prix → On récupère les informations → On vérifie les
+questions clés → On demande un prix transport → On envoie le devis au client
+```
+
+Ce que le commercial doit fournir pour que la cotation parte vite (sinon, allers-retours et délai perdu) : expéditeur et lieu d'enlèvement, destinataire et destination précise, colisage exact (nombre de bouteilles, formats, poids), valeur de la marchandise, incoterm souhaité (DAP/DDP), contraintes de date. Sur 12 mois, les destinations « sur devis uniquement » représentent 19 envois à 475 € de panier moyen : peu de volume, mais des dossiers à forte valeur - et souvent des comptes événementiel ou grand export qui ouvrent une relation durable.
+
+## 7.18 Le fil rouge : une vente de bout en bout, en chiffres réels
+
+Pour ancrer tout le processus, voici un parcours type complet - chiffres de la grille 2026 et du dashboard, du premier contact au réachat.
+
+| Étape | Ce qui se passe | Les chiffres |
+|---|---|---|
+| Prospection (chap. 8) | Visite terrain d'un domaine provençal avec caveau touristique ; démonstration simulateur sur SES vins | 20+ visiteurs étrangers/semaine en saison, panier caveau ~300 € |
+| Qualification CAVE (7.4) | Clientèle US majoritaire, e-shop actif, responsable caveau identifiée | Score PA-FIT : tiers B, potentiel 60-100 envois/an |
+| Signature (7.10) | Documentation 2026 signée dans Planet'Connect, premier lot de cartons commandé, formation caveau 30 min | Adhésion sans frais fixes - l'adhérent ne paie qu'à l'envoi |
+| Première vente au caveau | Un couple de Houston achète 12 bouteilles (300 €) ; le caveau propose la livraison à domicile | Transport 12 bt groupage USA : **210 € DDP**, taxes prépayées, assurance ad valorem incluse dans le parcours de commande |
+| Activation (7.11) | Premier shipping enregistré, mail automatique au destinataire, suivi Planet'Connect | Départ groupage sous 15 jours, livraison ~21 j |
+| Vie du compte (12) | 8 envois le premier mois de saison ; cadence trimestrielle ensuite | ~200 €/envoi en moyenne → **12-16 k€/an de CA PA** en rythme de croisière |
+| Incident (13) | Une bouteille cassée sur un envoi de 12 → signalement sous 48 h avec photos, RXP choisie par le client | Le domaine refacture les bouteilles à Planet Aura : l'incident devient une seconde vente |
+| Réachat & preuve (11) | Le client de Houston recommande ; le domaine passe tiers A et témoigne | Un compte du top 10 réel (5.1) suit exactement cette trajectoire |
+
+> ✅ **CE QUI FONCTIONNE —** Raconter ce fil rouge en entretien d'embauche d'un nouveau commercial ou en formation : il contient tout le playbook en une histoire - la douleur (vente perdue au caveau), l'outil (simulateur), le modèle (DDP groupage), le filet (sinistre bien géré) et la boucle (réachat, recommandation).

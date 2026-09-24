@@ -53,7 +53,7 @@
 
 > **REPÈRE —** Norvège, composition géographique des deux zones : **Sud** = Møre og Romsdal, Innlandet, Vestland, Buskerud, Oslo, Akershus, Østfold, Vestfold, Telemark, Rogaland, Agder ; **Nord** = Finnmark, Troms, Nordland, Trøndelag.
 
-> ⚠️ **POINT DE VIGILANCE —** Le visuel interne des zones Norvège numérote Zone 1 = Nord et Zone 2 = Sud, à l'inverse des libellés de la grille ci-dessus (à revalider). En clientèle, raisonner en « Sud » / « Nord » (et sur les comtés listés ci-dessus), jamais en numéro de zone seul.
+> ⚠️ **POINT DE VIGILANCE —** Le visuel interne des zones Norvège numérote les zones à l'inverse des libellés de la grille 2026. Règle simple : **ne jamais raisonner ni communiquer en « numéro de zone »** — toujours en « Sud » / « Nord » et sur les comtés listés ci-dessus, qui font foi.
 
 ## 4.4 USA — Groupage (HT — **DDP obligatoire**)
 

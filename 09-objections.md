@@ -29,7 +29,7 @@
 ### O-7. « Et si le colis est bloqué en douane ? »
 > « Notre travail est justement d'éviter ça : documents d'accompagnement édités par nous, DDP avec taxes payées d'avance, certificat CIVC géré pour le champagne, POA automatisé pour le Canada et les gros envois US. Quand une douane demande un document (ça arrive, par exemple un formulaire FDA aux USA), c'est nous qui le traitons — pas vous, pas votre client. »
 
-> ✅ **CE QUI FONCTIONNE —** Retourner l'objection douane USA au lieu de la subir : depuis le durcissement des droits américains (15 %, chiffre à revalider), plus les règles se compliquent, plus un partenaire qui maîtrise le DDP taxes prépayées devient précieux. La complexité douanière n'est pas un frein à la vente : c'est précisément la raison d'être du service.
+> ✅ **CE QUI FONCTIONNE —** Retourner l'objection douane USA au lieu de la subir : depuis le durcissement des droits américains (au taux en vigueur - toujours vérifier l'estimation du simulateur Planet'Connect, jamais un chiffre de mémoire), plus les règles se compliquent, plus un partenaire qui maîtrise le DDP taxes prépayées devient précieux. La complexité douanière n'est pas un frein à la vente : c'est précisément la raison d'être du service.
 
 ### O-8. « J'ai eu une mauvaise expérience avec un transporteur. »
 > « Racontez-moi — c'est important. *(Écouter.)* Ce que vous décrivez, c'est le fonctionnement d'un transporteur : il exécute, et quand ça se passe mal, vous êtes seul face au guichet réclamations. Nous sommes commissionnaire : obligation de résultat écrite dans nos CGS, un interlocuteur nommé, et c'est nous qui menons les recours contre les transporteurs — vous n'y touchez jamais. »

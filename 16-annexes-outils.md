@@ -187,20 +187,9 @@ Un terme de pilotage ne sert que s'il déclenche une décision. D'où la troisi�
 14. **Puis-je annuler ?** — Oui, gratuitement avant l'enlèvement (10 € le jour même).
 15. **Qui gère la douane ?** — Nous, intégralement (DA, export, import, taxes DDP).
 
-## 16.9 Contacts internes utiles (rappel)
+*(Les contacts internes par sujet sont au chap. 1.5 - une seule liste, tenue à jour à un seul endroit.)*
 
-| Sujet | Contact |
-|---|---|
-| Question tarif/deal, arbitrage | direction@planet-aura.com — 06 68 80 71 65 |
-| Supports de vente, campagnes | relationcommerciale@planet-aura.com |
-| Exploitation, enlèvements, litiges | contact@planet-aura.com — 09 79 11 45 07 / 06 59 56 72 72 |
-| Clients finaux anglophones | hello@planet-aura.com |
-| USA / groupage / last-mile | a.bosruel-marino@planet-aura.com — +1 (347) 445-7583 |
-| Certificats Champagne (CIVC direct) | certificat.origine-ext@civc.fr — 03 26 51 19 30 |
-
----
-
-## 16.10 Hiérarchie de preuve : quel chiffre a le droit de sortir ?
+## 16.9 Hiérarchie de preuve et chiffres officiels
 
 Avant de citer un chiffre en RDV, dans un email ou dans une proposition, identifiez son niveau de preuve. Un chiffre sans niveau identifié ne sort pas.
 
@@ -213,27 +202,30 @@ Avant de citer un chiffre en RDV, dans un email ou dans une proposition, identif
 
 > ⚠️ **POINT DE VIGILANCE —** Le glissement classique : une hypothèse (niveau 4) répétée trois fois en réunion devient un « fait » dans un email client. C'est exactement ce que cette hiérarchie empêche.
 
-## 16.11 Sources et références du playbook
+### La table des chiffres officiels 2026 (source unique)
 
-Les chiffres de marché de ce playbook s'appuient sur les sources suivantes (à citer avec l'année lorsque vous les réutilisez) :
+Les chiffres d'activité de ce playbook proviennent d'une source unique : les **dashboards admin de Planet'Connect** (Gestion / Commercial / Logistique), extraction du **24/09/2026**. En cas de doute ou de divergence avec un ancien support, c'est cette table qui fait foi - et le dashboard du jour pour tout usage récent.
 
-| Source | Ce qu'on y trouve |
-|---|---|
-| FEVS | Communiqué exportations vins & spiritueux 2024 |
-| OIV | Bilan mondial de la vigne et du vin 2024 |
-| Vin & Société | Chiffres clés de la filière |
-| Le Monde | Droits de douane américains de 15 % sur les vins européens (2025) |
-| XERFI | Étude du freight forwarding en France |
-| Silicon Valley Bank / IWSR | État du marché du vin 2025-2026 |
-| CNIL | Règles de prospection B2B (emails, téléphone) |
-| Viticolis, Vinotrans, Dartess, Eureka Logistique | Veille concurrentielle logistique vins |
-| VELA, TOWT, Grain de Sail | Transport maritime à la voile (veille décarbonation) |
+| Chiffre | Valeur officielle | Période |
+|---|---|---|
+| CA 2025 | 1 148 961 € (+11,6 %) | Année 2025 |
+| CA 2026 | 991 568 € (+18,7 % vs 2025 à date) | Janv.-sept. 2026 |
+| CA vins expédiés (valeur transportée) | 2 781 717 € | Janv.-sept. 2026 |
+| Trajectoire | ×4,7 (246 637 € → 1 148 961 €) | 2021 → 2025 |
+| Expéditions | 6 643 (dont 1,45 % annulées) - 5 092 shippings | 12 mois glissants - janv.-sept. 2026 |
+| Bouteilles | 65 277 | Janv.-sept. 2026 |
+| Base comptes | 710 (448 prospects, 227 récents, 35 dormants) | Au 24/09/2026 |
+| Nouveaux adhérents | ~145 | 12 mois glissants |
+| Répartition destinations | USA 64,5 %, France 18,6 % | 12 mois glissants |
+| Assurance ad valorem souscrite | 89,8 % des expéditions | 12 mois glissants |
+| Colisage dominant | Cartons 6 bt (33,4 %) et 12 bt (31,3 %) | 12 mois glissants |
+| Avis Google | 4,8 à 5/5, près de 300 avis | Vérifier en direct avant citation |
 
-> **REPÈRE —** Les chiffres de ce playbook sont arrêtés à la date d'édition. FEVS et OIV publient chaque année : vérifier leurs dernières publications avant toute diffusion externe d'un chiffre de marché.
+*(Les sources externes de marché S01-S13 et internes S14-S15 sont cataloguées au chap. 17.1 - une seule bibliographie, au chapitre annexes.)*
 
-## 16.12 Gouvernance et mise à jour de ce playbook
+## 16.10 Gouvernance et mise à jour de ce playbook
 
-- **Propriétaire** : direction commerciale.
+- **Propriétaire** : Floriane Février (gérante) - direction commerciale ; rédaction et maintenance : Emma (chargée de projets & développement).
 - **Cycle** : revue trimestrielle (retro) + refonte annuelle à la publication de la documentation N+1 (grilles, CGS, destinations) — et mise à jour immédiate après tout changement majeur (grille, réglementation, destination).
 - **Contributions** : tout commercial peut proposer une modification (nouvelle objection rencontrée, verbatim gagnant, veille concurrence) — la vérité du terrain fait le playbook.
 - **Diffusion** : document strictement interne. On ne transfère jamais le playbook intégral à un prospect, un client ou un partenaire — seuls les supports approuvés sortent : brochure/flyer, devis, CGS, grilles tarifaires, cas client autorisé, FAQ.
@@ -241,6 +233,15 @@ Les chiffres de marché de ce playbook s'appuient sur les sources suivantes (à 
 > 🚫 **INTERDIT —** Ne jamais partager à l'extérieur, sous aucune forme : coûts d'achat, marges, concentration du CA, données CRM, clauses des contrats partenaires.
 
 > ⚠️ **POINT DE VIGILANCE —** Toute promesse hors standard — délai garanti, engagement de température, exclusivité, remise, allégation carbone — requiert une **validation écrite de la direction** avant d'être formulée au client.
+
+### Historique des versions
+
+| Version | Date | Contenu |
+|---|---|---|
+| 1.0 | Août 2026 | Rédaction initiale : 18 chapitres, annexes documentaires, sources S01-S13 |
+| 1.1 | Septembre 2026 | Chiffres consolidés depuis les dashboards Planet'Connect (24/09/2026) ; refonte du chap. 13 sur la procédure sinistres 2026 ; captures des dashboards admin ; table des chiffres officiels (16.9) ; intégration des nouveaux process Drive 2026 |
+
+**Prochaine révision planifiée** : à la publication de la documentation 2027 (grilles, CGS) - premier trimestre 2027.
 
 ---
 

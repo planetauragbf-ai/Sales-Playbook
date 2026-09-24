@@ -64,6 +64,8 @@ const DIAGRAMS = [
   { match: /300 comptes ciblés/, img: 'diagrams/d07_funnel.png', w: 400 },
   { match: /GÉNÉRALISTE\s+SPÉCIALISTE VIN/, img: 'diagrams/d10_mapping.png', w: 500 },
   { match: /Signalement \(≤48 h/, img: 'diagrams/d13_sinistre.png', w: 520 },
+  { match: /LE CLIENT CHOISIT : RXP ou remboursement/, img: 'diagrams/d13_arbre.png', w: 520 },
+  { match: /Le client demande un prix → On récupère/, img: 'diagrams/d07_cotation.png', w: 520 },
   { match: /SOURCES\s+──►\s+HUBSPOT/, img: 'diagrams/d14_data.png', w: 440 },
   { match: /Leads → Qualifiés → RDV tenus/, img: 'diagrams/d15_funnel.png', w: 520 },
 ];

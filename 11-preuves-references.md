@@ -112,18 +112,21 @@ Huit chiffres qui racontent l'entreprise en une minute, à dérouler en ouvertur
 
 | KPI | Chiffre |
 |---|---|
-| Chiffre d'affaires 2025 | **1,15 M€** (+14 % vs 2024) |
-| Clients actifs | **220+** (sur 604 comptes au total) |
-| Entrepôt à Castres | **323 m²** (+300 m³ acquis en 2026) |
+| Chiffre d'affaires 2025 | **1 148 961 €** (+11,6 % vs 2024 ; +18,7 % en 2026 à date) |
+| Adhérents | **262** (dont 227 actifs sur 9 mois) - **~145 nouveaux** en 12 mois |
+| Entrepôt à Castres | **323 m²** (+ un entrepôt de plus de 300 m² acquis en 2026) |
 | Destinations | **100+** (UE, USA, Asie…) |
-| Expéditions par an | **~6 000** (~38 502 bouteilles) |
-| Part des États-Unis | **80 %** des expéditions (marché n°1) |
+| Expéditions | **6 643** sur 12 mois (65 277 bouteilles janv.-sept. 2026) |
+| Part des États-Unis | **64,5 %** des expéditions (marché n°1) |
+| Fiabilité d'exécution | **1,45 %** de commandes annulées seulement |
 | Transport décarboné VELA | **−90 %** de CO2 sur la traversée transatlantique |
-| Note Google | **4,8/5** (296 avis clients) |
+| Note Google | **4,8 à 5/5** (près de 300 avis clients) |
+
+*(Source : dashboards Planet'Connect, 24/09/2026 - table des chiffres officiels au chap. 16.9.)*
 
 À compléter par un repère d'implantation : filiale aux USA implantée à **Chicago, Illinois, depuis janvier 2024** (flyer de prospection).
 
-> ⚠️ **POINT DE VIGILANCE —** Le flyer de prospection porte encore des chiffres antérieurs (500 adhérents, plus de 130 pays de livraison, 58 994 bouteilles expédiées en 2023, export = 90 % des expéditions). En rendez-vous, citer en priorité la grille de KPIs 2025-2026 ci-dessus et ne pas mélanger les deux millésimes de chiffres.
+> ⚠️ **POINT DE VIGILANCE —** Le flyer de prospection porte encore des chiffres antérieurs (500 adhérents, plus de 130 pays de livraison, 58 994 bouteilles expédiées en 2023, export = 90 % des expéditions). En rendez-vous, citer exclusivement la grille ci-dessus, alignée sur les dashboards Planet'Connect — ne jamais mélanger deux millésimes de chiffres.
 
 ## 11.6 Objets de preuve à montrer physiquement
 

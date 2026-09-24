@@ -20,6 +20,23 @@
 
 **Red flags disqualifiants** : vente exclusivement B2B ; produits > 21° hors solution spiritueux USA ; bouteilles sans CRD ; attente de délais garantis contractuels ; demande de crédit fournisseur (nos factures sont payables à la commande).
 
+### Le top 10 réel qui valide l'ICP (12 mois glissants, dashboard commercial 24/09/2026 - usage strictement interne)
+
+| Adhérent | Profil | Envois | CA Planet Aura |
+|---|---|---|---|
+| Planet Provence | Réseau de domaines provençaux | 483 | 157 680 € |
+| Château de Pommard | Maison bourguignonne, œnotourisme international | 299 | 126 760 € |
+| Les Caves Ambacia | Cave touristique (Amboise) | 396 | 83 132 € |
+| O Chateau Picking | Expériences vin Paris | 209 | 56 292 € |
+| Champagne La Maison Penet | Maison de champagne | 365 | 50 094 € |
+| Château La Coste | Domaine provençal art & vin | 184 | 35 045 € |
+| Les Caves du Louvre | Cave touristique Paris | 125 | 30 138 € |
+| Domaine de la Citadelle | Domaine Luberon | 128 | 29 050 € |
+| Break Events - GL events | Événementiel / salons | 9 | 26 846 € |
+| Maison Ogier | Maison rhodanienne | 76 | 24 670 € |
+
+Trois enseignements ICP : (1) le cœur du CA vient de **caveaux et caves à fort flux de visiteurs étrangers** - exactement la colonne « Idéal » ci-dessus ; (2) un compte **événementiel** place 26 846 € en 9 envois seulement : le panier moyen y est ~30 fois supérieur (cf. axe GL events / Aux Vignobles !, chap. 8.5) ; (3) une maison de champagne figure dans le top 5 - le segment 2 n'est pas théorique.
+
 ## 5.2 Segments et priorisation
 
 ### Segment 1 — Domaines & châteaux avec caveau (cœur de cible, ~60 % de l'effort)
@@ -287,11 +304,13 @@ Règle : **80 % du temps commercial sur les tiers A/B** ; les C vivent via l'ani
 
 ## 5.7 Gérer le portefeuille existant : protéger, développer, réactiver
 
-Le dimensionnement 5.6 priorise les **prospects** ; cette section pilote les **comptes existants**. Photographie du portefeuille :
+Le dimensionnement 5.6 priorise les **prospects** ; cette section pilote les **comptes existants**. Photographie officielle du portefeuille (dashboard commercial Planet'Connect, 24/09/2026) :
 
-| Actifs | Inactifs | Clients A | CA 2025 |
-|---|---|---|---|
-| 160 (photographie livrables) | 390 (gisement à qualifier) | 20 % des comptes / 76 % du CA | 1,145 M€ (donnée PAC à confirmer) |
+| Base totale | Prospects | Adhérents récents (≤ 9 mois) | Dormants (> 9 mois) | CA 2025 |
+|---|---|---|---|---|
+| **710 comptes** | **448** | **227** | **35** | **1 148 961 €** |
+
+Répartition réelle des comptes suivis : **vignerons 40,4 %**, cavistes 13 %, négociants 8,9 %, maisons de champagne 7,5 %, direct châteaux 5,5 % - et par région : **Grand Est 26,7 %**, **Provence-Alpes-Côte d'Azur 26 %**, Occitanie 12,3 %, Nouvelle-Aquitaine et Île-de-France ~10 % chacune. Deux lectures utiles : nos deux bastions régionaux (Champagne/Alsace d'un côté, Provence de l'autre) concentrent plus de la moitié du portefeuille, et le cœur de cible vigneron domine très largement les catégories.
 
 ### Une motion différente par segment de portefeuille
 
@@ -313,7 +332,7 @@ Prospect ──► Adhérent ──► Actif ──► Fidélisé
                           Dormant ──► réactivation (mails auto #70/#71 + appel)
 ```
 
-Seuil dormant : **9 mois sans expédition** (à revalider) — les mails automatiques #70/#71 se déclenchent, mais ils ne remplacent pas l'appel.
+Seuil dormant : **9 mois sans expédition** — c'est le seuil officiel du back-office (le dashboard commercial classe les comptes en « Récents ≤ 9 mois » / « Dormants > 9 mois ») ; les mails automatiques #70/#71 se déclenchent, mais ils ne remplacent pas l'appel. Au 24/09/2026 : **35 comptes dormants** à réactiver — une liste d'appels toute prête.
 
 > ⚠️ **POINT DE VIGILANCE —** Une base inactive non qualifiée n'est **pas** un pipeline. Priorité 30 jours : auditer les comptes inactifs et qualifier le motif de chacun parmi les 8 motifs types — doublon, saisonnalité, prix, service, cessation d'activité, changement de contact, absence de besoin, opposition (opt-out).
 

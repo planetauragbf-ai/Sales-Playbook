@@ -364,8 +364,9 @@ La plateforme évolue en continu. Projets en cours de développement, à connaî
 | **Ticketing de gestion des sinistres** | Chaque sinistre devient un **ticket suivi** (dépôt des photos, statut du recours, échanges horodatés) au lieu du circuit email — traçabilité totale du signalement à l'indemnisation | Adhérents & exploitation |
 | **Plugins e-commerce clé en main** | Extensions **WordPress / WooCommerce, Shopify**… : l'API sans développeur — l'adhérent installe le plugin et sa boutique affiche frais de port et suivi Planet Aura | E-commerçants, domaines digitalisés |
 | **CRM poussé intégré** *(en cours)* | Gestion de la relation client de l'adhérent directement dans Planet'Connect : historique clients finaux, relances, réachat | Adhérents |
-| **Dashboards de suivi (côté admin)** | Tableaux de bord intégrés à Planet'Connect, connectés en **API à Ship24** : vision temps réel de tous les flux, tous transporteurs confondus | Exploitation & direction |
 | **Page de suivi personnalisée Planet Aura** | Page de tracking aux couleurs Planet Aura (API **Ship24**) : le client final suit son colis sur NOTRE page, quelle que soit la chaîne de transporteurs — fin des liens UPS/FedEx éclatés | Clients finaux & adhérents |
+
+**Déjà livré en 2026 — la preuve que la roadmap avance :** les **dashboards de suivi côté admin** sont en production dans Planet'Connect (onglets Logistique / Gestion / Commercial : CA temps réel, portefeuille, délais réels vs grille, file des sinistres — chap. 15.10). En rendez-vous, c'est l'argument qui crédibilise le reste de la feuille de route : « le dashboard promis l'an dernier est en ligne ; le chat, les plugins et le CRM suivent le même chemin ».
 
 **Comment en parler en rendez-vous** : « La plateforme que vous voyez aujourd'hui s'enrichit chaque année — chat intégré, plugins e-commerce prêts à installer, suivi unifié : vous adhérez à un outil qui grandit. »
 

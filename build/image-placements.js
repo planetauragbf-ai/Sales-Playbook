@@ -61,3 +61,30 @@ module.exports['07-processus-vente.md'] = module.exports['07-processus-vente.md'
 module.exports['07-processus-vente.md'].push(
   { after: 'handoff commercial', img: 'pics/pc_enlevements.png', w: 440, caption: 'Les lieux d’enlèvement de l’adhérent, gérés dans Planet’Connect' }
 );
+
+// Captures réelles des dashboards admin Planet'Connect (extraction 24/09/2026)
+module.exports['01-entreprise.md'].push(
+  { after: 'La trajectoire du chiffre d’affaires|La trajectoire du chiffre d.affaires', img: 'pics/dash_histo_ca.png', w: 470, caption: 'Historique du CA mensuel 2021-2026 - dashboard gestion Planet’Connect (24/09/2026)' }
+);
+module.exports['02-marche.md'].push(
+  { after: '^2\\.8 Saisonnalit', img: 'pics/dash_ship_evo.png', w: 470, caption: 'Nombre de shippings par mois (sept. 2025 - sept. 2026) - dashboard logistique Planet’Connect' },
+  { after: '^2\\.10 Destinations demand', img: 'pics/dash_pays.png', w: 360, caption: 'Répartition réelle des shippings par pays sur 12 mois : États-Unis 64,5 %, France 18,6 % (dashboard logistique)' }
+);
+module.exports['03-offres-services.md'].push(
+  { after: '^3\\.4 USA Groupage', img: 'pics/dash_usa_etats.png', w: 360, caption: 'Groupage USA - poids réel des États sur 12 mois : Californie, Texas, New York, Floride en tête (dashboard logistique)' }
+);
+module.exports['05-cibles-personas.md'] = module.exports['05-cibles-personas.md'] || [];
+module.exports['05-cibles-personas.md'].push(
+  { after: '^5\\.7 Gérer le portefeuille', img: 'pics/dash_prospects.png', w: 470, caption: 'La photographie du portefeuille au 24/09/2026 : 448 prospects, 227 adhérents récents, 35 dormants' },
+  { after: '^5\\.7 Gérer le portefeuille', img: 'pics/dash_repartitions.png', w: 470, caption: 'Répartition du portefeuille par région et par catégorie (dashboard commercial Planet’Connect)' }
+);
+module.exports['13-sav-sinistres.md'] = [
+  { after: '^13\\.3 Le circuit officiel', img: 'pics/dash_sinistres.png', w: 470, caption: 'La file des sinistres en cours, suivie en temps réel dans le dashboard logistique Planet’Connect (24/09/2026)' },
+  { after: '^13\\.12 Le SAV comme argument', img: 'pics/dash_assurance.png', w: 330, caption: '89,8 % des expéditions des 12 derniers mois sont parties avec l’assurance ad valorem souscrite' }
+];
+module.exports['15-kpis-pilotage.md'] = module.exports['15-kpis-pilotage.md'] || [];
+module.exports['15-kpis-pilotage.md'].push(
+  { after: '^15\\.2 Le funnel', img: 'pics/dash_nouveaux.png', w: 470, caption: 'Nouveaux adhérents par mois et cumul sur 12 mois (~145 nouveaux) - dashboard commercial' },
+  { after: '^15\\.10 Tableau de bord mensuel', img: 'pics/dash_gestion.png', w: 470, caption: 'Le tableau de bord gestion réel : CA, CA vins expédiés, shippings, bouteilles - janv.-sept. 2026' },
+  { after: '^15\\.10 Tableau de bord mensuel', img: 'pics/dash_ca_graph.png', w: 470, caption: 'CA, shippings et bouteilles par mois 2026 (dashboard gestion Planet’Connect)' }
+);

@@ -83,18 +83,7 @@ Méthode par engagement, pas par intuition :
 
 **Valeur d'un adhérent (année 1)** : nb d'envois estimés × prestation moyenne (~150-250 € selon mix destinations) + options (CIVC, stockage). Réviser après 90 jours d'historique réel.
 
-### Le test d'arithmétique : auto-contrôle des ordres de grandeur
-
-Avant de présenter un objectif ou un plan chiffré, on vérifie que les chiffres tiennent ensemble. Exemples de contrôles :
-
-| Contrôle | Calcul juste | Erreur classique |
-|---|---|---|
-| Cartons par palettes | 20 palettes × 20 cartons = 400 cartons | Écrire 600 cartons ou 30 palettes |
-| Tonnage | 400 cartons × 18 kg = 7,2 t | Annoncer 20 palettes ET 8 t (incohérent) |
-| Chiffre d'affaires | 400 cartons × 238 € = 95 200 € | Annoncer 20 palettes ET 100 k€ (incohérent) |
-| Seuil de capacité | 8 t à 18 kg/carton = 445 cartons ≈ 22,25 palettes | Garder le triptyque volume/prix/capacité sans le rebaseliner |
-
-> ⚠️ **POINT DE VIGILANCE —** Si un des trois chiffres (volume, prix, capacité) bouge, on rebaseline les deux autres. Un plan dont l'arithmétique ne tombe pas juste perd toute crédibilité en revue de direction — et en face du client.
+> ⚠️ **POINT DE VIGILANCE —** Avant de présenter un plan chiffré, vérifier que volume, prix et capacité tombent juste ensemble (ex. 20 palettes × 20 cartons = 400 cartons = 7,2 t à 18 kg - pas « 8 t »). Si l'un des trois bouge, on recalcule les deux autres : un plan dont l'arithmétique ne tombe pas juste perd toute crédibilité, en revue de direction comme en face du client.
 
 ## 15.7 Rituels d'équipe
 
@@ -147,7 +136,17 @@ Cinq décisions reviennent sans cesse et créent des frictions si personne ne sa
 4. Les fiches adhérents portent : tiers, health score, contacts caveau À JOUR (les saisonniers changent !), destinations récurrentes, particularités (CIVC, POA fréquents, e-shop connecté).
 5. Les leads inbound (formulaire site) sont **routés le jour même** avec horodatage du premier rappel.
 
-## 15.10 Tableau de bord mensuel type (une page)
+## 15.10 Tableau de bord mensuel : il existe, il est dans Planet'Connect
+
+Depuis 2026, le pilotage ne se fait plus « à construire dans un tableur » : **trois dashboards admin sont en production dans Planet'Connect** (onglets Logistique / Gestion / Commercial), alimentés en temps réel par le back-office.
+
+| Dashboard | Ce qu'on y lit | Usage commercial |
+|---|---|---|
+| **Gestion** | CA mensuel et annuel (historique 2021-2026), CA vins expédiés, shippings, bouteilles ; filtrable par adhérent et par période (journalier → annuel) | Préparer une revue de compte avec les chiffres réels de l'adhérent |
+| **Commercial** | Prospects / récents / dormants, répartitions par région et catégorie, évolution des nouveaux adhérents, volumes et CA par adhérent, panier moyen par destination et par adhérent, % commandes annulées, cartonnages | Prioriser le portefeuille (chap. 5.7), préparer les réactivations, suivre sa cohorte de nouveaux |
+| **Logistique** | Évolution des shippings, répartition par pays et par État US, délais réels vs grille par destination, historiques de livraison, file des sinistres | Répondre avec des délais observés (pas promis), anticiper les dossiers sensibles |
+
+La revue mensuelle type reste une page, désormais tirée de ces dashboards :
 
 - Envois du mois (vs N-1) & CA services — par région, par destination.
 - Nouveaux signés / nouveaux activés / taux d'activation 30 j.
@@ -188,12 +187,13 @@ Le pilotage se traduit en plan d'action daté, budgété et conditionné : chaqu
 | Marketing automation | **Brevo** | Séquences et campagnes (3 séquences socle en roadmap M1-M2) ; scénarios de nurturing à enrichir |
 | Plateforme métier | **Planet'Connect** (+ API) | Commandes, suivi, factures, e-signature, mails automatiques (~30 modèles) — modifications via Emma |
 | Gestion des stocks | **Planet'Stock** (nouveau, en déploiement) | Suivi des stocks entrepôt liés à l'offre stockage & picking (chap. 3.9) — périmètre à confirmer |
-| Roadmap plateforme (en développement) | Chat IA + chat humain, ticketing sinistres, plugins WordPress/WooCommerce/Shopify, **CRM intégré**, dashboards admin + page de suivi personnalisée (API **Ship24**) | Feuille de route produit Planet'Connect (chap. 3.13) — à citer comme trajectoire, jamais comme acquis |
+| Dashboards admin (**en production**) | Logistique / Gestion / Commercial dans Planet'Connect (15.10) | Pilotage temps réel : CA, portefeuille, délais réels, sinistres |
+| Roadmap plateforme (en développement) | Chat IA + chat humain, ticketing sinistres, plugins WordPress/WooCommerce/Shopify, **CRM intégré**, page de suivi personnalisée (API **Ship24**) | Feuille de route produit Planet'Connect (chap. 3.13) — à citer comme trajectoire, jamais comme acquis |
 | Collaboration | **Google Workspace** (Drive, Docs/Sheets, Gmail, Meet) + WhatsApp Business | Drive = source unique des documents officiels (dossiers adhérents 2026) ; visio et messagerie |
 | Reporting / BI | Dashboards HubSpot + tableau de bord mensuel une page (15.10) | Revue mensuelle de performance ; reporting HubSpot renforcé en roadmap M2 |
 | Cycle de contrat (CLM) | Signature électronique Planet'Connect + archivage Drive | Documentation annuelle re-signée chaque année (mars-avril) ; avenants et résiliations : traités par la direction, à formaliser |
-| Onboarding & formation | Plan 30-60-90 (chap. 12.8) + rituel playbook trimestriel | Le playbook EST le support de formation ; matrice de compétences à construire (proposition en ouverture, 17.16) |
+| Onboarding & formation | Plan 30-60-90 (chap. 12.8) + rituel playbook trimestriel + **matrice de compétences « Missions Planet Aura »** (Drive) | Le playbook EST le support de formation ; la matrice liste les savoir-faire par pôle (BO, commandes UE/tiers, USA direct, groupages, documents) et sert de grille de montée en compétence |
 
-> ⚠️ **POINT DE VIGILANCE —** Les éléments notés « à confirmer / à construire » (licences Sales Navigator, dashboards avancés, matrice de compétences, process avenants) sont des chantiers Sales Ops, pas des acquis : ne pas les présenter comme existants.
+> ⚠️ **POINT DE VIGILANCE —** Les éléments notés « à confirmer / à construire » (licences Sales Navigator, process avenants) sont des chantiers Sales Ops, pas des acquis : ne pas les présenter comme existants. Les dashboards admin et la matrice de compétences, eux, **existent** — les utiliser.
 
 > 📌 **À RETENIR —** Un KPI n'est utile que s'il a une formule partagée, une fréquence de lecture et une décision associée. On mesure d'abord 90 jours sans maquiller (baseline), puis on fixe les cibles par segment. Chaque rituel produit une sortie obligatoire, chaque décision a un responsable (RACI), et chaque chiffre présenté passe le test d'arithmétique. La feuille de route apprend vite avec 3 000 € maximum : pas de critère de passage atteint, pas d'étape suivante.

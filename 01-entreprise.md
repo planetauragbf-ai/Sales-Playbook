@@ -10,7 +10,7 @@
 
 Chez Planet Aura, nous ne transportons qu'un seul type de produit : le vin, le champagne et les spiritueux. Ce choix n'est pas une limite, c'est notre force : derrière chaque bouteille, il y a un vigneron, une récolte, une réputation. Notre statut de commissionnaire de transport signifie que nous organisons le transport en notre nom propre et que nous portons une **obligation de résultat sur l'ensemble de la chaîne**.
 
-En quelques années, nous sommes passés de quelques expéditions à **plus de 200 clients actifs** et un chiffre d'affaires **dépassant le million d'euros** (à revalider avant diffusion externe), avec une filiale aux États-Unis pour accompagner nos clients jusqu'au dernier kilomètre. Notre ambition : **devenir la référence du transport international du vin** — y compris demain avec le voilier-cargo **VELA** pour décarboner la traversée transatlantique.
+En quelques années, nous sommes passés de quelques expéditions à **plus de 250 adhérents** et un chiffre d'affaires de **1,15 M€ en 2025**, avec une filiale aux États-Unis pour accompagner nos clients jusqu'au dernier kilomètre. Notre ambition : **devenir la référence du transport international du vin** — y compris demain avec le voilier-cargo **VELA** pour décarboner la traversée transatlantique.
 
 > **Phrase à utiliser (notre porte d'entrée commerciale) :** « Vos clients américains méritent mieux qu'un colis bloqué à la douane. »
 
@@ -21,7 +21,7 @@ Quatre repères guident chacune de nos décisions — et doivent guider les vôt
 3. **Sens du détail**
 4. **Responsabilité**
 
-> ⚠️ **POINT DE VIGILANCE —** Les chiffres cités dans cet édito (clients actifs, CA, périmètre de la structure américaine et de VELA) sont des photographies à un instant donné : faites-les revalider par la direction avant tout usage externe (proposition, presse, salon).
+> **REPÈRE —** Les chiffres de ce chapitre sont désormais consolidés depuis les **dashboards de gestion Planet'Connect** (extraction du 24/09/2026) : c'est la source de référence unique (chap. 16.9). Pour un usage externe (proposition, presse, salon), citer l'année et la source, et vérifier le dashboard du moment.
 
 ## 1.2 Le mot d'accueil d'Emma — notre culture d'équipe
 
@@ -46,7 +46,7 @@ Bienvenue dans l'équipe. Avant les grilles tarifaires et les scripts, retenez n
 | Immatriculation | RCS de Castres n° **850 624 636** |
 | Code NAF/APE | **52.29B** — Affrètement et organisation des transports |
 | Convention collective | Transports routiers et activités auxiliaires du transport — **IDCC 16** |
-| Effectif | Une dizaine de salariés (à revalider) |
+| Effectif | Une dizaine de personnes (procédures internes 2026) |
 | Clôture d'exercice | 31/12 |
 | N° TVA intracommunautaire | **FR54 850 624 636** |
 | N° SIRET | 850 624 636 00021 |
@@ -227,23 +227,34 @@ Planet Aura porte un **projet d'ouverture d'une annexe en Champagne** — un anc
 
 | Indicateur | Valeur | Ce que ça prouve en rendez-vous |
 |---|---|---|
-| Chiffre d'affaires 2025 | **1,15 M€** (+14 % vs 2024) (à revalider) | Une entreprise qui grandit, pas une start-up fragile |
-| Clients actifs | **220+** (sur 604 comptes au total) | Un réseau vivant, pas un fichier dormant |
+| Chiffre d'affaires 2025 | **1 148 961 €** (+11,6 % vs 2024) | Une entreprise qui grandit, pas une start-up fragile |
+| CA 2026 (janv.-sept.) | **991 568 €** (+18,7 % vs 2025 à date) | Une croissance qui accélère encore |
+| Adhérents | **262** (227 actifs sur 9 mois + 35 dormants), **~145 nouveaux** en 12 mois | Un réseau vivant, pas un fichier dormant |
 | Entrepôt Castres | **323 m²** (+ un entrepôt de plus de 300 m² acquis en 2026) | Une logistique en propre, pas un simple bureau |
 | Destinations | **100+** (UE, USA, Asie…) | Une couverture réellement internationale |
-| Expéditions | **~6 000 / an** (~38 502 bouteilles) (à revalider) | Un volume qui rassure sur la maîtrise opérationnelle |
-| Part des USA | **80 % de l'activité** | Le marché n°1, là où notre filiale fait la différence |
+| Expéditions | **6 643 sur 12 mois** (65 277 bouteilles janv.-sept. 2026) | Un volume qui rassure sur la maîtrise opérationnelle |
+| Part des USA | **64,5 % des expéditions** (France 18,6 %, puis Allemagne, UK, Italie) | Le marché n°1, là où notre filiale fait la différence |
+| Fiabilité | **1,45 %** de commandes annulées seulement (96 / 6 643) | L'exécution tient la promesse |
 | CO2 transatlantique | **-90 %** avec VELA | Une réponse concrète à la pression RSE |
-| Satisfaction | **4,8/5 sur Google** (296 avis) | La preuve sociale, vérifiable en deux clics |
+| Satisfaction | **4,8 à 5/5 sur Google** (près de 300 avis) | La preuve sociale, vérifiable en deux clics |
 
-> ⚠️ **POINT DE VIGILANCE —** Le volume annuel de bouteilles diverge selon les sources (~38 502 bouteilles/an sur la grille KPI ; 58 994 bouteilles expédiées en 2023 selon le flyer). De même, le CA 2025 (1,15 M€) doit être confirmé par la direction/finance. Faites valider tout chiffre avant de l'écrire dans une proposition.
+> **REPÈRE —** Source unique de ces chiffres : dashboards gestion / commercial / logistique de Planet'Connect, extraction du **24/09/2026** (périodes indiquées ligne à ligne). La valeur du CA vins expédiés pour le compte des adhérents s'élève à **2 781 717 €** sur janv.-sept. 2026 : nous transportons près de 3 € de vin pour 1 € de chiffre d'affaires - un bon ordre de grandeur à donner en rendez-vous.
 
 ### La trajectoire du chiffre d'affaires
 
-- **246 k€** de CA en 2021 (point de départ).
-- **1,15 M€** en 2025 (à revalider), soit **×4,6 en quatre ans** (2021-2025) et **+14 %** vs 2024.
-- **587 k€ au 1er semestre 2026** : déjà devant les années passées à la même date.
-- Croissance continue : chaque année passe au-dessus de la précédente, 2026 domine dès les premiers mois.
+La série officielle (dashboard gestion Planet'Connect, 24/09/2026) :
+
+| Année | CA | Évolution |
+|---|---|---|
+| 2021 | 246 637 € | - |
+| 2022 | 800 065 € | +224 % |
+| 2023 | 910 505 € | +13,8 % |
+| 2024 | 1 029 570 € | +13,1 % |
+| 2025 | **1 148 961 €** | **+11,6 %** |
+| 2026 (janv.-sept.) | **991 568 €** | **+18,7 %** vs 2025 à date |
+
+- **×4,7 en quatre ans** (2021-2025), sans année de recul.
+- 2026 accélère : chaque mois de 2026 domine la courbe pluriannuelle, avec des pics à 160-170 k€/mois (mai, juin, septembre).
 
 **Saisonnalité à connaître pour caler sa prospection :** deux pics — printemps (mai-juin) et rentrée (septembre-octobre) — et deux creux — estival (août) et hivernal (janvier-février). Le vin s'expédie au rythme des saisons et des fêtes : prospectez avant les pics, pas pendant.
 
@@ -310,4 +321,4 @@ L'argumentaire détaillé qui découle de cet ADN est développé au chapitre 06
 
 **Comment l'utiliser en rendez-vous :** appuyez-vous sur les forces (statut, spécialisation, TTB, Planet'Connect, VELA) sans jamais nier les faiblesses si le prospect les soulève — reconnaître honnêtement notre taille de PME et la transformer en argument de proximité est plus crédible qu'un déni.
 
-> 📌 **À RETENIR —** Planet Aura n'est pas « un transporteur de plus » : c'est un **commissionnaire de transport** spécialisé vins, champagnes et spiritueux, fondé le 6 mai 2019 à Castres par deux anciens d'Easy Wine, avec une obligation de résultat de bout en bout, une filiale américaine licenciée TTB à côté de JFK (80 % de l'activité vers les USA), une plateforme propriétaire Planet'Connect et une trajectoire de croissance continue (×4,6 entre 2021 et 2025, à revalider). La règle d'or du commercial : **on dit ce qu'on fait, on fait ce qu'on dit, on ne survend jamais** — et tout chiffre cité à l'extérieur est d'abord validé par la direction.
+> 📌 **À RETENIR —** Planet Aura n'est pas « un transporteur de plus » : c'est un **commissionnaire de transport** spécialisé vins, champagnes et spiritueux, fondé le 6 mai 2019 à Castres par deux anciens d'Easy Wine, avec une obligation de résultat de bout en bout, une filiale américaine licenciée TTB à côté de JFK (64,5 % des expéditions vers les USA), une plateforme propriétaire Planet'Connect et une trajectoire de croissance continue (×4,7 entre 2021 et 2025, +18,7 % en 2026 à date). La règle d'or du commercial : **on dit ce qu'on fait, on fait ce qu'on dit, on ne survend jamais** — et tout chiffre cité à l'extérieur est d'abord validé par la direction.

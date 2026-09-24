@@ -89,7 +89,7 @@ Règle : **ne jamais confondre une demande de prix et un dossier export qualifi�
 
 ## 14.7 Autres spécificités destinations
 
-- **Norvège** : 2 zones logistiques (Zone 1 Sud / Zone 2 Nord), tarifs et délais distincts.
+- **Norvège** : 2 zones logistiques (Sud / Nord), tarifs et délais distincts — toujours raisonner en Sud/Nord et par comté, jamais en numéro de zone (chap. 4).
 - **UE** : pas de taxes, mais modalités nationales à respecter (c'est notre affaire) ; TTC affiché.
 - **DOM** : DAP uniquement, HT, délais hors douane 7-8 j.
 - **Îles européennes, Malte, Corse** : grilles spécifiques (surcoûts insulaires).
