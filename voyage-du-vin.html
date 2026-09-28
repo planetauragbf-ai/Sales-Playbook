@@ -1,922 +1,135 @@
 <title>Le Voyage du Vin</title>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&family=Archivo:wght@400;500;600;700&display=swap">
 <style>
-/* Layout : récit vertical plein écran — chaque étape est une scène sticky animée par la progression du défilement (--p de 0 à 1). */
+/* Récit photographique horizontal : le défilement vertical fait avancer un travelling
+   de gauche à droite, plein écran, sans texte. 11 scènes, du caveau français à Manhattan. */
 :root{
-  --ink:#171210;          /* nuit de cave */
-  --ink2:#211913;         /* panneau */
-  --wine:#8e2f42;         /* vin */
-  --wine-deep:#571e2c;
-  --gold:#c99e57;         /* laiton / lumière */
-  --cream:#f0e7d8;        /* texte */
-  --muted:#a5947c;        /* texte secondaire */
-  --kraft:#a07b48;        /* carton */
-  --kraft-dark:#6f5430;
-  --glassline:#cfd8cd;
-  --night:#1b2233;        /* ciel new-yorkais */
-  --font-display:"Fraunces",Georgia,serif;
-  --font-body:"Archivo","Helvetica Neue",Arial,sans-serif;
+  --ink:#0c0a08;
+  --gold:#c99e57;
+  --n:11;                    /* nombre de scènes */
   color-scheme:dark;
 }
-html{scroll-behavior:auto}
-body{
-  margin:0;background:var(--ink);color:var(--cream);
-  font-family:var(--font-body);font-size:16px;line-height:1.6;
-  overflow-x:hidden;
-}
-::selection{background:var(--wine);color:var(--cream)}
+html,body{margin:0;padding:0}
+body{background:var(--ink);overflow-x:hidden}
 
-/* ------- habillage fixe ------- */
+.story{height:calc(var(--n) * 88vh + 100vh);height:calc(var(--n) * 88svh + 100svh)}
+.frame{
+  position:sticky;top:0;height:100vh;height:100svh;overflow:hidden;background:var(--ink);
+}
+.track{
+  display:flex;height:100%;
+  transform:translateX(calc(var(--p,0) * (1 - var(--n)) * 100vw));
+  will-change:transform;
+}
+.panel{position:relative;flex:0 0 100vw;height:100%;overflow:hidden;background:var(--ink)}
+.panel img{
+  position:absolute;top:0;bottom:0;left:-7vw;height:100%;width:114vw;max-width:none;
+  object-fit:cover;
+  transform:translateX(calc(var(--d,0) * 5vw)) scale(1.03);
+  will-change:transform;
+}
+/* vignettage cinéma + fondu entre les scènes */
+.panel::before{
+  content:"";position:absolute;inset:0;z-index:1;pointer-events:none;
+  background:
+    linear-gradient(90deg,rgba(12,10,8,.55) 0%,transparent 7%,transparent 93%,rgba(12,10,8,.55) 100%),
+    radial-gradient(130% 100% at 50% 50%,transparent 62%,rgba(0,0,0,.42) 100%);
+}
+
+/* ligne de progression */
 .progress{
-  position:fixed;top:0;left:0;right:0;height:3px;z-index:50;
-  padding-top:env(safe-area-inset-top,0px);pointer-events:none;
+  position:fixed;left:0;right:0;bottom:0;z-index:10;height:3px;pointer-events:none;
+  padding-bottom:env(safe-area-inset-bottom,0px);
 }
 .progress i{
-  display:block;height:3px;background:linear-gradient(90deg,var(--wine),var(--gold));
-  transform-origin:left center;transform:scaleX(var(--scroll,0));
-}
-.brand{
-  position:fixed;z-index:50;left:16px;top:calc(10px + env(safe-area-inset-top,0px));
-  font-family:var(--font-body);font-weight:700;font-size:.72rem;letter-spacing:.28em;
-  color:var(--gold);text-transform:uppercase;pointer-events:none;
-  text-shadow:0 1px 8px rgba(23,18,16,.9);
+  display:block;height:3px;background:linear-gradient(90deg,#7c2b3d,var(--gold));
+  transform-origin:left center;transform:scaleX(var(--p,0));
 }
 
-/* ------- hero ------- */
-.hero{
-  min-height:86svh;display:flex;flex-direction:column;justify-content:center;align-items:center;
-  text-align:center;padding:96px 20px 48px;position:relative;
-  background:
-    radial-gradient(60% 45% at 50% 8%,rgba(201,158,87,.10),transparent 70%),
-    radial-gradient(45% 35% at 50% 100%,rgba(142,47,66,.16),transparent 70%),
-    var(--ink);
+/* invitation à défiler (icône seule, sans mot) */
+.cue{
+  position:fixed;left:50%;bottom:calc(26px + env(safe-area-inset-bottom,0px));z-index:10;
+  transform:translateX(-50%);pointer-events:none;opacity:.9;
+  transition:opacity .5s ease;
 }
-.hero .eyebrow{
-  font-size:.78rem;letter-spacing:.24em;text-transform:uppercase;color:var(--gold);
-  font-weight:600;margin:0 0 18px;
-}
-.hero h1{
-  font-family:var(--font-display);font-weight:600;font-size:clamp(2.6rem,8vw,5.4rem);
-  line-height:1.04;margin:0;text-wrap:balance;letter-spacing:-.01em;
-}
-.hero h1 em{font-style:italic;color:var(--gold)}
-.hero .lede{
-  max-width:34em;color:var(--muted);font-size:clamp(1rem,2.2vw,1.15rem);margin:26px auto 0;
-}
-.hero .route{
-  display:flex;align-items:center;gap:14px;margin-top:38px;flex-wrap:wrap;justify-content:center;
-  font-size:.8rem;letter-spacing:.14em;text-transform:uppercase;color:var(--cream);font-weight:600;
-}
-.hero .route .dash{width:72px;height:1px;background:repeating-linear-gradient(90deg,var(--gold) 0 6px,transparent 6px 12px)}
-.hero .route .pt{display:flex;align-items:center;gap:8px}
-.hero .route .pt::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--wine);box-shadow:0 0 0 3px rgba(142,47,66,.25)}
-.hero .cue{
-  margin-top:52px;color:var(--muted);font-size:.78rem;letter-spacing:.2em;text-transform:uppercase;
-  display:flex;flex-direction:column;align-items:center;gap:10px;
-}
-.hero .cue svg{width:18px;height:26px;animation:cue 2.2s ease-in-out infinite}
-@keyframes cue{0%,100%{transform:translateY(0);opacity:.5}50%{transform:translateY(8px);opacity:1}}
+.cue.hide{opacity:0}
+.cue svg{display:block;width:26px;height:38px;animation:cue 2.2s ease-in-out infinite;filter:drop-shadow(0 1px 6px rgba(0,0,0,.8))}
+@keyframes cue{0%,100%{transform:translateY(0);opacity:.55}50%{transform:translateY(9px);opacity:1}}
 
-/* ------- scènes ------- */
-.scene{position:relative;height:calc(var(--len,2.5) * 100vh);height:calc(var(--len,2.5) * 100svh)}
-.stick{
-  position:sticky;top:0;height:100vh;height:100svh;overflow:hidden;
-  display:flex;flex-direction:column;align-items:center;justify-content:flex-end;
-  padding:18px 16px calc(20px + env(safe-area-inset-bottom,0px));
-  background:var(--scene-bg,var(--ink));
-}
-.art{flex:1;min-height:0;width:min(94vw,900px);display:flex;align-items:center;justify-content:center}
-.art svg{width:100%;height:100%;display:block;overflow:visible}
-.cap{
-  width:min(94vw,660px);border-left:2px solid var(--gold);
-  background:color-mix(in srgb,var(--ink2) 88%,transparent);
-  backdrop-filter:blur(4px);
-  padding:14px 20px 16px;border-radius:0 10px 10px 0;
-}
-.cap .cap-eyebrow{
-  margin:0 0 4px;font-size:.7rem;font-weight:700;letter-spacing:.24em;text-transform:uppercase;color:var(--gold);
-}
-.cap h2{
-  margin:0 0 6px;font-family:var(--font-display);font-weight:600;
-  font-size:clamp(1.35rem,3.4vw,1.9rem);line-height:1.15;text-wrap:balance;
-}
-.cap p{margin:0;color:var(--muted);font-size:clamp(.9rem,2vw,1rem);max-width:60ch}
-.cap strong{color:var(--cream);font-weight:600}
-
-/* SVG communs */
-svg text{font-family:var(--font-body)}
-.t-label{fill:var(--muted);font-size:13px;letter-spacing:.18em;font-weight:600}
-.t-small{fill:var(--muted);font-size:11px;letter-spacing:.08em}
-.btl-body{fill:#2e3a2e;stroke:#4c5b48;stroke-width:1}
-.btl-cap{fill:var(--gold)}
-.btl-label{fill:#e8dcc4}
-.btl-label-line{stroke:#8a7c5e;stroke-width:1.6;fill:none}
-.ctn-face{fill:var(--kraft);stroke:var(--kraft-dark);stroke-width:1.5}
-.ctn-tape{fill:#c8b189}
-.spin{transform-box:fill-box;transform-origin:center}
-
-/* ============ S1 — dégustation ============ */
-#sc1{
-  --p1:clamp(0,calc(var(--p) / .35),1);
-  --p2:clamp(0,calc((var(--p) - .3) / .18),1);
-  --p3:clamp(0,calc((var(--p) - .35) / .52),1);
-  --p4:clamp(0,calc((var(--p) - .84) / .12),1);
-}
-#sc1 .stick{--scene-bg:radial-gradient(70% 55% at 50% 30%,#241a12,var(--ink) 78%)}
-#sc1 .pour{transform-box:fill-box;transform-origin:center;transform:rotate(calc(14deg + var(--p1) * 100deg))}
-#sc1 .stream{opacity:calc(var(--p2) * (1 - var(--p4)))}
-#sc1 .wine-fill{transform-box:fill-box;transform-origin:center bottom;transform:scaleY(var(--p3))}
-#sc1 .glow{opacity:calc(.35 + var(--p3) * .4)}
-
-/* ============ S2 — la commande ============ */
-#sc2 .btl-g{
-  --k:clamp(0,calc(var(--p) * 8 - var(--i) * 1.15),1);
-  opacity:var(--k);
-  transform:translateY(calc((1 - var(--k)) * 46px));
-}
-#sc2{--pc:clamp(0,calc((var(--p) - .8) / .16),1)}
-#sc2 .chip{opacity:var(--pc);transform:translateY(calc((1 - var(--pc)) * 14px)) rotate(-3deg);transform-box:fill-box;transform-origin:center}
-#sc2 .stick{--scene-bg:linear-gradient(180deg,var(--ink) 0%,#1e1712 100%)}
-
-/* ============ S3 — le carton ============ */
-#sc3{
-  --p1a:clamp(0,calc(var(--p) / .2),1);
-  --p1b:clamp(0,calc((var(--p) - .08) / .2),1);
-  --p1c:clamp(0,calc((var(--p) - .16) / .2),1);
-  --p2:clamp(0,calc((var(--p) - .4) / .14),1);
-  --p3:clamp(0,calc((var(--p) - .57) / .22),1);
-  --p4:clamp(0,calc((var(--p) - .82) / .14),1);
-}
-#sc3 .stick{--scene-bg:radial-gradient(65% 50% at 50% 42%,#22190f,var(--ink) 80%)}
-#sc3 .drop-a{transform:translateY(calc((1 - var(--p1a)) * -300px));opacity:var(--p1a)}
-#sc3 .drop-b{transform:translateY(calc((1 - var(--p1b)) * -300px));opacity:var(--p1b)}
-#sc3 .drop-c{transform:translateY(calc((1 - var(--p1c)) * -300px));opacity:var(--p1c)}
-#sc3 .flap-l{transform:translateX(calc(var(--p2) * 112px))}
-#sc3 .flap-r{transform:translateX(calc(var(--p2) * -112px))}
-#sc3 .box-spin{transform-box:fill-box;transform-origin:center;transform:rotate(calc(var(--p3) * -360deg))}
-#sc3 .tape{transform-box:fill-box;transform-origin:left center;transform:scaleX(var(--p4))}
-#sc3 .print{opacity:calc(.4 + var(--p2) * .6)}
-
-/* ============ S4 — l'enlèvement ============ */
-#sc4{
-  --p1:clamp(0,calc(var(--p) / .3),1);
-  --p2:clamp(0,calc((var(--p) - .38) / .58),1);
-}
-#sc4 .stick{--scene-bg:linear-gradient(180deg,#191510 0%,#221a12 74%,#191510 100%)}
-#sc4 .load{transform:translate(calc(var(--p1) * 205px),calc(var(--p1) * -30px));opacity:calc(1 - clamp(0,calc((var(--p1) - .82) / .18),1) * .9)}
-#sc4 .truck{transform:translateX(calc(var(--p2) * 900px))}
-#sc4 .wheel{transform-box:fill-box;transform-origin:center;transform:rotate(calc(var(--p2) * 900deg))}
-#sc4 .road-dash{stroke-dashoffset:calc(var(--p2) * -680px)}
-
-/* ============ S5 — l'entrepôt ============ */
-#sc5{
-  --p1:clamp(0,calc(var(--p) / .45),1);
-  --p2:clamp(0,calc((var(--p) - .52) / .42),1);
-}
-#sc5 .stick{--scene-bg:linear-gradient(180deg,#161310 0%,#1d1813 100%)}
-#sc5 .facade{opacity:calc(1 - var(--p1));transform-box:fill-box;transform-origin:50% 62%;transform:scale(calc(1 + var(--p1) * .55))}
-#sc5 .cellar{opacity:var(--p1)}
-#sc5 .needle{transform-box:fill-box;transform-origin:50% 100%;transform:rotate(calc(-52deg + var(--p2) * 38deg))}
-#sc5 .our-box{opacity:calc(.5 + var(--p2) * .5)}
-#sc5 .our-ring{opacity:var(--p2)}
-
-/* ============ S6 — la palette ============ */
-#sc6 .stack-c{
-  --k:clamp(0,calc((var(--p) - var(--i) * .05) / .1),1);
-  opacity:var(--k);
-  transform:translateY(calc((1 - var(--k)) * -60px));
-}
-#sc6{
-  --p2a:clamp(0,calc((var(--p) - .55) / .08),1);
-  --p2b:clamp(0,calc((var(--p) - .62) / .08),1);
-  --p2c:clamp(0,calc((var(--p) - .69) / .08),1);
-  --p3:clamp(0,calc((var(--p) - .8) / .17),1);
-}
-#sc6 .stick{--scene-bg:linear-gradient(180deg,#171310 0%,#201913 78%,#171310 100%)}
-#sc6 .film{fill:none;stroke:rgba(207,216,205,.5);stroke-width:5;stroke-dasharray:560;stroke-linecap:round}
-#sc6 .film-a{stroke-dashoffset:calc(560 * (1 - var(--p2a)))}
-#sc6 .film-b{stroke-dashoffset:calc(560 * (1 - var(--p2b)))}
-#sc6 .film-c{stroke-dashoffset:calc(560 * (1 - var(--p2c)))}
-#sc6 .side-pal{opacity:calc(var(--p3) * .85);transform:translateY(calc((1 - var(--p3)) * 18px))}
-#sc6 .grp-chip{opacity:var(--p3);transform:translateY(calc((1 - var(--p3)) * 12px))}
-
-/* ============ S7 — l'envol ============ */
-#sc7{
-  --p1:clamp(0,calc(var(--p) / .28),1);
-  --p2:clamp(0,calc((var(--p) - .32) / .26),1);
-  --pm:clamp(0,calc((var(--p) - .58) / .14),1);
-  --p3:clamp(0,calc((var(--p) - .66) / .3),1);
-}
-#sc7 .stick{--scene-bg:linear-gradient(180deg,#151823 0%,#1b1712 68%,#171210 100%)}
-#sc7 .tarmac{opacity:calc(1 - var(--pm))}
-#sc7 .mapv{opacity:var(--pm)}
-#sc7 .feeder{transform:translateX(calc(var(--p1) * 330px))}
-#sc7 .fwheel{transform-box:fill-box;transform-origin:center;transform:rotate(calc(var(--p1) * 620deg))}
-#sc7 .jet-go{transform:translate(calc(var(--p2) * 470px),calc(var(--p2) * var(--p2) * -300px)) rotate(calc(var(--p2) * -13deg));transform-box:fill-box;transform-origin:center}
-#sc7 .arc{stroke-dasharray:820;stroke-dashoffset:calc(820 * (1 - var(--p3)))}
-#sc7 .tiny-plane{offset-path:path("M150,330 Q450,120 780,300");offset-distance:calc(var(--p3) * 100%);offset-rotate:auto}
-@supports not (offset-path:path("M0,0 L1,1")){#sc7 .tiny-plane{display:none}}
-#sc7 .jfk-dot{opacity:calc(.3 + var(--p3) * .7)}
-
-/* ============ S8 — la douane ============ */
-#sc8{
-  --pd:clamp(0,calc(var(--p) / .16),1);
-  --pu:clamp(0,calc((var(--p) - .18) / .14),1);
-  --p3:clamp(0,calc((var(--p) - .48) / .26),1);
-  --p4:clamp(0,calc((var(--p) - .8) / .16),1);
-}
-#sc8 .stick{--scene-bg:radial-gradient(60% 50% at 50% 35%,#20191466,transparent),linear-gradient(180deg,#191410,#1e1813)}
-#sc8 .stamp{transform:translateY(calc((var(--pd) - var(--pu)) * 132px))}
-#sc8 .mark{opacity:var(--pu);transform:rotate(-7deg) scale(calc(.85 + var(--pu) * .15));transform-box:fill-box;transform-origin:center}
-#sc8 .label8{opacity:var(--p3);transform:translateX(calc((1 - var(--p3)) * 220px)) rotate(2deg);transform-box:fill-box;transform-origin:center}
-#sc8 .scan{opacity:var(--p4)}
-
-/* ============ S9 — last mile ============ */
-#sc9{
-  --p1:clamp(0,calc(var(--p) / .55),1);
-  --p2:clamp(0,calc((var(--p) - .64) / .3),1);
-}
-#sc9 .stick{--scene-bg:linear-gradient(180deg,#141a2b 0%,#1d2030 55%,#171210 100%)}
-#sc9 .van9{transform:translateX(calc(var(--p1) * 700px))}
-#sc9 .vwheel{transform-box:fill-box;transform-origin:center;transform:rotate(calc(var(--p1) * 760deg))}
-#sc9 .stoop-box{opacity:var(--p2);transform:translateY(calc((1 - var(--p2)) * -16px))}
-#sc9 .door-glow{opacity:calc(var(--p2) * .8)}
-
-/* ============ S10 — dégustation NY ============ */
-#sc10{
-  --p1:clamp(0,calc((var(--p) - .04) / .3),1);
-  --p2:clamp(0,calc((var(--p) - .3) / .16),1);
-  --p3:clamp(0,calc((var(--p) - .34) / .46),1);
-  --p4:clamp(0,calc((var(--p) - .84) / .14),1);
-}
-#sc10 .stick{--scene-bg:linear-gradient(180deg,#181420 0%,#1e1712 70%,#171210 100%)}
-#sc10 .pour{transform-box:fill-box;transform-origin:center;transform:rotate(calc(-14deg - var(--p1) * 100deg))}
-#sc10 .stream{opacity:calc(var(--p2) * (1 - var(--p4)))}
-#sc10 .wine-fill{transform-box:fill-box;transform-origin:center bottom;transform:scaleY(var(--p3))}
-#sc10 .raise{transform:translateY(calc(var(--p4) * -14px))}
-#sc10 .sparkle{opacity:var(--p4)}
-
-/* ------- outro ------- */
-.outro{
-  padding:96px 20px 72px;display:flex;flex-direction:column;align-items:center;text-align:center;
-  background:
-    radial-gradient(55% 40% at 50% 0%,rgba(142,47,66,.14),transparent 70%),
-    var(--ink);
-}
-.outro .eyebrow{font-size:.75rem;letter-spacing:.24em;text-transform:uppercase;color:var(--gold);font-weight:600;margin:0 0 14px}
-.outro h2{
-  font-family:var(--font-display);font-weight:600;font-size:clamp(1.9rem,5.5vw,3.2rem);
-  margin:0;line-height:1.1;text-wrap:balance;max-width:18em;
-}
-.outro .sub{color:var(--muted);max-width:38em;margin:20px auto 0}
-.facts{
-  display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:14px;
-  width:min(94vw,880px);margin:44px auto 0;
-}
-.fact{
-  border:1px solid color-mix(in srgb,var(--gold) 30%,transparent);
-  background:var(--ink2);border-radius:10px;padding:18px 18px 16px;text-align:left;
-}
-.fact b{
-  display:block;font-family:var(--font-display);font-weight:600;font-size:1.35rem;color:var(--gold);
-  margin-bottom:4px;font-variant-numeric:tabular-nums;
-}
-.fact span{color:var(--muted);font-size:.88rem}
-.outro .cta{
-  margin-top:44px;display:inline-block;background:var(--wine);color:var(--cream);
-  text-decoration:none;font-weight:600;letter-spacing:.06em;padding:15px 34px;border-radius:999px;
-  border:1px solid color-mix(in srgb,var(--gold) 45%,transparent);
-}
-.outro .cta:hover{background:var(--wine-deep)}
-.outro .contact{margin-top:22px;color:var(--muted);font-size:.88rem}
-.outro .contact b{color:var(--cream);font-weight:600;user-select:all}
-.footer-note{margin-top:56px;color:color-mix(in srgb,var(--muted) 70%,transparent);font-size:.75rem;max-width:44em}
-
-a{color:var(--gold)}
-:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
-
-@media (max-width:640px){
-  .cap{padding:12px 14px 13px}
-  .art{width:98vw}
-}
+/* sans animations : les photos se lisent verticalement */
 @media (prefers-reduced-motion:reduce){
-  .scene{height:auto}
-  .stick{position:relative;height:auto;min-height:auto;padding-block:44px}
-  .art{min-height:46svh}
-  .hero .cue svg{animation:none}
+  .story{height:auto}
+  .frame{position:static;height:auto;overflow:visible}
+  .track{display:block;transform:none}
+  .panel{width:100%;flex:none;height:62vh;height:62svh}
+  .panel img{left:0;width:100%;transform:none}
+  .cue{display:none}
 }
 </style>
 
-<!-- symboles réutilisés -->
-<svg width="0" height="0" style="position:absolute" aria-hidden="true">
-  <defs>
-    <symbol id="btl" viewBox="-15 -96 30 178">
-      <path class="btl-body" d="M-5,-95 h10 v30 q9,8 9,24 v115 a6,6 0 0 1 -6,6 h-16 a6,6 0 0 1 -6,-6 v-115 q0,-16 9,-24 z"/>
-      <rect class="btl-cap" x="-6" y="-96" width="12" height="12" rx="2"/>
-      <rect class="btl-label" x="-11" y="10" width="22" height="32" rx="2"/>
-      <path class="btl-label-line" d="M-6,20 h12 M-6,27 h12 M-6,34 h8"/>
-    </symbol>
-    <symbol id="ctn" viewBox="0 0 90 62">
-      <rect class="ctn-face" x="1" y="1" width="88" height="60" rx="3"/>
-      <rect class="ctn-tape" x="41" y="1" width="8" height="60"/>
-      <line x1="1" y1="14" x2="89" y2="14" stroke="var(--kraft-dark)" stroke-width="1"/>
-    </symbol>
-    <pattern id="barcode" width="7" height="10" patternUnits="userSpaceOnUse">
-      <rect x="0" y="0" width="2.4" height="10" fill="#1c1712"/>
-      <rect x="4" y="0" width="1.2" height="10" fill="#1c1712"/>
-    </pattern>
-    <pattern id="windows" width="14" height="18" patternUnits="userSpaceOnUse">
-      <rect x="3" y="4" width="4" height="6" fill="rgba(201,158,87,.55)"/>
-    </pattern>
-  </defs>
-</svg>
+<div class="story" id="story">
+  <div class="frame">
+    <div class="track" id="track">
+      <div class="panel"><img src="photos/01-degustation.jpg"    alt="Dégustation au caveau d'un domaine français"></div>
+      <div class="panel"><img src="photos/02-achat.jpg"          alt="Les bouteilles achetées sur le comptoir du caveau"></div>
+      <div class="panel"><img src="photos/03-mise-en-carton.jpg" alt="Mise en carton grand export avec croisillons"></div>
+      <div class="panel"><img src="photos/04-scotch.jpg"         alt="Fermeture du carton au scotch"></div>
+      <div class="panel"><img src="photos/05-camion.jpg"         alt="Le camion sur la route au milieu des vignes"></div>
+      <div class="panel"><img src="photos/06-entrepot.jpg"       alt="Entrepôt de stockage à température contrôlée"></div>
+      <div class="panel"><img src="photos/07-palette.jpg"        alt="Palettisation et groupage des cartons"></div>
+      <div class="panel"><img src="photos/08-avion.jpg"          alt="Chargement de l'avion cargo au crépuscule"></div>
+      <div class="panel"><img src="photos/09-douane.jpg"         alt="Dédouanement et étiquetage du dernier kilomètre"></div>
+      <div class="panel"><img src="photos/10-lastmile.jpg"       alt="Livraison au pied d'une brownstone new-yorkaise"></div>
+      <div class="panel"><img src="photos/11-sante.jpg"          alt="Le client déguste son vin face à la skyline de Manhattan"></div>
+    </div>
+  </div>
+</div>
 
 <div class="progress" aria-hidden="true"><i></i></div>
-<div class="brand" aria-hidden="true">Planet Aura</div>
-
-<!-- ==================== HERO ==================== -->
-<header class="hero">
-  <p class="eyebrow">Planet Aura · Commissionnaire de transport du vin</p>
-  <h1>Le voyage d'un<br><em>carton de vin</em></h1>
-  <p class="lede">Du caveau d'un domaine français au salon d'un amateur new-yorkais : suivez, au fil du défilement, le chemin exact que parcourent vos bouteilles — et tout ce que nous faisons pour qu'elles arrivent intactes.</p>
-  <div class="route">
-    <span class="pt">Castres · Tarn</span>
-    <span class="dash"></span>
-    <span class="pt">JFK · New York</span>
-  </div>
-  <div class="cue">
-    <span>Faites défiler</span>
-    <svg viewBox="0 0 18 26" fill="none" stroke="var(--gold)" stroke-width="2" stroke-linecap="round"><path d="M4 8 L9 14 L14 8"/><path d="M4 15 L9 21 L14 15" opacity=".45"/></svg>
-  </div>
-</header>
-
-<!-- ==================== S1 DÉGUSTATION ==================== -->
-<section class="scene" id="sc1" style="--len:2.6" data-scene>
-  <div class="stick">
-    <div class="art">
-      <svg viewBox="0 0 900 560" role="img" aria-label="Une bouteille verse du vin dans un verre posé sur un tonneau">
-        <circle class="glow" cx="450" cy="240" r="230" fill="var(--gold)" opacity=".35" style="filter:blur(60px)"/>
-        <!-- tonneau -->
-        <g>
-          <rect x="330" y="330" width="240" height="230" rx="42" fill="#3a2c1d" stroke="#54402a" stroke-width="2"/>
-          <ellipse cx="450" cy="336" rx="120" ry="16" fill="#4a3826" stroke="#65502f" stroke-width="2"/>
-          <line x1="342" y1="396" x2="558" y2="396" stroke="#221a12" stroke-width="7"/>
-          <line x1="336" y1="480" x2="564" y2="480" stroke="#221a12" stroke-width="7"/>
-          <text class="t-label" x="450" y="452" text-anchor="middle" style="fill:#7a6547;font-size:15px">DOMAINE · TARN</text>
-        </g>
-        <!-- verre -->
-        <g transform="translate(452,238)">
-          <clipPath id="bowl1"><path d="M-30,0 C-30,42 -16,58 0,61 C16,58 30,42 30,0 Z"/></clipPath>
-          <g clip-path="url(#bowl1)">
-            <g class="wine-fill"><rect x="-32" y="14" width="64" height="50" fill="var(--wine)"/></g>
-          </g>
-          <path d="M-30,0 C-30,42 -16,58 0,61 C16,58 30,42 30,0 Z" fill="none" stroke="var(--glassline)" stroke-width="2.5"/>
-          <rect x="-2" y="61" width="4" height="42" fill="var(--glassline)"/>
-          <ellipse cx="0" cy="106" rx="22" ry="5" fill="none" stroke="var(--glassline)" stroke-width="2.5"/>
-        </g>
-        <!-- filet de vin -->
-        <g class="stream">
-          <path d="M452,210 C452,225 451,238 452,252" fill="none" stroke="var(--wine)" stroke-width="4" stroke-linecap="round"/>
-        </g>
-        <!-- bouteille qui verse -->
-        <g transform="translate(302,140)">
-          <g class="pour">
-            <use href="#btl" x="-28" y="-166" width="56" height="332"/>
-          </g>
-        </g>
-        <text class="t-small" x="450" y="548" text-anchor="middle">Millésime dégusté au caveau — cuvée du domaine</text>
-      </svg>
-    </div>
-    <div class="cap">
-      <p class="cap-eyebrow">Étape 01 · 10</p>
-      <h2>Le coup de cœur</h2>
-      <p>Tout commence au caveau. Un visiteur américain déguste, compare, revient sur une cuvée. Il en veut <strong>douze bouteilles</strong> — mais il reprend l'avion pour New York demain, et sa valise n'y suffira pas.</p>
-    </div>
-  </div>
-</section>
-
-<!-- ==================== S2 LA COMMANDE ==================== -->
-<section class="scene" id="sc2" style="--len:2.4" data-scene>
-  <div class="stick">
-    <div class="art">
-      <svg viewBox="0 0 900 470" role="img" aria-label="Six bouteilles s'alignent sur un comptoir, une étiquette de commande apparaît">
-        <line x1="90" y1="400" x2="810" y2="400" stroke="#3a2f22" stroke-width="4"/>
-        <g class="btl-g" style="--i:0"><use href="#btl" x="140" y="139" width="44" height="261"/></g>
-        <g class="btl-g" style="--i:1"><use href="#btl" x="250" y="139" width="44" height="261"/></g>
-        <g class="btl-g" style="--i:2"><use href="#btl" x="360" y="139" width="44" height="261"/></g>
-        <g class="btl-g" style="--i:3"><use href="#btl" x="470" y="139" width="44" height="261"/></g>
-        <g class="btl-g" style="--i:4"><use href="#btl" x="580" y="139" width="44" height="261"/></g>
-        <g class="btl-g" style="--i:5"><use href="#btl" x="690" y="139" width="44" height="261"/></g>
-        <g class="chip">
-          <rect x="576" y="52" width="248" height="96" rx="8" fill="#efe6d6" stroke="var(--gold)" stroke-width="2"/>
-          <text x="700" y="88" text-anchor="middle" style="fill:#571e2c;font-size:22px;font-weight:700">× 12 bouteilles</text>
-          <text x="700" y="116" text-anchor="middle" style="fill:#6f5430;font-size:14px;font-weight:600;letter-spacing:.06em">DDP · New York, NY</text>
-          <circle cx="600" cy="76" r="6" fill="var(--wine)"/>
-        </g>
-        <text class="t-small" x="450" y="452" text-anchor="middle">Commande saisie sur Planet'Connect — taxes estimées en 20 secondes</text>
-      </svg>
-    </div>
-    <div class="cap">
-      <p class="cap-eyebrow">Étape 02 · 10</p>
-      <h2>La vente au comptoir</h2>
-      <p>Le domaine encaisse au caveau et saisit l'expédition sur <strong>Planet'Connect</strong> : simulation du tarif et des taxes en quelques secondes, incoterm <strong>DDP</strong> — droits et taxes prépayés, zéro surprise à l'arrivée pour le client.</p>
-    </div>
-  </div>
-</section>
-
-<!-- ==================== S3 LE CARTON ==================== -->
-<section class="scene" id="sc3" style="--len:3.6" data-scene>
-  <div class="stick">
-    <div class="art">
-      <svg viewBox="0 0 900 560" role="img" aria-label="Des bouteilles descendent dans un carton qui se ferme, tourne sur lui-même et se scotche">
-        <g class="box-spin">
-          <g transform="translate(450,330)">
-            <!-- intérieur visible -->
-            <rect x="-112" y="-102" width="224" height="200" rx="6" fill="#2a2016"/>
-            <!-- bouteilles qui descendent -->
-            <g class="drop-a"><use href="#btl" x="-92" y="-88" width="54" height="180"/></g>
-            <g class="drop-b"><use href="#btl" x="-27" y="-88" width="54" height="180"/></g>
-            <g class="drop-c"><use href="#btl" x="38" y="-88" width="54" height="180"/></g>
-            <!-- croisillons -->
-            <line x1="-38" y1="-20" x2="-38" y2="96" stroke="#54402a" stroke-width="3" opacity=".8"/>
-            <line x1="28" y1="-20" x2="28" y2="96" stroke="#54402a" stroke-width="3" opacity=".8"/>
-            <!-- face avant du carton -->
-            <path d="M-112,-20 h224 v112 a6,6 0 0 1 -6,6 h-212 a6,6 0 0 1 -6,-6 z" fill="var(--kraft)" stroke="var(--kraft-dark)" stroke-width="2"/>
-            <g class="print">
-              <text x="0" y="22" text-anchor="middle" style="fill:#57411f;font-size:19px;font-weight:700;letter-spacing:.12em">PLANET AURA</text>
-              <text x="0" y="46" text-anchor="middle" style="fill:#6f5430;font-size:12px;font-weight:600;letter-spacing:.14em">GRAND EXPORT · ISTA 3A</text>
-              <path d="M-84,58 l7,-12 l7,12 m-14,14 l7,-12 l7,12" fill="none" stroke="#6f5430" stroke-width="2.5"/>
-              <path d="M62,52 C62,66 70,72 76,73 C82,72 90,66 90,52 Z M74,73 v9 M67,84 h14" fill="none" stroke="#6f5430" stroke-width="2.5"/>
-              <text x="0" y="82" text-anchor="middle" style="fill:#8a6a35;font-size:11px;letter-spacing:.2em">FRAGILE — VIN</text>
-            </g>
-            <!-- rabats coulissants -->
-            <g>
-              <rect class="flap-l" x="-224" y="-118" width="112" height="22" rx="3" fill="#8f6c3d" stroke="var(--kraft-dark)" stroke-width="2"/>
-              <rect class="flap-r" x="112" y="-118" width="112" height="22" rx="3" fill="#8f6c3d" stroke="var(--kraft-dark)" stroke-width="2"/>
-            </g>
-            <!-- scotch -->
-            <rect class="tape" x="-118" y="-114" width="236" height="14" rx="3" fill="#c8b189" opacity=".95"/>
-          </g>
-        </g>
-        <text class="t-small" x="450" y="548" text-anchor="middle">Carton double cannelure certifié ISTA 3A (norme UPS) — croisillons renforcés</text>
-      </svg>
-    </div>
-    <div class="cap">
-      <p class="cap-eyebrow">Étape 03 · 10</p>
-      <h2>Le carton grand export</h2>
-      <p>Chaque bouteille est calée dans un carton <strong>double cannelure certifié ISTA 3A</strong>, la norme des chutes et vibrations d'UPS. On ferme, on retourne le carton pour contrôler les calages, on scotche : il est prêt pour 6 000 km.</p>
-    </div>
-  </div>
-</section>
-
-<!-- ==================== S4 L'ENLÈVEMENT ==================== -->
-<section class="scene" id="sc4" style="--len:2.8" data-scene>
-  <div class="stick">
-    <div class="art">
-      <svg viewBox="0 0 1000 480" role="img" aria-label="Le carton est chargé dans un camion qui prend la route">
-        <!-- collines du Tarn -->
-        <path d="M0,340 Q180,270 380,330 T760,320 T1000,335 V480 H0 Z" fill="#20180f"/>
-        <path d="M0,368 Q240,320 520,362 T1000,360 V480 H0 Z" fill="#261c11"/>
-        <!-- route -->
-        <rect x="0" y="400" width="1000" height="80" fill="#14100c"/>
-        <line class="road-dash" x1="0" y1="440" x2="1000" y2="440" stroke="#4a3a24" stroke-width="4" stroke-dasharray="34 30"/>
-        <!-- carton chargé -->
-        <g class="load"><g transform="translate(210,352)">
-          <use href="#ctn" width="90" height="62" x="0" y="-14"/>
-        </g></g>
-        <!-- camion -->
-        <g class="truck"><g transform="translate(330,0)">
-          <rect x="60" y="228" width="270" height="140" rx="8" fill="#2b2118" stroke="#4a3a24" stroke-width="2"/>
-          <text x="195" y="290" text-anchor="middle" style="fill:var(--gold);font-size:22px;font-weight:700;letter-spacing:.14em">PLANET AURA</text>
-          <text x="195" y="316" text-anchor="middle" style="fill:#7a6547;font-size:12px;letter-spacing:.2em">TRANSPORT DU VIN</text>
-          <path d="M330,368 v-96 a8,8 0 0 1 8,-8 h44 l38,52 v52 z" fill="#33271a" stroke="#4a3a24" stroke-width="2"/>
-          <path d="M342,272 h36 l26,38 h-62 z" fill="#171210" stroke="#4a3a24" stroke-width="2"/>
-          <g class="wheel"><circle cx="130" cy="392" r="27" fill="#0e0b09" stroke="#584330" stroke-width="5"/><path d="M130,376 v32 M114,392 h32" stroke="#584330" stroke-width="4"/></g>
-          <g class="wheel"><circle cx="272" cy="392" r="27" fill="#0e0b09" stroke="#584330" stroke-width="5"/><path d="M272,376 v32 M256,392 h32" stroke="#584330" stroke-width="4"/></g>
-          <g class="wheel"><circle cx="382" cy="392" r="27" fill="#0e0b09" stroke="#584330" stroke-width="5"/><path d="M382,376 v32 M366,392 h32" stroke="#584330" stroke-width="4"/></g>
-        </g></g>
-        <text class="t-small" x="500" y="470" text-anchor="middle">Enlèvement au domaine, à la date choisie par l'adhérent</text>
-      </svg>
-    </div>
-    <div class="cap">
-      <p class="cap-eyebrow">Étape 04 · 10</p>
-      <h2>L'enlèvement</h2>
-      <p>Notre transporteur enlève le carton <strong>directement au domaine</strong>, à la date choisie. À partir de cet instant, une seule responsabilité juridique couvre tout le trajet : la nôtre — c'est l'<strong>obligation de résultat</strong> du commissionnaire de transport.</p>
-    </div>
-  </div>
-</section>
-
-<!-- ==================== S5 L'ENTREPÔT ==================== -->
-<section class="scene" id="sc5" style="--len:2.8" data-scene>
-  <div class="stick">
-    <div class="art">
-      <svg viewBox="0 0 1000 560" role="img" aria-label="On entre dans l'entrepôt tempéré de Castres : racks de cartons et température contrôlée">
-        <!-- intérieur (cave) -->
-        <g class="cellar">
-          <rect x="40" y="40" width="920" height="460" rx="10" fill="#1b1510"/>
-          <!-- lampes -->
-          <g fill="var(--gold)">
-            <circle cx="300" cy="70" r="7"/><circle cx="700" cy="70" r="7"/>
-            <circle cx="300" cy="70" r="30" opacity=".12"/><circle cx="700" cy="70" r="30" opacity=".12"/>
-          </g>
-          <line x1="300" y1="40" x2="300" y2="62" stroke="#4a3a24" stroke-width="3"/>
-          <line x1="700" y1="40" x2="700" y2="62" stroke="#4a3a24" stroke-width="3"/>
-          <!-- racks -->
-          <g stroke="#4a3a24" stroke-width="6">
-            <line x1="110" y1="120" x2="110" y2="500"/><line x1="450" y1="120" x2="450" y2="500"/>
-            <line x1="550" y1="120" x2="550" y2="500"/><line x1="890" y1="120" x2="890" y2="500"/>
-          </g>
-          <g stroke="#54402a" stroke-width="5">
-            <line x1="104" y1="240" x2="456" y2="240"/><line x1="104" y1="370" x2="456" y2="370"/><line x1="104" y1="500" x2="456" y2="500"/>
-            <line x1="544" y1="240" x2="896" y2="240"/><line x1="544" y1="370" x2="896" y2="370"/><line x1="544" y1="500" x2="896" y2="500"/>
-          </g>
-          <!-- cartons sur racks -->
-          <g>
-            <use href="#ctn" x="130" y="176" width="90" height="62"/><use href="#ctn" x="232" y="176" width="90" height="62"/><use href="#ctn" x="334" y="176" width="90" height="62"/>
-            <use href="#ctn" x="130" y="306" width="90" height="62"/><use href="#ctn" x="334" y="306" width="90" height="62"/>
-            <use href="#ctn" x="130" y="436" width="90" height="62"/><use href="#ctn" x="232" y="436" width="90" height="62"/>
-            <use href="#ctn" x="570" y="176" width="90" height="62"/><use href="#ctn" x="774" y="176" width="90" height="62"/>
-            <use href="#ctn" x="570" y="306" width="90" height="62"/><use href="#ctn" x="672" y="306" width="90" height="62"/><use href="#ctn" x="774" y="306" width="90" height="62"/>
-            <use href="#ctn" x="570" y="436" width="90" height="62"/><use href="#ctn" x="774" y="436" width="90" height="62"/>
-          </g>
-          <!-- notre carton -->
-          <g class="our-box"><use href="#ctn" x="672" y="436" width="90" height="62"/></g>
-          <rect class="our-ring" x="666" y="430" width="102" height="74" rx="6" fill="none" stroke="var(--gold)" stroke-width="3"/>
-          <!-- panneau température -->
-          <g transform="translate(430,58)">
-            <rect x="0" y="0" width="140" height="118" rx="9" fill="#241c14" stroke="var(--gold)" stroke-width="1.6"/>
-            <path d="M26,86 A44,44 0 0 1 114,86" fill="none" stroke="#54402a" stroke-width="7" stroke-linecap="round"/>
-            <path d="M26,86 A44,44 0 0 1 62,44" fill="none" stroke="var(--gold)" stroke-width="7" stroke-linecap="round"/>
-            <g class="needle"><line x1="70" y1="86" x2="70" y2="50" stroke="var(--cream)" stroke-width="4" stroke-linecap="round"/></g>
-            <circle cx="70" cy="86" r="5" fill="var(--cream)"/>
-            <text x="70" y="108" text-anchor="middle" style="fill:var(--gold);font-size:17px;font-weight:700">16 °C</text>
-          </g>
-        </g>
-        <!-- façade (au-dessus, disparaît en zoomant) -->
-        <g class="facade">
-          <rect x="150" y="110" width="700" height="390" fill="#261d13" stroke="#4a3a24" stroke-width="3"/>
-          <rect x="150" y="110" width="700" height="70" fill="#2f2416"/>
-          <text x="500" y="157" text-anchor="middle" style="fill:var(--gold);font-size:26px;font-weight:700;letter-spacing:.22em">PLANET AURA</text>
-          <rect x="380" y="240" width="240" height="260" rx="4" fill="#171210" stroke="#584330" stroke-width="3"/>
-          <line x1="380" y1="305" x2="620" y2="305" stroke="#584330" stroke-width="3"/>
-          <line x1="380" y1="370" x2="620" y2="370" stroke="#584330" stroke-width="3"/>
-          <line x1="380" y1="435" x2="620" y2="435" stroke="#584330" stroke-width="3"/>
-          <text x="500" y="530" text-anchor="middle" class="t-small">Castres, Tarn — quai d'entrée</text>
-        </g>
-        <text class="t-small" x="500" y="548" text-anchor="middle">Stockage tempéré · sécurisé 24/7 · picking</text>
-      </svg>
-    </div>
-    <div class="cap">
-      <p class="cap-eyebrow">Étape 05 · 10</p>
-      <h2>L'entrepôt de Castres</h2>
-      <p>Le carton rejoint notre entrepôt <strong>tempéré et sécurisé 24 h/24</strong> dans le Tarn. C'est ici que convergent les commandes de nos 250 adhérents — et qu'en été, un départ peut être <strong>différé</strong> pour attendre des températures sûres.</p>
-    </div>
-  </div>
-</section>
-
-<!-- ==================== S6 LA PALETTE ==================== -->
-<section class="scene" id="sc6" style="--len:3" data-scene>
-  <div class="stick">
-    <div class="art">
-      <svg viewBox="0 0 1000 560" role="img" aria-label="Un opérateur monte les cartons sur palette, le film s'enroule, six palettes partent ensemble">
-        <line x1="40" y1="500" x2="960" y2="500" stroke="#3a2f22" stroke-width="4"/>
-        <!-- palettes voisines (groupage) -->
-        <g class="side-pal">
-          <g transform="translate(180,139) scale(.62)" opacity=".9">
-            <use href="#ctn" x="0" y="486" width="90" height="62"/><use href="#ctn" x="94" y="486" width="90" height="62"/>
-            <use href="#ctn" x="0" y="420" width="90" height="62"/><use href="#ctn" x="94" y="420" width="90" height="62"/>
-            <use href="#ctn" x="46" y="354" width="90" height="62"/>
-            <rect x="-8" y="552" width="204" height="16" fill="#54402a"/><rect x="4" y="568" width="30" height="14" fill="#54402a"/><rect x="82" y="568" width="30" height="14" fill="#54402a"/><rect x="158" y="568" width="30" height="14" fill="#54402a"/>
-          </g>
-          <g transform="translate(700,139) scale(.62)" opacity=".9">
-            <use href="#ctn" x="0" y="486" width="90" height="62"/><use href="#ctn" x="94" y="486" width="90" height="62"/>
-            <use href="#ctn" x="0" y="420" width="90" height="62"/><use href="#ctn" x="94" y="420" width="90" height="62"/>
-            <use href="#ctn" x="46" y="354" width="90" height="62"/>
-            <rect x="-8" y="552" width="204" height="16" fill="#54402a"/><rect x="4" y="568" width="30" height="14" fill="#54402a"/><rect x="82" y="568" width="30" height="14" fill="#54402a"/><rect x="158" y="568" width="30" height="14" fill="#54402a"/>
-          </g>
-        </g>
-        <!-- palette centrale -->
-        <g transform="translate(360,0)">
-          <rect x="-12" y="468" width="304" height="18" fill="#6a5231"/>
-          <rect x="0" y="486" width="44" height="14" fill="#54402a"/><rect x="118" y="486" width="44" height="14" fill="#54402a"/><rect x="236" y="486" width="44" height="14" fill="#54402a"/>
-          <!-- pile de cartons (9) -->
-          <g class="stack-c" style="--i:0"><use href="#ctn" x="0"   y="404" width="90" height="62"/></g>
-          <g class="stack-c" style="--i:1"><use href="#ctn" x="95"  y="404" width="90" height="62"/></g>
-          <g class="stack-c" style="--i:2"><use href="#ctn" x="190" y="404" width="90" height="62"/></g>
-          <g class="stack-c" style="--i:3"><use href="#ctn" x="0"   y="338" width="90" height="62"/></g>
-          <g class="stack-c" style="--i:4"><use href="#ctn" x="95"  y="338" width="90" height="62"/></g>
-          <g class="stack-c" style="--i:5"><use href="#ctn" x="190" y="338" width="90" height="62"/></g>
-          <g class="stack-c" style="--i:6"><use href="#ctn" x="0"   y="272" width="90" height="62"/></g>
-          <g class="stack-c" style="--i:7"><use href="#ctn" x="95"  y="272" width="90" height="62"/></g>
-          <g class="stack-c" style="--i:8"><use href="#ctn" x="190" y="272" width="90" height="62"/></g>
-          <!-- film étirable -->
-          <rect class="film film-a" x="-8" y="392" width="296" height="66" rx="30"/>
-          <rect class="film film-b" x="-8" y="326" width="296" height="66" rx="30"/>
-          <rect class="film film-c" x="-8" y="260" width="296" height="66" rx="30"/>
-        </g>
-        <!-- opérateur -->
-        <g transform="translate(270,0)" fill="#0f0c0a">
-          <circle cx="0" cy="352" r="14"/>
-          <path d="M-13,368 Q0,360 13,368 L17,428 Q0,436 -17,428 Z"/>
-          <path d="M10,376 Q34,380 52,398 L48,408 Q28,394 8,392 Z"/>
-          <rect x="-15" y="428" width="12" height="66" rx="5"/>
-          <rect x="4" y="428" width="12" height="66" rx="5"/>
-          <path d="M-14,346 a14,14 0 0 1 28,0 l-4,-8 h-20 z" fill="var(--gold)"/>
-        </g>
-        <!-- pancarte groupage -->
-        <g class="grp-chip">
-          <rect x="352" y="96" width="296" height="66" rx="10" fill="#efe6d6" stroke="var(--gold)" stroke-width="2"/>
-          <text x="500" y="124" text-anchor="middle" style="fill:#571e2c;font-size:19px;font-weight:700">Groupage : 6 à 10 palettes</text>
-          <text x="500" y="148" text-anchor="middle" style="fill:#6f5430;font-size:13px;letter-spacing:.06em">un seul départ aérien, un tarif imbattable</text>
-        </g>
-        <text class="t-small" x="500" y="548" text-anchor="middle">Palettisation, filmage, plan de chargement — entrepôt de Castres</text>
-      </svg>
-    </div>
-    <div class="cap">
-      <p class="cap-eyebrow">Étape 06 · 10</p>
-      <h2>Le groupage</h2>
-      <p>Carton par carton, l'équipe monte les palettes et les filme. <strong>6 à 10 palettes</strong> — les commandes de dizaines de domaines — partent ensemble : c'est la consolidation qui rend l'expédition d'un simple carton de 12 bouteilles rentable.</p>
-    </div>
-  </div>
-</section>
-
-<!-- ==================== S7 L'ENVOL ==================== -->
-<section class="scene" id="sc7" style="--len:3.2" data-scene>
-  <div class="stick">
-    <div class="art">
-      <svg viewBox="0 0 1000 560" role="img" aria-label="Le camion rejoint l'avion cargo qui décolle, puis la route aérienne France – New York se dessine">
-        <!-- vue tarmac -->
-        <g class="tarmac">
-          <rect x="0" y="440" width="1000" height="120" fill="#14110d"/>
-          <line x1="0" y1="470" x2="1000" y2="470" stroke="#3d3220" stroke-width="3" stroke-dasharray="40 34"/>
-          <!-- tour de contrôle -->
-          <g fill="#241c12"><rect x="880" y="290" width="26" height="150"/><path d="M866,290 h54 l-8,-44 h-38 z"/></g>
-          <circle cx="893" cy="264" r="5" fill="var(--wine)"/>
-          <!-- avion cargo -->
-          <g class="jet-go">
-            <g transform="translate(380,336)">
-              <path d="M10,92 Q10,74 44,72 L330,62 Q412,58 470,34 Q458,80 372,94 L58,104 Q16,104 10,92 Z" fill="#262e3f" stroke="#43506b" stroke-width="2.5"/>
-              <path d="M32,74 L82,6 L118,6 L84,70 Z" fill="#2c3549" stroke="#43506b" stroke-width="2.5"/>
-              <path d="M186,88 L282,132 L326,132 L252,84 Z" fill="#2c3549" stroke="#43506b" stroke-width="2.5"/>
-              <rect x="224" y="96" width="54" height="20" rx="10" fill="#171c28" stroke="#43506b" stroke-width="2.5"/>
-              <line x1="70" y1="82" x2="360" y2="72" stroke="var(--gold)" stroke-width="3"/>
-              <text x="150" y="62" style="fill:#8fa0c4;font-size:13px;letter-spacing:.24em">CARGO</text>
-            </g>
-          </g>
-          <!-- camion navette -->
-          <g class="feeder">
-            <g transform="translate(-30,180) scale(.62)">
-              <rect x="60" y="228" width="270" height="140" rx="8" fill="#2b2118" stroke="#4a3a24" stroke-width="3"/>
-              <text x="195" y="300" text-anchor="middle" style="fill:var(--gold);font-size:26px;font-weight:700;letter-spacing:.12em">PLANET AURA</text>
-              <path d="M330,368 v-96 a8,8 0 0 1 8,-8 h44 l38,52 v52 z" fill="#33271a" stroke="#4a3a24" stroke-width="3"/>
-              <g class="fwheel"><circle cx="130" cy="392" r="27" fill="#0e0b09" stroke="#584330" stroke-width="6"/><path d="M130,376 v32 M114,392 h32" stroke="#584330" stroke-width="5"/></g>
-              <g class="fwheel"><circle cx="382" cy="392" r="27" fill="#0e0b09" stroke="#584330" stroke-width="6"/><path d="M382,376 v32 M366,392 h32" stroke="#584330" stroke-width="5"/></g>
-            </g>
-          </g>
-        </g>
-        <!-- vue carte -->
-        <g class="mapv">
-          <path d="M60,420 q40,-14 80,0 t80,0 t80,0 t80,0 t80,0 t80,0 t80,0 t80,0 t80,0 t80,0" fill="none" stroke="#2a3347" stroke-width="3" opacity=".8"/>
-          <path d="M60,452 q40,-14 80,0 t80,0 t80,0 t80,0 t80,0 t80,0 t80,0 t80,0 t80,0 t80,0" fill="none" stroke="#232b3c" stroke-width="3" opacity=".8"/>
-          <path class="arc" d="M150,330 Q450,120 780,300" fill="none" stroke="var(--gold)" stroke-width="3.5"/>
-          <circle cx="150" cy="330" r="9" fill="var(--wine)"/>
-          <circle class="jfk-dot" cx="780" cy="300" r="9" fill="var(--wine)"/>
-          <circle class="jfk-dot" cx="780" cy="300" r="20" fill="none" stroke="var(--wine)" stroke-width="2" opacity=".5"/>
-          <text x="150" y="374" text-anchor="middle" class="t-label">FRANCE · CDG</text>
-          <text x="780" y="344" text-anchor="middle" class="t-label">NEW YORK · JFK</text>
-          <text x="465" y="475" text-anchor="middle" class="t-small">≈ 6 000 km au-dessus de l'Atlantique — fret aérien inclus dans le tarif</text>
-          <g class="tiny-plane">
-            <path d="M0,-7 L20,0 L0,7 L5,0 Z" fill="var(--cream)"/>
-          </g>
-        </g>
-      </svg>
-    </div>
-    <div class="cap">
-      <p class="cap-eyebrow">Étape 07 · 10</p>
-      <h2>L'envol</h2>
-      <p>Les palettes rejoignent l'aéroport et embarquent sur un <strong>vol cargo</strong>. Cap sur New York — JFK. Le fret aérien, les surcharges carburant et l'<strong>assurance jusqu'à 20 000 €</strong> par envoi sont déjà compris dans le tarif payé au caveau.</p>
-    </div>
-  </div>
-</section>
-
-<!-- ==================== S8 LA DOUANE ==================== -->
-<section class="scene" id="sc8" style="--len:2.8" data-scene>
-  <div class="stick">
-    <div class="art">
-      <svg viewBox="0 0 900 520" role="img" aria-label="Le carton est tamponné par la douane américaine puis reçoit son étiquette du dernier kilomètre">
-        <!-- comptoir -->
-        <rect x="120" y="420" width="660" height="26" rx="4" fill="#3a2f22"/>
-        <rect x="150" y="446" width="24" height="74" fill="#2a2218"/><rect x="726" y="446" width="24" height="74" fill="#2a2218"/>
-        <!-- carton -->
-        <g transform="translate(310,268)">
-          <rect x="0" y="0" width="280" height="152" rx="6" fill="var(--kraft)" stroke="var(--kraft-dark)" stroke-width="2.5"/>
-          <rect x="128" y="0" width="22" height="152" fill="#c8b189"/>
-          <text x="66" y="34" text-anchor="middle" style="fill:#57411f;font-size:14px;font-weight:700;letter-spacing:.1em">PLANET AURA</text>
-          <!-- tampon douane -->
-          <g class="mark">
-            <circle cx="66" cy="92" r="44" fill="none" stroke="var(--wine)" stroke-width="4"/>
-            <circle cx="66" cy="92" r="35" fill="none" stroke="var(--wine)" stroke-width="1.6"/>
-            <text x="66" y="86" text-anchor="middle" style="fill:var(--wine);font-size:11px;font-weight:700;letter-spacing:.1em">U.S. CUSTOMS</text>
-            <text x="66" y="102" text-anchor="middle" style="fill:var(--wine);font-size:12px;font-weight:700;letter-spacing:.14em">CLEARED</text>
-          </g>
-          <!-- étiquette last mile -->
-          <g class="label8">
-            <rect x="164" y="28" width="102" height="102" rx="5" fill="#f2ecdd" stroke="#c9bd9f" stroke-width="1.5"/>
-            <rect x="172" y="38" width="86" height="26" fill="url(#barcode)"/>
-            <text x="215" y="82" text-anchor="middle" style="fill:#1c1712;font-size:11px;font-weight:700;letter-spacing:.06em">LAST MILE</text>
-            <text x="215" y="97" text-anchor="middle" style="fill:#1c1712;font-size:10px">Manhattan, NY</text>
-            <text x="215" y="112" text-anchor="middle" style="fill:#6b6152;font-size:8.5px">Planet Aura Inc. · Inwood NY</text>
-          </g>
-          <line class="scan" x1="168" y1="51" x2="262" y2="51" stroke="var(--wine)" stroke-width="2.5" opacity="0"/>
-        </g>
-        <!-- tampon -->
-        <g class="stamp"><g transform="translate(376,44)">
-          <rect x="-14" y="0" width="28" height="52" rx="10" fill="#584330"/>
-          <rect x="-46" y="52" width="92" height="26" rx="6" fill="#3a2f22"/>
-          <rect x="-46" y="74" width="92" height="10" fill="var(--wine-deep)"/>
-        </g></g>
-        <text class="t-small" x="450" y="508" text-anchor="middle">DDP : droits et taxes déjà réglés en France — le destinataire ne paie rien</text>
-      </svg>
-    </div>
-    <div class="cap">
-      <p class="cap-eyebrow">Étape 08 · 10</p>
-      <h2>La douane, sans le client</h2>
-      <p>À l'arrivée, notre importateur dédouane le lot : en <strong>DDP, les droits et taxes ont été prépayés</strong> à la commande. Aucun colis bloqué, aucun appel de la douane au client. Chaque carton reçoit alors son <strong>étiquette du dernier kilomètre</strong>.</p>
-    </div>
-  </div>
-</section>
-
-<!-- ==================== S9 LAST MILE ==================== -->
-<section class="scene" id="sc9" style="--len:2.8" data-scene>
-  <div class="stick">
-    <div class="art">
-      <svg viewBox="0 0 1000 560" role="img" aria-label="Une camionnette traverse Manhattan et dépose le carton sur le perron d'une brownstone">
-        <!-- skyline -->
-        <g>
-          <rect x="30" y="210" width="90" height="270" fill="#10141f"/>
-          <rect x="130" y="150" width="70" height="330" fill="#151a28"/>
-          <rect x="210" y="250" width="110" height="230" fill="#10141f"/>
-          <g fill="#151a28"><rect x="340" y="180" width="80" height="300"/><rect x="352" y="140" width="56" height="40"/><rect x="366" y="106" width="28" height="34"/><line x1="380" y1="56" x2="380" y2="106" stroke="#151a28" stroke-width="5"/></g>
-          <rect x="440" y="230" width="90" height="250" fill="#10141f"/>
-          <rect x="545" y="170" width="70" height="310" fill="#151a28"/>
-          <rect x="30" y="210" width="90" height="270" fill="url(#windows)" opacity=".5"/>
-          <rect x="130" y="150" width="70" height="330" fill="url(#windows)" opacity=".4"/>
-          <rect x="340" y="180" width="80" height="300" fill="url(#windows)" opacity=".45"/>
-          <rect x="440" y="230" width="90" height="250" fill="url(#windows)" opacity=".4"/>
-          <rect x="545" y="170" width="70" height="310" fill="url(#windows)" opacity=".45"/>
-        </g>
-        <!-- brownstone -->
-        <g transform="translate(660,0)">
-          <rect x="0" y="120" width="290" height="360" fill="#2c1f1a" stroke="#463228" stroke-width="3"/>
-          <g fill="#171210" stroke="#584330" stroke-width="2.5">
-            <rect x="30" y="160" width="56" height="82"/><rect x="120" y="160" width="56" height="82"/><rect x="210" y="160" width="56" height="82"/>
-            <rect x="30" y="280" width="56" height="82"/><rect x="210" y="280" width="56" height="82"/>
-          </g>
-          <rect x="34" y="284" width="48" height="74" fill="rgba(201,158,87,.35)"/>
-          <path d="M116,480 v-160 a30,30 0 0 1 60,0 v160 z" fill="#171210" stroke="#584330" stroke-width="3"/>
-          <circle class="door-glow" cx="146" cy="308" r="46" fill="var(--gold)" opacity="0" style="filter:blur(22px)"/>
-          <g fill="#241a14"><rect x="98" y="480" width="96" height="12"/><rect x="106" y="468" width="80" height="12"/><rect x="114" y="456" width="64" height="12"/></g>
-          <!-- carton déposé -->
-          <g class="stoop-box"><use href="#ctn" x="196" y="432" width="72" height="50"/></g>
-        </g>
-        <rect x="0" y="480" width="1000" height="80" fill="#0d0f16"/>
-        <line x1="0" y1="516" x2="1000" y2="516" stroke="#2a3347" stroke-width="4" stroke-dasharray="30 26"/>
-        <!-- van -->
-        <g class="van9">
-          <g transform="translate(-140,368)">
-            <path d="M0,96 v-74 a10,10 0 0 1 10,-10 h150 v84 z" fill="#2b2118" stroke="#4a3a24" stroke-width="2.5"/>
-            <path d="M160,96 v-70 h34 l26,34 v36 z" fill="#33271a" stroke="#4a3a24" stroke-width="2.5"/>
-            <path d="M166,32 h24 l18,26 h-42 z" fill="#171210" stroke="#4a3a24" stroke-width="2.5"/>
-            <text x="84" y="58" text-anchor="middle" style="fill:var(--gold);font-size:15px;font-weight:700;letter-spacing:.1em">PLANET AURA</text>
-            <text x="84" y="76" text-anchor="middle" style="fill:#7a6547;font-size:9px;letter-spacing:.2em">USA · LAST MILE</text>
-            <g class="vwheel"><circle cx="42" cy="98" r="20" fill="#0e0b09" stroke="#584330" stroke-width="4.5"/><path d="M42,86 v24 M30,98 h24" stroke="#584330" stroke-width="3.5"/></g>
-            <g class="vwheel"><circle cx="172" cy="98" r="20" fill="#0e0b09" stroke="#584330" stroke-width="4.5"/><path d="M172,86 v24 M160,98 h24" stroke="#584330" stroke-width="3.5"/></g>
-          </g>
-        </g>
-        <text class="t-small" x="500" y="550" text-anchor="middle">Réseau de distribution finale supervisé par Planet Aura Inc. — Inwood, NY</text>
-      </svg>
-    </div>
-    <div class="cap">
-      <p class="cap-eyebrow">Étape 09 · 10</p>
-      <h2>Le dernier kilomètre</h2>
-      <p>Depuis notre filiale <strong>Planet Aura Inc.</strong> à Inwood, à côté de JFK, notre réseau last-mile livre le carton en main propre, <strong>signature à la livraison</strong>. Le client suit son colis de bout en bout sur Planet'Connect.</p>
-    </div>
-  </div>
-</section>
-
-<!-- ==================== S10 DÉGUSTATION NY ==================== -->
-<section class="scene" id="sc10" style="--len:2.8" data-scene>
-  <div class="stick">
-    <div class="art">
-      <svg viewBox="0 0 900 560" role="img" aria-label="À Manhattan, le client se sert un verre du même vin devant la skyline">
-        <!-- fenêtre sur la skyline -->
-        <g>
-          <rect x="480" y="60" width="340" height="280" rx="8" fill="#0e1420" stroke="#584330" stroke-width="5"/>
-          <g fill="#1a2133">
-            <rect x="510" y="170" width="46" height="170"/><rect x="566" y="120" width="38" height="220"/>
-            <rect x="614" y="200" width="52" height="140"/><rect x="676" y="140" width="40" height="200"/><rect x="726" y="180" width="60" height="160"/>
-          </g>
-          <rect x="510" y="120" width="276" height="220" fill="url(#windows)" opacity=".4"/>
-          <circle cx="770" cy="104" r="17" fill="#e9e2cf" opacity=".9"/>
-          <line x1="650" y1="60" x2="650" y2="340" stroke="#584330" stroke-width="5"/>
-          <line x1="480" y1="200" x2="820" y2="200" stroke="#584330" stroke-width="5"/>
-        </g>
-        <!-- table -->
-        <rect x="60" y="430" width="780" height="22" rx="6" fill="#3a2c1d"/>
-        <rect x="110" y="452" width="26" height="108" fill="#2a2016"/><rect x="764" y="452" width="26" height="108" fill="#2a2016"/>
-        <!-- carton ouvert posé -->
-        <g transform="translate(620,352)">
-          <rect x="0" y="0" width="170" height="78" rx="5" fill="var(--kraft)" stroke="var(--kraft-dark)" stroke-width="2"/>
-          <rect x="78" y="0" width="14" height="78" fill="#c8b189"/>
-          <path d="M0,4 l-26,-28 l40,6 z M170,4 l26,-28 l-40,6 z" fill="#8f6c3d" stroke="var(--kraft-dark)" stroke-width="2"/>
-          <text x="85" y="47" text-anchor="middle" style="fill:#57411f;font-size:11px;font-weight:700;letter-spacing:.08em">PLANET AURA</text>
-        </g>
-        <!-- verre -->
-        <g class="raise">
-          <g transform="translate(370,306)">
-            <clipPath id="bowl2"><path d="M-32,0 C-32,44 -17,61 0,64 C17,61 32,44 32,0 Z"/></clipPath>
-            <g clip-path="url(#bowl2)">
-              <g class="wine-fill"><rect x="-34" y="15" width="68" height="52" fill="var(--wine)"/></g>
-            </g>
-            <path d="M-32,0 C-32,44 -17,61 0,64 C17,61 32,44 32,0 Z" fill="none" stroke="var(--glassline)" stroke-width="2.5"/>
-            <rect x="-2" y="64" width="4" height="46" fill="var(--glassline)"/>
-            <ellipse cx="0" cy="113" rx="24" ry="5.5" fill="none" stroke="var(--glassline)" stroke-width="2.5"/>
-          </g>
-          <g class="sparkle" stroke="var(--gold)" stroke-width="2.5" stroke-linecap="round">
-            <path d="M318,268 l-12,-12 M424,268 l12,-12 M370,246 v-16"/>
-          </g>
-        </g>
-        <!-- filet -->
-        <g class="stream">
-          <path d="M370,285 C369,295 370,305 371,316" fill="none" stroke="var(--wine)" stroke-width="4" stroke-linecap="round"/>
-        </g>
-        <!-- bouteille qui verse (depuis la droite) -->
-        <g transform="translate(520,215)">
-          <g class="pour">
-            <use href="#btl" x="-28" y="-166" width="56" height="332"/>
-          </g>
-        </g>
-        <text class="t-small" x="450" y="548" text-anchor="middle">Manhattan, trois semaines après le caveau — le même vin, intact</text>
-      </svg>
-    </div>
-    <div class="cap">
-      <p class="cap-eyebrow">Étape 10 · 10</p>
-      <h2>À votre santé</h2>
-      <p>Trois semaines après la dégustation au caveau, le client ouvre son carton à Manhattan et retrouve <strong>exactement le vin qu'il a aimé</strong>. Il est désormais dans le fichier clients du domaine : le prochain réachat se fera à distance — et voyagera par le même chemin.</p>
-    </div>
-  </div>
-</section>
-
-<!-- ==================== OUTRO ==================== -->
-<footer class="outro">
-  <p class="eyebrow">L'histoire derrière chaque envoi</p>
-  <h2>Vous vendez le vin.<br>Nous portons la promesse du voyage.</h2>
-  <p class="sub">Commissionnaire de transport spécialisé vins, champagnes et spiritueux, Planet Aura répond du bon acheminement de bout en bout — une obligation de résultat écrite dans nos conditions générales.</p>
-  <div class="facts">
-    <div class="fact"><b>ISTA 3A</b><span>Cartons double cannelure certifiés norme UPS — premier lot 110 € HT, puis offerts.</span></div>
-    <div class="fact"><b>DDP</b><span>Droits et taxes prépayés à la commande : zéro frais surprise pour le destinataire américain.</span></div>
-    <div class="fact"><b>20 000 €</b><span>Assurance casse et perte incluse sur chaque envoi, sans supplément.</span></div>
-    <div class="fact"><b>36 btls</b><span>Par personne et par envoi vers les USA en groupage — suivi de bout en bout sur Planet'Connect.</span></div>
-  </div>
-  <a class="cta" href="https://www.planet-aura.com" target="_blank" rel="noopener">Expédier mes vins avec Planet Aura</a>
-  <p class="contact">Écrivez-nous : <b>contact@planet-aura.com</b> · +33 (0)9 79 11 45 07 · Plateforme adhérents : Planet'Connect</p>
-  <p class="footer-note">Histoire illustrée d'après le fonctionnement réel du service USA Groupage DDP de Planet Aura (Castres, Tarn — Planet Aura Inc., Inwood NY). Les délais indiqués sont des ordres de grandeur constatés, non contractuels.</p>
-</footer>
+<div class="cue" id="cue" aria-hidden="true">
+  <svg viewBox="0 0 26 38" fill="none" stroke="#c99e57" stroke-width="2.4" stroke-linecap="round">
+    <path d="M6 12 L13 20 L20 12"/>
+    <path d="M6 21 L13 29 L20 21" opacity=".45"/>
+  </svg>
+</div>
 
 <script>
 (function(){
-  var reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
-  var scenes = Array.prototype.slice.call(document.querySelectorAll('[data-scene]'));
-  var bar = document.querySelector('.progress i');
+  if (matchMedia('(prefers-reduced-motion: reduce)').matches) return;
 
-  if (reduced) {
-    scenes.forEach(function(s){ s.style.setProperty('--p', 1); });
-    if (bar) bar.style.transform = 'scaleX(1)';
-    return;
-  }
+  var story = document.getElementById('story');
+  var panels = document.querySelectorAll('.panel img');
+  var cue = document.getElementById('cue');
+  var n = panels.length;
+  var target = 0, current = 0, raf = null;
 
-  var ticking = false;
-  function update(){
-    ticking = false;
+  function measure(){
     var vh = window.innerHeight;
-    var doc = document.documentElement;
-    var total = doc.scrollHeight - vh;
-    var y = window.scrollY || doc.scrollTop;
-    doc.style.setProperty('--scroll', total > 0 ? Math.min(1, y / total) : 1);
-    for (var i = 0; i < scenes.length; i++) {
-      var s = scenes[i];
-      var r = s.getBoundingClientRect();
-      var span = s.offsetHeight - vh;
-      var p = span > 0 ? (-r.top) / span : 1;
-      p = Math.max(0, Math.min(1, p));
-      s.style.setProperty('--p', p.toFixed(4));
+    var rect = story.getBoundingClientRect();
+    var span = story.offsetHeight - vh;
+    var p = span > 0 ? (-rect.top) / span : 0;
+    target = Math.max(0, Math.min(1, p));
+  }
+
+  function frame(){
+    current += (target - current) * 0.14;
+    if (Math.abs(target - current) < 0.0004) current = target;
+    story.style.setProperty('--p', current.toFixed(5));
+    var pos = current * (n - 1);
+    for (var i = 0; i < n; i++) {
+      var d = Math.max(-1, Math.min(1, i - pos));
+      panels[i].style.setProperty('--d', d.toFixed(4));
     }
+    cue.classList.toggle('hide', current > 0.015);
+    if (current !== target) { raf = requestAnimationFrame(frame); } else { raf = null; }
   }
-  function onScroll(){
-    if (!ticking) { ticking = true; requestAnimationFrame(update); }
+
+  function kick(){
+    measure();
+    if (!raf) raf = requestAnimationFrame(frame);
   }
-  window.addEventListener('scroll', onScroll, {passive: true});
-  window.addEventListener('resize', onScroll, {passive: true});
-  update();
+
+  window.addEventListener('scroll', kick, {passive:true});
+  window.addEventListener('resize', kick, {passive:true});
+  kick();
 })();
 </script>
