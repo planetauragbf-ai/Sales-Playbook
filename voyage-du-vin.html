@@ -1,135 +1,75 @@
 <title>Le Voyage du Vin</title>
 <style>
-/* Récit photographique horizontal : le défilement vertical fait avancer un travelling
-   de gauche à droite, plein écran, sans texte. 11 scènes, du caveau français à Manhattan. */
-:root{
-  --ink:#0c0a08;
-  --gold:#c99e57;
-  --n:11;                    /* nombre de scènes */
-  color-scheme:dark;
-}
-html,body{margin:0;padding:0}
-body{background:var(--ink);overflow-x:hidden}
+/* Film motion design plein écran : 11 plans, travellings vers la droite, fondus enchaînés.
+   Aucun texte. Clic ou touche espace : pause / lecture. */
+:root{--ink:#0c0a08;--gold:#c99e57;color-scheme:dark}
+html,body{margin:0;padding:0;height:100%}
+body{background:var(--ink);overflow:hidden}
 
-.story{height:calc(var(--n) * 88vh + 100vh);height:calc(var(--n) * 88svh + 100svh)}
-.frame{
-  position:sticky;top:0;height:100vh;height:100svh;overflow:hidden;background:var(--ink);
-}
-.track{
-  display:flex;height:100%;
-  transform:translateX(calc(var(--p,0) * (1 - var(--n)) * 100vw));
-  will-change:transform;
-}
-.panel{position:relative;flex:0 0 100vw;height:100%;overflow:hidden;background:var(--ink)}
-.panel img{
-  position:absolute;top:0;bottom:0;left:-7vw;height:100%;width:114vw;max-width:none;
-  object-fit:cover;
-  transform:translateX(calc(var(--d,0) * 5vw)) scale(1.03);
-  will-change:transform;
-}
-/* vignettage cinéma + fondu entre les scènes */
-.panel::before{
-  content:"";position:absolute;inset:0;z-index:1;pointer-events:none;
-  background:
-    linear-gradient(90deg,rgba(12,10,8,.55) 0%,transparent 7%,transparent 93%,rgba(12,10,8,.55) 100%),
-    radial-gradient(130% 100% at 50% 50%,transparent 62%,rgba(0,0,0,.42) 100%);
-}
+.stage{position:fixed;inset:0;background:var(--ink)}
+video{width:100%;height:100%;object-fit:cover;display:block}
 
-/* ligne de progression */
+/* ligne de progression du film */
 .progress{
-  position:fixed;left:0;right:0;bottom:0;z-index:10;height:3px;pointer-events:none;
+  position:fixed;left:0;right:0;bottom:0;z-index:5;height:3px;pointer-events:none;
   padding-bottom:env(safe-area-inset-bottom,0px);
 }
 .progress i{
   display:block;height:3px;background:linear-gradient(90deg,#7c2b3d,var(--gold));
-  transform-origin:left center;transform:scaleX(var(--p,0));
+  transform-origin:left center;transform:scaleX(var(--t,0));
 }
 
-/* invitation à défiler (icône seule, sans mot) */
-.cue{
-  position:fixed;left:50%;bottom:calc(26px + env(safe-area-inset-bottom,0px));z-index:10;
-  transform:translateX(-50%);pointer-events:none;opacity:.9;
-  transition:opacity .5s ease;
+/* bouton lecture (icône seule) : visible quand le film est en pause */
+.play{
+  position:fixed;inset:0;z-index:4;display:flex;align-items:center;justify-content:center;
+  background:rgba(12,10,8,.35);border:0;cursor:pointer;padding:0;
+  opacity:0;pointer-events:none;transition:opacity .35s ease;
 }
-.cue.hide{opacity:0}
-.cue svg{display:block;width:26px;height:38px;animation:cue 2.2s ease-in-out infinite;filter:drop-shadow(0 1px 6px rgba(0,0,0,.8))}
-@keyframes cue{0%,100%{transform:translateY(0);opacity:.55}50%{transform:translateY(9px);opacity:1}}
-
-/* sans animations : les photos se lisent verticalement */
-@media (prefers-reduced-motion:reduce){
-  .story{height:auto}
-  .frame{position:static;height:auto;overflow:visible}
-  .track{display:block;transform:none}
-  .panel{width:100%;flex:none;height:62vh;height:62svh}
-  .panel img{left:0;width:100%;transform:none}
-  .cue{display:none}
-}
+.paused .play{opacity:1;pointer-events:auto}
+.play svg{width:84px;height:84px;filter:drop-shadow(0 2px 18px rgba(0,0,0,.7))}
+.play:focus-visible{outline:2px solid var(--gold);outline-offset:-6px}
 </style>
 
-<div class="story" id="story">
-  <div class="frame">
-    <div class="track" id="track">
-      <div class="panel"><img src="photos/01-degustation.jpg"    alt="Dégustation au caveau d'un domaine français"></div>
-      <div class="panel"><img src="photos/02-achat.jpg"          alt="Les bouteilles achetées sur le comptoir du caveau"></div>
-      <div class="panel"><img src="photos/03-mise-en-carton.jpg" alt="Mise en carton grand export avec croisillons"></div>
-      <div class="panel"><img src="photos/04-scotch.jpg"         alt="Fermeture du carton au scotch"></div>
-      <div class="panel"><img src="photos/05-camion.jpg"         alt="Le camion sur la route au milieu des vignes"></div>
-      <div class="panel"><img src="photos/06-entrepot.jpg"       alt="Entrepôt de stockage à température contrôlée"></div>
-      <div class="panel"><img src="photos/07-palette.jpg"        alt="Palettisation et groupage des cartons"></div>
-      <div class="panel"><img src="photos/08-avion.jpg"          alt="Chargement de l'avion cargo au crépuscule"></div>
-      <div class="panel"><img src="photos/09-douane.jpg"         alt="Dédouanement et étiquetage du dernier kilomètre"></div>
-      <div class="panel"><img src="photos/10-lastmile.jpg"       alt="Livraison au pied d'une brownstone new-yorkaise"></div>
-      <div class="panel"><img src="photos/11-sante.jpg"          alt="Le client déguste son vin face à la skyline de Manhattan"></div>
-    </div>
-  </div>
+<div class="stage" id="stage">
+  <video id="film" src="film/voyage-du-vin.mp4" poster="photos/01-degustation.jpg"
+         autoplay muted loop playsinline preload="auto"
+         aria-label="Le voyage d'un carton de vin, du caveau français à Manhattan"></video>
+  <button class="play" id="play" aria-label="Lecture">
+    <svg viewBox="0 0 84 84" fill="none">
+      <circle cx="42" cy="42" r="40" stroke="#c99e57" stroke-width="2.5" fill="rgba(12,10,8,.45)"/>
+      <path d="M34 27 L60 42 L34 57 Z" fill="#c99e57"/>
+    </svg>
+  </button>
 </div>
-
-<div class="progress" aria-hidden="true"><i></i></div>
-<div class="cue" id="cue" aria-hidden="true">
-  <svg viewBox="0 0 26 38" fill="none" stroke="#c99e57" stroke-width="2.4" stroke-linecap="round">
-    <path d="M6 12 L13 20 L20 12"/>
-    <path d="M6 21 L13 29 L20 21" opacity=".45"/>
-  </svg>
-</div>
+<div class="progress" aria-hidden="true"><i id="bar"></i></div>
 
 <script>
 (function(){
-  if (matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+  var v = document.getElementById('film');
+  var bar = document.getElementById('bar');
+  var stage = document.getElementById('stage');
+  var play = document.getElementById('play');
+  var reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
 
-  var story = document.getElementById('story');
-  var panels = document.querySelectorAll('.panel img');
-  var cue = document.getElementById('cue');
-  var n = panels.length;
-  var target = 0, current = 0, raf = null;
+  function sync(){ document.body.classList.toggle('paused', v.paused); }
+  function toggle(){ if (v.paused) { v.play().catch(function(){}); } else { v.pause(); } }
 
-  function measure(){
-    var vh = window.innerHeight;
-    var rect = story.getBoundingClientRect();
-    var span = story.offsetHeight - vh;
-    var p = span > 0 ? (-rect.top) / span : 0;
-    target = Math.max(0, Math.min(1, p));
-  }
+  if (reduced) { v.removeAttribute('autoplay'); v.pause(); }
 
-  function frame(){
-    current += (target - current) * 0.14;
-    if (Math.abs(target - current) < 0.0004) current = target;
-    story.style.setProperty('--p', current.toFixed(5));
-    var pos = current * (n - 1);
-    for (var i = 0; i < n; i++) {
-      var d = Math.max(-1, Math.min(1, i - pos));
-      panels[i].style.setProperty('--d', d.toFixed(4));
-    }
-    cue.classList.toggle('hide', current > 0.015);
-    if (current !== target) { raf = requestAnimationFrame(frame); } else { raf = null; }
-  }
+  v.addEventListener('timeupdate', function(){
+    if (v.duration) bar.style.setProperty('--t', v.currentTime / v.duration);
+  });
+  v.addEventListener('play', sync);
+  v.addEventListener('pause', sync);
+  stage.addEventListener('click', toggle);
+  play.addEventListener('click', function(e){ e.stopPropagation(); toggle(); });
+  document.addEventListener('keydown', function(e){
+    if (e.code === 'Space') { e.preventDefault(); toggle(); }
+  });
 
-  function kick(){
-    measure();
-    if (!raf) raf = requestAnimationFrame(frame);
-  }
-
-  window.addEventListener('scroll', kick, {passive:true});
-  window.addEventListener('resize', kick, {passive:true});
-  kick();
+  // certains navigateurs bloquent l'autoplay : le bouton lecture prend le relais
+  var p = v.play();
+  if (p && p.catch) p.catch(function(){ sync(); });
+  sync();
 })();
 </script>
