@@ -119,7 +119,7 @@ Les scripts A-E sont les réponses développées. Quand le temps manque — salo
 
 ## G. Battlecards : répondre sans dénigrer
 
-Quand l'objection cite un concurrent, la méthode est en trois temps : **Reconnaître** (ce que le concurrent fait bien — sincèrement), **Recentrer** (déplacer la comparaison sur notre terrain) et **Question** (rendre la main au prospect). Le détail concurrent par concurrent — tableau Reconnaître/Recentrer/Question, battle cards de fond et règles de déontologie — est au chap. 10 (§ 10.9) : s'y référer plutôt que de le dupliquer ici. Ci-dessous, les deux battlecards les plus utiles en traitement d'objection.
+Quand l'objection cite un concurrent, la méthode est en trois temps : **Reconnaître** (ce que le concurrent fait bien — sincèrement), **Recentrer** (déplacer la comparaison sur notre terrain) et **Question** (rendre la main au prospect). Le détail concurrent par concurrent — tableau Reconnaître/Recentrer/Question, battle cards de fond et règles de déontologie — est au chap. 10 (§ 10.10) : s'y référer plutôt que de le dupliquer ici. Ci-dessous, les deux battlecards les plus utiles en traitement d'objection.
 
 ### G.1 Battlecard « Trop cher » (développée)
 
@@ -135,7 +135,7 @@ Quand l'objection cite un concurrent, la méthode est en trois temps : **Reconna
 - **Preuve** : proposer un diagnostic ou un pilote limité.
 - **À éviter** : dénigrer le prestataire en place ou promettre une supériorité générale.
 
-> 🚫 **INTERDIT —** Dénigrer nommément un concurrent ou lui attribuer une faiblesse non vérifiée. La battlecard sert à recentrer la comparaison sur notre terrain, jamais à attaquer. Les règles complètes (informations datées et sourcées, périmètre comparable, honnêteté quand le concurrent est mieux adapté) sont au chap. 10, § 10.9.
+> 🚫 **INTERDIT —** Dénigrer nommément un concurrent ou lui attribuer une faiblesse non vérifiée. La battlecard sert à recentrer la comparaison sur notre terrain, jamais à attaquer. Les règles complètes (informations datées et sourcées, périmètre comparable, honnêteté quand le concurrent est mieux adapté) sont au chap. 10, § 10.10.
 
 ## H. Méthode générale (rappel)
 

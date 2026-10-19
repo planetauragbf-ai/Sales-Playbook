@@ -12,13 +12,13 @@ Dans **plus de la moitié des deals**, on ne perd pas contre un concurrent — o
 - Le domaine dit au client « débrouillez-vous » (valise, mule, renoncement).
 - Le caveau bricole au coup par coup (bureau de poste du village, carton récupéré).
 
-**Comment battre le statu quo** : chiffrer la perte (chap. 6.4), rendre l'essai gratuit et daté (« équipés avant le 1er juillet »), réduire l'effort perçu (formation 30 min, order form papier, on suit le 1er envoi avec vous).
+**Comment battre le statu quo** : chiffrer la perte (le ROI adhérent, chap. 6.8), rendre l'essai gratuit et daté (« équipés avant le 1er juillet »), réduire l'effort perçu (formation 30 min, order form papier, on suit le 1er envoi avec vous).
 
 > **REPÈRE —** Le concurrent le plus coriace est souvent invisible : c'est le « on a toujours fait comme ça » du prospect. Ne le combattez pas de front — faites-lui prendre conscience du temps et du risque que représente sa gestion actuelle.
 
 ## 10.2 Le terrain de jeu : le marché du freight forwarding
 
-Rappel du cadrage marché (détail au chap. 2.4) : le freight forwarding — la commission de transport international — pèse plus de 160 milliards de dollars dans le monde et environ 40 milliards d'euros en France (XERFI), en croissance de +3 à 4 % par an. Le secteur est dominé par des géants généralistes, puissants mais non taillés pour les contraintes très spécifiques du vin : c'est dans cet interstice que vit un spécialiste comme Planet Aura.
+Rappel du cadrage marché (détail au chap. 2.4) : le freight forwarding — la commission de transport international — pèse plus de 160 milliards de dollars dans le monde et environ 40 milliards d'euros en France (XERFI), en croissance de +3 à 4 % par an. Le secteur est dominé par des géants généralistes (Geodis, CMA CGM, DHL, Kuehne+Nagel…), puissants mais non taillés pour les contraintes très spécifiques du vin : c'est dans cet interstice que vit un spécialiste comme Planet Aura.
 
 ## 10.3 La carte des intervenants : quatre familles sur deux axes
 
@@ -29,15 +29,16 @@ Toute la concurrence « prestataires » tient sur une carte à deux axes : le **
 | **Expressistes / intégrateurs** (CA +, centre) | FedEx, UPS, DHL | Réseau mondial, vitesse, notoriété ; se diversifient de plus en plus | L'alcool B2C reste un angle mort : contrat alcool, douane fine, DDP, emballage, indemnisation au poids | Ce sont aussi **nos sous-traitants** : on ne les attaque pas, on vend l'orchestration au-dessus |
 | **Généralistes « multi-spécialistes »** (CA +, diversifiés) | Hillebrand Gori, Kuehne+Nagel, DB Schenker, Dimotrans Group | Puissance, verticale boissons (Hillebrand), contrats grands comptes | Taillés pour les volumes contractuels B2B, pas pour le colis B2C ni les petits comptes | Céder les appels d'offres volumétriques, gagner tout ce qui est **« petit, précieux et compliqué »** |
 | **Freight forwarders spécialisés vin** (spécialisation, CA plus modeste) | **Planet Aura**, Dartess, Viticolis, Vinotrans, Eureka Logistique, MBE | Expertise vin, proximité, flexibilité | Niveau d'intégration variable : peu cumulent groupage DDP USA + filiale locale + plateforme + B2C | **Notre famille** : les duels directs se jouent ici — au niveau d'intégration (10.6, 10.7) |
-| **Émergents bas-carbone** (spécialisation, CA −) | VELA, TOWT, Grain de Sail | Innovation maritime à la voile, momentum RSE | Ne couvrent pas la chaîne complète du vin (douane, B2C, last-mile) | **Partenaires plus que concurrents** : VELA est notre option (chap. 3.8) — neutralité modale |
+| **Émergents bas-carbone** (spécialisation, CA −) | VELA, TOWT, Grain de Sail | Innovation maritime à la voile, momentum RSE | Ne couvrent pas la chaîne complète du vin (douane, B2C, last-mile) | **Partenaires plus que concurrents** : VELA est notre option **conditionnelle** (chap. 3.8) — jamais présentée comme exclusive — neutralité modale |
 
-**Et hors de la carte** : les non-prestataires — compte express ouvert en direct par le domaine, solutions postales, services bagages, gestion 100 % interne. Ce ne sont pas des intervenants du secteur mais des **modes de débrouille** ; ils se traitent comme le statu quo, par le coût complet et le risque (10.5).
+**Et hors de la carte** : les non-prestataires — compte express ouvert en direct par le domaine, solutions postales, services bagages, gestion 100 % interne — et les **plateformes digitales d'expédition** (comparateurs self-service, prestataires légers). Les premiers sont des **modes de débrouille** qui se traitent comme le statu quo, par le coût complet et le risque ; toutes ces alternatives sont au 10.5.
 
 ## 10.4 Lecture de la carte : où nous gagnons
 
 - **Verticalement**, la carte dit la puissance : au-dessus de l'axe, des CA sans commune mesure avec le nôtre. Inutile de se battre sur la taille, le réseau ou le prix catalogue — ce duel est perdu d'avance, et ce n'est pas le nôtre.
 - **Horizontalement**, elle dit la profondeur : plus on va vers la gauche, plus l'offre est spécialisée. Notre jeu est de **pousser la spécialisation jusqu'à l'intégration complète** : groupage DDP USA avec filiale en propre, plateforme propriétaire, assurance ad valorem, certificat CIVC, SAV procéduré — là où même les autres spécialistes restent sur une offre plus classique.
 - La case « spécialiste vin **et** intégré de bout en bout (et bas-carbone en option) » reste **quasi déserte** : c'est notre territoire, et tout l'argumentaire du chap. 6 sert à y amener le prospect.
+- La double signature que personne d'autre ne tient sur la carte : être **très fort à la fois sur la personnalisation/proximité ET sur les petits volumes**. Les grands savent faire du volume standard ; les plateformes savent faire du self-service ; nous savons faire du « petit, précieux et compliqué » avec un interlocuteur responsable.
 
 > 💡 **LE CONSEIL DE FLORIANE —** Notre position n'est pas « moins chère » : elle est « plus complète et plus sûre ». Assumez-le. Un domaine qui joue sa réputation à chaque envoi ne cherche pas le tarif le plus bas : il cherche celui à qui il peut confier la promesse faite à son client, du chai au dernier kilomètre.
 
@@ -65,6 +66,12 @@ Toute la concurrence « prestataires » tient sur une carte à deux axes : le **
 
 - **Limites** : le logisticien e-commerce classique refuse l'alcool export B2C ou le sous-traite mal ; pas de DDP US.
 - **Positionnement** : intégration — nous devenons l'option « livraison internationale » de leur e-shop (notifications de commande vers notre exploitation, modèle déjà en production chez des adhérents).
+
+### e) Les plateformes digitales d'expédition (comparateurs, self-service)
+
+- **Leur force** : rapidité, self-service, comparaison tarifaire immédiate.
+- **Leurs limites** : peu ou pas d'accompagnement humain ; les dossiers complexes (DDP USA, accises, CIVC, sinistres) sortent de leur standard.
+- **Positionnement** : « Un comparateur donne un prix ; il ne porte pas la responsabilité du dossier. Qui appelle votre client quand le colis est bloqué ? »
 
 ## 10.6 Nos concurrents directs à la loupe
 
@@ -101,7 +108,7 @@ Face à ces spécialistes, la différence ne se joue pas sur le principe — nou
 
 ## 10.7 Le face-à-face des spécialistes : l'analyse 7P en radar
 
-Le radar ci-dessus compare les cinq spécialistes de la famille sur les 7P du marketing des services. La grille de scores (0-5) est une **évaluation interne 2026** — assumée comme telle : elle sert à préparer un duel, pas à être montrée à un prospect.
+Le radar ci-dessus compare cinq des six acteurs de la famille sur les 7P du marketing des services (MBE, réseau de franchises d'expédition généraliste, n'est pas scoré : son offre vin n'est pas comparable poste à poste). La grille de scores (0-5) est une **évaluation interne 2026** — assumée comme telle : elle sert à préparer un duel, pas à être montrée à un prospect.
 
 | Critère (P) | Planet Aura | Viticolis | Vinotrans | Dartess | Eureka |
 |---|---|---|---|---|---|
@@ -127,7 +134,7 @@ Les cinq forces de Porter (plus une) résument la pression concurrentielle du se
 | Pouvoir des clients | Modéré-élevé (2,5/3) | Fidéliser par le service, diversifier le portefeuille — top 10 suivi au dashboard (2/3) |
 | Pouvoir des fournisseurs | Modéré-élevé (2,5/3) | Filiale US en propre + multi-transporteurs : la dépendance se pilote (1,5/3) |
 | Menace de nouveaux entrants | Modérée (2/3) | Barrières durables : licences TTB, douane, réseau, plateforme (1/3) |
-| Produits de substitution | Faible-modérée (1,5/3) | Le « faire soi-même » coûte cher en temps et en risque : chiffrer la perte, chap. 6.4 (1/3) |
+| Produits de substitution | Faible-modérée (1,5/3) | Le « faire soi-même » coûte cher en temps et en risque : chiffrer la perte, chap. 6.8 (1/3) |
 | Parties prenantes (6e force) | Forte | Douanes, certificateurs, assureurs, salons : savoir les coordonner est en soi une valeur |
 
 ## 10.9 Battlecard express (à garder en tête)

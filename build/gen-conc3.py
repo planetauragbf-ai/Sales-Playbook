@@ -12,8 +12,8 @@ html=f'''<div class="kicker">MATRICE SWOT PLANET AURA - 2026</div>
 <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;width:1180px;margin:0 auto">
 {swot_cell("FORCES",["Commissionnaire : obligation de résultat de bout en bout","Spécialisation vins, champagnes & spiritueux (casse, valeur, accises)","Filiale US licenciée TTB : maîtrise du three-tier","Plateforme propriétaire Planet'Connect + dashboards","Assurance ad valorem intégrée ; option décarbonée VELA"],"#EFF7F4",GREEN,"S")}
 {swot_cell("FAIBLESSES",["Notoriété limitée face aux réseaux franchisés","Structure PME : capacité commerciale/marketing à renforcer","Dépendance à des partenaires (transporteurs, fiscalistes, IT)","Forte concentration sur quelques grands comptes"],"#FDF1EC",ORANGE,"W")}
-{swot_cell("OPPORTUNITÉS",["Vente directe : petits envois à forte valeur en croissance","Diversification destinations (Canada, Asie hors Chine)","Demande RSE croissante : fret décarboné VELA","Vivier de vignerons indépendants ; événementiel premium"],"#EEF4F7",TEAL,"O")}
-{swot_cell("MENACES",["Droits de douane US, volatilité réglementaire (accises)","Recul structurel de la consommation de vin","Pression tarifaire des généralistes et franchises","Hausse des coûts logistiques et de l'énergie"],"#F9EDEC",RED,"T")}
+{swot_cell("OPPORTUNITÉS",["Vente directe : petits envois à forte valeur en croissance","Diversification destinations (Canada, Asie hors Chine, Amérique latine)","Demande RSE croissante : fret décarboné VELA","Vivier de vignerons indépendants ; événementiel premium"],"#EEF4F7",TEAL,"O")}
+{swot_cell("MENACES",["Droits de douane US, antidumping Chine, volatilité accises","Recul structurel de la consommation de vin","Pression tarifaire des généralistes et franchises","Hausse des coûts logistiques et de l'énergie"],"#F9EDEC",RED,"T")}
 </div>'''
 shot('d01_swot', html, width=1280)
 
@@ -58,5 +58,5 @@ for i,(bt,p) in enumerate(vals):
 html=f'''<div class="kicker">USA GROUPAGE DDP - GRILLE 2026 : LE COÛT PAR BOUTEILLE S'EFFONDRE AVEC LE COLISAGE</div>
 <svg width="1120" height="{H}" font-family="DejaVu Sans,Arial">{bars}
 <line x1="30" y1="{base}" x2="1105" y2="{base}" stroke="{NAVY}" stroke-width="2"/></svg>
-<div style="text-align:center;font-size:16px;color:{GRAY};margin-top:2px">De 105 € la bouteille seule à <b style="color:{ORANGE}">14,2 € par bouteille</b> sur un envoi de 36 - l'argument qui fait grossir les paniers (délai estimatif 21 j, taxes DDP en sus).</div>'''
-shot('d04_usabars', html, width=1200)
+<div style="text-align:center;font-size:16px;color:{GRAY};margin-top:2px;max-width:1080px;margin-left:auto;margin-right:auto">De 105 € la bouteille seule à <b style="color:{ORANGE}">14,2 € par bouteille</b> sur un envoi de 36 - l'argument qui fait grossir les paniers (délai estimatif 21 j, taxes DDP en sus).</div>'''
+shot('d04_usabars', html, width=1420)

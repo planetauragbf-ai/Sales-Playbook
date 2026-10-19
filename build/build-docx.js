@@ -81,7 +81,7 @@ function imgAuto(name, wPx) {
   return img(name, wPx, Math.round(h * wPx / w));
 }
 function figure(name, wPx, caption) {
-  const paras = [new Paragraph({ alignment: AlignmentType.CENTER, spacing: { before: 120, after: caption ? 40 : 160 }, children: [imgAuto(name, wPx)] })];
+  const paras = [new Paragraph({ alignment: AlignmentType.CENTER, keepNext: !!caption, spacing: { before: 120, after: caption ? 40 : 160 }, children: [imgAuto(name, wPx)] })];
   if (caption) paras.push(new Paragraph({
     alignment: AlignmentType.CENTER, spacing: { after: 160 },
     children: [new TextRun({ text: caption, italics: true, size: 16, color: GRAY })]
@@ -139,7 +139,9 @@ function parseTableBlock(lines) {
   // largeur mini par colonne : le mot le plus long ne doit pas être coupé
   const charW = Math.round(105 * fontSize / 18);
   const longestWord = (i) => Math.max(...[header[i], ...body.map(r => r[i] || '')].flatMap(c => (c || '').replace(/\*/g, '').split(/\s+/).map(w => w.length)), 3);
-  const minCol = header.map((_, i) => Math.min(Math.max(MIN_W, longestWord(i) * charW + 220), 2600));
+  // l'en-tête est rendu en gras : ses glyphes sont ~30 % plus larges que l'estimation charW
+  const longestHeadWord = (i) => Math.max(...(header[i] || '').replace(/\*/g, '').split(/\s+/).map(w => w.length), 3);
+  const minCol = header.map((_, i) => Math.min(Math.max(MIN_W, longestWord(i) * charW + 220, longestHeadWord(i) * Math.round(charW * 1.3) + 220), 2600));
   const total = maxLens.reduce((a, b) => a + b, 0);
   let widths = maxLens.map(l => Math.round((l / total) * CONTENT_W));
   for (let pass = 0; pass < 8; pass++) {
