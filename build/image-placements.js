@@ -88,3 +88,20 @@ module.exports['15-kpis-pilotage.md'].push(
   { after: '^15\\.10 Tableau de bord mensuel', img: 'pics/dash_gestion.png', w: 470, caption: 'Le tableau de bord gestion réel : CA, CA vins expédiés, shippings, bouteilles - janv.-sept. 2026' },
   { after: '^15\\.10 Tableau de bord mensuel', img: 'pics/dash_ca_graph.png', w: 470, caption: 'CA, shippings et bouteilles par mois 2026 (dashboard gestion Planet’Connect)' }
 );
+
+// Visuels concurrence + matrices (ajout octobre 2026)
+module.exports['10-concurrence.md'] = [
+  { after: '^10\\.3 La carte des intervenants', img: 'diagrams/d10_carte.png', w: 500, caption: 'La carte des intervenants du secteur - chiffre d’affaires × spécialisation/diversification de l’offre' },
+  { after: '^10\\.7 Le face-à-face des spécialistes', img: 'diagrams/d10_radar7p.png', w: 480, caption: 'Radar 7P des spécialistes vin - scores internes 0-5 (octobre 2026)' },
+  { after: '^10\\.8 Le marché selon Porter', img: 'diagrams/d10_porter.png', w: 420, caption: 'Les 5 forces de Porter : pression du secteur vs exposition résiduelle Planet Aura' },
+];
+module.exports['01-entreprise.md'].push(
+  { after: '^1\\.11 Analyse SWOT', img: 'diagrams/d01_swot.png', w: 500, caption: 'La matrice SWOT Planet Aura 2026' }
+);
+module.exports['06-proposition-valeur.md'] = module.exports['06-proposition-valeur.md'] || [];
+module.exports['06-proposition-valeur.md'].push(
+  { after: '^6\\.2 Commencer par le pourquoi', img: 'diagrams/d06_why.png', w: 490, caption: 'Le Golden Circle Planet Aura : WHY, HOW, WHAT' }
+);
+module.exports['04-tarifs.md'].push(
+  { after: '^4\\.4 USA - Groupage', img: 'diagrams/d04_usabars.png', w: 490, caption: 'Grille USA groupage 2026 : le coût par bouteille passe de 105 € à 14,2 € avec le colisage' }
+);

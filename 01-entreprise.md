@@ -303,22 +303,6 @@ L'argumentaire détaillé qui découle de cet ADN est développé au chapitre 06
 
 ## 1.11 Analyse SWOT — savoir où l'on est fort (et où rester prudent)
 
-| Forces | Faiblesses |
-|---|---|
-| Statut de commissionnaire : obligation de résultat de bout en bout | Notoriété limitée face aux réseaux franchisés |
-| Spécialisation pointue vins & spiritueux (température, casse, valeur, accises) | Structure PME : capacité commerciale/marketing à renforcer |
-| Filiale US avec licences TTB : maîtrise du three-tier | Dépendance à des partenaires (transporteurs, représentants fiscaux, IT) |
-| Plateforme propriétaire Planet'Connect (devis, dossiers, suivi) | Forte concentration sur quelques grands comptes |
-| Assurance Ad Valorem intégrée ; accès à l'offre décarbonée VELA | |
-
-| Opportunités | Menaces |
-|---|---|
-| Désintermédiation / vente directe : petits envois à forte valeur | Droits de douane US et antidumping Chine (baisse des volumes) |
-| Diversification des destinations (Canada, Asie hors Chine, Amérique latine) | Volatilité réglementaire (accises, conformité, contrôles) |
-| Demande RSE croissante : fret décarboné VELA | Recul structurel de la consommation de vin |
-| Vivier de vignerons indépendants à équiper | Pression tarifaire des généralistes (UPS, FedEx, DHL) et franchises (MBE) |
-| Événementiel premium international (salons, concours) | Hausse des coûts logistiques et de l'énergie |
-
 **Comment l'utiliser en rendez-vous :** appuyez-vous sur les forces (statut, spécialisation, TTB, Planet'Connect, VELA) sans jamais nier les faiblesses si le prospect les soulève — reconnaître honnêtement notre taille de PME et la transformer en argument de proximité est plus crédible qu'un déni.
 
 > 📌 **À RETENIR —** Planet Aura n'est pas « un transporteur de plus » : c'est un **commissionnaire de transport** spécialisé vins, champagnes et spiritueux, fondé le 6 mai 2019 à Castres par deux anciens d'Easy Wine, avec une obligation de résultat de bout en bout, une filiale américaine licenciée TTB à côté de JFK (64,5 % des expéditions vers les USA), une plateforme propriétaire Planet'Connect et une trajectoire de croissance continue (×4,7 entre 2021 et 2025, +18,7 % en 2026 à date). La règle d'or du commercial : **on dit ce qu'on fait, on fait ce qu'on dit, on ne survend jamais** — et tout chiffre cité à l'extérieur est d'abord validé par la direction.

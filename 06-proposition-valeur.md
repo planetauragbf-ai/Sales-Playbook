@@ -20,11 +20,7 @@ Trois promesses, trois preuves :
 
 Avant de dérouler les arguments, structurez le discours avec le Golden Circle (Simon Sinek) : on commence par la raison d'être, pas par la liste des services.
 
-| Cercle | Notre réponse |
-|---|---|
-| **WHY (pourquoi)** | Lever la dernière barrière entre un vin précieux et celui qui doit le recevoir, où qu'il soit dans le monde. Un producteur ne devrait jamais renoncer à un client — ni diluer son savoir-faire — à cause d'un export trop complexe, opaque ou risqué. Notre métier : transformer une opération complexe (douane, casse, délais, taxes) en une expérience sereine et maîtrisée. |
-| **HOW (comment)** | En agissant comme commissionnaire de transport à obligation de résultat : orchestration de bout en bout avec un interlocuteur responsable, conformité douanière et fiscale, assurance, traçabilité numérique via Planet'Connect, gestion proactive des aléas. |
-| **WHAT (quoi)** | L'expédition internationale de vins, champagnes et spiritueux — ~50 destinations tarifées en grille, jusqu'à 130 pays sur étude (chap. 16) : solutions USA, stockage et picking, emballage, douane et accises, suivi, assurance, service client, projets sur mesure — avec une option de transport décarboné (voilier-cargo VELA). |
+Un producteur ne devrait jamais renoncer à un client — ni diluer son savoir-faire — à cause d'un export trop complexe, opaque ou risqué. Notre métier : transformer une opération complexe (douane, casse, délais, taxes) en une expérience sereine et maîtrisée. Le visuel ci-dessus condense les trois cercles ; la version longue du WHAT : ~50 destinations tarifées en grille, jusqu'à 130 pays sur étude (chap. 16), solutions USA, stockage et picking, emballage, douane et accises, suivi, assurance, service client, projets sur mesure — avec une option de transport décarboné (voilier-cargo VELA).
 
 > **REPÈRE —** L'accroche qui résume le WHY en une phrase : **« Un grand vin mérite un grand voyage. »**
 
