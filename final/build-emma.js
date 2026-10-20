@@ -7,17 +7,17 @@ const {
   Document, Packer, Paragraph, TextRun, ImageRun, Table, TableRow, TableCell,
   HeadingLevel, AlignmentType, WidthType, ShadingType, BorderStyle,
   LevelFormat, PageBreak, Footer, Header, PageNumber, VerticalAlign,
-  Bookmark, InternalHyperlink, TabStopType, LeaderType
+  Bookmark, InternalHyperlink, TabStopType, LeaderType, TextDirection, HeightRule
 } = require('docx');
 
 const SRC = path.join(__dirname, 'content-emma');
 const A = require('path').join(__dirname, '..', 'build', 'assets');
 
 // ---- Charte (maquette v2.0)
-const NAVY = '1B3A4B';
-const TEAL = '1B7F8C';
-const TEALD = '16606E';
-const ORANGE = 'E87722';
+const NAVY = '12475B';
+const TEAL = '2D92A8';
+const TEALD = '12475B';
+const ORANGE = 'F66803';
 const RED = 'C0392B';
 const GREEN = '2E8B57';
 const CREAM = 'FDF0E4';
@@ -25,9 +25,14 @@ const LTEAL = 'EAF3F6';
 const LGREEN = 'EDF6F0';
 const LRED = 'FAEDEB';
 const ZEBRA = 'F4F8F9';
-const GRAY = '5A6B75';
-const INK = '2B3A42';
-const DARKBG = '12414A';
+const GRAY = '5F7078';
+const INK = '3A4A50';
+const DARKBG = '12475B';
+const SERIF = 'Playfair Display';
+const SANS = 'Inter';
+const LABEL = 'Poppins';
+const PBORDEAUX = '722F45';
+const POCRE = 'C6A15B';
 
 // A4
 const PAGE = { width: 11906, height: 16838 };
@@ -46,14 +51,15 @@ const UNITS = [
   { id: '17', file: '17.md' }, { id: '18', file: '18.md' },
   { id: 'A', file: 'A.md' }, { id: 'B', file: 'B.md' }, { id: 'C', file: 'C.md' },
   { id: 'D', file: 'D.md' }, { id: 'E', file: 'E.md' }, { id: 'F', file: 'F.md' }, { id: 'G', file: 'G.md' },
+  { id: 'H', file: 'H.md' }, { id: 'I', file: 'I.md' },
 ];
 
 const PARTS = {
-  '01': { rom: 'I', num: 'PARTIE 1', title: 'Analyser l’entreprise et son offre', sub: 'Comprendre avant de convaincre', chapters: ['01 · Contexte et enjeux commerciaux', '02 · Diagnostic de l’entreprise', '03 · Organisation et interlocuteurs', '04 · Offres et politique tarifaire', '05 · Concurrence et différenciation'] },
-  '06': { rom: 'II', num: 'PARTIE 2', title: 'Définir les cibles et les solutions adaptées', sub: 'Les bons comptes, les bonnes réponses', chapters: ['06 · Profils de clients idéaux (ICP)', '07 · Personas et acteurs de la décision', '08 · Correspondance entre enjeux et solutions'] },
-  '09': { rom: 'III', num: 'PARTIE 3', title: 'Formaliser la prospection et la vente', sub: 'Du premier contact à la signature', chapters: ['09 · Processus d’acquisition et pipeline', '10 · Séquences de prospection et scripts', '11 · Qualification et processus de vente', '12 · Conduite des entretiens (méthode SPIN)', '13 · Argumentaires et objections'] },
-  '14': { rom: 'IV', num: 'PARTIE 4', title: 'Fournir les outils et organiser le pilotage', sub: 'Outiller, mesurer, faire vivre', chapters: ['14 · Ressources d’aide à la vente', '15 · Organisation et outils', '16 · Activation, fidélisation et SAV', '17 · Indicateurs et méthode de suivi', '18 · Mise à jour et appropriation'] },
-  'A': { rom: 'V', num: 'ANNEXES', title: 'Annexes', sub: 'Documents complémentaires', chapters: ['A · Grilles tarifaires officielles 2026', 'B · CGS : l’essentiel', 'C · Fiche réflexe, checklists et modèles', 'D · Conformité et fiches pays', 'E · Glossaire', 'F · Chiffres officiels et sources', 'G · Documents officiels'] },
+  '01': { big: '1', col: TEAL, tab: 'PARTIE 1 · ANALYSER', rom: 'I', num: 'PARTIE 1', title: 'Analyser l’entreprise et son offre', sub: 'Comprendre avant de convaincre', chapters: ['01 · Contexte et enjeux commerciaux', '02 · Diagnostic de l’entreprise', '03 · Organisation et interlocuteurs', '04 · Offres et politique tarifaire', '05 · Concurrence et différenciation'] },
+  '06': { big: '2', col: PBORDEAUX, tab: 'PARTIE 2 · CIBLER', rom: 'II', num: 'PARTIE 2', title: 'Définir les cibles et les solutions adaptées', sub: 'Les bons comptes, les bonnes réponses', chapters: ['06 · Profils de clients idéaux (ICP)', '07 · Personas et acteurs de la décision', '08 · Correspondance entre enjeux et solutions'] },
+  '09': { big: '3', col: POCRE, tab: 'PARTIE 3 · VENDRE', rom: 'III', num: 'PARTIE 3', title: 'Formaliser la prospection et la vente', sub: 'Du premier contact à la signature', chapters: ['09 · Processus d’acquisition et pipeline', '10 · Séquences de prospection et scripts', '11 · Qualification et processus de vente', '12 · Conduite des entretiens (méthode SPIN)', '13 · Argumentaires et objections'] },
+  '14': { big: '4', col: NAVY, tab: 'PARTIE 4 · PILOTER', rom: 'IV', num: 'PARTIE 4', title: 'Fournir les outils et organiser le pilotage', sub: 'Outiller, mesurer, faire vivre', chapters: ['14 · Ressources d’aide à la vente', '15 · Organisation et outils', '16 · Activation, fidélisation et SAV', '17 · Indicateurs et méthode de suivi', '18 · Mise à jour et appropriation'] },
+  'A': { big: 'A', col: PBORDEAUX, tab: 'ANNEXES', rom: 'V', num: 'ANNEXES', title: 'Annexes', sub: 'Documents complémentaires', chapters: ['A · Grilles tarifaires officielles 2026', 'B · CGS : l’essentiel', 'C · Fiche réflexe, checklists et modèles', 'D · Conformité et fiches pays', 'E · Glossaire', 'F · Chiffres officiels et sources', 'G · Documents officiels', 'H · Fiches ICP & personas', 'I · Documents officiels & liens'] },
 };
 
 // ---- Sommaire interactif
@@ -82,10 +88,10 @@ function imgAuto(name, wPx) {
   return img(name, wPx, Math.round(h * wPx / w));
 }
 function figure(name, wPx, caption) {
-  const paras = [new Paragraph({ alignment: AlignmentType.CENTER, keepNext: !!caption, spacing: { before: 80, after: caption ? 34 : 110 }, children: [imgAuto(name, wPx)] })];
+  const paras = [new Paragraph({ alignment: AlignmentType.CENTER, keepNext: !!caption, spacing: { before: 110, after: caption ? 40 : 150 }, children: [imgAuto(name, wPx)] })];
   if (caption) paras.push(new Paragraph({
-    alignment: AlignmentType.CENTER, spacing: { after: 110 },
-    children: [new TextRun({ text: caption, italics: true, size: 15, color: GRAY, font: 'Georgia' })]
+    alignment: AlignmentType.CENTER, spacing: { after: 150 },
+    children: [new TextRun({ text: caption, italics: true, size: 16, color: GRAY, font: SERIF })]
   }));
   return paras;
 }
@@ -161,9 +167,9 @@ function parseTableBlock(lines) {
       shading: isHeader
         ? { type: ShadingType.CLEAR, fill: TEALD }
         : (rowIdx % 2 === 1 ? { type: ShadingType.CLEAR, fill: ZEBRA } : undefined),
-      margins: { top: 34, bottom: 34, left: 90, right: 90 },
+      margins: { top: 46, bottom: 46, left: 96, right: 96 },
       children: [new Paragraph({
-        spacing: { before: 10, after: 10 },
+        spacing: { before: 12, after: 12 },
         children: inlineRuns(cells[i] || '', isHeader ? { bold: true, color: 'FFFFFF', size: fontSize } : { size: fontSize })
       })]
     }))
@@ -207,15 +213,15 @@ function statBlock(lines) {
       children: items.map(([v, c], i) => new TableCell({
         width: { size: widths[i], type: WidthType.DXA },
         verticalAlign: VerticalAlign.CENTER,
-        margins: { top: 78, bottom: 78, left: 60, right: 60 },
+        margins: { top: 110, bottom: 110, left: 70, right: 70 },
         children: [
           new Paragraph({
             alignment: AlignmentType.CENTER, spacing: { after: 40 },
-            children: [new TextRun({ text: v, bold: true, size: n >= 5 ? 32 : 40, color: STAT_COLORS[i % STAT_COLORS.length], font: 'Georgia' })]
+            children: [new TextRun({ text: v, bold: true, size: n >= 5 ? 34 : 44, color: STAT_COLORS[i % STAT_COLORS.length], font: SERIF })]
           }),
           new Paragraph({
             alignment: AlignmentType.CENTER,
-            children: inlineRuns(c, { size: 15, color: GRAY })
+            children: inlineRuns(c, { size: 16, color: GRAY })
           }),
         ]
       }))
@@ -255,7 +261,7 @@ function convertBody(md, unit, opts = {}) {
       i++;
       if (isStats) {
         out.push(statBlock(code));
-        out.push(new Paragraph({ spacing: { after: 84 }, children: [] }));
+        out.push(new Paragraph({ spacing: { after: 116 }, children: [] }));
         continue;
       }
       const blockText = code.join('\n');
@@ -274,8 +280,13 @@ function convertBody(md, unit, opts = {}) {
       const tbl = [];
       while (i < lines.length && /^\s*\|/.test(lines[i])) { tbl.push(lines[i]); i++; }
       out.push(parseTableBlock(tbl));
-      out.push(new Paragraph({ spacing: { after: 84 }, children: [] }));
+      out.push(new Paragraph({ spacing: { after: 116 }, children: [] }));
       continue;
+    }
+
+    if (/^\\page\s*$/.test(line)) {
+      out.push(new Paragraph({ children: [new PageBreak()] }));
+      i++; continue;
     }
 
     if (/^---+\s*$/.test(line)) {
@@ -301,7 +312,7 @@ function convertBody(md, unit, opts = {}) {
         const kicker = part ? `${part.num}  ·  ${part.title.toUpperCase()}` : (unit.head || (isAnnex ? 'ANNEXES · DOCUMENTS COMPLÉMENTAIRES' : PART_OF_UNIT[unit.id] ? `${PART_OF_UNIT[unit.id].num}  ·  ${PART_OF_UNIT[unit.id].title.toUpperCase()}` : 'SALES PLAYBOOK 2026'));
         out.push(new Paragraph({
           spacing: { before: 60, after: 120 },
-          children: [new TextRun({ text: kicker, bold: true, size: 14, color: TEAL })]
+          children: [new TextRun({ text: kicker, bold: true, size: 15, color: TEAL, font: LABEL })]
         }));
         let key = null;
         if (!opts.noToc) {
@@ -309,8 +320,8 @@ function convertBody(md, unit, opts = {}) {
           tocRegistry.push({ key, level: 1, text: plainHeading(txt), id: unit.id });
         }
         const titleRuns = [];
-        if (num) titleRuns.push(new TextRun({ text: (isAnnex ? 'Annexe ' : '') + num + '  ·  ', bold: true, size: 44, color: ORANGE, font: 'Georgia' }));
-        titleRuns.push(new TextRun({ text: title, bold: true, size: 44, color: NAVY, font: 'Georgia' }));
+        if (num) titleRuns.push(new TextRun({ text: (isAnnex ? 'Annexe ' : '') + num + '  ·  ', bold: true, size: 48, color: ORANGE, font: SERIF }));
+        titleRuns.push(new TextRun({ text: title, bold: true, size: 48, color: NAVY, font: SERIF }));
         out.push(new Paragraph({
           heading: HeadingLevel.HEADING_1,
           spacing: { after: 70 },
@@ -322,13 +333,13 @@ function convertBody(md, unit, opts = {}) {
         if (j < lines.length && /^\*[^*].*\*$/.test(lines[j].trim())) {
           out.push(new Paragraph({
             spacing: { after: 110 },
-            children: [new TextRun({ text: lines[j].trim().replace(/^\*|\*$/g, ''), italics: true, size: 21, color: GRAY, font: 'Georgia' })]
+            children: [new TextRun({ text: lines[j].trim().replace(/^\*|\*$/g, ''), italics: true, size: 23, color: GRAY, font: SERIF })]
           }));
           i = j;
         }
         out.push(new Paragraph({
           border: { bottom: { style: BorderStyle.SINGLE, size: 11, color: TEAL } },
-          spacing: { after: 126 }, children: []
+          spacing: { after: 170 }, children: []
         }));
         // mini-sommaire du chapitre (H2, sans numéros de page)
         if (!opts.noMiniToc) {
@@ -339,7 +350,7 @@ function convertBody(md, unit, opts = {}) {
               children: [new TextRun({ text: 'DANS CE CHAPITRE', bold: true, size: 13, color: GRAY })]
             }));
             out.push(new Paragraph({
-              spacing: { after: 156 },
+              spacing: { after: 210 },
               children: h2s.flatMap((h, k) => [
                 ...(k ? [new TextRun({ text: '   ·   ', size: 16, color: ORANGE })] : []),
                 new TextRun({ text: h, size: 16, color: TEALD })
@@ -354,19 +365,19 @@ function convertBody(md, unit, opts = {}) {
       if (lvl === 2) {
         out.push(new Paragraph({
           heading: HeadingLevel.HEADING_2,
-          spacing: { before: 198, after: 56 },
-          children: inlineRuns(txt, { bold: true, size: 27, color: NAVY, font: 'Georgia' })
+          spacing: { before: 260, after: 76 },
+          children: inlineRuns(txt, { bold: true, size: 30, color: NAVY, font: SERIF })
         }));
       } else if (lvl === 3) {
         out.push(new Paragraph({
           heading: HeadingLevel.HEADING_3,
-          spacing: { before: 148, after: 44 },
-          children: inlineRuns(txt.toUpperCase(), { bold: true, size: 17, color: TEALD })
+          spacing: { before: 190, after: 58 },
+          children: inlineRuns(txt.toUpperCase(), { bold: true, size: 18, color: TEAL, font: LABEL })
         }));
       } else {
         out.push(new Paragraph({
-          spacing: { before: 130, after: 48 },
-          children: inlineRuns(txt, { bold: true, size: 19, color: NAVY })
+          spacing: { before: 170, after: 60 },
+          children: inlineRuns(txt, { bold: true, size: 21, color: NAVY })
         }));
       }
       out.push(...tryPlace(txt));
@@ -382,9 +393,9 @@ function convertBody(md, unit, opts = {}) {
       if (quote.length === 1 && /^«/.test(head.trim()) && !/\*\*/.test(head)) {
         out.push(new Paragraph({
           alignment: AlignmentType.CENTER,
-          spacing: { before: 128, after: 128 },
+          spacing: { before: 180, after: 180 },
           indent: { left: 500, right: 500 },
-          children: [new TextRun({ text: head.trim(), italics: true, size: 25, color: TEAL, font: 'Georgia' })]
+          children: [new TextRun({ text: head.trim(), italics: true, size: 25, color: TEAL, font: SERIF })]
         }));
         continue;
       }
@@ -406,12 +417,12 @@ function convertBody(md, unit, opts = {}) {
             img(`icons/${badge}.png`, 15, 15),
             new TextRun({ text: '  ' + lm[2].toUpperCase().replace(/^LE POINT/, 'LE POINT') + (lm[3] ? ' —' : ''), bold: true, size: 16, color: labelColor }),
             new TextRun({ text: '  ' }),
-            ...inlineRuns(lm[4] || '', { size: 17, color: txtColor })
+            ...inlineRuns(lm[4] || '', { size: 18, color: txtColor })
           ];
         } else {
-          kids = inlineRuns(q, { size: 17, color: txtColor });
+          kids = inlineRuns(q, { size: 18, color: txtColor });
         }
-        calloutParas.push(new Paragraph({ spacing: { before: 18, after: 18 }, children: kids }));
+        calloutParas.push(new Paragraph({ spacing: { before: 22, after: 22 }, children: kids }));
       });
       out.push(new Table({
         width: { size: CONTENT_W, type: WidthType.DXA },
@@ -424,19 +435,19 @@ function convertBody(md, unit, opts = {}) {
         rows: [new TableRow({ children: [new TableCell({
           width: { size: CONTENT_W, type: WidthType.DXA },
           shading: { type: ShadingType.CLEAR, fill },
-          margins: { top: 68, bottom: 68, left: 200, right: 185 },
+          margins: { top: 92, bottom: 92, left: 215, right: 195 },
           children: calloutParas
         })] })]
       }));
-      out.push(new Paragraph({ spacing: { after: 80 }, children: [] }));
+      out.push(new Paragraph({ spacing: { after: 108 }, children: [] }));
       continue;
     }
 
     if ((m = line.match(/^(\s*)-\s+\[( |x)\]\s+(.*)$/))) {
       out.push(new Paragraph({
         indent: { left: 360, hanging: 240 },
-        spacing: { after: 20 },
-        children: [new TextRun({ text: m[2] === 'x' ? '☑ ' : '☐ ', size: 19, color: TEALD }), ...inlineRuns(m[3], { size: 17 })]
+        spacing: { after: 28 },
+        children: [new TextRun({ text: m[2] === 'x' ? '☑ ' : '☐ ', size: 19, color: TEALD }), ...inlineRuns(m[3], { size: 19 })]
       }));
       i++; continue;
     }
@@ -445,8 +456,8 @@ function convertBody(md, unit, opts = {}) {
       const level = Math.min(Math.floor(m[1].length / 2), 2);
       out.push(new Paragraph({
         numbering: { reference: 'bullets', level },
-        spacing: { after: 20 },
-        children: inlineRuns(m[2], { size: 17 })
+        spacing: { after: 28 },
+        children: inlineRuns(m[2], { size: 19 })
       }));
       i++; continue;
     }
@@ -456,8 +467,8 @@ function convertBody(md, unit, opts = {}) {
       if (startNew) orderedInstance++;
       out.push(new Paragraph({
         numbering: { reference: 'ordered', level: 0, instance: orderedInstance },
-        spacing: { after: 20 },
-        children: inlineRuns(m[3], { size: 17 })
+        spacing: { after: 28 },
+        children: inlineRuns(m[3], { size: 19 })
       }));
       i++; continue;
     }
@@ -466,10 +477,18 @@ function convertBody(md, unit, opts = {}) {
     // sous-titre déjà consommé après H1
     if (h1Seen === 'skipnext') { h1Seen = true; i++; continue; }
 
-    out.push(new Paragraph({ spacing: { after: 66 }, children: inlineRuns(line, { size: 17 }) }));
+    out.push(new Paragraph({ spacing: { after: 86 }, children: inlineRuns(line, { size: 19 }) }));
     i++;
   }
   return out;
+}
+
+// onglet de bordure par unité
+const PART_LIST = Object.values(PARTS);
+function tabOf(id) {
+  const part = PART_OF_UNIT[id];
+  if (!part) return null;
+  return { idx: PART_LIST.indexOf(part), col: part.col, label: part.tab };
 }
 
 // partie de rattachement de chaque unité (pour le kicker)
@@ -481,38 +500,57 @@ const PART_OF_UNIT = {};
 
 // ---------- ouverture de partie ----------
 function partOpener(p) {
+  const chapterLines = p.chapters.map(c => {
+    const m = c.match(/^([0-9A-I]{1,2})\s*\u00b7\s*(.*)$/);
+    return new Paragraph({
+      spacing: { after: 88 },
+      children: m ? [
+        new TextRun({ text: m[1], bold: true, size: 23, color: 'FFFFFF', font: SERIF }),
+        new TextRun({ text: '    ' + m[2], size: 22, color: 'F2E9E4' }),
+      ] : [new TextRun({ text: c, size: 22, color: 'F2E9E4' })]
+    });
+  });
   return [
-    new Paragraph({ spacing: { before: 2600 }, children: [] }),
-    new Paragraph({
-      spacing: { after: 140 },
-      children: [new TextRun({ text: p.num.split('').join(' '), bold: true, size: 21, color: ORANGE })]
-    }),
-    new Paragraph({
-      spacing: { after: 60 },
-      children: [new TextRun({ text: p.rom + '.', bold: true, size: 150, color: NAVY, font: 'Georgia' })]
-    }),
-    new Paragraph({
-      spacing: { after: 90 },
-      children: [new TextRun({ text: p.title, bold: true, size: 52, color: NAVY, font: 'Georgia' })]
-    }),
-    new Paragraph({
-      spacing: { after: 420 },
-      children: [new TextRun({ text: p.sub, italics: true, size: 24, color: ORANGE, font: 'Georgia' })]
-    }),
-    new Paragraph({
-      border: { top: { style: BorderStyle.SINGLE, size: 8, color: 'CCDDE3' } },
-      spacing: { before: 60, after: 160 },
-      children: [new TextRun({ text: 'DANS CETTE PARTIE', bold: true, size: 14, color: GRAY })]
-    }),
-    ...p.chapters.map(c => {
-      const m = c.match(/^([0-9A-G]{1,2})\s*·\s*(.*)$/);
-      return new Paragraph({
-        spacing: { after: 80 },
-        children: m ? [
-          new TextRun({ text: m[1], bold: true, size: 22, color: ORANGE, font: 'Georgia' }),
-          new TextRun({ text: '   ' + m[2], size: 22, color: INK }),
-        ] : [new TextRun({ text: c, size: 22, color: INK })]
-      });
+    new Table({
+      width: { size: CONTENT_W, type: WidthType.DXA },
+      columnWidths: [CONTENT_W],
+      borders: {
+        top: { style: BorderStyle.NONE }, bottom: { style: BorderStyle.NONE },
+        left: { style: BorderStyle.NONE }, right: { style: BorderStyle.NONE },
+        insideHorizontal: { style: BorderStyle.NONE }, insideVertical: { style: BorderStyle.NONE },
+      },
+      rows: [new TableRow({
+        height: { value: 11600, rule: HeightRule.ATLEAST },
+        children: [new TableCell({
+          width: { size: CONTENT_W, type: WidthType.DXA },
+          shading: { type: ShadingType.CLEAR, fill: p.col },
+          margins: { top: 950, bottom: 650, left: 680, right: 680 },
+          children: [
+            new Paragraph({
+              spacing: { after: 160 },
+              children: [new TextRun({ text: p.num.split('').join(' '), bold: true, size: 20, color: 'FFFFFF', font: LABEL })]
+            }),
+            new Paragraph({
+              spacing: { after: 120 },
+              children: [new TextRun({ text: p.big, bold: true, size: 170, color: 'FFFFFF', font: SERIF })]
+            }),
+            new Paragraph({
+              spacing: { after: 120 },
+              children: [new TextRun({ text: p.title, bold: true, size: 54, color: 'FFFFFF', font: SERIF })]
+            }),
+            new Paragraph({
+              spacing: { after: 600 },
+              children: [new TextRun({ text: p.sub, italics: true, size: 26, color: 'F2E9E4', font: SERIF })]
+            }),
+            new Paragraph({
+              border: { top: { style: BorderStyle.SINGLE, size: 6, color: 'FFFFFF' } },
+              spacing: { before: 100, after: 180 },
+              children: [new TextRun({ text: 'D A N S   C E T T E   P A R T I E', bold: true, size: 14, color: 'FFFFFF', font: LABEL })]
+            }),
+            ...chapterLines,
+          ]
+        })]
+      })]
     }),
     new Paragraph({ children: [new PageBreak()] }),
   ];
@@ -525,19 +563,19 @@ function coverChildren() {
     new Paragraph({ alignment: AlignmentType.CENTER, children: [img('pics/logo.png', 150, 150)] }),
     new Paragraph({
       alignment: AlignmentType.CENTER, spacing: { before: 420 },
-      children: [new TextRun({ text: 'Sales', bold: true, size: 104, color: NAVY, font: 'Georgia' })]
+      children: [new TextRun({ text: 'Sales', bold: true, size: 104, color: NAVY, font: SERIF })]
     }),
     new Paragraph({
       alignment: AlignmentType.CENTER, spacing: { before: 40 },
-      children: [new TextRun({ text: 'Playbook', bold: true, size: 104, color: TEAL, font: 'Georgia' })]
+      children: [new TextRun({ text: 'Playbook', bold: true, size: 104, color: TEAL, font: SERIF })]
     }),
     new Paragraph({
       alignment: AlignmentType.CENTER, spacing: { before: 260 },
-      children: [new TextRun({ text: 'Le guide de référence du commercial Planet Aura', size: 26, color: INK, font: 'Georgia' })]
+      children: [new TextRun({ text: 'Le guide de référence du commercial Planet Aura', size: 26, color: INK, font: SERIF })]
     }),
     new Paragraph({
       alignment: AlignmentType.CENTER, spacing: { before: 170 },
-      children: [new TextRun({ text: 'Faire voyager chaque colis dans les règles, intact, à temps, partout dans le monde.', italics: true, size: 21, color: GRAY, font: 'Georgia' })]
+      children: [new TextRun({ text: 'Faire voyager chaque colis dans les règles, intact, à temps, partout dans le monde.', italics: true, size: 23, color: GRAY, font: SERIF })]
     }),
     new Paragraph({ alignment: AlignmentType.CENTER, spacing: { before: 380 }, children: [imgAuto('pics/photo_cover.png', 215)] }),
     new Paragraph({
@@ -567,7 +605,7 @@ function tocChildren() {
   }));
   paras.push(new Paragraph({
     spacing: { after: 60 },
-    children: [new TextRun({ text: 'Sommaire', bold: true, size: 48, color: NAVY, font: 'Georgia' })]
+    children: [new TextRun({ text: 'Sommaire', bold: true, size: 48, color: NAVY, font: SERIF })]
   }));
   paras.push(new Paragraph({
     border: { bottom: { style: BorderStyle.SINGLE, size: 11, color: TEAL } },
@@ -575,7 +613,7 @@ function tocChildren() {
   }));
   paras.push(new Paragraph({
     spacing: { after: 200 },
-    children: [new TextRun({ text: 'Consultation par besoin ou par étape du cycle commercial — chaque entrée est cliquable. Les annexes regroupent les outils réutilisables séparément.', italics: true, size: 17, color: GRAY, font: 'Georgia' })]
+    children: [new TextRun({ text: 'Consultation par besoin ou par étape du cycle commercial — chaque entrée est cliquable. Les annexes regroupent les outils réutilisables séparément.', italics: true, size: 17, color: GRAY, font: SERIF })]
   }));
   let lastPart = null;
   tocRegistry.forEach(h => {
@@ -586,7 +624,7 @@ function tocChildren() {
         shading: { type: ShadingType.CLEAR, fill: LTEAL },
         spacing: { before: 190, after: 70 },
         children: [
-          new TextRun({ text: `  ${part.rom}.  `, bold: true, size: 21, color: ORANGE, font: 'Georgia' }),
+          new TextRun({ text: `  ${part.rom}.  `, bold: true, size: 21, color: ORANGE, font: SERIF }),
           new TextRun({ text: part.title.toUpperCase(), bold: true, size: 17, color: TEALD }),
         ]
       }));
@@ -609,18 +647,53 @@ function tocChildren() {
 }
 
 // ---------- en-têtes / pieds ----------
-function mkHeader(leftText) {
-  return new Header({
-    children: [new Paragraph({
-      tabStops: [{ type: TabStopType.RIGHT, position: CONTENT_W }],
-      border: { bottom: { style: BorderStyle.SINGLE, size: 3, color: 'DCE8EC' } },
-      spacing: { after: 40 },
-      children: [
-        new TextRun({ text: leftText, bold: true, size: 12, color: TEALD }),
-        new TextRun({ text: '\t', size: 12 }),
-        new TextRun({ text: 'SALES PLAYBOOK 2026 · INTERNE', size: 12, color: GRAY }),
-      ]
+function sideTab(tab) {
+  if (!tab) return [];
+  return [new Table({
+    float: {
+      horizontalAnchor: 'page', verticalAnchor: 'page',
+      absoluteHorizontalPosition: PAGE.width - 310,
+      absoluteVerticalPosition: 1250 + tab.idx * 1950,
+      overlap: 'overlap',
+    },
+    width: { size: 310, type: WidthType.DXA },
+    columnWidths: [310],
+    borders: {
+      top: { style: BorderStyle.NONE }, bottom: { style: BorderStyle.NONE },
+      left: { style: BorderStyle.NONE }, right: { style: BorderStyle.NONE },
+      insideHorizontal: { style: BorderStyle.NONE }, insideVertical: { style: BorderStyle.NONE },
+    },
+    rows: [new TableRow({
+      height: { value: 2500, rule: HeightRule.EXACT },
+      children: [new TableCell({
+        width: { size: 310, type: WidthType.DXA },
+        shading: { type: ShadingType.CLEAR, fill: tab.col },
+        verticalAlign: VerticalAlign.CENTER,
+        textDirection: TextDirection.TOP_TO_BOTTOM_RIGHT_TO_LEFT,
+        margins: { top: 40, bottom: 40, left: 20, right: 20 },
+        children: [new Paragraph({
+          alignment: AlignmentType.CENTER,
+          children: [new TextRun({ text: tab.label, bold: true, size: 12, color: 'FFFFFF', font: LABEL })]
+        })]
+      })]
     })]
+  })];
+}
+function mkHeader(leftText, tab) {
+  return new Header({
+    children: [
+      new Paragraph({
+        tabStops: [{ type: TabStopType.RIGHT, position: CONTENT_W }],
+        border: { bottom: { style: BorderStyle.SINGLE, size: 3, color: 'DCE8EC' } },
+        spacing: { after: 40 },
+        children: [
+          new TextRun({ text: leftText, bold: true, size: 13, color: TEALD, font: LABEL }),
+          new TextRun({ text: '\t', size: 11 }),
+          new TextRun({ text: 'S A L E S   P L A Y B O O K   2 0 2 6   \u00b7   I N T E R N E', size: 11, color: GRAY, font: LABEL }),
+        ]
+      }),
+      ...sideTab(tab),
+    ]
   });
 }
 const footerP = new Footer({
@@ -629,9 +702,9 @@ const footerP = new Footer({
     border: { top: { style: BorderStyle.SINGLE, size: 3, color: 'DCE8EC' } },
     spacing: { before: 50 },
     children: [
-      new TextRun({ text: 'PLANET AURA · COMMISSIONNAIRE DE TRANSPORT VINS, CHAMPAGNES & SPIRITUEUX', size: 12, color: GRAY }),
+      new TextRun({ text: 'P L A N E T   A U R A   ·   C O M M I S S I O N N A I R E   D E   T R A N S P O R T   V I N S ,   C H A M P A G N E S   &   S P I R I T U E U X', size: 10, color: GRAY, font: LABEL }),
       new TextRun({ text: '\t', size: 12 }),
-      new TextRun({ children: [PageNumber.CURRENT], bold: true, size: 15, color: NAVY }),
+      new TextRun({ children: [PageNumber.CURRENT], bold: true, size: 16, color: TEAL, font: LABEL }),
     ]
   })]
 });
@@ -688,7 +761,7 @@ UNITS.filter(u => u.id !== 'avant').forEach(u => {
   kids.push(...convertBody(md, u, { noMiniToc: isAnnex }));
   bodySections.push({
     properties: { ...pageProps },
-    headers: { default: mkHeader(headTxt) }, footers: { default: footerP },
+    headers: { default: mkHeader(headTxt, tabOf(u.id)) }, footers: { default: footerP },
     children: kids
   });
 });
@@ -701,10 +774,41 @@ sections.push({
 });
 sections.push(...bodySections);
 
+// page de fin (exergue + colophon, comme la maquette)
+sections.push({
+  properties: { ...pageProps },
+  headers: { default: mkHeader('FIN DU DOCUMENT') }, footers: { default: footerP },
+  children: [
+    new Paragraph({ spacing: { before: 3400 }, children: [] }),
+    new Paragraph({ alignment: AlignmentType.CENTER, children: [img('pics/logo.png', 110, 110)] }),
+    new Paragraph({
+      alignment: AlignmentType.CENTER, spacing: { before: 560, after: 420 },
+      indent: { left: 600, right: 600 },
+      children: [new TextRun({ text: '\u00ab On ne vend pas du transport. On rassure des professionnels. \u00bb', italics: true, size: 34, color: TEAL, font: SERIF })]
+    }),
+    new Paragraph({
+      alignment: AlignmentType.CENTER, spacing: { after: 90 },
+      children: [new TextRun({ text: 'Document interne et confidentiel - r\u00e9serv\u00e9 \u00e0 l\u2019\u00e9quipe commerciale & marketing Planet Aura.', size: 18, color: INK })]
+    }),
+    new Paragraph({
+      alignment: AlignmentType.CENTER, spacing: { after: 90 },
+      children: [new TextRun({ text: 'Version 2.1 \u00b7 Octobre 2026 \u00b7 Chiffres : dashboards Planet\u2019Connect, extraction du 24/09/2026.', size: 18, color: INK })]
+    }),
+    new Paragraph({
+      alignment: AlignmentType.CENTER, spacing: { after: 700 },
+      children: [new TextRun({ text: 'Retours et corrections : emma@planet-aura.com', size: 18, color: INK })]
+    }),
+    new Paragraph({
+      alignment: AlignmentType.CENTER,
+      children: [new TextRun({ text: 'S A R L   P L A N E T   A U R A   \u00b7   5   I M P A S S E   F R A N \u00c7 O I S   A R A G O ,   8 1 1 0 0   C A S T R E S   \u00b7   W W W . P L A N E T - A U R A . C O M', size: 11, color: GRAY, font: LABEL })]
+    }),
+  ]
+});
+
 fs.writeFileSync(path.join(__dirname, 'toc-map-emma.json'), JSON.stringify(tocRegistry, null, 1));
 
 const doc = new Document({
-  styles: { default: { document: { run: { font: 'Calibri', size: 17, color: INK } } } },
+  styles: { default: { document: { run: { font: SANS, size: 19, color: INK } } } },
   numbering: {
     config: [
       {

@@ -40,3 +40,33 @@ module.exports = {
     { after: 'tableau de bord|dashboards|Indicateurs', img: 'pics/dash_gestion.png', w: 406, caption: 'Le dashboard gestion réel : CA, CA vins expédiés, shippings, bouteilles (janv.-sept. 2026)' },
   ],
 };
+
+// Annexe H - fiches maquettées (pages extraites du PPTX officiel)
+module.exports['H'] = [
+  { after: '^ICP 1', img: 'fiches/fiche-02.png', w: 520, caption: '' },
+  { after: '^ICP 2', img: 'fiches/fiche-01.png', w: 520, caption: '' },
+  { after: '^ICP 3', img: 'fiches/fiche-04.png', w: 520, caption: '' },
+  { after: '^ICP 4', img: 'fiches/fiche-03.png', w: 520, caption: '' },
+  { after: '^ICP 5', img: 'fiches/fiche-06.png', w: 520, caption: '' },
+  { after: '^Persona A', img: 'fiches/fiche-05.png', w: 520, caption: '' },
+  { after: '^Persona B', img: 'fiches/fiche-07.png', w: 520, caption: '' },
+  { after: '^Persona C', img: 'fiches/fiche-08.png', w: 520, caption: '' },
+  { after: '^Persona D', img: 'fiches/fiche-10.png', w: 520, caption: '' },
+  { after: '^Persona E', img: 'fiches/fiche-09.png', w: 520, caption: '' },
+];
+// Annexe I - documents officiels entiers
+module.exports['I'] = [];
+for (let i = 1; i <= 5; i++) module.exports['I'].push({ after: '^Grille tarifaire shipping', img: `annexes/grille_ship-${i}.png`, w: 520, caption: i === 5 ? 'Grille tarifaire shipping 2026 - document officiel (5 pages)' : '' });
+for (let i = 1; i <= 3; i++) module.exports['I'].push({ after: '^Grille tarifaire stockage', img: `annexes/grille_stock-${i}.png`, w: 520, caption: i === 3 ? 'Grille tarifaire stockage & picking 2026 - document officiel (3 pages)' : '' });
+module.exports['I'].push(
+  { after: '^Order Form 2026', img: 'annexes/orderform-1.png', w: 505, caption: 'Order Form 2026 - formulaire officiel vierge' },
+  { after: '^Mandat SEPA', img: 'annexes/sepa-1.png', w: 505, caption: '' },
+  { after: '^Mandat SEPA', img: 'annexes/sepa-2.png', w: 505, caption: 'Mandat SEPA - document officiel (2 pages)' },
+  { after: '^Mode d\u2019emploi Planet|^Mode d.emploi Planet', img: 'annexes/pconnect_cover-01.png', w: 330, caption: '' },
+  { after: '^Mode d\u2019emploi Planet|^Mode d.emploi Planet', img: 'annexes/pconnect_sommaire-02.png', w: 500, caption: 'Mode d\u2019emploi Planet\u2019Connect - couverture et sommaire (37 pages)' },
+  { after: '^Formulaire de shipping', img: 'annexes/shipform-1.png', w: 400, caption: 'Formulaire de shipping par email - onglet FORMULAIRE' },
+  { after: '^Flyer de prospection', img: 'pics/flyer1.png', w: 460, caption: 'Flyer de prospection - face extérieure' },
+  { after: '^Cartes de zones', img: 'pics/usmap1.png', w: 520, caption: 'États-Unis - couverture groupage vin (ouvert / codes postaux limités / fermé)' },
+  { after: '^Cartes de zones', img: 'pics/usmap3.png', w: 520, caption: 'États-Unis - carte de référence des statuts par État' },
+  { after: '^Cartes de zones', img: 'pics/norway.png', w: 400, caption: 'Norvège - les deux zones tarifaires (lire Sud/Nord, jamais le numéro)' }
+);
