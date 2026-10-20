@@ -7,7 +7,8 @@ const {
   Document, Packer, Paragraph, TextRun, ImageRun, Table, TableRow, TableCell,
   HeadingLevel, AlignmentType, WidthType, ShadingType, BorderStyle,
   LevelFormat, PageBreak, Footer, Header, PageNumber, VerticalAlign,
-  Bookmark, InternalHyperlink, TabStopType, LeaderType, TextDirection, HeightRule
+  Bookmark, InternalHyperlink, TabStopType, LeaderType, TextDirection, HeightRule,
+  HorizontalPositionRelativeFrom, VerticalPositionRelativeFrom, TextWrappingType
 } = require('docx');
 
 const SRC = path.join(__dirname, 'content-emma');
@@ -320,8 +321,8 @@ function convertBody(md, unit, opts = {}) {
           tocRegistry.push({ key, level: 1, text: plainHeading(txt), id: unit.id });
         }
         const titleRuns = [];
-        if (num) titleRuns.push(new TextRun({ text: (isAnnex ? 'Annexe ' : '') + num + '  ·  ', bold: true, size: 48, color: ORANGE, font: SERIF }));
-        titleRuns.push(new TextRun({ text: title, bold: true, size: 48, color: NAVY, font: SERIF }));
+        if (num) titleRuns.push(new TextRun({ text: (isAnnex ? 'Annexe ' + num : num) + '   ', bold: true, size: 76, color: TEAL, font: SERIF }));
+        titleRuns.push(new TextRun({ text: title, bold: true, size: 46, color: NAVY, font: SERIF }));
         out.push(new Paragraph({
           heading: HeadingLevel.HEADING_1,
           spacing: { after: 70 },
@@ -341,21 +342,51 @@ function convertBody(md, unit, opts = {}) {
           border: { bottom: { style: BorderStyle.SINGLE, size: 11, color: TEAL } },
           spacing: { after: 170 }, children: []
         }));
-        // mini-sommaire du chapitre (H2, sans numéros de page)
+        // sous-sommaire de chapitre « DANS CE CHAPITRE » (paginé, cliquable - maquette)
         if (!opts.noMiniToc) {
-          const h2s = lines.slice(i + 1).filter(l => /^##\s/.test(l)).map(l => plainHeading(l.replace(/^##\s+/, '')));
-          if (h2s.length >= 3) {
-            out.push(new Paragraph({
-              spacing: { after: 40 },
-              children: [new TextRun({ text: 'DANS CE CHAPITRE', bold: true, size: 13, color: GRAY })]
+          const h2lines = lines.slice(i + 1).filter(l => /^##\s/.test(l)).map(l => plainHeading(l.replace(/^##\s+/, '')));
+          if (h2lines.length >= 3) {
+            const baseIdx = tocRegistry.length;
+            const rows = h2lines.map((h, k) => {
+              const key = `toc${baseIdx + k}`; // les H2 seront enregistrés dans cet ordre
+              const page = tocPages[key] !== undefined ? String(tocPages[key]) : '';
+              return new TableRow({
+                children: [
+                  new TableCell({
+                    width: { size: CONTENT_W - 700, type: WidthType.DXA },
+                    borders: { bottom: { style: BorderStyle.SINGLE, size: 3, color: 'DCE8EC' } },
+                    margins: { top: 38, bottom: 38, left: 60, right: 60 },
+                    children: [new Paragraph({ children: [new InternalHyperlink({ anchor: key, children: [new TextRun({ text: h, size: 17, color: INK })] })] })]
+                  }),
+                  new TableCell({
+                    width: { size: 700, type: WidthType.DXA },
+                    borders: { bottom: { style: BorderStyle.SINGLE, size: 3, color: 'DCE8EC' } },
+                    margins: { top: 38, bottom: 38, left: 40, right: 60 },
+                    children: [new Paragraph({ alignment: AlignmentType.RIGHT, children: [new TextRun({ text: page, bold: true, size: 17, color: TEAL, font: LABEL })] })]
+                  }),
+                ]
+              });
+            });
+            out.push(new Table({
+              width: { size: CONTENT_W, type: WidthType.DXA },
+              columnWidths: [CONTENT_W - 700, 700],
+              borders: {
+                top: { style: BorderStyle.NONE }, bottom: { style: BorderStyle.NONE },
+                left: { style: BorderStyle.NONE }, right: { style: BorderStyle.NONE },
+                insideHorizontal: { style: BorderStyle.NONE }, insideVertical: { style: BorderStyle.NONE },
+              },
+              rows: [
+                new TableRow({ children: [new TableCell({
+                  columnSpan: 2,
+                  width: { size: CONTENT_W, type: WidthType.DXA },
+                  borders: { bottom: { style: BorderStyle.SINGLE, size: 6, color: TEAL } },
+                  margins: { top: 20, bottom: 50, left: 60, right: 60 },
+                  children: [new Paragraph({ children: [new TextRun({ text: 'D A N S   C E   C H A P I T R E', bold: true, size: 14, color: TEAL, font: LABEL })] })]
+                })] }),
+                ...rows,
+              ]
             }));
-            out.push(new Paragraph({
-              spacing: { after: 210 },
-              children: h2s.flatMap((h, k) => [
-                ...(k ? [new TextRun({ text: '   ·   ', size: 16, color: ORANGE })] : []),
-                new TextRun({ text: h, size: 16, color: TEALD })
-              ])
-            }));
+            out.push(new Paragraph({ spacing: { after: 170 }, children: [] }));
           }
         }
         out.push(...tryPlace(txt));
@@ -363,10 +394,16 @@ function convertBody(md, unit, opts = {}) {
       }
 
       if (lvl === 2) {
+        let h2runs = inlineRuns(txt, { bold: true, size: 30, color: NAVY, font: SERIF });
+        if (!opts.noToc) {
+          const k2 = `toc${tocRegistry.length}`;
+          tocRegistry.push({ key: k2, level: 2, text: plainHeading(txt), id: unit.id });
+          h2runs = [new Bookmark({ id: k2, children: h2runs })];
+        }
         out.push(new Paragraph({
           heading: HeadingLevel.HEADING_2,
           spacing: { before: 260, after: 76 },
-          children: inlineRuns(txt, { bold: true, size: 30, color: NAVY, font: SERIF })
+          children: h2runs
         }));
       } else if (lvl === 3) {
         out.push(new Paragraph({
@@ -559,7 +596,7 @@ function partOpener(p) {
 // ---------- couverture ----------
 function coverChildren() {
   return [
-    new Paragraph({ spacing: { before: 700 }, children: [] }),
+    new Paragraph({ spacing: { before: 420 }, children: [] }),
     new Paragraph({ alignment: AlignmentType.CENTER, children: [img('pics/logo.png', 150, 150)] }),
     new Paragraph({
       alignment: AlignmentType.CENTER, spacing: { before: 420 },
@@ -577,18 +614,27 @@ function coverChildren() {
       alignment: AlignmentType.CENTER, spacing: { before: 170 },
       children: [new TextRun({ text: 'Faire voyager chaque colis dans les règles, intact, à temps, partout dans le monde.', italics: true, size: 23, color: GRAY, font: SERIF })]
     }),
-    new Paragraph({ alignment: AlignmentType.CENTER, spacing: { before: 380 }, children: [imgAuto('pics/photo_cover.png', 215)] }),
+    new Paragraph({ alignment: AlignmentType.CENTER, spacing: { before: 300 }, children: [imgAuto('pics/photo_cover.png', 200)] }),
     new Paragraph({
-      alignment: AlignmentType.CENTER, spacing: { before: 420 },
+      alignment: AlignmentType.CENTER, spacing: { before: 300 },
       children: [new TextRun({ text: 'COMMISSIONNAIRE DE TRANSPORT  ·  CHAMPAGNES, VINS & SPIRITUEUX', bold: true, size: 17, color: TEALD })]
     }),
     new Paragraph({
-      alignment: AlignmentType.CENTER, spacing: { before: 150 },
+      alignment: AlignmentType.CENTER, spacing: { before: 130 },
       children: [new TextRun({ text: 'VERSION 2.1 · OCTOBRE 2026  ·  RÉSERVÉ À L’ÉQUIPE COMMERCIALE & MARKETING  ·  CONFIDENTIEL', bold: true, size: 16, color: NAVY })]
     }),
     new Paragraph({
-      alignment: AlignmentType.CENTER, spacing: { before: 90 },
+      alignment: AlignmentType.CENTER, spacing: { before: 80 },
       children: [new TextRun({ text: 'SARL Planet Aura — 5 Impasse François Arago, 81100 Castres — www.planet-aura.com', size: 15, color: GRAY })]
+    }),
+    new Paragraph({ alignment: AlignmentType.CENTER, spacing: { before: 220 }, children: [imgAuto('pics/logo_euridis.png', 130)] }),
+    new Paragraph({
+      alignment: AlignmentType.CENTER, spacing: { before: 80 },
+      children: [new TextRun({ text: 'Rédigé par Emma Soares Britschgy — Mastère Marketing & Digital Business, promotion 547 (2024-2027)', size: 15, color: INK })]
+    }),
+    new Paragraph({
+      alignment: AlignmentType.CENTER, spacing: { before: 40 },
+      children: [new TextRun({ text: 'Tutrice entreprise : Floriane Février  ·  Suivi académique : Thibaut du Cleuziou  ·  Euridis Business School', size: 15, color: GRAY })]
     }),
   ];
 }
@@ -598,85 +644,80 @@ let tocPages = {};
 try { tocPages = JSON.parse(fs.readFileSync(path.join(__dirname, 'toc-pages-emma.json'), 'utf8')); } catch (e) {}
 
 function tocChildren() {
+  const COL_W = Math.floor((CONTENT_W - 420) / 2);
   const paras = [];
   paras.push(new Paragraph({
-    spacing: { before: 140, after: 20 },
-    children: [new TextRun({ text: 'NAVIGATION', bold: true, size: 14, color: TEAL })]
+    spacing: { before: 120, after: 20 },
+    children: [new TextRun({ text: 'N A V I G A T I O N', bold: true, size: 14, color: TEAL, font: LABEL })]
   }));
   paras.push(new Paragraph({
-    spacing: { after: 60 },
-    children: [new TextRun({ text: 'Sommaire', bold: true, size: 48, color: NAVY, font: SERIF })]
+    spacing: { after: 70 },
+    children: [new TextRun({ text: 'Sommaire', bold: true, size: 52, color: NAVY, font: SERIF })]
   }));
   paras.push(new Paragraph({
-    border: { bottom: { style: BorderStyle.SINGLE, size: 11, color: TEAL } },
-    spacing: { after: 90 }, children: []
+    spacing: { after: 260 },
+    children: [new TextRun({ text: 'Consultation par besoin ou par étape du cycle commercial - chaque entrée est cliquable. Les annexes regroupent les outils réutilisables séparément.', italics: true, size: 18, color: GRAY, font: SERIF })]
   }));
-  paras.push(new Paragraph({
-    spacing: { after: 200 },
-    children: [new TextRun({ text: 'Consultation par besoin ou par étape du cycle commercial — chaque entrée est cliquable. Les annexes regroupent les outils réutilisables séparément.', italics: true, size: 17, color: GRAY, font: SERIF })]
-  }));
+
+  const entry = (h, labelColor) => {
+    const page = tocPages[h.key] !== undefined ? String(tocPages[h.key]) : '0';
+    const m = h.text.match(/^(Annexe\s+)?([0-9A-I]{1,2})\s*[—–-]\s*(.*)$/);
+    const kids = [];
+    if (m) {
+      kids.push(new TextRun({ text: m[2], bold: true, size: 17, color: labelColor, font: LABEL }));
+      kids.push(new TextRun({ text: '   ' + m[3], size: 18, color: INK }));
+    } else {
+      kids.push(new TextRun({ text: h.text, bold: true, size: 18, color: INK }));
+    }
+    return new Paragraph({
+      tabStops: [{ type: TabStopType.RIGHT, position: COL_W }],
+      spacing: { before: 54, after: 20 },
+      border: { bottom: { style: BorderStyle.SINGLE, size: 2, color: 'E4EDF0' } },
+      children: [
+        new InternalHyperlink({ anchor: h.key, children: kids }),
+        new TextRun({ text: '\t', size: 18 }),
+        new TextRun({ text: page, bold: true, size: 17, color: TEAL, font: LABEL }),
+      ]
+    });
+  };
+
+  const level1 = tocRegistry.filter(h => h.level === 1);
   let lastPart = null;
-  tocRegistry.forEach(h => {
+  level1.forEach(h => {
     const part = PART_OF_UNIT[h.id];
     if (part && part !== lastPart) {
       lastPart = part;
       paras.push(new Paragraph({
-        shading: { type: ShadingType.CLEAR, fill: LTEAL },
-        spacing: { before: 190, after: 70 },
+        keepNext: true,
+        spacing: { before: 300, after: 60 },
         children: [
-          new TextRun({ text: `  ${part.rom}.  `, bold: true, size: 21, color: ORANGE, font: SERIF }),
-          new TextRun({ text: part.title.toUpperCase(), bold: true, size: 17, color: TEALD }),
+          new TextRun({ text: part.big, bold: true, size: 44, color: TEAL, font: SERIF }),
+          new TextRun({ text: '  ' + part.title.toUpperCase(), bold: true, size: 15, color: TEALD, font: LABEL }),
         ]
       }));
     }
-    const page = tocPages[h.key] !== undefined ? String(tocPages[h.key]) : '0';
-    paras.push(new Paragraph({
-      tabStops: [{ type: TabStopType.RIGHT, position: CONTENT_W, leader: LeaderType.DOT }],
-      spacing: { before: 60, after: 20 },
-      children: [
-        new InternalHyperlink({
-          anchor: h.key,
-          children: [new TextRun({ text: h.text, bold: true, size: 19, color: NAVY })]
-        }),
-        new TextRun({ text: '\t', size: 19 }),
-        new TextRun({ text: page, bold: true, size: 18, color: ORANGE }),
-      ]
-    }));
+    paras.push(entry(h, part ? ORANGE : TEAL));
   });
   return paras;
 }
 
 // ---------- en-têtes / pieds ----------
-function sideTab(tab) {
+const TAB_IMG = { 0: 'tab-p1', 1: 'tab-p2', 2: 'tab-p3', 3: 'tab-p4', 4: 'tab-ann' };
+function sideTabRun(tab) {
   if (!tab) return [];
-  return [new Table({
-    float: {
-      horizontalAnchor: 'page', verticalAnchor: 'page',
-      absoluteHorizontalPosition: PAGE.width - 310,
-      absoluteVerticalPosition: 1250 + tab.idx * 1950,
-      overlap: 'overlap',
-    },
-    width: { size: 310, type: WidthType.DXA },
-    columnWidths: [310],
-    borders: {
-      top: { style: BorderStyle.NONE }, bottom: { style: BorderStyle.NONE },
-      left: { style: BorderStyle.NONE }, right: { style: BorderStyle.NONE },
-      insideHorizontal: { style: BorderStyle.NONE }, insideVertical: { style: BorderStyle.NONE },
-    },
-    rows: [new TableRow({
-      height: { value: 2500, rule: HeightRule.EXACT },
-      children: [new TableCell({
-        width: { size: 310, type: WidthType.DXA },
-        shading: { type: ShadingType.CLEAR, fill: tab.col },
-        verticalAlign: VerticalAlign.CENTER,
-        textDirection: TextDirection.TOP_TO_BOTTOM_RIGHT_TO_LEFT,
-        margins: { top: 40, bottom: 40, left: 20, right: 20 },
-        children: [new Paragraph({
-          alignment: AlignmentType.CENTER,
-          children: [new TextRun({ text: tab.label, bold: true, size: 12, color: 'FFFFFF', font: LABEL })]
-        })]
-      })]
-    })]
+  const data = fs.readFileSync(path.join(A, `diagrams/${TAB_IMG[tab.idx] || 'tab-ann'}.png`));
+  const PX = 9525; // EMU par pixel
+  const wPx = 26, hPx = 230;
+  const pageWpx = Math.round(PAGE.width / 1440 * 96);
+  return [new ImageRun({
+    type: 'png', data,
+    transformation: { width: wPx, height: hPx },
+    floating: {
+      horizontalPosition: { relative: HorizontalPositionRelativeFrom.PAGE, offset: (pageWpx - wPx) * PX },
+      verticalPosition: { relative: VerticalPositionRelativeFrom.PAGE, offset: (95 + tab.idx * 150) * PX },
+      wrap: { type: TextWrappingType.NONE },
+      behindDocument: false,
+    }
   })];
 }
 function mkHeader(leftText, tab) {
@@ -687,12 +728,12 @@ function mkHeader(leftText, tab) {
         border: { bottom: { style: BorderStyle.SINGLE, size: 3, color: 'DCE8EC' } },
         spacing: { after: 40 },
         children: [
+          ...sideTabRun(tab),
           new TextRun({ text: leftText, bold: true, size: 13, color: TEALD, font: LABEL }),
           new TextRun({ text: '\t', size: 11 }),
           new TextRun({ text: 'S A L E S   P L A Y B O O K   2 0 2 6   \u00b7   I N T E R N E', size: 11, color: GRAY, font: LABEL }),
         ]
       }),
-      ...sideTab(tab),
     ]
   });
 }
@@ -768,7 +809,7 @@ UNITS.filter(u => u.id !== 'avant').forEach(u => {
 
 // 4. sommaire (registre complet), puis le corps
 sections.push({
-  properties: { ...pageProps },
+  properties: { ...pageProps, column: { count: 2, space: 420, equalWidth: true } },
   headers: { default: mkHeader('SOMMAIRE') }, footers: { default: footerP },
   children: tocChildren()
 });

@@ -14,6 +14,10 @@
 
 Le document complet est disponible dans le Drive interne (dossier Documents officiels 2026) et dans Planet'Connect, rubrique Actualités.
 
+## Manuel utilisateur 2026 et procédure Suède
+
+Deux documents complémentaires, consultables dans le Drive interne (Documents officiels 2026 / Nouveaux process 2026) : le **Manuel utilisateur 2026** (parcours complet d'un shipping en 6 étapes, référence de la formation Planet'Connect, chap. 15) et la **procédure « Expéditions vers la Suède »** (représentant fiscal Vinoflow, spécificités accises et étiquetage).
+
 ## Formulaire de shipping par email (modèle officiel 2026)
 
 ## Flyer de prospection
@@ -31,6 +35,11 @@ Le document complet est disponible dans le Drive interne (dossier Documents offi
 | Documents officiels 2026 (grilles, CGS, order form, SEPA, mode d'emploi, manuel) | Drive interne → Documents officiels 2026 |
 | Procédures internes (sinistres, cotations, UE & pays tiers, USA, first/last miles) | Drive interne → $$Nouveaux process 2026 |
 | Matrice de compétences « Missions Planet Aura » | Drive interne → Nouveaux process 2026 → Informations internes |
-| Codes postaux desservis (RI, OK, NJ, IL, DE) | Planet'Connect → Actualités (mail automatique « Restriction codes postaux ») |
+| Codes postaux desservis - Rhode Island | drive.google.com/file/d/1Y0XfV42Wp5C5vwWmB0y18Amnq7vjjMHh |
+| Codes postaux desservis - Oklahoma | drive.google.com/file/d/1JWUn3POkq9RR7VCNeTWn_HflXIRs65cu |
+| Codes postaux desservis - New Jersey | drive.google.com/file/d/1gjIsF-aIIYSMlGD-RwDrJAySUU_Uvqn6 |
+| Codes postaux desservis - Illinois | drive.google.com/file/d/1M817jRQaDZJrIBaUPSaVkJIVFel5J7Fa |
+| Codes postaux desservis - Delaware | drive.google.com/file/d/1wQfu4rHIFLhS_ArUdxylAPnAGZHVHXNq |
+| Boutiques adhérentes connectées à l'API (démonstrations en rendez-vous) | terre-mistral.com · shop.beaupre.fr · domaine-pieracci.com/wine-shipping · dynamiccellars.com · domainenais.fr/boutique |
 | Suivi des sinistres & dashboards admin | Planet'Connect → Administration (accès direction/exploitation) |
 | Retours et corrections sur ce playbook | emma@planet-aura.com |
