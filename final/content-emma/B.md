@@ -11,7 +11,7 @@
 
 ## Nature de la prestation : commissionnaire, obligation de résultat
 
-Planet Aura (SARL au capital de 1 000 €, RCS Castres 850 624 636, siège social au 5 Impasse François Arago, 81100 Castres) agit en qualité de **commissionnaire de transport** au sens des articles L.132-1 et suivants du Code de commerce : libre du choix des moyens et des sous-traitants, elle organise l'expédition, sélectionne transporteurs et prestataires, gère les formalités douanières, assure le suivi et prend en charge la gestion des sinistres dans les limites contractuelles - le tout via la plateforme Planet'Connect. Surtout : **Planet Aura s'engage à une obligation de résultat quant à l'acheminement des Produits**, sauf cas de force majeure, cas fortuit, faute du Client ou du Destinataire (art. 2).
+Planet Aura (SARL au capital de 1 000 €, RCS Castres 850 624 636, siège social au 185 avenue de Roquecourbe, 81100 Castres) agit en qualité de **commissionnaire de transport** au sens des articles L.132-1 et suivants du Code de commerce : libre du choix des moyens et des sous-traitants, elle organise l'expédition, sélectionne transporteurs et prestataires, gère les formalités douanières, assure le suivi et prend en charge la gestion des sinistres dans les limites contractuelles - le tout via la plateforme Planet'Connect. Surtout : **Planet Aura s'engage à une obligation de résultat quant à l'acheminement des Produits**, sauf cas de force majeure, cas fortuit, faute du Client ou du Destinataire (art. 2).
 
 > **REPÈRE -** Le statut de commissionnaire n'est pas un détail juridique, c'est un argument : contrairement à un simple revendeur d'étiquettes, le commissionnaire répond du résultat de bout en bout. C'est le fondement contractuel des promesses du chap. 13.
 

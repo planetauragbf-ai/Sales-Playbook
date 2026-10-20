@@ -452,7 +452,10 @@ function convertBody(md, unit, opts = {}) {
           : kpart ? `${kpart.num}  ·  ${kpart.title.toUpperCase()}` : 'SALES PLAYBOOK 2026');
         out.push(new Paragraph({
           spacing: { before: 60, after: 120 },
-          children: [new TextRun({ text: kicker, bold: true, size: 15, color: DEEP, font: LABEL })]
+          children: [new Bookmark({
+            id: 'chap' + unit.id,
+            children: [new TextRun({ text: kicker, bold: true, size: 15, color: DEEP, font: LABEL })]
+          })]
         }));
         let key = null;
         if (!opts.noToc) {
@@ -682,14 +685,16 @@ const PART_OF_UNIT = {};
 
 // ---------- ouverture de partie ----------
 function partOpener(p) {
+  // chaque chapitre list\u00e9 est cliquable (ancre \u00ab chap<id> \u00bb pos\u00e9e sur la t\u00eate de chapitre)
   const chapterLines = p.chapters.map(c => {
     const m = c.match(/^([0-9A-I]{1,2})\s*\u00b7\s*(.*)$/);
+    const runs = m ? [
+      new TextRun({ text: m[1], bold: true, size: 23, color: 'FFFFFF', font: SERIF }),
+      new TextRun({ text: '    ' + m[2], size: 22, color: 'F2E9E4' }),
+    ] : [new TextRun({ text: c, size: 22, color: 'F2E9E4' })];
     return new Paragraph({
       spacing: { after: 88 },
-      children: m ? [
-        new TextRun({ text: m[1], bold: true, size: 23, color: 'FFFFFF', font: SERIF }),
-        new TextRun({ text: '    ' + m[2], size: 22, color: 'F2E9E4' }),
-      ] : [new TextRun({ text: c, size: 22, color: 'F2E9E4' })]
+      children: m ? [new InternalHyperlink({ anchor: 'chap' + m[1], children: runs })] : runs
     });
   });
   return [
@@ -766,11 +771,11 @@ function coverChildren() {
     }),
     new Paragraph({
       alignment: AlignmentType.CENTER, spacing: { before: 130 },
-      children: [new TextRun({ text: 'VERSION 2.1 · OCTOBRE 2026  ·  RÉSERVÉ À L’ÉQUIPE COMMERCIALE & MARKETING  ·  CONFIDENTIEL', bold: true, size: 16, color: NAVY })]
+      children: [new TextRun({ text: 'RÉSERVÉ À L’ÉQUIPE COMMERCIALE & MARKETING  ·  CONFIDENTIEL', bold: true, size: 16, color: NAVY })]
     }),
     new Paragraph({
       alignment: AlignmentType.CENTER, spacing: { before: 80 },
-      children: [new TextRun({ text: 'SARL Planet Aura - 5 Impasse François Arago, 81100 Castres - www.planet-aura.com', size: 15, color: GRAY })]
+      children: [new TextRun({ text: 'SARL Planet Aura - 185 avenue de Roquecourbe, 81100 Castres - www.planet-aura.com', size: 15, color: GRAY })]
     }),
     new Paragraph({ alignment: AlignmentType.CENTER, spacing: { before: 220 }, children: [imgAuto('pics/logo_euridis.png', 130)] }),
     new Paragraph({
@@ -924,8 +929,9 @@ function mkHeader(leftText, tab) {
     ]
   });
 }
-function mkFooter(tab) {
-  const col = tab ? (DEEP_OF[tab.col] || TEAL) : TEAL;
+function mkFooter(tab, noNum = false) {
+  // folio en Playfair, dans la couleur pleine de la partie ; pas de folio sur le liminaire
+  const col = tab ? tab.col : TEAL;
   return new Footer({
     children: [new Paragraph({
       tabStops: [{ type: TabStopType.RIGHT, position: CONTENT_W }],
@@ -934,12 +940,13 @@ function mkFooter(tab) {
       children: [
         new TextRun({ text: 'P L A N E T   A U R A   ·   C O M M I S S I O N N A I R E   D E   T R A N S P O R T   V I N S ,   C H A M P A G N E S   &   S P I R I T U E U X', size: 10, color: GRAY, font: LABEL }),
         new TextRun({ text: '\t', size: 12 }),
-        new TextRun({ children: [PageNumber.CURRENT], bold: true, size: 16, color: col, font: LABEL }),
+        ...(noNum ? [] : [new TextRun({ children: [PageNumber.CURRENT], bold: true, size: 26, color: col, font: SERIF })]),
       ]
     })]
   });
 }
 const footerP = mkFooter(null);
+const footerNoNum = mkFooter(null, true);
 const emptyHF = { headers: { default: new Header({ children: [new Paragraph({ children: [] })] }) }, footers: { default: new Footer({ children: [new Paragraph({ children: [] })] }) } };
 
 // ---------- assemblage ----------
@@ -970,15 +977,16 @@ sections.push({ properties: { ...pageProps }, ...emptyHF, children: coverChildre
 // 2. remerciements + confidentialité (sans entrée au sommaire)
 sections.push({
   properties: { ...pageProps },
-  headers: { default: mkHeader('AVANT DE COMMENCER') }, footers: { default: footerP },
+  headers: { default: mkHeader('AVANT DE COMMENCER') }, footers: { default: footerNoNum },
   children: convertBody(avantPre.replace(/^#\s+.*$/m, '# Remerciements & confidentialité'), { id: 'avantpre' }, { noMiniToc: true, noToc: true, compact: true })
 });
 
 // 3. corps converti D'ABORD (pour remplir le registre du sommaire), inséré APRÈS le sommaire
 const bodySections = [];
 if (avantPost) {
+  // la numérotation visible démarre ici, après le sommaire
   bodySections.push({
-    properties: { ...pageProps },
+    properties: { page: { ...pageProps.page, pageNumbers: { start: 1 } } },
     headers: { default: mkHeader('AVANT DE COMMENCER') }, footers: { default: footerP },
     children: convertBody(avantPost, { id: 'avant', head: 'OUVERTURE' }, { noMiniToc: true })
   });
@@ -989,11 +997,21 @@ UNITS.filter(u => u.id !== 'avant').forEach(u => {
   const isAnnex = /^Annexe/.test(h1);
   const headTxt = plainHeading(h1).toUpperCase();
   const kids = [];
-  if (PARTS[u.id]) kids.push(...partOpener(PARTS[u.id]));
+  const isPartStart = !!PARTS[u.id];
+  if (isPartStart) kids.push(...partOpener(PARTS[u.id]));
   kids.push(...convertBody(md, u, { noMiniToc: isAnnex }));
   bodySections.push({
-    properties: { ...pageProps },
-    headers: { default: mkHeader(headTxt, tabOf(u.id)) }, footers: { default: mkFooter(tabOf(u.id)) },
+    // la page d'ouverture de partie (bloc de couleur) n'affiche ni en-tête ni folio,
+    // mais reste comptée dans la numérotation ; l'onglet de bordure y demeure
+    properties: { ...pageProps, ...(isPartStart ? { titlePage: true } : {}) },
+    headers: {
+      default: mkHeader(headTxt, tabOf(u.id)),
+      ...(isPartStart ? { first: new Header({ children: [new Paragraph({ children: sideTabRun(tabOf(u.id)) })] }) } : {}),
+    },
+    footers: {
+      default: mkFooter(tabOf(u.id)),
+      ...(isPartStart ? { first: new Footer({ children: [new Paragraph({ children: [] })] }) } : {}),
+    },
     children: kids
   });
 });
@@ -1001,7 +1019,7 @@ UNITS.filter(u => u.id !== 'avant').forEach(u => {
 // 4. sommaire (registre complet), puis le corps
 sections.push({
   properties: { ...pageProps, column: { count: 2, space: 420, equalWidth: true } },
-  headers: { default: mkHeader('SOMMAIRE') }, footers: { default: footerP },
+  headers: { default: mkHeader('SOMMAIRE') }, footers: { default: footerNoNum },
   children: tocChildren()
 });
 sections.push(...bodySections);

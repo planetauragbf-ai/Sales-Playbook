@@ -93,3 +93,7 @@ module.exports['I'].push(
 module.exports['10'] = (module.exports['10'] || []).concat([
   { after: '^Diagramme de la séquence', img: 'diagrams/d10_sequence.png', w: 500, caption: 'Le diagramme de la séquence de prospection automatisée : 8 touches sur 18 jours et ses embranchements' },
 ]);
+// chap. 00 - le cycle de vente en cartes (design maquette)
+module.exports['00'] = [
+  { after: '^Le cycle de vente en bref', img: 'diagrams/d00_cycle.png', w: 520, caption: 'Le cycle de vente en bref : six étapes, l’activation comme vraie ligne d’arrivée' },
+];

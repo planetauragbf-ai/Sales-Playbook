@@ -32,6 +32,8 @@ for h in reg:
     t=norm(h['text']); lo,hi=bounds.get(h['id'],(start+1,len(np_)))
     cand=[i for i in range(lo-1,min(hi-1,len(np_))) if t in np_[i]]
     out[h['key']]=(max(cand)+1) if cand else lo
+# folio affiché : la numérotation démarre à 1 sur la première page après le sommaire
+out={k:v-start for k,v in out.items()}
 json.dump(out,open('toc-pages-emma.json','w'))
-print('mapped',len(out),'/',len(reg),'(L1',len(l1),')')
+print('mapped',len(out),'/',len(reg),'(L1',len(l1),') offset',start)
 for m2 in missed: print('MISS',m2)

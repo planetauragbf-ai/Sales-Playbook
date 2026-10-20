@@ -63,7 +63,7 @@ Fiabilité, proximité, sens du détail, responsabilité : ce sont nos quatre re
 
 **Floriane Février** - Fondatrice & Gérante
 
-## Le mot d'accueil d'Emma
+## Le mot d'accueil d'Emma et Adam
 
 Vous faites partie d'une équipe petite, soudée et ambitieuse. Chez Planet Aura, personne n'est un simple exécutant : chacun voit l'effet concret de son travail, du premier échange avec un prospect jusqu'à la photo d'un colis bien arrivé à l'autre bout du monde. C'est ce qui rend ce métier passionnant et exigeant.
 
@@ -75,7 +75,7 @@ Notre culture tient en trois idées simples :
 
 Lisez ce playbook, annotez-le, revenez-y. Mais souvenez-vous qu'aucun guide ne remplace le terrain : c'est en écoutant vos clients que vous deviendrez un excellent commercial. Bonne lecture.
 
-**Emma** - Chargée de projets & développement
+**Emma** - Chargée de projets & développement · **Adam** - Commercial
 
 ## À propos de ce playbook
 
