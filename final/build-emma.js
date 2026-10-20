@@ -7,7 +7,7 @@ const {
   Document, Packer, Paragraph, TextRun, ImageRun, Table, TableRow, TableCell,
   HeadingLevel, AlignmentType, WidthType, ShadingType, BorderStyle,
   LevelFormat, PageBreak, Footer, Header, PageNumber, VerticalAlign,
-  Bookmark, InternalHyperlink, TabStopType, LeaderType, TextDirection, HeightRule, UnderlineType,
+  Bookmark, InternalHyperlink, ExternalHyperlink, TabStopType, LeaderType, TextDirection, HeightRule, UnderlineType,
   HorizontalPositionRelativeFrom, VerticalPositionRelativeFrom, TextWrappingType
 } = require('docx');
 
@@ -64,7 +64,7 @@ const PARTS = {
   '06': { big: '2', col: PBORDEAUX, tab: 'PARTIE 2 · CIBLER', rom: 'II', num: 'PARTIE 2', title: 'Définir les cibles et les solutions adaptées', sub: 'Les bons comptes, les bonnes réponses', chapters: ['06 · Profils de clients idéaux (ICP)', '07 · Personas et acteurs de la décision', '08 · Correspondance entre enjeux et solutions'] },
   '09': { big: '3', col: POCRE, tab: 'PARTIE 3 · VENDRE', rom: 'III', num: 'PARTIE 3', title: 'Formaliser la prospection et la vente', sub: 'Du premier contact à la signature', chapters: ['09 · Processus d’acquisition et pipeline', '10 · Séquences de prospection et scripts', '11 · Qualification et processus de vente', '12 · Conduite des entretiens (méthode SPIN)', '13 · Argumentaires et objections'] },
   '14': { big: '4', col: NAVY, tab: 'PARTIE 4 · PILOTER', rom: 'IV', num: 'PARTIE 4', title: 'Fournir les outils et organiser le pilotage', sub: 'Outiller, mesurer, faire vivre', chapters: ['14 · Ressources d’aide à la vente', '15 · Organisation et outils', '16 · Activation, fidélisation et SAV', '17 · Indicateurs et méthode de suivi', '18 · Mise à jour et appropriation'] },
-  'A': { big: 'A', col: PBORDEAUX, tab: 'ANNEXES', rom: 'V', num: 'ANNEXES', title: 'Annexes', sub: 'Documents complémentaires', chapters: ['A · Grilles tarifaires officielles 2026', 'B · CGS : l’essentiel', 'C · Fiche réflexe, checklists et modèles', 'D · Conformité et fiches pays', 'E · Glossaire', 'F · Chiffres officiels et sources', 'G · Documents officiels', 'H · Fiches ICP & personas', 'I · Documents officiels & liens'] },
+  'A': { big: 'A', col: PBORDEAUX, tab: 'ANNEXES', rom: 'V', num: 'ANNEXES', title: 'Annexes', sub: 'Documents complémentaires', chapters: ['A · Grilles tarifaires officielles 2026', 'B · CGS : l’essentiel', 'C · Fiche réflexe, checklists et modèles', 'D · Conformité et fiches pays', 'E · Glossaire', 'F · Chiffres officiels et sources', 'G · Organigramme et documents officiels', 'H · Fiches ICP & personas', 'I · Documents officiels & liens'] },
 };
 
 // ---- Sommaire interactif
@@ -161,9 +161,26 @@ const GLO_SLUG = {}; const TERM_SLUG = {}; let GLO_RE = null;
 }
 const gloSeen = new Set();
 
+// URLs (Drive, sites) rendues cliquables dans tout le document
+const URL_RE = /((?:https?:\/\/|www\.|drive\.google\.com\/|docs\.google\.com\/|app\.planet-aura\.com)[^\s|)»«;,]+)/g;
+function pushTextLinks(runs, text, style) {
+  let last = 0, m;
+  URL_RE.lastIndex = 0;
+  while ((m = URL_RE.exec(text)) !== null) {
+    let url = m[1].replace(/[.,;:]+$/, '');
+    if (m.index > last) pushTextEmoji(runs, text.slice(last, m.index), style);
+    runs.push(new ExternalHyperlink({
+      link: /^https?:\/\//.test(url) ? url : 'https://' + url,
+      children: [new TextRun({ ...style, text: url, color: '20768B', underline: { type: UnderlineType.SINGLE, color: '20768B' } })]
+    }));
+    last = m.index + url.length;
+  }
+  if (last < text.length) pushTextEmoji(runs, text.slice(last), style);
+}
+
 function pushText(runs, text, style) {
   const { glo, gloAcc, ...st } = style;
-  if (!glo || !GLO_RE) { pushTextEmoji(runs, text, st); return; }
+  if (!glo || !GLO_RE) { pushTextLinks(runs, text, st); return; }
   let last = 0, m;
   GLO_RE.lastIndex = 0;
   while ((m = GLO_RE.exec(text)) !== null) {
@@ -172,14 +189,14 @@ function pushText(runs, text, style) {
     const key = glo + ':' + slug;
     if (gloSeen.has(key)) continue;
     gloSeen.add(key);
-    if (m.index > last) pushTextEmoji(runs, text.slice(last, m.index), st);
+    if (m.index > last) pushTextLinks(runs, text.slice(last, m.index), st);
     runs.push(new InternalHyperlink({
       anchor: 'glo' + slug,
       children: [new TextRun({ ...st, text: m[0], color: gloAcc || TEAL, underline: { type: UnderlineType.DOTTED, color: gloAcc || TEAL } })]
     }));
     last = m.index + m[0].length;
   }
-  if (last < text.length) pushTextEmoji(runs, text.slice(last), st);
+  if (last < text.length) pushTextLinks(runs, text.slice(last), st);
 }
 
 function inlineRuns(text, base = {}) {
@@ -531,13 +548,13 @@ function convertBody(md, unit, opts = {}) {
         continue;
       }
 
-      // Encadrés à fond plat (maquette) : pas de bordure, étiquette colorée
-      let fill = TINT, txtColor = INK, labelColor = DEEP, badge = 'b-info';
-      if (/^(🚫|❗)|\*\*(INTERDIT|ALERTE|NON-ÉLIGIBLE)/.test(head)) { fill = LRED; labelColor = RED; badge = 'b-no'; }
-      else if (/^💡|\*\*(LE CONSEIL|BONNE PRATIQUE)/.test(head)) { fill = CREAM; labelColor = ORANGE; badge = 'b-tip'; }
-      else if (/^⚠️|\*\*(LE POINT DE VIGILANCE|POINT DE VIGILANCE|À CONFIRMER|RÈGLE)/.test(head)) { fill = CREAM; labelColor = ORANGE; badge = 'b-warn'; }
-      else if (/^✅|\*\*CE QUI FONCTIONNE/.test(head)) { fill = LGREEN; labelColor = GREEN; badge = 'b-ok'; }
-      else if (/^📌|\*\*À RETENIR/.test(head)) { fill = DARKBG; txtColor = 'FFFFFF'; labelColor = 'F4C9A8'; badge = 'b-pin'; }
+      // Encadrés à fond plat (maquette) : pas de bordure, étiquette colorée (sans icône)
+      let fill = TINT, txtColor = INK, labelColor = DEEP;
+      if (/^(🚫|❗)|\*\*(INTERDIT|ALERTE|NON-ÉLIGIBLE)/.test(head)) { fill = LRED; labelColor = RED; }
+      else if (/^💡|\*\*(LE CONSEIL|BONNE PRATIQUE)/.test(head)) { fill = CREAM; labelColor = ORANGE; }
+      else if (/^⚠️|\*\*(LE POINT DE VIGILANCE|POINT DE VIGILANCE|À CONFIRMER|RÈGLE)/.test(head)) { fill = CREAM; labelColor = ORANGE; }
+      else if (/^✅|\*\*CE QUI FONCTIONNE/.test(head)) { fill = LGREEN; labelColor = GREEN; }
+      else if (/^📌|\*\*À RETENIR/.test(head)) { fill = DARKBG; txtColor = 'FFFFFF'; labelColor = 'F4C9A8'; }
       const calloutParas = [];
       quote.forEach((q, qi) => {
         if (q.trim() === '') { calloutParas.push(new Paragraph({ spacing: { after: 44 }, children: [] })); return; }
@@ -545,8 +562,7 @@ function convertBody(md, unit, opts = {}) {
         const lm = qi === 0 ? q.match(/^([⚠️💡🚫❗✅📌🚨]*\s*)\*\*([^*]+?)(\s*[—:-])?\*\*\s*(.*)$/) : null;
         if (lm) {
           kids = [
-            img(`icons/${badge}.png`, 15, 15),
-            new TextRun({ text: '  ' + lm[2].toUpperCase().replace(/^LE POINT/, 'LE POINT') + (lm[3] ? ' —' : ''), bold: true, size: 16, color: labelColor }),
+            new TextRun({ text: lm[2].toUpperCase().replace(/^LE POINT/, 'LE POINT') + (lm[3] ? ' —' : ''), bold: true, size: 16, color: labelColor }),
             new TextRun({ text: '  ' }),
             ...inlineRuns(lm[4] || '', { size: 18, color: txtColor })
           ];
@@ -803,6 +819,41 @@ function tocChildren() {
     }
     paras.push(entry(h, part ? (DEEP_OF[part.col] || TEAL) : DEEP_OF[TEAL]));
   });
+
+  // légende : le code visuel du document (couleurs de partie, encadrés, glossaire)
+  const sw = (color) => new TextRun({ text: '■ ', size: 16, color });
+  const lgTitle = (t) => new Paragraph({
+    keepNext: true, spacing: { before: 150, after: 40 },
+    children: [new TextRun({ text: t, bold: true, size: 13, color: TEALD, font: LABEL })]
+  });
+  const lgLine = (kids) => new Paragraph({ spacing: { after: 30 }, children: kids });
+  paras.push(new Paragraph({
+    keepNext: true,
+    border: { top: { style: BorderStyle.SINGLE, size: 6, color: TEAL } },
+    spacing: { before: 380, after: 50 },
+    children: [new TextRun({ text: 'C O M M E N T   L I R E   C E   D O C U M E N T', bold: true, size: 14, color: DEEP_OF[TEAL], font: LABEL })]
+  }));
+  paras.push(lgTitle('UNE COULEUR PAR PARTIE'));
+  paras.push(lgLine([
+    sw(TEAL), new TextRun({ text: 'Analyser   ', size: 16, color: INK }),
+    sw(PBORDEAUX), new TextRun({ text: 'Cibler   ', size: 16, color: INK }),
+    sw(POCRE), new TextRun({ text: 'Vendre   ', size: 16, color: INK }),
+    sw(NAVY), new TextRun({ text: 'Piloter   ', size: 16, color: INK }),
+    sw('9EC5CE'), new TextRun({ text: 'Annexes', size: 16, color: INK }),
+  ]));
+  paras.push(lgLine([new TextRun({ text: 'L’onglet de bordure, les titres, les tableaux et les encadrés de repère de chaque chapitre suivent la couleur de sa partie.', size: 15, color: GRAY })]));
+  paras.push(lgTitle('LES ENCADRÉS'));
+  paras.push(lgLine([sw(TEAL), new TextRun({ text: 'REPÈRE', bold: true, size: 15, color: DEEP_OF[TEAL] }), new TextRun({ text: ' — contexte et points d’appui (teinte de la partie)', size: 15, color: GRAY })]));
+  paras.push(lgLine([sw(ORANGE), new TextRun({ text: 'LE CONSEIL / LE POINT DE VIGILANCE', bold: true, size: 15, color: ORANGE }), new TextRun({ text: ' — bonnes pratiques et pièges', size: 15, color: GRAY })]));
+  paras.push(lgLine([sw(RED), new TextRun({ text: 'INTERDIT', bold: true, size: 15, color: RED }), new TextRun({ text: ' — règles bloquantes, sans exception', size: 15, color: GRAY })]));
+  paras.push(lgLine([sw(GREEN), new TextRun({ text: 'CE QUI FONCTIONNE', bold: true, size: 15, color: GREEN }), new TextRun({ text: ' — pratiques éprouvées sur le terrain', size: 15, color: GRAY })]));
+  paras.push(lgLine([sw(NAVY), new TextRun({ text: 'À RETENIR', bold: true, size: 15, color: NAVY }), new TextRun({ text: ' — la synthèse à mémoriser, en fin de chapitre', size: 15, color: GRAY })]));
+  paras.push(lgTitle('GLOSSAIRE ET NAVIGATION'));
+  paras.push(lgLine([
+    new TextRun({ text: 'Les termes comme ', size: 15, color: GRAY }),
+    new TextRun({ text: 'adhérent', size: 15, color: DEEP_OF[TEAL], underline: { type: UnderlineType.DOTTED, color: DEEP_OF[TEAL] } }),
+    new TextRun({ text: ' renvoient à leur définition au glossaire (annexe E) — à leur première apparition dans chaque chapitre, cliquables en version numérique. Toutes les entrées de ce sommaire et des sous-sommaires « DANS CE CHAPITRE » sont également cliquables.', size: 15, color: GRAY }),
+  ]));
   return paras;
 }
 

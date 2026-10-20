@@ -1,5 +1,9 @@
-# Annexe G — Documents officiels et pièces à fournir
+# Annexe G — Organigramme et documents officiels
 *Le coffre documentaire du commercial : les six documents officiels 2026, à quoi sert chacun, où le trouver, quand l'envoyer — et le catalogue complet des pièces avec leur statut de collecte.*
+
+## L'organigramme Planet Aura 2026
+
+Qui fait quoi, et à qui parler : la direction arbitre, le commerce développe, l'exploitation exécute, l'administration encaisse — et la filiale new-yorkaise porte les licences américaines. Les règles de délégation détaillées (qui décide quoi, quand escalader) sont au chapitre 03.
 
 ## Les six documents officiels 2026
 
@@ -13,12 +17,12 @@ Six documents officiels accompagnent la vente et l'activation d'un adhérent. Il
 
 | Document (réf.) | À quoi il sert | Où le trouver | Quand l'envoyer |
 |---|---|---|---|
-| Grille tarifaire shipping 2026 FR (A2) + Rate Schedule EN (A3) | Les prix officiels par destination : UE, DOM, pays tiers, USA groupage et direct, spiritueux, options et frais | Drive adhérent 2026 · reproduite en annexe A et chap. 04 | Remise en rendez-vous et jointe à toute proposition ; version EN remise aux clients finaux |
-| Grille stockage & picking 2026 (A4) | Tarifs palettes, colis, fournitures et conditions de l'entrepôt de Castres | Drive adhérent 2026 · reproduite en annexe A | Dès qu'un besoin logistique (stockage, picking) est identifié |
-| Order Form 2026 (A6) | Bon de commande du client final (anglais) avec bloc de paiement CB | Drive adhérent 2026 · détaillé en annexe C | Au comptoir, pour l'encaissement du service par le client final |
-| Mandat de prélèvement SEPA (A7) | Prélèvement des points de vente payeurs | Drive adhérent 2026 (formulaire vierge uniquement) | À la signature, si le magasin est payeur |
-| Mode d'emploi Planet'Connect (A9) | Manuel complet de la plateforme, de la connexion aux factures | Drive adhérent 2026 | Systématiquement, dans le pack de bienvenue |
-| Formulaire de shipping par email (A8) | Alternative Excel normalisée à la saisie sur la plateforme | Drive adhérent 2026 | Aux adhérents qui préfèrent l'email ; à retourner à contact@planet-aura.com |
+| Grille tarifaire shipping 2026 FR (A2) + Rate Schedule EN (A3) | Les prix officiels par destination : UE, DOM, pays tiers, USA groupage et direct, spiritueux, options et frais | drive.google.com/file/d/19LkZlRSpZX0iz0kbDwBXIe08KyQufqob (EN : 1Btne26DuUKYsoJoX6ZlcA6SInPdeBDjS) · reproduite en annexe A | Remise en rendez-vous et jointe à toute proposition ; version EN remise aux clients finaux |
+| Grille stockage & picking 2026 (A4) | Tarifs palettes, colis, fournitures et conditions de l'entrepôt de Castres | drive.google.com/file/d/1xFTEfOtT9wgRahi2azwqoLtnTuAurzXa · reproduite en annexe A | Dès qu'un besoin logistique (stockage, picking) est identifié |
+| Order Form 2026 (A6) | Bon de commande du client final (anglais) avec bloc de paiement CB | drive.google.com/file/d/1Lx_P4hkVv7ydqC7kD9EkdLQ57Xt_u1dc · détaillé en annexe C | Au comptoir, pour l'encaissement du service par le client final |
+| Mandat de prélèvement SEPA (A7) | Prélèvement des points de vente payeurs | drive.google.com/file/d/1ofdzYYs_NLZYnLLfVKxhi5J-x6xY-T3T (formulaire vierge uniquement) | À la signature, si le magasin est payeur |
+| Mode d'emploi Planet'Connect (A9) | Manuel complet de la plateforme, de la connexion aux factures | drive.google.com/file/d/1EZhHDdzdbYrLIBJaDj_mLAG9wwJpTjb6 | Systématiquement, dans le pack de bienvenue |
+| Formulaire de shipping par email (A8) | Alternative Excel normalisée à la saisie sur la plateforme | drive.google.com/file/d/1qseseA4vCgayD5FIv9_gtVXsOy-CBLZR | Aux adhérents qui préfèrent l'email ; à retourner à contact@planet-aura.com |
 
 ## Ce qu'il faut savoir sur chaque document
 

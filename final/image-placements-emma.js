@@ -65,10 +65,17 @@ module.exports['H'] = [
   { after: '^Persona D', img: 'fiches/fiche-10.png', w: 585, caption: '' },
   { after: '^Persona E', img: 'fiches/fiche-09.png', w: 585, caption: '' },
 ];
-// Annexe I - documents officiels entiers
+// Annexe A - documents tarifaires officiels entiers
+module.exports['A'] = [];
+for (let i = 1; i <= 5; i++) module.exports['A'].push({ after: '^Grille tarifaire shipping', img: `annexes/grille_ship-${i}.png`, w: 520, caption: i === 5 ? 'Grille tarifaire shipping 2026 - document officiel (5 pages)' : '' });
+for (let i = 1; i <= 5; i++) module.exports['A'].push({ after: '^Rate Schedule', img: `annexes/rateschedule-${i}.png`, w: 505, caption: i === 5 ? 'Rate Schedule 2026 - version anglaise officielle (5 pages)' : '' });
+for (let i = 1; i <= 3; i++) module.exports['A'].push({ after: '^Grille tarifaire stockage', img: `annexes/grille_stock-${i}.png`, w: 505, caption: i === 3 ? 'Grille tarifaire stockage & picking 2026 - document officiel (3 pages)' : '' });
+// Annexe G - organigramme
+module.exports['G'] = [
+  { after: '^L’organigramme Planet Aura 2026|^L.organigramme Planet Aura 2026', img: 'diagrams/d03_org.png', w: 520, caption: 'L’organigramme Planet Aura 2026 - direction, pôles et filiale américaine' },
+];
+// Annexe I - autres documents officiels entiers
 module.exports['I'] = [];
-for (let i = 1; i <= 5; i++) module.exports['I'].push({ after: '^Grille tarifaire shipping', img: `annexes/grille_ship-${i}.png`, w: 520, caption: i === 5 ? 'Grille tarifaire shipping 2026 - document officiel (5 pages)' : '' });
-for (let i = 1; i <= 3; i++) module.exports['I'].push({ after: '^Grille tarifaire stockage', img: `annexes/grille_stock-${i}.png`, w: 520, caption: i === 3 ? 'Grille tarifaire stockage & picking 2026 - document officiel (3 pages)' : '' });
 module.exports['I'].push(
   { after: '^Order Form 2026', img: 'annexes/orderform-1.png', w: 505, caption: 'Order Form 2026 - formulaire officiel vierge' },
   { after: '^Mandat SEPA', img: 'annexes/sepa-1.png', w: 505, caption: '' },
