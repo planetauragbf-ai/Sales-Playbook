@@ -192,7 +192,7 @@ Notre force est l'orchestration. Les partenaires ci-dessous sont des moyens : le
 
 ### Le récit fondateur
 
-Planet Aura est née d'un vide. **Easy Wine**, pionnier de l'expédition de vin pour les vignerons, ferme brutalement après un succès prometteur. Deux anciens d'Easy Wine, **Floriane Février** et **Brice de Monplanet**, fondent Planet Aura le **6 mai 2019** à Castres, avec un ADN clair : rendre l'export de vin aussi simple qu'une vente au comptoir. Brice dirige aussi **Planet Provence** (wine tours en Provence), qui devient le tout premier client.
+Planet Aura est née d'un vide. **IziWine**, pionnier de l'expédition de vin pour les vignerons, ferme brutalement après un succès prometteur. Deux anciens d'IziWine, **Floriane Février** et **Brice de Monplanet**, fondent Planet Aura le **6 mai 2019** à Castres, avec un ADN clair : rendre l'export de vin aussi simple qu'une vente au comptoir. Brice dirige aussi **Planet Provence** (wine tours en Provence), qui devient le tout premier client.
 
 ### La timeline à jalons
 
@@ -305,4 +305,4 @@ L'argumentaire détaillé qui découle de cet ADN est développé au chapitre 06
 
 **Comment l'utiliser en rendez-vous :** appuyez-vous sur les forces (statut, spécialisation, TTB, Planet'Connect, VELA) sans jamais nier les faiblesses si le prospect les soulève — reconnaître honnêtement notre taille de PME et la transformer en argument de proximité est plus crédible qu'un déni.
 
-> 📌 **À RETENIR —** Planet Aura n'est pas « un transporteur de plus » : c'est un **commissionnaire de transport** spécialisé vins, champagnes et spiritueux, fondé le 6 mai 2019 à Castres par deux anciens d'Easy Wine, avec une obligation de résultat de bout en bout, une filiale américaine licenciée TTB à côté de JFK (64,5 % des expéditions vers les USA), une plateforme propriétaire Planet'Connect et une trajectoire de croissance continue (×4,7 entre 2021 et 2025, +18,7 % en 2026 à date). La règle d'or du commercial : **on dit ce qu'on fait, on fait ce qu'on dit, on ne survend jamais** — et tout chiffre cité à l'extérieur est d'abord validé par la direction.
+> 📌 **À RETENIR —** Planet Aura n'est pas « un transporteur de plus » : c'est un **commissionnaire de transport** spécialisé vins, champagnes et spiritueux, fondé le 6 mai 2019 à Castres par deux anciens d'IziWine, avec une obligation de résultat de bout en bout, une filiale américaine licenciée TTB à côté de JFK (64,5 % des expéditions vers les USA), une plateforme propriétaire Planet'Connect et une trajectoire de croissance continue (×4,7 entre 2021 et 2025, +18,7 % en 2026 à date). La règle d'or du commercial : **on dit ce qu'on fait, on fait ce qu'on dit, on ne survend jamais** — et tout chiffre cité à l'extérieur est d'abord validé par la direction.

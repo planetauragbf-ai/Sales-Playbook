@@ -49,21 +49,21 @@ module.exports = {
 };
 
 module.exports['avantpre'] = [
-  { after: 'certitudes de Floriane', img: 'pics/bitmoji_trio.png', w: 300, caption: '' },
-  { after: 'Mot d’accueil|Mot d.accueil', img: 'pics/bitmoji_duo.png', w: 250, caption: '' },
+  { after: 'certitudes de Floriane', img: 'pics/bitmoji_trio.png', w: 235, caption: '' },
+  { after: 'Mot d’accueil|Mot d.accueil', img: 'pics/bitmoji_duo.png', w: 195, caption: '' },
 ];
 // Annexe H - fiches maquettées (pages extraites du PPTX officiel)
 module.exports['H'] = [
-  { after: '^ICP 1', img: 'fiches/fiche-02.png', w: 520, caption: '' },
-  { after: '^ICP 2', img: 'fiches/fiche-01.png', w: 520, caption: '' },
-  { after: '^ICP 3', img: 'fiches/fiche-04.png', w: 520, caption: '' },
-  { after: '^ICP 4', img: 'fiches/fiche-03.png', w: 520, caption: '' },
-  { after: '^ICP 5', img: 'fiches/fiche-06.png', w: 520, caption: '' },
-  { after: '^Persona A', img: 'fiches/fiche-05.png', w: 520, caption: '' },
-  { after: '^Persona B', img: 'fiches/fiche-07.png', w: 520, caption: '' },
-  { after: '^Persona C', img: 'fiches/fiche-08.png', w: 520, caption: '' },
-  { after: '^Persona D', img: 'fiches/fiche-10.png', w: 520, caption: '' },
-  { after: '^Persona E', img: 'fiches/fiche-09.png', w: 520, caption: '' },
+  { after: '^ICP 1', img: 'fiches/fiche-02.png', w: 585, caption: '' },
+  { after: '^ICP 2', img: 'fiches/fiche-01.png', w: 585, caption: '' },
+  { after: '^ICP 3', img: 'fiches/fiche-04.png', w: 585, caption: '' },
+  { after: '^ICP 4', img: 'fiches/fiche-03.png', w: 585, caption: '' },
+  { after: '^ICP 5', img: 'fiches/fiche-06.png', w: 585, caption: '' },
+  { after: '^Persona A', img: 'fiches/fiche-05.png', w: 585, caption: '' },
+  { after: '^Persona B', img: 'fiches/fiche-07.png', w: 585, caption: '' },
+  { after: '^Persona C', img: 'fiches/fiche-08.png', w: 585, caption: '' },
+  { after: '^Persona D', img: 'fiches/fiche-10.png', w: 585, caption: '' },
+  { after: '^Persona E', img: 'fiches/fiche-09.png', w: 585, caption: '' },
 ];
 // Annexe I - documents officiels entiers
 module.exports['I'] = [];

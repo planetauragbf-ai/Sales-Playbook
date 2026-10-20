@@ -7,7 +7,7 @@ const {
   Document, Packer, Paragraph, TextRun, ImageRun, Table, TableRow, TableCell,
   HeadingLevel, AlignmentType, WidthType, ShadingType, BorderStyle,
   LevelFormat, PageBreak, Footer, Header, PageNumber, VerticalAlign,
-  Bookmark, InternalHyperlink, TabStopType, LeaderType, TextDirection, HeightRule,
+  Bookmark, InternalHyperlink, TabStopType, LeaderType, TextDirection, HeightRule, UnderlineType,
   HorizontalPositionRelativeFrom, VerticalPositionRelativeFrom, TextWrappingType
 } = require('docx');
 
@@ -34,6 +34,10 @@ const SANS = 'Inter';
 const LABEL = 'Poppins';
 const PBORDEAUX = '722F45';
 const POCRE = 'C6A15B';
+// Déclinaisons par accent de partie : variante foncée (petits textes, en-têtes de tableaux)
+// et teinte claire (fonds d'encadrés) - cohérence de couleurs au sein de chaque partie.
+const DEEP_OF = { [TEAL]: '20768B', [PBORDEAUX]: '722F45', [POCRE]: '8A6A33', [NAVY]: NAVY };
+const TINT_OF = { [TEAL]: 'EAF3F6', [PBORDEAUX]: 'F6EEF1', [POCRE]: 'F8F3E9', [NAVY]: 'EAF0F4' };
 
 // A4
 const PAGE = { width: 11906, height: 16838 };
@@ -89,9 +93,9 @@ function imgAuto(name, wPx) {
   return img(name, wPx, Math.round(h * wPx / w));
 }
 function figure(name, wPx, caption) {
-  const paras = [new Paragraph({ alignment: AlignmentType.CENTER, keepNext: !!caption, spacing: { before: 110, after: caption ? 40 : 150 }, children: [imgAuto(name, wPx)] })];
+  const paras = [new Paragraph({ alignment: AlignmentType.CENTER, keepNext: !!caption, spacing: { before: 90, after: caption ? 36 : 130 }, children: [imgAuto(name, wPx)] })];
   if (caption) paras.push(new Paragraph({
-    alignment: AlignmentType.CENTER, spacing: { after: 150 },
+    alignment: AlignmentType.CENTER, spacing: { after: 130 },
     children: [new TextRun({ text: caption, italics: true, size: 16, color: GRAY, font: SERIF })]
   }));
   return paras;
@@ -106,7 +110,7 @@ const EMOJI_ICONS = {
 };
 const EMOJI_RE = new RegExp('(' + Object.keys(EMOJI_ICONS).sort((a, b) => b.length - a.length).map(e => e.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|') + ')', 'g');
 
-function pushText(runs, text, style) {
+function pushTextEmoji(runs, text, style) {
   let last = 0, m;
   EMOJI_RE.lastIndex = 0;
   while ((m = EMOJI_RE.exec(text)) !== null) {
@@ -117,8 +121,70 @@ function pushText(runs, text, style) {
   if (last < text.length) runs.push(new TextRun({ text: text.slice(last), ...style }));
 }
 
+// ---------- glossaire lié au contenu ----------
+// Les termes définis à l'annexe E sont détectés dans le corps : la première occurrence
+// de chaque terme dans un chapitre est colorée (accent de la partie), soulignée de
+// pointillés et cliquable vers sa définition.
+const GLO_VARIANT_OVERRIDES = {
+  'DDP / DAP': ['DDP', 'DAP'],
+  'DA / EMCS / DAU': ['EMCS', 'DAU'],
+  'MQL / SQL': ['MQL', 'SQL'],
+  'Tiers A/B/C': ['Tiers A', 'Tiers B', 'Tiers C'],
+  'Three-tier system': ['Three-tier system', 'three-tier system', 'three-tier'],
+  "Planet'Connect": ["Planet'Connect", 'Planet’Connect'],
+  'Assurance ad valorem': ['Assurance ad valorem', 'assurance ad valorem', 'ad valorem'],
+  'Direct': null, // trop ambigu en français courant
+};
+const GLO_ACRONYM = /^[A-Z0-9\-\s/.']+$/;
+const GLO_SLUG = {}; const TERM_SLUG = {}; let GLO_RE = null;
+{
+  try {
+    const emd = fs.readFileSync(path.join(SRC, 'E.md'), 'utf8');
+    const variants = [];
+    emd.split('\n').forEach(l => {
+      const mm = l.match(/^\|\s*\*\*([^*]+)\*\*\s*\|/);
+      if (!mm) return;
+      const term = mm[1].trim();
+      const slug = term.normalize('NFD').replace(/[^A-Za-z0-9]+/g, '').slice(0, 24);
+      TERM_SLUG[term] = slug;
+      let vars;
+      if (term in GLO_VARIANT_OVERRIDES) vars = GLO_VARIANT_OVERRIDES[term];
+      else if (GLO_ACRONYM.test(term)) vars = [term];
+      else vars = [term, term.charAt(0).toLowerCase() + term.slice(1)];
+      if (!vars) return;
+      vars.forEach(v => { GLO_SLUG[v] = slug; variants.push(v); });
+    });
+    variants.sort((a, b) => b.length - a.length);
+    const esc = variants.map(v => v.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'));
+    GLO_RE = new RegExp('(?<![A-Za-z0-9À-ſ])(' + esc.join('|') + ')(s?)(?![A-Za-z0-9À-ſ])', 'g');
+  } catch (e) { GLO_RE = null; }
+}
+const gloSeen = new Set();
+
+function pushText(runs, text, style) {
+  const { glo, gloAcc, ...st } = style;
+  if (!glo || !GLO_RE) { pushTextEmoji(runs, text, st); return; }
+  let last = 0, m;
+  GLO_RE.lastIndex = 0;
+  while ((m = GLO_RE.exec(text)) !== null) {
+    const slug = GLO_SLUG[m[1]];
+    if (!slug) continue;
+    const key = glo + ':' + slug;
+    if (gloSeen.has(key)) continue;
+    gloSeen.add(key);
+    if (m.index > last) pushTextEmoji(runs, text.slice(last, m.index), st);
+    runs.push(new InternalHyperlink({
+      anchor: 'glo' + slug,
+      children: [new TextRun({ ...st, text: m[0], color: gloAcc || TEAL, underline: { type: UnderlineType.DOTTED, color: gloAcc || TEAL } })]
+    }));
+    last = m.index + m[0].length;
+  }
+  if (last < text.length) pushTextEmoji(runs, text.slice(last), st);
+}
+
 function inlineRuns(text, base = {}) {
   text = text.replace(/\[([^\]]+)\]\(([^)]+)\)/g, '$1').replace(/\\\*/g, '*');
+  const { glo: _g, gloAcc: _ga, ...safe } = base;
   const runs = [];
   const re = /(\*\*([^*]+)\*\*|\*([^*]+)\*|`([^`]+)`)/g;
   let last = 0, m;
@@ -126,7 +192,7 @@ function inlineRuns(text, base = {}) {
     if (m.index > last) pushText(runs, text.slice(last, m.index), base);
     if (m[2] !== undefined) pushText(runs, m[2], { bold: true, ...base });
     else if (m[3] !== undefined) pushText(runs, m[3], { italics: true, ...base });
-    else if (m[4] !== undefined) runs.push(new TextRun({ text: m[4], font: 'Consolas', size: 17, shading: { type: ShadingType.CLEAR, fill: 'EDF2F4' }, ...base }));
+    else if (m[4] !== undefined) runs.push(new TextRun({ text: m[4], font: 'Consolas', size: 17, shading: { type: ShadingType.CLEAR, fill: 'EDF2F4' }, ...safe }));
     last = m.index + m[0].length;
   }
   if (last < text.length) pushText(runs, text.slice(last), base);
@@ -135,7 +201,7 @@ function inlineRuns(text, base = {}) {
 }
 
 // ---------- tables ----------
-function parseTableBlock(lines) {
+function parseTableBlock(lines, accent = TEALD, gloAnchors = false) {
   const rows = lines.map(l => l.replace(/^\s*\|/, '').replace(/\|\s*$/, '').split('|').map(c => c.trim()));
   const header = rows[0];
   const body = rows.slice(2);
@@ -162,18 +228,29 @@ function parseTableBlock(lines) {
 
   const mkRow = (cells, isHeader, rowIdx) => new TableRow({
     tableHeader: isHeader,
-    children: Array.from({ length: nCols }, (_, i) => new TableCell({
-      width: { size: widths[i], type: WidthType.DXA },
-      verticalAlign: VerticalAlign.CENTER,
-      shading: isHeader
-        ? { type: ShadingType.CLEAR, fill: TEALD }
-        : (rowIdx % 2 === 1 ? { type: ShadingType.CLEAR, fill: ZEBRA } : undefined),
-      margins: { top: 46, bottom: 46, left: 96, right: 96 },
-      children: [new Paragraph({
-        spacing: { before: 12, after: 12 },
-        children: inlineRuns(cells[i] || '', isHeader ? { bold: true, color: 'FFFFFF', size: fontSize } : { size: fontSize })
-      })]
-    }))
+    cantSplit: true,
+    children: Array.from({ length: nCols }, (_, i) => {
+      const cellRuns = inlineRuns(cells[i] || '', isHeader ? { bold: true, color: 'FFFFFF', size: fontSize } : { size: fontSize });
+      // annexe E : chaque terme du glossaire porte une ancre, cible des liens du corps
+      let kids = cellRuns;
+      if (gloAnchors && !isHeader && i === 0) {
+        const term = (cells[0] || '').replace(/\*\*/g, '').trim();
+        const slug = TERM_SLUG[term];
+        if (slug) kids = [new Bookmark({ id: 'glo' + slug, children: cellRuns })];
+      }
+      return new TableCell({
+        width: { size: widths[i], type: WidthType.DXA },
+        verticalAlign: VerticalAlign.CENTER,
+        shading: isHeader
+          ? { type: ShadingType.CLEAR, fill: accent }
+          : (rowIdx % 2 === 1 ? { type: ShadingType.CLEAR, fill: ZEBRA } : undefined),
+        margins: { top: 40, bottom: 40, left: 96, right: 96 },
+        children: [new Paragraph({
+          spacing: { before: 12, after: 12 },
+          children: kids
+        })]
+      });
+    })
   });
 
   return new Table({
@@ -191,8 +268,9 @@ function parseTableBlock(lines) {
 }
 
 // ---------- stat-blocs ----------
-const STAT_COLORS = [TEAL, ORANGE, NAVY, TEAL, ORANGE];
-function statBlock(lines) {
+function statBlock(lines, accent = TEAL) {
+  const deep = DEEP_OF[accent] || accent;
+  const STAT_COLORS = deep === NAVY ? [NAVY, ORANGE, DEEP_OF[TEAL], NAVY, ORANGE] : [deep, ORANGE, NAVY, deep, ORANGE];
   const items = lines.filter(l => l.trim()).map(l => {
     const ix = l.indexOf('|');
     return ix >= 0 ? [l.slice(0, ix).trim(), l.slice(ix + 1).trim()] : [l.trim(), ''];
@@ -214,7 +292,7 @@ function statBlock(lines) {
       children: items.map(([v, c], i) => new TableCell({
         width: { size: widths[i], type: WidthType.DXA },
         verticalAlign: VerticalAlign.CENTER,
-        margins: { top: 110, bottom: 110, left: 70, right: 70 },
+        margins: { top: 96, bottom: 96, left: 70, right: 70 },
         children: [
           new Paragraph({
             alignment: AlignmentType.CENTER, spacing: { after: 40 },
@@ -233,12 +311,22 @@ function statBlock(lines) {
 // ---------- conversion md -> blocs ----------
 let orderedInstance = 1;
 
+// paragraphe d'espacement marqué : purgé en fin d'unité pour éviter une page blanche
+function spacerPara(after) { const p = new Paragraph({ spacing: { after }, children: [] }); p.__spacer = true; return p; }
+
 function convertBody(md, unit, opts = {}) {
   const out = [];
   const placements = (IMAGE_PLACEMENTS[unit.id] || []).slice();
   const lines = md.split('\n');
   let i = 0;
   let h1Seen = false;
+  // accent de partie : tous les éléments structurels du chapitre suivent la couleur de sa partie
+  const partAcc = PART_OF_UNIT[unit.id];
+  const ACC = partAcc ? partAcc.col : TEAL;
+  const DEEP = DEEP_OF[ACC] || TEALD;
+  const TINT = TINT_OF[ACC] || LTEAL;
+  const gloId = (unit.id === 'E' || unit.id === 'avantpre') ? null : unit.id;
+  const BODY = { size: 19, glo: gloId, gloAcc: DEEP };
 
   const tryPlace = (headingText) => {
     const out2 = [];
@@ -261,8 +349,8 @@ function convertBody(md, unit, opts = {}) {
       while (i < lines.length && !/^```/.test(lines[i])) { code.push(lines[i]); i++; }
       i++;
       if (isStats) {
-        out.push(statBlock(code));
-        out.push(new Paragraph({ spacing: { after: 116 }, children: [] }));
+        out.push(statBlock(code, ACC));
+        out.push(spacerPara(108));
         continue;
       }
       const blockText = code.join('\n');
@@ -273,15 +361,15 @@ function convertBody(md, unit, opts = {}) {
         spacing: { before: 0, after: 0 },
         children: [new TextRun({ text: c.length ? c : ' ', font: 'Consolas', size: 15, color: INK })]
       })));
-      out.push(new Paragraph({ spacing: { after: 120 }, children: [] }));
+      out.push(spacerPara(110));
       continue;
     }
 
     if (/^\s*\|/.test(line) && i + 1 < lines.length && /^\s*\|[\s:|-]+\|?\s*$/.test(lines[i + 1])) {
       const tbl = [];
       while (i < lines.length && /^\s*\|/.test(lines[i])) { tbl.push(lines[i]); i++; }
-      out.push(parseTableBlock(tbl));
-      out.push(new Paragraph({ spacing: { after: 116 }, children: [] }));
+      out.push(parseTableBlock(tbl, DEEP, unit.id === 'E'));
+      out.push(spacerPara(108));
       continue;
     }
 
@@ -293,7 +381,7 @@ function convertBody(md, unit, opts = {}) {
     if (/^---+\s*$/.test(line)) {
       out.push(new Paragraph({
         border: { bottom: { style: BorderStyle.SINGLE, size: 5, color: 'CCDDE3' } },
-        spacing: { before: 100, after: 220 }, children: []
+        spacing: { before: 90, after: 190 }, children: []
       }));
       i++; continue;
     }
@@ -310,10 +398,13 @@ function convertBody(md, unit, opts = {}) {
         const isAnnex = !!hm[1];
         const num = hm[2]; const title = hm[3] || txt;
         const part = PARTS[unit.id];
-        const kicker = part ? `${part.num}  ·  ${part.title.toUpperCase()}` : (unit.head || (isAnnex ? 'ANNEXES · DOCUMENTS COMPLÉMENTAIRES' : PART_OF_UNIT[unit.id] ? `${PART_OF_UNIT[unit.id].num}  ·  ${PART_OF_UNIT[unit.id].title.toUpperCase()}` : 'SALES PLAYBOOK 2026'));
+        const kpart = part || PART_OF_UNIT[unit.id];
+        const kicker = unit.head || (isAnnex || (kpart && kpart.num === 'ANNEXES')
+          ? 'ANNEXES  ·  DOCUMENTS COMPLÉMENTAIRES'
+          : kpart ? `${kpart.num}  ·  ${kpart.title.toUpperCase()}` : 'SALES PLAYBOOK 2026');
         out.push(new Paragraph({
           spacing: { before: 60, after: 120 },
-          children: [new TextRun({ text: kicker, bold: true, size: 15, color: TEAL, font: LABEL })]
+          children: [new TextRun({ text: kicker, bold: true, size: 15, color: DEEP, font: LABEL })]
         }));
         let key = null;
         if (!opts.noToc) {
@@ -321,7 +412,7 @@ function convertBody(md, unit, opts = {}) {
           tocRegistry.push({ key, level: 1, text: plainHeading(txt), id: unit.id });
         }
         const titleRuns = [];
-        if (num) titleRuns.push(new TextRun({ text: (isAnnex ? 'Annexe ' + num : num) + '   ', bold: true, size: 76, color: TEAL, font: SERIF }));
+        if (num) titleRuns.push(new TextRun({ text: (isAnnex ? 'Annexe ' + num : num) + '   ', bold: true, size: 76, color: ACC, font: SERIF }));
         titleRuns.push(new TextRun({ text: title, bold: true, size: 46, color: NAVY, font: SERIF }));
         out.push(new Paragraph({
           heading: HeadingLevel.HEADING_1,
@@ -339,7 +430,7 @@ function convertBody(md, unit, opts = {}) {
           i = j;
         }
         out.push(new Paragraph({
-          border: { bottom: { style: BorderStyle.SINGLE, size: 11, color: TEAL } },
+          border: { bottom: { style: BorderStyle.SINGLE, size: 11, color: ACC } },
           spacing: { after: 170 }, children: []
         }));
         // sous-sommaire de chapitre « DANS CE CHAPITRE » (paginé, cliquable - maquette)
@@ -362,7 +453,7 @@ function convertBody(md, unit, opts = {}) {
                     width: { size: 700, type: WidthType.DXA },
                     borders: { bottom: { style: BorderStyle.SINGLE, size: 3, color: 'DCE8EC' } },
                     margins: { top: 38, bottom: 38, left: 40, right: 60 },
-                    children: [new Paragraph({ alignment: AlignmentType.RIGHT, children: [new TextRun({ text: page, bold: true, size: 17, color: TEAL, font: LABEL })] })]
+                    children: [new Paragraph({ alignment: AlignmentType.RIGHT, children: [new TextRun({ text: page, bold: true, size: 17, color: DEEP, font: LABEL })] })]
                   }),
                 ]
               });
@@ -379,9 +470,9 @@ function convertBody(md, unit, opts = {}) {
                 new TableRow({ children: [new TableCell({
                   columnSpan: 2,
                   width: { size: CONTENT_W, type: WidthType.DXA },
-                  borders: { bottom: { style: BorderStyle.SINGLE, size: 6, color: TEAL } },
+                  borders: { bottom: { style: BorderStyle.SINGLE, size: 6, color: ACC } },
                   margins: { top: 20, bottom: 50, left: 60, right: 60 },
-                  children: [new Paragraph({ children: [new TextRun({ text: 'D A N S   C E   C H A P I T R E', bold: true, size: 14, color: TEAL, font: LABEL })] })]
+                  children: [new Paragraph({ children: [new TextRun({ text: 'D A N S   C E   C H A P I T R E', bold: true, size: 14, color: DEEP, font: LABEL })] })]
                 })] }),
                 ...rows,
               ]
@@ -402,18 +493,21 @@ function convertBody(md, unit, opts = {}) {
         }
         out.push(new Paragraph({
           heading: HeadingLevel.HEADING_2,
-          spacing: { before: 260, after: 76 },
+          keepNext: true,
+          spacing: { before: 236, after: 70 },
           children: h2runs
         }));
       } else if (lvl === 3) {
         out.push(new Paragraph({
           heading: HeadingLevel.HEADING_3,
-          spacing: { before: 190, after: 58 },
-          children: inlineRuns(txt.toUpperCase(), { bold: true, size: 18, color: TEAL, font: LABEL })
+          keepNext: true,
+          spacing: { before: 176, after: 54 },
+          children: inlineRuns(txt.toUpperCase(), { bold: true, size: 18, color: DEEP, font: LABEL })
         }));
       } else {
         out.push(new Paragraph({
-          spacing: { before: 170, after: 60 },
+          keepNext: true,
+          spacing: { before: 150, after: 56 },
           children: inlineRuns(txt, { bold: true, size: 21, color: NAVY })
         }));
       }
@@ -432,13 +526,13 @@ function convertBody(md, unit, opts = {}) {
           alignment: AlignmentType.CENTER,
           spacing: { before: 180, after: 180 },
           indent: { left: 500, right: 500 },
-          children: [new TextRun({ text: head.trim(), italics: true, size: 25, color: TEAL, font: SERIF })]
+          children: [new TextRun({ text: head.trim(), italics: true, size: 25, color: DEEP, font: SERIF })]
         }));
         continue;
       }
 
       // Encadrés à fond plat (maquette) : pas de bordure, étiquette colorée
-      let fill = LTEAL, txtColor = INK, labelColor = TEALD, badge = 'b-info';
+      let fill = TINT, txtColor = INK, labelColor = DEEP, badge = 'b-info';
       if (/^(🚫|❗)|\*\*(INTERDIT|ALERTE|NON-ÉLIGIBLE)/.test(head)) { fill = LRED; labelColor = RED; badge = 'b-no'; }
       else if (/^💡|\*\*(LE CONSEIL|BONNE PRATIQUE)/.test(head)) { fill = CREAM; labelColor = ORANGE; badge = 'b-tip'; }
       else if (/^⚠️|\*\*(LE POINT DE VIGILANCE|POINT DE VIGILANCE|À CONFIRMER|RÈGLE)/.test(head)) { fill = CREAM; labelColor = ORANGE; badge = 'b-warn'; }
@@ -446,7 +540,7 @@ function convertBody(md, unit, opts = {}) {
       else if (/^📌|\*\*À RETENIR/.test(head)) { fill = DARKBG; txtColor = 'FFFFFF'; labelColor = 'F4C9A8'; badge = 'b-pin'; }
       const calloutParas = [];
       quote.forEach((q, qi) => {
-        if (q.trim() === '') { calloutParas.push(new Paragraph({ spacing: { after: 50 }, children: [] })); return; }
+        if (q.trim() === '') { calloutParas.push(new Paragraph({ spacing: { after: 44 }, children: [] })); return; }
         let kids;
         const lm = qi === 0 ? q.match(/^([⚠️💡🚫❗✅📌🚨]*\s*)\*\*([^*]+?)(\s*[—:-])?\*\*\s*(.*)$/) : null;
         if (lm) {
@@ -459,7 +553,7 @@ function convertBody(md, unit, opts = {}) {
         } else {
           kids = inlineRuns(q, { size: 18, color: txtColor });
         }
-        calloutParas.push(new Paragraph({ spacing: { before: 22, after: 22 }, children: kids }));
+        calloutParas.push(new Paragraph({ spacing: { before: 18, after: 18 }, children: kids }));
       });
       out.push(new Table({
         width: { size: CONTENT_W, type: WidthType.DXA },
@@ -469,14 +563,14 @@ function convertBody(md, unit, opts = {}) {
           left: { style: BorderStyle.NONE }, right: { style: BorderStyle.NONE },
           insideHorizontal: { style: BorderStyle.NONE }, insideVertical: { style: BorderStyle.NONE },
         },
-        rows: [new TableRow({ children: [new TableCell({
+        rows: [new TableRow({ cantSplit: true, children: [new TableCell({
           width: { size: CONTENT_W, type: WidthType.DXA },
           shading: { type: ShadingType.CLEAR, fill },
-          margins: { top: 92, bottom: 92, left: 215, right: 195 },
+          margins: { top: 82, bottom: 82, left: 215, right: 195 },
           children: calloutParas
         })] })]
       }));
-      out.push(new Paragraph({ spacing: { after: 108 }, children: [] }));
+      out.push(spacerPara(100));
       continue;
     }
 
@@ -484,7 +578,7 @@ function convertBody(md, unit, opts = {}) {
       out.push(new Paragraph({
         indent: { left: 360, hanging: 240 },
         spacing: { after: 28 },
-        children: [new TextRun({ text: m[2] === 'x' ? '☑ ' : '☐ ', size: 19, color: TEALD }), ...inlineRuns(m[3], { size: 19 })]
+        children: [new TextRun({ text: m[2] === 'x' ? '☑ ' : '☐ ', size: 19, color: DEEP }), ...inlineRuns(m[3], BODY)]
       }));
       i++; continue;
     }
@@ -493,8 +587,8 @@ function convertBody(md, unit, opts = {}) {
       const level = Math.min(Math.floor(m[1].length / 2), 2);
       out.push(new Paragraph({
         numbering: { reference: 'bullets', level },
-        spacing: { after: 28 },
-        children: inlineRuns(m[2], { size: 19 })
+        spacing: { after: 22 },
+        children: inlineRuns(m[2], BODY)
       }));
       i++; continue;
     }
@@ -504,8 +598,8 @@ function convertBody(md, unit, opts = {}) {
       if (startNew) orderedInstance++;
       out.push(new Paragraph({
         numbering: { reference: 'ordered', level: 0, instance: orderedInstance },
-        spacing: { after: 28 },
-        children: inlineRuns(m[3], { size: 19 })
+        spacing: { after: 22 },
+        children: inlineRuns(m[3], BODY)
       }));
       i++; continue;
     }
@@ -514,14 +608,18 @@ function convertBody(md, unit, opts = {}) {
     // sous-titre déjà consommé après H1
     if (h1Seen === 'skipnext') { h1Seen = true; i++; continue; }
 
-    out.push(new Paragraph({ spacing: { after: 86 }, children: inlineRuns(line, { size: 19 }) }));
+    // une ligne d'annonce qui se termine par « : » reste collée au bloc qu'elle introduit
+    out.push(new Paragraph({ spacing: { after: 80 }, keepNext: /:\s*$/.test(line.trim()), children: inlineRuns(line, BODY) }));
     i++;
   }
+  // purge des espaceurs de fin d'unité (sinon un espaceur vide peut déborder seul sur une page blanche)
+  while (out.length && out[out.length - 1].__spacer) out.pop();
   return out;
 }
 
 // onglet de bordure par unité
-const PART_LIST = Object.values(PARTS);
+// ordre explicite : Object.values remonterait la clé '14' (entier canonique JS) en tête
+const PART_LIST = ['01', '06', '09', '14', 'A'].map(k => PARTS[k]);
 function tabOf(id) {
   const part = PART_OF_UNIT[id];
   if (!part) return null;
@@ -659,9 +757,16 @@ function tocChildren() {
     children: [new TextRun({ text: 'Consultation par besoin ou par étape du cycle commercial - chaque entrée est cliquable. Les annexes regroupent les outils réutilisables séparément.', italics: true, size: 18, color: GRAY, font: SERIF })]
   }));
 
+  // libellés raccourcis au sommaire pour éviter le folio orphelin en 2e ligne
+  const TOC_SHORT = {
+    'Séquences de prospection multicanales et scripts': 'Séquences multicanales et scripts',
+    'Organisation et outils de la fonction commerciale': 'Organisation et outils commerciaux',
+    'Chiffres officiels, hiérarchie de preuve et sources': 'Chiffres officiels et sources',
+  };
   const entry = (h, labelColor) => {
     const page = tocPages[h.key] !== undefined ? String(tocPages[h.key]) : '0';
     const m = h.text.match(/^(Annexe\s+)?([0-9A-I]{1,2})\s*[—–-]\s*(.*)$/);
+    if (m && TOC_SHORT[m[3]]) m[3] = TOC_SHORT[m[3]];
     const kids = [];
     if (m) {
       kids.push(new TextRun({ text: m[2], bold: true, size: 17, color: labelColor, font: LABEL }));
@@ -676,7 +781,7 @@ function tocChildren() {
       children: [
         new InternalHyperlink({ anchor: h.key, children: kids }),
         new TextRun({ text: '\t', size: 18 }),
-        new TextRun({ text: page, bold: true, size: 17, color: TEAL, font: LABEL }),
+        new TextRun({ text: page, bold: true, size: 17, color: labelColor, font: LABEL }),
       ]
     });
   };
@@ -691,12 +796,12 @@ function tocChildren() {
         keepNext: true,
         spacing: { before: 300, after: 60 },
         children: [
-          new TextRun({ text: part.big, bold: true, size: 44, color: TEAL, font: SERIF }),
-          new TextRun({ text: '  ' + part.title.toUpperCase(), bold: true, size: 15, color: TEALD, font: LABEL }),
+          new TextRun({ text: part.big, bold: true, size: 44, color: part.col, font: SERIF }),
+          new TextRun({ text: '  ' + part.title.toUpperCase(), bold: true, size: 15, color: DEEP_OF[part.col] || TEALD, font: LABEL }),
         ]
       }));
     }
-    paras.push(entry(h, part ? ORANGE : TEAL));
+    paras.push(entry(h, part ? (DEEP_OF[part.col] || TEAL) : DEEP_OF[TEAL]));
   });
   return paras;
 }
@@ -729,7 +834,7 @@ function mkHeader(leftText, tab) {
         spacing: { after: 40 },
         children: [
           ...sideTabRun(tab),
-          new TextRun({ text: leftText, bold: true, size: 13, color: TEALD, font: LABEL }),
+          new TextRun({ text: leftText, bold: true, size: 13, color: tab ? (DEEP_OF[tab.col] || TEALD) : TEALD, font: LABEL }),
           new TextRun({ text: '\t', size: 11 }),
           new TextRun({ text: 'S A L E S   P L A Y B O O K   2 0 2 6   \u00b7   I N T E R N E', size: 11, color: GRAY, font: LABEL }),
         ]
@@ -737,18 +842,22 @@ function mkHeader(leftText, tab) {
     ]
   });
 }
-const footerP = new Footer({
-  children: [new Paragraph({
-    tabStops: [{ type: TabStopType.RIGHT, position: CONTENT_W }],
-    border: { top: { style: BorderStyle.SINGLE, size: 3, color: 'DCE8EC' } },
-    spacing: { before: 50 },
-    children: [
-      new TextRun({ text: 'P L A N E T   A U R A   ·   C O M M I S S I O N N A I R E   D E   T R A N S P O R T   V I N S ,   C H A M P A G N E S   &   S P I R I T U E U X', size: 10, color: GRAY, font: LABEL }),
-      new TextRun({ text: '\t', size: 12 }),
-      new TextRun({ children: [PageNumber.CURRENT], bold: true, size: 16, color: TEAL, font: LABEL }),
-    ]
-  })]
-});
+function mkFooter(tab) {
+  const col = tab ? (DEEP_OF[tab.col] || TEAL) : TEAL;
+  return new Footer({
+    children: [new Paragraph({
+      tabStops: [{ type: TabStopType.RIGHT, position: CONTENT_W }],
+      border: { top: { style: BorderStyle.SINGLE, size: 3, color: 'DCE8EC' } },
+      spacing: { before: 50 },
+      children: [
+        new TextRun({ text: 'P L A N E T   A U R A   ·   C O M M I S S I O N N A I R E   D E   T R A N S P O R T   V I N S ,   C H A M P A G N E S   &   S P I R I T U E U X', size: 10, color: GRAY, font: LABEL }),
+        new TextRun({ text: '\t', size: 12 }),
+        new TextRun({ children: [PageNumber.CURRENT], bold: true, size: 16, color: col, font: LABEL }),
+      ]
+    })]
+  });
+}
+const footerP = mkFooter(null);
 const emptyHF = { headers: { default: new Header({ children: [new Paragraph({ children: [] })] }) }, footers: { default: new Footer({ children: [new Paragraph({ children: [] })] }) } };
 
 // ---------- assemblage ----------
@@ -802,7 +911,7 @@ UNITS.filter(u => u.id !== 'avant').forEach(u => {
   kids.push(...convertBody(md, u, { noMiniToc: isAnnex }));
   bodySections.push({
     properties: { ...pageProps },
-    headers: { default: mkHeader(headTxt, tabOf(u.id)) }, footers: { default: footerP },
+    headers: { default: mkHeader(headTxt, tabOf(u.id)) }, footers: { default: mkFooter(tabOf(u.id)) },
     children: kids
   });
 });

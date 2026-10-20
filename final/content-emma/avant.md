@@ -37,6 +37,8 @@ Fiabilité, proximité, sens du détail, responsabilité : ce sont nos quatre re
 
 **Floriane Février** — Fondatrice & Gérante
 
+\page
+
 ## Le mot d'accueil d'Emma
 
 Vous faites partie d'une équipe petite, soudée et ambitieuse. Chez Planet Aura, personne n'est un simple exécutant : chacun voit l'effet concret de son travail, du premier échange avec un prospect jusqu'à la photo d'un colis bien arrivé à l'autre bout du monde. C'est ce qui rend ce métier passionnant et exigeant.
@@ -93,6 +95,8 @@ Il est construit à partir de la documentation officielle 2026 (CGS, grilles shi
 | En rendez-vous de découverte ou de closing | Chap. 11, 12, 13 |
 | En charge du suivi adhérents | Chap. 16, 17 |
 | Manager commercial | Chap. 09, 15, 17, 18 |
+
+**Les termes reliés au glossaire.** À leur première apparition dans un chapitre, les termes définis au glossaire (annexe E) sont affichés dans la couleur de la partie et soulignés de pointillés : dans la version numérique, un clic renvoie directement à leur définition.
 
 ## Les six règles d'or
 
