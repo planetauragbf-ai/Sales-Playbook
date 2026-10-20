@@ -3,7 +3,7 @@
 
 ## Remerciements
 
-La réalisation de ce Sales Playbook finalise une étape importante dans mon parcours chez Planet Aura. Ce document miroir de quatre années d’apprentissage (stagiaire, alternante Bachelor puis Master), d’expériences, de remises en question et d’évolution au sein d’une entreprise dans laquelle j’ai progressivement trouvé ma place. Je tiens donc à remercier sincèrement toutes les personnes qui ont contribué, directement ou indirectement, à sa réalisation.
+La réalisation de ce Sales Playbook finalise une étape importante dans mon parcours chez Planet Aura. Ce document est le miroir de quatre années d’apprentissage (stagiaire, alternante Bachelor puis Master), d’expériences, de remises en question et d’évolution au sein d’une entreprise dans laquelle j’ai progressivement trouvé ma place. Je tiens donc à remercier sincèrement toutes les personnes qui ont contribué, directement ou indirectement, à sa réalisation.
 
 En premier, j’adresse mes remerciements les plus sincères à Floriane Février, ma tutrice et Gérante de Planet Aura.
 
@@ -25,17 +25,17 @@ Chacun, à sa manière, a participé à mon apprentissage et à mon intégration
 
 Au-delà de la collaboration professionnelle, certains sont devenus de véritables soutiens, avec lesquels j’ai traversé les périodes intenses, les imprévus, les réussites, les moments de doute, mais également de nombreux moments de convivialité.
 
-Enfin, Planet Aura n’existerai pas sans eux, tous ces partenaires qui participent au développement de son écosystème et auxquels j’adresse également mes remerciements. Je pense, en particulier, à Philippe, de l’entreprise Halt Solutions, avec qui nous avons travaillé sur le développement et l’évolution de Planet’Connect. Il a su comprendre nos besoins, mais aussi transformer certaines de nos idées les plus ambitieuses en solutions concrètes. Sa disponibilité, sa patience et sa capacité à trouver des réponses techniques à nos nombreuses demandes ont largement contribué à faire évoluer les outils de l’entreprise.
+Enfin, Planet Aura n’existerait pas sans eux, tous ces partenaires qui participent au développement de son écosystème et auxquels j’adresse également mes remerciements. Je pense, en particulier, à Philippe, de l’entreprise Halt Solutions, avec qui nous avons travaillé sur le développement et l’évolution de Planet’Connect. Il a su comprendre nos besoins, mais aussi transformer certaines de nos idées les plus ambitieuses en solutions concrètes. Sa disponibilité, sa patience et sa capacité à trouver des réponses techniques à nos nombreuses demandes ont largement contribué à faire évoluer les outils de l’entreprise.
 
-Mais, également aux fournisseurs, transporteurs, courtiers, importateurs et différents partenaires avec lesquels j’ai eu l’occasion d’échanger. Ces collaborations m’ont permis de mieux comprendre la complexité de notre métier et l’importance de chaque acteur dans la réussite d’une opération commerciale.
+Je pense également aux fournisseurs, transporteurs, courtiers, importateurs et différents partenaires avec lesquels j’ai eu l’occasion d’échanger. Ces collaborations m’ont permis de mieux comprendre la complexité de notre métier et l’importance de chaque acteur dans la réussite d’une opération commerciale.
 
-Elle me sert de guide et de fil rouge depuis 3 ans, Euridis Business School, Aurélie et toute l’équipe pédagogique. Je lui dédie également cette reconnaissance. Leur accompagnement méthodologique, leurs conseils et leur regard extérieur me permet aujourd’hui de prendre du recul sur mon expérience professionnelle et de transformer plusieurs années de pratiques, de projets et d’apprentissages dans ce livret.
+Euridis Business School - Aurélie et toute l’équipe pédagogique - me sert de guide et de fil rouge depuis 3 ans. Je leur dédie également cette reconnaissance. Leur accompagnement méthodologique, leurs conseils et leur regard extérieur me permettent aujourd’hui de prendre du recul sur mon expérience professionnelle et de transformer plusieurs années de pratiques, de projets et d’apprentissages dans ce livret.
 
-Enfin, je n’oublie pas mes camarades du Mastère Marketing & Digital Business pour les échanges, les conseils, les retours d’expérience et le soutien partagé tout au long de cette formation. Leurs regards, parfois très différents du mien, ont enrichi ma réflexion et m’ont aidée à me faire évoluer dans mon travail.
+Enfin, je n’oublie pas mes camarades du Mastère Marketing & Digital Business pour les échanges, les conseils, les retours d’expérience et le soutien partagé tout au long de cette formation. Leurs regards, parfois très différents du mien, ont enrichi ma réflexion et m’ont aidée à évoluer dans mon travail.
 
 Pour finir, mes pensées vont à ma famille pour son soutien constant tout au long de mon parcours. Une pensée toute particulière pour mes grands-parents et ma mère, qui m’ont toujours encouragée, accompagnée et poussée à croire en mes projets et, également à Hugo, mon compagnon, pour sa patience dans mes périodes de doute.
 
-**Méthode et outils.** Ce document a été construit avec l'assistance d'une IA (Claude, Anthropic), créditée conformément au cahier des charges : l'IA a servi à structurer, croiser et mettre en forme les sources internes (documentation officielle 2026, procédures, dashboards Planet'Connect) à partir d'instructions détaillées ; chaque chiffre, règle et procédure a été vérifié aux sources et validé humainement, et les contenus générés ont été enrichis et arbitrés par l'équipe.
+**Méthode et outils.** Ce document a été construit avec l'assistance d'une IA (Claude, Anthropic), créditée conformément au cahier des charges : l'IA a servi à structurer, croiser et mettre en forme les sources internes (documentation officielle 2026, procédures, dashboards Planet'Connect) à partir d'instructions détaillées, chaque chiffre, règle et procédure a été vérifié aux sources et validé humainement, et les contenus générés ont été enrichis et arbitrés par l'équipe.
 
 ## Confidentialité
 
@@ -59,7 +59,7 @@ En quelques années, nous sommes passés de quelques expéditions à plus de 200
 
 Ce que nous attendons de vous tient en quelques mots. De la rigueur, parce que nos clients nous jugent sur notre fiabilité. De l'écoute, parce qu'on ne vend pas une solution logistique sans comprendre l'enjeu humain qui se trouve derrière. De l'honnêteté, parce qu'une promesse non tenue coûte toujours plus cher qu'un dossier refusé.
 
-Fiabilité, proximité, sens du détail, responsabilité : ce sont nos quatre repères. Ils ne sont pas affichés sur un mur ; ils se vivent dans chaque devis, chaque appel, chaque colis.
+Fiabilité, proximité, sens du détail, responsabilité : ce sont nos quatre repères. Ils ne sont pas affichés sur un mur, ils se vivent dans chaque devis, chaque appel, chaque colis.
 
 **Floriane Février** - Fondatrice & Gérante
 
@@ -69,9 +69,9 @@ Vous faites partie d'une équipe petite, soudée et ambitieuse. Chez Planet Aura
 
 Notre culture tient en trois idées simples :
 
-1. **On dit ce qu'on fait, et on fait ce qu'on dit.** Un client préfère toujours une vérité utile à une promesse confortable : si un délai est tendu, on le dit ; si un envoi présente un risque, on l'explique.
+1. **On dit ce qu'on fait, et on fait ce qu'on dit.** Un client préfère toujours une vérité utile à une promesse confortable : si un délai est tendu, on le dit, si un envoi présente un risque, on l'explique.
 2. **On apprend ensemble.** Le vin, la douane, les Incoterms, les droits d'accises : personne ne maîtrise tout en arrivant. Ce playbook est là pour accélérer votre montée en puissance, et vos collègues aussi. Posez vos questions, toujours.
-3. **On améliore en continu.** Une procédure qui coince, un argument qui ne convainc pas : dites-le. Ce document lui-même n'est pas figé ; il grandira avec vos retours.
+3. **On améliore en continu.** Une procédure qui coince, un argument qui ne convainc pas : dites-le. Ce document lui-même n'est pas figé, il grandira avec vos retours.
 
 Lisez ce playbook, annotez-le, revenez-y. Mais souvenez-vous qu'aucun guide ne remplace le terrain : c'est en écoutant vos clients que vous deviendrez un excellent commercial. Bonne lecture.
 
@@ -126,7 +126,7 @@ Il est construit à partir de la documentation officielle 2026 (CGS, grilles shi
 
 1. **Nous vendons de la sérénité, pas du transport.** L'adhérent vend plus de vin parce que la question « comment je le ramène chez moi ? » a une réponse simple.
 2. **Le service est vendu au client final par l'adhérent.** Notre premier travail : rendre le point de vente capable et confiant de vendre notre prestation.
-3. **Jamais de délai ferme ni de couverture hors cadre.** Les grilles et les CGS font foi ; les délais sont estimatifs ; la couverture casse/perte est incluse jusqu'à 20 000 €/envoi sous condition d'emballage homologué, et l'assurance ad valorem (3 % de la valeur) reste une option - souscrite sur 9 envois sur 10.
+3. **Jamais de délai ferme ni de couverture hors cadre.** Les grilles et les CGS font foi, les délais sont estimatifs, la couverture casse/perte est incluse jusqu'à 20 000 €/envoi sous condition d'emballage homologué, et l'assurance ad valorem (3 % de la valeur) reste une option - souscrite pour 9 envois sur 10.
 4. **DDP par défaut, DAP quand la réglementation ou la valeur l'exige.** Un commercial qui maîtrise les incoterms inspire confiance.
 5. **Aucun engagement sur un pays ou un État non couvert** sans vérification sur Planet'Connect ou auprès de l'exploitation.
 6. **La documentation 2026 signée électroniquement (CGS + grilles)** est le point de bascule officiel prospect → adhérent.
@@ -137,7 +137,7 @@ La montée en puissance est balisée sur trois mois - la règle : **on observe a
 
 | Jalon | Palier | Preuves attendues |
 |---|---|---|
-| **J+30** | Certifié | Offre, ICP, CRM, conformité ; 1 shadow call ; les 26 objections sues |
+| **J+30** | Certifié | Offre, ICP, CRM, conformité, 1 shadow call, les 26 objections sues |
 | **J+60** | Autonome | 5 diagnostics observés, 3 propositions sans écart, 1 RDV obtenu seul |
 | **J+90** | Pilote son activité | Pipeline propre, analyse win/loss, 1 proposition d'amélioration du playbook |
 

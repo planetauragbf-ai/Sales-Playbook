@@ -12,13 +12,13 @@ module.exports = {
     { after: '^Carte d’identité|^Carte d.identité', img: 'pics/site_castres.png', w: 400, caption: 'Le site Planet Aura à Castres (Tarn) - bureaux et entrepôt en propre' },
     { after: '^La filiale américaine', img: 'pics/ny_site.png', w: 282, caption: 'Planet Aura Inc. - 95 Inip Dr, Inwood (New York)' },
     { after: '^Chiffres clés et trajectoire', img: 'pics/dash_histo_ca.png', w: 406, caption: 'Historique du CA mensuel 2021-2026 (dashboard gestion Planet’Connect, 24/09/2026)' },
-    { after: '^Analyse SWOT', img: 'diagrams/d01_swot.png', w: 436, caption: 'La matrice SWOT Planet Aura 2026' },
+    { after: '^Analyse SWOT', img: 'diagrams/d01_swot.png', w: 520, caption: 'La matrice SWOT Planet Aura 2026' },
   ],
   '03': [
     { after: '^L’équipe : quatre pôles|^L.équipe : quatre pôles', img: 'pics/team2.png', w: 430, caption: 'L’équipe Planet Aura' },
   ],
   '04': [
-    { after: '^Vue d’ensemble du catalogue|^Vue d.ensemble du catalogue', img: 'pics/vela_boat.png', w: 340, caption: 'Le voilier-cargo VELA - notre option de transport bas-carbone (conditionnelle, chap. 04)' },
+    { after: '^Vue d’ensemble du catalogue|^Vue d.ensemble du catalogue', img: 'pics/vela_boat.png', w: 340, caption: 'Le voilier-cargo VELA - option de transport bas-carbone (conditionnelle, voir « Offres en développement »)' },
     { after: '^Stockage, cartonnage', img: 'pics/entrepot.png', w: 380, caption: 'L’entrepôt de Castres : stockage et picking en propre' },
     { after: '^USA Groupage DDP', img: 'diagrams/d04_usabars.png', w: 436, caption: 'Grille USA groupage 2026 : le coût par bouteille passe de 105 € à 14,2 € avec le colisage' },
     { after: '^Planet’Connect : la plateforme|^Planet.Connect : la plateforme', img: 'pics/pc_sim_usa.png', w: 382, caption: 'Simulation réelle États-Unis dans Planet’Connect : transport, assurance, taxes DDP' },
@@ -33,7 +33,7 @@ module.exports = {
     { after: '^Gérer le portefeuille', img: 'pics/dash_prospects.png', w: 406, caption: 'La photographie du portefeuille : 448 prospects, 227 adhérents récents, 35 dormants' },
   ],
   '09': [
-    { after: '^L’entonnoir d’acquisition|^L.entonnoir', img: 'pics/dash_nouveaux.png', w: 390, caption: 'Nouveaux adhérents par mois et cumul 12 mois (~145) - dashboard commercial' },
+    { after: '^L’entonnoir d’acquisition|^L.entonnoir', img: 'pics/dash_nouveaux.png', w: 390, caption: 'Nouveaux adhérents par mois et cumul 12 mois (~145, au-dessus de l\u2019objectif de 10/mois) - dashboard commercial' },
   ],
   '13': [
     { after: '^Commencer par le pourquoi', img: 'diagrams/d06_why.png', w: 390, caption: 'Le Golden Circle Planet Aura : WHY, HOW, WHAT' },
@@ -67,33 +67,53 @@ module.exports['H'] = [
   { after: '^Persona D', img: 'fiches/fiche-10.png', w: 585, caption: '' },
   { after: '^Persona E', img: 'fiches/fiche-09.png', w: 585, caption: '' },
 ];
-// Annexe A - documents tarifaires officiels entiers
+// Annexes documentaires : un document = une annexe
 module.exports['A'] = [];
-for (let i = 1; i <= 5; i++) module.exports['A'].push({ after: '^Grille tarifaire shipping', img: `annexes/grille_ship-${i}.png`, w: 520, caption: i === 5 ? 'Grille tarifaire shipping 2026 - document officiel (5 pages)' : '' });
-for (let i = 1; i <= 5; i++) module.exports['A'].push({ after: '^Rate Schedule', img: `annexes/rateschedule-${i}.png`, w: 505, caption: i === 5 ? 'Rate Schedule 2026 - version anglaise officielle (5 pages)' : '' });
-for (let i = 1; i <= 3; i++) module.exports['A'].push({ after: '^Grille tarifaire stockage', img: `annexes/grille_stock-${i}.png`, w: 505, caption: i === 3 ? 'Grille tarifaire stockage & picking 2026 - document officiel (3 pages)' : '' });
+for (let i = 1; i <= 5; i++) module.exports['A'].push({ after: '^Le document officiel', img: `annexes/grille_ship-${i}.png`, w: 520, caption: i === 5 ? 'Grille tarifaire shipping 2026 - document officiel (5 pages)' : '' });
+module.exports['I'] = [];
+for (let i = 1; i <= 3; i++) module.exports['I'].push({ after: '^Le document officiel', img: `annexes/grille_stock-${i}.png`, w: 505, caption: i === 3 ? 'Grille tarifaire stockage & picking 2026 - document officiel (3 pages)' : '' });
+module.exports['J'] = [
+  { after: '^Le formulaire officiel vierge', img: 'annexes/orderform-1.png', w: 505, caption: 'Order Form 2026 - formulaire officiel vierge' },
+];
+module.exports['K'] = [
+  { after: '^Le document officiel', img: 'annexes/sepa-1.png', w: 505, caption: '' },
+  { after: '^Le document officiel', img: 'annexes/sepa-2.png', w: 505, caption: 'Mandat SEPA - document officiel (2 pages)' },
+];
+module.exports['L'] = [
+  { after: '^Couverture et sommaire', img: 'annexes/pconnect_cover-01.png', w: 330, caption: '' },
+  { after: '^Couverture et sommaire', img: 'annexes/pconnect_sommaire-02.png', w: 500, caption: "Mode d'emploi Planet'Connect - couverture et sommaire (37 pages)" },
+];
+module.exports['N'] = [
+  { after: '^Le modèle officiel 2026', img: 'annexes/shipform-1.png', w: 400, caption: 'Formulaire de shipping par email - onglet FORMULAIRE' },
+];
+module.exports['O'] = [
+  { after: '^La face extérieure$|^La face extérieure', img: 'pics/flyer1.png', w: 460, caption: 'Flyer de prospection - face extérieure' },
+];
+module.exports['P'] = [
+  { after: '^Les cartes officielles', img: 'pics/usmap1.png', w: 520, caption: 'États-Unis - couverture groupage vin (ouvert / codes postaux limités / fermé)' },
+  { after: '^Les cartes officielles', img: 'pics/usmap3.png', w: 520, caption: 'États-Unis - carte de référence des statuts par État' },
+  { after: '^Les cartes officielles', img: 'pics/norway2.png', w: 420, caption: 'Norvège - les deux zones tarifaires (lire Sud/Nord, jamais le numéro)' },
+];
 // Annexe G - organigramme
 module.exports['G'] = [
-  { after: '^L’organigramme Planet Aura 2026|^L.organigramme Planet Aura 2026', img: 'diagrams/d03_org.png', w: 520, caption: 'L’organigramme Planet Aura 2026 - direction, pôles et filiale américaine' },
+  { after: '^L\u2019organigramme Planet Aura 2026|^L.organigramme Planet Aura 2026', img: 'diagrams/d03_org.png', w: 520, caption: 'L\u2019organigramme Planet Aura 2026 - direction, p\u00f4les et filiale am\u00e9ricaine' },
 ];
-// Annexe I - autres documents officiels entiers
-module.exports['I'] = [];
-module.exports['I'].push(
-  { after: '^Order Form 2026', img: 'annexes/orderform-1.png', w: 505, caption: 'Order Form 2026 - formulaire officiel vierge' },
-  { after: '^Mandat SEPA', img: 'annexes/sepa-1.png', w: 505, caption: '' },
-  { after: '^Mandat SEPA', img: 'annexes/sepa-2.png', w: 505, caption: 'Mandat SEPA - document officiel (2 pages)' },
-  { after: '^Mode d\u2019emploi Planet|^Mode d.emploi Planet', img: 'annexes/pconnect_cover-01.png', w: 330, caption: '' },
-  { after: '^Mode d\u2019emploi Planet|^Mode d.emploi Planet', img: 'annexes/pconnect_sommaire-02.png', w: 500, caption: 'Mode d\u2019emploi Planet\u2019Connect - couverture et sommaire (37 pages)' },
-  { after: '^Formulaire de shipping', img: 'annexes/shipform-1.png', w: 400, caption: 'Formulaire de shipping par email - onglet FORMULAIRE' },
-  { after: '^Flyer de prospection', img: 'pics/flyer1.png', w: 460, caption: 'Flyer de prospection - face extérieure' },
-  { after: '^Cartes de zones', img: 'pics/usmap1.png', w: 520, caption: 'États-Unis - couverture groupage vin (ouvert / codes postaux limités / fermé)' },
-  { after: '^Cartes de zones', img: 'pics/usmap3.png', w: 520, caption: 'États-Unis - carte de référence des statuts par État' },
-  { after: '^Cartes de zones', img: 'pics/norway2.png', w: 420, caption: 'Norvège - les deux zones tarifaires (lire Sud/Nord, jamais le numéro)' }
-);
 module.exports['10'] = (module.exports['10'] || []).concat([
   { after: '^Diagramme de la séquence', img: 'diagrams/d10_sequence.png', w: 500, caption: 'Le diagramme de la séquence de prospection automatisée : 8 touches sur 18 jours et ses embranchements' },
 ]);
 // chap. 00 - le cycle de vente en cartes (design maquette)
 module.exports['00'] = [
+  { after: '^Notre métier en une image', img: 'diagrams/d00_metier.png', w: 520, caption: 'Notre métier en une image : cinq étapes, un seul responsable de bout en bout' },
   { after: '^Le cycle de vente en bref', img: 'diagrams/d00_cycle.png', w: 520, caption: 'Le cycle de vente en bref : six étapes, l’activation comme vraie ligne d’arrivée' },
 ];
+
+// schémas complémentaires (escalade, trame SPIN, pyramide de preuve)
+module.exports['03'] = (module.exports['03'] || []).concat([
+  { after: '^Les règles de fonctionnement', img: 'diagrams/d03_escalade.png', w: 520, caption: 'Le circuit d\u2019escalade : ce que chacun d\u00e9cide, et quand passer la main' },
+]);
+module.exports['12'] = (module.exports['12'] || []).concat([
+  { after: '^La trame du rendez-vous de d\u00e9couverte|^La trame du rendez-vous', img: 'diagrams/d12_trame.png', w: 520, caption: 'La trame des 35 minutes : six s\u00e9quences, une sortie attendue par s\u00e9quence' },
+]);
+module.exports['F'] = (module.exports['F'] || []).concat([
+  { after: '^La hi\u00e9rarchie de preuve', img: 'diagrams/d14_preuve.png', w: 440, caption: 'La hi\u00e9rarchie de preuve : citer le niveau le plus haut disponible' },
+]);

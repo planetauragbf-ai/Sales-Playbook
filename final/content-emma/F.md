@@ -11,7 +11,7 @@ Les chiffres d'activité de ce playbook proviennent d'une source unique : les **
 +18,7 %|Croissance 2026 vs 2025 à date
 6 643|Expéditions sur 12 mois glissants
 64,5 %|des envois vers les USA
-4,8 à 5/5|Avis Google (près de 300 avis)
+4,8/5|Avis Google (près de 300 avis)
 ```
 
 | Chiffre | Valeur officielle | Période |
@@ -20,14 +20,15 @@ Les chiffres d'activité de ce playbook proviennent d'une source unique : les **
 | CA 2026 | 991 568 € (+18,7 % vs 2025 à date) | Janv.-sept. 2026 |
 | CA vins expédiés (valeur transportée) | 2 781 717 € | Janv.-sept. 2026 |
 | Trajectoire | ×4,7 (246 637 € → 1 148 961 €) | 2021 → 2025 |
-| Expéditions | 6 643 (dont 1,45 % annulées) - 5 092 shippings | 12 mois glissants - janv.-sept. 2026 |
+| Expéditions | 6 643 (dont 1,45 % annulées) | 12 mois glissants |
+| Shippings | 5 092 | Janv.-sept. 2026 |
 | Bouteilles | 65 277 | Janv.-sept. 2026 |
 | Base comptes | 710 (448 prospects, 227 récents, 35 dormants) | Au 24/09/2026 |
 | Nouveaux adhérents | ~145 | 12 mois glissants |
 | Répartition destinations | USA 64,5 %, France 18,6 % | 12 mois glissants |
 | Assurance ad valorem souscrite | 89,8 % des expéditions | 12 mois glissants |
 | Colisage dominant | Cartons 6 bt (33,4 %) et 12 bt (31,3 %) | 12 mois glissants |
-| Avis Google | 4,8 à 5/5, près de 300 avis | Vérifier en direct avant citation |
+| Avis Google | 4,8/5, près de 300 avis | Vérifier en direct avant citation |
 
 ## La hiérarchie de preuve (4 niveaux)
 
@@ -48,20 +49,20 @@ Chaque source ci-dessous a été vérifiée en ligne (septembre 2026). En rendez
 
 | Réf. | Source | Chiffres clés à citer | Lien |
 |---|---|---|---|
-| S01 | **OIV** - État du secteur vitivinicole mondial 2024 | Production mondiale 226 Mhl en 2024 (plus bas depuis 60 ans) ; consommation 214 Mhl (−3,3 %, plus bas depuis 1961) ; exports mondiaux 35,9 Md€ / 99,8 Mhl (stables) ; vignoble 7,1 Mha | oiv.int/press/state-world-vine-and-wine-sector-2024-adaptation-cooperation |
+| S01 | **OIV** - État du secteur vitivinicole mondial 2024 | Production mondiale 226 Mhl en 2024 (plus bas depuis 60 ans), consommation 214 Mhl (−3,3 %, plus bas depuis 1961), exports mondiaux 35,9 Md€ / 99,8 Mhl (stables), vignoble 7,1 Mha | oiv.int/press/state-world-vine-and-wine-sector-2024-adaptation-cooperation |
 | S02 | **OIV** - Estimation 2025 | Production 2025 : 227 Mhl (+0,6 % vs le point bas 2024) - le marché se joue en valeur, pas en volume | oiv.int (communiqués 2025-2026) |
-| S03 | **FEVS** - Bilan export 2025 (dossier de presse, févr. 2026) | Exports FR vins & spiritueux 2025 : **14,3 Md€ (−7,9 %)**, 168 M de caisses (−3 %) ; **USA : ~3 Md€ (−21 %, droits de douane d'avril + effet change) mais toujours 1er marché** ; Chine 767 M€ (−20 %) ; le secteur passe du 2e au 3e rang des excédents export français | fevs.info (DP 10/02/2026) · pleinchamp.com |
-| S03b | **FEVS** - Bilan export 2024 (rappel) | 2024 : 15,6 Md€ (−4 %), volumes stables ; USA 3,8 Md€ (+5 %) ; Chine/HK/SG 2,1 Md€ (−21 %) = ~90 % de la baisse | fevs.com (DP 11/02/2025, bilan export vins & spiritueux 2024) |
-| S04 | **Atout France** - Œnotourisme 2023 | **12 M d'œnotouristes** en France (+20 % vs 2016) dont **5,4 M d'étrangers** (+29 %) ; top nationalités : Britanniques, Belges, Américains ; 3e destination mondiale derrière USA (30 M) et Italie (15 M) ; dépenses 5,4 Md€ | atout-france.fr (actualités : l'œnotourisme en France, 12 millions de visiteurs en 2023) |
+| S03 | **FEVS** - Bilan export 2025 (dossier de presse, févr. 2026) | Exports FR vins & spiritueux 2025 : **14,3 Md€ (−7,9 %)**, 168 M de caisses (−3 %), **USA : ~3 Md€ (−21 %, droits de douane d'avril + effet change) mais toujours 1er marché**, Chine 767 M€ (−20 %), le secteur passe du 2e au 3e rang des excédents export français | fevs.info (DP 10/02/2026) · pleinchamp.com |
+| S03b | **FEVS** - Bilan export 2024 (rappel) | 2024 : 15,6 Md€ (−4 %), volumes stables, USA 3,8 Md€ (+5 %), Chine/HK/SG 2,1 Md€ (−21 %) = ~90 % de la baisse | fevs.com (DP 11/02/2025, bilan export vins & spiritueux 2024) |
+| S04 | **Atout France** - Œnotourisme 2023 | **12 M d'œnotouristes** en France (+20 % vs 2016) dont **5,4 M d'étrangers** (+29 %), top nationalités : Britanniques, Belges, Américains, 3e destination mondiale derrière USA (30 M) et Italie (15 M), dépenses 5,4 Md€ | atout-france.fr (actualités : l'œnotourisme en France, 12 millions de visiteurs en 2023) |
 | S05 | **Winalist** - Observatoire de l'œnotourisme 2026 | Une visite au domaine génère en moyenne **207 €** de retombées, dont **60 % en achats de vin sur place** - l'argument ROI du caveau | winalist.fr/blog/observatoires/observatoire-2026 |
-| S06 | **SOWINE/Dynata** - Baromètre 2025 | **39 %** des consommateurs français achètent du vin en ligne (+5 pts) ; panier moyen 51-78 € ; 51 % vérifient une certification environnementale avant achat | sowine.com/blog/barometre-sowine-dynata-2025 |
+| S06 | **SOWINE/Dynata** - Baromètre 2025 | **39 %** des consommateurs français achètent du vin en ligne (+5 pts), panier moyen 51-78 €, 51 % vérifient une certification environnementale avant achat | sowine.com/blog/barometre-sowine-dynata-2025 |
 | S07 | **TTB** (Alcohol and Tobacco Tax and Trade Bureau) - guide importation (version française) | Cadre fédéral US : permis importateur, three-tier system, accises fédérales ~1,07 $/gallon (vin tranquille) vs 13,34 $/proof-gallon (spiritueux) | ttb.gov/import-export/itd/itd-french/importing-alcohol |
 | S08 | **FranceAgriMer** - Note « Importation de boissons alcoolisées aux États-Unis » | Synthèse officielle FR du dispositif US (permis, étiquetage, accises) - le document à relire avant tout dossier B2B US | franceagrimer.fr (note fév. 2023, mise à jour 2026) |
-| S09 | **VELA** - site officiel & presse (Supply Chain Magazine, Vitisphere, French Morning) | Trimaran-cargo de 65 m (goélette, sans ballast), **350 t**, transatlantique en **< 15 jours** ; mise en service annoncée par VELA pour 2027 - on n'en parle pas au prospect sans validation direction, et toujours comme **option conditionnelle, jamais exclusive** (règles du chap. 04) ; partenariat VELA × DHL (offre porte-à-porte, route Caen-Ouistreham - New Haven) ; ACV : ~5× moins de CO2 qu'un porte-conteneurs sur la ligne, −80 % sur le cycle de vie ; fondée à Bayonne en 2022 (avec François Gabart) ; clients annoncés : grands crus Bordeaux/Bourgogne, maisons de Champagne et Cognac, **un commissionnaire de transport spécialiste vins & champagnes** | vela-transport.com · supplychainmagazine.fr · vitisphere.com |
-| S10 | **CIVC** - Comité Champagne | Certificat d'origine obligatoire hors UE ; demande : certificat.origine-ext@civc.fr - 03 26 51 19 30 | comitechampagne.fr |
+| S09 | **VELA** - site officiel & presse (Supply Chain Magazine, Vitisphere, French Morning) | Trimaran-cargo de 65 m (goélette, sans ballast), **350 t**, transatlantique en **< 15 jours**, mise en service annoncée par VELA pour 2027 - on n'en parle pas au prospect sans validation direction, et toujours comme **option conditionnelle, jamais exclusive** (règles du chap. 04), partenariat VELA × DHL (offre porte-à-porte, route Caen-Ouistreham - New Haven), ACV : ~5× moins de CO2 qu'un porte-conteneurs sur la ligne, −80 % sur le cycle de vie, fondée à Bayonne en 2022 (avec François Gabart), clients annoncés : grands crus Bordeaux/Bourgogne, maisons de Champagne et Cognac, **un commissionnaire de transport spécialiste vins & champagnes** | vela-transport.com · supplychainmagazine.fr · vitisphere.com |
+| S10 | **CIVC** - Comité Champagne | Certificat d'origine obligatoire hors UE, demande : certificat.origine-ext@civc.fr - 03 26 51 19 30 | comitechampagne.fr |
 | S11 | **Douane française** - accises & CRD | Références EMCS/DA, capsules représentatives de droits, circulation des produits soumis à accises | douane.gouv.fr |
 | S12 | **La Poste Pro** - « Expédier du vin aux États-Unis » | Page qui documente publiquement les restrictions des solutions postales - utile face à l'objection « La Poste est moins chère » (O-3) | laposte.fr/professionnel/expedier/expedier-vin-etats-unis |
-| S13 | **Google / planet-aura.com** - avis clients | **≈ 300 avis Google - fiche Google : 4,8/5 (296 avis) ; widget site : 5/5 (291 avis)** (relevés sept. 2026) ; verbatims multilingues publics (FR/EN/FI/NL) repris au chap. 14 - la preuve à montrer en direct sur le téléphone du prospect | planet-aura.com (bloc avis Google) |
+| S13 | **Google / planet-aura.com** - avis clients | **≈ 300 avis Google - fiche Google : 4,8/5 (296 avis), widget site : 5/5 (291 avis)** (relevés sept. 2026), verbatims multilingues publics (FR/EN/FI/NL) repris au chap. 14 - la preuve à montrer en direct sur le téléphone du prospect | planet-aura.com (bloc avis Google) |
 
 > **REPÈRE -** Règle de citation : un chiffre sans source, millésime et périmètre n'entre ni dans un support, ni dans un rendez-vous. En cas de conflit entre deux sources, la plus récente et la plus officielle gagne - et on le note ici.
 
@@ -80,7 +81,7 @@ Chaque source ci-dessous a été vérifiée en ligne (septembre 2026). En rendez
 
 | Réf. | Source | Contenu | Accès |
 |---|---|---|---|
-| S14 | **Dashboards admin Planet'Connect** (Logistique / Gestion / Commercial) - *source interne* | Tous les chiffres d'activité du playbook : CA 2021-2026, expéditions, bouteilles, portefeuille, répartitions destinations/régions/catégories, délais réels, sinistres - extraction du **24/09/2026** ; table consolidée en tête de cette annexe | app.planet-aura.com/administration (accès interne) |
+| S14 | **Dashboards admin Planet'Connect** (Logistique / Gestion / Commercial) - *source interne* | Tous les chiffres d'activité du playbook : CA 2021-2026, expéditions, bouteilles, portefeuille, répartitions destinations/régions/catégories, délais réels, sinistres - extraction du **24/09/2026**, table consolidée en tête de cette annexe | app.planet-aura.com/administration (accès interne) |
 | S15 | **Procédures internes 2026** (Drive « Nouveaux process ») - *source interne* | « Gestion des sinistres transport - arbre décisionnel » (chap. 16), « Process cotation » (chap. 11), « Process UE & pays tiers 2K26 », process USA (first/last miles, groupages, retour NY→France), matrice « Missions Planet Aura » | Drive interne, dossier Nouveaux process 2026 |
 
 > 📌 **À RETENIR -** Une source unique pour les chiffres d'activité (les dashboards Planet'Connect, extraction du 24/09/2026), quatre niveaux de preuve pour tout le reste, et une bibliographie S01-S15 vérifiée : avant de citer un chiffre, situez-le dans cette annexe - s'il n'y figure pas avec sa source et son millésime, il ne sort pas.

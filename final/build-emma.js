@@ -56,7 +56,9 @@ const UNITS = [
   { id: '17', file: '17.md' }, { id: '18', file: '18.md' },
   { id: 'A', file: 'A.md' }, { id: 'B', file: 'B.md' }, { id: 'C', file: 'C.md' },
   { id: 'D', file: 'D.md' }, { id: 'E', file: 'E.md' }, { id: 'F', file: 'F.md' }, { id: 'G', file: 'G.md' },
-  { id: 'H', file: 'H.md' }, { id: 'I', file: 'I.md' },
+  { id: 'H', file: 'H.md' }, { id: 'I', file: 'I.md' }, { id: 'J', file: 'J.md' }, { id: 'K', file: 'K.md' },
+  { id: 'L', file: 'L.md' }, { id: 'M', file: 'M.md' }, { id: 'N', file: 'N.md' }, { id: 'O', file: 'O.md' },
+  { id: 'P', file: 'P.md' }, { id: 'Q', file: 'Q.md' },
 ];
 
 const PARTS = {
@@ -64,7 +66,7 @@ const PARTS = {
   '06': { big: '2', col: PBORDEAUX, tab: 'PARTIE 2 · CIBLER', rom: 'II', num: 'PARTIE 2', title: 'Définir les cibles et les solutions adaptées', sub: 'Les bons comptes, les bonnes réponses', chapters: ['06 · Profils de clients idéaux (ICP)', '07 · Personas et acteurs de la décision', '08 · Correspondance entre enjeux et solutions'] },
   '09': { big: '3', col: POCRE, tab: 'PARTIE 3 · VENDRE', rom: 'III', num: 'PARTIE 3', title: 'Formaliser la prospection et la vente', sub: 'Du premier contact à la signature', chapters: ['09 · Processus d’acquisition et pipeline', '10 · Séquences de prospection et scripts', '11 · Qualification et processus de vente', '12 · Conduite des entretiens (méthode SPIN)', '13 · Argumentaires et objections'] },
   '14': { big: '4', col: NAVY, tab: 'PARTIE 4 · PILOTER', rom: 'IV', num: 'PARTIE 4', title: 'Fournir les outils et organiser le pilotage', sub: 'Outiller, mesurer, faire vivre', chapters: ['14 · Ressources d’aide à la vente', '15 · Organisation et outils', '16 · Activation, fidélisation et SAV', '17 · Indicateurs et méthode de suivi', '18 · Mise à jour et appropriation'] },
-  'A': { big: 'A', col: PBORDEAUX, tab: 'ANNEXES', rom: 'V', num: 'ANNEXES', title: 'Annexes', sub: 'Documents complémentaires', chapters: ['A · Grilles tarifaires officielles 2026', 'B · CGS : l’essentiel', 'C · Fiche réflexe, checklists et modèles', 'D · Conformité et fiches pays', 'E · Glossaire', 'F · Chiffres officiels et sources', 'G · Organigramme et documents officiels', 'H · Fiches ICP & personas', 'I · Documents officiels & liens'] },
+  'A': { big: 'A', col: PBORDEAUX, tab: 'ANNEXES', rom: 'V', num: 'ANNEXES', title: 'Annexes', sub: 'Documents complémentaires', chapters: ['A · Grille tarifaire shipping 2026', 'B · CGS : l’essentiel', 'C · Fiche réflexe, checklists et modèles', 'D · Conformité et fiches pays', 'E · Glossaire', 'F · Chiffres officiels et sources', 'G · Organigramme et documents officiels', 'H · Fiches ICP & personas', 'I · Grille stockage & picking 2026', 'J · Order Form 2026', 'K · Mandat SEPA', 'L · Mode d’emploi Planet’Connect', 'M · Manuel utilisateur & procédure Suède', 'N · Formulaire de shipping par email', 'O · Flyer de prospection', 'P · Cartes de zones USA & Norvège', 'Q · Liens utiles'] },
 };
 
 // ---- Sommaire interactif
@@ -158,18 +160,42 @@ const GLO_VARIANT_OVERRIDES = {
   'DDP / DAP': ['DDP', 'DAP'],
   'DA / EMCS / DAU': ['EMCS', 'DAU'],
   'MQL / SQL': ['MQL', 'SQL'],
+  'POA / SSN': ['POA', 'SSN'],
+  'FEVS / OIV': ['FEVS', 'OIV'],
+  'Groupage / Direct': ['Groupage', 'groupage'],
   'Tiers A/B/C': ['Tiers A', 'Tiers B', 'Tiers C'],
   'Three-tier system': ['Three-tier system', 'three-tier system', 'three-tier'],
-  "Planet'Connect": ["Planet'Connect", 'Planet’Connect'],
-  'Assurance ad valorem': ['Assurance ad valorem', 'assurance ad valorem', 'ad valorem'],
-  'Direct': null, // trop ambigu en français courant
+  'Ad valorem': ['Assurance ad valorem', 'assurance ad valorem', 'ad valorem'],
+  '5 forces de Porter': ['5 forces de Porter', 'forces de Porter'],
+  'Œnotourisme': ['Œnotourisme', 'œnotourisme', 'oenotourisme'],
+  'Jours ouvrés': ['Jours ouvrés', 'jours ouvrés', 'jours ouvrables'],
+  'Matrice « Missions Planet Aura »': ['Missions Planet Aura'],
+  'Motifs de perte CRM': ['Motifs de perte', 'motifs de perte'],
+  'Ticketing (à venir)': ['Ticketing', 'ticketing'],
+  'PO Box': ['PO Box', 'PO BOX', 'PO box'],
+  'Win/loss': ['Win/loss', 'win/loss', 'Win/Loss'],
+  'Golden Circle': ['Golden Circle'],
+  'InMail': ['InMail'],
+  'SogeCommerce': ['SogeCommerce'],
+  'Jobs-to-be-Done': ['Jobs-to-be-Done'],
+  'Certification J+30': ['Certification J+30', 'certification J+30'],
+  // mots courants ou expressions : définis au glossaire mais jamais liés automatiquement
+  'Direct': null, 'Touche': null, 'Preuve': null, 'Signal': null, 'Palier': null,
+  'Périmètre': null, 'Pièce': null, 'Quadrant': null, 'Réserves': null,
+  'Combinaison': null, 'Contingence': null, 'Substitution': null, 'Sponsor': null,
+  'Close': null, 'Accountable': null, 'Best-seller': null, 'Consolidation': null,
+  'Vedette / parité / bruit': null, 'Statuts particuliers': null, 'CE 761901191': null,
+  'Comptes de référence publics': null, 'Cartographier un flux': null, 'Courtier': null,
+  'Claim': null, 'Quota': null, 'Déchéance': null, 'Mhl': null,
 };
-const GLO_ACRONYM = /^[A-Z0-9\-\s/.']+$/;
+const GLO_ACRONYM = /^[A-Z0-9\-\s/.'+]+$/;
 const GLO_SLUG = {}; const TERM_SLUG = {}; let GLO_RE = null;
 {
   try {
     const emd = fs.readFileSync(path.join(SRC, 'E.md'), 'utf8');
     const variants = [];
+    const expand = (v) => v.includes("'") || v.includes('’')
+      ? [v.replace(/’/g, "'"), v.replace(/'/g, '’')] : [v];
     emd.split('\n').forEach(l => {
       const mm = l.match(/^\|\s*\*\*([^*]+)\*\*\s*\|/);
       if (!mm) return;
@@ -178,10 +204,11 @@ const GLO_SLUG = {}; const TERM_SLUG = {}; let GLO_RE = null;
       TERM_SLUG[term] = slug;
       let vars;
       if (term in GLO_VARIANT_OVERRIDES) vars = GLO_VARIANT_OVERRIDES[term];
+      else if (term.includes(' / ')) vars = term.split(' / ').map(s => s.trim());
       else if (GLO_ACRONYM.test(term)) vars = [term];
       else vars = [term, term.charAt(0).toLowerCase() + term.slice(1)];
       if (!vars) return;
-      vars.forEach(v => { GLO_SLUG[v] = slug; variants.push(v); });
+      vars.flatMap(expand).forEach(v => { if (!(v in GLO_SLUG)) { GLO_SLUG[v] = slug; variants.push(v); } });
     });
     variants.sort((a, b) => b.length - a.length);
     const esc = variants.map(v => v.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'));
@@ -442,7 +469,7 @@ function convertBody(md, unit, opts = {}) {
       if (lvl === 1) {
         // Tête de chapitre : kicker partie, numéro · titre serif, sous-titre, filet, mini-sommaire
         h1Seen = true;
-        const hm = txt.match(/^(Annexe\s+)?([0-9A-G]{1,2})\s*[—–-]\s*(.*)$/) || [null, '', '', txt];
+        const hm = txt.match(/^(Annexe\s+)?([0-9A-Q]{1,2})\s*[—–-]\s*(.*)$/) || [null, '', '', txt];
         const isAnnex = !!hm[1];
         const num = hm[2]; const title = hm[3] || txt;
         const part = PARTS[unit.id];
@@ -687,7 +714,7 @@ const PART_OF_UNIT = {};
 function partOpener(p) {
   // chaque chapitre list\u00e9 est cliquable (ancre \u00ab chap<id> \u00bb pos\u00e9e sur la t\u00eate de chapitre)
   const chapterLines = p.chapters.map(c => {
-    const m = c.match(/^([0-9A-I]{1,2})\s*\u00b7\s*(.*)$/);
+    const m = c.match(/^([0-9A-Q]{1,2})\s*\u00b7\s*(.*)$/);
     const runs = m ? [
       new TextRun({ text: m[1], bold: true, size: 23, color: 'FFFFFF', font: SERIF }),
       new TextRun({ text: '    ' + m[2], size: 22, color: 'F2E9E4' }),
@@ -792,6 +819,9 @@ function coverChildren() {
 // ---------- sommaire ----------
 let tocPages = {};
 try { tocPages = JSON.parse(fs.readFileSync(path.join(__dirname, 'toc-pages-emma.json'), 'utf8')); } catch (e) {}
+// folio de reprise par partie : l'ouverture de partie ne compte pas dans la numérotation
+let partStarts = {};
+try { partStarts = JSON.parse(fs.readFileSync(path.join(__dirname, 'part-starts-emma.json'), 'utf8')); } catch (e) {}
 
 function tocChildren() {
   const COL_W = Math.floor((CONTENT_W - 420) / 2);
@@ -817,7 +847,7 @@ function tocChildren() {
   };
   const entry = (h, labelColor) => {
     const page = tocPages[h.key] !== undefined ? String(tocPages[h.key]) : '0';
-    const m = h.text.match(/^(Annexe\s+)?([0-9A-I]{1,2})\s*[—–-]\s*(.*)$/);
+    const m = h.text.match(/^(Annexe\s+)?([0-9A-Q]{1,2})\s*[—–-]\s*(.*)$/);
     if (m && TOC_SHORT[m[3]]) m[3] = TOC_SHORT[m[3]];
     const kids = [];
     if (m) {
@@ -895,6 +925,23 @@ function tocChildren() {
 
 // ---------- en-têtes / pieds ----------
 const TAB_IMG = { 0: 'tab-p1', 1: 'tab-p2', 2: 'tab-p3', 3: 'tab-p4', 4: 'tab-ann' };
+// fond pleine page (image flottante derrière le contenu, bord à bord)
+const BG_OF = { [TEAL]: 'bg-teal', [PBORDEAUX]: 'bg-bordeaux', [POCRE]: 'bg-ocre', [NAVY]: 'bg-navy' };
+function bgRun(name) {
+  const data = fs.readFileSync(path.join(A, `diagrams/${name}.png`));
+  const PX = 9525;
+  return new ImageRun({
+    type: 'png', data,
+    transformation: { width: 794, height: 1123 },
+    floating: {
+      horizontalPosition: { relative: HorizontalPositionRelativeFrom.PAGE, offset: 0 },
+      verticalPosition: { relative: VerticalPositionRelativeFrom.PAGE, offset: 0 },
+      wrap: { type: TextWrappingType.NONE },
+      behindDocument: true,
+    }
+  });
+}
+
 function sideTabRun(tab) {
   if (!tab) return [];
   const data = fs.readFileSync(path.join(A, `diagrams/${TAB_IMG[tab.idx] || 'tab-ann'}.png`));
@@ -912,7 +959,7 @@ function sideTabRun(tab) {
     }
   })];
 }
-function mkHeader(leftText, tab) {
+function mkHeader(leftText, tab, bgName) {
   return new Header({
     children: [
       new Paragraph({
@@ -920,6 +967,7 @@ function mkHeader(leftText, tab) {
         border: { bottom: { style: BorderStyle.SINGLE, size: 3, color: 'DCE8EC' } },
         spacing: { after: 40 },
         children: [
+          ...(bgName ? [bgRun(bgName)] : []),
           ...sideTabRun(tab),
           new TextRun({ text: leftText, bold: true, size: 13, color: tab ? (DEEP_OF[tab.col] || TEALD) : TEALD, font: LABEL }),
           new TextRun({ text: '\t', size: 11 }),
@@ -938,7 +986,7 @@ function mkFooter(tab, noNum = false) {
       border: { top: { style: BorderStyle.SINGLE, size: 3, color: 'DCE8EC' } },
       spacing: { before: 50 },
       children: [
-        new TextRun({ text: 'P L A N E T   A U R A   ·   C O M M I S S I O N N A I R E   D E   T R A N S P O R T   V I N S ,   C H A M P A G N E S   &   S P I R I T U E U X', size: 10, color: GRAY, font: LABEL }),
+        new TextRun({ text: 'P L A N E T   A U R A   ·   C O M M I S S I O N N A I R E   D E   T R A N S P O R T   ·   C H A M P A G N E S ,   V I N S   &   S P I R I T U E U X', size: 10, color: GRAY, font: LABEL }),
         new TextRun({ text: '\t', size: 12 }),
         ...(noNum ? [] : [new TextRun({ children: [PageNumber.CURRENT], bold: true, size: 26, color: col, font: SERIF })]),
       ]
@@ -1003,10 +1051,14 @@ UNITS.filter(u => u.id !== 'avant').forEach(u => {
   bodySections.push({
     // la page d'ouverture de partie (bloc de couleur) n'affiche ni en-tête ni folio,
     // mais reste comptée dans la numérotation ; l'onglet de bordure y demeure
-    properties: { ...pageProps, ...(isPartStart ? { titlePage: true } : {}) },
+    properties: {
+      ...pageProps,
+      ...(isPartStart ? { titlePage: true } : {}),
+      ...(isPartStart && partStarts[u.id] ? { page: { ...pageProps.page, pageNumbers: { start: partStarts[u.id] } } } : {}),
+    },
     headers: {
       default: mkHeader(headTxt, tabOf(u.id)),
-      ...(isPartStart ? { first: new Header({ children: [new Paragraph({ children: sideTabRun(tabOf(u.id)) })] }) } : {}),
+      ...(isPartStart ? { first: new Header({ children: [new Paragraph({ children: [bgRun(BG_OF[PARTS[u.id].col] || 'bg-teal'), ...sideTabRun(tabOf(u.id))] })] }) } : {}),
     },
     footers: {
       default: mkFooter(tabOf(u.id)),
@@ -1019,43 +1071,68 @@ UNITS.filter(u => u.id !== 'avant').forEach(u => {
 // 4. sommaire (registre complet), puis le corps
 sections.push({
   properties: { ...pageProps, column: { count: 2, space: 420, equalWidth: true } },
-  headers: { default: mkHeader('SOMMAIRE') }, footers: { default: footerNoNum },
+  headers: { default: mkHeader('SOMMAIRE', null, 'bg-lteal') }, footers: { default: footerNoNum },
   children: tocChildren()
 });
 sections.push(...bodySections);
 
-// page de fin (exergue + colophon, comme la maquette)
+// page de fin : pleine page marine (fond flottant + table pleine hauteur, comme les ouvertures)
 sections.push({
   properties: { ...pageProps },
-  headers: { default: mkHeader('FIN DU DOCUMENT') }, footers: { default: footerP },
+  headers: { default: new Header({ children: [new Paragraph({ children: [bgRun('bg-navy')] })] }) },
+  footers: { default: new Footer({ children: [new Paragraph({ children: [] })] }) },
   children: [
-    new Paragraph({ spacing: { before: 3400 }, children: [] }),
-    new Paragraph({ alignment: AlignmentType.CENTER, children: [img('pics/logo.png', 110, 110)] }),
-    new Paragraph({
-      alignment: AlignmentType.CENTER, spacing: { before: 560, after: 420 },
-      indent: { left: 600, right: 600 },
-      children: [new TextRun({ text: '\u00ab On ne vend pas du transport. On rassure des professionnels. \u00bb', italics: true, size: 34, color: TEAL, font: SERIF })]
-    }),
-    new Paragraph({
-      alignment: AlignmentType.CENTER, spacing: { after: 90 },
-      children: [new TextRun({ text: 'Document interne et confidentiel - r\u00e9serv\u00e9 \u00e0 l\u2019\u00e9quipe commerciale & marketing Planet Aura.', size: 18, color: INK })]
-    }),
-    new Paragraph({
-      alignment: AlignmentType.CENTER, spacing: { after: 90 },
-      children: [new TextRun({ text: 'Version 2.1 \u00b7 Octobre 2026 \u00b7 Chiffres : dashboards Planet\u2019Connect, extraction du 24/09/2026.', size: 18, color: INK })]
-    }),
-    new Paragraph({
-      alignment: AlignmentType.CENTER, spacing: { after: 700 },
-      children: [new TextRun({ text: 'Retours et corrections : emma@planet-aura.com', size: 18, color: INK })]
-    }),
-    new Paragraph({
-      alignment: AlignmentType.CENTER,
-      children: [new TextRun({ text: 'S A R L   P L A N E T   A U R A   \u00b7   5   I M P A S S E   F R A N \u00c7 O I S   A R A G O ,   8 1 1 0 0   C A S T R E S   \u00b7   W W W . P L A N E T - A U R A . C O M', size: 11, color: GRAY, font: LABEL })]
+    new Table({
+      width: { size: CONTENT_W, type: WidthType.DXA },
+      columnWidths: [CONTENT_W],
+      borders: {
+        top: { style: BorderStyle.NONE }, bottom: { style: BorderStyle.NONE },
+        left: { style: BorderStyle.NONE }, right: { style: BorderStyle.NONE },
+        insideHorizontal: { style: BorderStyle.NONE }, insideVertical: { style: BorderStyle.NONE },
+      },
+      rows: [new TableRow({
+        height: { value: 13800, rule: HeightRule.ATLEAST },
+        children: [new TableCell({
+          width: { size: CONTENT_W, type: WidthType.DXA },
+          shading: { type: ShadingType.CLEAR, fill: NAVY },
+          verticalAlign: VerticalAlign.CENTER,
+          margins: { top: 400, bottom: 400, left: 500, right: 500 },
+          children: [
+            new Paragraph({ spacing: { before: 2600 }, children: [] }),
+            new Paragraph({ alignment: AlignmentType.CENTER, children: [img('pics/logo.png', 120, 120)] }),
+            new Paragraph({
+              alignment: AlignmentType.CENTER, spacing: { before: 620, after: 160 },
+              children: [new TextRun({ text: 'S A L E S   P L A Y B O O K   2 0 2 6', bold: true, size: 20, color: '9EC5CE', font: LABEL })]
+            }),
+            new Paragraph({
+              alignment: AlignmentType.CENTER, spacing: { after: 560 },
+              indent: { left: 400, right: 400 },
+              children: [new TextRun({ text: '\u00ab On ne vend pas du transport. On rassure des professionnels. \u00bb', italics: true, size: 38, color: 'FFFFFF', font: SERIF })]
+            }),
+            new Paragraph({
+              border: { top: { style: BorderStyle.SINGLE, size: 6, color: '4A7B8E' } },
+              alignment: AlignmentType.CENTER, spacing: { before: 220, after: 90 },
+              indent: { left: 900, right: 900 },
+              children: [new TextRun({ text: 'Document interne et confidentiel - r\u00e9serv\u00e9 \u00e0 l\u2019\u00e9quipe commerciale & marketing Planet Aura', size: 18, color: 'D7E5EA' })]
+            }),
+            new Paragraph({
+              alignment: AlignmentType.CENTER, spacing: { after: 90 },
+              children: [new TextRun({ text: 'Chiffres : dashboards Planet\u2019Connect, extraction du 24/09/2026', size: 18, color: 'D7E5EA' })]
+            }),
+            new Paragraph({
+              alignment: AlignmentType.CENTER, spacing: { after: 900 },
+              children: [new TextRun({ text: 'Retours et corrections : emma@planet-aura.com', size: 18, color: 'D7E5EA' })]
+            }),
+            new Paragraph({
+              alignment: AlignmentType.CENTER,
+              children: [new TextRun({ text: 'S A R L   P L A N E T   A U R A   \u00b7   1 8 5   A V E N U E   D E   R O Q U E C O U R B E ,   8 1 1 0 0   C A S T R E S   \u00b7   W W W . P L A N E T - A U R A . C O M', size: 11, color: '9EC5CE', font: LABEL })]
+            }),
+          ]
+        })]
+      })]
     }),
   ]
 });
-
-fs.writeFileSync(path.join(__dirname, 'toc-map-emma.json'), JSON.stringify(tocRegistry, null, 1));
 
 const doc = new Document({
   styles: { default: { document: { run: { font: SANS, size: 19, color: INK } } } },
@@ -1082,5 +1159,7 @@ const doc = new Document({
 
 Packer.toBuffer(doc).then(buf => {
   fs.writeFileSync(path.join(__dirname, 'Planet_Aura_Sales_Playbook_FINAL_2026.docx'), buf);
+  // registre du sommaire pour la passe de pagination (map-toc-emma.py)
+  fs.writeFileSync(path.join(__dirname, 'toc-map-emma.json'), JSON.stringify(tocRegistry));
   console.log('OK', buf.length, 'bytes,', tocRegistry.length, 'entrées sommaire');
 });

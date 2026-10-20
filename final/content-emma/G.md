@@ -7,7 +7,7 @@ Qui fait quoi, et à qui parler : la direction arbitre, le commerce développe, 
 
 ## Les six documents officiels 2026
 
-Six documents officiels accompagnent la vente et l'activation d'un adhérent. Ils sont rangés dans le Drive interne « $DOCUMENTS PLANET AURA ADHERENT 2026 » (dossiers « DOCUMENT ADH 2026 (NOUVEAU CLIENT) », « CLIENT ACTIF AU 1/04 » et version Corse dédiée) ; les tarifs sont par ailleurs publiés sur Planet'Connect et valables pour l'année civile en cours (CGS, art. 7). Ce sont les seuls supports approuvés pour diffusion externe : le playbook, lui, reste strictement interne.
+Six documents officiels accompagnent la vente et l'activation d'un adhérent. Ils sont rangés dans le Drive interne « $DOCUMENTS PLANET AURA ADHERENT 2026 » (dossiers « DOCUMENT ADH 2026 (NOUVEAU CLIENT) », « CLIENT ACTIF AU 1/04 » et version Corse dédiée), les tarifs sont par ailleurs publiés sur Planet'Connect et valables pour l'année civile en cours (CGS, art. 7). Ce sont les seuls supports approuvés pour diffusion externe : le playbook, lui, reste strictement interne.
 
 ```stats
 6|documents officiels dans le pack adhérent 2026
@@ -17,12 +17,12 @@ Six documents officiels accompagnent la vente et l'activation d'un adhérent. Il
 
 | Document (réf.) | À quoi il sert | Où le trouver | Quand l'envoyer |
 |---|---|---|---|
-| Grille tarifaire shipping 2026 FR (A2) + Rate Schedule EN (A3) | Les prix officiels par destination : UE, DOM, pays tiers, USA groupage et direct, spiritueux, options et frais | drive.google.com/file/d/19LkZlRSpZX0iz0kbDwBXIe08KyQufqob (EN : 1Btne26DuUKYsoJoX6ZlcA6SInPdeBDjS) · reproduite en annexe A | Remise en rendez-vous et jointe à toute proposition ; version EN remise aux clients finaux |
-| Grille stockage & picking 2026 (A4) | Tarifs palettes, colis, fournitures et conditions de l'entrepôt de Castres | drive.google.com/file/d/1xFTEfOtT9wgRahi2azwqoLtnTuAurzXa · reproduite en annexe A | Dès qu'un besoin logistique (stockage, picking) est identifié |
-| Order Form 2026 (A6) | Bon de commande du client final (anglais) avec bloc de paiement CB | drive.google.com/file/d/1Lx_P4hkVv7ydqC7kD9EkdLQ57Xt_u1dc · détaillé en annexe C | Au comptoir, pour l'encaissement du service par le client final |
-| Mandat de prélèvement SEPA (A7) | Prélèvement des points de vente payeurs | drive.google.com/file/d/1ofdzYYs_NLZYnLLfVKxhi5J-x6xY-T3T (formulaire vierge uniquement) | À la signature, si le magasin est payeur |
-| Mode d'emploi Planet'Connect (A9) | Manuel complet de la plateforme, de la connexion aux factures | drive.google.com/file/d/1EZhHDdzdbYrLIBJaDj_mLAG9wwJpTjb6 | Systématiquement, dans le pack de bienvenue |
-| Formulaire de shipping par email (A8) | Alternative Excel normalisée à la saisie sur la plateforme | drive.google.com/file/d/1qseseA4vCgayD5FIv9_gtVXsOy-CBLZR | Aux adhérents qui préfèrent l'email ; à retourner à contact@planet-aura.com |
+| Grille tarifaire shipping 2026 FR (A2) + Rate Schedule EN (A3) | Les prix officiels par destination : UE, DOM, pays tiers, USA groupage et direct, spiritueux, options et frais | drive.google.com/file/d/19LkZlRSpZX0iz0kbDwBXIe08KyQufqob (EN : 1Btne26DuUKYsoJoX6ZlcA6SInPdeBDjS) · reproduite en annexe A | Remise en rendez-vous et jointe à toute proposition, version EN remise aux clients finaux |
+| Grille stockage & picking 2026 (A4) | Tarifs palettes, colis, fournitures et conditions de l'entrepôt de Castres | drive.google.com/file/d/1xFTEfOtT9wgRahi2azwqoLtnTuAurzXa · reproduite en annexe I | Dès qu'un besoin logistique (stockage, picking) est identifié |
+| Order Form 2026 (A6) | Bon de commande du client final (anglais) avec bloc de paiement CB | drive.google.com/file/d/1Lx_P4hkVv7ydqC7kD9EkdLQ57Xt_u1dc · reproduit en annexe J | Au comptoir, pour l'encaissement du service par le client final |
+| Mandat de prélèvement SEPA (A7) | Prélèvement des points de vente payeurs | drive.google.com/file/d/1ofdzYYs_NLZYnLLfVKxhi5J-x6xY-T3T · reproduit en annexe K (formulaire vierge uniquement) | À la signature, si le magasin est payeur |
+| Mode d'emploi Planet'Connect (A9) | Manuel complet de la plateforme, de la connexion aux factures | drive.google.com/file/d/1EZhHDdzdbYrLIBJaDj_mLAG9wwJpTjb6 · annexe L | Systématiquement, dans le pack de bienvenue |
+| Formulaire de shipping par email (A8) | Alternative Excel normalisée à la saisie sur la plateforme | drive.google.com/file/d/1qseseA4vCgayD5FIv9_gtVXsOy-CBLZR · annexe N | Aux adhérents qui préfèrent l'email, à retourner à contact@planet-aura.com |
 
 ## Ce qu'il faut savoir sur chaque document
 
@@ -46,13 +46,13 @@ Statuts : **INCLUS** = intégré dans le corps du playbook ou ses annexes · **C
 
 | Réf. | Annexe | Contenu attendu | Statut |
 |---|---|---|---|
-| A1 | Conditions Générales de Services 2026 | Texte intégral (17 articles + signature électronique) | **INCLUS** - synthèse en annexe B ; texte intégral publié sur Planet'Connect |
+| A1 | Conditions Générales de Services 2026 | Texte intégral (17 articles + signature électronique) | **INCLUS** - synthèse en annexe B, texte intégral publié sur Planet'Connect |
 | A2 | Grille tarifaire shipping 2026 (FR) | Toutes les grilles par destination | **INCLUS** - reproduction intégrale en annexe A et chap. 04 |
 | A3 | Rate Schedule 2026 (EN) | Version anglaise remise aux clients finaux | **INCLUS** - grille de référence reprise en annexe A |
 | A4 | Grille tarifaire stockage & picking 2026 | Palettes, colis, fournitures, assurance | **INCLUS** - reproduite en annexe A |
 | A5 | Manuel utilisateur adhérent 2026 | PDF maquetté 19 pages (9 sections) | **INCLUS** en synthèse (annexe C) - PDF original **À FOURNIR** en pièce jointe d'édition |
 | A6 | Order Form 2026 | Bon de commande client final (EN) avec bloc CB | **INCLUS** - détaillé en annexe C |
-| A7 | Formulaire de mandat SEPA | Formulaire vierge officiel | **INCLUS** - formulaire vierge seul (cf. interdit ci-dessus) |
+| A7 | Formulaire de mandat SEPA | Formulaire vierge officiel | **INCLUS** - formulaire vierge seul (voir l'interdit ci-dessous) |
 | A8 | Formulaire de shipping par email (xlsx) | Modèle Excel normalisé 2026 | **INCLUS** - modèle officiel décrit dans la présente annexe |
 | A9 | Mode d'emploi Planet'Connect (37 p.) | Manuel complet de la plateforme | **INCLUS** - sommaire repris dans la présente annexe |
 | A10 | Captures Planet'Connect | Simulateur, création de shipping, suivi, factures | **CAPTURE** (simulateur, chap. 04) - compléments (commande, factures) **À FOURNIR** |

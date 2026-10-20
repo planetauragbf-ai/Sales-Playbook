@@ -32,8 +32,18 @@ for h in reg:
     t=norm(h['text']); lo,hi=bounds.get(h['id'],(start+1,len(np_)))
     cand=[i for i in range(lo-1,min(hi-1,len(np_))) if t in np_[i]]
     out[h['key']]=(max(cand)+1) if cand else lo
-# folio affiché : la numérotation démarre à 1 sur la première page après le sommaire
-out={k:v-start for k,v in out.items()}
+# folio affiché : la numérotation démarre à 1 après le sommaire,
+# et les pages d'ouverture de partie ne comptent pas dans la numérotation
+part_first=['01','06','09','14','A']
+openers=sorted(out[h['key']]-1 for h in l1 if h['id'] in part_first and out.get(h['key']))
+def folio(p):
+    return p - start - sum(1 for o in openers if o <= p)
+part_starts={}
+for h in l1:
+    if h['id'] in part_first and out.get(h['key']):
+        part_starts[h['id']]=folio(out[h['key']]-1)
+out={k:folio(v) for k,v in out.items()}
 json.dump(out,open('toc-pages-emma.json','w'))
-print('mapped',len(out),'/',len(reg),'(L1',len(l1),') offset',start)
+json.dump(part_starts,open('part-starts-emma.json','w'))
+print('mapped',len(out),'/',len(reg),'(L1',len(l1),') offset',start,'openers',openers,'starts',part_starts)
 for m2 in missed: print('MISS',m2)
