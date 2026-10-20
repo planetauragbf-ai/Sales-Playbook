@@ -39,11 +39,11 @@ Pour finir, mes pensées vont à ma famille pour son soutien constant tout au lo
 
 ## Confidentialité
 
-Les informations contenues dans ce Sales Playbook ne doivent pas être divulguées hors de l'organisation d'Euridis Business School. Il est interdit de les reproduire, de les utiliser ou de les communiquer en totalité ou en partie à une autre fin que l'évaluation du présent document.
+Ce Sales Playbook est un document de diffusion interne à Planet Aura, réservé à l'équipe commerciale, au marketing et à la direction. Une seule exception est autorisée : sa communication aux évaluateurs d'Euridis Business School, dans le strict cadre de l'évaluation du diplôme et avec l'accord de la direction - ces évaluateurs s'engagent alors à ne pas le reproduire, l'utiliser ou le communiquer à une autre fin.
 
-Ce Sales Playbook est un document strictement interne à Planet Aura, réservé à l'équipe commerciale et à la direction. Il contient des chiffres d'activité, des grilles et conditions tarifaires, des procédures internes et des références nominatives : il ne doit jamais être transféré, reproduit ou communiqué, en totalité ou en partie, à un prospect, un client ou un partenaire. Seuls les supports officiellement approuvés par la direction (documentation 2026, grilles publiées, plaquettes et modèles validés) sortent de l'entreprise. En cas de doute sur ce qui peut être montré, la question se pose avant l'envoi, jamais après.
+Il contient des chiffres d'activité, des grilles et conditions tarifaires, des procédures internes et des références nominatives : il ne doit jamais être transféré, reproduit ou communiqué, en totalité ou en partie, à un prospect, un client ou un partenaire. Seuls les supports officiellement approuvés par la direction (documentation 2026, grilles publiées, plaquettes et modèles validés) sortent de l'entreprise. En cas de doute sur ce qui peut être montré, la question se pose avant l'envoi, jamais après.
 
-> 🚫 **INTERDIT -** Transférer ce document ou en montrer des extraits (captures d'écran comprises) à quiconque hors de l'entreprise : les chiffres internes, les références nominatives et les marges de manœuvre commerciales qu'il contient sont à usage strictement interne.
+> 🚫 **INTERDIT -** Transférer ce document ou en montrer des extraits (captures d'écran comprises) à quiconque hors de l'entreprise et des évaluateurs Euridis habilités : les chiffres internes, les références nominatives et les marges de manœuvre commerciales qu'il contient sont à usage strictement interne.
 
 \page
 
@@ -94,7 +94,7 @@ Chez Planet Aura, cette question a une réponse : 6 643 expéditions en douze mo
 
 > « On ne vend pas du transport. On rassure des professionnels. »
 
-Ce document est le référentiel opérationnel de vente de Planet Aura, commissionnaire de transport spécialisé dans l'expédition internationale B2B2C de vins, champagnes et spiritueux. Il rassemble, en 70 pages hors annexes, ce qu'un commercial doit connaître, dire et faire pour recruter, activer et fidéliser des adhérents : domaines, maisons de champagne, cavistes, acteurs de l'œnotourisme et distilleries.
+Ce document est le référentiel opérationnel de vente de Planet Aura, commissionnaire de transport spécialisé dans l'expédition internationale B2B2C de vins, champagnes et spiritueux. Il rassemble, en dix-huit chapitres compacts - les annexes regroupant les documents et outils réutilisables -, ce qu'un commercial doit connaître, dire et faire pour recruter, activer et fidéliser des adhérents : domaines, maisons de champagne, cavistes, acteurs de l'œnotourisme et distilleries.
 
 Il est construit à partir de la documentation officielle 2026 (CGS, grilles shipping et stockage, manuel utilisateur, mode d'emploi Planet'Connect), des procédures internes 2026 (sinistres, cotations, USA), des dashboards de gestion Planet'Connect (extraction du 24/09/2026) et de sources de marché vérifiées (FEVS, OIV, Atout France, XERFI).
 
