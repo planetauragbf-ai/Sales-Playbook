@@ -2,8 +2,10 @@
 module.exports = {
   '01': [
     { after: '^Saisonnalité : planifier', img: 'pics/dash_ship_evo.png', w: 398, caption: 'Shippings par mois, sept. 2025 - sept. 2026 (dashboard logistique Planet’Connect)' },
-    { after: '^Géographies prioritaires', img: 'pics/carte_vignobles.png', w: 310, caption: 'Les régions viticoles - nos terrains de prospection prioritaires' },
-    { after: '^Destinations demandées', img: 'pics/worldmap2.png', w: 400, caption: 'Les destinations desservies dans le monde' },
+    { after: '^Géographies prioritaires', pair: [
+      { img: 'pics/carte_vignobles.png', w: 235, caption: 'Les régions viticoles - terrains de prospection prioritaires' },
+      { img: 'pics/worldmap2.png', w: 285, caption: 'Les destinations desservies dans le monde' },
+    ] },
     { after: '^Destinations demandées', img: 'pics/dash_pays.png', w: 282, caption: 'Répartition réelle des shippings par pays sur 12 mois : USA 64,5 %, France 18,6 %' },
   ],
   '02': [

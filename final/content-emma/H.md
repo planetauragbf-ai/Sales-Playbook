@@ -1,4 +1,4 @@
-# Annexe H — Fiches ICP & personas
+# Annexe H - Fiches ICP & personas
 
 *Les dix fiches de référence, telles que maquettées : cinq profils de clients idéaux (ICP) et cinq personas décideurs. À dégainer avant un rendez-vous : portrait, douleurs, objections favorites, solution recommandée et priorité.*
 
@@ -6,40 +6,40 @@ Chaque fiche se lit en une page : qui est le compte (ou le décideur), ce qu'il 
 
 \page
 
-## ICP 1 — Domaine ou château avec caveau
+## ICP 1 - Domaine ou château avec caveau
 
 \page
 
-## ICP 2 — Maison ou vigneron de Champagne
+## ICP 2 - Maison ou vigneron de Champagne
 
 \page
 
-## ICP 3 — Caviste et cave touristique urbaine
+## ICP 3 - Caviste et cave touristique urbaine
 
 \page
 
-## ICP 4 — Œnotourisme, prescripteurs et organisateurs de salons
+## ICP 4 - Œnotourisme, prescripteurs et organisateurs de salons
 
 \page
 
-## ICP 5 — Distillerie et producteur de spiritueux
+## ICP 5 - Distillerie et producteur de spiritueux
 
 \page
 
-## Persona A — Le vigneron-propriétaire
+## Persona A - Le vigneron-propriétaire
 
 \page
 
-## Persona B — La responsable caveau / œnotourisme
+## Persona B - La responsable caveau / œnotourisme
 
 \page
 
-## Persona C — Le caviste urbain
+## Persona C - Le caviste urbain
 
 \page
 
-## Persona D — Le directeur commercial de maison de Champagne
+## Persona D - Le directeur commercial de maison de Champagne
 
 \page
 
-## Persona E — Le client final étranger
+## Persona E - Le client final étranger

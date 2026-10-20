@@ -92,6 +92,35 @@ function imgAuto(name, wPx) {
   const [w, h] = PNG(path.join(A, name));
   return img(name, wPx, Math.round(h * wPx / w));
 }
+// deux figures côte à côte (disposition deux colonnes de la maquette)
+function pairFigure(items) {
+  const half = Math.floor(CONTENT_W / 2);
+  return [new Table({
+    width: { size: CONTENT_W, type: WidthType.DXA },
+    columnWidths: [half, CONTENT_W - half],
+    borders: {
+      top: { style: BorderStyle.NONE }, bottom: { style: BorderStyle.NONE },
+      left: { style: BorderStyle.NONE }, right: { style: BorderStyle.NONE },
+      insideHorizontal: { style: BorderStyle.NONE }, insideVertical: { style: BorderStyle.NONE },
+    },
+    rows: [new TableRow({
+      cantSplit: true,
+      children: items.map((it, i) => new TableCell({
+        width: { size: i === 0 ? half : CONTENT_W - half, type: WidthType.DXA },
+        verticalAlign: VerticalAlign.CENTER,
+        margins: { top: 60, bottom: 40, left: 40, right: 40 },
+        children: [
+          new Paragraph({ alignment: AlignmentType.CENTER, keepNext: !!it.caption, spacing: { after: it.caption ? 36 : 0 }, children: [imgAuto(it.img, it.w || 280)] }),
+          ...(it.caption ? [new Paragraph({
+            alignment: AlignmentType.CENTER,
+            children: [new TextRun({ text: it.caption, italics: true, size: 16, color: GRAY, font: SERIF })]
+          })] : []),
+        ]
+      }))
+    })]
+  }), spacerPara(110)];
+}
+
 function figure(name, wPx, caption) {
   const paras = [new Paragraph({ alignment: AlignmentType.CENTER, keepNext: !!caption, spacing: { before: 90, after: caption ? 36 : 130 }, children: [imgAuto(name, wPx)] })];
   if (caption) paras.push(new Paragraph({
@@ -350,7 +379,7 @@ function convertBody(md, unit, opts = {}) {
     for (let k = 0; k < placements.length; ) {
       if (new RegExp(placements[k].after, 'i').test(headingText)) {
         const p = placements.splice(k, 1)[0];
-        out2.push(...figure(p.img, p.w, p.caption));
+        out2.push(...(p.pair ? pairFigure(p.pair) : figure(p.img, p.w, p.caption)));
       } else k++;
     }
     return out2;
@@ -562,7 +591,7 @@ function convertBody(md, unit, opts = {}) {
         const lm = qi === 0 ? q.match(/^([⚠️💡🚫❗✅📌🚨]*\s*)\*\*([^*]+?)(\s*[—:-])?\*\*\s*(.*)$/) : null;
         if (lm) {
           kids = [
-            new TextRun({ text: lm[2].toUpperCase().replace(/^LE POINT/, 'LE POINT') + (lm[3] ? ' —' : ''), bold: true, size: 16, color: labelColor }),
+            new TextRun({ text: lm[2].toUpperCase().replace(/^LE POINT/, 'LE POINT') + (lm[3] ? ' -' : ''), bold: true, size: 16, color: labelColor }),
             new TextRun({ text: '  ' }),
             ...inlineRuns(lm[4] || '', { size: 18, color: txtColor })
           ];
@@ -739,12 +768,12 @@ function coverChildren() {
     }),
     new Paragraph({
       alignment: AlignmentType.CENTER, spacing: { before: 80 },
-      children: [new TextRun({ text: 'SARL Planet Aura — 5 Impasse François Arago, 81100 Castres — www.planet-aura.com', size: 15, color: GRAY })]
+      children: [new TextRun({ text: 'SARL Planet Aura - 5 Impasse François Arago, 81100 Castres - www.planet-aura.com', size: 15, color: GRAY })]
     }),
     new Paragraph({ alignment: AlignmentType.CENTER, spacing: { before: 220 }, children: [imgAuto('pics/logo_euridis.png', 130)] }),
     new Paragraph({
       alignment: AlignmentType.CENTER, spacing: { before: 80 },
-      children: [new TextRun({ text: 'Rédigé par Emma Soares Britschgy — Mastère Marketing & Digital Business, promotion 547 (2024-2027)', size: 15, color: INK })]
+      children: [new TextRun({ text: 'Rédigé par Emma Soares Britschgy - Mastère Marketing & Digital Business, promotion 547 (2024-2027)', size: 15, color: INK })]
     }),
     new Paragraph({
       alignment: AlignmentType.CENTER, spacing: { before: 40 },
@@ -843,16 +872,16 @@ function tocChildren() {
   ]));
   paras.push(lgLine([new TextRun({ text: 'L’onglet de bordure, les titres, les tableaux et les encadrés de repère de chaque chapitre suivent la couleur de sa partie.', size: 15, color: GRAY })]));
   paras.push(lgTitle('LES ENCADRÉS'));
-  paras.push(lgLine([sw(TEAL), new TextRun({ text: 'REPÈRE', bold: true, size: 15, color: DEEP_OF[TEAL] }), new TextRun({ text: ' — contexte et points d’appui (teinte de la partie)', size: 15, color: GRAY })]));
-  paras.push(lgLine([sw(ORANGE), new TextRun({ text: 'LE CONSEIL / LE POINT DE VIGILANCE', bold: true, size: 15, color: ORANGE }), new TextRun({ text: ' — bonnes pratiques et pièges', size: 15, color: GRAY })]));
-  paras.push(lgLine([sw(RED), new TextRun({ text: 'INTERDIT', bold: true, size: 15, color: RED }), new TextRun({ text: ' — règles bloquantes, sans exception', size: 15, color: GRAY })]));
-  paras.push(lgLine([sw(GREEN), new TextRun({ text: 'CE QUI FONCTIONNE', bold: true, size: 15, color: GREEN }), new TextRun({ text: ' — pratiques éprouvées sur le terrain', size: 15, color: GRAY })]));
-  paras.push(lgLine([sw(NAVY), new TextRun({ text: 'À RETENIR', bold: true, size: 15, color: NAVY }), new TextRun({ text: ' — la synthèse à mémoriser, en fin de chapitre', size: 15, color: GRAY })]));
+  paras.push(lgLine([sw(TEAL), new TextRun({ text: 'REPÈRE', bold: true, size: 15, color: DEEP_OF[TEAL] }), new TextRun({ text: ' - contexte et points d’appui (teinte de la partie)', size: 15, color: GRAY })]));
+  paras.push(lgLine([sw(ORANGE), new TextRun({ text: 'LE CONSEIL / LE POINT DE VIGILANCE', bold: true, size: 15, color: ORANGE }), new TextRun({ text: ' - bonnes pratiques et pièges', size: 15, color: GRAY })]));
+  paras.push(lgLine([sw(RED), new TextRun({ text: 'INTERDIT', bold: true, size: 15, color: RED }), new TextRun({ text: ' - règles bloquantes, sans exception', size: 15, color: GRAY })]));
+  paras.push(lgLine([sw(GREEN), new TextRun({ text: 'CE QUI FONCTIONNE', bold: true, size: 15, color: GREEN }), new TextRun({ text: ' - pratiques éprouvées sur le terrain', size: 15, color: GRAY })]));
+  paras.push(lgLine([sw(NAVY), new TextRun({ text: 'À RETENIR', bold: true, size: 15, color: NAVY }), new TextRun({ text: ' - la synthèse à mémoriser, en fin de chapitre', size: 15, color: GRAY })]));
   paras.push(lgTitle('GLOSSAIRE ET NAVIGATION'));
   paras.push(lgLine([
     new TextRun({ text: 'Les termes comme ', size: 15, color: GRAY }),
     new TextRun({ text: 'adhérent', size: 15, color: DEEP_OF[TEAL], underline: { type: UnderlineType.DOTTED, color: DEEP_OF[TEAL] } }),
-    new TextRun({ text: ' renvoient à leur définition au glossaire (annexe E) — à leur première apparition dans chaque chapitre, cliquables en version numérique. Toutes les entrées de ce sommaire et des sous-sommaires « DANS CE CHAPITRE » sont également cliquables.', size: 15, color: GRAY }),
+    new TextRun({ text: ' renvoient à leur définition au glossaire (annexe E) - à leur première apparition dans chaque chapitre, cliquables en version numérique. Toutes les entrées de ce sommaire et des sous-sommaires « DANS CE CHAPITRE » sont également cliquables.', size: 15, color: GRAY }),
   ]));
   return paras;
 }
@@ -921,7 +950,7 @@ UNITS.forEach(u => {
   const p = path.join(SRC, u.file);
   if (fs.existsSync(p)) unitMd[u.id] = fs.readFileSync(p, 'utf8');
   else {
-    const t = u.id === 'avant' ? '# Avant de commencer' : (/^[A-G]$/.test(u.id) ? `# Annexe ${u.id} — (en cours)` : `# ${u.id} — (en cours)`);
+    const t = u.id === 'avant' ? '# Avant de commencer' : (/^[A-G]$/.test(u.id) ? `# Annexe ${u.id} - (en cours)` : `# ${u.id} - (en cours)`);
     unitMd[u.id] = `${t}\n\n*Unité en cours de rédaction.*\n\n## En attente\n\nContenu à venir.\n`;
     console.log('placeholder:', u.id);
   }

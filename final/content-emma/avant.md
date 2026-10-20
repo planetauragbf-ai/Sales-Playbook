@@ -3,39 +3,63 @@
 
 ## Remerciements
 
-Ce Sales Playbook finalise une étape importante de mon parcours chez Planet Aura. Ce document, miroir de quatre années d'apprentissage (stagiaire, alternante Bachelor puis Mastère), est aussi celui de toutes les personnes qui ont contribué, directement ou indirectement, à sa réalisation.
+La réalisation de ce Sales Playbook finalise une étape importante dans mon parcours chez Planet Aura. Ce document miroir de quatre années d’apprentissage (stagiaire, alternante Bachelor puis Master), d’expériences, de remises en question et d’évolution au sein d’une entreprise dans laquelle j’ai progressivement trouvé ma place. Je tiens donc à remercier sincèrement toutes les personnes qui ont contribué, directement ou indirectement, à sa réalisation.
 
-Mes remerciements les plus sincères vont d'abord à Floriane Février, ma tutrice d'entreprise et Gérante de Planet Aura. Elle m'a accordé une confiance qui a largement dépassé le cadre classique d'une alternance : la liberté de proposer, de tester et de prendre des initiatives, et le temps d'apprendre. Elle m'a confié des projets structurants pour l'entreprise — la création du site internet, le développement de Planet'Connect, la réflexion sur les nouvelles offres, le projet de transport bas-carbone avec VELA et la construction de ce playbook — qui ont façonné ma manière de travailler et ma vision du commerce.
+En premier, j’adresse mes remerciements les plus sincères à Floriane Février, ma tutrice et Gérante de Planet Aura.
 
-Je suis également très reconnaissante envers toute l'équipe : Brice, Adam, Vincent, Alessandro, Robin, Sofian, Sarah, Swan, Juliana, Frantz et Teddy, sans oublier Paloma, Albane et Yassine. Chacun, à sa manière, m'a appris la réalité du terrain : transport international, réglementation douanière, stockage, préparation des commandes, relation client. Planet Aura n'existerait pas non plus sans ses partenaires — je pense en particulier à Philippe, de Halt Solutions, qui a su transformer nos idées les plus ambitieuses en solutions concrètes dans Planet'Connect, ainsi qu'aux fournisseurs, transporteurs, courtiers et importateurs qui font vivre notre écosystème.
+Depuis mon arrivée chez Planet Aura, Floriane m’a accordé une confiance qui a largement dépassé le cadre classique d’une alternance. Elle m’a laissé la liberté de proposer, de tester, de prendre des initiatives, mais également le temps d’apprendre. Cette autonomie m’a permis de gagner progressivement en assurance, de développer mes compétences et de prendre des responsabilités de plus en plus importantes au sein de l’entreprise.
 
-Sur le plan académique, je remercie Euridis Business School — Aurélie et toute l'équipe pédagogique, dont l'accompagnement méthodologique, les conseils et le regard extérieur me permettent de prendre du recul sur ces années de pratique —, mon tuteur académique Thibaut du Cleuziou, ainsi que mes camarades du Mastère Marketing & Digital Business (promotion 547, 2024-2027) pour leurs retours d'expérience et leur soutien.
+Notre relation s’est construite au fil du temps, des projets, des réussites, des difficultés et des nombreux échanges qui ont accompagné mon évolution. De mes premières missions liées à la logistique et au marketing jusqu’à mon poste actuel, davantage tourné vers le développement commercial et marketing, la gestion de projets et la stratégie de l’entreprise, Floriane m’a toujours encouragée à aller plus loin et à croire en mes idées.
 
-Enfin, mes pensées vont à ma famille — mes grands-parents et ma mère, qui m'ont toujours encouragée et poussée à croire en mes projets — et à Hugo, mon compagnon, pour sa patience dans mes périodes de doute.
+Elle a su me faire confiance sur des projets structurants pour Planet Aura, comme la création du site internet, le développement de notre logiciel métier Planet’Connect, la réflexion autour de nouvelles offres, le projet de transport bas-carbone avec VELA ou encore la construction de ce Sales Playbook. Ces expériences ont profondément façonné ma manière de travailler et ma vision du commerce, du management et de l’entrepreneuriat.
+
+Je la remercie également pour sa disponibilité, sa franchise, ses conseils et pour la relation de confiance que nous avons construite au fil du temps.
+
+Son accompagnement a joué un rôle essentiel dans mon évolution professionnelle, mais également personnelle.
+
+En second, je suis très reconnaissante envers l’ensemble de l’équipe de Planet Aura : Brice, Adam, Vincent, Alessandro, Robin, Sofian, Sarah, Swan, Juliana, Frantz et Teddy.
+
+Je tiens également à remercier mes anciens collègues, Paloma, Albane et Yassine, avec qui j’ai eu le plaisir de travailler et de partager une partie de mon parcours.
+
+Chacun, à sa manière, a participé à mon apprentissage et à mon intégration dans la société. À leur contact, j’ai pu comprendre la réalité du terrain, les contraintes opérationnelles, les enjeux liés au transport international, à la réglementation douanière, au stockage, à la préparation des commandes et à la relation client...
+
+Au-delà de la collaboration professionnelle, certains sont devenus de véritables soutiens, avec lesquels j’ai traversé les périodes intenses, les imprévus, les réussites, les moments de doute, mais également de nombreux moments de convivialité.
+
+Enfin, Planet Aura n’existerai pas sans eux, tous ces partenaires qui participent au développement de son écosystème et auxquels j’adresse également mes remerciements. Je pense, en particulier, à Philippe, de l’entreprise Halt Solutions, avec qui nous avons travaillé sur le développement et l’évolution de Planet’Connect. Il a su comprendre nos besoins, mais aussi transformer certaines de nos idées les plus ambitieuses en solutions concrètes. Sa disponibilité, sa patience et sa capacité à trouver des réponses techniques à nos nombreuses demandes ont largement contribué à faire évoluer les outils de l’entreprise.
+
+Mais, également aux fournisseurs, transporteurs, courtiers, importateurs et différents partenaires avec lesquels j’ai eu l’occasion d’échanger. Ces collaborations m’ont permis de mieux comprendre la complexité de notre métier et l’importance de chaque acteur dans la réussite d’une opération commerciale.
+
+Elle me sert de guide et de fil rouge depuis 3 ans, Euridis Business School, Aurélie et toute l’équipe pédagogique. Je lui dédie également cette reconnaissance. Leur accompagnement méthodologique, leurs conseils et leur regard extérieur me permet aujourd’hui de prendre du recul sur mon expérience professionnelle et de transformer plusieurs années de pratiques, de projets et d’apprentissages dans ce livret.
+
+Enfin, je n’oublie pas mes camarades du Mastère Marketing & Digital Business pour les échanges, les conseils, les retours d’expérience et le soutien partagé tout au long de cette formation. Leurs regards, parfois très différents du mien, ont enrichi ma réflexion et m’ont aidée à me faire évoluer dans mon travail.
+
+Pour finir, mes pensées vont à ma famille pour son soutien constant tout au long de mon parcours. Une pensée toute particulière pour mes grands-parents et ma mère, qui m’ont toujours encouragée, accompagnée et poussée à croire en mes projets et, également à Hugo, mon compagnon, pour sa patience dans mes périodes de doute.
 
 **Méthode et outils.** Ce document a été construit avec l'assistance d'une IA (Claude, Anthropic), créditée conformément au cahier des charges : l'IA a servi à structurer, croiser et mettre en forme les sources internes (documentation officielle 2026, procédures, dashboards Planet'Connect) à partir d'instructions détaillées ; chaque chiffre, règle et procédure a été vérifié aux sources et validé humainement, et les contenus générés ont été enrichis et arbitrés par l'équipe.
 
 ## Confidentialité
 
+Les informations contenues dans ce Sales Playbook ne doivent pas être divulguées hors de l'organisation d'Euridis Business School. Il est interdit de les reproduire, de les utiliser ou de les communiquer en totalité ou en partie à une autre fin que l'évaluation du présent document.
+
 Ce Sales Playbook est un document strictement interne à Planet Aura, réservé à l'équipe commerciale et à la direction. Il contient des chiffres d'activité, des grilles et conditions tarifaires, des procédures internes et des références nominatives : il ne doit jamais être transféré, reproduit ou communiqué, en totalité ou en partie, à un prospect, un client ou un partenaire. Seuls les supports officiellement approuvés par la direction (documentation 2026, grilles publiées, plaquettes et modèles validés) sortent de l'entreprise. En cas de doute sur ce qui peut être montré, la question se pose avant l'envoi, jamais après.
 
-> 🚫 **INTERDIT —** Transférer ce document ou en montrer des extraits (captures d'écran comprises) à quiconque hors de l'entreprise : les chiffres internes, les références nominatives et les marges de manœuvre commerciales qu'il contient sont à usage strictement interne.
+> 🚫 **INTERDIT -** Transférer ce document ou en montrer des extraits (captures d'écran comprises) à quiconque hors de l'entreprise : les chiffres internes, les références nominatives et les marges de manœuvre commerciales qu'il contient sont à usage strictement interne.
 
 ## Les certitudes de Floriane
 
-Bienvenue chez Planet Aura. Nous avons fait un choix simple et exigeant : ne transporter qu'un seul type de produit, mais le transporter mieux que quiconque. Le vin, le champagne et les spiritueux ne sont pas des marchandises comme les autres : derrière chaque bouteille, il y a un vigneron, une récolte, une réputation — et derrière chaque colis que nous expédions, cette promesse à tenir, intacte, jusqu'à l'autre bout du monde.
+Bienvenue chez Planet Aura. Nous avons fait un choix simple et exigeant : ne transporter qu'un seul type de produit, mais le transporter mieux que quiconque. Le vin, le champagne et les spiritueux ne sont pas des marchandises comme les autres : derrière chaque bouteille, il y a un vigneron, une récolte, une réputation - et derrière chaque colis que nous expédions, cette promesse à tenir, intacte, jusqu'à l'autre bout du monde.
 
 Nous sommes commissionnaire de transport. Ce n'est pas un détail juridique : nous organisons le transport en notre nom propre et nous portons une obligation de résultat sur l'ensemble de la chaîne. Quand un client nous confie ses bouteilles, il ne nous confie pas une simple expédition : il nous confie la promesse qu'il a faite à son propre client.
 
-> « Vos clients américains méritent mieux qu'un colis bloqué à la douane. » — Notre conviction, et notre porte d'entrée commerciale.
+> « Vos clients américains méritent mieux qu'un colis bloqué à la douane. » - Notre conviction, et notre porte d'entrée commerciale.
 
-En quelques années, nous sommes passés de quelques expéditions à plus de 200 clients actifs et un chiffre d'affaires dépassant le million d'euros, avec une filiale aux États-Unis qui nous permet d'accompagner nos clients jusqu'au dernier kilomètre. Notre ambition est claire : devenir la référence du transport international du vin pour les professionnels de la filière, et prouver qu'exigence et responsabilité vont de pair — jusqu'à préparer, avec le voilier-cargo VELA, une option maritime décarbonée pour la traversée transatlantique.
+En quelques années, nous sommes passés de quelques expéditions à plus de 200 clients actifs et un chiffre d'affaires dépassant le million d'euros, avec une filiale aux États-Unis qui nous permet d'accompagner nos clients jusqu'au dernier kilomètre. Notre ambition est claire : devenir la référence du transport international du vin pour les professionnels de la filière, et prouver qu'exigence et responsabilité vont de pair - jusqu'à préparer, avec le voilier-cargo VELA, une option maritime décarbonée pour la traversée transatlantique.
 
 Ce que nous attendons de vous tient en quelques mots. De la rigueur, parce que nos clients nous jugent sur notre fiabilité. De l'écoute, parce qu'on ne vend pas une solution logistique sans comprendre l'enjeu humain qui se trouve derrière. De l'honnêteté, parce qu'une promesse non tenue coûte toujours plus cher qu'un dossier refusé.
 
 Fiabilité, proximité, sens du détail, responsabilité : ce sont nos quatre repères. Ils ne sont pas affichés sur un mur ; ils se vivent dans chaque devis, chaque appel, chaque colis.
 
-**Floriane Février** — Fondatrice & Gérante
+**Floriane Février** - Fondatrice & Gérante
 
 \page
 
@@ -51,13 +75,13 @@ Notre culture tient en trois idées simples :
 
 Lisez ce playbook, annotez-le, revenez-y. Mais souvenez-vous qu'aucun guide ne remplace le terrain : c'est en écoutant vos clients que vous deviendrez un excellent commercial. Bonne lecture.
 
-**Emma** — Chargée de projets & développement
+**Emma** - Chargée de projets & développement
 
 ## À propos de ce playbook
 
 > « Et comment je fais pour le rapporter chez moi ? »
 
-Pendant que les tarifs douaniers font la une — les exportations françaises de vins et spiritueux vers les États-Unis ont chuté de 21 % en 2025, sous l'effet de droits de douane allant jusqu'à 15 % (FEVS, bilan export 2025) —, 5,4 millions de visiteurs étrangers parcourent chaque année les vignobles français. Ils posent tous cette question au comptoir. La plupart repartent avec deux bouteilles au lieu de douze.
+Pendant que les tarifs douaniers font la une - les exportations françaises de vins et spiritueux vers les États-Unis ont chuté de 21 % en 2025, sous l'effet de droits de douane allant jusqu'à 15 % (FEVS, bilan export 2025) -, 5,4 millions de visiteurs étrangers parcourent chaque année les vignobles français. Ils posent tous cette question au comptoir. La plupart repartent avec deux bouteilles au lieu de douze.
 
 Chez Planet Aura, cette question a une réponse : 6 643 expéditions en douze mois, 64,5 % vers les États-Unis, taxes payées d'avance, colis assuré. Ce playbook explique comment la vendre, à qui, avec quelles preuves. Plus les règles se durcissent, plus un spécialiste qui les maîtrise devient précieux.
 
@@ -84,7 +108,7 @@ Il est construit à partir de la documentation officielle 2026 (CGS, grilles shi
 
 **Le plan.** Le document suit le cycle de travail du commercial en quatre parties. La première analyse l'entreprise et son offre : marché, diagnostic, organisation, catalogue et tarifs, concurrence. La deuxième définit les cibles : profils de clients idéaux, personas et comité d'achat, correspondance entre enjeux et solutions. La troisième formalise la prospection et la vente : pipeline, séquences et scripts, qualification, méthode SPIN, argumentaires et objections. La quatrième fournit les outils et organise le pilotage : ressources, Sales Operations, fidélisation et SAV, indicateurs, mise à jour. Les annexes regroupent ce qui se réemploie séparément : grilles tarifaires, conditions générales, fiche réflexe et checklists, conformité par pays, glossaire, sources et documents officiels.
 
-> 📌 **À RETENIR —** Un fil conducteur traverse l'ensemble : le prospect n'achète pas un transport, il cherche à réduire son risque. Chaque chapitre sert à démontrer, cible par cible et preuve par preuve, que confier ses expéditions à Planet Aura est la décision la moins risquée pour lui et pour ses clients.
+> 📌 **À RETENIR -** Un fil conducteur traverse l'ensemble : le prospect n'achète pas un transport, il cherche à réduire son risque. Chaque chapitre sert à démontrer, cible par cible et preuve par preuve, que confier ses expéditions à Planet Aura est la décision la moins risquée pour lui et pour ses clients.
 
 ## Comment l'utiliser
 
@@ -102,14 +126,14 @@ Il est construit à partir de la documentation officielle 2026 (CGS, grilles shi
 
 1. **Nous vendons de la sérénité, pas du transport.** L'adhérent vend plus de vin parce que la question « comment je le ramène chez moi ? » a une réponse simple.
 2. **Le service est vendu au client final par l'adhérent.** Notre premier travail : rendre le point de vente capable et confiant de vendre notre prestation.
-3. **Jamais de délai ferme ni de couverture hors cadre.** Les grilles et les CGS font foi ; les délais sont estimatifs ; la couverture casse/perte est incluse jusqu'à 20 000 €/envoi sous condition d'emballage homologué, et l'assurance ad valorem (3 % de la valeur) reste une option — souscrite sur 9 envois sur 10.
+3. **Jamais de délai ferme ni de couverture hors cadre.** Les grilles et les CGS font foi ; les délais sont estimatifs ; la couverture casse/perte est incluse jusqu'à 20 000 €/envoi sous condition d'emballage homologué, et l'assurance ad valorem (3 % de la valeur) reste une option - souscrite sur 9 envois sur 10.
 4. **DDP par défaut, DAP quand la réglementation ou la valeur l'exige.** Un commercial qui maîtrise les incoterms inspire confiance.
 5. **Aucun engagement sur un pays ou un État non couvert** sans vérification sur Planet'Connect ou auprès de l'exploitation.
 6. **La documentation 2026 signée électroniquement (CGS + grilles)** est le point de bascule officiel prospect → adhérent.
 
 ## Vos 90 premiers jours : trois paliers
 
-La montée en puissance est balisée sur trois mois — la règle : **on observe avant de faire, on fait accompagné avant de faire seul.** Le planning détaillé, jour par jour pour le premier mois puis semaine par semaine jusqu'à J+90, avec les rituels d'équipe, est en **annexe C** : c'est le document de travail remis le jour 1.
+La montée en puissance est balisée sur trois mois - la règle : **on observe avant de faire, on fait accompagné avant de faire seul.** Le planning détaillé, jour par jour pour le premier mois puis semaine par semaine jusqu'à J+90, avec les rituels d'équipe, est en **annexe C** : c'est le document de travail remis le jour 1.
 
 | Jalon | Palier | Preuves attendues |
 |---|---|---|
@@ -117,4 +141,4 @@ La montée en puissance est balisée sur trois mois — la règle : **on observe
 | **J+60** | Autonome | 5 diagnostics observés, 3 propositions sans écart, 1 RDV obtenu seul |
 | **J+90** | Pilote son activité | Pipeline propre, analyse win/loss, 1 proposition d'amélioration du playbook |
 
-> 📌 **À RETENIR —** Trois mois, trois paliers : certifié à J+30, autonome à J+60, pilote à J+90. Un bloc téléphone 10 h-12 h sanctuarisé, un CRM à jour chaque soir et un premier envoi réel pour chaque adhérent signé : le contrat minimal d'activité. Le parcours détaillé est en annexe C.
+> 📌 **À RETENIR -** Trois mois, trois paliers : certifié à J+30, autonome à J+60, pilote à J+90. Un bloc téléphone 10 h-12 h sanctuarisé, un CRM à jour chaque soir et un premier envoi réel pour chaque adhérent signé : le contrat minimal d'activité. Le parcours détaillé est en annexe C.

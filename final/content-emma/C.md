@@ -1,31 +1,31 @@
-# Annexe C — Fiche réflexe comptoir, checklists et modèles
+# Annexe C - Fiche réflexe comptoir, checklists et modèles
 *Tout ce qui se dégaine en 30 secondes : la fiche à plastifier pour le comptoir, les checklists du commercial et les modèles du pack adhérent 2026.*
 
 ## Fiche réflexe comptoir (à plastifier pour les adhérents)
 
-**LES 4 DONNÉES À DEMANDER SYSTÉMATIQUEMENT** (version affichette — symboles géants, lisibles depuis le comptoir) :
+**LES 4 DONNÉES À DEMANDER SYSTÉMATIQUEMENT** (version affichette - symboles géants, lisibles depuis le comptoir) :
 
 | Symbole | Donnée à collecter |
 |---|---|
 | **#** | Nombre de bouteilles (volume de la commande) |
 | **kg** | Poids et dimensions des colis |
-| **€** | Valeur des vins — base des taxes ET de l'assurance |
+| **€** | Valeur des vins - base des taxes ET de l'assurance |
 | **→** | Adresse complète de livraison (sans PO Box) + date souhaitée |
 
-> **REPÈRE —** Sans ces 4 données, aucune simulation ni commande n'est possible. Tout le reste de la fiche en découle.
+> **REPÈRE -** Sans ces 4 données, aucune simulation ni commande n'est possible. Tout le reste de la fiche en découle.
 
 **QUAND UN CLIENT VEUT SE FAIRE LIVRER :**
 
 1. **Simuler le prix** : Planet'Connect → Simulateur → destination + nombre de bouteilles (afficher transport + estimation des taxes DDP).
 2. **Vérifier** : adresse complète **sans PO Box**, email + téléphone du client, bouteilles ≤ 21° avec CRD.
-3. **Encaisser le vin** (vous) + **le service** (order form CB — pas d'Amex — ou lien de paiement, ou SEPA magasin).
+3. **Encaisser le vin** (vous) + **le service** (order form CB - pas d'Amex - ou lien de paiement, ou SEPA magasin).
 4. **Saisir la commande** sur Planet'Connect : produits, quantités, **valeur déclarée exacte** (base de l'assurance), incoterm DDP/DAP, date d'enlèvement souhaitée.
 5. **Emballer** dans les cartons Planet Aura (ou polystyrène certifié) ; pochette documents à l'extérieur ; champagne hors UE : **les 2 pages originales du certificat CIVC** dans la pochette.
 6. **Remettre au transporteur** uniquement les produits déclarés.
 
 **CAS PARTICULIERS :**
 
-- **USA > 2 100 $** : POA avec SSN (email automatique au client) — prévenir le client et l'y préparer : c'est une formalité normale.
+- **USA > 2 100 $** : POA avec SSN (email automatique au client) - prévenir le client et l'y préparer : c'est une formalité normale.
 - **Canada** : POA obligatoire (départ suspendu sans retour) + ticket de caisse + taxes au liquor board à l'arrivée.
 - **Canicule** : proposer le **départ différé** (l'altération thermique n'est pas assurée).
 - **Magnums** : cartons spécifiques obligatoires.
@@ -33,7 +33,7 @@
 
 **EN CAS DE PROBLÈME À LA LIVRAISON :** casse visible → refuser ou porter des réserves précises ; sinon signalement **sous 48 h avec photos** à contact@planet-aura.com.
 
-**CONTACTS :** 09 79 11 45 07 / 06 59 56 72 72 — contact@planet-aura.com — WhatsApp.
+**CONTACTS :** 09 79 11 45 07 / 06 59 56 72 72 - contact@planet-aura.com - WhatsApp.
 
 ## Checklist RDV découverte (commercial)
 
@@ -62,19 +62,19 @@
 
 | Champ | À renseigner |
 |---|---|
-| Compte | Nom — segment (domaine / champagne / caviste…) — tiers A/B/C |
-| Décideur & utilisateur | Décideur (nom, rôle) — utilisateur caveau (nom) |
+| Compte | Nom - segment (domaine / champagne / caviste…) - tiers A/B/C |
+| Décideur & utilisateur | Décideur (nom, rôle) - utilisateur caveau (nom) |
 | Clientèle étrangère | Nationalités, volumes/semaine, saisonnalité |
 | Solution actuelle | Statu quo / bricolage / concurrent + irritants |
-| Destinations demandées | USA / Canada / UE / Asie… — particularités : CIVC, POA, magnums, spiritueux |
-| ROI & objections | ROI évoqué (calcul) — objections (lesquelles + traitement) |
-| Next step | Action datée — probabilité (%) |
+| Destinations demandées | USA / Canada / UE / Asie… - particularités : CIVC, POA, magnums, spiritueux |
+| ROI & objections | ROI évoqué (calcul) - objections (lesquelles + traitement) |
+| Next step | Action datée - probabilité (%) |
 
 ## Le parcours d'onboarding 0-90 jours
 
-Le planning opérationnel remis au nouvel arrivant le jour 1 — jour par jour pour le premier mois, puis par mois jusqu'à J+90 (jalons et paliers : avant-propos). La règle : **on observe avant de faire, on fait accompagné avant de faire seul.**
+Le planning opérationnel remis au nouvel arrivant le jour 1 - jour par jour pour le premier mois, puis par mois jusqu'à J+90 (jalons et paliers : avant-propos). La règle : **on observe avant de faire, on fait accompagné avant de faire seul.**
 
-#### Semaine 1 — Immersion
+#### Semaine 1 - Immersion
 
 *Comprendre l'entreprise, les outils et le terrain.*
 
@@ -86,7 +86,7 @@ Le planning opérationnel remis au nouvel arrivant le jour 1 — jour par jour p
 | Jeu. | Formation Planet'Connect (16 modules) ; simulateur sur 10 scénarios (UE, UK, USA groupage/direct, Canada, spiritueux) | Emma | 10 devis justes au simulateur |
 | Ven. | Rituels en observateur (pipeline 45', commerce-ops 30') ; lecture chap. 01-03 ; bilan de semaine | Floriane, Adam | Questions consignées |
 
-#### Semaine 2 — Maîtrise de l'offre
+#### Semaine 2 - Maîtrise de l'offre
 
 *Savoir chiffrer, expliquer et cadrer sans aide.*
 
@@ -98,7 +98,7 @@ Le planning opérationnel remis au nouvel arrivant le jour 1 — jour par jour p
 | Jeu. | Shadow calls : 5 appels écoutés (cold call caveau, permission 45 s, relance) ; débrief | Adam | Grille d'écoute remplie |
 | Ven. | Formation caveau observée chez un adhérent ; sinistres (chap. 16) : règle 48 h, factures RXP | Adam & équipe logistique | Fiche réflexe comptoir maîtrisée |
 
-#### Semaine 3 — Terrain accompagné
+#### Semaine 3 - Terrain accompagné
 
 *Faire, en binôme.*
 
@@ -109,7 +109,7 @@ Le planning opérationnel remis au nouvel arrivant le jour 1 — jour par jour p
 | Jeu. | Premiers appels supervisés : 10 appels de cadence, 10 emails personnalisés (séquences chap. 10) | Adam | Appels loggés < 24 h ; 1 créneau obtenu |
 | Ven. | Co-rédaction d'une proposition (email récap + documentation 2026 + accès) ; les 26 objections à l'oral | Floriane | Proposition envoyée ; objections sues |
 
-#### Semaine 4 — Certification et lancement
+#### Semaine 4 - Certification et lancement
 
 *Premier rendez-vous seul.*
 
@@ -120,7 +120,7 @@ Le planning opérationnel remis au nouvel arrivant le jour 1 — jour par jour p
 | Jeu. | Formation caveau animée (30 min) chez un nouvel adhérent ; demande de recommandation | Emma | Adhérent formé ; 1 recommandation |
 | Ven. | Certification J+30 (offre, ICP, CRM, conformité) ; objectifs J+60 fixés ; proposition d'amélioration du playbook | Floriane, Emma | Certification signée ; objectifs écrits |
 
-#### Mois 2 — Gagner en autonomie commerciale (J+31 → J+60)
+#### Mois 2 - Gagner en autonomie commerciale (J+31 → J+60)
 
 | Semaine | Priorités | Volumes hebdo | Finalité |
 |---|---|---|---|
@@ -129,7 +129,7 @@ Le planning opérationnel remis au nouvel arrivant le jour 1 — jour par jour p
 | S7 | Salon ou tournée terrain par appellation (RDV prébookés, suivi < 48 h) ; cotation hors grille avec l'exploitation | Idem + 8 contacts salon | 8 RDV qualifiés ; 1 devis hors grille suivi |
 | S8 | Premier adhérent signé et activé (formation + premier envoi < 30 j) ; analyse de ses 3 premières pertes | Idem | 1 signature ; 3 motifs de perte enregistrés ; bilan J+60 |
 
-#### Mois 3 — Piloter son activité (J+61 → J+90)
+#### Mois 3 - Piloter son activité (J+61 → J+90)
 
 | Semaine | Priorités | Jalon |
 |---|---|---|
@@ -147,16 +147,16 @@ Le planning opérationnel remis au nouvel arrivant le jour 1 — jour par jour p
 | Performance (funnel & KPIs) | Mensuel, 60' | Présente ses chiffres dès le mois 2 |
 | Playbook | Trimestriel, 90' | Apporte sa proposition d'amélioration à J+90 |
 
-> 📌 **À RETENIR —** Trois mois, trois paliers : certifié à J+30, autonome à J+60, pilote à J+90. Ce qui se négocie, c'est l'ordre des blocs de la semaine, jamais leur existence. Un bloc téléphone 10 h-12 h sanctuarisé, un CRM à jour chaque soir et un premier envoi réel pour chaque adhérent signé : voilà le contrat minimal d'activité.
+> 📌 **À RETENIR -** Trois mois, trois paliers : certifié à J+30, autonome à J+60, pilote à J+90. Ce qui se négocie, c'est l'ordre des blocs de la semaine, jamais leur existence. Un bloc téléphone 10 h-12 h sanctuarisé, un CRM à jour chaque soir et un premier envoi réel pour chaque adhérent signé : voilà le contrat minimal d'activité.
 
 ## Documents officiels à envoyer (pack adhérent 2026)
 
 | Document | Usage |
 |---|---|
-| CGS 2026 | Contrat cadre — signature électronique |
-| Grille tarifaire shipping 2026 (FR) + Rate Schedule EN | Prix — remis en RDV et joints à la proposition |
+| CGS 2026 | Contrat cadre - signature électronique |
+| Grille tarifaire shipping 2026 (FR) + Rate Schedule EN | Prix - remis en RDV et joints à la proposition |
 | Grille stockage & picking 2026 | Si besoin logistique |
-| Manuel utilisateur 2026 | Onboarding — process, cartonnage, destinations spécifiques |
+| Manuel utilisateur 2026 | Onboarding - process, cartonnage, destinations spécifiques |
 | Mode d'emploi Planet'Connect | Prise en main de la plateforme |
 | Order Form 2026 | Encaissement CB du client final au comptoir |
 | Formulaire mandat SEPA | Si magasin payeur |
@@ -172,15 +172,15 @@ Le planning opérationnel remis au nouvel arrivant le jour 1 — jour par jour p
 - Tableau de commande : description du vin, nombre de bouteilles, couleur, contenance (cl), % alc., valeur unitaire €, total.
 - Bloc de totaux : valeur des vins (HT), service de transport, option DDP (taxes et droits simulés), assurance perte & casse, **TOTAL des services Planet Aura payé par carte**.
 - Cases à cocher d'acceptation des conditions (le client déclare avoir lu et accepté les termes, la responsabilité hors périmètre transport, le droit de refuser une expédition).
-- Bloc paiement CB : numéro, expiration, code de sécurité, type de carte — mention en rouge **« No American Express please »**.
+- Bloc paiement CB : numéro, expiration, code de sécurité, type de carte - mention en rouge **« No American Express please »**.
 
-**Manuel utilisateur adhérent 2026** — 9 sections, dans l'ordre : interlocuteurs, fonctionnement, cartonnage, procédure d'envoi, assurances & litiges, certificat Champagne, destinations spécifiques, spiritueux, stockage. C'est le document de référence de la formation caveau (chap. 16) : le commercial doit savoir y renvoyer l'adhérent section par section.
+**Manuel utilisateur adhérent 2026** - 9 sections, dans l'ordre : interlocuteurs, fonctionnement, cartonnage, procédure d'envoi, assurances & litiges, certificat Champagne, destinations spécifiques, spiritueux, stockage. C'est le document de référence de la formation caveau (chap. 16) : le commercial doit savoir y renvoyer l'adhérent section par section.
 
-**Mode d'emploi Planet'Connect** — manuel de 37 pages couvrant la prise en main complète de la plateforme (simulateur, commandes, suivi, factures, e-signature). À joindre systématiquement au pack de bienvenue.
+**Mode d'emploi Planet'Connect** - manuel de 37 pages couvrant la prise en main complète de la plateforme (simulateur, commandes, suivi, factures, e-signature). À joindre systématiquement au pack de bienvenue.
 
-> ⚠️ **LE POINT DE VIGILANCE —** Le mandat SEPA contient les identifiants bancaires du magasin : il se remplit et se transmet via les canaux officiels uniquement, jamais recopié dans un email libre ni dans un support de vente.
+> ⚠️ **LE POINT DE VIGILANCE -** Le mandat SEPA contient les identifiants bancaires du magasin : il se remplit et se transmet via les canaux officiels uniquement, jamais recopié dans un email libre ni dans un support de vente.
 
-### Le flyer de prospection — chiffres clés affichés
+### Le flyer de prospection - chiffres clés affichés
 
 Le flyer remis en prospection (et la PLV « We ship worldwide ») met en avant trois chiffres :
 
@@ -190,6 +190,6 @@ Le flyer remis en prospection (et la PLV « We ship worldwide ») met en avant t
 90 %|de l'activité à l'export
 ```
 
-> ⚠️ **LE POINT DE VIGILANCE —** Cohérence des discours : la grille tarifaire couvre ~50 destinations, le flyer annonce 130 pays (recherche de solution possible au-delà de la grille). En RDV, présentez toujours les deux niveaux : « ~50 destinations tarifées immédiatement, jusqu'à 130 pays sur étude ».
+> ⚠️ **LE POINT DE VIGILANCE -** Cohérence des discours : la grille tarifaire couvre ~50 destinations, le flyer annonce 130 pays (recherche de solution possible au-delà de la grille). En RDV, présentez toujours les deux niveaux : « ~50 destinations tarifées immédiatement, jusqu'à 130 pays sur étude ».
 
-> 📌 **À RETENIR —** Cette annexe est la boîte à outils de 30 secondes : la fiche réflexe et ses 4 données (# / kg / € / →) pour le comptoir, les checklists pour ne rien oublier avant et après la signature, le compte-rendu CRM saisi sous 24 h, et le pack adhérent 2026 complet — huit documents, toujours envoyés via les canaux officiels.
+> 📌 **À RETENIR -** Cette annexe est la boîte à outils de 30 secondes : la fiche réflexe et ses 4 données (# / kg / € / →) pour le comptoir, les checklists pour ne rien oublier avant et après la signature, le compte-rendu CRM saisi sous 24 h, et le pack adhérent 2026 complet - huit documents, toujours envoyés via les canaux officiels.

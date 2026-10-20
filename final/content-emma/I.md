@@ -1,4 +1,4 @@
-# Annexe I — Documents officiels & liens
+# Annexe I - Documents officiels & liens
 
 *La règle : chaque document de travail est soit reproduit ici en entier, soit accessible par un lien permanent. Ne jamais envoyer un document non listé ici sans validation.*
 
@@ -6,13 +6,13 @@
 
 ## Mandat SEPA (formulaire officiel, 2 pages)
 
-## Mode d'emploi Planet'Connect (37 pages — couverture et sommaire)
+## Mode d'emploi Planet'Connect (37 pages - couverture et sommaire)
 
-Le document complet (37 pages) : drive.google.com/file/d/1EZhHDdzdbYrLIBJaDj_mLAG9wwJpTjb6 — également dans Planet'Connect, rubrique Actualités.
+Le document complet (37 pages) : drive.google.com/file/d/1EZhHDdzdbYrLIBJaDj_mLAG9wwJpTjb6 - également dans Planet'Connect, rubrique Actualités.
 
 ## Manuel utilisateur 2026 et procédure Suède
 
-Deux documents complémentaires : le **Manuel utilisateur 2026** (parcours complet d'un shipping en 6 étapes, référence de la formation Planet'Connect, chap. 15) — drive.google.com/file/d/1LDVgBTtuW9ZPWJ-c35HWxNaPyEMxPbUY — et la **procédure « Expéditions vers la Suède »** (représentant fiscal Vinoflow, spécificités accises et étiquetage), Drive interne → Nouveaux process 2026.
+Deux documents complémentaires : le **Manuel utilisateur 2026** (parcours complet d'un shipping en 6 étapes, référence de la formation Planet'Connect, chap. 15) - drive.google.com/file/d/1LDVgBTtuW9ZPWJ-c35HWxNaPyEMxPbUY - et la **procédure « Expéditions vers la Suède »** (représentant fiscal Vinoflow, spécificités accises et étiquetage), Drive interne → Nouveaux process 2026.
 
 ## Formulaire de shipping par email (modèle officiel 2026)
 
@@ -20,7 +20,7 @@ Deux documents complémentaires : le **Manuel utilisateur 2026** (parcours compl
 
 ## Cartes de zones : États-Unis et Norvège
 
-> ⚠️ **LE POINT DE VIGILANCE —** Pour la Norvège, raisonner uniquement en zones Sud/Nord et par comté — jamais en numéro de zone : le visuel interne numérote à l'inverse de la grille 2026.
+> ⚠️ **LE POINT DE VIGILANCE -** Pour la Norvège, raisonner uniquement en zones Sud/Nord et par comté - jamais en numéro de zone : le visuel interne numérote à l'inverse de la grille 2026.
 
 ## Liens utiles
 
