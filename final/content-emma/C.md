@@ -35,6 +35,25 @@
 
 **CONTACTS :** 09 79 11 45 07 / 06 59 56 72 72 - contact@planet-aura.com - WhatsApp.
 
+## Les objections en format court : une phrase + une question de retour
+
+Quand le temps manque (salon, appel entrant, relance) : une réponse courte, puis une question qui rend la parole au prospect. Elle fait émerger l'objection réelle (souvent différente de celle exprimée) et vous garde la main. Le traitement complet des 26 objections, avec la méthode en quatre temps, est au chap. 13.
+
+| Objection | Réponse courte | Question de retour |
+|---|---|---|
+| Trop cher | Comparons le coût complet avant la remise. | Quel écart doit être expliqué ou réduit ? |
+| Trop long | Protégeons d'abord la date impérative. | Quelle flexibilité existe réellement ? |
+| Météo / chaleur | Proposons le départ différé plutôt qu'une promesse. | Quelle fenêtre d'expédition convient à votre client ? |
+| Petits volumes | Testons grille, groupage ou non-adéquation. | Quel est l'envoi type ? |
+| Déjà un transitaire | Comparons un flux mal couvert, pas tout le compte. | Où est-il le moins adapté ? |
+| Envoyez des infos | Oui, ciblons le document utile. | Prix, délai, douane, impact ou sécurité ? |
+| Pas de budget | Non prioritaire ou non budgété ? | Quand l'arbitrage a-t-il lieu ? |
+| Pas le temps | Votre part se limite à 3 minutes de saisie. | Qui saisirait les commandes côté équipe ? |
+| Température / casse | Validons spécifications, emballage et assurance. | Quelles exigences sont obligatoires ? |
+| Douane complexe | Clarifions importateur, incoterm et données. | Où est la zone d'incertitude ? |
+| Plusieurs décideurs | Faisons une revue commune par risque. | Qui doit participer ? |
+| Solution trop récente | Séparons références Planet Aura et preuve du pilote. | Un pilote limité est-il acceptable ? |
+
 ## Checklist RDV découverte (commercial)
 
 - Recherche préalable : site, e-shop, avis, appellation, gamme de prix, saisonnalité.

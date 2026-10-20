@@ -4,6 +4,8 @@
 
 Chaque fiche se lit en une page : qui est le compte (ou le décideur), ce qu'il veut entendre, les preuves qui font mouche, les canaux pour l'atteindre, et la solution type avec son niveau de priorité. Les scripts associés sont au chapitre 10, le traitement complet des objections au chapitre 13.
 
+> ⚠️ **LE POINT DE VIGILANCE -** Ces fiches sont des hypothèses de travail construites sur l'activité réelle et les échanges terrain : elles n'ont pas encore été validées par l'étude structurée prévue (analyse de profils LinkedIn croisée avec des entretiens clients, méthode détaillée au chap. 07). Les re-confronter au terrain à chaque révision trimestrielle.
+
 Les dix fiches maquettées, dans l'ordre - chaque ICP précise son poids dans l'effort commercial, chaque persona son rôle dans la décision :
 
 | Fiche | Profil | Rôle dans la vente |

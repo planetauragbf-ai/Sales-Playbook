@@ -12,7 +12,7 @@ const {
 } = require('docx');
 
 const SRC = path.join(__dirname, 'content-emma');
-const A = require('path').join(__dirname, '..', 'build', 'assets');
+const A = path.join(__dirname, '../build/assets');
 
 // ---- Charte (maquette v2.0)
 const NAVY = '12475B';
@@ -110,7 +110,7 @@ function pairFigure(items) {
       children: items.map((it, i) => new TableCell({
         width: { size: i === 0 ? half : CONTENT_W - half, type: WidthType.DXA },
         verticalAlign: VerticalAlign.CENTER,
-        margins: { top: 60, bottom: 40, left: 40, right: 40 },
+        margins: { top: 48, bottom: 34, left: 40, right: 40 },
         children: [
           new Paragraph({ alignment: AlignmentType.CENTER, keepNext: !!it.caption, spacing: { after: it.caption ? 36 : 0 }, children: [imgAuto(it.img, it.w || 280)] }),
           ...(it.caption ? [new Paragraph({
@@ -124,9 +124,9 @@ function pairFigure(items) {
 }
 
 function figure(name, wPx, caption) {
-  const paras = [new Paragraph({ alignment: AlignmentType.CENTER, keepNext: !!caption, spacing: { before: 90, after: caption ? 36 : 130 }, children: [imgAuto(name, wPx)] })];
+  const paras = [new Paragraph({ alignment: AlignmentType.CENTER, keepNext: !!caption, spacing: { before: 54, after: caption ? 28 : 86 }, children: [imgAuto(name, wPx)] })];
   if (caption) paras.push(new Paragraph({
-    alignment: AlignmentType.CENTER, spacing: { after: 130 },
+    alignment: AlignmentType.CENTER, spacing: { after: 88 },
     children: [new TextRun({ text: caption, italics: true, size: 16, color: GRAY, font: SERIF })]
   }));
   return paras;
@@ -317,7 +317,7 @@ function parseTableBlock(lines, accent = TEALD, gloAnchors = false) {
         shading: isHeader
           ? { type: ShadingType.CLEAR, fill: accent }
           : (rowIdx % 2 === 1 ? { type: ShadingType.CLEAR, fill: ZEBRA } : undefined),
-        margins: { top: 40, bottom: 40, left: 96, right: 96 },
+        margins: { top: 30, bottom: 30, left: 96, right: 96 },
         children: [new Paragraph({
           spacing: { before: 12, after: 12 },
           children: kids
@@ -365,7 +365,7 @@ function statBlock(lines, accent = TEAL) {
       children: items.map(([v, c], i) => new TableCell({
         width: { size: widths[i], type: WidthType.DXA },
         verticalAlign: VerticalAlign.CENTER,
-        margins: { top: 96, bottom: 96, left: 70, right: 70 },
+        margins: { top: 64, bottom: 64, left: 70, right: 70 },
         children: [
           new Paragraph({
             alignment: AlignmentType.CENTER, spacing: { after: 40 },
@@ -398,10 +398,10 @@ function convertBody(md, unit, opts = {}) {
   const ACC = partAcc ? partAcc.col : TEAL;
   const DEEP = DEEP_OF[ACC] || TEALD;
   const TINT = TINT_OF[ACC] || LTEAL;
-  const gloId = (unit.id === 'E' || unit.id === 'avantpre') ? null : unit.id;
+  const gloId = (unit.id === 'E' || unit.id === 'avantpre' || unit.id === 'avantpre2') ? null : unit.id;
   const BODY = { size: 19, glo: gloId, gloAcc: DEEP };
-  const CP = opts.compact ? 48 : 80;   // after des paragraphes
-  const CL = opts.compact ? 14 : 22;   // after des listes
+  const CP = opts.letter ? 150 : opts.compact ? 48 : 62;   // after des paragraphes
+  const CL = opts.letter ? 44 : opts.compact ? 14 : 16;   // after des listes
 
   const tryPlace = (headingText) => {
     const out2 = [];
@@ -425,7 +425,7 @@ function convertBody(md, unit, opts = {}) {
       i++;
       if (isStats) {
         out.push(statBlock(code, ACC));
-        out.push(spacerPara(108));
+        out.push(spacerPara(88));
         continue;
       }
       const blockText = code.join('\n');
@@ -436,7 +436,7 @@ function convertBody(md, unit, opts = {}) {
         spacing: { before: 0, after: 0 },
         children: [new TextRun({ text: c.length ? c : ' ', font: 'Consolas', size: 15, color: INK })]
       })));
-      out.push(spacerPara(110));
+      out.push(spacerPara(100));
       continue;
     }
 
@@ -444,7 +444,7 @@ function convertBody(md, unit, opts = {}) {
       const tbl = [];
       while (i < lines.length && /^\s*\|/.test(lines[i])) { tbl.push(lines[i]); i++; }
       out.push(parseTableBlock(tbl, DEEP, unit.id === 'E'));
-      out.push(spacerPara(108));
+      out.push(spacerPara(92));
       continue;
     }
 
@@ -477,13 +477,13 @@ function convertBody(md, unit, opts = {}) {
         const kicker = unit.head || (isAnnex || (kpart && kpart.num === 'ANNEXES')
           ? 'ANNEXES  ·  DOCUMENTS COMPLÉMENTAIRES'
           : kpart ? `${kpart.num}  ·  ${kpart.title.toUpperCase()}` : 'SALES PLAYBOOK 2026');
-        out.push(new Paragraph({
-          spacing: { before: 60, after: 120 },
+        const kickerPara = new Paragraph({
+          spacing: { before: 60, after: 110 },
           children: [new Bookmark({
             id: 'chap' + unit.id,
             children: [new TextRun({ text: kicker, bold: true, size: 15, color: DEEP, font: LABEL })]
           })]
-        }));
+        });
         let key = null;
         if (!opts.noToc) {
           key = `toc${tocRegistry.length}`;
@@ -492,71 +492,84 @@ function convertBody(md, unit, opts = {}) {
         const titleRuns = [];
         if (num) titleRuns.push(new TextRun({ text: (isAnnex ? 'Annexe ' + num : num) + '   ', bold: true, size: 76, color: ACC, font: SERIF }));
         titleRuns.push(new TextRun({ text: title, bold: true, size: 46, color: NAVY, font: SERIF }));
-        out.push(new Paragraph({
+        const titlePara = new Paragraph({
           heading: HeadingLevel.HEADING_1,
           spacing: { after: 70 },
           children: key ? [new Bookmark({ id: key, children: titleRuns })] : titleRuns
-        }));
+        });
         // sous-titre italique (ligne suivante '*...*')
+        let subPara = null;
         let j = i + 1;
         while (j < lines.length && lines[j].trim() === '') j++;
         if (j < lines.length && /^\*[^*].*\*$/.test(lines[j].trim())) {
-          out.push(new Paragraph({
+          subPara = new Paragraph({
             spacing: { after: 110 },
             children: [new TextRun({ text: lines[j].trim().replace(/^\*|\*$/g, ''), italics: true, size: 23, color: GRAY, font: SERIF })]
-          }));
+          });
           i = j;
         }
-        out.push(new Paragraph({
-          border: { bottom: { style: BorderStyle.SINGLE, size: 11, color: ACC } },
-          spacing: { after: 170 }, children: []
-        }));
-        // sous-sommaire de chapitre « DANS CE CHAPITRE » (paginé, cliquable - maquette)
-        if (!opts.noMiniToc) {
-          const h2lines = lines.slice(i + 1).filter(l => /^##\s/.test(l)).map(l => plainHeading(l.replace(/^##\s+/, '')));
-          if (h2lines.length >= 3) {
-            const baseIdx = tocRegistry.length;
-            const rows = h2lines.map((h, k) => {
-              const key = `toc${baseIdx + k}`; // les H2 seront enregistrés dans cet ordre
-              const page = tocPages[key] !== undefined ? String(tocPages[key]) : '';
-              return new TableRow({
-                children: [
-                  new TableCell({
-                    width: { size: CONTENT_W - 700, type: WidthType.DXA },
-                    borders: { bottom: { style: BorderStyle.SINGLE, size: 3, color: 'DCE8EC' } },
-                    margins: { top: 38, bottom: 38, left: 60, right: 60 },
-                    children: [new Paragraph({ children: [new InternalHyperlink({ anchor: key, children: [new TextRun({ text: h, size: 17, color: INK })] })] })]
-                  }),
-                  new TableCell({
-                    width: { size: 700, type: WidthType.DXA },
-                    borders: { bottom: { style: BorderStyle.SINGLE, size: 3, color: 'DCE8EC' } },
-                    margins: { top: 38, bottom: 38, left: 40, right: 60 },
-                    children: [new Paragraph({ alignment: AlignmentType.RIGHT, children: [new TextRun({ text: page, bold: true, size: 17, color: DEEP, font: LABEL })] })]
-                  }),
-                ]
-              });
-            });
-            out.push(new Table({
-              width: { size: CONTENT_W, type: WidthType.DXA },
-              columnWidths: [CONTENT_W - 700, 700],
-              borders: {
-                top: { style: BorderStyle.NONE }, bottom: { style: BorderStyle.NONE },
-                left: { style: BorderStyle.NONE }, right: { style: BorderStyle.NONE },
-                insideHorizontal: { style: BorderStyle.NONE }, insideVertical: { style: BorderStyle.NONE },
-              },
-              rows: [
-                new TableRow({ children: [new TableCell({
-                  columnSpan: 2,
-                  width: { size: CONTENT_W, type: WidthType.DXA },
-                  borders: { bottom: { style: BorderStyle.SINGLE, size: 6, color: ACC } },
-                  margins: { top: 20, bottom: 50, left: 60, right: 60 },
-                  children: [new Paragraph({ children: [new TextRun({ text: 'D A N S   C E   C H A P I T R E', bold: true, size: 14, color: DEEP, font: LABEL })] })]
-                })] }),
-                ...rows,
+        // mini-sommaire « DANS CE CHAPITRE » à droite du titre : la tête de chapitre
+        // tient en deux colonnes au lieu de s'empiler (gain d'une demi-page par chapitre)
+        const h2lines = opts.noMiniToc ? [] : lines.slice(i + 1).filter(l => /^##\s/.test(l)).map(l => plainHeading(l.replace(/^##\s+/, '')));
+        const NOB = {
+          top: { style: BorderStyle.NONE }, bottom: { style: BorderStyle.NONE },
+          left: { style: BorderStyle.NONE }, right: { style: BorderStyle.NONE },
+          insideHorizontal: { style: BorderStyle.NONE }, insideVertical: { style: BorderStyle.NONE },
+        };
+        if (h2lines.length >= 3) {
+          const RW = 3700, LW = CONTENT_W - RW;
+          const baseIdx = tocRegistry.length;
+          const tocParas = [new Paragraph({
+            border: { bottom: { style: BorderStyle.SINGLE, size: 6, color: ACC } },
+            spacing: { after: 46 },
+            children: [new TextRun({ text: 'D A N S   C E   C H A P I T R E', bold: true, size: 13, color: DEEP, font: LABEL })]
+          })];
+          h2lines.forEach((h, k) => {
+            const kk = `toc${baseIdx + k}`;
+            const page = tocPages[kk] !== undefined ? String(tocPages[kk]) : '';
+            tocParas.push(new Paragraph({
+              tabStops: [{ type: TabStopType.RIGHT, position: RW - 300 }],
+              border: { bottom: { style: BorderStyle.SINGLE, size: 3, color: 'DCE8EC' } },
+              spacing: { before: 26, after: 30 },
+              children: [
+                new InternalHyperlink({ anchor: kk, children: [new TextRun({ text: h, size: 15, color: INK })] }),
+                new TextRun({ text: '\t' }),
+                new TextRun({ text: page, bold: true, size: 15, color: DEEP, font: LABEL }),
               ]
             }));
-            out.push(new Paragraph({ spacing: { after: 170 }, children: [] }));
-          }
+          });
+          const leftKids = [kickerPara, titlePara];
+          if (subPara) leftKids.push(subPara);
+          leftKids.push(new Paragraph({
+            border: { bottom: { style: BorderStyle.SINGLE, size: 11, color: ACC } },
+            spacing: { after: 20 }, children: []
+          }));
+          out.push(new Table({
+            width: { size: CONTENT_W, type: WidthType.DXA },
+            columnWidths: [LW, RW],
+            borders: NOB,
+            rows: [new TableRow({ children: [
+              new TableCell({
+                width: { size: LW, type: WidthType.DXA },
+                margins: { top: 0, bottom: 0, left: 0, right: 280 },
+                children: leftKids
+              }),
+              new TableCell({
+                width: { size: RW, type: WidthType.DXA },
+                margins: { top: 50, bottom: 0, left: 220, right: 0 },
+                borders: { left: { style: BorderStyle.SINGLE, size: 4, color: 'DCE8EC' } },
+                children: tocParas
+              }),
+            ] })]
+          }));
+          out.push(new Paragraph({ spacing: { after: 160 }, children: [] }));
+        } else {
+          out.push(kickerPara, titlePara);
+          if (subPara) out.push(subPara);
+          out.push(new Paragraph({
+            border: { bottom: { style: BorderStyle.SINGLE, size: 11, color: ACC } },
+            spacing: { after: 170 }, children: []
+          }));
         }
         out.push(...tryPlace(txt));
         i++; continue;
@@ -572,20 +585,20 @@ function convertBody(md, unit, opts = {}) {
         out.push(new Paragraph({
           heading: HeadingLevel.HEADING_2,
           keepNext: true,
-          spacing: { before: 236, after: 70 },
+          spacing: { before: 184, after: 56 },
           children: h2runs
         }));
       } else if (lvl === 3) {
         out.push(new Paragraph({
           heading: HeadingLevel.HEADING_3,
           keepNext: true,
-          spacing: { before: 176, after: 54 },
+          spacing: { before: opts.letter ? 250 : 148, after: opts.letter ? 70 : 48 },
           children: inlineRuns(txt.toUpperCase(), { bold: true, size: 18, color: DEEP, font: LABEL })
         }));
       } else {
         out.push(new Paragraph({
           keepNext: true,
-          spacing: { before: 150, after: 56 },
+          spacing: { before: 140, after: 52 },
           children: inlineRuns(txt, { bold: true, size: 21, color: NAVY })
         }));
       }
@@ -602,7 +615,7 @@ function convertBody(md, unit, opts = {}) {
       if (quote.length === 1 && /^«/.test(head.trim()) && !/\*\*/.test(head)) {
         out.push(new Paragraph({
           alignment: AlignmentType.CENTER,
-          spacing: { before: opts.compact ? 100 : 180, after: opts.compact ? 100 : 180 },
+          spacing: { before: opts.compact ? 100 : 130, after: opts.compact ? 100 : 130 },
           indent: { left: 500, right: 500 },
           children: [new TextRun({ text: head.trim(), italics: true, size: 25, color: DEEP, font: SERIF })]
         }));
@@ -643,11 +656,11 @@ function convertBody(md, unit, opts = {}) {
         rows: [new TableRow({ cantSplit: true, children: [new TableCell({
           width: { size: CONTENT_W, type: WidthType.DXA },
           shading: { type: ShadingType.CLEAR, fill },
-          margins: { top: 82, bottom: 82, left: 215, right: 195 },
+          margins: { top: 68, bottom: 68, left: 215, right: 195 },
           children: calloutParas
         })] })]
       }));
-      out.push(spacerPara(100));
+      out.push(spacerPara(92));
       continue;
     }
 
@@ -686,7 +699,7 @@ function convertBody(md, unit, opts = {}) {
     if (h1Seen === 'skipnext') { h1Seen = true; i++; continue; }
 
     // une ligne d'annonce qui se termine par « : » reste collée au bloc qu'elle introduit
-    out.push(new Paragraph({ spacing: { after: CP }, keepNext: /:\s*$/.test(line.trim()), children: inlineRuns(line, BODY) }));
+    out.push(new Paragraph({ spacing: opts.letter ? { after: CP, line: 300, lineRule: 'auto' } : { after: CP }, keepNext: /:\s*$/.test(line.trim()), children: inlineRuns(line, BODY) }));
     i++;
   }
   // purge des espaceurs de fin d'unité (sinon un espaceur vide peut déborder seul sur une page blanche)
@@ -1026,7 +1039,17 @@ sections.push({ properties: { ...pageProps }, ...emptyHF, children: coverChildre
 sections.push({
   properties: { ...pageProps },
   headers: { default: mkHeader('AVANT DE COMMENCER') }, footers: { default: footerNoNum },
-  children: convertBody(avantPre.replace(/^#\s+.*$/m, '# Remerciements & confidentialité'), { id: 'avantpre' }, { noMiniToc: true, noToc: true, compact: true })
+  children: (() => {
+    // remerciements + confidentialité en présentation « lettre » aérée,
+    // certitudes + mot d'accueil restent compacts (une page chacun)
+    const cIx = avantPre.indexOf('## Les certitudes');
+    const pre1 = avantPre.slice(0, cIx).replace(/^#\s+.*$/m, '# Remerciements & confidentialité');
+    const pre2 = avantPre.slice(cIx);
+    return [
+      ...convertBody(pre1, { id: 'avantpre' }, { noMiniToc: true, noToc: true, letter: true }),
+      ...convertBody(pre2, { id: 'avantpre2' }, { noMiniToc: true, noToc: true, compact: true }),
+    ];
+  })()
 });
 
 // 3. corps converti D'ABORD (pour remplir le registre du sommaire), inséré APRÈS le sommaire

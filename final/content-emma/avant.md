@@ -5,6 +5,8 @@
 
 La réalisation de ce Sales Playbook finalise une étape importante dans mon parcours chez Planet Aura. Ce document est le miroir de quatre années d’apprentissage (stagiaire, alternante Bachelor puis Master), d’expériences, de remises en question et d’évolution au sein d’une entreprise dans laquelle j’ai progressivement trouvé ma place. Je tiens donc à remercier sincèrement toutes les personnes qui ont contribué, directement ou indirectement, à sa réalisation.
 
+### À Floriane
+
 En premier, j’adresse mes remerciements les plus sincères à Floriane Février, ma tutrice et Gérante de Planet Aura.
 
 Depuis mon arrivée chez Planet Aura, Floriane m’a accordé une confiance qui a largement dépassé le cadre classique d’une alternance. Elle m’a laissé la liberté de proposer, de tester, de prendre des initiatives, mais également le temps d’apprendre. Cette autonomie m’a permis de gagner progressivement en assurance, de développer mes compétences et de prendre des responsabilités de plus en plus importantes au sein de l’entreprise.
@@ -17,6 +19,8 @@ Je la remercie également pour sa disponibilité, sa franchise, ses conseils et 
 
 Son accompagnement a joué un rôle essentiel dans mon évolution professionnelle, mais également personnelle.
 
+### À l’équipe Planet Aura
+
 En second, je suis très reconnaissante envers l’ensemble de l’équipe de Planet Aura : Brice, Adam, Vincent, Alessandro, Robin, Sofian, Sarah, Swan, Juliana, Frantz et Teddy.
 
 Je tiens également à remercier mes anciens collègues, Paloma, Albane et Yassine, avec qui j’ai eu le plaisir de travailler et de partager une partie de mon parcours.
@@ -25,17 +29,25 @@ Chacun, à sa manière, a participé à mon apprentissage et à mon intégration
 
 Au-delà de la collaboration professionnelle, certains sont devenus de véritables soutiens, avec lesquels j’ai traversé les périodes intenses, les imprévus, les réussites, les moments de doute, mais également de nombreux moments de convivialité.
 
+### Aux partenaires
+
 Enfin, Planet Aura n’existerait pas sans eux, tous ces partenaires qui participent au développement de son écosystème et auxquels j’adresse également mes remerciements. Je pense, en particulier, à Philippe, de l’entreprise Halt Solutions, avec qui nous avons travaillé sur le développement et l’évolution de Planet’Connect. Il a su comprendre nos besoins, mais aussi transformer certaines de nos idées les plus ambitieuses en solutions concrètes. Sa disponibilité, sa patience et sa capacité à trouver des réponses techniques à nos nombreuses demandes ont largement contribué à faire évoluer les outils de l’entreprise.
 
 Je pense également aux fournisseurs, transporteurs, courtiers, importateurs et différents partenaires avec lesquels j’ai eu l’occasion d’échanger. Ces collaborations m’ont permis de mieux comprendre la complexité de notre métier et l’importance de chaque acteur dans la réussite d’une opération commerciale.
+
+### À Euridis Business School
 
 Euridis Business School - Aurélie et toute l’équipe pédagogique - me sert de guide et de fil rouge depuis 3 ans. Je leur dédie également cette reconnaissance. Leur accompagnement méthodologique, leurs conseils et leur regard extérieur me permettent aujourd’hui de prendre du recul sur mon expérience professionnelle et de transformer plusieurs années de pratiques, de projets et d’apprentissages dans ce livret.
 
 Enfin, je n’oublie pas mes camarades du Mastère Marketing & Digital Business pour les échanges, les conseils, les retours d’expérience et le soutien partagé tout au long de cette formation. Leurs regards, parfois très différents du mien, ont enrichi ma réflexion et m’ont aidée à évoluer dans mon travail.
 
+### À ma famille
+
 Pour finir, mes pensées vont à ma famille pour son soutien constant tout au long de mon parcours. Une pensée toute particulière pour mes grands-parents et ma mère, qui m’ont toujours encouragée, accompagnée et poussée à croire en mes projets et, également à Hugo, mon compagnon, pour sa patience dans mes périodes de doute.
 
 **Méthode et outils.** Ce document a été construit avec l'assistance d'une IA (Claude, Anthropic), créditée conformément au cahier des charges : l'IA a servi à structurer, croiser et mettre en forme les sources internes (documentation officielle 2026, procédures, dashboards Planet'Connect) à partir d'instructions détaillées, chaque chiffre, règle et procédure a été vérifié aux sources et validé humainement, et les contenus générés ont été enrichis et arbitrés par l'équipe.
+
+\page
 
 ## Confidentialité
 

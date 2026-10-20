@@ -18,10 +18,10 @@ module.exports = {
     { after: '^L’équipe : quatre pôles|^L.équipe : quatre pôles', img: 'pics/team2.png', w: 430, caption: 'L’équipe Planet Aura' },
   ],
   '04': [
-    { after: '^Vue d’ensemble du catalogue|^Vue d.ensemble du catalogue', img: 'pics/vela_boat.png', w: 340, caption: 'Le voilier-cargo VELA - option de transport bas-carbone (conditionnelle, voir « Offres en développement »)' },
-    { after: '^Stockage, cartonnage', img: 'pics/entrepot.png', w: 380, caption: 'L’entrepôt de Castres : stockage et picking en propre' },
-    { after: '^USA Groupage DDP', img: 'diagrams/d04_usabars.png', w: 436, caption: 'Grille USA groupage 2026 : le coût par bouteille passe de 105 € à 14,2 € avec le colisage' },
-    { after: '^Planet’Connect : la plateforme|^Planet.Connect : la plateforme', img: 'pics/pc_sim_usa.png', w: 382, caption: 'Simulation réelle États-Unis dans Planet’Connect : transport, assurance, taxes DDP' },
+    { after: '^Vue d’ensemble du catalogue|^Vue d.ensemble du catalogue', img: 'pics/vela_boat.png', w: 300, caption: 'Le voilier-cargo VELA - option de transport bas-carbone (conditionnelle, voir « Offres en développement »)' },
+    { after: '^Stockage, cartonnage', img: 'pics/entrepot.png', w: 330, caption: 'L’entrepôt de Castres : stockage et picking en propre' },
+    { after: '^USA Groupage DDP', img: 'diagrams/d04_usabars.png', w: 400, caption: 'Grille USA groupage 2026 : le coût par bouteille passe de 105 € à 14,2 € avec le colisage' },
+    { after: '^Planet’Connect : la plateforme|^Planet.Connect : la plateforme', img: 'pics/pc_sim_usa.png', w: 348, caption: 'Simulation réelle États-Unis dans Planet’Connect : transport, assurance, taxes DDP' },
   ],
   '05': [
     { after: 'familles d’acteurs|familles d.acteurs|carte des intervenants', img: 'diagrams/d10_carte.png', w: 406, caption: 'La carte des intervenants du secteur - chiffre d’affaires × spécialisation/diversification de l’offre' },
@@ -33,7 +33,7 @@ module.exports = {
     { after: '^Gérer le portefeuille', img: 'pics/dash_prospects.png', w: 406, caption: 'La photographie du portefeuille : 448 prospects, 227 adhérents récents, 35 dormants' },
   ],
   '09': [
-    { after: '^L’entonnoir d’acquisition|^L.entonnoir', img: 'pics/dash_nouveaux.png', w: 390, caption: 'Nouveaux adhérents par mois et cumul 12 mois (~145, au-dessus de l\u2019objectif de 10/mois) - dashboard commercial' },
+    { after: '^L’entonnoir d’acquisition|^L.entonnoir', img: 'pics/dash_nouveaux.png', w: 308, caption: 'Nouveaux adhérents par mois et cumul 12 mois (~145, au-dessus de l\u2019objectif de 10/mois) - dashboard commercial' },
   ],
   '13': [
     { after: '^Commencer par le pourquoi', img: 'diagrams/d06_why.png', w: 390, caption: 'Le Golden Circle Planet Aura : WHY, HOW, WHAT' },
@@ -46,11 +46,11 @@ module.exports = {
     { after: 'sinistre', img: 'diagrams/d13_arbre.png', w: 436, caption: 'Sinistres : l’arbre décisionnel officiel 2026 - RXP ou remboursement' },
   ],
   '17': [
-    { after: 'tableau de bord|dashboards|Indicateurs', img: 'pics/dash_gestion.png', w: 406, caption: 'Le dashboard gestion réel : CA, CA vins expédiés, shippings, bouteilles (janv.-sept. 2026)' },
+    { after: 'tableau de bord|dashboards|Indicateurs', img: 'pics/dash_gestion.png', w: 368, caption: 'Le dashboard gestion réel : CA, CA vins expédiés, shippings, bouteilles (janv.-sept. 2026)' },
   ],
 };
 
-module.exports['avantpre'] = [
+module.exports['avantpre2'] = [
   { after: 'certitudes de Floriane', img: 'pics/bitmoji_trio.png', w: 175, caption: '' },
   { after: 'Mot d’accueil|Mot d.accueil', img: 'pics/bitmoji_duo.png', w: 150, caption: '' },
 ];
@@ -112,7 +112,7 @@ module.exports['03'] = (module.exports['03'] || []).concat([
   { after: '^Les règles de fonctionnement', img: 'diagrams/d03_escalade.png', w: 520, caption: 'Le circuit d\u2019escalade : ce que chacun d\u00e9cide, et quand passer la main' },
 ]);
 module.exports['12'] = (module.exports['12'] || []).concat([
-  { after: '^La trame du rendez-vous de d\u00e9couverte|^La trame du rendez-vous', img: 'diagrams/d12_trame.png', w: 520, caption: 'La trame des 35 minutes : six s\u00e9quences, une sortie attendue par s\u00e9quence' },
+  { after: '^La trame du rendez-vous de d\u00e9couverte|^La trame du rendez-vous', img: 'diagrams/d12_trame.png', w: 480, caption: 'La trame des 35 minutes : six s\u00e9quences, une sortie attendue par s\u00e9quence' },
 ]);
 module.exports['F'] = (module.exports['F'] || []).concat([
   { after: '^La hi\u00e9rarchie de preuve', img: 'diagrams/d14_preuve.png', w: 440, caption: 'La hi\u00e9rarchie de preuve : citer le niveau le plus haut disponible' },
