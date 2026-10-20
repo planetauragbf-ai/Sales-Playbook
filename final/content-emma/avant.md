@@ -45,6 +45,8 @@ Ce Sales Playbook est un document strictement interne à Planet Aura, réservé 
 
 > 🚫 **INTERDIT -** Transférer ce document ou en montrer des extraits (captures d'écran comprises) à quiconque hors de l'entreprise : les chiffres internes, les références nominatives et les marges de manœuvre commerciales qu'il contient sont à usage strictement interne.
 
+\page
+
 ## Les certitudes de Floriane
 
 Bienvenue chez Planet Aura. Nous avons fait un choix simple et exigeant : ne transporter qu'un seul type de produit, mais le transporter mieux que quiconque. Le vin, le champagne et les spiritueux ne sont pas des marchandises comme les autres : derrière chaque bouteille, il y a un vigneron, une récolte, une réputation - et derrière chaque colis que nous expédions, cette promesse à tenir, intacte, jusqu'à l'autre bout du monde.
@@ -60,8 +62,6 @@ Ce que nous attendons de vous tient en quelques mots. De la rigueur, parce que n
 Fiabilité, proximité, sens du détail, responsabilité : ce sont nos quatre repères. Ils ne sont pas affichés sur un mur ; ils se vivent dans chaque devis, chaque appel, chaque colis.
 
 **Floriane Février** - Fondatrice & Gérante
-
-\page
 
 ## Le mot d'accueil d'Emma
 

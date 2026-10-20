@@ -51,8 +51,8 @@ module.exports = {
 };
 
 module.exports['avantpre'] = [
-  { after: 'certitudes de Floriane', img: 'pics/bitmoji_trio.png', w: 235, caption: '' },
-  { after: 'Mot d’accueil|Mot d.accueil', img: 'pics/bitmoji_duo.png', w: 195, caption: '' },
+  { after: 'certitudes de Floriane', img: 'pics/bitmoji_trio.png', w: 175, caption: '' },
+  { after: 'Mot d’accueil|Mot d.accueil', img: 'pics/bitmoji_duo.png', w: 150, caption: '' },
 ];
 // Annexe H - fiches maquettées (pages extraites du PPTX officiel)
 module.exports['H'] = [

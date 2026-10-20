@@ -373,6 +373,8 @@ function convertBody(md, unit, opts = {}) {
   const TINT = TINT_OF[ACC] || LTEAL;
   const gloId = (unit.id === 'E' || unit.id === 'avantpre') ? null : unit.id;
   const BODY = { size: 19, glo: gloId, gloAcc: DEEP };
+  const CP = opts.compact ? 48 : 80;   // after des paragraphes
+  const CL = opts.compact ? 14 : 22;   // after des listes
 
   const tryPlace = (headingText) => {
     const out2 = [];
@@ -570,7 +572,7 @@ function convertBody(md, unit, opts = {}) {
       if (quote.length === 1 && /^«/.test(head.trim()) && !/\*\*/.test(head)) {
         out.push(new Paragraph({
           alignment: AlignmentType.CENTER,
-          spacing: { before: 180, after: 180 },
+          spacing: { before: opts.compact ? 100 : 180, after: opts.compact ? 100 : 180 },
           indent: { left: 500, right: 500 },
           children: [new TextRun({ text: head.trim(), italics: true, size: 25, color: DEEP, font: SERIF })]
         }));
@@ -632,7 +634,7 @@ function convertBody(md, unit, opts = {}) {
       const level = Math.min(Math.floor(m[1].length / 2), 2);
       out.push(new Paragraph({
         numbering: { reference: 'bullets', level },
-        spacing: { after: 22 },
+        spacing: { after: CL },
         children: inlineRuns(m[2], BODY)
       }));
       i++; continue;
@@ -643,7 +645,7 @@ function convertBody(md, unit, opts = {}) {
       if (startNew) orderedInstance++;
       out.push(new Paragraph({
         numbering: { reference: 'ordered', level: 0, instance: orderedInstance },
-        spacing: { after: 22 },
+        spacing: { after: CL },
         children: inlineRuns(m[3], BODY)
       }));
       i++; continue;
@@ -654,7 +656,7 @@ function convertBody(md, unit, opts = {}) {
     if (h1Seen === 'skipnext') { h1Seen = true; i++; continue; }
 
     // une ligne d'annonce qui se termine par « : » reste collée au bloc qu'elle introduit
-    out.push(new Paragraph({ spacing: { after: 80 }, keepNext: /:\s*$/.test(line.trim()), children: inlineRuns(line, BODY) }));
+    out.push(new Paragraph({ spacing: { after: CP }, keepNext: /:\s*$/.test(line.trim()), children: inlineRuns(line, BODY) }));
     i++;
   }
   // purge des espaceurs de fin d'unité (sinon un espaceur vide peut déborder seul sur une page blanche)
@@ -969,7 +971,7 @@ sections.push({ properties: { ...pageProps }, ...emptyHF, children: coverChildre
 sections.push({
   properties: { ...pageProps },
   headers: { default: mkHeader('AVANT DE COMMENCER') }, footers: { default: footerP },
-  children: convertBody(avantPre.replace(/^#\s+.*$/m, '# Remerciements & confidentialité'), { id: 'avantpre' }, { noMiniToc: true, noToc: true })
+  children: convertBody(avantPre.replace(/^#\s+.*$/m, '# Remerciements & confidentialité'), { id: 'avantpre' }, { noMiniToc: true, noToc: true, compact: true })
 });
 
 // 3. corps converti D'ABORD (pour remplir le registre du sommaire), inséré APRÈS le sommaire
