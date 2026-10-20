@@ -1,0 +1,42 @@
+// Placements d'images du document final (clé = id d'unité) - photos réelles + schémas codés charte uniquement.
+module.exports = {
+  '01': [
+    { after: '^Saisonnalité : planifier', img: 'pics/dash_ship_evo.png', w: 398, caption: 'Shippings par mois, sept. 2025 - sept. 2026 (dashboard logistique Planet’Connect)' },
+    { after: '^Destinations demandées', img: 'pics/dash_pays.png', w: 282, caption: 'Répartition réelle des shippings par pays sur 12 mois : USA 64,5 %, France 18,6 %' },
+  ],
+  '02': [
+    { after: '^La filiale américaine', img: 'pics/ny_site.png', w: 282, caption: 'Planet Aura Inc. - 95 Inip Dr, Inwood (New York)' },
+    { after: '^Chiffres clés et trajectoire', img: 'pics/dash_histo_ca.png', w: 406, caption: 'Historique du CA mensuel 2021-2026 (dashboard gestion Planet’Connect, 24/09/2026)' },
+    { after: '^Analyse SWOT', img: 'diagrams/d01_swot.png', w: 436, caption: 'La matrice SWOT Planet Aura 2026' },
+  ],
+  '03': [
+    { after: '^L’équipe : quatre pôles|^L.équipe : quatre pôles', img: 'pics/team.png', w: 390, caption: 'L’équipe Planet Aura' },
+  ],
+  '04': [
+    { after: '^USA Groupage DDP', img: 'diagrams/d04_usabars.png', w: 436, caption: 'Grille USA groupage 2026 : le coût par bouteille passe de 105 € à 14,2 € avec le colisage' },
+    { after: '^Planet’Connect : la plateforme|^Planet.Connect : la plateforme', img: 'pics/pc_sim_usa.png', w: 382, caption: 'Simulation réelle États-Unis dans Planet’Connect : transport, assurance, taxes DDP' },
+  ],
+  '05': [
+    { after: 'familles d’acteurs|familles d.acteurs|carte des intervenants', img: 'diagrams/d10_carte.png', w: 406, caption: 'La carte des intervenants du secteur - chiffre d’affaires × spécialisation/diversification de l’offre' },
+    { after: '^Concurrents directs à la loupe', img: 'diagrams/d10_radar7p.png', w: 406, caption: 'Le face-à-face des spécialistes : analyse 7P, scores internes 0-5 (octobre 2026)' },
+  ],
+  '06': [
+    { after: '^Les dix clients de référence', img: 'pics/dash_repartitions.png', w: 406, caption: 'Répartition du portefeuille par région et par catégorie (dashboard commercial, 24/09/2026)' },
+    { after: '^Gérer le portefeuille', img: 'pics/dash_prospects.png', w: 406, caption: 'La photographie du portefeuille : 448 prospects, 227 adhérents récents, 35 dormants' },
+  ],
+  '09': [
+    { after: '^L’entonnoir d’acquisition|^L.entonnoir', img: 'pics/dash_nouveaux.png', w: 390, caption: 'Nouveaux adhérents par mois et cumul 12 mois (~145) - dashboard commercial' },
+  ],
+  '13': [
+    { after: '^Commencer par le pourquoi', img: 'diagrams/d06_why.png', w: 390, caption: 'Le Golden Circle Planet Aura : WHY, HOW, WHAT' },
+  ],
+  '15': [
+    { after: 'Planet’Connect|Planet.Connect|outils de la fonction', img: 'pics/pc_shippings.png', w: 398, caption: 'La liste « Vos shippings » et leurs statuts dans Planet’Connect (capture réelle)' },
+  ],
+  '16': [
+    { after: 'sinistre', img: 'diagrams/d13_arbre.png', w: 436, caption: 'Sinistres : l’arbre décisionnel officiel 2026 - RXP ou remboursement' },
+  ],
+  '17': [
+    { after: 'tableau de bord|dashboards|Indicateurs', img: 'pics/dash_gestion.png', w: 406, caption: 'Le dashboard gestion réel : CA, CA vins expédiés, shippings, bouteilles (janv.-sept. 2026)' },
+  ],
+};
