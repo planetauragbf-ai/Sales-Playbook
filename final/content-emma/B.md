@@ -37,7 +37,7 @@
 
 ## Les objections en format court : une phrase + une question de retour
 
-Quand le temps manque (salon, appel entrant, relance) : une réponse courte, puis une question qui rend la parole au prospect. Elle fait émerger l'objection réelle (souvent différente de celle exprimée) et vous garde la main. Le traitement complet des 26 objections, avec la méthode en quatre temps, est au chap. 13.
+Quand le temps manque (salon, appel entrant, relance) : une réponse courte, puis une question qui rend la parole au prospect. Elle fait émerger l'objection réelle (souvent différente de celle exprimée) et vous garde la main. Le traitement développé des 26 objections est en annexe W, la méthode en quatre temps et le top 5 commenté au chap. 13.
 
 | Objection | Réponse courte | Question de retour |
 |---|---|---|

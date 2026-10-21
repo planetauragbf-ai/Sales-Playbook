@@ -29,7 +29,7 @@
 | Lun. | Portefeuille confié : liste A/B/C, dormants, inbound, hygiène CRM (champs obligatoires, next step) | Adam | Pipeline à ≥ 95 % de complétude |
 | Mar.-Mer. | 2-3 RDV découverte en binôme (SPIN, démo simulateur sur les vins du prospect), compte rendu < 24 h | Adam | 2 comptes rendus CRM validés |
 | Jeu. | Appels supervisés : 10 appels de cadence, 10 emails personnalisés (chap. 10) | Adam | Appels loggés < 24 h, 1 créneau obtenu |
-| Ven. | Co-rédaction d'une proposition (email récap + documentation 2026 + accès), les 26 objections à l'oral | Floriane | Proposition envoyée, objections sues |
+| Ven. | Co-rédaction d'une proposition (email récap + documentation 2026 + accès), les 26 objections à l'oral (annexe W) | Floriane | Proposition envoyée, objections sues |
 
 ## Semaine 4 - Certification et lancement : premier rendez-vous seul
 
@@ -60,6 +60,18 @@
 ## Les rituels dès la semaine 1
 
 Les rituels d'équipe (détail au chap. 15) s'appliquent dès l'arrivée, avec une montée en responsabilité : **signaux chauds** chaque matin 10 minutes (l'inbound se rappelle en moins de 24 h, pris en main dès la S3), **pipeline** le lundi 45 minutes (observateur en S1-S2, puis présente ses propres deals), **commerce-opérations** hebdomadaire 30 minutes (remonte ses faisabilités dès la S3), **performance** mensuelle 45 minutes (présente ses chiffres dès le mois 2) et **playbook** trimestriel 90 minutes (apporte sa proposition d'amélioration à J+90).
+
+## La feuille de route commerciale budgétée (sept. 2026 → 2027)
+
+Le cadre d'équipe dans lequel s'inscrit cette montée en charge - cinq chantiers, un plafond de 3 000 €, un critère de passage par chantier (synthèse et pilotage au chap. 17) :
+
+| Période | Chantier | Responsable | Temps | Budget | Critère de passage |
+|---|---|---|---|---|---|
+| S1-S2 (sept. 2026) | Nettoyage CRM, listes A/B/C, champs obligatoires | Emma + Adam | 24 h | 0 € | ≥ 95 % des comptes prioritaires exploitables |
+| M1 (oct.) | Landing page, one-pager par ICP, vidéo démo, FAQ preuves/risques | Emma + Adam | 36 h | 600 € | Supports validés par la direction |
+| M2 (nov.) | 3 séquences Brevo, listes repoussoir, reporting HubSpot | Emma | 20 h | 200 € | Arrêt automatique sur réponse testé |
+| M4-M10 | Deux salons en visiteur, RDV prébookés, suivi sous 48 h | Adam + Emma | 24 h | 1 000 € | 8 RDV qualifiés par événement |
+| Après validation | Pilote VELA : dossier, calcul rendu, FAQ carbone, plan de secteurs | Direction | - | - | Validations préalables obtenues |
 
 > 📌 **À RETENIR -** Trois mois, trois paliers : certifié à J+30, autonome à J+60, pilote à J+90 - ce qui se négocie, c'est l'ordre des blocs, jamais leur existence. Bloc téléphone 10 h-12 h sanctuarisé, CRM à jour chaque soir, un premier envoi réel par adhérent signé : le contrat minimal d'activité.
 
