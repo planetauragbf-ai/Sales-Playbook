@@ -1024,6 +1024,7 @@ function tocChildren() {
     'Organisation et outils de la fonction commerciale': 'Organisation et outils commerciaux',
     'Chiffres officiels, hiérarchie de preuve et sources': 'Chiffres officiels et sources',
     'La banque des 26 objections, réponses développées': 'Banque des 26 objections',
+    'Fiche réflexe comptoir, checklists et modèles': 'Fiche réflexe, checklists et modèles',
   };
   const entry = (h, labelColor) => {
     const page = tocPages[h.key] !== undefined ? String(tocPages[h.key]) : '0';
@@ -1061,11 +1062,12 @@ function tocChildren() {
         spacing: { before: 300, after: 60 },
         children: [
           new TextRun({ text: part.big, bold: true, size: 44, color: part.col, font: SERIF }),
-          new TextRun({ text: '  ' + part.title.toUpperCase(), bold: true, size: 15, color: DEEP_OF[part.col] || TEALD, font: LABEL }),
+          new TextRun({ text: '  ' + part.title.toUpperCase(), bold: true, size: 15, color: part.col, font: LABEL }),
         ]
       }));
     }
-    paras.push(entry(h, part ? (DEEP_OF[part.col] || TEAL) : DEEP_OF[TEAL]));
+    // au sommaire, chaque partie s'affiche dans sa couleur propre (jamais la variante foncée)
+    paras.push(entry(h, part ? part.col : TEAL));
   });
 
   // légende : le code visuel du document (couleurs de partie, encadrés, glossaire)
