@@ -45,7 +45,7 @@ Enfin, je n’oublie pas mes camarades du Mastère Marketing & Digital Business 
 
 Pour finir, mes pensées vont à ma famille pour son soutien constant tout au long de mon parcours. Une pensée toute particulière pour mes grands-parents et ma mère, qui m’ont toujours encouragée, accompagnée et poussée à croire en mes projets et, également à Hugo, mon compagnon, pour sa patience dans mes périodes de doute.
 
-**Méthode et outils.** Ce document a été construit avec l'assistance d'une IA (Claude, Anthropic), créditée conformément au cahier des charges : l'IA a servi à structurer, croiser et mettre en forme les sources internes (documentation officielle 2026, procédures, dashboards Planet'Connect) à partir d'instructions détaillées, chaque chiffre, règle et procédure a été vérifié aux sources et validé humainement, et les contenus générés ont été enrichis et arbitrés par l'équipe.
+**Méthode et outils.** Ce document a été construit avec l'assistance d'une IA (Claude, Anthropic), créditée conformément au cahier des charges : l'IA a servi à structurer, croiser et mettre en forme les sources internes (documentation officielle 2026, procédures, dashboards Planet'Connect) à partir d'instructions détaillées, chaque chiffre, règle et procédure a été vérifié aux sources et validé humainement, et les contenus générés ont été enrichis et arbitrés par l'équipe. La méthode complète et les principaux prompts sont présentés en annexe V.
 
 ## Confidentialité
 
