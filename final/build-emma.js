@@ -912,6 +912,8 @@ function tocChildren() {
     if (m) {
       kids.push(new TextRun({ text: m[2], bold: true, size: 17, color: labelColor, font: LABEL }));
       kids.push(new TextRun({ text: '   ' + m[3], size: 18, color: INK }));
+      // socle à maîtriser avant J+30 (marqué d'un point plein)
+      if (['00', '02', '04', '06', '08', '13', 'B'].includes(m[2])) kids.push(new TextRun({ text: '  \u25cf', size: 13, color: labelColor }));
     } else {
       kids.push(new TextRun({ text: h.text, bold: true, size: 18, color: INK }));
     }
@@ -967,6 +969,7 @@ function tocChildren() {
     sw(ORANGE), new TextRun({ text: 'Annexes', size: 16, color: INK }),
   ]));
   paras.push(lgLine([new TextRun({ text: 'L’onglet de bordure, les titres, les tableaux et les encadrés de repère de chaque chapitre suivent la couleur de sa partie.', size: 15, color: GRAY })]));
+  paras.push(lgLine([new TextRun({ text: '\u25cf  ', bold: true, size: 15, color: DEEP_OF[TEAL] }), new TextRun({ text: 'Le socle : six chapitres et la fiche r\u00e9flexe (annexe B) \u00e0 ma\u00eetriser avant J+30 (certification en annexe S) - le reste se consulte quand le cas se pr\u00e9sente.', size: 15, color: GRAY })]));
   paras.push(lgTitle('LES ENCADRÉS'));
   paras.push(lgLine([sw(TEAL), new TextRun({ text: 'REPÈRE', bold: true, size: 15, color: DEEP_OF[TEAL] }), new TextRun({ text: ' - contexte et points d’appui (teinte de la partie)', size: 15, color: GRAY })]));
   paras.push(lgLine([sw(ORANGE), new TextRun({ text: 'LE CONSEIL / LE POINT DE VIGILANCE', bold: true, size: 15, color: ORANGE }), new TextRun({ text: ' - bonnes pratiques et pièges', size: 15, color: GRAY })]));

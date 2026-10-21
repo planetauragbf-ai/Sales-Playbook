@@ -9,7 +9,7 @@ Chaque fiche se lit en une page : qui est le compte (ou le décideur), ce qu'il 
 
 ## L'étude de validation : 70 contacts réels croisés avec les cinq personas
 
-Méthode (octobre 2026) : croisement de trois sources internes réelles - 40 contacts professionnels distincts extraits des échanges email 2024-2026 (rôle lu dans la signature chaque fois que disponible), 30 contacts avec fonction explicite issus des bases de données salons et CRM, le top 10 clients - et de 15 avis Google publics. Les fournisseurs, transporteurs, partenaires et contacts internes sont exclus.
+Méthode (octobre 2026) : croisement de quatre sources internes réelles - 40 contacts professionnels distincts extraits des échanges email 2024-2026 (rôle lu dans la signature chaque fois que disponible), 30 contacts avec fonction explicite issus des bases de données salons et CRM, le top 10 clients, et 47 réponses aux trois enquêtes clients menées par Planet Aura (ci-dessous) - complétées par 15 avis Google publics. Les fournisseurs, transporteurs, partenaires et contacts internes sont exclus.
 
 | Persona | Contacts réels | Rôles réels observés | Verdict |
 |---|---|---|---|
@@ -25,6 +25,18 @@ Trois ajustements intégrés aux fiches et au chap. 07, et un angle mort identif
 2. **Le directeur commercial (D) se rencontre d'abord en salon** - c'est le premier rôle des bases salons, y compris dans des domaines familiaux - mais dans les grandes maisons, l'interlocuteur quotidien est l'ADV ou le customer care, pas le directeur.
 3. **Le segment conciergerie/œnotourisme hors caveau est quasi absent des flux réels** (un seul cas) : la pondération de l'ICP 4 s'appuie sur les organisateurs de salons et prescripteurs, qui eux génèrent du flux réel.
 4. **L'angle mort : les assistants ADV, comptables et responsables logistique** - une dizaine de contacts réels, ce sont les utilisateurs quotidiens de la plateforme (saisies, SEPA, factures, suivis en masse). Ils ne justifient pas une sixième fiche : ils s'adressent par le **comité d'achat** (chap. 07), qui couvre déjà ces rôles - mais toute formation caveau doit inclure l'ADV.
+
+## Le volet enquêtes : 47 réponses de clients et prospects
+
+Trois enquêtes menées par Planet Aura apportent la validation qualitative directe des besoins - des réponses écrites par les clients eux-mêmes, pas des suppositions :
+
+| Enquête | Réponses | Ce qu'elle établit |
+|---|---|---|
+| Satisfaction 2024 (janv.-févr. 2025) | 23 clients | Note globale **4,65/5** (aucune note sous 4), recommandation **4,87/5**, 100 % jugent l'équipe professionnelle et courtoise, 95 % satisfaits du SAV. Dits par les clients : suivi colis à préciser, délais USA, prix perçu « moyennement compétitif » par 43 % |
+| Transport écologique - clients (2025) | 20 clients | Qualité « excellente » 80 %, « bonne » 20 %. Forces citées : réactivité (75 %), qualité de service (70 %), accompagnement (65 %). À améliorer : suivi (35 %), tarification (35 %). 60 % intéressés par l'offre voilier, 60 % prêts à mutualiser |
+| Voilier-cargo - prospects (2025) | 4 prospects | 100 % intéressés, 75 % acceptent un surcoût jusqu'à +10 %, 100 % y voient une offre « plusieurs fois par an » (série limitée), 75 % un argument commercial clair |
+
+Ce que les enquêtes valident, persona par persona : pour **A**, la gestion douanes et taxes US comme « gros point fort » (Cave Henri IV) et la réactivité sur les casses (Vignobles Jade) ; pour **B**, le simulateur au comptoir - « pour informer en direct nos clients » (La Cavale, Domaine de Marie) - et les mails qui rassurent les visiteurs (Famille Gonnet) ; pour **C**, l'export comme relais de croissance : « **30 % de commandes en plus par rapport à 2023** » (La Maison du Vouvray, caviste) ; pour **D**, l'ouverture de marchés (« Corée & Taïwan » - Clos Fleurus), l'intégration aux logiciels (Wineriz - Domaine la Barroche) et le groupage dégressif (Dalmeran) ; pour **E**, la réassurance - « les clients USA s'inquiètent très souvent de savoir où est leur colis » (Famille Gonnet) - et le prix tout compris - « le client ne comprend pas les suppléments » (La Barroche). Limites assumées : une casse non résolue signalée (relancée au SAV) et le prix perçu, traité à l'objection O-1 (chap. 13).
 
 ## Les entretiens de validation : la voix réelle de chaque persona
 

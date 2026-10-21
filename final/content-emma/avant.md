@@ -130,6 +130,8 @@ Il est construit à partir de la documentation officielle 2026 (CGS, grilles shi
 | En charge du suivi adhérents | Chap. 16, 17 |
 | Manager commercial | Chap. 09, 15, 17, 18 |
 
+**Maîtriser ou consulter.** Tout n'est pas à apprendre par cœur. Le **socle** - chap. 00, 02, 04, 06, 08 et 13, les six règles d'or ci-dessous et la fiche réflexe (annexe B) - se maîtrise avant J+30 et fait l'objet de la certification (annexe S) : il est marqué d'un ● au sommaire. Tout le reste est de la **référence**, à consulter quand le cas se présente : conformité par pays, procédures SAV, scripts complets, annexes documentaires.
+
 **Les termes reliés au glossaire.** À leur première apparition dans un chapitre, les termes définis au glossaire (annexe T) sont affichés dans la couleur de la partie et soulignés de pointillés : dans la version numérique, un clic renvoie directement à leur définition.
 
 ## Les six règles d'or

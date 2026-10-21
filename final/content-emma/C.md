@@ -43,6 +43,19 @@ Avant de citer un chiffre en RDV, dans un email ou dans une proposition, identif
 
 > ⚠️ **LE POINT DE VIGILANCE -** Le glissement classique : une hypothèse (niveau 4) répétée trois fois en réunion devient un « fait » dans un email client. C'est exactement ce que cette hiérarchie empêche.
 
+## Les enquêtes internes : la satisfaction mesurée
+
+Trois enquêtes clients menées par Planet Aura (47 réponses, 2024-2025 - détail et validation des personas en annexe A). Preuve de **niveau 1** : source interne documentée, citable en proposition.
+
+```stats
+4,65/5|note globale moyenne - enquête satisfaction 2024 (23 réponses, aucune note sous 4)
+4,87/5|probabilité de recommandation (20 notes « 5 » sur 23)
+100 %|jugent l'équipe professionnelle et courtoise · 80 % de service « excellent »
++30 %|de commandes 2024 vs 2023 chez un caviste adhérent (La Maison du Vouvray)
+```
+
+Le point faible assumé par l'enquête : le prix, perçu « moyennement compétitif » par 43 % des répondants - le contre-argument chiffré (coût complet, promotions qui « boostent les expéditions », année record d'un adhérent) est à l'objection O-1 (chap. 13).
+
 ## La banque d'avis Google : qui citer, pour prouver quoi
 
 Quinze avis publics de la fiche Google Planet Aura, sélectionnés et annotés. Citer **mot pour mot**, montrer la fiche en direct sur le téléphone du prospect, et choisir l'avis qui répond à la situation - jamais un avis générique. Les avis de clients finaux servent d'abord à rassurer l'adhérent sur l'expérience que vivront **ses** clients.
