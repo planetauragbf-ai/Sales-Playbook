@@ -55,7 +55,6 @@ Les dix fiches maquettées, dans l'ordre - chaque ICP précise son poids dans l'
 | Persona D | Le directeur commercial de maison de Champagne | Arbitre économique |
 | Persona E | Le client final étranger | Celui qu'il faut rassurer au comptoir |
 
-\page
 
 ## ICP 1 - Domaine ou château avec caveau
 

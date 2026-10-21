@@ -832,10 +832,10 @@ function partOpener(p) {
 // ---------- couverture ----------
 function coverChildren() {
   return [
-    new Paragraph({ spacing: { before: 420 }, children: [] }),
-    new Paragraph({ alignment: AlignmentType.CENTER, children: [imgAuto('pics/logo_wordmark_nu.png', 210)] }),
+    new Paragraph({ spacing: { before: 220 }, children: [] }),
+    new Paragraph({ alignment: AlignmentType.CENTER, children: [imgAuto('pics/logo_btlplane.png', 150)] }),
     new Paragraph({
-      alignment: AlignmentType.CENTER, spacing: { before: 420 },
+      alignment: AlignmentType.CENTER, spacing: { before: 290 },
       children: [new TextRun({ text: 'Sales', bold: true, size: 104, color: NAVY, font: SERIF })]
     }),
     new Paragraph({
@@ -850,27 +850,27 @@ function coverChildren() {
       alignment: AlignmentType.CENTER, spacing: { before: 170 },
       children: [new TextRun({ text: 'Faire voyager chaque colis dans les règles, intact, à temps, partout dans le monde.', italics: true, size: 23, color: GRAY, font: SERIF })]
     }),
-    new Paragraph({ alignment: AlignmentType.CENTER, spacing: { before: 300 }, children: [imgAuto('pics/photo_cover.png', 200)] }),
+    new Paragraph({ alignment: AlignmentType.CENTER, spacing: { before: 230 }, children: [imgAuto('pics/photo_cover.png', 185)] }),
     new Paragraph({
       alignment: AlignmentType.CENTER, spacing: { before: 300 },
-      children: [new TextRun({ text: 'COMMISSIONNAIRE DE TRANSPORT  ·  CHAMPAGNES, VINS & SPIRITUEUX', bold: true, size: 17, color: TEALD })]
+      children: [new TextRun({ text: 'COMMISSIONNAIRE DE TRANSPORT  \u00b7  CHAMPAGNES, VINS & SPIRITUEUX', bold: true, size: 16, color: TEALD })]
     }),
     new Paragraph({
-      alignment: AlignmentType.CENTER, spacing: { before: 130 },
-      children: [new TextRun({ text: 'RÉSERVÉ À L’ÉQUIPE COMMERCIALE & MARKETING  ·  CONFIDENTIEL', bold: true, size: 16, color: NAVY })]
+      alignment: AlignmentType.CENTER, spacing: { before: 110 },
+      children: [new TextRun({ text: 'R\u00c9SERV\u00c9 \u00c0 L\u2019\u00c9QUIPE COMMERCIALE & MARKETING  \u00b7  CONFIDENTIEL', bold: true, size: 16, color: NAVY })]
     }),
     new Paragraph({
-      alignment: AlignmentType.CENTER, spacing: { before: 80 },
-      children: [new TextRun({ text: 'SARL Planet Aura - 185 avenue de Roquecourbe, 81100 Castres - www.planet-aura.com', size: 15, color: GRAY })]
+      alignment: AlignmentType.CENTER, spacing: { before: 110 },
+      children: [new TextRun({ text: 'SARL Planet Aura  \u00b7  185 avenue de Roquecourbe, 81100 Castres  \u00b7  www.planet-aura.com', size: 15, color: GRAY })]
     }),
-    new Paragraph({ alignment: AlignmentType.CENTER, spacing: { before: 220 }, children: [imgAuto('pics/logo_euridis.png', 130)] }),
+    new Paragraph({ alignment: AlignmentType.CENTER, spacing: { before: 160 }, children: [imgAuto('pics/logo_euridis.png', 120)] }),
     new Paragraph({
-      alignment: AlignmentType.CENTER, spacing: { before: 80 },
-      children: [new TextRun({ text: 'Rédigé par Emma Soares Britschgy - Mastère Marketing & Digital Business, promotion 547 (2024-2027)', size: 15, color: INK })]
+      alignment: AlignmentType.CENTER, spacing: { before: 110 },
+      children: [new TextRun({ text: 'R\u00e9dig\u00e9 par Emma Soares Britschgy  \u00b7  Mast\u00e8re Marketing & Digital Business, promotion 547 (2024-2027)', size: 15, color: INK })]
     }),
     new Paragraph({
-      alignment: AlignmentType.CENTER, spacing: { before: 40 },
-      children: [new TextRun({ text: 'Tutrice entreprise : Floriane Février  ·  Suivi académique : Thibaut du Cleuziou  ·  Euridis Business School', size: 15, color: GRAY })]
+      alignment: AlignmentType.CENTER, spacing: { before: 110 },
+      children: [new TextRun({ text: 'Tutrice entreprise : Floriane F\u00e9vrier  \u00b7  Suivi acad\u00e9mique : Thibaut du Cleuziou  \u00b7  Euridis Business School', size: 15, color: GRAY })]
     }),
   ];
 }
@@ -1195,7 +1195,7 @@ sections.push({
           margins: { top: 400, bottom: 400, left: 500, right: 500 },
           children: [
             new Paragraph({ spacing: { before: 2600 }, children: [] }),
-            new Paragraph({ alignment: AlignmentType.CENTER, children: [imgAuto('pics/logo_btlplane_white.png', 105)] }),
+            new Paragraph({ alignment: AlignmentType.CENTER, children: [imgAuto('pics/logo_wordmark_nu_white.png', 165)] }),
             new Paragraph({
               alignment: AlignmentType.CENTER, spacing: { before: 620, after: 160 },
               children: [new TextRun({ text: 'S A L E S   P L A Y B O O K   2 0 2 6', bold: true, size: 20, color: '9EC5CE', font: LABEL })]
