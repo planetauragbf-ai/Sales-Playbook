@@ -833,7 +833,7 @@ function partOpener(p) {
 function coverChildren() {
   return [
     new Paragraph({ spacing: { before: 420 }, children: [] }),
-    new Paragraph({ alignment: AlignmentType.CENTER, children: [imgAuto('pics/logo_wordmark.png', 150)] }),
+    new Paragraph({ alignment: AlignmentType.CENTER, children: [imgAuto('pics/logo_wordmark_nu.png', 210)] }),
     new Paragraph({
       alignment: AlignmentType.CENTER, spacing: { before: 420 },
       children: [new TextRun({ text: 'Sales', bold: true, size: 104, color: NAVY, font: SERIF })]

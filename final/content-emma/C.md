@@ -18,7 +18,7 @@
 
 1. **Simuler le prix** : Planet'Connect → Simulateur → destination + nombre de bouteilles (afficher transport + estimation des taxes DDP).
 2. **Vérifier** : adresse complète **sans PO Box**, email + téléphone du client, bouteilles ≤ 21° avec CRD.
-3. **Encaisser le vin** (vous) + **le service** (order form CB - pas d'Amex - ou lien de paiement, ou SEPA magasin).
+3. **Encaisser le vin** (vous) + **le service** : mandat SEPA du magasin par défaut, ou CB du client final (order form - pas d'Amex - ou lien de paiement).
 4. **Saisir la commande** sur Planet'Connect : produits, quantités, **valeur déclarée exacte** (base de l'assurance), incoterm DDP/DAP, date d'enlèvement souhaitée.
 5. **Emballer** dans les cartons Planet Aura (ou polystyrène certifié), pochette documents à l'extérieur, champagne hors UE : **les 2 pages originales du certificat CIVC** dans la pochette.
 6. **Remettre au transporteur** uniquement les produits déclarés.
@@ -67,7 +67,7 @@ Quand le temps manque (salon, appel entrant, relance) : une réponse courte, pui
 ## Checklist signature → activation
 
 - Documentation 2026 signée électroniquement (CGS + grilles).
-- Mode de paiement défini (CB client / mandat SEPA signé).
+- Mode de paiement défini : mandat SEPA signé par défaut, virement accepté, CB (client final ou adhérent) si nécessaire.
 - 1er lot de cartons commandé (110 € HT) + formats 1 et 3 bouteilles (gratuits).
 - Fiche adhérent transmise à l'exploitation (adresse d'enlèvement, contacts, horaires, particularités).
 - Formation caveau planifiée (30 min) et réalisée.
