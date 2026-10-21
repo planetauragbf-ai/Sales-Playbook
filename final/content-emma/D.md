@@ -63,7 +63,7 @@ Le formulaire POA officiel vierge (6 pages) est reproduit en annexe T.
 
 ## Norvège - raisonner en Sud/Nord, jamais en numéro de zone
 
-Deux zones logistiques aux tarifs et délais distincts (annexe A) : **Sud** (Oslo, Akershus, Østfold, Vestfold, Telemark, Buskerud, Innlandet, Vestland, Møre og Romsdal, Rogaland, Agder) et **Nord** (Finnmark, Troms, Nordland, Trøndelag). Une carte interne inverse la numérotation des zones : raisonnez et communiquez **toujours en « Sud » / « Nord » et par comté, jamais en numéro de zone**, et vérifiez la zone du destinataire sur Planet'Connect avant de chiffrer (chap. 04).
+Deux zones logistiques aux tarifs et délais distincts (annexe A) : **Sud** (Oslo, Akershus, Østfold, Vestfold, Telemark, Buskerud, Innlandet, Vestland, Møre og Romsdal, Rogaland, Agder) et **Nord** (Finnmark, Troms, Nordland, Trøndelag). Sur la carte 2026 (annexe P), la **Zone 1 est le Nord** et la **Zone 2 le Sud** : communiquez en « Sud » / « Nord » et par comté, et vérifiez la zone du destinataire sur Planet'Connect avant de chiffrer (chap. 04).
 
 ## Royaume-Uni & Suisse - la simplicité hors UE
 

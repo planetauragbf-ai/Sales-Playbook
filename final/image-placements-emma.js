@@ -40,7 +40,7 @@ module.exports = {
   ],
   '15': [
     { after: 'Planet’Connect|Planet.Connect|outils de la fonction', img: 'pics/pc_shippings.png', w: 398, caption: 'La liste « Vos shippings » et leurs statuts dans Planet’Connect (capture réelle)' },
-    { after: 'mails automatiques|Sales Operations|rituels', img: 'pics/mails_cascade.png', w: 392, caption: 'Les mails automatiques Planet’Connect : déclencheurs et cascades (vue admin)' },
+    { after: 'mails automatiques|Sales Operations|rituels', img: 'pics/mails_admin2026.png', w: 400, caption: 'Les 30 mails automatiques Planet’Connect : déclencheurs et cascades, par famille' },
   ],
   '16': [
     { after: 'sinistre', img: 'diagrams/d13_arbre.png', w: 436, caption: 'Sinistres : l’arbre décisionnel officiel 2026 - RXP ou remboursement' },
@@ -90,9 +90,9 @@ module.exports['O'] = [
   { after: '^La face extérieure$|^La face extérieure', img: 'pics/flyer1.png', w: 460, caption: 'Flyer de prospection - face extérieure' },
 ];
 module.exports['P'] = [
-  { after: '^Les cartes officielles', img: 'pics/usmap1.png', w: 520, caption: 'États-Unis - couverture groupage vin (ouvert / codes postaux limités / fermé)' },
-  { after: '^Les cartes officielles', img: 'pics/usmap3.png', w: 520, caption: 'États-Unis - carte de référence des statuts par État' },
-  { after: '^Les cartes officielles', img: 'pics/norway2.png', w: 420, caption: 'Norvège - les deux zones tarifaires (lire Sud/Nord, jamais le numéro)' },
+  { after: '^Les cartes officielles', img: 'pics/usmap_groupage2026.png', w: 540, caption: 'États-Unis, carte 2026 - couverture groupage vin : ouvert / fermé / certains codes postaux (Vermont : prestataire interne après regroupement)' },
+  { after: '^Les cartes officielles', img: 'pics/usmap_statuts2026.png', w: 540, caption: 'États-Unis, carte 2026 - la référence des statuts par État : groupage et envoi direct' },
+  { after: '^Les cartes officielles', img: 'pics/norway_zones2026.png', w: 470, caption: 'Norvège, carte 2026 - Zone 1 : Nord, Zone 2 : Sud' },
 ];
 // Annexe G - organigramme
 module.exports['G'] = [

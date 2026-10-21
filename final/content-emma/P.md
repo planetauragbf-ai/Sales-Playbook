@@ -2,7 +2,7 @@
 
 *Les cartes de référence à vérifier avant d'annoncer une faisabilité - l'État, puis le code postal (chap. 04 et annexe D).*
 
-> ⚠️ **LE POINT DE VIGILANCE -** Pour la Norvège, raisonner uniquement en zones Sud/Nord et par comté - jamais en numéro de zone : la carte ci-dessous numérote les zones à l'inverse de la grille tarifaire (annexe A) - toujours dire Sud ou Nord, jamais un numéro.
+> ⚠️ **LE POINT DE VIGILANCE -** Pour la Norvège, annoncer la zone en disant **Sud ou Nord** et vérifier le **comté** : sur la carte 2026 ci-dessous, la Zone 1 est le Nord (Finnmark, Troms, Nordland, Trøndelag) et la Zone 2 le Sud. Avant de chiffrer, contrôler la correspondance avec la grille tarifaire (annexe A) - en cas d'écart, la grille et Planet'Connect font foi.
 
 En rendez-vous : vérifier l'État sur la carte, puis le code postal dans les listes ci-dessous avant tout engagement. Au moindre doute, Planet'Connect ou l'exploitation tranche.
 

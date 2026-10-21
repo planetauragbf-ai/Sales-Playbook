@@ -833,7 +833,7 @@ function partOpener(p) {
 function coverChildren() {
   return [
     new Paragraph({ spacing: { before: 420 }, children: [] }),
-    new Paragraph({ alignment: AlignmentType.CENTER, children: [img('pics/logo.png', 150, 150)] }),
+    new Paragraph({ alignment: AlignmentType.CENTER, children: [imgAuto('pics/logo_wordmark.png', 150)] }),
     new Paragraph({
       alignment: AlignmentType.CENTER, spacing: { before: 420 },
       children: [new TextRun({ text: 'Sales', bold: true, size: 104, color: NAVY, font: SERIF })]
@@ -1195,7 +1195,7 @@ sections.push({
           margins: { top: 400, bottom: 400, left: 500, right: 500 },
           children: [
             new Paragraph({ spacing: { before: 2600 }, children: [] }),
-            new Paragraph({ alignment: AlignmentType.CENTER, children: [img('pics/logo.png', 120, 120)] }),
+            new Paragraph({ alignment: AlignmentType.CENTER, children: [imgAuto('pics/logo_btlplane_white.png', 105)] }),
             new Paragraph({
               alignment: AlignmentType.CENTER, spacing: { before: 620, after: 160 },
               children: [new TextRun({ text: 'S A L E S   P L A Y B O O K   2 0 2 6', bold: true, size: 20, color: '9EC5CE', font: LABEL })]
