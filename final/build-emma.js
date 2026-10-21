@@ -34,10 +34,11 @@ const SANS = 'Inter';
 const LABEL = 'Poppins';
 const PBORDEAUX = '722F45';
 const POCRE = 'C6A15B';
+const PBLEU = '9EC5CE'; // annexes - couleur claire : textes posés dessus en pétrole
 // Déclinaisons par accent de partie : variante foncée (petits textes, en-têtes de tableaux)
 // et teinte claire (fonds d'encadrés) - cohérence de couleurs au sein de chaque partie.
-const DEEP_OF = { [TEAL]: '20768B', [PBORDEAUX]: '722F45', [POCRE]: '8A6A33', [NAVY]: NAVY, [ORANGE]: 'C2520A' };
-const TINT_OF = { [TEAL]: 'EAF3F6', [PBORDEAUX]: 'F6EEF1', [POCRE]: 'F8F3E9', [NAVY]: 'EAF0F4', [ORANGE]: 'FDEFE2' };
+const DEEP_OF = { [TEAL]: '20768B', [PBORDEAUX]: '722F45', [POCRE]: '8A6A33', [NAVY]: NAVY, [ORANGE]: 'C2520A', [PBLEU]: '3C7886' };
+const TINT_OF = { [TEAL]: 'EAF3F6', [PBORDEAUX]: 'F6EEF1', [POCRE]: 'F8F3E9', [NAVY]: 'EAF0F4', [ORANGE]: 'FDEFE2', [PBLEU]: 'EFF6F8' };
 
 // A4
 const PAGE = { width: 11906, height: 16838 };
@@ -67,7 +68,7 @@ const PARTS = {
   '06': { big: '2', col: PBORDEAUX, tab: 'PARTIE 2 · CIBLER', rom: 'II', num: 'PARTIE 2', title: 'Définir les cibles et les solutions adaptées', sub: 'Les bons comptes, les bonnes réponses', chapters: ['06 · Profils de clients idéaux (ICP)', '07 · Personas et acteurs de la décision', '08 · Correspondance entre enjeux et solutions'] },
   '09': { big: '3', col: POCRE, tab: 'PARTIE 3 · VENDRE', rom: 'III', num: 'PARTIE 3', title: 'Formaliser la prospection et la vente', sub: 'Du premier contact à la signature', chapters: ['09 · Processus d’acquisition et pipeline', '10 · Séquences de prospection et scripts', '11 · Qualification et processus de vente', '12 · Conduite des entretiens (méthode SPIN)', '13 · Argumentaires et objections'] },
   '14': { big: '4', col: NAVY, tab: 'PARTIE 4 · PILOTER', rom: 'IV', num: 'PARTIE 4', title: 'Fournir les outils et organiser le pilotage', sub: 'Outiller, mesurer, faire vivre', chapters: ['14 · Ressources d’aide à la vente', '15 · Organisation et outils', '16 · Activation, fidélisation et SAV', '17 · Indicateurs et méthode de suivi', '18 · Mise à jour et appropriation'] },
-  'A': { big: 'A', col: ORANGE, tab: 'ANNEXES', rom: 'V', num: 'ANNEXES', title: 'Annexes', sub: 'Documents complémentaires', chapters: ['A · Fiches ICP & personas', 'B · Fiche réflexe, checklists et modèles', 'C · Chiffres officiels, preuve et avis', 'D · Banque des 26 objections', 'E · Scripts multicanaux et banque SPIN', 'F · Grille tarifaire shipping 2026', 'G · Grille stockage & picking 2026', 'H · Order Form 2026', 'I · Mandat SEPA', 'J · CGS : l\u2019essentiel', 'K · Conformité et fiches pays', 'L · Cartes de zones USA & Norvège', 'M · POA Canada : formulaire vierge', 'N · Certificat de Champagne', 'O · Mode d\u2019emploi Planet\u2019Connect', 'P · Manuel utilisateur & procédure Suède', 'Q · Formulaire de shipping par email', 'R · Planet\u2019Stock en images', 'S · Flyer de prospection', 'T · Organigramme et documents officiels', 'U · Parcours d\u2019onboarding 0-90 jours', 'V · Glossaire', 'W · Liens utiles', 'X · Transparence IA : méthode et prompts'] },
+  'A': { big: 'A', col: PBLEU, tab: 'ANNEXES', rom: 'V', num: 'ANNEXES', title: 'Annexes', sub: 'Documents complémentaires', chapters: ['A · Fiches ICP & personas', 'B · Fiche réflexe, checklists et modèles', 'C · Chiffres officiels, preuve et avis', 'D · Banque des 26 objections', 'E · Scripts multicanaux et banque SPIN', 'F · Grille tarifaire shipping 2026', 'G · Grille stockage & picking 2026', 'H · Order Form 2026', 'I · Mandat SEPA', 'J · CGS : l\u2019essentiel', 'K · Conformité et fiches pays', 'L · Cartes de zones USA & Norvège', 'M · POA Canada : formulaire vierge', 'N · Certificat de Champagne', 'O · Mode d\u2019emploi Planet\u2019Connect', 'P · Manuel utilisateur & procédure Suède', 'Q · Formulaire de shipping par email', 'R · Planet\u2019Stock en images', 'S · Flyer de prospection', 'T · Organigramme et documents officiels', 'U · Parcours d\u2019onboarding 0-90 jours', 'V · Glossaire', 'W · Liens utiles', 'X · Transparence IA : méthode et prompts'] },
 };
 
 // ---- Sommaire interactif
@@ -425,7 +426,7 @@ function spacerPara(after) { const p = new Paragraph({ spacing: { after }, child
 
 // ---- Fiches ICP & personas natives (annexe A) : composition directe, gabarit maquette
 function ficheBody(f) {
-  const FDEEP = DEEP_OF[ORANGE];
+  const FDEEP = DEEP_OF[PBLEU];
   const NOB = { style: BorderStyle.NONE };
   const noB = { top: NOB, bottom: NOB, left: NOB, right: NOB, insideHorizontal: NOB, insideVertical: NOB };
   const out = [];
@@ -865,12 +866,15 @@ const PART_OF_UNIT = {};
 function partOpener(p) {
   // chaque chapitre list\u00e9 est cliquable (ancre \u00ab chap<id> \u00bb pos\u00e9e sur la t\u00eate de chapitre)
   const twoCol = p.chapters.length > 12; // annexes : liste sur deux colonnes
+  const light = p.col === PBLEU; // fond clair : textes en p\u00e9trole
+  const cMain = light ? NAVY : 'FFFFFF';
+  const cSub = light ? '2E5B66' : 'F2E9E4';
   const mkLine = (c) => {
     const m = c.match(/^([0-9A-X]{1,2})\s*\u00b7\s*(.*)$/);
     const runs = m ? [
-      new TextRun({ text: m[1], bold: true, size: twoCol ? 20 : 23, color: 'FFFFFF', font: SERIF }),
-      new TextRun({ text: '    ' + m[2], size: twoCol ? 18 : 22, color: 'F2E9E4' }),
-    ] : [new TextRun({ text: c, size: twoCol ? 18 : 22, color: 'F2E9E4' })];
+      new TextRun({ text: m[1], bold: true, size: twoCol ? 20 : 23, color: cMain, font: SERIF }),
+      new TextRun({ text: '    ' + m[2], size: twoCol ? 18 : 22, color: cSub }),
+    ] : [new TextRun({ text: c, size: twoCol ? 18 : 22, color: cSub })];
     return new Paragraph({
       spacing: { after: twoCol ? 72 : 88 },
       children: m ? [new InternalHyperlink({ anchor: 'chap' + m[1], children: runs })] : runs
@@ -914,24 +918,24 @@ function partOpener(p) {
           children: [
             new Paragraph({
               spacing: { after: 160 },
-              children: [new TextRun({ text: p.num.split('').join(' '), bold: true, size: 20, color: 'FFFFFF', font: LABEL })]
+              children: [new TextRun({ text: p.num.split('').join(' '), bold: true, size: 20, color: cMain, font: LABEL })]
             }),
             new Paragraph({
               spacing: { after: 120 },
-              children: [new TextRun({ text: p.big, bold: true, size: 170, color: 'FFFFFF', font: SERIF })]
+              children: [new TextRun({ text: p.big, bold: true, size: 170, color: cMain, font: SERIF })]
             }),
             new Paragraph({
               spacing: { after: 120 },
-              children: [new TextRun({ text: p.title, bold: true, size: 54, color: 'FFFFFF', font: SERIF })]
+              children: [new TextRun({ text: p.title, bold: true, size: 54, color: cMain, font: SERIF })]
             }),
             new Paragraph({
               spacing: { after: 600 },
-              children: [new TextRun({ text: p.sub, italics: true, size: 26, color: 'F2E9E4', font: SERIF })]
+              children: [new TextRun({ text: p.sub, italics: true, size: 26, color: cSub, font: SERIF })]
             }),
             new Paragraph({
-              border: { top: { style: BorderStyle.SINGLE, size: 6, color: 'FFFFFF' } },
+              border: { top: { style: BorderStyle.SINGLE, size: 6, color: cMain } },
               spacing: { before: 100, after: 180 },
-              children: [new TextRun({ text: 'D A N S   C E T T E   P A R T I E', bold: true, size: 14, color: 'FFFFFF', font: LABEL })]
+              children: [new TextRun({ text: 'D A N S   C E T T E   P A R T I E', bold: true, size: 14, color: cMain, font: LABEL })]
             }),
             ...chapterLines,
           ]
@@ -1083,7 +1087,7 @@ function tocChildren() {
     sw(PBORDEAUX), new TextRun({ text: 'Cibler   ', size: 16, color: INK }),
     sw(POCRE), new TextRun({ text: 'Vendre   ', size: 16, color: INK }),
     sw(NAVY), new TextRun({ text: 'Piloter   ', size: 16, color: INK }),
-    sw(ORANGE), new TextRun({ text: 'Annexes', size: 16, color: INK }),
+    sw(PBLEU), new TextRun({ text: 'Annexes', size: 16, color: INK }),
   ]));
   paras.push(lgLine([new TextRun({ text: 'L’onglet de bordure, les titres, les tableaux et les encadrés de repère de chaque chapitre suivent la couleur de sa partie.', size: 15, color: GRAY })]));
   paras.push(lgLine([new TextRun({ text: '\u25cf  ', bold: true, size: 15, color: DEEP_OF[TEAL] }), new TextRun({ text: 'Le socle : six chapitres et la fiche r\u00e9flexe (annexe B) \u00e0 ma\u00eetriser avant J+30 (certification en annexe S) - le reste se consulte quand le cas se pr\u00e9sente.', size: 15, color: GRAY })]));
@@ -1105,7 +1109,7 @@ function tocChildren() {
 // ---------- en-têtes / pieds ----------
 const TAB_IMG = { 0: 'tab-p1', 1: 'tab-p2', 2: 'tab-p3', 3: 'tab-p4', 4: 'tab-ann' };
 // fond pleine page (image flottante derrière le contenu, bord à bord)
-const BG_OF = { [TEAL]: 'bg-teal', [PBORDEAUX]: 'bg-bordeaux', [POCRE]: 'bg-ocre', [NAVY]: 'bg-navy', [ORANGE]: 'bg-orange' };
+const BG_OF = { [TEAL]: 'bg-teal', [PBORDEAUX]: 'bg-bordeaux', [POCRE]: 'bg-ocre', [NAVY]: 'bg-navy', [ORANGE]: 'bg-orange', [PBLEU]: 'bg-bleuclair' };
 function bgRun(name) {
   const data = fs.readFileSync(path.join(A, `diagrams/${name}.png`));
   const PX = 9525;
@@ -1122,8 +1126,9 @@ function bgRun(name) {
 }
 
 // logotype secondaire blanc, posé en bas à gauche des pages d'ouverture de partie
-function openerLogoRun() {
-  const data = fs.readFileSync(path.join(A, 'pics/logo_wordmark_nu_white.png'));
+function openerLogoRun(light) {
+  // sur fond clair (annexes), le logotype d'origine en bleu pétrole ; sinon la version blanche
+  const data = fs.readFileSync(path.join(A, light ? 'pics/logo_wordmark_nu.png' : 'pics/logo_wordmark_nu_white.png'));
   const PX = 9525;
   const w = 128, h = Math.round(324 / 635 * 128);
   return new ImageRun({
@@ -1291,7 +1296,7 @@ UNITS.filter(u => u.id !== 'avant').forEach(u => {
     },
     headers: {
       default: mkHeader(headTxt, tabOf(u.id)),
-      ...(isPartStart ? { first: new Header({ children: [new Paragraph({ children: [bgRun(BG_OF[PARTS[u.id].col] || 'bg-teal'), openerLogoRun(), ...sideTabRun(tabOf(u.id))] })] }) } : {}),
+      ...(isPartStart ? { first: new Header({ children: [new Paragraph({ children: [bgRun(BG_OF[PARTS[u.id].col] || 'bg-teal'), openerLogoRun(PARTS[u.id].col === PBLEU), ...sideTabRun(tabOf(u.id))] })] }) } : {}),
     },
     footers: {
       default: mkFooter(tabOf(u.id)),
