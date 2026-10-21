@@ -47,8 +47,6 @@ Pour finir, mes pensées vont à ma famille pour son soutien constant tout au lo
 
 **Méthode et outils.** Ce document a été construit avec l'assistance d'une IA (Claude, Anthropic), créditée conformément au cahier des charges : l'IA a servi à structurer, croiser et mettre en forme les sources internes (documentation officielle 2026, procédures, dashboards Planet'Connect) à partir d'instructions détaillées, chaque chiffre, règle et procédure a été vérifié aux sources et validé humainement, et les contenus générés ont été enrichis et arbitrés par l'équipe.
 
-\page
-
 ## Confidentialité
 
 Ce Sales Playbook est un document de diffusion interne à Planet Aura, réservé à l'équipe commerciale, au marketing et à la direction. Une seule exception est autorisée : sa communication aux évaluateurs d'Euridis Business School, dans le strict cadre de l'évaluation du diplôme et avec l'accord de la direction - ces évaluateurs s'engagent alors à ne pas le reproduire, l'utiliser ou le communiquer à une autre fin.

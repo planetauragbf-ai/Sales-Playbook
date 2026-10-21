@@ -224,12 +224,29 @@ function pushTextLinks(runs, text, style) {
   URL_RE.lastIndex = 0;
   while ((m = URL_RE.exec(text)) !== null) {
     let url = m[1].replace(/[.,;:]+$/, '');
-    if (m.index > last) pushTextEmoji(runs, text.slice(last, m.index), style);
+    if (m.index > last) pushTextRefs(runs, text.slice(last, m.index), style);
     runs.push(new ExternalHyperlink({
       link: /^https?:\/\//.test(url) ? url : 'https://' + url,
       children: [new TextRun({ ...style, text: url, color: '20768B', underline: { type: UnderlineType.SINGLE, color: '20768B' } })]
     }));
     last = m.index + url.length;
+  }
+  if (last < text.length) pushTextRefs(runs, text.slice(last), style);
+}
+
+// renvois internes cliquables : « annexe X » vers la tête d'annexe, « chap. NN » vers la tête de chapitre
+const REF_RE = /([Aa]nnexes?\s+([A-Q])|[Cc]hap(?:itres?)?\.?\s*(0\d|1[0-8]))(?![A-Za-z0-9\u00c0-\u017f])/g;
+function pushTextRefs(runs, text, style) {
+  let last = 0, m;
+  REF_RE.lastIndex = 0;
+  while ((m = REF_RE.exec(text)) !== null) {
+    const target = m[2] || m[3];
+    if (m.index > last) pushTextEmoji(runs, text.slice(last, m.index), style);
+    runs.push(new InternalHyperlink({
+      anchor: 'chap' + target,
+      children: [new TextRun({ ...style, text: m[1].replace(/\s+/g, '\u00a0'), color: style.color && style.color !== INK ? style.color : TEALD, bold: true })]
+    }));
+    last = m.index + m[1].length;
   }
   if (last < text.length) pushTextEmoji(runs, text.slice(last), style);
 }
@@ -310,6 +327,19 @@ function parseTableBlock(lines, accent = TEALD, gloAnchors = false) {
         const term = (cells[0] || '').replace(/\*\*/g, '').trim();
         const slug = TERM_SLUG[term];
         if (slug) kids = [new Bookmark({ id: 'glo' + slug, children: cellRuns })];
+      }
+      // annexe E, dernière colonne : retour cliquable vers les chapitres qui citent le terme
+      if (gloAnchors && !isHeader && i === nCols - 1) {
+        const slug = TERM_SLUG[(cells[0] || '').replace(/\*\*/g, '').trim()];
+        const refs = (slug && typeof GLO_BACKREFS !== 'undefined' && GLO_BACKREFS[slug]) || [];
+        if (refs.length) {
+          kids = kids.concat([new TextRun({ text: '  ', size: 11, color: GRAY }), new TextRun({ text: '\u21a9\u00a0', size: 11, color: GRAY })]);
+          refs.slice(0, 8).forEach((rid, ri) => {
+            if (ri > 0) kids.push(new TextRun({ text: ' \u00b7 ', size: 11, color: GRAY }));
+            kids.push(new InternalHyperlink({ anchor: 'chap' + rid, children: [new TextRun({ text: rid, bold: true, size: 11, color: TEAL })] }));
+          });
+          if (refs.length > 8) kids.push(new TextRun({ text: ' \u2026', size: 11, color: GRAY }));
+        }
       }
       return new TableCell({
         width: { size: widths[i], type: WidthType.DXA },
@@ -400,8 +430,8 @@ function convertBody(md, unit, opts = {}) {
   const TINT = TINT_OF[ACC] || LTEAL;
   const gloId = (unit.id === 'E' || unit.id === 'avantpre' || unit.id === 'avantpre2') ? null : unit.id;
   const BODY = { size: 19, glo: gloId, gloAcc: DEEP };
-  const CP = opts.letter ? 150 : opts.compact ? 48 : 62;   // after des paragraphes
-  const CL = opts.letter ? 44 : opts.compact ? 14 : 16;   // after des listes
+  const CP = opts.letter ? 112 : opts.compact ? 48 : 62;   // after des paragraphes
+  const CL = opts.letter ? 36 : opts.compact ? 14 : 16;   // after des listes
 
   const tryPlace = (headingText) => {
     const out2 = [];
@@ -566,10 +596,21 @@ function convertBody(md, unit, opts = {}) {
         } else {
           out.push(kickerPara, titlePara);
           if (subPara) out.push(subPara);
+          const axRefs = (isAnnex && typeof ANNEX_BACKREFS !== 'undefined' && ANNEX_BACKREFS[unit.id]) || [];
           out.push(new Paragraph({
             border: { bottom: { style: BorderStyle.SINGLE, size: 11, color: ACC } },
-            spacing: { after: 170 }, children: []
+            spacing: { after: axRefs.length ? 70 : 170 }, children: []
           }));
+          // annexes : retour cliquable vers les chapitres qui renvoient à cette annexe
+          if (axRefs.length) {
+            const axKids = [new TextRun({ text: '\u21a9 CIT\u00c9E DANS LE TEXTE :  ', bold: true, size: 13, color: GRAY, font: LABEL })];
+            axRefs.slice(0, 10).forEach((rid, ri) => {
+              if (ri > 0) axKids.push(new TextRun({ text: '  \u00b7  ', size: 13, color: GRAY, font: LABEL }));
+              axKids.push(new InternalHyperlink({ anchor: 'chap' + rid, children: [new TextRun({ text: /^[A-Q]$/.test(rid) ? 'annexe\u00a0' + rid : 'chap.\u00a0' + rid, bold: true, size: 13, color: DEEP, font: LABEL })] }));
+            });
+            if (axRefs.length > 10) axKids.push(new TextRun({ text: '  \u2026', size: 13, color: GRAY, font: LABEL }));
+            out.push(new Paragraph({ spacing: { after: 150 }, children: axKids }));
+          }
         }
         out.push(...tryPlace(txt));
         i++; continue;
@@ -592,7 +633,7 @@ function convertBody(md, unit, opts = {}) {
         out.push(new Paragraph({
           heading: HeadingLevel.HEADING_3,
           keepNext: true,
-          spacing: { before: opts.letter ? 250 : 148, after: opts.letter ? 70 : 48 },
+          spacing: { before: opts.letter ? 190 : 148, after: opts.letter ? 56 : 48 },
           children: inlineRuns(txt.toUpperCase(), { bold: true, size: 18, color: DEEP, font: LABEL })
         }));
       } else {
@@ -699,7 +740,7 @@ function convertBody(md, unit, opts = {}) {
     if (h1Seen === 'skipnext') { h1Seen = true; i++; continue; }
 
     // une ligne d'annonce qui se termine par « : » reste collée au bloc qu'elle introduit
-    out.push(new Paragraph({ spacing: opts.letter ? { after: CP, line: 300, lineRule: 'auto' } : { after: CP }, keepNext: /:\s*$/.test(line.trim()), children: inlineRuns(line, BODY) }));
+    out.push(new Paragraph({ spacing: opts.letter ? { after: CP, line: 276, lineRule: 'auto' } : { after: CP }, keepNext: /:\s*$/.test(line.trim()), children: inlineRuns(line, BODY) }));
     i++;
   }
   // purge des espaceurs de fin d'unité (sinon un espaceur vide peut déborder seul sur une page blanche)
@@ -845,7 +886,7 @@ function tocChildren() {
   }));
   paras.push(new Paragraph({
     spacing: { after: 70 },
-    children: [new TextRun({ text: 'Sommaire', bold: true, size: 52, color: NAVY, font: SERIF })]
+    children: [new Bookmark({ id: 'sommaire', children: [new TextRun({ text: 'Sommaire', bold: true, size: 52, color: NAVY, font: SERIF })] })]
   }));
   paras.push(new Paragraph({
     spacing: { after: 260 },
@@ -985,6 +1026,11 @@ function mkHeader(leftText, tab, bgName) {
           new TextRun({ text: leftText, bold: true, size: 13, color: tab ? (DEEP_OF[tab.col] || TEALD) : TEALD, font: LABEL }),
           new TextRun({ text: '\t', size: 11 }),
           new TextRun({ text: 'S A L E S   P L A Y B O O K   2 0 2 6   \u00b7   I N T E R N E', size: 11, color: GRAY, font: LABEL }),
+          // retour au sommaire depuis chaque page (sauf le sommaire lui-même)
+          ...(leftText === 'SOMMAIRE' ? [] : [
+            new TextRun({ text: '   \u00b7   ', size: 11, color: GRAY, font: LABEL }),
+            new InternalHyperlink({ anchor: 'sommaire', children: [new TextRun({ text: '\u21a9 S O M M A I R E', bold: true, size: 11, color: tab ? (DEEP_OF[tab.col] || TEALD) : TEALD, font: LABEL })] }),
+          ]),
         ]
       }),
     ]
@@ -1023,6 +1069,28 @@ UNITS.forEach(u => {
     const t = u.id === 'avant' ? '# Avant de commencer' : (/^[A-G]$/.test(u.id) ? `# Annexe ${u.id} - (en cours)` : `# ${u.id} - (en cours)`);
     unitMd[u.id] = `${t}\n\n*Unité en cours de rédaction.*\n\n## En attente\n\nContenu à venir.\n`;
     console.log('placeholder:', u.id);
+  }
+});
+
+// renvois inverses : pour chaque terme du glossaire et chaque annexe, la liste
+// des chapitres qui les citent (ancres 'chap'+id posées sur chaque tête de chapitre)
+const GLO_BACKREFS = {}; // slug -> [ids d'unités]
+const ANNEX_BACKREFS = {}; // lettre d'annexe -> [ids d'unités]
+UNITS.filter(u => !['avant', 'E'].includes(u.id)).forEach(u => {
+  const md = unitMd[u.id];
+  if (GLO_RE) {
+    GLO_RE.lastIndex = 0;
+    const seen = new Set();
+    let mm;
+    while ((mm = GLO_RE.exec(md)) !== null) {
+      const slug = GLO_SLUG[mm[1]];
+      if (slug && !seen.has(slug)) { seen.add(slug); (GLO_BACKREFS[slug] = GLO_BACKREFS[slug] || []).push(u.id); }
+    }
+  }
+  const seenAx = new Set();
+  let ax; const AXRE = /annexes?\s+([A-Q])(?![A-Za-z])/g;
+  while ((ax = AXRE.exec(md)) !== null) {
+    if (ax[1] !== u.id && !seenAx.has(ax[1])) { seenAx.add(ax[1]); (ANNEX_BACKREFS[ax[1]] = ANNEX_BACKREFS[ax[1]] || []).push(u.id); }
   }
 });
 
