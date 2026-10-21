@@ -73,11 +73,10 @@ for (let i = 1; i <= 5; i++) module.exports['D'].push({ after: '^Le document off
 module.exports['E'] = [];
 for (let i = 1; i <= 3; i++) module.exports['E'].push({ after: '^Le document officiel', img: `annexes/grille_stock-${i}.png`, w: 505, caption: i === 3 ? 'Grille tarifaire stockage & picking 2026 - document officiel (3 pages)' : '' });
 module.exports['F'] = [
-  { after: '^Le formulaire officiel vierge', img: 'annexes/orderform-1.png', w: 505, caption: 'Order Form 2026 - formulaire officiel vierge' },
+  { after: '^Le formulaire officiel vierge', img: 'annexes/orderform-1.png', w: 425, caption: 'Order Form 2026 - formulaire officiel vierge' },
 ];
 module.exports['G'] = [
-  { after: '^Le document officiel', img: 'annexes/sepa-1.png', w: 505, caption: '' },
-  { after: '^Le document officiel', img: 'annexes/sepa-2.png', w: 505, caption: 'Mandat SEPA - document officiel (2 pages)' },
+  { after: '^Le document officiel', img: 'annexes/sepa-2.png', w: 440, caption: 'Mandat de pr\u00e9l\u00e8vement SEPA - formulaire officiel vierge' },
 ];
 module.exports['M'] = [
   { after: '^Couverture et sommaire', img: 'annexes/pconnect_cover-01.png', w: 330, caption: '' },
@@ -123,8 +122,15 @@ module.exports['P'] = [
   { after: '^Le picking par scan group\u00e9', img: 'annexes/planetstock-1.png', w: 505, caption: 'Planet\u2019Stock - pr\u00e9paration d\u2019un picking par scan group\u00e9 (capture r\u00e9elle)' },
   { after: '^La connexion', img: 'annexes/planetstock-2.png', w: 250, caption: 'Planet\u2019Stock - \u00e9cran de connexion' },
 ];
-module.exports['K'] = [];
-for (let i = 1; i <= 6; i++) module.exports['K'].push({ after: '^Le formulaire officiel vierge', img: `annexes/poa-${i}.png`, w: 505, caption: i === 6 ? 'POA Canada (General Agency Agreement) - formulaire officiel vierge (6 pages)' : '' });
+module.exports['K'] = [
+  { after: '^La page \u00e0 compl\u00e9ter', img: 'annexes/poa-2.png', w: 425, caption: 'POA Canada - la page \u00e0 compl\u00e9ter du General Agency Agreement (FedEx)' },
+];
 module.exports['L'] = [
   { after: 'Certificat de Champagne : un exemplaire', img: 'annexes/civc-1.png', w: 385, caption: 'Certificat de Champagne (CIVC) - exemplaire r\u00e9el' },
+];
+
+// Annexe N - manuel utilisateur : couverture et sommaire (extraits du document officiel)
+module.exports['N'] = [
+  { after: '^Couverture et sommaire', img: 'annexes/manuel-cover.png', w: 330, caption: '' },
+  { after: '^Couverture et sommaire', img: 'annexes/manuel-sommaire.png', w: 330, caption: 'Manuel utilisateur 2026 - couverture et sommaire (9 sections)' },
 ];

@@ -40,33 +40,4 @@ Six documents officiels accompagnent la vente et l'activation d'un adhérent. Il
 
 **Formulaire de shipping par email (A8)** - Le fichier Excel normalisé pour les adhérents qui préfèrent l'email à la plateforme. Deux onglets : **FORMULAIRE** (date de la demande, donneur d'ordre/facturation, lieu d'enlèvement, destinataire, détail des vins, incoterm) et **CONDITIONS D'EXPÉDITIONS**. Règle affichée sur le document : **tout formulaire incomplet est retourné** - d'où la fiche réflexe des 4 données (annexe B). À retourner à contact@planet-aura.com.
 
-## Catalogue des annexes documentaires (A1-A18) et statuts
-
-Statuts : **INCLUS** = intégré dans le corps du playbook ou ses annexes · **CAPTURE** = visuel intégré, original haute définition à joindre · **À FOURNIR** = à transmettre pour intégration à la prochaine édition.
-
-| Réf. | Annexe | Contenu attendu | Statut |
-|---|---|---|---|
-| A1 | Conditions Générales de Services 2026 | Texte intégral (17 articles + signature électronique) | **INCLUS** - synthèse en annexe H, texte intégral publié sur Planet'Connect |
-| A2 | Grille tarifaire shipping 2026 (FR) | Toutes les grilles par destination | **INCLUS** - reproduction intégrale en annexe D et chap. 04 |
-| A3 | Rate Schedule 2026 (EN) | Version anglaise remise aux clients finaux | **INCLUS** - grille de référence reprise en annexe D |
-| A4 | Grille tarifaire stockage & picking 2026 | Palettes, colis, fournitures, assurance | **INCLUS** - reproduite en annexe D |
-| A5 | Manuel utilisateur adhérent 2026 | PDF maquetté 19 pages (9 sections) | **INCLUS** en synthèse (annexe B) - PDF original **À FOURNIR** en pièce jointe d'édition |
-| A6 | Order Form 2026 | Bon de commande client final (EN) avec bloc CB | **INCLUS** - détaillé en annexe B |
-| A7 | Formulaire de mandat SEPA | Formulaire vierge officiel | **INCLUS** - formulaire vierge seul (voir l'interdit ci-dessous) |
-| A8 | Formulaire de shipping par email (xlsx) | Modèle Excel normalisé 2026 | **INCLUS** - modèle officiel décrit dans la présente annexe |
-| A9 | Mode d'emploi Planet'Connect (37 p.) | Manuel complet de la plateforme | **INCLUS** - sommaire repris dans la présente annexe |
-| A10 | Captures Planet'Connect | Simulateur, création de shipping, suivi, factures | **CAPTURE** (simulateur, chap. 04) - compléments (commande, factures) **À FOURNIR** |
-| A11 | Cartes des zones USA (vin & spiritueux) | Cartes choroplèthes par État, 3 statuts | **CAPTURE** (chap. 04 & annexe I) - originaux HD **À FOURNIR** |
-| A12 | Carte Norvège (2 zones) | Carte des comtés par zone tarifaire | **CAPTURE** (annexe I) |
-| A13 | Mails automatiques Planet'Connect | Liste des ~30 modèles en 6 familles + déclencheurs | **CAPTURE** (chap. 15 - toute modification passe par Emma) - export texte complet **À FOURNIR** |
-| A14 | Flyer de prospection tri-volet | Recto/verso du support remis en prospection | **CAPTURE** (annexe B & chap. 14) |
-| A15 | Certificat de Champagne (exemple) | Spécimen anonymisé des 2 pages CIVC | **À FOURNIR** |
-| A16 | POA USA & POA Canada (modèles) | Formulaires Power of Attorney envoyés aux destinataires | **À FOURNIR** (spécimens anonymisés) |
-| A17 | Kit PLV « We ship worldwide » | Affichette comptoir, chevalet, stickers - photos en situation | **À FOURNIR** |
-| A18 | Études de cas & témoignages clients | 2-3 cas chiffrés autorisés + verbatims adhérents | **À FOURNIR** (cf. programme chap. 14) |
-
-> ⚠️ **LE POINT DE VIGILANCE -** Les annexes marquées À FOURNIR sont attendues auprès de la direction/exploitation : transmettre les fichiers (PDF, scans, exports) pour intégration à l'édition suivante du playbook. Ne jamais diffuser à l'extérieur le mandat SEPA rempli ni un POA nominatif.
-
-> « Un playbook dont les annexes sont complètes fait gagner un rendez-vous : tout se montre séance tenante. »
-
-> 📌 **À RETENIR -** Cette annexe est vivante : chaque document À FOURNIR transmis (manuel utilisateur, POA, certificat CIVC, exports de mails, kit PLV, études de cas) est intégré à l'édition suivante. Avant tout envoi, vérifier que l'on tient bien la version 2026 en cours - les grilles sont révisées chaque année et seule la version publiée sur Planet'Connect fait foi.
+> 📌 **À RETENIR -** Avant tout envoi, vérifier que l'on tient la version 2026 en cours : les grilles sont révisées chaque année et seule la version publiée sur Planet'Connect fait foi. Ne jamais diffuser à l'extérieur un mandat SEPA rempli ni un POA nominatif.
