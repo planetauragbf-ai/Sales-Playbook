@@ -45,7 +45,7 @@ Enfin, je n’oublie pas mes camarades du Mastère Marketing & Digital Business 
 
 Pour finir, mes pensées vont à ma famille pour son soutien constant tout au long de mon parcours. Une pensée toute particulière pour mes grands-parents et ma mère, qui m’ont toujours encouragée, accompagnée et poussée à croire en mes projets et, également à Hugo, mon compagnon, pour sa patience dans mes périodes de doute.
 
-**Méthode et outils.** La mise en page de ce document a été assistée par une IA (Claude, Anthropic), créditée conformément au cahier des charges : maquette et pagination, sommaire interactif, ponts de navigation entre les pages (retours au sommaire, renvois cliquables vers les annexes et le glossaire), schémas dessinés dans la charte graphique et contrôles de mise en forme. Le fond - analyses, argumentaires, chiffres et procédures - est issu de la documentation officielle 2026, des dashboards Planet'Connect et du travail de l'équipe, vérifié et validé humainement. Le périmètre détaillé et les principaux prompts sont présentés en annexe V.
+**Méthode et outils.** La mise en page de ce document a été assistée par une IA (Claude, Anthropic), créditée conformément au cahier des charges : maquette et pagination, sommaire interactif, ponts de navigation entre les pages (retours au sommaire, renvois cliquables vers les annexes et le glossaire), schémas dessinés dans la charte graphique et contrôles de mise en forme. Le fond - analyses, argumentaires, chiffres et procédures - est issu de la documentation officielle 2026, des dashboards Planet'Connect et du travail de l'équipe, vérifié et validé humainement. Le périmètre détaillé et les principaux prompts sont présentés en annexe X.
 
 ## Confidentialité
 
@@ -130,9 +130,9 @@ Il est construit à partir de la documentation officielle 2026 (CGS, grilles shi
 | En charge du suivi adhérents | Chap. 16, 17 |
 | Manager commercial | Chap. 09, 15, 17, 18 |
 
-**Maîtriser ou consulter.** Tout n'est pas à apprendre par cœur. Le **socle** - chap. 00, 02, 04, 06, 08 et 13, les six règles d'or ci-dessous et la fiche réflexe (annexe B) - se maîtrise avant J+30 et fait l'objet de la certification (annexe S) : il est marqué d'un ● au sommaire. Tout le reste est de la **référence**, à consulter quand le cas se présente : conformité par pays, procédures SAV, scripts complets, annexes documentaires.
+**Maîtriser ou consulter.** Tout n'est pas à apprendre par cœur. Le **socle** - chap. 00, 02, 04, 06, 08 et 13, les six règles d'or ci-dessous et la fiche réflexe (annexe B) - se maîtrise avant J+30 et fait l'objet de la certification (annexe U) : il est marqué d'un ● au sommaire. Tout le reste est de la **référence**, à consulter quand le cas se présente : conformité par pays, procédures SAV, scripts complets, annexes documentaires.
 
-**Les termes reliés au glossaire.** À leur première apparition dans un chapitre, les termes définis au glossaire (annexe T) sont affichés dans la couleur de la partie et soulignés de pointillés : dans la version numérique, un clic renvoie directement à leur définition.
+**Les termes reliés au glossaire.** À leur première apparition dans un chapitre, les termes définis au glossaire (annexe V) sont affichés dans la couleur de la partie et soulignés de pointillés : dans la version numérique, un clic renvoie directement à leur définition.
 
 ## Les six règles d'or
 
@@ -145,7 +145,7 @@ Il est construit à partir de la documentation officielle 2026 (CGS, grilles shi
 
 ## Vos 90 premiers jours : trois paliers
 
-La montée en puissance est balisée sur trois mois - la règle : **on observe avant de faire, on fait accompagné avant de faire seul.** Le planning détaillé, jour par jour pour le premier mois puis semaine par semaine jusqu'à J+90, avec les rituels d'équipe, est en **annexe S** : c'est le document de travail remis le jour 1.
+La montée en puissance est balisée sur trois mois - la règle : **on observe avant de faire, on fait accompagné avant de faire seul.** Le planning détaillé, jour par jour pour le premier mois puis semaine par semaine jusqu'à J+90, avec les rituels d'équipe, est en **annexe U** : c'est le document de travail remis le jour 1.
 
 | Jalon | Palier | Preuves attendues |
 |---|---|---|
@@ -153,4 +153,4 @@ La montée en puissance est balisée sur trois mois - la règle : **on observe a
 | **J+60** | Autonome | 5 diagnostics observés, 3 propositions sans écart, 1 RDV obtenu seul |
 | **J+90** | Pilote son activité | Pipeline propre, analyse win/loss, 1 proposition d'amélioration du playbook |
 
-> 📌 **À RETENIR -** Trois mois, trois paliers : certifié à J+30, autonome à J+60, pilote à J+90. Un bloc téléphone 10 h-12 h sanctuarisé, un CRM à jour chaque soir et un premier envoi réel pour chaque adhérent signé : le contrat minimal d'activité. Le parcours détaillé est en annexe S.
+> 📌 **À RETENIR -** Trois mois, trois paliers : certifié à J+30, autonome à J+60, pilote à J+90. Un bloc téléphone 10 h-12 h sanctuarisé, un CRM à jour chaque soir et un premier envoi réel pour chaque adhérent signé : le contrat minimal d'activité. Le parcours détaillé est en annexe U.

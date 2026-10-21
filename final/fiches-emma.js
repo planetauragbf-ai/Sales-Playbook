@@ -226,7 +226,7 @@ module.exports = {
         "text": "P1 systématique si export B2C hors UE ; motion ABM 1:1 (8 touches / 18 jours) ; preuve avant storytelling. Vigilance : décisions collectives, exigence d'image, aucune promesse de délai ferme."
       }
     ],
-    "aretenir": "Le segment Champagne n'est pas théorique : certificat CIVC + groupage USA sont rodés. On y gagne par la conformité vendue comme un service et par la rigueur documentaire, jamais par le prix. Chap. 04, 06, 13 ; annexe D."
+    "aretenir": "Le segment Champagne n'est pas théorique : certificat CIVC + groupage USA sont rodés. On y gagne par la conformité vendue comme un service et par la rigueur documentaire, jamais par le prix. Chap. 04, 06, 13 ; annexe F."
   },
   "ICP 3": {
     "badge": "ICP",

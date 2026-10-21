@@ -1,5 +1,19 @@
-# Annexe L - Certificat de Champagne : un exemplaire réel
+# Annexe L - Cartes de zones USA & Norvège
 
-*Le certificat CIVC tel qu'il accompagne chaque expédition de champagne hors UE - ici un exemplaire réel émis pour un envoi vers la Corée du Sud (usage strictement interne : références réelles d'un adhérent et de son destinataire).*
+*Les cartes de référence à vérifier avant d'annoncer une faisabilité - l'État, puis le code postal (chap. 04 et annexe K).*
 
-Émis par le Comité Interprofessionnel du Vin de Champagne, obligatoire hors UE et exigé pour le Canada : deux pages originales voyagent dans la pochette documents du colis, un certificat couvre 12 bouteilles maximum. Planet Aura fait la demande au CIVC à la place de l'adhérent (15 € HT par expédition - cadre au chap. 04, procédure en annexe I).
+> ⚠️ **LE POINT DE VIGILANCE -** Pour la Norvège, annoncer la zone en disant **Sud ou Nord** et vérifier le **comté** : sur la carte 2026 ci-dessous, la Zone 1 est le Nord (Finnmark, Troms, Nordland, Trøndelag) et la Zone 2 le Sud. Avant de chiffrer, contrôler la correspondance avec la grille tarifaire (annexe F) - en cas d'écart, la grille et Planet'Connect font foi.
+
+En rendez-vous : vérifier l'État sur la carte, puis le code postal dans les listes ci-dessous avant tout engagement. Au moindre doute, Planet'Connect ou l'exploitation tranche.
+
+## Les cartes officielles
+
+## Codes postaux desservis (listes officielles)
+
+| État | Liste des codes postaux |
+|---|---|
+| Rhode Island | drive.google.com/file/d/1Y0XfV42Wp5C5vwWmB0y18Amnq7vjjMHh |
+| Oklahoma | drive.google.com/file/d/1JWUn3POkq9RR7VCNeTWn_HflXIRs65cu |
+| New Jersey | drive.google.com/file/d/1gjIsF-aIIYSMlGD-RwDrJAySUU_Uvqn6 |
+| Illinois | drive.google.com/file/d/1M817jRQaDZJrIBaUPSaVkJIVFel5J7Fa |
+| Delaware | drive.google.com/file/d/1wQfu4rHIFLhS_ArUdxylAPnAGZHVHXNq |

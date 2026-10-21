@@ -1,13 +1,9 @@
-# Annexe P - Planet'Stock en images
+# Annexe P - Manuel utilisateur 2026 & procédure Suède
 
-*L'extension de Planet'Connect dédiée au stockage et au picking à l'entrepôt de Castres : références, emplacements, entrées et sorties - deux écrans pour comprendre l'outil.*
+*Deux documents complémentaires de formation et de conformité, accessibles par lien permanent.*
 
-Planet'Stock outille le service de stockage vendu aux adhérents (grille officielle en annexe E) : chaque référence porte un QR code et un emplacement précis (cave, allée, niveau, position), chaque sortie se prépare par un picking scanné qui réserve le stock. Côté vente, c'est un argument de sérieux : l'adhérent qui confie son stock voit des mouvements tracés à la bouteille près. L'offre de stockage se vend au chap. 04.
+## Couverture et sommaire
 
-## Le picking par scan groupé
+**Manuel utilisateur 2026** - le parcours complet d'un shipping en 6 étapes, référence de la formation Planet'Connect (chap. 15) : drive.google.com/file/d/1LDVgBTtuW9ZPWJ-c35HWxNaPyEMxPbUY
 
-L'opérateur saisit la quantité, scanne le QR de la référence une seule fois, et la quantité ne peut jamais dépasser celle prévue dans la sortie : le contrôle est fait par l'outil, pas par la mémoire. La validation réserve le stock correspondant.
-
-## La connexion
-
-Un compte par utilisateur, accessible depuis l'entrepôt, sur mobile ou avec une douchette de scan.
+**Procédure « Expéditions vers la Suède »** - notre représentant fiscal en Suède (Vinoflow), spécificités accises et étiquetage (annexe K) : Drive interne → Nouveaux process 2026.

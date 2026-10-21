@@ -1,7 +1,11 @@
-# Annexe F - Order Form 2026
+# Annexe F - Grille tarifaire shipping 2026
 
-*Le bon de commande du client final (anglais), avec bloc de paiement CB - celui que le client remplit au comptoir.*
+*Le document tarifaire officiel remis aux adhérents, reproduit en entier - tarifs révisés chaque année et publiés sur Planet'Connect (CGS art. 7.1).*
 
-Remis au comptoir pour l'encaissement du service par le client final (chap. 04 et fiche réflexe, annexe B). Mentions à respecter : « NO PO BOX » et « No American Express please ». Original : drive.google.com/file/d/1Lx_P4hkVv7ydqC7kD9EkdLQ57Xt_u1dc
+> ⚠️ **LE POINT DE VIGILANCE -** Règles de lecture : UE = TTC. Hors UE = HT (hors TVA française). Délais = jours ouvrables, **estimatifs**, hors douane. Express au-delà de 120 bouteilles, caisses bois d'origine, palettes : **devis personnalisé**.
 
-## Le formulaire officiel vierge
+## Le document officiel (5 pages)
+
+Conditions de lecture, grilles UE / DOM / pays tiers, USA groupage et direct, spiritueux, options et frais. Original : drive.google.com/file/d/19LkZlRSpZX0iz0kbDwBXIe08KyQufqob
+
+> 📌 **À RETENIR -** Ces tarifs sont les **prix officiels 2026 à communiquer tels quels**. La couverture casse/perte (jusqu'à 20 000 €/envoi, emballage homologué) relève de l'assurance ad valorem (3 % de la valeur), qui reste une option - souscrite pour 9 envois sur 10 (89,8 %).

@@ -67,7 +67,7 @@ const PARTS = {
   '06': { big: '2', col: PBORDEAUX, tab: 'PARTIE 2 · CIBLER', rom: 'II', num: 'PARTIE 2', title: 'Définir les cibles et les solutions adaptées', sub: 'Les bons comptes, les bonnes réponses', chapters: ['06 · Profils de clients idéaux (ICP)', '07 · Personas et acteurs de la décision', '08 · Correspondance entre enjeux et solutions'] },
   '09': { big: '3', col: POCRE, tab: 'PARTIE 3 · VENDRE', rom: 'III', num: 'PARTIE 3', title: 'Formaliser la prospection et la vente', sub: 'Du premier contact à la signature', chapters: ['09 · Processus d’acquisition et pipeline', '10 · Séquences de prospection et scripts', '11 · Qualification et processus de vente', '12 · Conduite des entretiens (méthode SPIN)', '13 · Argumentaires et objections'] },
   '14': { big: '4', col: NAVY, tab: 'PARTIE 4 · PILOTER', rom: 'IV', num: 'PARTIE 4', title: 'Fournir les outils et organiser le pilotage', sub: 'Outiller, mesurer, faire vivre', chapters: ['14 · Ressources d’aide à la vente', '15 · Organisation et outils', '16 · Activation, fidélisation et SAV', '17 · Indicateurs et méthode de suivi', '18 · Mise à jour et appropriation'] },
-  'A': { big: 'A', col: ORANGE, tab: 'ANNEXES', rom: 'V', num: 'ANNEXES', title: 'Annexes', sub: 'Documents complémentaires', chapters: ['A · Fiches ICP & personas', 'B · Fiche réflexe, checklists et modèles', 'C · Chiffres officiels, preuve et avis', 'D · Grille tarifaire shipping 2026', 'E · Grille stockage & picking 2026', 'F · Order Form 2026', 'G · Mandat SEPA', 'H · CGS : l\u2019essentiel', 'I · Conformité et fiches pays', 'J · Cartes de zones USA & Norvège', 'K · POA Canada : formulaire vierge', 'L · Certificat de Champagne', 'M · Mode d\u2019emploi Planet\u2019Connect', 'N · Manuel utilisateur & procédure Suède', 'O · Formulaire de shipping par email', 'P · Planet\u2019Stock en images', 'Q · Flyer de prospection', 'R · Organigramme et documents officiels', 'S · Parcours d\u2019onboarding 0-90 jours', 'T · Glossaire', 'U · Liens utiles', 'V · Transparence IA : m\u00e9thode et prompts', 'W · Banque des 26 objections', 'X · Scripts multicanaux et banque SPIN'] },
+  'A': { big: 'A', col: ORANGE, tab: 'ANNEXES', rom: 'V', num: 'ANNEXES', title: 'Annexes', sub: 'Documents complémentaires', chapters: ['A · Fiches ICP & personas', 'B · Fiche réflexe, checklists et modèles', 'C · Chiffres officiels, preuve et avis', 'D · Banque des 26 objections', 'E · Scripts multicanaux et banque SPIN', 'F · Grille tarifaire shipping 2026', 'G · Grille stockage & picking 2026', 'H · Order Form 2026', 'I · Mandat SEPA', 'J · CGS : l\u2019essentiel', 'K · Conformité et fiches pays', 'L · Cartes de zones USA & Norvège', 'M · POA Canada : formulaire vierge', 'N · Certificat de Champagne', 'O · Mode d\u2019emploi Planet\u2019Connect', 'P · Manuel utilisateur & procédure Suède', 'Q · Formulaire de shipping par email', 'R · Planet\u2019Stock en images', 'S · Flyer de prospection', 'T · Organigramme et documents officiels', 'U · Parcours d\u2019onboarding 0-90 jours', 'V · Glossaire', 'W · Liens utiles', 'X · Transparence IA : méthode et prompts'] },
 };
 
 // ---- Sommaire interactif
@@ -195,7 +195,7 @@ const GLO_ACRONYM = /^[A-Z0-9\-\s/.'+]+$/;
 const GLO_SLUG = {}; const TERM_SLUG = {}; let GLO_RE = null;
 {
   try {
-    const emd = fs.readFileSync(path.join(SRC, 'T.md'), 'utf8');
+    const emd = fs.readFileSync(path.join(SRC, 'V.md'), 'utf8'); // glossaire (annexe V)
     const variants = [];
     const expand = (v) => v.includes("'") || v.includes('’')
       ? [v.replace(/’/g, "'"), v.replace(/'/g, '’')] : [v];
@@ -221,15 +221,17 @@ const GLO_SLUG = {}; const TERM_SLUG = {}; let GLO_RE = null;
 const gloSeen = new Set();
 
 // URLs (Drive, sites) rendues cliquables dans tout le document
-const URL_RE = /((?:https?:\/\/|www\.|drive\.google\.com\/|docs\.google\.com\/|app\.planet-aura\.com)[^\s|)»«;,]+)/g;
+// URL complètes, adresses email (mailto) et domaines nus (sources, liens utiles) : tout est cliquable
+const URL_RE = /((?:https?:\/\/|www\.)[^\s|)»«;,]+|[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}|(?:[a-z0-9-]+\.)+(?:com|fr|org|net|int|eu|info)\b(?:\/[^\s|)»«;,]*)?)/gi;
 function pushTextLinks(runs, text, style) {
   let last = 0, m;
   URL_RE.lastIndex = 0;
   while ((m = URL_RE.exec(text)) !== null) {
     let url = m[1].replace(/[.,;:]+$/, '');
     if (m.index > last) pushTextRefs(runs, text.slice(last, m.index), style);
+    const isMail = url.includes('@') && !/^https?:\/\//.test(url);
     runs.push(new ExternalHyperlink({
-      link: /^https?:\/\//.test(url) ? url : 'https://' + url,
+      link: isMail ? 'mailto:' + url : (/^https?:\/\//.test(url) ? url : 'https://' + url),
       children: [new TextRun({ ...style, text: url, color: '20768B', underline: { type: UnderlineType.SINGLE, color: '20768B' } })]
     }));
     last = m.index + url.length;
@@ -515,7 +517,7 @@ function convertBody(md, unit, opts = {}) {
   const ACC = partAcc ? partAcc.col : TEAL;
   const DEEP = DEEP_OF[ACC] || TEALD;
   const TINT = TINT_OF[ACC] || LTEAL;
-  const gloId = (unit.id === 'T' || unit.id === 'avantpre' || unit.id === 'avantpre2') ? null : unit.id;
+  const gloId = (unit.id === 'V' || unit.id === 'avantpre' || unit.id === 'avantpre2') ? null : unit.id;
   const BODY = { size: 19, glo: gloId, gloAcc: DEEP };
   const CP = opts.letter ? 112 : opts.compact ? 48 : 62;   // after des paragraphes
   const CL = opts.letter ? 36 : opts.compact ? 14 : 16;   // after des listes
@@ -560,7 +562,7 @@ function convertBody(md, unit, opts = {}) {
     if (/^\s*\|/.test(line) && i + 1 < lines.length && /^\s*\|[\s:|-]+\|?\s*$/.test(lines[i + 1])) {
       const tbl = [];
       while (i < lines.length && /^\s*\|/.test(lines[i])) { tbl.push(lines[i]); i++; }
-      out.push(parseTableBlock(tbl, DEEP, unit.id === 'T'));
+      out.push(parseTableBlock(tbl, DEEP, unit.id === 'V'));
       out.push(spacerPara(92));
       continue;
     }
@@ -972,7 +974,10 @@ function coverChildren() {
     }),
     new Paragraph({
       alignment: AlignmentType.CENTER, spacing: { before: 110 },
-      children: [new TextRun({ text: 'SARL Planet Aura  \u00b7  185 avenue de Roquecourbe, 81100 Castres  \u00b7  www.planet-aura.com', size: 15, color: GRAY })]
+      children: [
+        new TextRun({ text: 'SARL Planet Aura  \u00b7  185 avenue de Roquecourbe, 81100 Castres  \u00b7  ', size: 15, color: GRAY }),
+        new ExternalHyperlink({ link: 'https://www.planet-aura.com', children: [new TextRun({ text: 'www.planet-aura.com', size: 15, color: GRAY, underline: { type: UnderlineType.SINGLE, color: 'B8C6CC' } })] }),
+      ]
     }),
     new Paragraph({ alignment: AlignmentType.CENTER, spacing: { before: 160 }, children: [imgAuto('pics/logo_euridis.png', 120)] }),
     new Paragraph({
@@ -1213,7 +1218,7 @@ UNITS.forEach(u => {
 // des chapitres qui les citent (ancres 'chap'+id posées sur chaque tête de chapitre)
 const GLO_BACKREFS = {}; // slug -> [ids d'unités]
 const ANNEX_BACKREFS = {}; // lettre d'annexe -> [ids d'unités]
-UNITS.filter(u => !['avant', 'T'].includes(u.id)).forEach(u => {
+UNITS.filter(u => !['avant', 'V'].includes(u.id)).forEach(u => {
   const md = unitMd[u.id];
   if (GLO_RE) {
     GLO_RE.lastIndex = 0;
@@ -1345,7 +1350,10 @@ sections.push({
             }),
             new Paragraph({
               alignment: AlignmentType.CENTER, spacing: { after: 900 },
-              children: [new TextRun({ text: 'Retours et corrections : emma@planet-aura.com', size: 18, color: 'D7E5EA' })]
+              children: [
+                new TextRun({ text: 'Retours et corrections : ', size: 18, color: 'D7E5EA' }),
+                new ExternalHyperlink({ link: 'mailto:emma@planet-aura.com', children: [new TextRun({ text: 'emma@planet-aura.com', size: 18, color: 'FFFFFF', underline: { type: UnderlineType.SINGLE, color: 'D7E5EA' } })] }),
+              ]
             }),
             new Paragraph({
               alignment: AlignmentType.CENTER,

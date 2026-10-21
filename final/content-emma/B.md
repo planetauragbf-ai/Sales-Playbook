@@ -37,7 +37,7 @@
 
 ## Les objections en format court : une phrase + une question de retour
 
-Quand le temps manque (salon, appel entrant, relance) : une réponse courte, puis une question qui rend la parole au prospect. Elle fait émerger l'objection réelle (souvent différente de celle exprimée) et vous garde la main. Le traitement développé des 26 objections est en annexe W, la méthode en quatre temps et le top 5 commenté au chap. 13.
+Quand le temps manque (salon, appel entrant, relance) : une réponse courte, puis une question qui rend la parole au prospect. Elle fait émerger l'objection réelle (souvent différente de celle exprimée) et vous garde la main. Le traitement développé des 26 objections est en annexe D, la méthode en quatre temps et le top 5 commenté au chap. 13.
 
 | Objection | Réponse courte | Question de retour |
 |---|---|---|
@@ -87,11 +87,11 @@ Quand le temps manque (salon, appel entrant, relance) : une réponse courte, pui
 | Solution actuelle | Statu quo / bricolage / concurrent + irritants |
 | Destinations demandées | USA / Canada / UE / Asie… - particularités : CIVC, POA, magnums, spiritueux |
 | ROI & objections | ROI évoqué (calcul) - objections (lesquelles + traitement) |
-| Next step | Action datée - probabilité (%) |
+| Next step | Action datée - étape de pipeline mise à jour (la probabilité suit l'étape, chap. 17) |
 
 ## Le parcours d'onboarding 0-90 jours
 
-Le planning opérationnel complet - jour par jour pour le premier mois, puis semaine par semaine jusqu'à J+90, avec les rituels d'équipe - est devenu une annexe à part entière : il est en **annexe S**. Les jalons J+30 / J+60 / J+90 et le contrat minimal d'activité sont dans l'avant-propos.
+Le planning opérationnel complet - jour par jour pour le premier mois, puis semaine par semaine jusqu'à J+90, avec les rituels d'équipe - est devenu une annexe à part entière : il est en **annexe U**. Les jalons J+30 / J+60 / J+90 et le contrat minimal d'activité sont dans l'avant-propos.
 
 ## Documents officiels à envoyer (pack adhérent 2026)
 
