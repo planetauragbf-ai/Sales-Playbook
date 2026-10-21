@@ -959,7 +959,7 @@ function tocChildren() {
     sw(PBORDEAUX), new TextRun({ text: 'Cibler   ', size: 16, color: INK }),
     sw(POCRE), new TextRun({ text: 'Vendre   ', size: 16, color: INK }),
     sw(NAVY), new TextRun({ text: 'Piloter   ', size: 16, color: INK }),
-    sw('9EC5CE'), new TextRun({ text: 'Annexes', size: 16, color: INK }),
+    sw(PBORDEAUX), new TextRun({ text: 'Annexes', size: 16, color: INK }),
   ]));
   paras.push(lgLine([new TextRun({ text: 'L’onglet de bordure, les titres, les tableaux et les encadrés de repère de chaque chapitre suivent la couleur de sa partie.', size: 15, color: GRAY })]));
   paras.push(lgTitle('LES ENCADRÉS'));
@@ -1047,7 +1047,7 @@ function mkFooter(tab, noNum = false) {
       children: [
         new TextRun({ text: 'P L A N E T   A U R A   ·   C O M M I S S I O N N A I R E   D E   T R A N S P O R T   ·   C H A M P A G N E S ,   V I N S   &   S P I R I T U E U X', size: 10, color: GRAY, font: LABEL }),
         new TextRun({ text: '\t', size: 12 }),
-        ...(noNum ? [] : [new TextRun({ children: [PageNumber.CURRENT], bold: true, size: 26, color: col, font: SERIF })]),
+        ...(noNum ? [] : [new TextRun({ children: [PageNumber.CURRENT], bold: true, size: 20, color: col, font: LABEL })]),
       ]
     })]
   });
@@ -1162,7 +1162,7 @@ UNITS.filter(u => u.id !== 'avant').forEach(u => {
 // 4. sommaire (registre complet), puis le corps
 sections.push({
   properties: { ...pageProps, column: { count: 2, space: 420, equalWidth: true } },
-  headers: { default: mkHeader('SOMMAIRE', null, 'bg-lteal') }, footers: { default: footerNoNum },
+  headers: { default: mkHeader('SOMMAIRE') }, footers: { default: footerNoNum },
   children: tocChildren()
 });
 sections.push(...bodySections);
@@ -1205,10 +1205,6 @@ sections.push({
               alignment: AlignmentType.CENTER, spacing: { before: 220, after: 90 },
               indent: { left: 900, right: 900 },
               children: [new TextRun({ text: 'Document interne et confidentiel - r\u00e9serv\u00e9 \u00e0 l\u2019\u00e9quipe commerciale & marketing Planet Aura', size: 18, color: 'D7E5EA' })]
-            }),
-            new Paragraph({
-              alignment: AlignmentType.CENTER, spacing: { after: 90 },
-              children: [new TextRun({ text: 'Chiffres : dashboards Planet\u2019Connect, extraction du 24/09/2026', size: 18, color: 'D7E5EA' })]
             }),
             new Paragraph({
               alignment: AlignmentType.CENTER, spacing: { after: 900 },
