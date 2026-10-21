@@ -37,7 +37,7 @@ const POCRE = 'C6A15B';
 const PBLEU = '9EC5CE'; // annexes - couleur claire : textes posés dessus en pétrole
 // Déclinaisons par accent de partie : variante foncée (petits textes, en-têtes de tableaux)
 // et teinte claire (fonds d'encadrés) - cohérence de couleurs au sein de chaque partie.
-const DEEP_OF = { [TEAL]: '20768B', [PBORDEAUX]: '722F45', [POCRE]: '8A6A33', [NAVY]: NAVY, [ORANGE]: 'C2520A', [PBLEU]: '3C7886' };
+const DEEP_OF = { [TEAL]: '20768B', [PBORDEAUX]: '722F45', [POCRE]: '8A6A33', [NAVY]: NAVY, [ORANGE]: 'C2520A', [PBLEU]: NAVY };
 const TINT_OF = { [TEAL]: 'EAF3F6', [PBORDEAUX]: 'F6EEF1', [POCRE]: 'F8F3E9', [NAVY]: 'EAF0F4', [ORANGE]: 'FDEFE2', [PBLEU]: 'EFF6F8' };
 
 // A4
