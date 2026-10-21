@@ -6,7 +6,7 @@ module.exports = {
       { img: 'pics/carte_vignobles.png', w: 235, caption: 'Les régions viticoles - terrains de prospection prioritaires' },
       { img: 'pics/worldmap2.png', w: 285, caption: 'Les destinations desservies dans le monde' },
     ] },
-    { after: '^Destinations demandées', img: 'pics/dash_pays.png', w: 282, caption: 'Répartition réelle des shippings par pays sur 12 mois : USA 64,5 %, France 18,6 %' },
+    { after: '^Destinations demandées', img: 'pics/dash_pays.png', w: 320, caption: 'Répartition réelle des shippings par pays sur 12 mois : USA 64,5 %, France 18,6 %' },
   ],
   '02': [
     { after: '^Carte d’identité|^Carte d.identité', img: 'pics/site_castres.png', w: 400, caption: 'Le site Planet Aura à Castres (Tarn) - bureaux et entrepôt en propre' },
@@ -18,35 +18,35 @@ module.exports = {
     { after: '^L’équipe : quatre pôles|^L.équipe : quatre pôles', img: 'pics/team2.png', w: 430, caption: 'L’équipe Planet Aura' },
   ],
   '04': [
-    { after: '^Vue d’ensemble du catalogue|^Vue d.ensemble du catalogue', img: 'pics/vela_boat.png', w: 300, caption: 'Le voilier-cargo VELA - option de transport bas-carbone (conditionnelle, voir « Offres en développement »)' },
+    { after: '^Vue d’ensemble du catalogue|^Vue d.ensemble du catalogue', img: 'pics/vela_boat.png', w: 320, caption: 'Le voilier-cargo VELA - option de transport bas-carbone (conditionnelle, voir « Offres en développement »)' },
     { after: '^Stockage, cartonnage', img: 'pics/entrepot.png', w: 330, caption: 'L’entrepôt de Castres : stockage et picking en propre' },
-    { after: '^USA Groupage DDP', img: 'diagrams/d04_usabars.png', w: 400, caption: 'Grille USA groupage 2026 : le coût par bouteille passe de 105 € à 14,2 € avec le colisage' },
-    { after: '^Planet’Connect : la plateforme|^Planet.Connect : la plateforme', img: 'pics/pc_sim_usa.png', w: 348, caption: 'Simulation réelle États-Unis dans Planet’Connect : transport, assurance, taxes DDP' },
+    { after: '^USA Groupage DDP', img: 'diagrams/d04_usabars.png', w: 430, caption: 'Grille USA groupage 2026 : le coût par bouteille passe de 105 € à 14,2 € avec le colisage' },
+    { after: '^Planet’Connect : la plateforme|^Planet.Connect : la plateforme', img: 'pics/pc_sim_usa.png', w: 396, caption: 'Simulation réelle États-Unis dans Planet’Connect : transport, assurance, taxes DDP' },
   ],
   '05': [
     { after: 'familles d’acteurs|familles d.acteurs|carte des intervenants', img: 'diagrams/d10_carte.png', w: 406, caption: 'La carte des intervenants du secteur - chiffre d’affaires × spécialisation/diversification de l’offre' },
     { after: '^Concurrents directs à la loupe', img: 'diagrams/d10_radar7p.png', w: 406, caption: 'Le face-à-face des spécialistes : analyse 7P, scores internes 0-5 (octobre 2026)' },
   ],
   '06': [
-    { after: '^Le profil de client idéal', img: 'pics/carte_adherents.png', w: 330, caption: 'La carte des adhérents en France (Planet’Connect)' },
+    { after: '^Le profil de client idéal', img: 'pics/carte_adherents.png', w: 356, caption: 'La carte des adhérents en France (Planet’Connect)' },
     { after: '^Les dix clients de référence', img: 'pics/dash_repartitions.png', w: 406, caption: 'Répartition du portefeuille par région et par catégorie (dashboard commercial, 24/09/2026)' },
     { after: '^Gérer le portefeuille', img: 'pics/dash_prospects.png', w: 406, caption: 'La photographie du portefeuille : 448 prospects, 227 adhérents récents, 35 dormants' },
   ],
   '09': [
-    { after: '^L’entonnoir d’acquisition|^L.entonnoir', img: 'pics/dash_nouveaux.png', w: 308, caption: 'Nouveaux adhérents par mois et cumul 12 mois (~145, au-dessus de l\u2019objectif de 10/mois) - dashboard commercial' },
+    { after: '^L’entonnoir d’acquisition|^L.entonnoir', img: 'pics/dash_nouveaux.png', w: 360, caption: 'Nouveaux adhérents par mois et cumul 12 mois (~145, au-dessus de l\u2019objectif de 10/mois) - dashboard commercial' },
   ],
   '13': [
     { after: '^Commencer par le pourquoi', img: 'diagrams/d06_why.png', w: 390, caption: 'Le Golden Circle Planet Aura : WHY, HOW, WHAT' },
   ],
   '15': [
     { after: 'Planet’Connect|Planet.Connect|outils de la fonction', img: 'pics/pc_shippings.png', w: 398, caption: 'La liste « Vos shippings » et leurs statuts dans Planet’Connect (capture réelle)' },
-    { after: 'mails automatiques|Sales Operations|rituels', img: 'pics/mails_cascade.png', w: 350, caption: 'Les mails automatiques Planet’Connect : déclencheurs et cascades (vue admin)' },
+    { after: 'mails automatiques|Sales Operations|rituels', img: 'pics/mails_cascade.png', w: 392, caption: 'Les mails automatiques Planet’Connect : déclencheurs et cascades (vue admin)' },
   ],
   '16': [
     { after: 'sinistre', img: 'diagrams/d13_arbre.png', w: 436, caption: 'Sinistres : l’arbre décisionnel officiel 2026 - RXP ou remboursement' },
   ],
   '17': [
-    { after: 'tableau de bord|dashboards|Indicateurs', img: 'pics/dash_gestion.png', w: 368, caption: 'Le dashboard gestion réel : CA, CA vins expédiés, shippings, bouteilles (janv.-sept. 2026)' },
+    { after: 'tableau de bord|dashboards|Indicateurs', img: 'pics/dash_gestion.png', w: 410, caption: 'Le dashboard gestion réel : CA, CA vins expédiés, shippings, bouteilles (janv.-sept. 2026)' },
   ],
 };
 
@@ -112,8 +112,19 @@ module.exports['03'] = (module.exports['03'] || []).concat([
   { after: '^Les règles de fonctionnement', img: 'diagrams/d03_escalade.png', w: 520, caption: 'Le circuit d\u2019escalade : ce que chacun d\u00e9cide, et quand passer la main' },
 ]);
 module.exports['12'] = (module.exports['12'] || []).concat([
-  { after: '^La trame du rendez-vous de d\u00e9couverte|^La trame du rendez-vous', img: 'diagrams/d12_trame.png', w: 480, caption: 'La trame des 35 minutes : six s\u00e9quences, une sortie attendue par s\u00e9quence' },
+  { after: '^La trame du rendez-vous de d\u00e9couverte|^La trame du rendez-vous', img: 'diagrams/d12_trame.png', w: 520, caption: 'La trame des 35 minutes : six s\u00e9quences, une sortie attendue par s\u00e9quence' },
 ]);
 module.exports['F'] = (module.exports['F'] || []).concat([
   { after: '^La hi\u00e9rarchie de preuve', img: 'diagrams/d14_preuve.png', w: 440, caption: 'La hi\u00e9rarchie de preuve : citer le niveau le plus haut disponible' },
 ]);
+
+// Annexes S (Planet'Stock), T (POA Canada), U (certificat CIVC)
+module.exports['S'] = [
+  { after: '^Le picking par scan group\u00e9', img: 'annexes/planetstock-1.png', w: 505, caption: 'Planet\u2019Stock - pr\u00e9paration d\u2019un picking par scan group\u00e9 (capture r\u00e9elle)' },
+  { after: '^La connexion', img: 'annexes/planetstock-2.png', w: 250, caption: 'Planet\u2019Stock - \u00e9cran de connexion' },
+];
+module.exports['T'] = [];
+for (let i = 1; i <= 6; i++) module.exports['T'].push({ after: '^Le formulaire officiel vierge', img: `annexes/poa-${i}.png`, w: 505, caption: i === 6 ? 'POA Canada (General Agency Agreement) - formulaire officiel vierge (6 pages)' : '' });
+module.exports['U'] = [
+  { after: '^Le certificat', img: 'annexes/civc-1.png', w: 470, caption: 'Certificat de Champagne (CIVC) - exemplaire r\u00e9el, usage strictement interne' },
+];

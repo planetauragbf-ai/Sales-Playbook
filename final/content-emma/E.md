@@ -37,7 +37,7 @@
 | **Picking** | Prélèvement des bouteilles en stock pour préparer une commande |
 | **Planet'Connect** | Notre plateforme : simulateur, commandes, suivi, factures, e-signature (app.planet-aura.com) |
 | **Planet'Stock** | Extension de Planet'Connect dédiée au stockage et picking : entrées, sorties, références (en déploiement) |
-| **Rate Schedule** | Grille tarifaire en anglais remise aux clients finaux (lien en annexe Q) |
+| **Rate Schedule** | Grille tarifaire en anglais remise aux clients finaux (disponible sur demande auprès de la direction) |
 | **SogeCommerce** | Solution de paiement en ligne de la Société Générale utilisée pour les liens de paiement |
 | **Statuts particuliers** | ATT INFO (information manquante), DIFFÉRÉ (départ reporté), SINISTRE, RÉEXPÉ, ANNULÉ |
 | **Summer storage** | Stockage gratuit d'été proposé aux clients finaux : le vin acheté en juillet part en septembre-octobre |
@@ -48,7 +48,7 @@
 | Terme | Définition |
 |---|---|
 | **Accises** | Droits perçus sur l'alcool à l'arrivée dans un pays. En DDP, estimés et payés d'avance |
-| **Ad valorem** | Assurance à 3 % de la valeur déclarée, en complément de la couverture casse/perte incluse jusqu'à 20 000 €/envoi (sous condition d'emballage homologué) - souscrite pour 9 envois sur 10 (89,8 %) |
+| **Ad valorem** | Assurance casse/perte à 3 % de la valeur déclarée, couvrant jusqu'à 20 000 €/envoi (sous condition d'emballage homologué) - une option, souscrite pour 9 envois sur 10 (89,8 %) |
 | **Barème transporteur** | Indemnisation forfaitaire au poids prévue par les transporteurs, sans rapport avec la valeur du vin |
 | **CIVC** | Comité Champagne, qui délivre le certificat d'origine obligatoire hors UE |
 | **Claim** | Réclamation déposée auprès d'un transporteur après casse, perte ou retard. Gérée par nous, jamais par l'adhérent |
@@ -204,7 +204,7 @@
 3. **Qui paie le transport ?** - Le client final par CB (recommandé) ou le magasin par SEPA.
 4. **Vous livrez où ?** - UE, Royaume-Uni, Suisse, USA (groupage + direct), Canada (4 provinces), Asie, Océanie, DOM… ~50 destinations en grille, recherche possible au-delà.
 5. **Délais ?** - Estimés : 48 h France, 3-5 j UE, 4-5 j Royaume-Uni/Suisse, 5 j USA direct et Japon, 21 j USA groupage.
-6. **Et si ça casse ?** - Couverture casse/perte incluse jusqu'à 20 000 €/envoi (emballage homologué) : remplacement ou remboursement, signalement sous 48 h avec photos.
+6. **Et si ça casse ?** - L'assurance casse/perte (option, 3 %) couvre jusqu'à 20 000 €/envoi (emballage homologué) : remplacement ou remboursement, signalement sous 48 h avec photos.
 7. **Combien de bouteilles max aux USA ?** - 36 par personne et par envoi - au-delà, plusieurs envois ou des destinataires distincts et réels. Spiritueux : 6 L.
 8. **Le client américain paiera-t-il des frais à l'arrivée ?** - Non en groupage DDP : tout est prépayé.
 9. **Vous prenez les spiritueux ?** - Oui, vers les USA (nouveauté 2026).

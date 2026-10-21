@@ -59,6 +59,7 @@ const UNITS = [
   { id: 'H', file: 'H.md' }, { id: 'I', file: 'I.md' }, { id: 'J', file: 'J.md' }, { id: 'K', file: 'K.md' },
   { id: 'L', file: 'L.md' }, { id: 'M', file: 'M.md' }, { id: 'N', file: 'N.md' }, { id: 'O', file: 'O.md' },
   { id: 'P', file: 'P.md' }, { id: 'Q', file: 'Q.md' },
+  { id: 'R', file: 'R.md' }, { id: 'S', file: 'S.md' }, { id: 'T', file: 'T.md' }, { id: 'U', file: 'U.md' },
 ];
 
 const PARTS = {
@@ -66,7 +67,7 @@ const PARTS = {
   '06': { big: '2', col: PBORDEAUX, tab: 'PARTIE 2 · CIBLER', rom: 'II', num: 'PARTIE 2', title: 'Définir les cibles et les solutions adaptées', sub: 'Les bons comptes, les bonnes réponses', chapters: ['06 · Profils de clients idéaux (ICP)', '07 · Personas et acteurs de la décision', '08 · Correspondance entre enjeux et solutions'] },
   '09': { big: '3', col: POCRE, tab: 'PARTIE 3 · VENDRE', rom: 'III', num: 'PARTIE 3', title: 'Formaliser la prospection et la vente', sub: 'Du premier contact à la signature', chapters: ['09 · Processus d’acquisition et pipeline', '10 · Séquences de prospection et scripts', '11 · Qualification et processus de vente', '12 · Conduite des entretiens (méthode SPIN)', '13 · Argumentaires et objections'] },
   '14': { big: '4', col: NAVY, tab: 'PARTIE 4 · PILOTER', rom: 'IV', num: 'PARTIE 4', title: 'Fournir les outils et organiser le pilotage', sub: 'Outiller, mesurer, faire vivre', chapters: ['14 · Ressources d’aide à la vente', '15 · Organisation et outils', '16 · Activation, fidélisation et SAV', '17 · Indicateurs et méthode de suivi', '18 · Mise à jour et appropriation'] },
-  'A': { big: 'A', col: PBORDEAUX, tab: 'ANNEXES', rom: 'V', num: 'ANNEXES', title: 'Annexes', sub: 'Documents complémentaires', chapters: ['A · Grille tarifaire shipping 2026', 'B · CGS : l’essentiel', 'C · Fiche réflexe, checklists et modèles', 'D · Conformité et fiches pays', 'E · Glossaire', 'F · Chiffres officiels et sources', 'G · Organigramme et documents officiels', 'H · Fiches ICP & personas', 'I · Grille stockage & picking 2026', 'J · Order Form 2026', 'K · Mandat SEPA', 'L · Mode d’emploi Planet’Connect', 'M · Manuel utilisateur & procédure Suède', 'N · Formulaire de shipping par email', 'O · Flyer de prospection', 'P · Cartes de zones USA & Norvège', 'Q · Liens utiles'] },
+  'A': { big: 'A', col: PBORDEAUX, tab: 'ANNEXES', rom: 'V', num: 'ANNEXES', title: 'Annexes', sub: 'Documents complémentaires', chapters: ['A · Grille tarifaire shipping 2026', 'B · CGS : l’essentiel', 'C · Fiche réflexe, checklists et modèles', 'D · Conformité et fiches pays', 'E · Glossaire', 'F · Chiffres officiels et sources', 'G · Organigramme et documents officiels', 'H · Fiches ICP & personas', 'I · Grille stockage & picking 2026', 'J · Order Form 2026', 'K · Mandat SEPA', 'L · Mode d’emploi Planet’Connect', 'M · Manuel utilisateur & procédure Suède', 'N · Formulaire de shipping par email', 'O · Flyer de prospection', 'P · Cartes de zones USA & Norvège', 'Q · Liens utiles', 'R · Parcours d\u2019onboarding 0-90 jours', 'S · Planet\u2019Stock en images', 'T · POA Canada : formulaire vierge', 'U · Certificat de Champagne : exemplaire r\u00e9el'] },
 };
 
 // ---- Sommaire interactif
@@ -235,7 +236,7 @@ function pushTextLinks(runs, text, style) {
 }
 
 // renvois internes cliquables : « annexe X » vers la tête d'annexe, « chap. NN » vers la tête de chapitre
-const REF_RE = /([Aa]nnexes?\s+([A-Q])|[Cc]hap(?:itres?)?\.?\s*(0\d|1[0-8]))(?![A-Za-z0-9\u00c0-\u017f])/g;
+const REF_RE = /([Aa]nnexes?\s+([A-U])|[Cc]hap(?:itres?)?\.?\s*(0\d|1[0-8]))(?![A-Za-z0-9\u00c0-\u017f])/g;
 function pushTextRefs(runs, text, style) {
   let last = 0, m;
   REF_RE.lastIndex = 0;
@@ -499,7 +500,7 @@ function convertBody(md, unit, opts = {}) {
       if (lvl === 1) {
         // Tête de chapitre : kicker partie, numéro · titre serif, sous-titre, filet, mini-sommaire
         h1Seen = true;
-        const hm = txt.match(/^(Annexe\s+)?([0-9A-Q]{1,2})\s*[—–-]\s*(.*)$/) || [null, '', '', txt];
+        const hm = txt.match(/^(Annexe\s+)?([0-9A-U]{1,2})\s*[—–-]\s*(.*)$/) || [null, '', '', txt];
         const isAnnex = !!hm[1];
         const num = hm[2]; const title = hm[3] || txt;
         const part = PARTS[unit.id];
@@ -606,7 +607,7 @@ function convertBody(md, unit, opts = {}) {
             const axKids = [new TextRun({ text: '\u21a9 CIT\u00c9E DANS LE TEXTE :  ', bold: true, size: 13, color: GRAY, font: LABEL })];
             axRefs.slice(0, 10).forEach((rid, ri) => {
               if (ri > 0) axKids.push(new TextRun({ text: '  \u00b7  ', size: 13, color: GRAY, font: LABEL }));
-              axKids.push(new InternalHyperlink({ anchor: 'chap' + rid, children: [new TextRun({ text: /^[A-Q]$/.test(rid) ? 'annexe\u00a0' + rid : 'chap.\u00a0' + rid, bold: true, size: 13, color: DEEP, font: LABEL })] }));
+              axKids.push(new InternalHyperlink({ anchor: 'chap' + rid, children: [new TextRun({ text: /^[A-U]$/.test(rid) ? 'annexe\u00a0' + rid : 'chap.\u00a0' + rid, bold: true, size: 13, color: DEEP, font: LABEL })] }));
             });
             if (axRefs.length > 10) axKids.push(new TextRun({ text: '  \u2026', size: 13, color: GRAY, font: LABEL }));
             out.push(new Paragraph({ spacing: { after: 150 }, children: axKids }));
@@ -648,6 +649,9 @@ function convertBody(md, unit, opts = {}) {
     }
 
     if (/^>\s?/.test(line)) {
+      // de l'air avant l'encadré, sauf s'il suit directement un titre
+      const prevLine = lines.slice(0, i).reverse().find(l => l.trim() !== '') || '';
+      const afterHeading = /^#{1,4}\s/.test(prevLine);
       const quote = [];
       while (i < lines.length && /^>\s?/.test(lines[i])) { quote.push(lines[i].replace(/^>\s?/, '')); i++; }
       const head = quote[0] || '';
@@ -686,6 +690,7 @@ function convertBody(md, unit, opts = {}) {
         }
         calloutParas.push(new Paragraph({ spacing: { before: 18, after: 18 }, children: kids }));
       });
+      if (!afterHeading) out.push(spacerPara(16));
       out.push(new Table({
         width: { size: CONTENT_W, type: WidthType.DXA },
         columnWidths: [CONTENT_W],
@@ -768,7 +773,7 @@ const PART_OF_UNIT = {};
 function partOpener(p) {
   // chaque chapitre list\u00e9 est cliquable (ancre \u00ab chap<id> \u00bb pos\u00e9e sur la t\u00eate de chapitre)
   const chapterLines = p.chapters.map(c => {
-    const m = c.match(/^([0-9A-Q]{1,2})\s*\u00b7\s*(.*)$/);
+    const m = c.match(/^([0-9A-U]{1,2})\s*\u00b7\s*(.*)$/);
     const runs = m ? [
       new TextRun({ text: m[1], bold: true, size: 23, color: 'FFFFFF', font: SERIF }),
       new TextRun({ text: '    ' + m[2], size: 22, color: 'F2E9E4' }),
@@ -901,7 +906,7 @@ function tocChildren() {
   };
   const entry = (h, labelColor) => {
     const page = tocPages[h.key] !== undefined ? String(tocPages[h.key]) : '0';
-    const m = h.text.match(/^(Annexe\s+)?([0-9A-Q]{1,2})\s*[—–-]\s*(.*)$/);
+    const m = h.text.match(/^(Annexe\s+)?([0-9A-U]{1,2})\s*[—–-]\s*(.*)$/);
     if (m && TOC_SHORT[m[3]]) m[3] = TOC_SHORT[m[3]];
     const kids = [];
     if (m) {
@@ -1088,7 +1093,7 @@ UNITS.filter(u => !['avant', 'E'].includes(u.id)).forEach(u => {
     }
   }
   const seenAx = new Set();
-  let ax; const AXRE = /annexes?\s+([A-Q])(?![A-Za-z])/g;
+  let ax; const AXRE = /annexes?\s+([A-U])(?![A-Za-z])/g;
   while ((ax = AXRE.exec(md)) !== null) {
     if (ax[1] !== u.id && !seenAx.has(ax[1])) { seenAx.add(ax[1]); (ANNEX_BACKREFS[ax[1]] = ANNEX_BACKREFS[ax[1]] || []).push(u.id); }
   }

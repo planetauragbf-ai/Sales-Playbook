@@ -9,7 +9,7 @@ Q = {
    "Spécialisation 100 % vins, champagnes & spiritueux (température, casse, valeur, accises)",
    "<b>Filiale US licenciée TTB</b> : maîtrise du three-tier system",
    "Plateforme propriétaire <b>Planet'Connect</b> (devis, dossiers, suivi) en développement constant",
-   "Couverture casse/perte incluse jusqu'à 20 000 €/envoi · ad valorem en option (3 %)",
+   "Assurance casse/perte jusqu'à 20 000 €/envoi - en option (3 %), souscrite 9 fois sur 10",
    "Accès à l'offre décarbonée VELA (option conditionnelle)",
  ]),
  'faiblesses': ("FAIBLESSES", '#722F45', '#F6EEF1', [

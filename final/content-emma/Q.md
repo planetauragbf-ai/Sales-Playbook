@@ -9,7 +9,6 @@
 | Pack adhérent 2026 complet (dossier officiel) | drive.google.com/drive/folders/1NvrGALc4EUiJn_UAGs5pAc2XlSsGO78C |
 | Conditions Générales de Services 2026 (annexe B) | drive.google.com/file/d/1udHs7oESvTWcF7LOY9Ra9vwpnDoykchT |
 | Grille tarifaire shipping 2026 (annexe A) | drive.google.com/file/d/19LkZlRSpZX0iz0kbDwBXIe08KyQufqob |
-| Rate Schedule 2026 EN (version anglaise de la grille) | drive.google.com/file/d/1Btne26DuUKYsoJoX6ZlcA6SInPdeBDjS |
 | Grille stockage & picking 2026 (annexe I) | drive.google.com/file/d/1xFTEfOtT9wgRahi2azwqoLtnTuAurzXa |
 | Order Form 2026 (annexe J) | drive.google.com/file/d/1Lx_P4hkVv7ydqC7kD9EkdLQ57Xt_u1dc |
 | Mandat de prélèvement SEPA (annexe K) | drive.google.com/file/d/1ofdzYYs_NLZYnLLfVKxhi5J-x6xY-T3T |

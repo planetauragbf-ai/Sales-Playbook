@@ -136,14 +136,14 @@ Il est construit à partir de la documentation officielle 2026 (CGS, grilles shi
 
 1. **Nous vendons de la sérénité, pas du transport.** L'adhérent vend plus de vin parce que la question « comment je le ramène chez moi ? » a une réponse simple.
 2. **Le service est vendu au client final par l'adhérent.** Notre premier travail : rendre le point de vente capable et confiant de vendre notre prestation.
-3. **Jamais de délai ferme ni de couverture hors cadre.** Les grilles et les CGS font foi, les délais sont estimatifs, la couverture casse/perte est incluse jusqu'à 20 000 €/envoi sous condition d'emballage homologué, et l'assurance ad valorem (3 % de la valeur) reste une option - souscrite pour 9 envois sur 10.
+3. **Jamais de délai ferme ni de couverture hors cadre.** Les grilles et les CGS font foi, les délais sont estimatifs, l'assurance casse/perte (jusqu'à 20 000 €/envoi, emballage homologué) reste une option - ad valorem, 3 % de la valeur, souscrite pour 9 envois sur 10 : elle se propose à chaque commande, jamais comme un inclus.
 4. **DDP par défaut, DAP quand la réglementation ou la valeur l'exige.** Un commercial qui maîtrise les incoterms inspire confiance.
 5. **Aucun engagement sur un pays ou un État non couvert** sans vérification sur Planet'Connect ou auprès de l'exploitation.
 6. **La documentation 2026 signée électroniquement (CGS + grilles)** est le point de bascule officiel prospect → adhérent.
 
 ## Vos 90 premiers jours : trois paliers
 
-La montée en puissance est balisée sur trois mois - la règle : **on observe avant de faire, on fait accompagné avant de faire seul.** Le planning détaillé, jour par jour pour le premier mois puis semaine par semaine jusqu'à J+90, avec les rituels d'équipe, est en **annexe C** : c'est le document de travail remis le jour 1.
+La montée en puissance est balisée sur trois mois - la règle : **on observe avant de faire, on fait accompagné avant de faire seul.** Le planning détaillé, jour par jour pour le premier mois puis semaine par semaine jusqu'à J+90, avec les rituels d'équipe, est en **annexe R** : c'est le document de travail remis le jour 1.
 
 | Jalon | Palier | Preuves attendues |
 |---|---|---|
@@ -151,4 +151,4 @@ La montée en puissance est balisée sur trois mois - la règle : **on observe a
 | **J+60** | Autonome | 5 diagnostics observés, 3 propositions sans écart, 1 RDV obtenu seul |
 | **J+90** | Pilote son activité | Pipeline propre, analyse win/loss, 1 proposition d'amélioration du playbook |
 
-> 📌 **À RETENIR -** Trois mois, trois paliers : certifié à J+30, autonome à J+60, pilote à J+90. Un bloc téléphone 10 h-12 h sanctuarisé, un CRM à jour chaque soir et un premier envoi réel pour chaque adhérent signé : le contrat minimal d'activité. Le parcours détaillé est en annexe C.
+> 📌 **À RETENIR -** Trois mois, trois paliers : certifié à J+30, autonome à J+60, pilote à J+90. Un bloc téléphone 10 h-12 h sanctuarisé, un CRM à jour chaque soir et un premier envoi réel pour chaque adhérent signé : le contrat minimal d'activité. Le parcours détaillé est en annexe R.

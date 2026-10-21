@@ -52,6 +52,8 @@ Règle : **ne jamais confondre une demande de prix et un dossier export qualifi�
 
 ## Canada - la fiche pays encadrée
 
+Le formulaire POA officiel vierge (6 pages) est reproduit en annexe T.
+
 - **DAP uniquement**, quatre provinces desservies : **Alberta, Colombie-Britannique, Ontario, Québec** (grilles en annexe A).
 - Quota : **45 L par personne sur 90 jours**.
 - Documents : **preuve de paiement (ticket de caisse)** jointe à l'enregistrement, **certificat d'origine pour les champagnes**, **POA obligatoire** (email automatique au destinataire, départ en attente sans retour - préparer le client en amont).
@@ -88,7 +90,7 @@ Cette fiche Suède est le modèle de toute fiche procédure pays : le pourquoi (
 
 ## Champagne - le certificat CIVC
 
-- **Obligatoire hors UE** (États-Unis, Royaume-Uni, Suisse…) et exigé aussi pour le **Canada**. Deux pages originales dans la pochette documents extérieure du colis, un certificat couvre **12 bouteilles maximum**, sans ces originaux : **immobilisation en douane**.
+- **Obligatoire hors UE** (États-Unis, Royaume-Uni, Suisse…) et exigé aussi pour le **Canada**. Deux pages originales dans la pochette documents extérieure du colis, un certificat couvre **12 bouteilles maximum**, sans ces originaux : **immobilisation en douane**. Un exemplaire réel est reproduit en annexe U.
 - Demande par l'adhérent : certificat.origine-ext@civc.fr / 03 26 51 19 30 - ou **par Planet Aura : 15 € HT par demande d'expédition** (dont 10 € HT reversés au CIVC).
 
 ## RGPD - données des clients finaux et prospection
@@ -119,7 +121,7 @@ Checklist « contrôle avant campagne » - 8 points : base légale identifiée �
 
 1. « C'est garanti livré en X jours. » → *délais estimés*.
 2. « Les taxes seront exactement de X. » → *estimation selon barème du jour*.
-3. « Tout est assuré, quoi qu'il arrive. » → *casse/perte incluse jusqu'à 20 000 €/envoi sous condition d'emballage homologué, exclusions, ad valorem 3 % en option*.
+3. « Tout est assuré, quoi qu'il arrive. » → *l'assurance casse/perte (jusqu'à 20 000 €/envoi, emballage homologué) est une option à 3 %, avec ses exclusions - rien n'est couvert « quoi qu'il arrive »*.
 4. « Mettez une valeur plus basse pour payer moins de taxes. » → **fraude douanière, interdit absolu** (fausse déclaration = responsabilité du client, CGS art. 5 - et la valeur déclarée est la base d'indemnisation).
 5. « Glissez 2 bouteilles de plus dans le colis, personne ne verra. » → *seuls les produits déclarés voyagent (CGS art. 8, annexe B)*.
 6. « Le B2B ? Pareil que le B2C. » → *sur étude uniquement*.

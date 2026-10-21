@@ -6,6 +6,6 @@
 
 ## Le document officiel (5 pages)
 
-Conditions de lecture, grilles UE / DOM / pays tiers, USA groupage et direct, spiritueux, options et frais. Original : drive.google.com/file/d/19LkZlRSpZX0iz0kbDwBXIe08KyQufqob · tableur source : docs.google.com/spreadsheets/d/1C2v57-4l7Lq8bk6vHfQAF6UBqLICn0V2JMiFxvJbo-E · version anglaise remise aux clients finaux (Rate Schedule) : drive.google.com/file/d/1Btne26DuUKYsoJoX6ZlcA6SInPdeBDjS
+Conditions de lecture, grilles UE / DOM / pays tiers, USA groupage et direct, spiritueux, options et frais. Original : drive.google.com/file/d/19LkZlRSpZX0iz0kbDwBXIe08KyQufqob
 
-> 📌 **À RETENIR -** Ces tarifs sont les **prix officiels 2026 à communiquer tels quels**. La couverture casse/perte est incluse jusqu'à 20 000 €/envoi (sous condition d'emballage homologué), l'assurance ad valorem (3 % de la valeur) reste une option - souscrite pour 9 envois sur 10 (89,8 %).
+> 📌 **À RETENIR -** Ces tarifs sont les **prix officiels 2026 à communiquer tels quels**. La couverture casse/perte (jusqu'à 20 000 €/envoi, emballage homologué) relève de l'assurance ad valorem (3 % de la valeur), qui reste une option - souscrite pour 9 envois sur 10 (89,8 %).

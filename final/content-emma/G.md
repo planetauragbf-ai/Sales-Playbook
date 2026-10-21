@@ -17,7 +17,7 @@ Six documents officiels accompagnent la vente et l'activation d'un adhérent. Il
 
 | Document (réf.) | À quoi il sert | Où le trouver | Quand l'envoyer |
 |---|---|---|---|
-| Grille tarifaire shipping 2026 FR (A2) + Rate Schedule EN (A3) | Les prix officiels par destination : UE, DOM, pays tiers, USA groupage et direct, spiritueux, options et frais | drive.google.com/file/d/19LkZlRSpZX0iz0kbDwBXIe08KyQufqob (EN : 1Btne26DuUKYsoJoX6ZlcA6SInPdeBDjS) · reproduite en annexe A | Remise en rendez-vous et jointe à toute proposition, version EN remise aux clients finaux |
+| Grille tarifaire shipping 2026 (A2) | Les prix officiels par destination : UE, DOM, pays tiers, USA groupage et direct, spiritueux, options et frais | drive.google.com/file/d/19LkZlRSpZX0iz0kbDwBXIe08KyQufqob · reproduite en annexe A | Remise en rendez-vous et jointe à toute proposition |
 | Grille stockage & picking 2026 (A4) | Tarifs palettes, colis, fournitures et conditions de l'entrepôt de Castres | drive.google.com/file/d/1xFTEfOtT9wgRahi2azwqoLtnTuAurzXa · reproduite en annexe I | Dès qu'un besoin logistique (stockage, picking) est identifié |
 | Order Form 2026 (A6) | Bon de commande du client final (anglais) avec bloc de paiement CB | drive.google.com/file/d/1Lx_P4hkVv7ydqC7kD9EkdLQ57Xt_u1dc · reproduit en annexe J | Au comptoir, pour l'encaissement du service par le client final |
 | Mandat de prélèvement SEPA (A7) | Prélèvement des points de vente payeurs | drive.google.com/file/d/1ofdzYYs_NLZYnLLfVKxhi5J-x6xY-T3T · reproduit en annexe K (formulaire vierge uniquement) | À la signature, si le magasin est payeur |
