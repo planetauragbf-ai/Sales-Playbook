@@ -1,79 +1,72 @@
-# Annexe R - Parcours d'onboarding 0-90 jours
+# Annexe R - Organigramme et documents officiels
+*Le coffre documentaire du commercial : les six documents officiels 2026, à quoi sert chacun, où le trouver, quand l'envoyer - et le catalogue complet des pièces avec leur statut de collecte.*
 
-*Le planning opérationnel remis au nouvel arrivant le jour 1 : jour par jour pour le premier mois, puis semaine par semaine jusqu'à J+90. Les jalons et paliers sont dans l'avant-propos - la règle : on observe avant de faire, on fait accompagné avant de faire seul.*
+## L'organigramme Planet Aura 2026
 
-#### Semaine 1 - Immersion
+Qui fait quoi, et à qui parler : la direction arbitre, le commerce développe, l'exploitation exécute, l'administration encaisse - et la filiale new-yorkaise porte les licences américaines. Les règles de délégation détaillées (qui décide quoi, quand escalader) sont au chapitre 03.
 
-*Comprendre l'entreprise, les outils et le terrain.*
+## Les six documents officiels 2026
 
-| Jour | Activités | Avec | Livrable |
+Six documents officiels accompagnent la vente et l'activation d'un adhérent. Ils sont rangés dans le Drive interne « $DOCUMENTS PLANET AURA ADHERENT 2026 » (dossiers « DOCUMENT ADH 2026 (NOUVEAU CLIENT) », « CLIENT ACTIF AU 1/04 » et version Corse dédiée), les tarifs sont par ailleurs publiés sur Planet'Connect et valables pour l'année civile en cours (CGS, art. 7). Ce sont les seuls supports approuvés pour diffusion externe : le playbook, lui, reste strictement interne.
+
+```stats
+6|documents officiels dans le pack adhérent 2026
+18|pièces suivies au catalogue documentaire (A1-A18)
+37 p.|mode d'emploi Planet'Connect (16 modules)
+```
+
+| Document (réf.) | À quoi il sert | Où le trouver | Quand l'envoyer |
 |---|---|---|---|
-| Lun. | Accueil, boussole d'équipe, accès (HubSpot, Brevo, Planet'Connect démo, Drive, WhatsApp Business), lecture : Avant de commencer + chap. 00 | Floriane, Emma | Accès actifs, règles d'or restituées |
-| Mar. | Visite de l'entrepôt de Castres : réception, cartonnage ISTA 3A, picking, cut-off, pochette documents | Vincent, Frantz | Un carton 6 bouteilles préparé soi-même |
-| Mer. | Immersion exploitation : saisie d'un shipping, statuts, emails automatiques, création de documents exports, suivi, SAV, certificat CIVC | Équipe logistique | 3 shippings suivis de bout en bout |
-| Jeu. | Formation Planet'Connect (16 modules), simulateur sur 10 scénarios (UE, UK, USA groupage/direct, Canada, spiritueux) | Emma | 10 devis justes au simulateur |
-| Ven. | Rituels en observateur (pipeline 45', commerce-ops 30'), lecture chap. 01-03, bilan de semaine | Floriane, Adam | Questions consignées |
+| Grille tarifaire shipping 2026 (A2) | Les prix officiels par destination : UE, DOM, pays tiers, USA groupage et direct, spiritueux, options et frais | drive.google.com/file/d/19LkZlRSpZX0iz0kbDwBXIe08KyQufqob · reproduite en annexe D | Remise en rendez-vous et jointe à toute proposition |
+| Grille stockage & picking 2026 (A4) | Tarifs palettes, colis, fournitures et conditions de l'entrepôt de Castres | drive.google.com/file/d/1xFTEfOtT9wgRahi2azwqoLtnTuAurzXa · reproduite en annexe E | Dès qu'un besoin logistique (stockage, picking) est identifié |
+| Order Form 2026 (A6) | Bon de commande du client final (anglais) avec bloc de paiement CB | drive.google.com/file/d/1Lx_P4hkVv7ydqC7kD9EkdLQ57Xt_u1dc · reproduit en annexe F | Au comptoir, pour l'encaissement du service par le client final |
+| Mandat de prélèvement SEPA (A7) | Prélèvement des points de vente payeurs | drive.google.com/file/d/1ofdzYYs_NLZYnLLfVKxhi5J-x6xY-T3T · reproduit en annexe G (formulaire vierge uniquement) | À la signature, si le magasin est payeur |
+| Mode d'emploi Planet'Connect (A9) | Manuel complet de la plateforme, de la connexion aux factures | drive.google.com/file/d/1EZhHDdzdbYrLIBJaDj_mLAG9wwJpTjb6 · annexe M | Systématiquement, dans le pack de bienvenue |
+| Formulaire de shipping par email (A8) | Alternative Excel normalisée à la saisie sur la plateforme | drive.google.com/file/d/1qseseA4vCgayD5FIv9_gtVXsOy-CBLZR · annexe O | Aux adhérents qui préfèrent l'email, à retourner à contact@planet-aura.com |
 
-## Semaine 2 - Maîtrise de l'offre
+## Ce qu'il faut savoir sur chaque document
 
-*Savoir chiffrer, expliquer et cadrer sans aide.*
+**Grille tarifaire shipping 2026 (A2)** - Le document officiel remis aux adhérents, en 5 pages : conditions générales de lecture, grilles UE/DOM/pays tiers, USA groupage et direct, spiritueux, options et frais. Le Rate Schedule 2026 (A3) en est la version anglaise remise aux clients finaux : c'est sa grille USA qui fait foi (cf. annexe D - l'exemple des 24 bouteilles USA en groupage s'y lit à ~360 €, jamais moins).
 
-| Jour | Activités | Avec | Livrable |
+**Grille stockage & picking 2026 (A4)** - Le document officiel en 3 pages : grilles palettes et colis, fournitures, assurance, conditions (reproduites en annexe D). À dégainer dès que le prospect évoque un stock déporté ou de la préparation de commandes.
+
+**Order Form 2026 (A6)** - Le bon de commande client final (anglais) avec bloc de paiement CB - celui que le client remplit au comptoir. Contenu détaillé, mentions « NO PO BOX » et « No American Express please » comprises : annexe B.
+
+**Mandat SEPA (A7)** - Le mandat de prélèvement (2 pages) pour les points de vente payeurs. Seul le formulaire vierge circule.
+
+> 🚫 **INTERDIT -** Le mandat SEPA **rempli** contient les coordonnées bancaires du magasin : transmission par les canaux officiels uniquement, jamais de copie dans un support de vente ni par messagerie non sécurisée.
+
+**Mode d'emploi Planet'Connect (A9)** - Le manuel complet de la plateforme (37 pages), structuré en 16 modules : Se connecter · Mot de passe oublié · Première connexion · Accueil · Actualités · FAQ · Interlocuteurs · **Simulateur** · **Shippings** · Cartonnages · Mon compte · Ma grille tarifaire · Mes vins · Mes destinataires · Mes lieux d'enlèvement · Factures. C'est le support de référence de la prise en main adhérent et du pack de bienvenue (chap. 16).
+
+**Formulaire de shipping par email (A8)** - Le fichier Excel normalisé pour les adhérents qui préfèrent l'email à la plateforme. Deux onglets : **FORMULAIRE** (date de la demande, donneur d'ordre/facturation, lieu d'enlèvement, destinataire, détail des vins, incoterm) et **CONDITIONS D'EXPÉDITIONS**. Règle affichée sur le document : **tout formulaire incomplet est retourné** - d'où la fiche réflexe des 4 données (annexe B). À retourner à contact@planet-aura.com.
+
+## Catalogue des annexes documentaires (A1-A18) et statuts
+
+Statuts : **INCLUS** = intégré dans le corps du playbook ou ses annexes · **CAPTURE** = visuel intégré, original haute définition à joindre · **À FOURNIR** = à transmettre pour intégration à la prochaine édition.
+
+| Réf. | Annexe | Contenu attendu | Statut |
 |---|---|---|---|
-| Lun. | Catalogue 2026 (chap. 04) : grilles, options, cartons, assurance, DDP/DAP, quiz grilles & incoterms | Emma | Quiz ≥ 90 % |
-| Mar. | Conformité (annexe D) : USA (États, POA, quotas), Canada, Champagne/CIVC, Suède, RGPD, 8 phrases interdites | Équipe logistique | Les 8 questions USA et les 8 phrases interdites restituées |
-| Mer. | Concurrence (chap. 05) et cibles (chap. 06-08), 3 battlecards jouées en jeu de rôle | Adam | 3 duels : reconnaître, recentrer, questionner |
-| Jeu. | Shadow calls : 5 appels écoutés (cold call caveau, permission 45 s, relance), débrief | Adam | Grille d'écoute remplie |
-| Ven. | Formation caveau observée chez un adhérent, sinistres (chap. 16) : règle 48 h, factures RXP | Adam & équipe logistique | Fiche réflexe comptoir maîtrisée |
+| A1 | Conditions Générales de Services 2026 | Texte intégral (17 articles + signature électronique) | **INCLUS** - synthèse en annexe H, texte intégral publié sur Planet'Connect |
+| A2 | Grille tarifaire shipping 2026 (FR) | Toutes les grilles par destination | **INCLUS** - reproduction intégrale en annexe D et chap. 04 |
+| A3 | Rate Schedule 2026 (EN) | Version anglaise remise aux clients finaux | **INCLUS** - grille de référence reprise en annexe D |
+| A4 | Grille tarifaire stockage & picking 2026 | Palettes, colis, fournitures, assurance | **INCLUS** - reproduite en annexe D |
+| A5 | Manuel utilisateur adhérent 2026 | PDF maquetté 19 pages (9 sections) | **INCLUS** en synthèse (annexe B) - PDF original **À FOURNIR** en pièce jointe d'édition |
+| A6 | Order Form 2026 | Bon de commande client final (EN) avec bloc CB | **INCLUS** - détaillé en annexe B |
+| A7 | Formulaire de mandat SEPA | Formulaire vierge officiel | **INCLUS** - formulaire vierge seul (voir l'interdit ci-dessous) |
+| A8 | Formulaire de shipping par email (xlsx) | Modèle Excel normalisé 2026 | **INCLUS** - modèle officiel décrit dans la présente annexe |
+| A9 | Mode d'emploi Planet'Connect (37 p.) | Manuel complet de la plateforme | **INCLUS** - sommaire repris dans la présente annexe |
+| A10 | Captures Planet'Connect | Simulateur, création de shipping, suivi, factures | **CAPTURE** (simulateur, chap. 04) - compléments (commande, factures) **À FOURNIR** |
+| A11 | Cartes des zones USA (vin & spiritueux) | Cartes choroplèthes par État, 3 statuts | **CAPTURE** (chap. 04 & annexe I) - originaux HD **À FOURNIR** |
+| A12 | Carte Norvège (2 zones) | Carte des comtés par zone tarifaire | **CAPTURE** (annexe I) |
+| A13 | Mails automatiques Planet'Connect | Liste des ~30 modèles en 6 familles + déclencheurs | **CAPTURE** (chap. 15 - toute modification passe par Emma) - export texte complet **À FOURNIR** |
+| A14 | Flyer de prospection tri-volet | Recto/verso du support remis en prospection | **CAPTURE** (annexe B & chap. 14) |
+| A15 | Certificat de Champagne (exemple) | Spécimen anonymisé des 2 pages CIVC | **À FOURNIR** |
+| A16 | POA USA & POA Canada (modèles) | Formulaires Power of Attorney envoyés aux destinataires | **À FOURNIR** (spécimens anonymisés) |
+| A17 | Kit PLV « We ship worldwide » | Affichette comptoir, chevalet, stickers - photos en situation | **À FOURNIR** |
+| A18 | Études de cas & témoignages clients | 2-3 cas chiffrés autorisés + verbatims adhérents | **À FOURNIR** (cf. programme chap. 14) |
 
-## Semaine 3 - Terrain accompagné
+> ⚠️ **LE POINT DE VIGILANCE -** Les annexes marquées À FOURNIR sont attendues auprès de la direction/exploitation : transmettre les fichiers (PDF, scans, exports) pour intégration à l'édition suivante du playbook. Ne jamais diffuser à l'extérieur le mandat SEPA rempli ni un POA nominatif.
 
-*Faire, en binôme.*
+> « Un playbook dont les annexes sont complètes fait gagner un rendez-vous : tout se montre séance tenante. »
 
-| Jour | Activités | Avec | Livrable |
-|---|---|---|---|
-| Lun. | Portefeuille confié : liste A/B/C, dormants, inbound, hygiène CRM (champs obligatoires, next step) | Adam | Pipeline à ≥ 95 % de complétude |
-| Mar.-Mer. | 2-3 RDV découverte en binôme (SPIN, démo simulateur sur les vins du prospect), compte rendu < 24 h | Adam | 2 comptes rendus CRM validés |
-| Jeu. | Premiers appels supervisés : 10 appels de cadence, 10 emails personnalisés (séquences chap. 10) | Adam | Appels loggés < 24 h, 1 créneau obtenu |
-| Ven. | Co-rédaction d'une proposition (email récap + documentation 2026 + accès), les 26 objections à l'oral | Floriane | Proposition envoyée, objections sues |
-
-## Semaine 4 - Certification et lancement
-
-*Premier rendez-vous seul.*
-
-| Jour | Activités | Avec | Livrable |
-|---|---|---|---|
-| Lun.-Mar. | Semaine type adoptée : signaux chauds 10', bloc téléphone 10 h-12 h, RDV l'après-midi, CRM 15' le soir | Seul | 25 appels & emails, 4 RDV |
-| Mer. | Premier RDV découverte en solo, débrief avec Adam (checklist annexe C) | Seul puis Adam | Compte rendu + next step daté |
-| Jeu. | Formation caveau animée (30 min) chez un nouvel adhérent, demande de recommandation | Emma | Adhérent formé, 1 recommandation |
-| Ven. | Certification J+30 (offre, ICP, CRM, conformité), objectifs J+60 fixés, proposition d'amélioration du playbook | Floriane, Emma | Certification signée, objectifs écrits |
-
-## Mois 2 - Gagner en autonomie commerciale (J+31 → J+60)
-
-| Semaine | Priorités | Volumes hebdo | Finalité |
-|---|---|---|---|
-| S5 | Lancer sa première cadence ABM 1:1 sur 10 comptes P1 (8 touches / 18 jours), 2 RDV en binôme, Adam en observateur | 25 appels · 25 emails · 4-6 RDV · 2 visites · 3 diagnostics observés | Cadence active dans HubSpot/Brevo, 2 recommandations |
-| S6 | RDV seuls, 1re proposition rédigée sans aide, revue de 5 comptes dormants (motifs, appels) | Idem | Proposition sans écart critique, 5 dormants qualifiés |
-| S7 | Salon ou tournée terrain par appellation (RDV prébookés, suivi < 48 h), cotation hors grille avec l'exploitation | Idem + 8 contacts salon | 8 RDV qualifiés, 1 devis hors grille suivi |
-| S8 | Premier adhérent signé et activé (formation + premier envoi < 30 j), analyse de ses 3 premières pertes | Idem | 1 signature, 3 motifs de perte enregistrés, bilan J+60 |
-
-## Mois 3 - Piloter son activité (J+61 → J+90)
-
-| Semaine | Priorités | Jalon |
-|---|---|---|
-| S9-S10 | Portefeuille complet en autonomie, revue de comptes tiers A, upsell (stockage, CIVC, spiritueux) sur 3 adhérents | Pipeline pondéré 90 jours vs objectif présenté en rituel |
-| S11 | Analyse win/loss du trimestre (motifs, cycles, sources), calibrage de son score PA-FIT | Analyse présentée en revue mensuelle |
-| S12 | Bilan J+90 : KPIs (taux de contact, RDV, win rate, activation), proposition d'amélioration du playbook, objectifs du trimestre suivant | Entretien J+90, objectifs T+1 écrits |
-
-## Les rituels dès la semaine 1
-
-| Rituel | Cadence | Rôle du nouveau commercial |
-|---|---|---|
-| Signaux chauds | Chaque matin, 10' | Inbound rappelé < 24 h, dès S3 |
-| Pipeline | Lundi, 45' | Observateur S1-S2, puis présente ses deals |
-| Commerce-opérations | Hebdo, 30' | Observateur S1, remonte ses faisabilités dès S3 |
-| Performance (funnel & KPIs) | Mensuel, 60' | Présente ses chiffres dès le mois 2 |
-| Playbook | Trimestriel, 90' | Apporte sa proposition d'amélioration à J+90 |
-
-> 📌 **À RETENIR -** Trois mois, trois paliers : certifié à J+30, autonome à J+60, pilote à J+90. Ce qui se négocie, c'est l'ordre des blocs de la semaine, jamais leur existence. Un bloc téléphone 10 h-12 h sanctuarisé, un CRM à jour chaque soir et un premier envoi réel pour chaque adhérent signé : voilà le contrat minimal d'activité.
-
+> 📌 **À RETENIR -** Cette annexe est vivante : chaque document À FOURNIR transmis (manuel utilisateur, POA, certificat CIVC, exports de mails, kit PLV, études de cas) est intégré à l'édition suivante. Avant tout envoi, vérifier que l'on tient bien la version 2026 en cours - les grilles sont révisées chaque année et seule la version publiée sur Planet'Connect fait foi.

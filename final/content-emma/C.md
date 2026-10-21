@@ -1,265 +1,118 @@
-# Annexe C - Fiche réflexe comptoir, checklists et modèles
-*Tout ce qui se dégaine en 30 secondes : la fiche à plastifier pour le comptoir, les checklists du commercial et les modèles du pack adhérent 2026.*
+# Annexe C - Chiffres officiels, hiérarchie de preuve et sources
 
-## Fiche réflexe comptoir (à plastifier pour les adhérents)
+*Un chiffre sans source, millésime et périmètre ne sort pas : la table qui fait foi, les quatre niveaux de preuve et la bibliographie complète S01-S15.*
 
-**LES 4 DONNÉES À DEMANDER SYSTÉMATIQUEMENT** (version affichette - symboles géants, lisibles depuis le comptoir) :
+## La table des chiffres officiels 2026 (source unique)
 
-| Symbole | Donnée à collecter |
-|---|---|
-| **#** | Nombre de bouteilles (volume de la commande) |
-| **kg** | Poids et dimensions des colis |
-| **€** | Valeur des vins - base des taxes ET de l'assurance |
-| **→** | Adresse complète de livraison (sans PO Box) + date souhaitée |
+Les chiffres d'activité de ce playbook proviennent d'une source unique : les **dashboards admin de Planet'Connect** (Gestion / Commercial / Logistique), extraction du **24/09/2026**. En cas de doute ou de divergence avec un ancien support, c'est cette table qui fait foi - et le dashboard du jour pour tout usage récent.
 
-> **REPÈRE -** Sans ces 4 données, aucune simulation ni commande n'est possible. Tout le reste de la fiche en découle.
+```stats
+1,15 M€|CA 2025 (+11,6 %)
++18,7 %|Croissance 2026 vs 2025 à date
+6 643|Expéditions sur 12 mois glissants
+64,5 %|des envois vers les USA
+4,8/5|Avis Google (près de 300 avis)
+```
 
-**QUAND UN CLIENT VEUT SE FAIRE LIVRER :**
-
-1. **Simuler le prix** : Planet'Connect → Simulateur → destination + nombre de bouteilles (afficher transport + estimation des taxes DDP).
-2. **Vérifier** : adresse complète **sans PO Box**, email + téléphone du client, bouteilles ≤ 21° avec CRD.
-3. **Encaisser le vin** (vous) + **le service** : mandat SEPA du magasin par défaut, ou CB du client final (order form - pas d'Amex - ou lien de paiement).
-4. **Saisir la commande** sur Planet'Connect : produits, quantités, **valeur déclarée exacte** (base de l'assurance), incoterm DDP/DAP, date d'enlèvement souhaitée.
-5. **Emballer** dans les cartons Planet Aura (ou polystyrène certifié), pochette documents à l'extérieur, champagne hors UE : **les 2 pages originales du certificat CIVC** dans la pochette.
-6. **Remettre au transporteur** uniquement les produits déclarés.
-
-**CAS PARTICULIERS :**
-
-- **USA > 2 100 $** : POA avec SSN (email automatique au client) - prévenir le client et l'y préparer : c'est une formalité normale.
-- **Canada** : POA obligatoire (départ suspendu sans retour) + ticket de caisse + taxes au liquor board à l'arrivée.
-- **Canicule** : proposer le **départ différé** (l'altération thermique n'est pas assurée).
-- **Magnums** : cartons spécifiques obligatoires.
-- **Plus de 36 bouteilles USA (6 L spiritueux)** : fractionner en plusieurs envois ou expédier à des destinataires distincts et réels.
-
-**EN CAS DE PROBLÈME À LA LIVRAISON :** casse visible → refuser ou porter des réserves précises, sinon signalement **sous 48 h avec photos** à contact@planet-aura.com.
-
-**CONTACTS :** 09 79 11 45 07 / 06 59 56 72 72 - contact@planet-aura.com - WhatsApp.
-
-## Les objections en format court : une phrase + une question de retour
-
-Quand le temps manque (salon, appel entrant, relance) : une réponse courte, puis une question qui rend la parole au prospect. Elle fait émerger l'objection réelle (souvent différente de celle exprimée) et vous garde la main. Le traitement complet des 26 objections, avec la méthode en quatre temps, est au chap. 13.
-
-| Objection | Réponse courte | Question de retour |
+| Chiffre | Valeur officielle | Période |
 |---|---|---|
-| Trop cher | Comparons le coût complet avant la remise. | Quel écart doit être expliqué ou réduit ? |
-| Trop long | Protégeons d'abord la date impérative. | Quelle flexibilité existe réellement ? |
-| Météo / chaleur | Proposons le départ différé plutôt qu'une promesse. | Quelle fenêtre d'expédition convient à votre client ? |
-| Petits volumes | Testons grille, groupage ou non-adéquation. | Quel est l'envoi type ? |
-| Déjà un transitaire | Comparons un flux mal couvert, pas tout le compte. | Où est-il le moins adapté ? |
-| Envoyez des infos | Oui, ciblons le document utile. | Prix, délai, douane, impact ou sécurité ? |
-| Pas de budget | Non prioritaire ou non budgété ? | Quand l'arbitrage a-t-il lieu ? |
-| Pas le temps | Votre part se limite à 3 minutes de saisie. | Qui saisirait les commandes côté équipe ? |
-| Température / casse | Validons spécifications, emballage et assurance. | Quelles exigences sont obligatoires ? |
-| Douane complexe | Clarifions importateur, incoterm et données. | Où est la zone d'incertitude ? |
-| Plusieurs décideurs | Faisons une revue commune par risque. | Qui doit participer ? |
-| Solution trop récente | Séparons références Planet Aura et preuve du pilote. | Un pilote limité est-il acceptable ? |
+| CA 2025 | 1 148 961 € (+11,6 %) | Année 2025 |
+| CA 2026 | 991 568 € (+18,7 % vs 2025 à date) | Janv.-sept. 2026 |
+| CA vins expédiés (valeur transportée) | 2 781 717 € | Janv.-sept. 2026 |
+| Trajectoire | ×4,7 (246 637 € → 1 148 961 €) | 2021 → 2025 |
+| Expéditions | 6 643 (dont 1,45 % annulées) | 12 mois glissants |
+| Shippings | 5 092 | Janv.-sept. 2026 |
+| Bouteilles | 65 277 | Janv.-sept. 2026 |
+| Base comptes | 710 (448 prospects, 227 récents, 35 dormants) | Au 24/09/2026 |
+| Nouveaux adhérents | ~145 | 12 mois glissants |
+| Répartition destinations | USA 64,5 %, France 18,6 % | 12 mois glissants |
+| Assurance ad valorem souscrite | 89,8 % des expéditions | 12 mois glissants |
+| Colisage dominant | Cartons 6 bt (33,4 %) et 12 bt (31,3 %) | 12 mois glissants |
+| Avis Google | 4,8/5, près de 300 avis | Vérifier en direct avant citation |
 
-## Checklist RDV découverte (commercial)
+## La hiérarchie de preuve (4 niveaux)
 
-- Recherche préalable : site, e-shop, avis, appellation, gamme de prix, saisonnalité.
-- Matériel : tablette (simulateur), grilles FR + EN imprimées, carton démo, order form, manuel utilisateur.
-- Questions CAVE posées (Clientèle, Autorité, Volume, Échéance).
-- Démo simulateur faite **sur leurs vins, vers la destination de leur dernier client étranger**.
-- ROI calculé avec leurs chiffres.
-- Objections traitées et verrouillées.
-- Next step daté (signature/formation) + compte-rendu CRM sous 24 h.
+Avant de citer un chiffre en RDV, dans un email ou dans une proposition, identifiez son niveau de preuve. Un chiffre sans niveau identifié ne sort pas.
 
-## Checklist signature → activation
+| Niveau | Source | Usage autorisé |
+|---|---|---|
+| **1** | Contrat signé, CRM, finance, preuve opérationnelle | Opposable - utilisable en proposition et en engagement client |
+| **2** | Source publique primaire datée (FEVS, OIV, douanes…) | Argumentaire marché - toujours citer la source et l'année |
+| **3** | Livrable interne documenté (étude, plan, analyse) | Usage interne - à requalifier en niveau 1 ou 2 avant diffusion |
+| **4** | Hypothèse de travail | Toujours étiquetée comme telle - jamais présentée comme un fait |
 
-- Documentation 2026 signée électroniquement (CGS + grilles).
-- Mode de paiement défini : mandat SEPA signé par défaut, virement accepté, CB (client final ou adhérent) si nécessaire.
-- 1er lot de cartons commandé (110 € HT) + formats 1 et 3 bouteilles (gratuits).
-- Fiche adhérent transmise à l'exploitation (adresse d'enlèvement, contacts, horaires, particularités).
-- Formation caveau planifiée (30 min) et réalisée.
-- PLV/affichette remise (« We ship worldwide »).
-- Premier envoi réalisé en moins de 30 jours et débriefé à livraison.
-- Demande de recommandation faite.
+> ⚠️ **LE POINT DE VIGILANCE -** Le glissement classique : une hypothèse (niveau 4) répétée trois fois en réunion devient un « fait » dans un email client. C'est exactement ce que cette hiérarchie empêche.
 
-## Modèle de compte-rendu de RDV (CRM)
+## La banque d'avis Google : qui citer, pour prouver quoi
 
-À saisir sous 24 h après le rendez-vous, champ par champ :
+Quinze avis publics de la fiche Google Planet Aura, sélectionnés et annotés. Citer **mot pour mot**, montrer la fiche en direct sur le téléphone du prospect, et choisir l'avis qui répond à la situation - jamais un avis générique. Les avis de clients finaux servent d'abord à rassurer l'adhérent sur l'expérience que vivront **ses** clients.
 
-| Champ | À renseigner |
-|---|---|
-| Compte | Nom - segment (domaine / champagne / caviste…) - tiers A/B/C |
-| Décideur & utilisateur | Décideur (nom, rôle) - utilisateur caveau (nom) |
-| Clientèle étrangère | Nationalités, volumes/semaine, saisonnalité |
-| Solution actuelle | Statu quo / bricolage / concurrent + irritants |
-| Destinations demandées | USA / Canada / UE / Asie… - particularités : CIVC, POA, magnums, spiritueux |
-| ROI & objections | ROI évoqué (calcul) - objections (lesquelles + traitement) |
-| Next step | Action datée - probabilité (%) |
+### Côté professionnels et adhérents (tous 5 étoiles)
 
-## Le parcours d'onboarding 0-90 jours
+| Avis | Le verbatim à citer | Ce qu'il prouve - quand le citer |
+|---|---|---|
+| Sara Croche · déc. 2024 | « Cela fait plus de 3 ans que je travaille avec Planet Aura, en tant que professionnel, c'est une entreprise incroyablement réactive, efficace et sérieuse. Le SAV est top. » | Durée de la relation + SAV : le meilleur avis pro - fidélisation, objection « solution trop récente » |
+| Conseil des Vins de Fronsac · fév. 2024 | « Accueil téléphonique de qualité, réactivité, très professionnel. Un des meilleurs transporteurs avec qui nous avons travaillé ! » | Écrit au nom d'une structure de la filière - poids institutionnel, RDV maisons et interprofessions |
+| Valérie Mingot, Maison du Vouvray · déc. 2020 | « Excellentes relations professionnelle et amicale depuis le tout début de notre collaboration en juin 2019. [...] Entreprise recommandée sans aucune hésitation ! » | Fidélité documentée depuis 2019 - la preuve d'ancienneté |
+| Manon Lafont · août 2022 | « Une solution idéale pour nos envois BtoC à l'étranger ! Merci pour votre efficacité et votre gentillesse. » | Le positionnement B2B2C dit avec les mots d'un client |
+| Naima Mazirh · mai 2022 | « Transporteur au top, à l'écoute, très réactif [...]. Si tous nos transporteurs pouvaient être comme eux !!!! » | Un professionnel qui compare ses transporteurs - objection « j'ai déjà un transporteur / un transitaire » |
+| Michel Bruneau · janv. 2023 | « J'ai mis des cavistes qui n'exportaient pas aux États-Unis en contact avec Planet Aura. [...] Planet Aura m'a fait parvenir les vins que je désirais aux USA sans problème. » | L'apport d'affaires et l'export USA - programme de recommandation (chap. 16) |
+| Arthus et Jean · avr. 2025 | « Cela fait presque deux ans que nous travaillons avec cette entreprise [...]. Réactivité, professionnalisme et super suivi. » | Relation récente et durable - l'avis frais à citer en 2026 |
+| Charles-Alexandre de Kuyper · nov. 2023 | « Le service ainsi que l'emballage sont nickel. Rien à redire, aucune casse et travail soigné. Je recommande. » | Local Guide (83 avis publiés) : forte crédibilité - objection casse (O-6, chap. 13) |
+| Filaquier · août 2020 | « Je passe par Planet Aura pour mes envois de colis aux USA. C'est simple et efficace ! » | La simplicité du parcours USA |
 
-Le planning opérationnel complet - jour par jour pour le premier mois, puis semaine par semaine jusqu'à J+90, avec les rituels d'équipe - est devenu une annexe à part entière : il est en **annexe R**. Les jalons J+30 / J+60 / J+90 et le contrat minimal d'activité sont dans l'avant-propos.
+### Côté clients finaux (à raconter à l'adhérent)
 
-## Documents officiels à envoyer (pack adhérent 2026)
+| Avis | Ce qu'il raconte | Quand l'utiliser |
+|---|---|---|
+| Jessica Roberson · nov. 2025 | Des mises à jour à chaque étape, de la prise en charge au dédouanement jusqu'à la livraison finale | Le suivi proactif - objection « colis bloqué », douleur n° 1 du client final |
+| Thomas Klaine · juin 2025 | Prévenu de la forte chaleur, stockage de la caisse offert jusqu'à la baisse des températures | La politique canicule et le départ différé (chap. 04), vécus côté client |
+| Shane Cuevas · déc. 2025 | Aucun frais supplémentaire pour la mise en quarantaine estivale de son envoi | La même politique, angle « zéro surprise » sur les frais |
+| Craig DeWitt · oct. 2023 | Envoi volontairement retardé, après accord, pour éviter la canicule | La preuve que la règle est appliquée, pas seulement déclarée |
+| Lisa · janv. 2026 | « Je recommande à 1000 % » pour une expédition vers le Japon | Les destinations au-delà des USA (Asie premium, chap. 01) |
+| Cheryl Parrino · déc. 2025 | Un emballage soigné, calage et billes de polystyrène décrits spontanément | La qualité d'emballage vue par le destinataire - avec l'objection casse |
 
-| Document | Usage |
-|---|---|
-| CGS 2026 | Contrat cadre - signature électronique |
-| Grille tarifaire shipping 2026 (FR) + Rate Schedule EN | Prix - remis en RDV et joints à la proposition |
-| Grille stockage & picking 2026 | Si besoin logistique |
-| Manuel utilisateur 2026 | Onboarding - process, cartonnage, destinations spécifiques |
-| Mode d'emploi Planet'Connect | Prise en main de la plateforme |
-| Order Form 2026 | Encaissement CB du client final au comptoir |
-| Formulaire mandat SEPA | Si magasin payeur |
-| Formulaire de shipping par email (xlsx) | Alternative à la saisie plateforme |
+> **REPÈRE -** Trois règles d'usage : citer mot pour mot, jamais reformuler un avis. Montrer la fiche Google en direct plutôt que d'en parler. Ces avis sont publics - pour une étude de cas nominative détaillée, l'accord écrit du client reste obligatoire (chap. 06).
 
-*(Dossiers sources : « $DOCUMENTS PLANET AURA ADHERENT 2026 » → « DOCUMENT ADH 2026 (NOUVEAU CLIENT) » / « (CLIENT ACTIF AU 1/04) » / version Corse dédiée.)*
+## Sources externes vérifiées (S01-S13)
 
-### Zoom sur trois documents clés du kit
+Chaque source ci-dessous a été vérifiée en ligne (septembre 2026). En rendez-vous ou dans un support, citer le chiffre AVEC sa source et son millésime.
 
-**Order Form 2026** (bon de commande client final, en anglais) :
-
-- Adresse de livraison avec mention **« NO PO BOX accepted »** + adresse de facturation si différente.
-- Tableau de commande : description du vin, nombre de bouteilles, couleur, contenance (cl), % alc., valeur unitaire €, total.
-- Bloc de totaux : valeur des vins (HT), service de transport, option DDP (taxes et droits simulés), assurance perte & casse, **TOTAL des services Planet Aura payé par carte**.
-- Cases à cocher d'acceptation des conditions (le client déclare avoir lu et accepté les termes, la responsabilité hors périmètre transport, le droit de refuser une expédition).
-- Bloc paiement CB : numéro, expiration, code de sécurité, type de carte - mention en rouge **« No American Express please »**.
-
-**Manuel utilisateur adhérent 2026** - 9 sections, dans l'ordre : interlocuteurs, fonctionnement, cartonnage, procédure d'envoi, assurances & litiges, certificat Champagne, destinations spécifiques, spiritueux, stockage. C'est le document de référence de la formation caveau (chap. 16) : le commercial doit savoir y renvoyer l'adhérent section par section.
-
-**Mode d'emploi Planet'Connect** - manuel de 37 pages couvrant la prise en main complète de la plateforme (simulateur, commandes, suivi, factures, e-signature). À joindre systématiquement au pack de bienvenue.
-
-> ⚠️ **LE POINT DE VIGILANCE -** Le mandat SEPA contient les identifiants bancaires du magasin : il se remplit et se transmet via les canaux officiels uniquement, jamais recopié dans un email libre ni dans un support de vente.
-
-> 📌 **À RETENIR -** Cette annexe est la boîte à outils de 30 secondes : la fiche réflexe et ses 4 données (# / kg / € / →) pour le comptoir, les checklists pour ne rien oublier avant et après la signature, le compte-rendu CRM saisi sous 24 h, et le pack adhérent 2026 complet - huit documents, toujours envoyés via les canaux officiels.
-
-## L'exemple complet : une cadence de nurturing déroulée (J1 à J18)
-
-*L'exemple qui suit est entièrement fictif : le Domaine des Trois Cyprès, sa gérante Claire et tous les détails du compte ont été inventés pour les besoins de la démonstration.*
-
-Cette page déroule la cadence ABM 1:1 du chapitre 10 (8 touches sur 18 jours) sur un seul compte, du repérage au break-up, avec chaque message prêt à l'emploi. Elle sert de gabarit : gardez le squelette, remplacez le signal, les prénoms et chaque variable par une donnée vérifiée - si la donnée n'existe pas, la phrase saute. Et la règle absolue reste la même : toute réponse arrête l'automatisation et crée une tâche humaine.
-
-### Le compte fictif et son signal
-
-| Élément | Donnée |
-|---|---|
-| Compte | Domaine des Trois Cyprès - domaine avec caveau, Provence |
-| Contact | Claire, gérante (décideuse et utilisatrice caveau) |
-| Clientèle étrangère | ~2 000 visiteurs étrangers par an, pic estival |
-| Signal déclencheur | Lancement de la cuvée « Les Restanques » + présence annoncée au salon des Vignerons Indépendants |
-| Statut | Compte P1 qualifié (score PA-FIT ≥ 55, base légale vérifiée, pas d'opportunité ouverte) → ajouté à la liste de cadence HubSpot, emails envoyés par Brevo, appels et LinkedIn créés en tâches humaines |
-
-### La cadence en un coup d'œil : 8 touches sur 18 jours
-
-| Jour | Canal | Objectif | Contenu |
+| Réf. | Source | Chiffres clés à citer | Lien |
 |---|---|---|---|
-| J1 | Recherche compte + vue LinkedIn (sans invitation) | Identifier signal et comité d'achat, se rendre visible | Repérage |
-| J2 | Email 1 | Problème + valeur, CTA 25 minutes | Valise |
-| J4 | Appel 1 | Permission + diagnostic (2 questions en 45 s) | Diagnostic |
-| J6 | Invitation LinkedIn contextualisée | Crédibilité | Connexion |
-| J8 | Email 2 | Prouver la méthode | Preuve |
-| J11 | Appel 2 (+ message vocal) | Traiter objection / timing | Relance |
-| J14 | Email 3 « de décision » | Décision simple : maintenant / plus tard / hors sujet | Break-up |
-| J18 | Sortie de cadence | Protéger la relation | Sortie |
+| S01 | **OIV** - État du secteur vitivinicole mondial 2024 | Production mondiale 226 Mhl en 2024 (plus bas depuis 60 ans), consommation 214 Mhl (−3,3 %, plus bas depuis 1961), exports mondiaux 35,9 Md€ / 99,8 Mhl (stables), vignoble 7,1 Mha | oiv.int/press/state-world-vine-and-wine-sector-2024-adaptation-cooperation |
+| S02 | **OIV** - Estimation 2025 | Production 2025 : 227 Mhl (+0,6 % vs le point bas 2024) - le marché se joue en valeur, pas en volume | oiv.int (communiqués 2025-2026) |
+| S03 | **FEVS** - Bilan export 2025 (dossier de presse, févr. 2026) | Exports FR vins & spiritueux 2025 : **14,3 Md€ (−7,9 %)**, 168 M de caisses (−3 %), **USA : ~3 Md€ (−21 %, droits de douane d'avril + effet change) mais toujours 1er marché**, Chine 767 M€ (−20 %), le secteur passe du 2e au 3e rang des excédents export français | fevs.info (DP 10/02/2026) · pleinchamp.com |
+| S03b | **FEVS** - Bilan export 2024 (rappel) | 2024 : 15,6 Md€ (−4 %), volumes stables, USA 3,8 Md€ (+5 %), Chine/HK/SG 2,1 Md€ (−21 %) = ~90 % de la baisse | fevs.com (DP 11/02/2025, bilan export vins & spiritueux 2024) |
+| S04 | **Atout France** - Œnotourisme 2023 | **12 M d'œnotouristes** en France (+20 % vs 2016) dont **5,4 M d'étrangers** (+29 %), top nationalités : Britanniques, Belges, Américains, 3e destination mondiale derrière USA (30 M) et Italie (15 M), dépenses 5,4 Md€ | atout-france.fr (actualités : l'œnotourisme en France, 12 millions de visiteurs en 2023) |
+| S05 | **Winalist** - Observatoire de l'œnotourisme 2026 | Une visite au domaine génère en moyenne **207 €** de retombées, dont **60 % en achats de vin sur place** - l'argument ROI du caveau | winalist.fr/blog/observatoires/observatoire-2026 |
+| S06 | **SOWINE/Dynata** - Baromètre 2025 | **39 %** des consommateurs français achètent du vin en ligne (+5 pts), panier moyen 51-78 €, 51 % vérifient une certification environnementale avant achat | sowine.com/blog/barometre-sowine-dynata-2025 |
+| S07 | **TTB** (Alcohol and Tobacco Tax and Trade Bureau) - guide importation (version française) | Cadre fédéral US : permis importateur, three-tier system, accises fédérales ~1,07 $/gallon (vin tranquille) vs 13,34 $/proof-gallon (spiritueux) | ttb.gov/import-export/itd/itd-french/importing-alcohol |
+| S08 | **FranceAgriMer** - Note « Importation de boissons alcoolisées aux États-Unis » | Synthèse officielle FR du dispositif US (permis, étiquetage, accises) - le document à relire avant tout dossier B2B US | franceagrimer.fr (note fév. 2023, mise à jour 2026) |
+| S09 | **VELA** - site officiel & presse (Supply Chain Magazine, Vitisphere, French Morning) | Trimaran-cargo de 65 m (goélette, sans ballast), **350 t**, transatlantique en **< 15 jours**, mise en service annoncée par VELA pour 2027 - on n'en parle pas au prospect sans validation direction, et toujours comme **option conditionnelle, jamais exclusive** (règles du chap. 04), partenariat VELA × DHL (offre porte-à-porte, route Caen-Ouistreham - New Haven), ACV : ~5× moins de CO2 qu'un porte-conteneurs sur la ligne, −80 % sur le cycle de vie, fondée à Bayonne en 2022 (avec François Gabart), clients annoncés : grands crus Bordeaux/Bourgogne, maisons de Champagne et Cognac, **un commissionnaire de transport spécialiste vins & champagnes** | vela-transport.com · supplychainmagazine.fr · vitisphere.com |
+| S10 | **CIVC** - Comité Champagne | Certificat d'origine obligatoire hors UE, demande : certificat.origine-ext@civc.fr - 03 26 51 19 30 | comitechampagne.fr |
+| S11 | **Douane française** - accises & CRD | Références EMCS/DA, capsules représentatives de droits, circulation des produits soumis à accises | douane.gouv.fr |
+| S12 | **La Poste Pro** - « Expédier du vin aux États-Unis » | Page qui documente publiquement les restrictions des solutions postales - utile face à l'objection « La Poste est moins chère » (O-3) | laposte.fr/professionnel/expedier/expedier-vin-etats-unis |
+| S13 | **Google / planet-aura.com** - avis clients | **≈ 300 avis Google - fiche Google : 4,8/5 (296 avis), widget site : 5/5 (291 avis)** (relevés sept. 2026), verbatims multilingues publics (FR/EN/FI/NL), banque d'avis annotée ci-dessus - la preuve à montrer en direct sur le téléphone du prospect | planet-aura.com (bloc avis Google) |
 
-### J1 - Recherche et vue LinkedIn (aucun message)
+> **REPÈRE -** Règle de citation : un chiffre sans source, millésime et périmètre n'entre ni dans un support, ni dans un rendez-vous. En cas de conflit entre deux sources, la plus récente et la plus officielle gagne - et on le note ici.
 
-Adam vérifie le signal et prépare la personnalisation : site et e-shop du domaine (pas de livraison internationale), avis Google en anglais (clientèle étrangère confirmée), annonce de la cuvée « Les Restanques », liste des exposants du salon. Il identifie Claire comme décideuse, consulte son profil LinkedIn sans envoyer d'invitation, et logge le tout dans HubSpot sous 24 h.
+### Chiffres externes prêts à l'emploi (avec leur usage commercial)
 
-### J2 - Email 1 : le problème et la valeur
-
-**Objet :** Domaine des Trois Cyprès - vos visiteurs américains repartent les mains vides ?
-
-> Bonjour Claire,
->
-> Bravo pour la cuvée « Les Restanques » - et j'ai vu que vous exposerez au salon des Vignerons Indépendants. Avec vos visiteurs étrangers au caveau, une scène se répète chaque été : un Américain achète 2 bouteilles alors qu'il en voulait 12. Le frein n'est pas le prix, c'est la valise.
->
-> Planet Aura est commissionnaire de transport spécialisé vins & champagnes. Concrètement, pour le Domaine des Trois Cyprès :
->
-> - votre client achète, paie le transport par CB et repart les mains libres,
-> - nous gérons enlèvement, emballage homologué, douane et taxes payées d'avance (DDP), jusqu'aux États-Unis (36 bouteilles par envoi),
-> - assurance casse/perte jusqu'à 20 000 € par envoi (option à cocher à la commande),
-> - sans abonnement ni minimum pour vous.
->
-> 25 minutes suffisent pour cartographier votre flux et vous montrer le simulateur avec vos vins. Seriez-vous disponible mardi matin ou jeudi après-midi ?
->
-> Adam
-
-### J4 - Appel 1 : permission et diagnostic en 45 secondes
-
-**Accroche permission -** « Bonjour Claire, Adam, de Planet Aura. Je vous appelle à froid, je serai bref. J'ai vu le lancement des Restanques et votre présence annoncée au salon des Vignerons Indépendants. Puis-je vous poser deux questions en 45 secondes ? »
-
-**Raison du call -** « Je ne sais pas encore si nous sommes pertinents pour vous. Notre métier : livrer chez eux les clients étrangers des caveaux, jusqu'aux États-Unis en DDP, taxes payées d'avance. »
-
-**Question SPIN situation -** « Aujourd'hui, quand un visiteur américain voudrait repartir avec 12 bouteilles, qu'est-ce que vous lui proposez ? »
-
-**(Réponses types : rien / La Poste / il se débrouille) -** « C'est exactement le cas que nous traitons : le client paie le transport par carte, nous gérons enlèvement, douane, taxes prépayées, assurance et livraison chez lui. »
-
-**Proposition de créneau -** « Le plus parlant, c'est 25 minutes au domaine ou en visio : je cartographie votre flux et je vous montre le simulateur avec VOS vins. Plutôt mardi matin ou jeudi après-midi ? »
-
-**Si « pas le temps » -** « Justement : notre service vous fait gagner du temps. 25 minutes une fois, et ensuite chaque envoi prend 3 minutes sur la plateforme. Quel est le meilleur moment dans votre semaine ? »
-
-### J6 - LinkedIn : l'invitation contextualisée
-
-Jamais d'invitation générique. Message (moins de 300 caractères) :
-
-« Bonjour Claire, bravo pour la cuvée Les Restanques. Nous accompagnons des domaines de Provence sur la livraison de leurs visiteurs étrangers chez eux (USA en DDP notamment). Au plaisir d'échanger, ici ou au salon des Vignerons Indépendants. Adam »
-
-### J8 - Email 2 : prouver la méthode
-
-**Objet :** Domaine des Trois Cyprès - comment ça marche, concrètement
-
-> Bonjour Claire,
->
-> Pas de réponse, c'est peut-être que le « comment » n'est pas clair. Voici le flux réel, de votre comptoir au salon de votre client :
->
-> 1. au caveau, votre équipe collecte 4 données : nombre de bouteilles, poids, valeur, adresse de livraison + date souhaitée,
-> 2. votre client paie le transport par carte et repart les mains libres,
-> 3. nous enlevons chez vous, emballons en cartons homologués, gérons douane et taxes prépayées (DDP),
-> 4. il suit son colis jusqu'à sa porte, couvert jusqu'à 20 000 € par l'assurance souscrite à la commande.
->
-> Un chiffre : 12 bouteilles livrées au Texas, c'est ~210 € de transport, taxes prépayées, assuré. Vos clients américains le paient sans sourciller - c'est le prix de leur excédent bagage, sans le risque.
->
-> 25 minutes pour le voir avec vos vins, avant votre saison ? Je m'adapte aux horaires du caveau.
->
-> Adam
-
-### J11 - Appel 2 : objection et timing (+ message vocal)
-
-**Accroche permission -** « Bonjour Claire, Adam de Planet Aura. Je vous ai écrit au sujet de vos visiteurs étrangers. Vous avez 30 secondes ? »
-
-**Raison du call -** « Je préfère un échange court à une relance de plus : mon objectif est de vérifier un cas réel chez vous, pas de présenter Planet Aura à tout prix. »
-
-**Question SPIN situation -** « Sur ces ventes au caveau, le principal frein est-il le temps au comptoir, la douane, le coût pour le client ou simplement le timing de votre saison ? »
-
-**Proposition de créneau -** « Si le sujet est réel, 25 minutes suffisent, au domaine ou en visio - et sinon, dites-le moi et je clos le dossier. Plutôt mardi matin ou jeudi après-midi ? »
-
-**Si « pas le temps » -** « Je comprends, la saison approche. C'est précisément le moment où les visiteurs étrangers affluent : un créneau avant le salon, même tôt le matin ? »
-
-**Message vocal (si répondeur) -** « Bonjour Claire, Adam de Planet Aura. J'ai vu le lancement des Restanques et votre présence au salon des Vignerons Indépendants. Je cherche juste à vérifier si le cas des visiteurs étrangers qui repartent les mains vides existe chez vous. Je vous renvoie un email avec deux créneaux. Bonne journée. »
-
-### J14 - Email 3 : le break-up
-
-**Objet :** Domaine des Trois Cyprès - 1, 2 ou 3 ?
-
-> Bonjour Claire,
->
-> Trois messages sans réponse, c'est souvent une réponse en soi. Pour ne pas encombrer votre boîte, quel choix décrit le mieux votre situation :
->
-> 1 - maintenant : on cale 25 minutes et je vous montre le simulateur sur vos vins,
-> 2 - plus tard : dites-moi quand (après le salon ?), je vous recontacte à cette date, pas avant,
-> 3 - hors sujet : je clos le dossier, sans relance.
->
-> Une réponse avec 1, 2 ou 3 suffit.
->
-> Belle saison avec Les Restanques,
-> Adam
-
-### J18 - Sortie de cadence (aucun message)
-
-Si Claire n'a réagi à aucune touche, la cadence s'arrête d'elle-même : pas de neuvième message. Le compte bascule en nurture 45 jours (newsletter, contenu), le motif « aucune réaction à J18 » est enregistré dans HubSpot, et aucune nouvelle cadence ne démarre sans vérification d'un nouveau signal. Le Domaine des Trois Cyprès reste ciblé par les campagnes saisonnières (« Prêts pour la saison », « Noël USA ») et par la tournée terrain en Provence.
-
-### Et après ? Les trois issues possibles
-
-| Issue | Ce qui se passe | Où aller dans le playbook |
+| Chiffre sourcé | Usage en entretien | Réf. |
 |---|---|---|
-| RDV obtenu (réponse « 1 » ou créneau accepté) | Cadence stoppée, opportunité créée en étape 3, préparation du RDV | Chap. 11-12 (RDV, démo, proposition) + checklist annexe C |
-| Réponse négative (« 3 - hors sujet » ou refus poli) | Cadence stoppée, réponse personnelle sous 4 h, motif qualifié dans le CRM, nurture de fond trimestriel via les campagnes saisonnières | Chap. 10 (campagnes saisonnières, règles d'hygiène) |
-| Silence à J18 | Nurture 45 jours, puis traitement en dormant : nouvelle cadence uniquement sur re-signal vérifié | Chap. 10 (séquence réveil des dormants) + chap. 09 (signaux et entonnoir) |
+| « Malgré −21 % en 2025 (droits de douane), les USA restent le 1er marché : ~3 Md€ » | Le B2C direct-consommateur en DDP sécurise ce qui reste : l'attachement du client américain au domaine | S03 |
+| « 5,4 millions d'œnotouristes étrangers en France, +29 % » | Le gisement du caveau - chaque visiteur étranger est un envoi potentiel | S04 |
+| « Une visite génère 207 €, dont 60 % d'achats sur place » | Le service d'expédition augmente directement ce panier | S05 |
+| « 39 % des Français achètent du vin en ligne » | L'API Planet'Connect + e-shop : le réachat à distance est devenu la norme | S06 |
+| « La consommation mondiale baisse (−3,3 %), la valeur résiste » | Vendre la montée en gamme : moins de volume, plus de valeur, plus de DTC | S01 |
+| « VELA : New York en moins de 15 jours à la voile » | Teaser innovation/RSE - dans le strict cadre des règles VELA (chap. 04), jamais sans validation direction | S09 |
 
-Et le cas intermédiaire, la réponse « 2 - plus tard » : sortie de cadence, rappel daté créé, nurture jusqu'à la date indiquée, puis nouvelle cadence.
+## Sources internes (S14-S15)
 
-> 📌 **À RETENIR -** Cet exemple ne se récite pas, il se rejoue : même squelette de 8 touches sur 18 jours, mais un signal réel, des variables vérifiées et jamais le même message sur deux canaux. Toute réponse de Claire, à n'importe quelle touche, arrête l'automatisation et crée une tâche humaine traitée en moins de 4 heures.
+| Réf. | Source | Contenu | Accès |
+|---|---|---|---|
+| S14 | **Dashboards admin Planet'Connect** (Logistique / Gestion / Commercial) - *source interne* | Tous les chiffres d'activité du playbook : CA 2021-2026, expéditions, bouteilles, portefeuille, répartitions destinations/régions/catégories, délais réels, sinistres - extraction du **24/09/2026**, table consolidée en tête de cette annexe | app.planet-aura.com/administration (accès interne) |
+| S15 | **Procédures internes 2026** (Drive « Nouveaux process ») - *source interne* | « Gestion des sinistres transport - arbre décisionnel » (chap. 16), « Process cotation » (chap. 11), « Process UE & pays tiers 2K26 », process USA (first/last miles, groupages, retour NY→France), matrice « Missions Planet Aura » | Drive interne, dossier Nouveaux process 2026 |
+
+> 📌 **À RETENIR -** Une source unique pour les chiffres d'activité (les dashboards Planet'Connect, extraction du 24/09/2026), quatre niveaux de preuve pour tout le reste, et une bibliographie S01-S15 vérifiée : avant de citer un chiffre, situez-le dans cette annexe - s'il n'y figure pas avec sa source et son millésime, il ne sort pas.

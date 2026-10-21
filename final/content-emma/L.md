@@ -1,7 +1,5 @@
-# Annexe L - Mode d'emploi Planet'Connect
+# Annexe L - Certificat de Champagne : un exemplaire réel
 
-*Le manuel complet de la plateforme (37 pages, 16 modules), qui couvre tout de la connexion aux factures - envoyé systématiquement dans le pack de bienvenue.*
+*Le certificat CIVC tel qu'il accompagne chaque expédition de champagne hors UE - ici un exemplaire réel émis pour un envoi vers la Corée du Sud (usage strictement interne : références réelles d'un adhérent et de son destinataire).*
 
-Couverture et sommaire reproduits ci-dessous. Le document complet : drive.google.com/file/d/1EZhHDdzdbYrLIBJaDj_mLAG9wwJpTjb6 - également dans Planet'Connect, rubrique Actualités (chap. 15).
-
-## Couverture et sommaire
+Émis par le Comité Interprofessionnel du Vin de Champagne, obligatoire hors UE et exigé pour le Canada : deux pages originales voyagent dans la pochette documents du colis, un certificat couvre 12 bouteilles maximum. Planet Aura fait la demande au CIVC à la place de l'adhérent (15 € HT par expédition - cadre au chap. 04, procédure en annexe I).

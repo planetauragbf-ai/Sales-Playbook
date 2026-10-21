@@ -1,48 +1,265 @@
-# Annexe B - Conditions Générales de Services : l'essentiel
-*La synthèse opérationnelle des CGS 2026 - statut, engagements, assurance, délais, paiement, responsabilités - pour répondre juste en rendez-vous, seul le texte intégral, publié sur Planet'Connect, fait foi.*
+# Annexe B - Fiche réflexe comptoir, checklists et modèles
+*Tout ce qui se dégaine en 30 secondes : la fiche à plastifier pour le comptoir, les checklists du commercial et les modèles du pack adhérent 2026.*
 
-```stats
-17 articles|le contrat 2026, accepté par signature électronique sur Planet'Connect
-20 000 €|plafond de l'assurance casse/perte par envoi (option, emballage homologué)
-48 h|délai maximal de réserves après livraison, photos à l'appui
-```
+## Fiche réflexe comptoir (à plastifier pour les adhérents)
 
-> **REPÈRE -** Le document officiel complet : **Planet Aura 2026 - Conditions Générales de Services** (drive.google.com/file/d/1udHs7oESvTWcF7LOY9Ra9vwpnDoykchT). Cette annexe n'en est que la lecture commentée à usage interne : en cas de doute ou de litige, seules les CGS signées font foi.
+**LES 4 DONNÉES À DEMANDER SYSTÉMATIQUEMENT** (version affichette - symboles géants, lisibles depuis le comptoir) :
 
-## Nature de la prestation : commissionnaire, obligation de résultat
-
-Planet Aura (SARL au capital de 1 000 €, RCS Castres 850 624 636, siège social au 185 avenue de Roquecourbe, 81100 Castres) agit en qualité de **commissionnaire de transport** au sens des articles L.132-1 et suivants du Code de commerce : libre du choix des moyens et des sous-traitants, elle organise l'expédition, sélectionne transporteurs et prestataires, gère les formalités douanières, assure le suivi et prend en charge la gestion des sinistres dans les limites contractuelles - le tout via la plateforme Planet'Connect. Surtout : **Planet Aura s'engage à une obligation de résultat quant à l'acheminement des Produits**, sauf cas de force majeure, cas fortuit, faute du Client ou du Destinataire (art. 2).
-
-> **REPÈRE -** Le statut de commissionnaire n'est pas un détail juridique, c'est un argument : contrairement à un simple revendeur d'étiquettes, le commissionnaire répond du résultat de bout en bout. C'est le fondement contractuel des promesses du chap. 13.
-
-## Assurance et plafonds (art. 10)
-
-Doctrine unique, identique dans tout le playbook : **l'assurance casse/perte couvre jusqu'à 20 000 € par envoi (sous condition d'emballage homologué) et reste une option** - ad valorem, 3 % de la valeur, souscrite pour 9 envois sur 10 (89,8 %), à souscrire avant expédition. Un envoi parti sans assurance se traite aux conditions de base. La garantie couvre la casse et la perte, elle ne couvre pas l'altération naturelle du vin, l'oxydation, le dépôt, l'évolution du Produit, les bouchons suintants ou sautés ni les taches sur étiquettes. Procédure casse : refus à la livraison ou signalement sous 48 h avec photos à contact@planet-aura.com, puis remplacement à l'identique, substitution équivalente ou remboursement sur la valeur déclarée. Procédure perte : remboursement ou réexpédition au choix du Destinataire, attestation de non-réception et pièce d'identité exigibles (déroulé complet au chap. 16).
-
-> 🚫 **INTERDIT -** Caisses en bois, cartons vignerons non renforcés et tout emballage non certifié (art. 6) : emballage non conforme = refus d'expédition, refus de prise en charge du sinistre, reconditionnement aux frais du Client et facturation des coûts induits. Seuls les emballages homologués « Grand Export » (double cannelure, intercalaires, procédure ISTA 3A) ouvrent droit à la couverture.
-
-## Délais, livraison et réserves 48 h (art. 8-9)
-
-Côté expédition (art. 8) : la date d'enlèvement est au choix du Client (délai maximal de prise en compte : 2 jours ouvrés), et **seuls les Produits déclarés sont expédiés** - tout ajout, fausse déclaration ou erreur peut entraîner annulation, suspension ou complément de prix. Les délais sont **indicatifs et hors douane** (art. 9) : ils n'engagent pas Planet Aura en cas de contrôles douaniers, de changement de réglementation, de force majeure, d'absence ou d'erreur du Destinataire ou du Client, ou de défaut de paiement. Le **transfert des risques s'opère à la remise effective du colis au Destinataire**. À la livraison : vérifier le colis, **refuser toute livraison présentant de la casse**, inscrire des réserves précises et **notifier sous 48 heures maximum avec photos** - passé ce délai, la réclamation est irrecevable (sauf dispositions légales impératives). Les frais de retour, de stockage ou de réexpédition incombent à celui qui est à l'origine de l'échec de livraison.
-
-> ⚠️ **LE POINT DE VIGILANCE -** En rendez-vous, annoncez toujours des délais **estimatifs** (« généralement constatés »), jamais garantis : c'est exactement ce que disent les CGS, et c'est la règle de promesse du chap. 13. Une date ferme lâchée au comptoir devient un sinistre commercial.
-
-## Commandes, paiement, annulation (art. 4, 5, 7, 13)
-
-| Sujet (article) | La règle |
+| Symbole | Donnée à collecter |
 |---|---|
-| Commandes (art. 4) | Demande écrite via la Plateforme, valable une fois confirmée par Planet Aura, le Client fournit nature des Produits, quantités, poids et volume, valeur déclarée, adresses et contacts, toute erreur ou omission l'engage, modification possible jusqu'à la veille de l'enlèvement (heures ouvrées) par email à contact@planet-aura.com. |
-| Douane & Incoterms (art. 5) | Hors UE : principalement **DDP** (Planet Aura s'acquitte des droits et taxes pour le Destinataire) ou **DAP** (paiement direct par le Destinataire quand la législation locale l'impose), le Client demeure seul garant de la véracité des informations déclarées. |
-| Paiement (art. 7) | **Intégral à la Commande**. En pratique : **mandat SEPA par défaut** (annexe K), **virement accepté**, **CB possible** - adhérent ou client final via order form ou lien de paiement - mais plus lourde à traiter côté Planet Aura, à réserver aux cas où le SEPA ne convient pas. Tarifs valables pour l'année civile, publiés sur Planet'Connect, révisables selon les barèmes officiels. |
-| Retard de paiement (art. 7) | Commande suspendue, au-delà de 30 jours : pénalités au taux annuel de 8 % du TTC, indemnité forfaitaire de 40 €/facture, exigibilité immédiate de la totalité des sommes dues. |
-| Annulation (art. 13) | Gratuite avant la date d'enlèvement (par email), 10 € le jour de l'enlèvement, colis remis malgré annulation : commande due et prélevée en intégralité. |
+| **#** | Nombre de bouteilles (volume de la commande) |
+| **kg** | Poids et dimensions des colis |
+| **€** | Valeur des vins - base des taxes ET de l'assurance |
+| **→** | Adresse complète de livraison (sans PO Box) + date souhaitée |
 
-## Responsabilités et cadre juridique (art. 11-17)
+> **REPÈRE -** Sans ces 4 données, aucune simulation ni commande n'est possible. Tout le reste de la fiche en découle.
 
-La responsabilité de Planet Aura est **strictement limitée aux événements et plafonds prévus par la CMR, le Code de commerce et les textes douaniers et internationaux applicables**, elle est écartée en cas d'informations erronées fournies par le Client ou le Destinataire, ou de refus injustifié de livraison (art. 11). À connaître également : droit de rétention sur les marchandises confiées jusqu'au paiement intégral (art. 12), force majeure avec résiliation possible au-delà de 90 jours (art. 14), données personnelles traitées conformément au RGPD avec réclamation CNIL possible (art. 15), libre sélection des sous-traitants (art. 16), droit français et compétence exclusive des tribunaux du siège (Castres) après tentative de résolution amiable de 90 jours (art. 17).
+**QUAND UN CLIENT VEUT SE FAIRE LIVRER :**
 
-## Le texte intégral fait foi
+1. **Simuler le prix** : Planet'Connect → Simulateur → destination + nombre de bouteilles (afficher transport + estimation des taxes DDP).
+2. **Vérifier** : adresse complète **sans PO Box**, email + téléphone du client, bouteilles ≤ 21° avec CRD.
+3. **Encaisser le vin** (vous) + **le service** : mandat SEPA du magasin par défaut, ou CB du client final (order form - pas d'Amex - ou lien de paiement).
+4. **Saisir la commande** sur Planet'Connect : produits, quantités, **valeur déclarée exacte** (base de l'assurance), incoterm DDP/DAP, date d'enlèvement souhaitée.
+5. **Emballer** dans les cartons Planet Aura (ou polystyrène certifié), pochette documents à l'extérieur, champagne hors UE : **les 2 pages originales du certificat CIVC** dans la pochette.
+6. **Remettre au transporteur** uniquement les produits déclarés.
 
-Cette page est un aide-mémoire, pas le contrat. Le texte intégral des CGS 2026 (17 articles + approbation par signature électronique : « je reconnais avoir pris connaissance et accepte sans réserve l'intégralité de la documentation 2026 ») est publié sur **Planet'Connect** et doit être accepté pour enregistrer toute Commande. En cas de doute ou de litige, c'est lui que l'on ouvre - jamais cette synthèse. Les grilles chiffrées associées figurent en annexe A et au chap. 04.
+**CAS PARTICULIERS :**
 
-> 📌 **À RETENIR -** Les six réflexes CGS du commercial : commissionnaire à **obligation de résultat** (argument, pas jargon) · assurance casse/perte **jusqu'à 20 000 €** (ad valorem **3 %**, une option souscrite 9 fois sur 10, emballage homologué) · **délais estimatifs**, jamais garantis · **réserves sous 48 h** avec photos - à enseigner à l'adhérent pour ses clients finaux · **paiement intégral à la Commande** (SEPA par défaut, virement accepté, CB si nécessaire) · texte intégral sur **Planet'Connect**.
+- **USA > 2 100 $** : POA avec SSN (email automatique au client) - prévenir le client et l'y préparer : c'est une formalité normale.
+- **Canada** : POA obligatoire (départ suspendu sans retour) + ticket de caisse + taxes au liquor board à l'arrivée.
+- **Canicule** : proposer le **départ différé** (l'altération thermique n'est pas assurée).
+- **Magnums** : cartons spécifiques obligatoires.
+- **Plus de 36 bouteilles USA (6 L spiritueux)** : fractionner en plusieurs envois ou expédier à des destinataires distincts et réels.
+
+**EN CAS DE PROBLÈME À LA LIVRAISON :** casse visible → refuser ou porter des réserves précises, sinon signalement **sous 48 h avec photos** à contact@planet-aura.com.
+
+**CONTACTS :** 09 79 11 45 07 / 06 59 56 72 72 - contact@planet-aura.com - WhatsApp.
+
+## Les objections en format court : une phrase + une question de retour
+
+Quand le temps manque (salon, appel entrant, relance) : une réponse courte, puis une question qui rend la parole au prospect. Elle fait émerger l'objection réelle (souvent différente de celle exprimée) et vous garde la main. Le traitement complet des 26 objections, avec la méthode en quatre temps, est au chap. 13.
+
+| Objection | Réponse courte | Question de retour |
+|---|---|---|
+| Trop cher | Comparons le coût complet avant la remise. | Quel écart doit être expliqué ou réduit ? |
+| Trop long | Protégeons d'abord la date impérative. | Quelle flexibilité existe réellement ? |
+| Météo / chaleur | Proposons le départ différé plutôt qu'une promesse. | Quelle fenêtre d'expédition convient à votre client ? |
+| Petits volumes | Testons grille, groupage ou non-adéquation. | Quel est l'envoi type ? |
+| Déjà un transitaire | Comparons un flux mal couvert, pas tout le compte. | Où est-il le moins adapté ? |
+| Envoyez des infos | Oui, ciblons le document utile. | Prix, délai, douane, impact ou sécurité ? |
+| Pas de budget | Non prioritaire ou non budgété ? | Quand l'arbitrage a-t-il lieu ? |
+| Pas le temps | Votre part se limite à 3 minutes de saisie. | Qui saisirait les commandes côté équipe ? |
+| Température / casse | Validons spécifications, emballage et assurance. | Quelles exigences sont obligatoires ? |
+| Douane complexe | Clarifions importateur, incoterm et données. | Où est la zone d'incertitude ? |
+| Plusieurs décideurs | Faisons une revue commune par risque. | Qui doit participer ? |
+| Solution trop récente | Séparons références Planet Aura et preuve du pilote. | Un pilote limité est-il acceptable ? |
+
+## Checklist RDV découverte (commercial)
+
+- Recherche préalable : site, e-shop, avis, appellation, gamme de prix, saisonnalité.
+- Matériel : tablette (simulateur), grilles FR + EN imprimées, carton démo, order form, manuel utilisateur.
+- Questions CAVE posées (Clientèle, Autorité, Volume, Échéance).
+- Démo simulateur faite **sur leurs vins, vers la destination de leur dernier client étranger**.
+- ROI calculé avec leurs chiffres.
+- Objections traitées et verrouillées.
+- Next step daté (signature/formation) + compte-rendu CRM sous 24 h.
+
+## Checklist signature → activation
+
+- Documentation 2026 signée électroniquement (CGS + grilles).
+- Mode de paiement défini : mandat SEPA signé par défaut, virement accepté, CB (client final ou adhérent) si nécessaire.
+- 1er lot de cartons commandé (110 € HT) + formats 1 et 3 bouteilles (gratuits).
+- Fiche adhérent transmise à l'exploitation (adresse d'enlèvement, contacts, horaires, particularités).
+- Formation caveau planifiée (30 min) et réalisée.
+- PLV/affichette remise (« We ship worldwide »).
+- Premier envoi réalisé en moins de 30 jours et débriefé à livraison.
+- Demande de recommandation faite.
+
+## Modèle de compte-rendu de RDV (CRM)
+
+À saisir sous 24 h après le rendez-vous, champ par champ :
+
+| Champ | À renseigner |
+|---|---|
+| Compte | Nom - segment (domaine / champagne / caviste…) - tiers A/B/C |
+| Décideur & utilisateur | Décideur (nom, rôle) - utilisateur caveau (nom) |
+| Clientèle étrangère | Nationalités, volumes/semaine, saisonnalité |
+| Solution actuelle | Statu quo / bricolage / concurrent + irritants |
+| Destinations demandées | USA / Canada / UE / Asie… - particularités : CIVC, POA, magnums, spiritueux |
+| ROI & objections | ROI évoqué (calcul) - objections (lesquelles + traitement) |
+| Next step | Action datée - probabilité (%) |
+
+## Le parcours d'onboarding 0-90 jours
+
+Le planning opérationnel complet - jour par jour pour le premier mois, puis semaine par semaine jusqu'à J+90, avec les rituels d'équipe - est devenu une annexe à part entière : il est en **annexe S**. Les jalons J+30 / J+60 / J+90 et le contrat minimal d'activité sont dans l'avant-propos.
+
+## Documents officiels à envoyer (pack adhérent 2026)
+
+| Document | Usage |
+|---|---|
+| CGS 2026 | Contrat cadre - signature électronique |
+| Grille tarifaire shipping 2026 (FR) + Rate Schedule EN | Prix - remis en RDV et joints à la proposition |
+| Grille stockage & picking 2026 | Si besoin logistique |
+| Manuel utilisateur 2026 | Onboarding - process, cartonnage, destinations spécifiques |
+| Mode d'emploi Planet'Connect | Prise en main de la plateforme |
+| Order Form 2026 | Encaissement CB du client final au comptoir |
+| Formulaire mandat SEPA | Si magasin payeur |
+| Formulaire de shipping par email (xlsx) | Alternative à la saisie plateforme |
+
+*(Dossiers sources : « $DOCUMENTS PLANET AURA ADHERENT 2026 » → « DOCUMENT ADH 2026 (NOUVEAU CLIENT) » / « (CLIENT ACTIF AU 1/04) » / version Corse dédiée.)*
+
+### Zoom sur trois documents clés du kit
+
+**Order Form 2026** (bon de commande client final, en anglais) :
+
+- Adresse de livraison avec mention **« NO PO BOX accepted »** + adresse de facturation si différente.
+- Tableau de commande : description du vin, nombre de bouteilles, couleur, contenance (cl), % alc., valeur unitaire €, total.
+- Bloc de totaux : valeur des vins (HT), service de transport, option DDP (taxes et droits simulés), assurance perte & casse, **TOTAL des services Planet Aura payé par carte**.
+- Cases à cocher d'acceptation des conditions (le client déclare avoir lu et accepté les termes, la responsabilité hors périmètre transport, le droit de refuser une expédition).
+- Bloc paiement CB : numéro, expiration, code de sécurité, type de carte - mention en rouge **« No American Express please »**.
+
+**Manuel utilisateur adhérent 2026** - 9 sections, dans l'ordre : interlocuteurs, fonctionnement, cartonnage, procédure d'envoi, assurances & litiges, certificat Champagne, destinations spécifiques, spiritueux, stockage. C'est le document de référence de la formation caveau (chap. 16) : le commercial doit savoir y renvoyer l'adhérent section par section.
+
+**Mode d'emploi Planet'Connect** - manuel de 37 pages couvrant la prise en main complète de la plateforme (simulateur, commandes, suivi, factures, e-signature). À joindre systématiquement au pack de bienvenue.
+
+> ⚠️ **LE POINT DE VIGILANCE -** Le mandat SEPA contient les identifiants bancaires du magasin : il se remplit et se transmet via les canaux officiels uniquement, jamais recopié dans un email libre ni dans un support de vente.
+
+> 📌 **À RETENIR -** Cette annexe est la boîte à outils de 30 secondes : la fiche réflexe et ses 4 données (# / kg / € / →) pour le comptoir, les checklists pour ne rien oublier avant et après la signature, le compte-rendu CRM saisi sous 24 h, et le pack adhérent 2026 complet - huit documents, toujours envoyés via les canaux officiels.
+
+## L'exemple complet : une cadence de nurturing déroulée (J1 à J18)
+
+*L'exemple qui suit est entièrement fictif : le Domaine des Trois Cyprès, sa gérante Claire et tous les détails du compte ont été inventés pour les besoins de la démonstration.*
+
+Cette page déroule la cadence ABM 1:1 du chapitre 10 (8 touches sur 18 jours) sur un seul compte, du repérage au break-up, avec chaque message prêt à l'emploi. Elle sert de gabarit : gardez le squelette, remplacez le signal, les prénoms et chaque variable par une donnée vérifiée - si la donnée n'existe pas, la phrase saute. Et la règle absolue reste la même : toute réponse arrête l'automatisation et crée une tâche humaine.
+
+### Le compte fictif et son signal
+
+| Élément | Donnée |
+|---|---|
+| Compte | Domaine des Trois Cyprès - domaine avec caveau, Provence |
+| Contact | Claire, gérante (décideuse et utilisatrice caveau) |
+| Clientèle étrangère | ~2 000 visiteurs étrangers par an, pic estival |
+| Signal déclencheur | Lancement de la cuvée « Les Restanques » + présence annoncée au salon des Vignerons Indépendants |
+| Statut | Compte P1 qualifié (score PA-FIT ≥ 55, base légale vérifiée, pas d'opportunité ouverte) → ajouté à la liste de cadence HubSpot, emails envoyés par Brevo, appels et LinkedIn créés en tâches humaines |
+
+### La cadence en un coup d'œil : 8 touches sur 18 jours
+
+| Jour | Canal | Objectif | Contenu |
+|---|---|---|---|
+| J1 | Recherche compte + vue LinkedIn (sans invitation) | Identifier signal et comité d'achat, se rendre visible | Repérage |
+| J2 | Email 1 | Problème + valeur, CTA 25 minutes | Valise |
+| J4 | Appel 1 | Permission + diagnostic (2 questions en 45 s) | Diagnostic |
+| J6 | Invitation LinkedIn contextualisée | Crédibilité | Connexion |
+| J8 | Email 2 | Prouver la méthode | Preuve |
+| J11 | Appel 2 (+ message vocal) | Traiter objection / timing | Relance |
+| J14 | Email 3 « de décision » | Décision simple : maintenant / plus tard / hors sujet | Break-up |
+| J18 | Sortie de cadence | Protéger la relation | Sortie |
+
+### J1 - Recherche et vue LinkedIn (aucun message)
+
+Adam vérifie le signal et prépare la personnalisation : site et e-shop du domaine (pas de livraison internationale), avis Google en anglais (clientèle étrangère confirmée), annonce de la cuvée « Les Restanques », liste des exposants du salon. Il identifie Claire comme décideuse, consulte son profil LinkedIn sans envoyer d'invitation, et logge le tout dans HubSpot sous 24 h.
+
+### J2 - Email 1 : le problème et la valeur
+
+**Objet :** Domaine des Trois Cyprès - vos visiteurs américains repartent les mains vides ?
+
+> Bonjour Claire,
+>
+> Bravo pour la cuvée « Les Restanques » - et j'ai vu que vous exposerez au salon des Vignerons Indépendants. Avec vos visiteurs étrangers au caveau, une scène se répète chaque été : un Américain achète 2 bouteilles alors qu'il en voulait 12. Le frein n'est pas le prix, c'est la valise.
+>
+> Planet Aura est commissionnaire de transport spécialisé vins & champagnes. Concrètement, pour le Domaine des Trois Cyprès :
+>
+> - votre client achète, paie le transport par CB et repart les mains libres,
+> - nous gérons enlèvement, emballage homologué, douane et taxes payées d'avance (DDP), jusqu'aux États-Unis (36 bouteilles par envoi),
+> - assurance casse/perte jusqu'à 20 000 € par envoi (option à cocher à la commande),
+> - sans abonnement ni minimum pour vous.
+>
+> 25 minutes suffisent pour cartographier votre flux et vous montrer le simulateur avec vos vins. Seriez-vous disponible mardi matin ou jeudi après-midi ?
+>
+> Adam
+
+### J4 - Appel 1 : permission et diagnostic en 45 secondes
+
+**Accroche permission -** « Bonjour Claire, Adam, de Planet Aura. Je vous appelle à froid, je serai bref. J'ai vu le lancement des Restanques et votre présence annoncée au salon des Vignerons Indépendants. Puis-je vous poser deux questions en 45 secondes ? »
+
+**Raison du call -** « Je ne sais pas encore si nous sommes pertinents pour vous. Notre métier : livrer chez eux les clients étrangers des caveaux, jusqu'aux États-Unis en DDP, taxes payées d'avance. »
+
+**Question SPIN situation -** « Aujourd'hui, quand un visiteur américain voudrait repartir avec 12 bouteilles, qu'est-ce que vous lui proposez ? »
+
+**(Réponses types : rien / La Poste / il se débrouille) -** « C'est exactement le cas que nous traitons : le client paie le transport par carte, nous gérons enlèvement, douane, taxes prépayées, assurance et livraison chez lui. »
+
+**Proposition de créneau -** « Le plus parlant, c'est 25 minutes au domaine ou en visio : je cartographie votre flux et je vous montre le simulateur avec VOS vins. Plutôt mardi matin ou jeudi après-midi ? »
+
+**Si « pas le temps » -** « Justement : notre service vous fait gagner du temps. 25 minutes une fois, et ensuite chaque envoi prend 3 minutes sur la plateforme. Quel est le meilleur moment dans votre semaine ? »
+
+### J6 - LinkedIn : l'invitation contextualisée
+
+Jamais d'invitation générique. Message (moins de 300 caractères) :
+
+« Bonjour Claire, bravo pour la cuvée Les Restanques. Nous accompagnons des domaines de Provence sur la livraison de leurs visiteurs étrangers chez eux (USA en DDP notamment). Au plaisir d'échanger, ici ou au salon des Vignerons Indépendants. Adam »
+
+### J8 - Email 2 : prouver la méthode
+
+**Objet :** Domaine des Trois Cyprès - comment ça marche, concrètement
+
+> Bonjour Claire,
+>
+> Pas de réponse, c'est peut-être que le « comment » n'est pas clair. Voici le flux réel, de votre comptoir au salon de votre client :
+>
+> 1. au caveau, votre équipe collecte 4 données : nombre de bouteilles, poids, valeur, adresse de livraison + date souhaitée,
+> 2. votre client paie le transport par carte et repart les mains libres,
+> 3. nous enlevons chez vous, emballons en cartons homologués, gérons douane et taxes prépayées (DDP),
+> 4. il suit son colis jusqu'à sa porte, couvert jusqu'à 20 000 € par l'assurance souscrite à la commande.
+>
+> Un chiffre : 12 bouteilles livrées au Texas, c'est ~210 € de transport, taxes prépayées, assuré. Vos clients américains le paient sans sourciller - c'est le prix de leur excédent bagage, sans le risque.
+>
+> 25 minutes pour le voir avec vos vins, avant votre saison ? Je m'adapte aux horaires du caveau.
+>
+> Adam
+
+### J11 - Appel 2 : objection et timing (+ message vocal)
+
+**Accroche permission -** « Bonjour Claire, Adam de Planet Aura. Je vous ai écrit au sujet de vos visiteurs étrangers. Vous avez 30 secondes ? »
+
+**Raison du call -** « Je préfère un échange court à une relance de plus : mon objectif est de vérifier un cas réel chez vous, pas de présenter Planet Aura à tout prix. »
+
+**Question SPIN situation -** « Sur ces ventes au caveau, le principal frein est-il le temps au comptoir, la douane, le coût pour le client ou simplement le timing de votre saison ? »
+
+**Proposition de créneau -** « Si le sujet est réel, 25 minutes suffisent, au domaine ou en visio - et sinon, dites-le moi et je clos le dossier. Plutôt mardi matin ou jeudi après-midi ? »
+
+**Si « pas le temps » -** « Je comprends, la saison approche. C'est précisément le moment où les visiteurs étrangers affluent : un créneau avant le salon, même tôt le matin ? »
+
+**Message vocal (si répondeur) -** « Bonjour Claire, Adam de Planet Aura. J'ai vu le lancement des Restanques et votre présence au salon des Vignerons Indépendants. Je cherche juste à vérifier si le cas des visiteurs étrangers qui repartent les mains vides existe chez vous. Je vous renvoie un email avec deux créneaux. Bonne journée. »
+
+### J14 - Email 3 : le break-up
+
+**Objet :** Domaine des Trois Cyprès - 1, 2 ou 3 ?
+
+> Bonjour Claire,
+>
+> Trois messages sans réponse, c'est souvent une réponse en soi. Pour ne pas encombrer votre boîte, quel choix décrit le mieux votre situation :
+>
+> 1 - maintenant : on cale 25 minutes et je vous montre le simulateur sur vos vins,
+> 2 - plus tard : dites-moi quand (après le salon ?), je vous recontacte à cette date, pas avant,
+> 3 - hors sujet : je clos le dossier, sans relance.
+>
+> Une réponse avec 1, 2 ou 3 suffit.
+>
+> Belle saison avec Les Restanques,
+> Adam
+
+### J18 - Sortie de cadence (aucun message)
+
+Si Claire n'a réagi à aucune touche, la cadence s'arrête d'elle-même : pas de neuvième message. Le compte bascule en nurture 45 jours (newsletter, contenu), le motif « aucune réaction à J18 » est enregistré dans HubSpot, et aucune nouvelle cadence ne démarre sans vérification d'un nouveau signal. Le Domaine des Trois Cyprès reste ciblé par les campagnes saisonnières (« Prêts pour la saison », « Noël USA ») et par la tournée terrain en Provence.
+
+### Et après ? Les trois issues possibles
+
+| Issue | Ce qui se passe | Où aller dans le playbook |
+|---|---|---|
+| RDV obtenu (réponse « 1 » ou créneau accepté) | Cadence stoppée, opportunité créée en étape 3, préparation du RDV | Chap. 11-12 (RDV, démo, proposition) + checklist annexe B |
+| Réponse négative (« 3 - hors sujet » ou refus poli) | Cadence stoppée, réponse personnelle sous 4 h, motif qualifié dans le CRM, nurture de fond trimestriel via les campagnes saisonnières | Chap. 10 (campagnes saisonnières, règles d'hygiène) |
+| Silence à J18 | Nurture 45 jours, puis traitement en dormant : nouvelle cadence uniquement sur re-signal vérifié | Chap. 10 (séquence réveil des dormants) + chap. 09 (signaux et entonnoir) |
+
+Et le cas intermédiaire, la réponse « 2 - plus tard » : sortie de cadence, rappel daté créé, nurture jusqu'à la date indiquée, puis nouvelle cadence.
+
+> 📌 **À RETENIR -** Cet exemple ne se récite pas, il se rejoue : même squelette de 8 touches sur 18 jours, mais un signal réel, des variables vérifiées et jamais le même message sur deux canaux. Toute réponse de Claire, à n'importe quelle touche, arrête l'automatisation et crée une tâche humaine traitée en moins de 4 heures.

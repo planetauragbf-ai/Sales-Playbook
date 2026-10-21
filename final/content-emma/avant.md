@@ -130,7 +130,7 @@ Il est construit à partir de la documentation officielle 2026 (CGS, grilles shi
 | En charge du suivi adhérents | Chap. 16, 17 |
 | Manager commercial | Chap. 09, 15, 17, 18 |
 
-**Les termes reliés au glossaire.** À leur première apparition dans un chapitre, les termes définis au glossaire (annexe E) sont affichés dans la couleur de la partie et soulignés de pointillés : dans la version numérique, un clic renvoie directement à leur définition.
+**Les termes reliés au glossaire.** À leur première apparition dans un chapitre, les termes définis au glossaire (annexe T) sont affichés dans la couleur de la partie et soulignés de pointillés : dans la version numérique, un clic renvoie directement à leur définition.
 
 ## Les six règles d'or
 
@@ -143,7 +143,7 @@ Il est construit à partir de la documentation officielle 2026 (CGS, grilles shi
 
 ## Vos 90 premiers jours : trois paliers
 
-La montée en puissance est balisée sur trois mois - la règle : **on observe avant de faire, on fait accompagné avant de faire seul.** Le planning détaillé, jour par jour pour le premier mois puis semaine par semaine jusqu'à J+90, avec les rituels d'équipe, est en **annexe R** : c'est le document de travail remis le jour 1.
+La montée en puissance est balisée sur trois mois - la règle : **on observe avant de faire, on fait accompagné avant de faire seul.** Le planning détaillé, jour par jour pour le premier mois puis semaine par semaine jusqu'à J+90, avec les rituels d'équipe, est en **annexe S** : c'est le document de travail remis le jour 1.
 
 | Jalon | Palier | Preuves attendues |
 |---|---|---|
@@ -151,4 +151,4 @@ La montée en puissance est balisée sur trois mois - la règle : **on observe a
 | **J+60** | Autonome | 5 diagnostics observés, 3 propositions sans écart, 1 RDV obtenu seul |
 | **J+90** | Pilote son activité | Pipeline propre, analyse win/loss, 1 proposition d'amélioration du playbook |
 
-> 📌 **À RETENIR -** Trois mois, trois paliers : certifié à J+30, autonome à J+60, pilote à J+90. Un bloc téléphone 10 h-12 h sanctuarisé, un CRM à jour chaque soir et un premier envoi réel pour chaque adhérent signé : le contrat minimal d'activité. Le parcours détaillé est en annexe R.
+> 📌 **À RETENIR -** Trois mois, trois paliers : certifié à J+30, autonome à J+60, pilote à J+90. Un bloc téléphone 10 h-12 h sanctuarisé, un CRM à jour chaque soir et un premier envoi réel pour chaque adhérent signé : le contrat minimal d'activité. Le parcours détaillé est en annexe S.

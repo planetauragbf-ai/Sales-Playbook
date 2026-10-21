@@ -54,8 +54,8 @@ module.exports['avantpre2'] = [
   { after: 'certitudes de Floriane', img: 'pics/bitmoji_trio.png', w: 175, caption: '' },
   { after: 'Mot d’accueil|Mot d.accueil', img: 'pics/bitmoji_duo.png', w: 150, caption: '' },
 ];
-// Annexe H - fiches maquettées (pages extraites du PPTX officiel)
-module.exports['H'] = [
+// Annexe A - fiches maquettées (pages extraites du PPTX officiel)
+module.exports['A'] = [
   { after: '^ICP 1', img: 'fiches/fiche-02.png', w: 585, caption: '' },
   { after: '^ICP 2', img: 'fiches/fiche-01.png', w: 585, caption: '' },
   { after: '^ICP 3', img: 'fiches/fiche-04.png', w: 585, caption: '' },
@@ -68,34 +68,34 @@ module.exports['H'] = [
   { after: '^Persona E', img: 'fiches/fiche-09.png', w: 585, caption: '' },
 ];
 // Annexes documentaires : un document = une annexe
-module.exports['A'] = [];
-for (let i = 1; i <= 5; i++) module.exports['A'].push({ after: '^Le document officiel', img: `annexes/grille_ship-${i}.png`, w: 520, caption: i === 5 ? 'Grille tarifaire shipping 2026 - document officiel (5 pages)' : '' });
-module.exports['I'] = [];
-for (let i = 1; i <= 3; i++) module.exports['I'].push({ after: '^Le document officiel', img: `annexes/grille_stock-${i}.png`, w: 505, caption: i === 3 ? 'Grille tarifaire stockage & picking 2026 - document officiel (3 pages)' : '' });
-module.exports['J'] = [
+module.exports['D'] = [];
+for (let i = 1; i <= 5; i++) module.exports['D'].push({ after: '^Le document officiel', img: `annexes/grille_ship-${i}.png`, w: 520, caption: i === 5 ? 'Grille tarifaire shipping 2026 - document officiel (5 pages)' : '' });
+module.exports['E'] = [];
+for (let i = 1; i <= 3; i++) module.exports['E'].push({ after: '^Le document officiel', img: `annexes/grille_stock-${i}.png`, w: 505, caption: i === 3 ? 'Grille tarifaire stockage & picking 2026 - document officiel (3 pages)' : '' });
+module.exports['F'] = [
   { after: '^Le formulaire officiel vierge', img: 'annexes/orderform-1.png', w: 505, caption: 'Order Form 2026 - formulaire officiel vierge' },
 ];
-module.exports['K'] = [
+module.exports['G'] = [
   { after: '^Le document officiel', img: 'annexes/sepa-1.png', w: 505, caption: '' },
   { after: '^Le document officiel', img: 'annexes/sepa-2.png', w: 505, caption: 'Mandat SEPA - document officiel (2 pages)' },
 ];
-module.exports['L'] = [
+module.exports['M'] = [
   { after: '^Couverture et sommaire', img: 'annexes/pconnect_cover-01.png', w: 330, caption: '' },
   { after: '^Couverture et sommaire', img: 'annexes/pconnect_sommaire-02.png', w: 500, caption: "Mode d'emploi Planet'Connect - couverture et sommaire (37 pages)" },
 ];
-module.exports['N'] = [
+module.exports['O'] = [
   { after: '^Le modèle officiel 2026', img: 'annexes/shipform-1.png', w: 400, caption: 'Formulaire de shipping par email - onglet FORMULAIRE' },
 ];
-module.exports['O'] = [
+module.exports['Q'] = [
   { after: '^La face extérieure$|^La face extérieure', img: 'pics/flyer1.png', w: 460, caption: 'Flyer de prospection - face extérieure' },
 ];
-module.exports['P'] = [
+module.exports['J'] = [
   { after: '^Les cartes officielles', img: 'pics/usmap_groupage2026.png', w: 540, caption: 'États-Unis, carte 2026 - couverture groupage vin : ouvert / fermé / certains codes postaux (Vermont : prestataire interne après regroupement)' },
   { after: '^Les cartes officielles', img: 'pics/usmap_statuts2026.png', w: 540, caption: 'États-Unis, carte 2026 - la référence des statuts par État : groupage et envoi direct' },
   { after: '^Les cartes officielles', img: 'pics/norway_zones2026.png', w: 470, caption: 'Norvège, carte 2026 - Zone 1 : Nord, Zone 2 : Sud' },
 ];
-// Annexe G - organigramme
-module.exports['G'] = [
+// Annexe R - organigramme
+module.exports['R'] = [
   { after: '^L\u2019organigramme Planet Aura 2026|^L.organigramme Planet Aura 2026', img: 'diagrams/d03_org.png', w: 520, caption: 'L\u2019organigramme Planet Aura 2026 - direction, p\u00f4les et filiale am\u00e9ricaine' },
 ];
 module.exports['10'] = (module.exports['10'] || []).concat([
@@ -114,17 +114,17 @@ module.exports['03'] = (module.exports['03'] || []).concat([
 module.exports['12'] = (module.exports['12'] || []).concat([
   { after: '^La trame du rendez-vous de d\u00e9couverte|^La trame du rendez-vous', img: 'diagrams/d12_trame.png', w: 520, caption: 'La trame des 35 minutes : six s\u00e9quences, une sortie attendue par s\u00e9quence' },
 ]);
-module.exports['F'] = (module.exports['F'] || []).concat([
+module.exports['C'] = (module.exports['C'] || []).concat([
   { after: '^La hi\u00e9rarchie de preuve', img: 'diagrams/d14_preuve.png', w: 440, caption: 'La hi\u00e9rarchie de preuve : citer le niveau le plus haut disponible' },
 ]);
 
-// Annexes S (Planet'Stock), T (POA Canada), U (certificat CIVC)
-module.exports['S'] = [
+// Annexes P (Planet'Stock), T (POA Canada), U (certificat CIVC)
+module.exports['P'] = [
   { after: '^Le picking par scan group\u00e9', img: 'annexes/planetstock-1.png', w: 505, caption: 'Planet\u2019Stock - pr\u00e9paration d\u2019un picking par scan group\u00e9 (capture r\u00e9elle)' },
   { after: '^La connexion', img: 'annexes/planetstock-2.png', w: 250, caption: 'Planet\u2019Stock - \u00e9cran de connexion' },
 ];
-module.exports['T'] = [];
-for (let i = 1; i <= 6; i++) module.exports['T'].push({ after: '^Le formulaire officiel vierge', img: `annexes/poa-${i}.png`, w: 505, caption: i === 6 ? 'POA Canada (General Agency Agreement) - formulaire officiel vierge (6 pages)' : '' });
-module.exports['U'] = [
-  { after: '^Le certificat', img: 'annexes/civc-1.png', w: 470, caption: 'Certificat de Champagne (CIVC) - exemplaire r\u00e9el, usage strictement interne' },
+module.exports['K'] = [];
+for (let i = 1; i <= 6; i++) module.exports['K'].push({ after: '^Le formulaire officiel vierge', img: `annexes/poa-${i}.png`, w: 505, caption: i === 6 ? 'POA Canada (General Agency Agreement) - formulaire officiel vierge (6 pages)' : '' });
+module.exports['L'] = [
+  { after: 'Certificat de Champagne : un exemplaire', img: 'annexes/civc-1.png', w: 385, caption: 'Certificat de Champagne (CIVC) - exemplaire r\u00e9el' },
 ];

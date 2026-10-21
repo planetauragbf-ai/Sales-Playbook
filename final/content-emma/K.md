@@ -1,7 +1,7 @@
-# Annexe K - Mandat de prélèvement SEPA
+# Annexe K - POA Canada : le formulaire vierge
 
-*L'autorisation de prélèvement signée par le magasin qui règle le transport à la place de son client - formulaire vierge uniquement.*
+*Le Power of Attorney (mandat de dédouanement) requis pour expédier au Canada : le formulaire officiel FedEx vierge, à faire compléter avant le premier envoi.*
 
-À faire signer à l'adhésion si le magasin est payeur (chap. 04 et 11). Original : drive.google.com/file/d/1ofdzYYs_NLZYnLLfVKxhi5J-x6xY-T3T
+Le Canada exige un POA (General Agency Agreement) : le document mandate le courtier en douane auprès de la CBSA (douane canadienne) pour dédouaner au nom du destinataire. Sans POA signé, le colis reste immobilisé à l'arrivée. La fiche pays complète (quotas 45 L / 90 jours, liquor boards, DAP) est en annexe I, le cadre de vente au chap. 04.
 
-## Le document officiel (2 pages)
+## Le formulaire officiel vierge (6 pages)

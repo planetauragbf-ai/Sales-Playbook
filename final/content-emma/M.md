@@ -1,7 +1,7 @@
-# Annexe M - Manuel utilisateur 2026 & procédure Suède
+# Annexe M - Mode d'emploi Planet'Connect
 
-*Deux documents complémentaires de formation et de conformité, accessibles par lien permanent.*
+*Le manuel complet de la plateforme (37 pages, 16 modules), qui couvre tout de la connexion aux factures - envoyé systématiquement dans le pack de bienvenue.*
 
-**Manuel utilisateur 2026** - le parcours complet d'un shipping en 6 étapes, référence de la formation Planet'Connect (chap. 15) : drive.google.com/file/d/1LDVgBTtuW9ZPWJ-c35HWxNaPyEMxPbUY
+Couverture et sommaire reproduits ci-dessous. Le document complet : drive.google.com/file/d/1EZhHDdzdbYrLIBJaDj_mLAG9wwJpTjb6 - également dans Planet'Connect, rubrique Actualités (chap. 15).
 
-**Procédure « Expéditions vers la Suède »** - notre représentant fiscal en Suède (Vinoflow), spécificités accises et étiquetage (annexe D) : Drive interne → Nouveaux process 2026.
+## Couverture et sommaire

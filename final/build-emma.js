@@ -54,12 +54,12 @@ const UNITS = [
   { id: '12', file: '12.md' }, { id: '13', file: '13.md' },
   { id: '14', file: '14.md' }, { id: '15', file: '15.md' }, { id: '16', file: '16.md' },
   { id: '17', file: '17.md' }, { id: '18', file: '18.md' },
-  { id: 'A', file: 'A.md' }, { id: 'B', file: 'B.md' }, { id: 'C', file: 'C.md' },
-  { id: 'D', file: 'D.md' }, { id: 'E', file: 'E.md' }, { id: 'F', file: 'F.md' }, { id: 'G', file: 'G.md' },
-  { id: 'H', file: 'H.md' }, { id: 'I', file: 'I.md' }, { id: 'J', file: 'J.md' }, { id: 'K', file: 'K.md' },
-  { id: 'L', file: 'L.md' }, { id: 'M', file: 'M.md' }, { id: 'N', file: 'N.md' }, { id: 'O', file: 'O.md' },
-  { id: 'P', file: 'P.md' }, { id: 'Q', file: 'Q.md' },
-  { id: 'R', file: 'R.md' }, { id: 'S', file: 'S.md' }, { id: 'T', file: 'T.md' }, { id: 'U', file: 'U.md' },
+  { id: 'A', file: 'A.md' }, { id: 'B', file: 'B.md' }, { id: 'C', file: 'C.md' }, { id: 'D', file: 'D.md' },
+  { id: 'E', file: 'E.md' }, { id: 'F', file: 'F.md' }, { id: 'G', file: 'G.md' }, { id: 'H', file: 'H.md' },
+  { id: 'I', file: 'I.md' }, { id: 'J', file: 'J.md' }, { id: 'K', file: 'K.md' }, { id: 'L', file: 'L.md' },
+  { id: 'M', file: 'M.md' }, { id: 'N', file: 'N.md' }, { id: 'O', file: 'O.md' }, { id: 'P', file: 'P.md' },
+  { id: 'Q', file: 'Q.md' }, { id: 'R', file: 'R.md' }, { id: 'S', file: 'S.md' }, { id: 'T', file: 'T.md' },
+  { id: 'U', file: 'U.md' },
 ];
 
 const PARTS = {
@@ -67,7 +67,7 @@ const PARTS = {
   '06': { big: '2', col: PBORDEAUX, tab: 'PARTIE 2 · CIBLER', rom: 'II', num: 'PARTIE 2', title: 'Définir les cibles et les solutions adaptées', sub: 'Les bons comptes, les bonnes réponses', chapters: ['06 · Profils de clients idéaux (ICP)', '07 · Personas et acteurs de la décision', '08 · Correspondance entre enjeux et solutions'] },
   '09': { big: '3', col: POCRE, tab: 'PARTIE 3 · VENDRE', rom: 'III', num: 'PARTIE 3', title: 'Formaliser la prospection et la vente', sub: 'Du premier contact à la signature', chapters: ['09 · Processus d’acquisition et pipeline', '10 · Séquences de prospection et scripts', '11 · Qualification et processus de vente', '12 · Conduite des entretiens (méthode SPIN)', '13 · Argumentaires et objections'] },
   '14': { big: '4', col: NAVY, tab: 'PARTIE 4 · PILOTER', rom: 'IV', num: 'PARTIE 4', title: 'Fournir les outils et organiser le pilotage', sub: 'Outiller, mesurer, faire vivre', chapters: ['14 · Ressources d’aide à la vente', '15 · Organisation et outils', '16 · Activation, fidélisation et SAV', '17 · Indicateurs et méthode de suivi', '18 · Mise à jour et appropriation'] },
-  'A': { big: 'A', col: PBORDEAUX, tab: 'ANNEXES', rom: 'V', num: 'ANNEXES', title: 'Annexes', sub: 'Documents complémentaires', chapters: ['A · Grille tarifaire shipping 2026', 'B · CGS : l’essentiel', 'C · Fiche réflexe, checklists et modèles', 'D · Conformité et fiches pays', 'E · Glossaire', 'F · Chiffres officiels et sources', 'G · Organigramme et documents officiels', 'H · Fiches ICP & personas', 'I · Grille stockage & picking 2026', 'J · Order Form 2026', 'K · Mandat SEPA', 'L · Mode d’emploi Planet’Connect', 'M · Manuel utilisateur & procédure Suède', 'N · Formulaire de shipping par email', 'O · Flyer de prospection', 'P · Cartes de zones USA & Norvège', 'Q · Liens utiles', 'R · Parcours d\u2019onboarding 0-90 jours', 'S · Planet\u2019Stock en images', 'T · POA Canada : formulaire vierge', 'U · Certificat de Champagne : exemplaire r\u00e9el'] },
+  'A': { big: 'A', col: PBORDEAUX, tab: 'ANNEXES', rom: 'V', num: 'ANNEXES', title: 'Annexes', sub: 'Documents complémentaires', chapters: ['A · Fiches ICP & personas', 'B · Fiche réflexe, checklists et modèles', 'C · Chiffres officiels, preuve et avis', 'D · Grille tarifaire shipping 2026', 'E · Grille stockage & picking 2026', 'F · Order Form 2026', 'G · Mandat SEPA', 'H · CGS : l\u2019essentiel', 'I · Conformité et fiches pays', 'J · Cartes de zones USA & Norvège', 'K · POA Canada : formulaire vierge', 'L · Certificat de Champagne', 'M · Mode d\u2019emploi Planet\u2019Connect', 'N · Manuel utilisateur & procédure Suède', 'O · Formulaire de shipping par email', 'P · Planet\u2019Stock en images', 'Q · Flyer de prospection', 'R · Organigramme et documents officiels', 'S · Parcours d\u2019onboarding 0-90 jours', 'T · Glossaire', 'U · Liens utiles'] },
 };
 
 // ---- Sommaire interactif
@@ -193,7 +193,7 @@ const GLO_ACRONYM = /^[A-Z0-9\-\s/.'+]+$/;
 const GLO_SLUG = {}; const TERM_SLUG = {}; let GLO_RE = null;
 {
   try {
-    const emd = fs.readFileSync(path.join(SRC, 'E.md'), 'utf8');
+    const emd = fs.readFileSync(path.join(SRC, 'T.md'), 'utf8');
     const variants = [];
     const expand = (v) => v.includes("'") || v.includes('’')
       ? [v.replace(/’/g, "'"), v.replace(/'/g, '’')] : [v];
@@ -429,7 +429,7 @@ function convertBody(md, unit, opts = {}) {
   const ACC = partAcc ? partAcc.col : TEAL;
   const DEEP = DEEP_OF[ACC] || TEALD;
   const TINT = TINT_OF[ACC] || LTEAL;
-  const gloId = (unit.id === 'E' || unit.id === 'avantpre' || unit.id === 'avantpre2') ? null : unit.id;
+  const gloId = (unit.id === 'T' || unit.id === 'avantpre' || unit.id === 'avantpre2') ? null : unit.id;
   const BODY = { size: 19, glo: gloId, gloAcc: DEEP };
   const CP = opts.letter ? 112 : opts.compact ? 48 : 62;   // after des paragraphes
   const CL = opts.letter ? 36 : opts.compact ? 14 : 16;   // after des listes
@@ -474,7 +474,7 @@ function convertBody(md, unit, opts = {}) {
     if (/^\s*\|/.test(line) && i + 1 < lines.length && /^\s*\|[\s:|-]+\|?\s*$/.test(lines[i + 1])) {
       const tbl = [];
       while (i < lines.length && /^\s*\|/.test(lines[i])) { tbl.push(lines[i]); i++; }
-      out.push(parseTableBlock(tbl, DEEP, unit.id === 'E'));
+      out.push(parseTableBlock(tbl, DEEP, unit.id === 'T'));
       out.push(spacerPara(92));
       continue;
     }
@@ -977,7 +977,7 @@ function tocChildren() {
   paras.push(lgLine([
     new TextRun({ text: 'Les termes comme ', size: 15, color: GRAY }),
     new TextRun({ text: 'adhérent', size: 15, color: DEEP_OF[TEAL], underline: { type: UnderlineType.DOTTED, color: DEEP_OF[TEAL] } }),
-    new TextRun({ text: ' renvoient à leur définition au glossaire (annexe E) - à leur première apparition dans chaque chapitre, cliquables en version numérique. Toutes les entrées de ce sommaire et des sous-sommaires « DANS CE CHAPITRE » sont également cliquables.', size: 15, color: GRAY }),
+    new TextRun({ text: ' renvoient à leur définition au glossaire (annexe T) - à leur première apparition dans chaque chapitre, cliquables en version numérique. Toutes les entrées de ce sommaire et des sous-sommaires « DANS CE CHAPITRE » sont également cliquables.', size: 15, color: GRAY }),
   ]));
   return paras;
 }
@@ -1081,7 +1081,7 @@ UNITS.forEach(u => {
 // des chapitres qui les citent (ancres 'chap'+id posées sur chaque tête de chapitre)
 const GLO_BACKREFS = {}; // slug -> [ids d'unités]
 const ANNEX_BACKREFS = {}; // lettre d'annexe -> [ids d'unités]
-UNITS.filter(u => !['avant', 'E'].includes(u.id)).forEach(u => {
+UNITS.filter(u => !['avant', 'T'].includes(u.id)).forEach(u => {
   const md = unitMd[u.id];
   if (GLO_RE) {
     GLO_RE.lastIndex = 0;

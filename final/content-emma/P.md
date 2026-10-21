@@ -1,19 +1,13 @@
-# Annexe P - Cartes de zones USA & Norvège
+# Annexe P - Planet'Stock en images
 
-*Les cartes de référence à vérifier avant d'annoncer une faisabilité - l'État, puis le code postal (chap. 04 et annexe D).*
+*L'extension de Planet'Connect dédiée au stockage et au picking à l'entrepôt de Castres : références, emplacements, entrées et sorties - deux écrans pour comprendre l'outil.*
 
-> ⚠️ **LE POINT DE VIGILANCE -** Pour la Norvège, annoncer la zone en disant **Sud ou Nord** et vérifier le **comté** : sur la carte 2026 ci-dessous, la Zone 1 est le Nord (Finnmark, Troms, Nordland, Trøndelag) et la Zone 2 le Sud. Avant de chiffrer, contrôler la correspondance avec la grille tarifaire (annexe A) - en cas d'écart, la grille et Planet'Connect font foi.
+Planet'Stock outille le service de stockage vendu aux adhérents (grille officielle en annexe E) : chaque référence porte un QR code et un emplacement précis (cave, allée, niveau, position), chaque sortie se prépare par un picking scanné qui réserve le stock. Côté vente, c'est un argument de sérieux : l'adhérent qui confie son stock voit des mouvements tracés à la bouteille près. L'offre de stockage se vend au chap. 04.
 
-En rendez-vous : vérifier l'État sur la carte, puis le code postal dans les listes ci-dessous avant tout engagement. Au moindre doute, Planet'Connect ou l'exploitation tranche.
+## Le picking par scan groupé
 
-## Les cartes officielles
+L'opérateur saisit la quantité, scanne le QR de la référence une seule fois, et la quantité ne peut jamais dépasser celle prévue dans la sortie : le contrôle est fait par l'outil, pas par la mémoire. La validation réserve le stock correspondant.
 
-## Codes postaux desservis (listes officielles)
+## La connexion
 
-| État | Liste des codes postaux |
-|---|---|
-| Rhode Island | drive.google.com/file/d/1Y0XfV42Wp5C5vwWmB0y18Amnq7vjjMHh |
-| Oklahoma | drive.google.com/file/d/1JWUn3POkq9RR7VCNeTWn_HflXIRs65cu |
-| New Jersey | drive.google.com/file/d/1gjIsF-aIIYSMlGD-RwDrJAySUU_Uvqn6 |
-| Illinois | drive.google.com/file/d/1M817jRQaDZJrIBaUPSaVkJIVFel5J7Fa |
-| Delaware | drive.google.com/file/d/1wQfu4rHIFLhS_ArUdxylAPnAGZHVHXNq |
+Un compte par utilisateur, accessible depuis l'entrepôt, sur mobile ou avec une douchette de scan.

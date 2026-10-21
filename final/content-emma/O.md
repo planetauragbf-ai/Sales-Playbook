@@ -1,17 +1,20 @@
-# Annexe O - Flyer de prospection
+# Annexe O - Formulaire de shipping par email
 
-*Le support remis en prospection terrain et salon - face extérieure reproduite ci-dessous, à commander auprès d'Emma.*
+*L'alternative normalisée, au format Excel, à la saisie sur la plateforme, pour les adhérents qui préfèrent l'email - à retourner à contact@planet-aura.com.*
 
-## La face extérieure
+Original (tableur) : drive.google.com/file/d/1qseseA4vCgayD5FIv9_gtVXsOy-CBLZR
 
-## Les chiffres clés affichés
+## Le modèle officiel 2026
 
-Le flyer remis en prospection (et la PLV « We ship worldwide ») met en avant trois chiffres :
+## La checklist avant envoi
 
-```stats
-500|adhérents
-130|pays desservis
-90 %|de l'activité à l'export
-```
+Les champs qui bloquent un dossier s'ils manquent - à vérifier avant de transmettre le formulaire d'un adhérent :
 
-> ⚠️ **LE POINT DE VIGILANCE -** Cohérence des discours : la grille tarifaire couvre ~50 destinations, le flyer annonce 130 pays (recherche de solution possible au-delà de la grille). En RDV, présentez toujours les deux niveaux : « ~50 destinations tarifées immédiatement, jusqu'à 130 pays sur étude ».
+- [ ] Donneur d'ordre complet (entreprise, contact, email, téléphone)
+- [ ] Lieu d'enlèvement avec adresse complète
+- [ ] Adresse de livraison **physique** (jamais de PO Box) avec email et téléphone du destinataire
+- [ ] Nombre de bouteilles (0,75 L) et autres marchandises
+- [ ] Valeur d'achat HT (base des taxes et de l'indemnisation)
+- [ ] Souscription d'assurance : oui / non
+- [ ] Pays tiers : incoterm choisi (DDP / DAP)
+- [ ] Documents joints : facture commerciale détaillée, certificat d'origine si champagne hors UE, DAE
