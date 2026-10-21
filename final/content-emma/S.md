@@ -59,7 +59,7 @@
 
 ## Les rituels dès la semaine 1
 
-Les rituels d'équipe (détail au chap. 15) s'appliquent dès l'arrivée, avec une montée en responsabilité : **signaux chauds** chaque matin 10 minutes (l'inbound se rappelle en moins de 24 h, pris en main dès la S3), **pipeline** le lundi 45 minutes (observateur en S1-S2, puis présente ses propres deals), **commerce-opérations** hebdomadaire 30 minutes (remonte ses faisabilités dès la S3), **performance** mensuelle 60 minutes (présente ses chiffres dès le mois 2) et **playbook** trimestriel 90 minutes (apporte sa proposition d'amélioration à J+90).
+Les rituels d'équipe (détail au chap. 15) s'appliquent dès l'arrivée, avec une montée en responsabilité : **signaux chauds** chaque matin 10 minutes (l'inbound se rappelle en moins de 24 h, pris en main dès la S3), **pipeline** le lundi 45 minutes (observateur en S1-S2, puis présente ses propres deals), **commerce-opérations** hebdomadaire 30 minutes (remonte ses faisabilités dès la S3), **performance** mensuelle 45 minutes (présente ses chiffres dès le mois 2) et **playbook** trimestriel 90 minutes (apporte sa proposition d'amélioration à J+90).
 
 > 📌 **À RETENIR -** Trois mois, trois paliers : certifié à J+30, autonome à J+60, pilote à J+90 - ce qui se négocie, c'est l'ordre des blocs, jamais leur existence. Bloc téléphone 10 h-12 h sanctuarisé, CRM à jour chaque soir, un premier envoi réel par adhérent signé : le contrat minimal d'activité.
 
