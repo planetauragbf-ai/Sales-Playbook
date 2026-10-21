@@ -1,6 +1,6 @@
 # Annexe A - Fiches ICP & personas
 
-*Les dix fiches de référence, telles que maquettées : cinq profils de clients idéaux (ICP) et cinq personas décideurs. À dégainer avant un rendez-vous : portrait, douleurs, objections favorites, solution recommandée et priorité.*
+*Les dix fiches de référence : cinq profils de clients idéaux (ICP) et cinq personas décideurs. À dégainer avant un rendez-vous : portrait, douleurs, objections favorites, solution recommandée et priorité.*
 
 Chaque fiche se lit en une page : qui est le compte (ou le décideur), ce qu'il veut entendre, les preuves qui font mouche, les canaux pour l'atteindre, et la solution type avec son niveau de priorité. Les scripts associés sont au chapitre 10, le traitement complet des objections au chapitre 13.
 
@@ -52,7 +52,7 @@ Synthèses consolidées à partir des échanges réels 2024-2026 (fils email, de
 
 **E · Le client final étranger.** Deux visages réels : le particulier américain qui découvre la règle des 36 bouteilles et fournit un second destinataire sans difficulté quand on la lui explique, et le collectionneur qui expédie une palette de 600 bouteilles vers un entrepôt. Son verdict public : « aucune casse et travail soigné » (Local Guide, 83 avis) ; « des mises à jour à chaque étape, de la prise en charge au dédouanement jusqu'à la livraison ».
 
-Les dix fiches maquettées, dans l'ordre - chaque ICP précise son poids dans l'effort commercial, chaque persona son rôle dans la décision :
+Les dix fiches, dans l'ordre - chaque ICP précise son poids dans l'effort commercial, chaque persona son rôle dans la décision :
 
 | Fiche | Profil | Rôle dans la vente |
 |---|---|---|
@@ -67,6 +67,7 @@ Les dix fiches maquettées, dans l'ordre - chaque ICP précise son poids dans l'
 | Persona D | Le directeur commercial de maison de Champagne | Arbitre économique |
 | Persona E | Le client final étranger | Celui qu'il faut rassurer au comptoir |
 
+\page
 
 ## ICP 1 - Domaine ou château avec caveau
 

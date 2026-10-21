@@ -76,6 +76,8 @@ const plainHeading = (t) => t.replace(/\*\*/g, '').replace(/[⚠️💡🚫❗�
 
 let IMAGE_PLACEMENTS = {};
 try { IMAGE_PLACEMENTS = require('./image-placements-emma.js'); } catch (e) {}
+let FICHES_NATIVE = {};
+try { FICHES_NATIVE = require('./fiches-emma.js'); } catch (e) {}
 
 const DIAGRAMS = [
   { match: /Signalement \(≤48 h/, img: 'diagrams/d13_sinistre.png', w: 500 },
@@ -292,7 +294,7 @@ function inlineRuns(text, base = {}) {
 }
 
 // ---------- tables ----------
-function parseTableBlock(lines, accent = TEALD, gloAnchors = false) {
+function parseTableBlock(lines, accent = TEALD, gloAnchors = false, tblOpts = {}) {
   const rows = lines.map(l => l.replace(/^\s*\|/, '').replace(/\|\s*$/, '').split('|').map(c => c.trim()));
   const header = rows[0];
   const body = rows.slice(2);
@@ -304,6 +306,7 @@ function parseTableBlock(lines, accent = TEALD, gloAnchors = false) {
   const longestWord = (i) => Math.max(...[header[i], ...body.map(r => r[i] || '')].flatMap(c => (c || '').replace(/\*/g, '').split(/\s+/).map(w => w.length)), 3);
   const longestHeadWord = (i) => Math.max(...(header[i] || '').replace(/\*/g, '').split(/\s+/).map(w => w.length), 3);
   const minCol = header.map((_, i) => Math.min(Math.max(MIN_W, longestWord(i) * charW + 220, longestHeadWord(i) * Math.round(charW * 1.3) + 220), 2700));
+  if (tblOpts.minLastCol) minCol[nCols - 1] = Math.max(minCol[nCols - 1], tblOpts.minLastCol);
   const total = maxLens.reduce((a, b) => a + b, 0);
   let widths = maxLens.map(l => Math.round((l / total) * CONTENT_W));
   for (let pass = 0; pass < 8; pass++) {
@@ -417,6 +420,89 @@ let orderedInstance = 1;
 
 // paragraphe d'espacement marqué : purgé en fin d'unité pour éviter une page blanche
 function spacerPara(after) { const p = new Paragraph({ spacing: { after }, children: [] }); p.__spacer = true; return p; }
+
+// ---- Fiches ICP & personas natives (annexe A) : composition directe, gabarit maquette
+function ficheBody(f) {
+  const FDEEP = DEEP_OF[ORANGE];
+  const NOB = { style: BorderStyle.NONE };
+  const noB = { top: NOB, bottom: NOB, left: NOB, right: NOB, insideHorizontal: NOB, insideVertical: NOB };
+  const out = [];
+  // positionnement (sous le titre) puis citation terrain
+  out.push(new Paragraph({
+    spacing: { before: 0, after: 100 },
+    children: [new TextRun({ text: f.subtitle, italics: true, size: 19, color: GRAY, font: SERIF })]
+  }));
+  out.push(new Paragraph({
+    keepNext: true, spacing: { after: 26 },
+    children: [new TextRun({ text: f.quoteLabel.toUpperCase(), bold: true, size: 13, color: FDEEP, font: LABEL })]
+  }));
+  out.push(new Paragraph({
+    spacing: { after: 120 }, indent: { left: 60 },
+    children: [new TextRun({ text: f.quote, italics: true, size: 21, color: NAVY, font: SERIF })]
+  }));
+  const secHead = (t, first) => new Paragraph({
+    keepNext: true, spacing: { before: first ? 0 : 112, after: 40 },
+    children: [new TextRun({ text: t, bold: true, size: 17, color: NAVY })]
+  });
+  const bullet = (t) => new Paragraph({
+    indent: { left: 216, hanging: 150 }, spacing: { after: 20 },
+    children: [new TextRun({ text: '•  ', bold: true, size: 15, color: FDEEP }), ...inlineRuns(t, { size: 16, color: INK })]
+  });
+  const GAP = 320;
+  const colW = Math.floor((CONTENT_W - GAP) / 2);
+  const noPad = { top: 0, bottom: 0, left: 0, right: 0 };
+  const portraitTbl = new Table({
+    width: { size: colW, type: WidthType.DXA }, columnWidths: [1500, colW - 1500],
+    borders: { ...noB, insideHorizontal: { style: BorderStyle.SINGLE, size: 4, color: 'D8E4E8' } },
+    rows: f.portrait.map(r => new TableRow({ children: [
+      new TableCell({ width: { size: 1500, type: WidthType.DXA }, margins: { top: 36, bottom: 36, left: 0, right: 90 },
+        children: [new Paragraph({ children: [new TextRun({ text: r.label, bold: true, size: 15, color: FDEEP })] })] }),
+      new TableCell({ width: { size: colW - 1500, type: WidthType.DXA }, margins: { top: 36, bottom: 36, left: 50, right: 0 },
+        children: [new Paragraph({ children: inlineRuns(r.value, { size: 15, color: INK }) })] }),
+    ] })),
+  });
+  const leftKids = [secHead('Portrait', true), portraitTbl, spacerPara(14)];
+  f.leftSections.forEach(s => { leftKids.push(secHead(s.heading)); s.bullets.forEach(b => leftKids.push(bullet(b))); });
+  const rightKids = [];
+  f.rightSections.forEach((s, si) => { rightKids.push(secHead(s.heading, si === 0)); s.bullets.forEach(b => rightKids.push(bullet(b))); });
+  const twoCol = (lk, rk) => new Table({
+    width: { size: CONTENT_W, type: WidthType.DXA }, columnWidths: [colW, GAP, CONTENT_W - colW - GAP], borders: noB,
+    rows: [new TableRow({ children: [
+      new TableCell({ width: { size: colW, type: WidthType.DXA }, margins: noPad, children: lk }),
+      new TableCell({ width: { size: GAP, type: WidthType.DXA }, margins: noPad, children: [new Paragraph({ children: [] })] }),
+      new TableCell({ width: { size: CONTENT_W - colW - GAP, type: WidthType.DXA }, margins: noPad, children: rk }),
+    ] })],
+  });
+  out.push(twoCol(leftKids, rightKids));
+  out.push(spacerPara(80));
+  out.push(secHead('Objections favorites et réponses courtes', true));
+  out.push(parseTableBlock([
+    '| Objection | Réponse courte | Réf. |',
+    '|---|---|---|',
+    ...f.objections.map(o => `| **${o.objection}** | ${o.reponse} | ${o.ref} |`),
+  ], FDEEP, false, { minLastCol: 1250 }));
+  out.push(spacerPara(80));
+  if (f.bottom.length >= 2) {
+    out.push(twoCol(
+      [secHead(f.bottom[0].heading, true), new Paragraph({ spacing: { after: 0 }, children: inlineRuns(f.bottom[0].text, { size: 16, color: INK }) })],
+      [secHead(f.bottom[1].heading, true), new Paragraph({ spacing: { after: 0 }, children: inlineRuns(f.bottom[1].text, { size: 16, color: INK }) })]
+    ));
+    out.push(spacerPara(80));
+  }
+  out.push(new Table({
+    width: { size: CONTENT_W, type: WidthType.DXA }, columnWidths: [CONTENT_W], borders: noB,
+    rows: [new TableRow({ cantSplit: true, children: [new TableCell({
+      width: { size: CONTENT_W, type: WidthType.DXA }, shading: { type: ShadingType.CLEAR, fill: DARKBG },
+      margins: { top: 68, bottom: 68, left: 215, right: 195 },
+      children: [new Paragraph({ spacing: { before: 18, after: 18 }, children: [
+        new TextRun({ text: 'À RETENIR -', bold: true, size: 16, color: 'F4C9A8' }),
+        new TextRun({ text: '  ' }),
+        ...inlineRuns(f.aretenir, { size: 17, color: 'FFFFFF' }),
+      ] })],
+    })] })],
+  }));
+  return out;
+}
 
 function convertBody(md, unit, opts = {}) {
   const out = [];
@@ -645,6 +731,10 @@ function convertBody(md, unit, opts = {}) {
         }));
       }
       out.push(...tryPlace(txt));
+      if (unit.id === 'A' && lvl === 2) {
+        const fk = Object.keys(FICHES_NATIVE).find(k => txt.startsWith(k + ' '));
+        if (fk) out.push(...ficheBody(FICHES_NATIVE[fk]));
+      }
       i++; continue;
     }
 

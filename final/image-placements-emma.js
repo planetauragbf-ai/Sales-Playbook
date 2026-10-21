@@ -54,19 +54,7 @@ module.exports['avantpre2'] = [
   { after: 'certitudes de Floriane', img: 'pics/bitmoji_trio.png', w: 175, caption: '' },
   { after: 'Mot d’accueil|Mot d.accueil', img: 'pics/bitmoji_duo.png', w: 150, caption: '' },
 ];
-// Annexe A - fiches maquettées (pages extraites du PPTX officiel)
-module.exports['A'] = [
-  { after: '^ICP 1', img: 'fiches/fiche-02.png', w: 585, caption: '' },
-  { after: '^ICP 2', img: 'fiches/fiche-01.png', w: 585, caption: '' },
-  { after: '^ICP 3', img: 'fiches/fiche-04.png', w: 585, caption: '' },
-  { after: '^ICP 4', img: 'fiches/fiche-03.png', w: 585, caption: '' },
-  { after: '^ICP 5', img: 'fiches/fiche-06.png', w: 585, caption: '' },
-  { after: '^Persona A', img: 'fiches/fiche-05.png', w: 585, caption: '' },
-  { after: '^Persona B', img: 'fiches/fiche-07.png', w: 585, caption: '' },
-  { after: '^Persona C', img: 'fiches/fiche-08.png', w: 585, caption: '' },
-  { after: '^Persona D', img: 'fiches/fiche-10.png', w: 585, caption: '' },
-  { after: '^Persona E', img: 'fiches/fiche-09.png', w: 585, caption: '' },
-];
+// Annexe A - fiches ICP & personas : composées nativement (fiches-emma.js), plus d'images
 // Annexes documentaires : un document = une annexe
 module.exports['D'] = [];
 for (let i = 1; i <= 5; i++) module.exports['D'].push({ after: '^Le document officiel', img: `annexes/grille_ship-${i}.png`, w: 520, caption: i === 5 ? 'Grille tarifaire shipping 2026 - document officiel (5 pages)' : '' });
