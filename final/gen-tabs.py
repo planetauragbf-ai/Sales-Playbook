@@ -4,7 +4,7 @@ TABS=[('tab-p1','PARTIE 1 · ANALYSER','2D92A8','FFFFFF'),
       ('tab-p2','PARTIE 2 · CIBLER','722F45','FFFFFF'),
       ('tab-p3','PARTIE 3 · VENDRE','C6A15B','FFFFFF'),
       ('tab-p4','PARTIE 4 · PILOTER','12475B','FFFFFF'),
-      ('tab-ann','ANNEXES','722F45','FFFFFF')]
+      ('tab-ann','ANNEXES','F66803','FFFFFF')]
 import subprocess
 from PIL import Image
 for name,label,bg,fg in TABS:
