@@ -43,6 +43,37 @@ Avant de citer un chiffre en RDV, dans un email ou dans une proposition, identif
 
 > ⚠️ **LE POINT DE VIGILANCE -** Le glissement classique : une hypothèse (niveau 4) répétée trois fois en réunion devient un « fait » dans un email client. C'est exactement ce que cette hiérarchie empêche.
 
+## La banque d'avis Google : qui citer, pour prouver quoi
+
+Quinze avis publics de la fiche Google Planet Aura, sélectionnés et annotés. Citer **mot pour mot**, montrer la fiche en direct sur le téléphone du prospect, et choisir l'avis qui répond à la situation - jamais un avis générique. Les avis de clients finaux servent d'abord à rassurer l'adhérent sur l'expérience que vivront **ses** clients.
+
+### Côté professionnels et adhérents (tous 5 étoiles)
+
+| Avis | Le verbatim à citer | Ce qu'il prouve - quand le citer |
+|---|---|---|
+| Sara Croche · déc. 2024 | « Cela fait plus de 3 ans que je travaille avec Planet Aura, en tant que professionnel, c'est une entreprise incroyablement réactive, efficace et sérieuse. Le SAV est top. » | Durée de la relation + SAV : le meilleur avis pro - fidélisation, objection « solution trop récente » |
+| Conseil des Vins de Fronsac · fév. 2024 | « Accueil téléphonique de qualité, réactivité, très professionnel. Un des meilleurs transporteurs avec qui nous avons travaillé ! » | Écrit au nom d'une structure de la filière - poids institutionnel, RDV maisons et interprofessions |
+| Valérie Mingot, Maison du Vouvray · déc. 2020 | « Excellentes relations professionnelle et amicale depuis le tout début de notre collaboration en juin 2019. [...] Entreprise recommandée sans aucune hésitation ! » | Fidélité documentée depuis 2019 - la preuve d'ancienneté |
+| Manon Lafont · août 2022 | « Une solution idéale pour nos envois BtoC à l'étranger ! Merci pour votre efficacité et votre gentillesse. » | Le positionnement B2B2C dit avec les mots d'un client |
+| Naima Mazirh · mai 2022 | « Transporteur au top, à l'écoute, très réactif [...]. Si tous nos transporteurs pouvaient être comme eux !!!! » | Un professionnel qui compare ses transporteurs - objection « j'ai déjà un transporteur / un transitaire » |
+| Michel Bruneau · janv. 2023 | « J'ai mis des cavistes qui n'exportaient pas aux États-Unis en contact avec Planet Aura. [...] Planet Aura m'a fait parvenir les vins que je désirais aux USA sans problème. » | L'apport d'affaires et l'export USA - programme de recommandation (chap. 16) |
+| Arthus et Jean · avr. 2025 | « Cela fait presque deux ans que nous travaillons avec cette entreprise [...]. Réactivité, professionnalisme et super suivi. » | Relation récente et durable - l'avis frais à citer en 2026 |
+| Charles-Alexandre de Kuyper · nov. 2023 | « Le service ainsi que l'emballage sont nickel. Rien à redire, aucune casse et travail soigné. Je recommande. » | Local Guide (83 avis publiés) : forte crédibilité - objection casse (O-6, chap. 13) |
+| Filaquier · août 2020 | « Je passe par Planet Aura pour mes envois de colis aux USA. C'est simple et efficace ! » | La simplicité du parcours USA |
+
+### Côté clients finaux (à raconter à l'adhérent)
+
+| Avis | Ce qu'il raconte | Quand l'utiliser |
+|---|---|---|
+| Jessica Roberson · nov. 2025 | Des mises à jour à chaque étape, de la prise en charge au dédouanement jusqu'à la livraison finale | Le suivi proactif - objection « colis bloqué », douleur n° 1 du client final |
+| Thomas Klaine · juin 2025 | Prévenu de la forte chaleur, stockage de la caisse offert jusqu'à la baisse des températures | La politique canicule et le départ différé (chap. 04), vécus côté client |
+| Shane Cuevas · déc. 2025 | Aucun frais supplémentaire pour la mise en quarantaine estivale de son envoi | La même politique, angle « zéro surprise » sur les frais |
+| Craig DeWitt · oct. 2023 | Envoi volontairement retardé, après accord, pour éviter la canicule | La preuve que la règle est appliquée, pas seulement déclarée |
+| Lisa · janv. 2026 | « Je recommande à 1000 % » pour une expédition vers le Japon | Les destinations au-delà des USA (Asie premium, chap. 01) |
+| Cheryl Parrino · déc. 2025 | Un emballage soigné, calage et billes de polystyrène décrits spontanément | La qualité d'emballage vue par le destinataire - avec l'objection casse |
+
+> **REPÈRE -** Trois règles d'usage : citer mot pour mot, jamais reformuler un avis. Montrer la fiche Google en direct plutôt que d'en parler. Ces avis sont publics - pour une étude de cas nominative détaillée, l'accord écrit du client reste obligatoire (chap. 06).
+
 ## Sources externes vérifiées (S01-S13)
 
 Chaque source ci-dessous a été vérifiée en ligne (septembre 2026). En rendez-vous ou dans un support, citer le chiffre AVEC sa source et son millésime.
@@ -62,7 +93,7 @@ Chaque source ci-dessous a été vérifiée en ligne (septembre 2026). En rendez
 | S10 | **CIVC** - Comité Champagne | Certificat d'origine obligatoire hors UE, demande : certificat.origine-ext@civc.fr - 03 26 51 19 30 | comitechampagne.fr |
 | S11 | **Douane française** - accises & CRD | Références EMCS/DA, capsules représentatives de droits, circulation des produits soumis à accises | douane.gouv.fr |
 | S12 | **La Poste Pro** - « Expédier du vin aux États-Unis » | Page qui documente publiquement les restrictions des solutions postales - utile face à l'objection « La Poste est moins chère » (O-3) | laposte.fr/professionnel/expedier/expedier-vin-etats-unis |
-| S13 | **Google / planet-aura.com** - avis clients | **≈ 300 avis Google - fiche Google : 4,8/5 (296 avis), widget site : 5/5 (291 avis)** (relevés sept. 2026), verbatims multilingues publics (FR/EN/FI/NL) repris au chap. 14 - la preuve à montrer en direct sur le téléphone du prospect | planet-aura.com (bloc avis Google) |
+| S13 | **Google / planet-aura.com** - avis clients | **≈ 300 avis Google - fiche Google : 4,8/5 (296 avis), widget site : 5/5 (291 avis)** (relevés sept. 2026), verbatims multilingues publics (FR/EN/FI/NL), banque d'avis annotée ci-dessus - la preuve à montrer en direct sur le téléphone du prospect | planet-aura.com (bloc avis Google) |
 
 > **REPÈRE -** Règle de citation : un chiffre sans source, millésime et périmètre n'entre ni dans un support, ni dans un rendez-vous. En cas de conflit entre deux sources, la plus récente et la plus officielle gagne - et on le note ici.
 
