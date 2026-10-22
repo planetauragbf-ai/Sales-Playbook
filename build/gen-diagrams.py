@@ -3,9 +3,10 @@
 import os, subprocess, glob
 from PIL import Image
 
-S = '/tmp/claude-0/-home-user-Sales-Playbook/937d2675-9cdd-54b9-a3ad-2207ab8c8104/scratchpad'
-OUT = f'{S}/assets/diagrams'
-HTML = f'{S}/diag-html'
+import os as _os
+_HERE = _os.path.dirname(_os.path.abspath(__file__))
+OUT = _os.path.join(_HERE, 'assets/diagrams')
+HTML = _os.path.join(_HERE, '.diag-html')
 CHROME = '/opt/pw-browsers/chromium_headless_shell-1194/chrome-linux/headless_shell'
 os.makedirs(OUT, exist_ok=True); os.makedirs(HTML, exist_ok=True)
 
@@ -136,14 +137,15 @@ inf = '''<div class="col" style="gap:16px">
 shot('d08_influence', inf, width=1100)
 
 # 9 — 05 : cycle de vie
-cyc = chain(['Prospect','Adhérent','Actif','Fidélisé'], cls='teal')
-cyc += '''<div class="row" style="margin-top:10px;gap:10px"><div style="width:340px"></div>
+cyc = '<style>.fx5c .chip{font-size:22px;padding:12px 18px}.fx5c .arr{font-size:26px;padding:0 14px}.fx5c .cap{font-size:20.5px;max-width:320px}</style><div class="fx5c" style="width:max-content">'
+cyc += chain(['Prospect','Adhérent','Actif','Fidélisé'], cls='teal')
+cyc += '''<div class="row" style="margin-top:10px;gap:10px"><div style="width:150px"></div>
 <div class="col"><div style="color:var(--orange);font-size:26px;font-weight:700">↓</div>
-<div class="cap" style="max-width:260px;margin-top:2px">9 mois sans expédition</div>
+<div class="cap" style="margin-top:2px">9 mois sans expédition</div>
 <div class="chip" style="background:var(--red);margin-top:8px">Dormant</div>
 <div style="color:var(--orange);font-size:24px;font-weight:700;margin-top:6px">→</div>
-<div class="chip o" style="margin-top:6px">Réactivation<br><span style="font-weight:400;font-size:16px">mails auto #70/#71 + appel</span></div></div>
-<div style="width:340px"></div></div>'''
+<div class="chip o" style="margin-top:6px">Réactivation<br><span style="font-weight:400;font-size:20.5px">mails auto #70/#71 + appel</span></div></div>
+<div style="width:150px"></div></div></div>'''
 shot('d05_cycle', cyc, width=1100)
 
 # 10 — 06 : B2B2C
@@ -159,7 +161,9 @@ b2b = """<div class="row" style="align-items:stretch">
 shot('d06_b2b2c', b2b)
 
 # 11 — 07 : pipeline 7 étapes
-pip = chain(['LEAD','QUALIFIÉ','RDV / DÉMO','PROPOSITION','ADHÉSION<br>SIGNÉE','ACTIVÉ<br><span style="font-weight:400;font-size:15px">(1er envoi)</span>','RÉCURRENT'], cls='teal', num=True)
+pip = '<style>.fx7 .chip{font-size:26px;padding:10px 7px;line-height:1.1}.fx7 .arr{font-size:17px;padding:0 4px}.fx7 .num{min-width:32px;height:32px;font-size:26px}</style><div class="fx7" style="width:max-content">'
+pip += chain(['LEAD','QUALIFIÉ','RDV /<br>DÉMO','PROPOSITION','ADHÉSION<br>SIGNÉE','ACTIVÉ<br><span style="font-weight:400;font-size:26px">(1er envoi)</span>','RÉCURRENT'], cls='teal', num=True)
+pip += '</div>'
 shot('d07_pipeline', pip)
 
 # 12 — 07 : funnel chiffré
@@ -187,8 +191,10 @@ mp = '''<div style="display:grid;grid-template-columns:230px 1fr 1fr;grid-templa
 shot('d10_mapping', mp, width=1300)
 
 # 14 — 13 : parcours sinistre
-sin = chain(['Signalement<br><span style="font-weight:400;font-size:15px">≤ 48 h, photos</span>','Dossier S_xxxx<br><span style="font-weight:400;font-size:15px">analyse PA</span>','Recours<br>transporteur','Assurance<br><span style="font-weight:400;font-size:15px">Coste Fermon</span>','Décision client<br><span style="font-weight:400;font-size:15px">remplacement / substitution / remboursement</span>','Clôture'], cls='teal', num=True)
-shot('d13_sinistre', sin)
+sin = '<style>.fx13 .chip{font-size:48px;padding:6px 19px;line-height:1.1}.fx13 .arr{font-size:33px;padding:0 3px}.fx13 .num{min-width:48px;height:48px;font-size:48px}</style><div class="fx13" style="width:max-content">'
+sin += chain(['Signalement<br><span style="font-weight:400;font-size:48px">≤ 48 h,<br>photos</span>','Dossier<br>S_xxxx<br><span style="font-weight:400;font-size:48px;line-height:1.6">analyse PA</span>','Recours<br>transporteur','Assurance<br><span style="font-weight:400;font-size:48px">Coste<br>Fermon</span>','Décision client<br><span style="font-weight:400;font-size:48px">remplacement /<br>substitution /<br>remboursement</span>','Clôture'], cls='teal', num=True)
+sin += '</div>'
+shot('d13_sinistre', sin, width=2300)
 
 # 15 — 14 : chaîne données RGPD
 dat = chain(['SOURCES','HUBSPOT','EXÉCUTION','PILOTAGE'], cls='teal',
@@ -196,7 +202,9 @@ dat = chain(['SOURCES','HUBSPOT','EXÉCUTION','PILOTAGE'], cls='teal',
 shot('d14_data', dat, width=1100)
 
 # 16 — 15 : funnel commercial
-f15 = chain(['Leads','Qualifiés','RDV tenus','Propositions','Signatures','Activés','Récurrents'], cls='teal')
+f15 = '<style>.fx15 .chip{font-size:29px;padding:8px 8px}.fx15 .arr{font-size:16px;padding:0 4px}</style><div class="fx15" style="width:max-content">'
+f15 += chain(['Leads','Qualifiés','RDV tenus','Propositions','Signatures','Activés','Récurrents'], cls='teal')
+f15 += '</div>'
 shot('d15_funnel', f15)
 
 print('done', len(glob.glob(f'{OUT}/*.png')), 'diagrams')

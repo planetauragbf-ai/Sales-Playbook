@@ -18,14 +18,14 @@ module.exports = {
     { after: '^L’équipe : quatre pôles|^L.équipe : quatre pôles', img: 'pics/team2.png', w: 430, caption: 'L’équipe Planet Aura' },
   ],
   '04': [
-    { after: '^Vue d’ensemble du catalogue|^Vue d.ensemble du catalogue', img: 'pics/vela_boat.png', w: 320, caption: 'Le voilier-cargo VELA - option de transport bas-carbone (conditionnelle, voir « Offres en développement »)' },
-    { after: '^Stockage, cartonnage', img: 'pics/entrepot.png', w: 330, caption: 'L’entrepôt de Castres : stockage et picking en propre' },
-    { after: '^USA Groupage DDP', img: 'diagrams/d04_usabars.png', w: 430, caption: 'Grille USA groupage 2026 : le coût par bouteille passe de 105 € à 14,2 € avec le colisage' },
-    { after: '^Planet’Connect : la plateforme|^Planet.Connect : la plateforme', img: 'pics/pc_sim_usa.png', w: 396, caption: 'Simulation réelle États-Unis dans Planet’Connect : transport, assurance, taxes DDP' },
+    { after: '^Vue d’ensemble du catalogue|^Vue d.ensemble du catalogue', img: 'pics/vela_boat.png', w: 300, caption: 'Le voilier-cargo VELA - option de transport bas-carbone (conditionnelle, voir « Offres en développement »)' },
+    { after: '^Stockage, cartonnage', img: 'pics/entrepot.png', w: 308, caption: 'L’entrepôt de Castres : stockage et picking en propre' },
+    { after: '^USA Groupage DDP', img: 'diagrams/d04_usabars.png', w: 395, caption: 'Grille USA groupage 2026 : le coût par bouteille passe de 105 € à 14,2 € avec le colisage' },
+    { after: '^Planet’Connect : la plateforme|^Planet.Connect : la plateforme', img: 'pics/pc_sim_usa.png', w: 372, caption: 'Simulation réelle États-Unis dans Planet’Connect : transport, assurance, taxes DDP' },
   ],
   '05': [
-    { after: 'familles d’acteurs|familles d.acteurs|carte des intervenants', img: 'diagrams/d10_carte.png', w: 406, caption: 'La carte des intervenants du secteur - chiffre d’affaires × spécialisation/diversification de l’offre' },
-    { after: '^Concurrents directs à la loupe', img: 'diagrams/d10_radar7p.png', w: 406, caption: 'Le face-à-face des spécialistes : analyse 7P, scores internes 0-5 (octobre 2026)' },
+    { after: 'familles d’acteurs|familles d.acteurs|carte des intervenants', img: 'diagrams/d10_carte.png', w: 520, caption: 'La carte des intervenants du secteur - chiffre d’affaires × spécialisation/diversification de l’offre' },
+    { after: '^Concurrents directs à la loupe', img: 'diagrams/d10_radar7p.png', w: 385, caption: 'Le face-à-face des spécialistes : analyse 7P, scores internes 0-5 (octobre 2026)' },
   ],
   '06': [
     { after: '^Le profil de client idéal', img: 'pics/carte_adherents.png', w: 356, caption: 'La carte des adhérents en France (Planet’Connect)' },

@@ -42,15 +42,16 @@ def quad(key):
       <div class="qt" style="color:{col}">{t}</div><ul>{lis}</ul></div>'''
 
 html = f'''<!doctype html><html><head><meta charset="utf-8"><style>
-body{{margin:0;padding:20px 20px 14px;font-family:Inter,Arial,sans-serif;background:#fff;width:1080px}}
-.axes{{display:grid;grid-template-columns:30px 1fr 1fr;grid-template-rows:30px 1fr 1fr;gap:0}}
-.ax{{display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:700;letter-spacing:2.5px;color:#5F7078}}
+body{{margin:0;padding:6px 10px 4px;font-family:Inter,Arial,sans-serif;background:#fff;width:880px}}
+.axes{{display:grid;grid-template-columns:26px 1.13fr 0.87fr;grid-template-rows:22px 1fr 1fr;gap:0}}
+.ax{{display:flex;align-items:center;justify-content:center;font-size:18.6px;font-weight:700;letter-spacing:2px;color:#5F7078}}
 .axv{{writing-mode:vertical-rl;transform:rotate(180deg)}}
-.grid2{{display:grid;grid-template-columns:1fr 1fr;grid-template-rows:1fr 1fr;gap:14px;grid-column:2/4;grid-row:2/4}}
-.q{{border-radius:8px;border-top:5px solid;padding:14px 18px 10px}}
-.qt{{font-size:15px;font-weight:700;letter-spacing:2.5px;margin-bottom:9px}}
-ul{{margin:0;padding-left:17px}}
-li{{font-size:13.6px;color:#3A4A50;line-height:1.45;margin-bottom:6px}}
+.grid2{{display:grid;grid-template-columns:1.13fr 0.87fr;grid-template-rows:1fr 1fr;gap:7px;grid-column:2/4;grid-row:2/4}}
+.q{{border-radius:8px;border-top:4px solid;padding:6px 11px 4px}}
+.qt{{font-size:20px;font-weight:700;letter-spacing:2px;margin-bottom:2px}}
+ul{{margin:0;padding-left:19px}}
+li{{font-size:18.6px;color:#3A4A50;line-height:1.15;margin-bottom:2px}}
+li:last-child{{margin-bottom:0}}
 b{{color:#12475B}}
 </style></head><body>
 <div class="axes">
@@ -71,11 +72,11 @@ p = f'{HTML}/d01_swot2.html'
 open(p, 'w').write(html)
 png = f'{OUT}/d01_swot.png'
 subprocess.run([CHROME, '--headless', '--no-sandbox', '--disable-gpu', '--hide-scrollbars',
-                f'--screenshot={png}', '--window-size=1120,860', '--force-device-scale-factor=2', f'file://{p}'],
+                f'--screenshot={png}', '--window-size=900,1400', '--force-device-scale-factor=2', f'file://{p}'],
                check=True, capture_output=True)
 from PIL import Image
 im = Image.open(png).convert('RGB')
 g = im.convert('L').point(lambda x: 0 if x > 250 else 255)
 bb = g.getbbox()
-im.crop((0, 0, im.size[0], min(im.size[1], bb[3] + 20))).save(png)
+im.crop((0, 0, im.size[0], min(im.size[1], bb[3] + 8))).save(png)
 print('d01_swot:', Image.open(png).size)
