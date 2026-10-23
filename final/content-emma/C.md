@@ -78,12 +78,12 @@ Quinze avis publics de la fiche Google Planet Aura, sélectionnés et annotés. 
 
 | Avis | Ce qu'il raconte | Quand l'utiliser |
 |---|---|---|
-| Jessica Roberson · nov. 2025 | Des mises à jour à chaque étape, de la prise en charge au dédouanement jusqu'à la livraison finale | Le suivi proactif - objection « colis bloqué », douleur n° 1 du client final |
-| Thomas Klaine · juin 2025 | Prévenu de la forte chaleur, stockage de la caisse offert jusqu'à la baisse des températures | La politique canicule et le départ différé (chap. 04), vécus côté client |
-| Shane Cuevas · déc. 2025 | Aucun frais supplémentaire pour la mise en quarantaine estivale de son envoi | La même politique, angle « zéro surprise » sur les frais |
-| Craig DeWitt · oct. 2023 | Envoi volontairement retardé, après accord, pour éviter la canicule | La preuve que la règle est appliquée, pas seulement déclarée |
-| Lisa · janv. 2026 | « Je recommande à 1000 % » pour une expédition vers le Japon | Les destinations au-delà des USA (Asie premium, chap. 01) |
-| Cheryl Parrino · déc. 2025 | Un emballage soigné, calage et billes de polystyrène décrits spontanément | La qualité d'emballage vue par le destinataire - avec l'objection casse |
+| Client final · nov. 2025 | Des mises à jour à chaque étape, de la prise en charge au dédouanement jusqu'à la livraison finale | Le suivi proactif - objection « colis bloqué », douleur n° 1 du client final |
+| Client final · juin 2025 | Prévenu de la forte chaleur, stockage de la caisse offert jusqu'à la baisse des températures | La politique canicule et le départ différé (chap. 04), vécus côté client |
+| Client final · déc. 2025 | Aucun frais supplémentaire pour la mise en quarantaine estivale de son envoi | La même politique, angle « zéro surprise » sur les frais |
+| Client final · oct. 2023 | Envoi volontairement retardé, après accord, pour éviter la canicule | La preuve que la règle est appliquée, pas seulement déclarée |
+| Client final · janv. 2026 | « Je recommande à 1000 % » pour une expédition vers le Japon | Les destinations au-delà des USA (Asie premium, chap. 01) |
+| Client final · déc. 2025 | Un emballage soigné, calage et billes de polystyrène décrits spontanément | La qualité d'emballage vue par le destinataire - avec l'objection casse |
 
 > **REPÈRE -** Trois règles d'usage : citer mot pour mot, jamais reformuler un avis. Montrer la fiche Google en direct plutôt que d'en parler. Ces avis sont publics - pour une étude de cas nominative détaillée, l'accord écrit du client reste obligatoire (chap. 06).
 

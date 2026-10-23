@@ -1,0 +1,69 @@
+@page { size: A4; margin: 18mm 16mm 20mm 16mm; }
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Inter', Arial, sans-serif; font-size: 9.6pt; line-height: 1.45; color: #14303B; background: #FFFFFF; }
+section { page-break-before: always; }
+section:first-of-type { page-break-before: auto; }
+h1 { font-family: 'Playfair Display', Georgia, serif; font-size: 40pt; line-height: 1.05; color: #FFFFFF; font-weight: 700; }
+h2 { font-family: 'Playfair Display', Georgia, serif; font-size: 19pt; line-height: 1.2; color: #12475B; margin: 2mm 0 4mm; font-weight: 700; }
+h3 { font-family: 'Poppins', Arial, sans-serif; font-size: 11pt; color: #12475B; margin: 6mm 0 3mm; font-weight: 600; }
+p { margin: 0 0 2mm; }
+.ey { font-family: 'Poppins', Arial, sans-serif; font-size: 8.5pt; font-weight: 600; letter-spacing: 2.5px; color: #20768B; margin: 0; }
+.lead { color: #3E5058; margin-bottom: 4mm; }
+
+.cover { background: #12475B; color: #F4F8F9; margin: -18mm -16mm 0; padding: 42mm 20mm 20mm; height: 297mm; position: relative; }
+.cover .ey { color: #9EC5CE; margin-bottom: 8mm; }
+.cover .sub { font-family: 'Playfair Display', Georgia, serif; font-style: italic; font-size: 20pt; color: #9EC5CE; margin: 4mm 0 14mm; }
+.cover .who { font-size: 11pt; color: #D7E5EA; margin-bottom: 18mm; }
+.cbox { background: #0E3846; border-radius: 4mm; padding: 7mm 8mm; color: #D7E5EA; font-size: 10.5pt; }
+.cbox b { color: #F4F8F9; }
+.conf { position: absolute; left: 20mm; bottom: 22mm; font-size: 9pt; color: #E8D3A6; }
+
+.g3, .g4, .g2, .g3c { display: grid; gap: 4mm; margin-bottom: 4mm; }
+.g3 { grid-template-columns: repeat(3, 1fr); }
+.g3c { grid-template-columns: repeat(3, 1fr); align-items: start; }
+.g4 { grid-template-columns: repeat(4, 1fr); }
+.g2 { grid-template-columns: repeat(2, 1fr); align-items: start; }
+.k { background: #EAF0F4; border-radius: 3mm; padding: 4mm; color: #3E5058; }
+.kn { font-family: 'Playfair Display', Georgia, serif; font-size: 22pt; font-weight: 700; color: #12475B; line-height: 1; margin-bottom: 2mm; }
+.m { background: #12475B; color: #D7E5EA; border-radius: 3mm; padding: 4mm; }
+.m b { color: #FFFFFF; }
+.mn { font-family: 'Playfair Display', Georgia, serif; font-size: 18pt; font-weight: 700; color: #E8D3A6; line-height: 1; margin-bottom: 1.5mm; }
+
+.t { width: 100%; border-collapse: collapse; margin-bottom: 4mm; font-size: 9pt; }
+.t th { background: #12475B; color: #FFFFFF; text-align: left; font-weight: 600; padding: 2mm 3mm; }
+.t td { padding: 2mm 3mm; border-bottom: 0.3mm solid #DCE6E9; vertical-align: top; color: #3E5058; }
+.t td b { color: #14303B; }
+.t tr:nth-child(odd) td { background: #F6F8F7; }
+.t td.bn { font-family: 'Poppins', Arial, sans-serif; font-weight: 600; color: #12475B; white-space: nowrap; }
+
+ol.ph { margin: 0 0 4mm 6mm; }
+ol.ph li { font-family: 'Playfair Display', Georgia, serif; font-style: italic; font-size: 10.5pt; color: #12475B; margin-bottom: 1.8mm; padding-left: 1mm; }
+.warn { background: #F6EDF0; border-radius: 3mm; padding: 4mm 5mm; color: #3E5058; margin-top: 3mm; page-break-inside: avoid; }
+.wl { font-family: 'Poppins', Arial, sans-serif; font-size: 8.5pt; font-weight: 600; letter-spacing: 2px; color: #722F45; margin-bottom: 1.5mm; }
+
+.sl { page-break-inside: avoid; border-top: 0.6mm solid #12475B; padding-top: 3mm; margin-bottom: 6mm; }
+.slh { display: flex; align-items: baseline; gap: 3mm; margin-bottom: 2.5mm; }
+.sn { font-family: 'Playfair Display', Georgia, serif; font-size: 16pt; font-weight: 700; color: #12475B; width: 9mm; margin: 0; }
+.st { flex: 1; font-family: 'Poppins', Arial, sans-serif; font-weight: 600; font-size: 10pt; color: #14303B; margin: 0; }
+.stime { font-family: 'Poppins', Arial, sans-serif; font-weight: 600; font-size: 9pt; color: #FFFFFF; background: #2D92A8; border-radius: 2mm; padding: 0.6mm 2.5mm; margin: 0; white-space: nowrap; }
+.slb { display: flex; gap: 5mm; align-items: flex-start; }
+.slb img { width: 62mm; border-radius: 1.5mm; border: 0.3mm solid #DCE6E9; flex: none; }
+.say p { font-size: 9.4pt; margin-bottom: 1.8mm; }
+.say p.cue { color: #8A6A33; font-style: italic; font-size: 8.6pt; }
+
+.qa { page-break-inside: avoid; border: 0.3mm solid #DCE6E9; border-radius: 3mm; padding: 3.5mm 4.5mm; margin-bottom: 4mm; }
+.qh { display: flex; gap: 3mm; align-items: baseline; margin-bottom: 2mm; }
+.qn { font-family: 'Playfair Display', Georgia, serif; font-size: 13pt; font-weight: 700; color: #12475B; margin: 0; min-width: 9mm; }
+.qq { flex: 1; font-weight: 600; color: #14303B; margin: 0; }
+.qp { font-family: 'Poppins', Arial, sans-serif; font-size: 7.5pt; font-weight: 600; border: 0.3mm solid; border-radius: 2mm; padding: 0.3mm 2mm; margin: 0; white-space: nowrap; }
+.qf { display: grid; grid-template-columns: 27mm 1fr; gap: 3mm; margin-bottom: 1.2mm; }
+.ql { font-family: 'Poppins', Arial, sans-serif; font-size: 8pt; font-weight: 600; color: #20768B; margin: 0; padding-top: 0.4mm; }
+.qv { margin: 0; font-size: 9pt; color: #3E5058; }
+
+.ab { background: #F6F8F7; border-radius: 3mm; padding: 4mm 5mm; }
+.abl { font-family: 'Poppins', Arial, sans-serif; font-size: 8.5pt; font-weight: 600; letter-spacing: 2px; margin-bottom: 2mm; }
+.ab ul, .ck ul { margin-left: 4.5mm; }
+.ab li, .ck li { margin-bottom: 1.6mm; color: #3E5058; }
+.concl { background: #12475B; color: #F4F8F9; border-radius: 3mm; padding: 4mm 6mm; font-family: 'Playfair Display', Georgia, serif; font-style: italic; font-size: 11pt; }
+.ck { background: #F6F8F7; border-radius: 3mm; padding: 4mm; }
+.ckl { font-family: 'Poppins', Arial, sans-serif; font-size: 8.5pt; font-weight: 600; letter-spacing: 2px; color: #12475B; margin-bottom: 2mm; }
