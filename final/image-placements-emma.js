@@ -51,7 +51,6 @@ module.exports = {
 };
 
 module.exports['avantpre2'] = [
-  { after: 'certitudes de Floriane', img: 'pics/bitmoji_trio.png', w: 175, caption: '' },
   { after: 'Mot d’accueil|Mot d.accueil', img: 'pics/bitmoji_duo.png', w: 150, caption: '' },
 ];
 // Annexe A - fiches ICP & personas : composées nativement (fiches-emma.js), plus d'images
