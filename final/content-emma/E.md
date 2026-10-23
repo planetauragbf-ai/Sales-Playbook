@@ -94,7 +94,7 @@ Hi [First name],
 
 International visitors love your shop - then buy only what fits in a suitcase.
 
-Planet Aura ships wine & Champagne door-to-door worldwide for French wine shops: customer pays shipping by card at your counter, we handle pickup, certified packaging, customs and prepaid duties (DDP) - including consolidated shipping to the USA (up to 36 bottles per shipment). Insurance included up to €20,000 per shipment. No subscription, no minimum.
+Planet Aura ships wine & Champagne door-to-door worldwide for French wine shops: customer pays shipping by card at your counter, we handle pickup, certified packaging, customs and prepaid duties (DDP) - including consolidated shipping to the USA (up to 36 bottles per shipment). Optional insurance up to €20,000 per shipment. No subscription, no minimum.
 
 20 minutes this week to show you the live simulator?
 

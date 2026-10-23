@@ -63,15 +63,17 @@ Les rituels d'équipe (détail au chap. 15) s'appliquent dès l'arrivée, avec u
 
 ## La feuille de route commerciale budgétée (sept. 2026 → 2027)
 
-Le cadre d'équipe dans lequel s'inscrit cette montée en charge - cinq chantiers, un plafond de 3 000 €, un critère de passage par chantier (synthèse et pilotage au chap. 17) :
+Le cadre d'équipe dans lequel s'inscrit cette montée en charge - six chantiers budgétés, un plafond de 3 000 €, un critère de passage par chantier (synthèse et pilotage au chap. 17) :
 
 | Période | Chantier | Responsable | Temps | Budget | Critère de passage |
 |---|---|---|---|---|---|
 | S1-S2 (sept. 2026) | Nettoyage CRM, listes A/B/C, champs obligatoires | Emma + Adam | 24 h | 0 € | ≥ 95 % des comptes prioritaires exploitables |
-| M1 (oct.) | Landing page, one-pager par ICP, vidéo démo, FAQ preuves/risques | Emma + Adam | 36 h | 600 € | Supports validés par la direction |
+| M1 (oct.) | Landing page, one-pager par ICP, FAQ preuves/risques | Emma + Adam | 36 h | 600 € | Supports validés par la direction |
 | M2 (nov.) | 3 séquences Brevo, listes repoussoir, reporting HubSpot | Emma | 20 h | 200 € | Arrêt automatique sur réponse testé |
+| M2-M8 (nov. → mai) | Tests LinkedIn sur 3 clusters | Adam | 3 h/sem | 900 € | Coût par SQL comparé à l'outbound |
+| M4 (janv. 2027) | Webinaire export : coût rendu, conformité, preuve responsable | Emma + expert | 20 h | 300 € | 10 inscrits ICP et 3 diagnostics |
 | M4-M10 | Deux salons en visiteur, RDV prébookés, suivi sous 48 h | Adam + Emma | 24 h | 1 000 € | 8 RDV qualifiés par événement |
-| Après validation | Pilote VELA : dossier, calcul rendu, FAQ carbone, plan de secteurs | Direction | - | - | Validations préalables obtenues |
+| Après validation | Vidéo démo, études de cas autorisées ; pilote VELA (dossier, calcul rendu, FAQ carbone) | Emma · Direction | - | - | Accords écrits et validations préalables obtenus |
 
 > 📌 **À RETENIR -** Trois mois, trois paliers : certifié à J+30, autonome à J+60, pilote à J+90 - ce qui se négocie, c'est l'ordre des blocs, jamais leur existence. Bloc téléphone 10 h-12 h sanctuarisé, CRM à jour chaque soir, un premier envoi réel par adhérent signé : le contrat minimal d'activité.
 

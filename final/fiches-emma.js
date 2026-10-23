@@ -172,7 +172,7 @@ module.exports = {
         "bullets": [
           "« Le certificat CIVC, on le gère pour vous à chaque envoi : 15 € HT. Plus jamais un colis immobilisé. »",
           "« Groupage USA en DDP : votre client de Dallas commande 36 bouteilles, tout est prépayé, notre équipe US supervise le last-mile. »",
-          "« Assurance incluse jusqu'à 20 000 € par envoi, emballages ISTA 3A. »",
+          "« Assurance en option jusqu'à 20 000 € par envoi, emballages ISTA 3A. »",
           "« Service Gant Blanc pour les maisons structurées » (au conditionnel)"
         ]
       },
@@ -207,7 +207,7 @@ module.exports = {
       },
       {
         "objection": "« Le POA avec SSN va effrayer mes clients »",
-        "reponse": "Exigence de la douane US au-delà de 2 100 $ ; formulaire court, email automatique ; fractionner évite le seuil",
+        "reponse": "Exigence de la douane US au-delà de 2 100 $ ; formulaire court, email automatique ; on prépare le client, jamais on ne contourne",
         "ref": "O-22"
       },
       {
@@ -447,7 +447,7 @@ module.exports = {
   "ICP 5": {
     "badge": "ICP",
     "title": "Distillerie et producteur de spiritueux",
-    "subtitle": "Nouveau segment 2026 · ~5 % de l'effort · whisky, gin, cognac, armagnac, calvados, marc et fine",
+    "subtitle": "Nouveau segment 2026 · test hors répartition de l'effort · whisky, gin, cognac, armagnac, calvados, marc et fine",
     "quoteLabel": "CE QU'ON ENTEND SUR LE TERRAIN",
     "quote": "« Trois prestataires m'ont dit non pour les États-Unis. Je vends à des Américains qui repartent sans rien. »",
     "portrait": [
@@ -501,7 +501,7 @@ module.exports = {
         "bullets": [
           "« Depuis 2026, on expédie les spiritueux B2C aux USA en groupage DDP. Presque personne ne sait le faire. »",
           "« Cadre posé d'emblée : 6 litres par personne, ~21 jours, taxes 10,3 % + 3 €/bouteille, tout prépayé. »",
-          "« Assurance incluse, emballages homologués, filiale US licenciée TTB. »"
+          "« Assurance en option, emballages homologués, filiale US licenciée TTB. »"
         ]
       },
       {

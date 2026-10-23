@@ -93,7 +93,7 @@ Lisez ce playbook, annotez-le, revenez-y. Mais souvenez-vous qu'aucun guide ne r
 
 Pendant que les tarifs douaniers font la une - les exportations françaises de vins et spiritueux vers les États-Unis ont chuté de 21 % en 2025, sous l'effet de droits de douane allant jusqu'à 15 % (FEVS, bilan export 2025) -, 5,4 millions de visiteurs étrangers parcourent chaque année les vignobles français. Ils posent tous cette question au comptoir. La plupart repartent avec deux bouteilles au lieu de douze.
 
-Chez Planet Aura, cette question a une réponse : 6 643 expéditions en douze mois, 64,5 % vers les États-Unis, taxes payées d'avance, colis assuré. Ce playbook explique comment la vendre, à qui, avec quelles preuves. Plus les règles se durcissent, plus un spécialiste qui les maîtrise devient précieux.
+Chez Planet Aura, cette question a une réponse : 6 643 expéditions en douze mois, 64,5 % vers les États-Unis, taxes payées d'avance, assurance proposée à chaque envoi. Ce playbook explique comment la vendre, à qui, avec quelles preuves. Plus les règles se durcissent, plus un spécialiste qui les maîtrise devient précieux.
 
 ```stats
 −21 %|Chute des exports français de vins et spiritueux vers les USA en 2025 (FEVS)
@@ -149,7 +149,7 @@ La montée en puissance est balisée sur trois mois - la règle : **on observe a
 
 | Jalon | Palier | Preuves attendues |
 |---|---|---|
-| **J+30** | Certifié | Offre, ICP, CRM, conformité, 1 shadow call, les 26 objections sues |
+| **J+30** | Certifié | Offre, ICP, CRM, conformité, 1 shadow call, les 26 objections connues (le top 5 mot pour mot) |
 | **J+60** | Autonome | 5 diagnostics observés, 3 propositions sans écart, 1 RDV obtenu seul |
 | **J+90** | Pilote son activité | Pipeline propre, analyse win/loss, 1 proposition d'amélioration du playbook |
 

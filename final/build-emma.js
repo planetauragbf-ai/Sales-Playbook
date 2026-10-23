@@ -1092,7 +1092,7 @@ function tocChildren() {
     sw(PBLEU), new TextRun({ text: 'Annexes', size: 16, color: INK }),
   ]));
   paras.push(lgLine([new TextRun({ text: 'L’onglet de bordure, les titres, les tableaux et les encadrés de repère de chaque chapitre suivent la couleur de sa partie.', size: 15, color: GRAY })]));
-  paras.push(lgLine([new TextRun({ text: '\u25cf  ', bold: true, size: 15, color: DEEP_OF[TEAL] }), new TextRun({ text: 'Le socle : six chapitres et la fiche r\u00e9flexe (annexe B) \u00e0 ma\u00eetriser avant J+30 (certification en annexe S) - le reste se consulte quand le cas se pr\u00e9sente.', size: 15, color: GRAY })]));
+  paras.push(lgLine([new TextRun({ text: '\u25cf  ', bold: true, size: 15, color: DEEP_OF[TEAL] }), new TextRun({ text: 'Le socle : six chapitres et la fiche r\u00e9flexe (annexe B) \u00e0 ma\u00eetriser avant J+30 (certification en annexe U) - le reste se consulte quand le cas se pr\u00e9sente.', size: 15, color: GRAY })]));
   paras.push(lgTitle('LES ENCADRÉS'));
   paras.push(lgLine([sw(TEAL), new TextRun({ text: 'REPÈRE', bold: true, size: 15, color: DEEP_OF[TEAL] }), new TextRun({ text: ' - contexte et points d’appui (teinte de la partie)', size: 15, color: GRAY })]));
   paras.push(lgLine([sw(ORANGE), new TextRun({ text: 'LE CONSEIL / LE POINT DE VIGILANCE', bold: true, size: 15, color: ORANGE }), new TextRun({ text: ' - bonnes pratiques et pièges', size: 15, color: GRAY })]));
@@ -1103,7 +1103,7 @@ function tocChildren() {
   paras.push(lgLine([
     new TextRun({ text: 'Les termes comme ', size: 15, color: GRAY }),
     new TextRun({ text: 'adhérent', size: 15, color: DEEP_OF[TEAL], underline: { type: UnderlineType.DOTTED, color: DEEP_OF[TEAL] } }),
-    new TextRun({ text: ' renvoient à leur définition au glossaire (annexe T) - à leur première apparition dans chaque chapitre, cliquables en version numérique. Toutes les entrées de ce sommaire et des sous-sommaires « DANS CE CHAPITRE » sont également cliquables.', size: 15, color: GRAY }),
+    new TextRun({ text: ' renvoient à leur définition au glossaire (annexe V) - à leur première apparition dans chaque chapitre, cliquables en version numérique. Toutes les entrées de ce sommaire et des sous-sommaires « DANS CE CHAPITRE » sont également cliquables.', size: 15, color: GRAY }),
   ]));
   return paras;
 }
