@@ -145,7 +145,7 @@ H.append('''<section><p class="ey">1 · L’ESSENTIEL EN UNE PAGE</p><h2>Vingt m
 <li>« 24 bouteilles, 360 euros de transport, les taxes estimées et payées d’avance, livrées en trois semaines environ. Ils repartent les mains libres. »</li>
 </ol>
 <div class="warn"><p class="wl">CE QUE JE NE DIS JAMAIS</p>
-<p>Un nom de client ou un CA par client (top 10 anonymisé) · la part du CA faite par les comptes A · « assurance incluse » ou « risque zéro » (option à 3 %, souscrite sur 89,8 % des envois) · « transporteur » (commissionnaire de transport) · « 145 adhérents actifs » (signés) · un objectif présenté comme un résultat · VELA, Gant Blanc, Planet’Stock, entrepôt agréé ou annexe Champagne au présent · « j’ai interviewé 70 clients » (échanges écrits réels, entretiens prévus au T1 2027) · une baisse des droits US comme acquise · un taux de marge · « premier », « unique », « exclusif ».</p></div>
+<p>Un nom de client ou un CA par client (top 10 anonymisé) · la part du CA faite par les comptes A · « assurance incluse » ou « risque zéro » (option à 3 %, souscrite sur 89,8 % des envois) · « transporteur » (commissionnaire de transport) · « 145 adhérents actifs » (signés) · un objectif présenté comme un résultat · VELA, Gant Blanc, Planet’Stock, entrepôt agréé ou annexe Champagne au présent · « j’ai interviewé 70 clients » (échanges écrits réels, entretiens prévus au T1 2027) · une baisse des droits US comme acquise · « 207 € par visiteur » (c’est par réservation, 2,9 adultes en moyenne) · un taux de marge · « premier », « unique », « exclusif ».</p></div>
 </section>''')
 
 GRID = [
@@ -191,7 +191,7 @@ H.append('''<section><p class="ey">7 · LES CHECK-LISTS</p><h2>Préparer, vérif
 <li>Télécharger le deck en PDF et en PPTX (menu de l’artefact) ; tester le mode présentateur.</li>
 </ul></div>
 <div class="ck"><p class="ckl">LA VEILLE</p><ul>
-<li>Vérifier que les droits de douane US sont toujours à 15 % ; sinon, adapter les diapos 4 et B7.</li>
+<li>Vérifier que les droits de douane US sont toujours à 15 % (la Cour suprême a fragilisé leur base légale en février 2026) ; sinon, adapter les diapos 4 et B7.</li>
 <li>Noter le statut réel des chantiers de septembre et d’octobre (fait, en cours, décalé).</li>
 <li>Savoir si la version de novembre est sortie selon la date du jury.</li>
 <li>Copier le deck sur une clé USB et l’envoyer par email à soi-même.</li>

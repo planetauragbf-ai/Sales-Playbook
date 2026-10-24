@@ -507,7 +507,7 @@ module.exports = {
       {
         "heading": "Preuves qui font mouche",
         "bullets": [
-          "Grille spiritueux 2026 (annexe A.6) et carte des États spiritueux",
+          "Grille spiritueux 2026 (annexe F) et carte des États spiritueux",
           "Exemple chiffré : 6 btls à 400 € ≈ 256 € tout compris",
           "Licences TTB importateur et grossiste de Planet Aura Inc."
         ]
@@ -524,7 +524,7 @@ module.exports = {
       {
         "objection": "« On peut expédier mon gin partout ? »",
         "reponse": "Spiritueux = USA uniquement, cadre 2026 ; autres destinations au cas par cas",
-        "ref": "D-8"
+        "ref": "O-20"
       },
       {
         "objection": "« 6 litres, c'est peu »",
@@ -540,14 +540,14 @@ module.exports = {
     "bottom": [
       {
         "heading": "Solution recommandée",
-        "text": "Spiritueux USA groupage DDP (annexe A.6) + cartons homologués + POA automatisé ; pour un domaine viticole : cross-sell naturel sur les marcs et fines."
+        "text": "Spiritueux USA groupage DDP (annexe F) + cartons homologués + POA automatisé ; pour un domaine viticole : cross-sell naturel sur les marcs et fines."
       },
       {
         "heading": "Adéquation et priorité",
         "text": "P1 si la distillerie reçoit déjà des demandes américaines ; P2 sinon (éducation). Red flag : attente d'une couverture mondiale immédiate pour les spiritueux."
       }
     ],
-    "aretenir": "Une offre quasi unique sur le marché, vendue avec son cadre exact dès la première phrase : c'est la transparence qui crée la confiance sur un produit sensible. Chap. 04, 06 ; annexes A.6 et D."
+    "aretenir": "Une offre quasi unique sur le marché, vendue avec son cadre exact dès la première phrase : c'est la transparence qui crée la confiance sur un produit sensible. Chap. 04, 06 ; annexes F et D."
   },
   "Persona A": {
     "badge": "PERSONA A",
@@ -1054,7 +1054,7 @@ module.exports = {
       },
       {
         "objection": "« What if it breaks? »",
-        "reponse": "Insured: replacement or refund; report within 48 h with photos",
+        "reponse": "With the insurance option (3 %): replacement or refund; report within 48 h with photos",
         "ref": "Q4"
       },
       {
@@ -1073,6 +1073,6 @@ module.exports = {
         "text": "Payeur du transport, destinataire, parfois signataire du POA. Son expérience fait la réputation de l'adhérent et donc la nôtre : le SAV en anglais et le DDP sont pour lui."
       }
     ],
-    "aretenir": "Le client final n'est pas notre client, mais tout le service est conçu pour lui : prépayé, assuré, livré, expliqué en anglais. Ses cinq questions et leurs réponses sont la fiche réflexe du comptoir. Chap. 07, 16 ; annexe C."
+    "aretenir": "Le client final n'est pas notre client, mais tout le service est conçu pour lui : prépayé, assurable, livré, expliqué en anglais. Ses cinq questions et leurs réponses sont la fiche réflexe du comptoir. Chap. 07, 16 ; annexe B."
   }
 };

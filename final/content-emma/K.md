@@ -13,7 +13,7 @@
 ## Le cadre commun à toutes les destinations
 
 - **Produits admis (grille standard)** : vins et champagnes ≤ **21°** (hors envois France), destinés à la **consommation personnelle de particuliers**. Spiritueux : uniquement via la solution USA dédiée (2026). B2B : sur étude.
-- **CRD obligatoire** : les bouteilles portent la capsule représentative de droits. Un domaine qui vend en CRD au caveau est prêt, les sorties en droits suspendus relèvent d'un autre circuit - ne pas improviser.
+- **CRD exigée** : les bouteilles portent la capsule représentative de droits. Un domaine qui vend en CRD au caveau est prêt, les sorties en droits suspendus relèvent d'un autre circuit - ne pas improviser.
 - **Incoterms** : **DDP** par défaut (taxes calculées sur Planet'Connect et réglées d'avance à la commande, frais de dossier 17 €), **DAP** quand la loi locale l'impose (Australie, Canada, Jersey, USA direct) ou en valeur élevée - préparer alors le client à recevoir la demande de paiement du transporteur. Clause à connaître (CGS art. 5) : Planet Aura peut changer d'incoterm ou réviser taxes et frais selon les évolutions réglementaires, douanières ou géopolitiques - le client est informé lorsque nécessaire, sans responsabilité PA ni exonération de paiement.
 - **Départs et couverture** : départs de France métropolitaine, DOM en DAP uniquement, tarifs HT, délais hors douane 7-8 j, îles européennes, Malte et Corse sur grilles spécifiques (surcoûts insulaires - annexe F). Destination absente de la grille : recherche sur demande - ne jamais dire non, ne jamais promettre.
 - **Documents gérés par Planet Aura** : document d'accompagnement (DA) amendé des mentions nécessaires, formalités EMCS/DAU le cas échéant, déclarations export/import, justificatifs d'exportation remis à l'adhérent (utiles pour sa comptabilité et sa TVA).
@@ -52,7 +52,7 @@ Règle : **ne jamais confondre une demande de prix et un dossier export qualifi�
 
 ## Canada - la fiche pays encadrée
 
-Le formulaire POA officiel vierge (6 pages) est reproduit en annexe M.
+La page à compléter du formulaire POA officiel vierge est reproduite en annexe M (le dossier FedEx complet de 6 pages est fourni par l'exploitation au premier envoi).
 
 - **DAP uniquement**, quatre provinces desservies : **Alberta, Colombie-Britannique, Ontario, Québec** (grilles en annexe F).
 - Quota : **45 L par personne sur 90 jours**.

@@ -28,19 +28,19 @@ Trois ajustements intégrés aux fiches et au chap. 07, et un angle mort identif
 
 ## Le volet enquêtes : 47 réponses de clients et prospects
 
-Trois enquêtes menées par Planet Aura apportent la validation qualitative directe des besoins - des réponses écrites par les clients eux-mêmes, pas des suppositions :
+Trois enquêtes menées par Planet Aura apportent la validation qualitative directe des besoins - des réponses écrites par les clients et prospects eux-mêmes, pas des suppositions (questionnaires, fiches techniques et résultats agrégés en annexe Y) :
 
 | Enquête | Réponses | Ce qu'elle établit |
 |---|---|---|
-| Satisfaction 2024 (janv.-févr. 2025) | 23 clients | Note globale **4,65/5** (aucune note sous 4), recommandation **4,87/5**, 100 % jugent l'équipe professionnelle et courtoise, 95 % satisfaits du SAV. Dits par les clients : suivi colis à préciser, délais USA, prix perçu « moyennement compétitif » par 43 % |
-| Transport écologique - clients (2025) | 20 clients | Qualité « excellente » 80 %, « bonne » 20 %. Forces citées : réactivité (75 %), qualité de service (70 %), accompagnement (65 %). À améliorer : suivi (35 %), tarification (35 %). 60 % intéressés par l'offre voilier, 60 % prêts à mutualiser |
-| Voilier-cargo - prospects (2025) | 4 prospects | 100 % intéressés, 75 % acceptent un surcoût jusqu'à +10 %, 100 % y voient une offre « plusieurs fois par an » (série limitée), 75 % un argument commercial clair |
+| Satisfaction 2024 (janv.-févr. 2025) | 23 clients | Note globale **4,65/5** (aucune note sous 4), recommandation **4,87/5**, 100 % jugent l'équipe professionnelle et courtoise, 21 utilisateurs du SAV sur 22 satisfaits (95 %). Dits par les clients : suivi colis à préciser, délais USA, prix perçu « moyennement compétitif » par 43 % (10 sur 23) et « compétitif » ou « très compétitif » par autant |
+| Transport écologique - clients (mars-juin 2025) | 20 clients | Qualité « excellente » 80 %, « bonne » 20 %. Forces citées : réactivité (75 %), qualité de service (70 %), accompagnement (65 %). À améliorer : suivi (35 %), tarification (35 %). 60 % intéressés par l'offre voilier, 60 % prêts à mutualiser |
+| Voilier-cargo - prospects (mars-juin 2025) | 4 prospects | 4 sur 4 intéressés, 3 sur 4 acceptent un surcoût jusqu'à +10 % (1 aucun), 4 sur 4 envisagent un usage « plusieurs fois par an » (série limitée), 3 sur 4 y voient un argument commercial clair - échantillon indicatif |
 
 Ce que les enquêtes valident, persona par persona : pour **A**, la gestion douanes et taxes US comme « gros point fort » (Cave Henri IV) et la réactivité sur les casses (Vignobles Jade) ; pour **B**, le simulateur au comptoir - « pour informer en direct nos clients » (La Cavale, Domaine de Marie) - et les mails qui rassurent les visiteurs (Famille Gonnet) ; pour **C**, l'export comme relais de croissance : « **30 % de commandes en plus par rapport à 2023** » (La Maison du Vouvray, caviste) ; pour **D**, l'ouverture de marchés (« Corée & Taïwan » - Clos Fleurus), l'intégration aux logiciels (Wineriz - Domaine la Barroche) et le groupage dégressif (Dalmeran) ; pour **E**, la réassurance - « les clients USA s'inquiètent très souvent de savoir où est leur colis » (Famille Gonnet) - et le prix tout compris - « le client ne comprend pas les suppléments » (La Barroche). Limites assumées : une casse non résolue signalée (relancée au SAV) et le prix perçu, traité à l'objection O-1 (chap. 13).
 
-## Les entretiens de validation : la voix réelle de chaque persona
+## Synthèse des échanges écrits 2024-2026 : la voix réelle de chaque persona
 
-Synthèses consolidées à partir des échanges réels 2024-2026 (fils email, demandes de devis, SAV, formations) et des avis publics - un portrait par persona, dans les mots des intéressés.
+Synthèses consolidées à partir des échanges écrits réels 2024-2026 (fils email, demandes de devis, SAV, formations) et des avis publics - un portrait par persona, dans les mots des intéressés. Aucun entretien formel n'a encore été mené pour valider les personas : des entretiens dédiés sont prévus au T1 2027 (chap. 18 ; méthode en annexe Y).
 
 **A · Le vigneron-propriétaire.** Il négocie lui-même, suit lui-même, et confie progressivement : un dirigeant de maison champenoise résume « 90 % de nos flux USA passent par Planet Aura - commandes, transport, douane, assurance, paperasse ». Ses demandes réelles : débloquer un DAE avec les douanes, décaler une livraison pour son client, éviter le statut d'expéditeur certifié. Sa fidélité s'exprime publiquement : « Excellentes relations depuis le tout début de notre collaboration en juin 2019 » (Maison du Vouvray).
 

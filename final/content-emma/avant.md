@@ -45,7 +45,7 @@ Enfin, je n’oublie pas mes camarades du Mastère Marketing & Digital Business 
 
 Pour finir, mes pensées vont à ma famille pour son soutien constant tout au long de mon parcours. Une pensée toute particulière pour mes grands-parents et ma mère, qui m’ont toujours encouragée, accompagnée et poussée à croire en mes projets et, également à Hugo, mon compagnon, pour sa patience dans mes périodes de doute.
 
-**Méthode et outils.** La mise en page de ce document a été assistée par une IA (Claude, Anthropic), créditée conformément au cahier des charges : maquette et pagination, sommaire interactif, ponts de navigation entre les pages (retours au sommaire, renvois cliquables vers les annexes et le glossaire), schémas dessinés dans la charte graphique et contrôles de mise en forme. Le fond - analyses, argumentaires, chiffres et procédures - est issu de la documentation officielle 2026, des dashboards Planet'Connect et du travail de l'équipe, vérifié et validé humainement. Le périmètre détaillé et les principaux prompts sont présentés en annexe X.
+**Méthode et outils.** La mise en page de ce document a été assistée par une IA (Claude, Anthropic), créditée conformément au cahier des charges : maquette et pagination, sommaire interactif, ponts de navigation entre les pages (retours au sommaire, renvois cliquables vers les annexes et le glossaire), schémas dessinés dans la charte graphique et contrôles de mise en forme. Le fond - analyses, argumentaires, chiffres et procédures - est issu de la documentation 2026, des dashboards Planet'Connect, des enquêtes (annexe Y) et du travail de l'équipe, vérifié et validé humainement. Le périmètre détaillé et les principaux prompts sont présentés en annexe X.
 
 ## Confidentialité
 
@@ -91,14 +91,14 @@ Lisez ce playbook, annotez-le, revenez-y. Mais souvenez-vous qu'aucun guide ne r
 
 > « Et comment je fais pour le rapporter chez moi ? »
 
-Pendant que les tarifs douaniers font la une - les exportations françaises de vins et spiritueux vers les États-Unis ont chuté de 21 % en 2025, sous l'effet de droits de douane allant jusqu'à 15 % (FEVS, bilan export 2025) -, 5,4 millions de visiteurs étrangers parcourent chaque année les vignobles français. Ils posent tous cette question au comptoir. La plupart repartent avec deux bouteilles au lieu de douze.
+Pendant que les tarifs douaniers font la une - les exports français de vins et spiritueux vers les USA ont chuté de 21 % en 2025 (droits d'avril, 15 % depuis août, et dollar faible : FEVS, bilan 2025 ; CP du 01/08/2025) -, 5,4 millions de visiteurs étrangers ont parcouru nos vignobles en 2023 (Atout France). Ils posent tous cette question au comptoir. La plupart repartent avec deux bouteilles au lieu de douze.
 
 Chez Planet Aura, cette question a une réponse : 6 643 expéditions en douze mois, 64,5 % vers les États-Unis, taxes payées d'avance, assurance proposée à chaque envoi. Ce playbook explique comment la vendre, à qui, avec quelles preuves. Plus les règles se durcissent, plus un spécialiste qui les maîtrise devient précieux.
 
 ```stats
 −21 %|Chute des exports français de vins et spiritueux vers les USA en 2025 (FEVS)
-12 M|Œnotouristes par an en France, dont 5,4 M d'étrangers
-207 €|De retombées par visite, dont 60 % en achats de vin
+12 M|Œnotouristes en France en 2023, dont 5,4 M d'étrangers (Atout France)
+207 €|Par réservation (2,9 adultes), dont 60 % en vin (Winalist, données 2025)
 36 btls|Livrables par personne et par envoi aux USA, tout prépayé
 ```
 

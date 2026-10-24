@@ -121,3 +121,9 @@ module.exports['P'] = [
   { after: '^Couverture et sommaire', img: 'annexes/manuel-cover.png', w: 330, caption: '' },
   { after: '^Couverture et sommaire', img: 'annexes/manuel-sommaire.png', w: 330, caption: 'Manuel utilisateur 2026 - couverture et sommaire (9 sections)' },
 ];
+
+// Annexe Y - sources de la recherche : captures datées des tableaux de bord (sans donnée nominative)
+module.exports['Y'] = [
+  { after: '^Assurance ad valorem souscrite', img: 'pics/dash_assurance.png', w: 260, caption: 'Assurance ad valorem souscrite sur 12 mois glissants : 89,8 % des expéditions (dashboard Planet\u2019Connect, 24/09/2026)' },
+  { after: '^CA, shippings et bouteilles', img: 'pics/dash_ca_graph.png', w: 470, caption: 'CA, shippings et bouteilles par mois, janvier-septembre 2026 (dashboard gestion Planet\u2019Connect, 24/09/2026)' },
+];

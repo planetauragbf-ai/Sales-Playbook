@@ -53,7 +53,7 @@
 | **CIVC** | Comité Champagne, qui délivre le certificat d'origine obligatoire hors UE |
 | **Claim** | Réclamation déposée auprès d'un transporteur après casse, perte ou retard. Gérée par nous, jamais par l'adhérent |
 | **Colisage** | Répartition des bouteilles par carton (1, 2, 3, 6 ou 12) |
-| **CRD** | Capsule représentative de droits, obligatoire sur les bouteilles expédiées |
+| **CRD** | Capsule représentative de droits : preuve que les droits sont acquittés, exigée par Planet Aura sur les bouteilles expédiées |
 | **Cut-off** | Heure limite de prise en charge d'un colis pour qu'il parte le jour même |
 | **DA / EMCS / DAU** | Documents de circulation et de douane des produits sous accises, édités et gérés par Planet Aura. DA amendé : complété par Planet Aura pour le transport |
 | **DDP / DAP** | Incoterms : taxes payées d'avance par le client (DDP) ou à l'arrivée par le destinataire (DAP) |
@@ -87,7 +87,7 @@
 | **Interprofession** | Organisme qui réunit producteurs et négociants d'une appellation (CIVC, CIVP, Inter Rhône…) |
 | **Mhl** | Million d'hectolitres, soit ~133 millions de bouteilles de 75 cl |
 | **Neutralité modale** | Choisir le mode de transport (aérien, maritime, voile) selon l'usage du client, sans en imposer un |
-| **Œnotourisme** | Tourisme lié à la découverte des vignobles : 207 € de retombées par visite, dont 60 % en achats de vin (Winalist, 2026) |
+| **Œnotourisme** | Tourisme lié à la découverte des vignobles : 207 € de retombées par réservation (groupe moyen de 2,9 adultes), dont 60 % d'achat de vin (Winalist, données 2025) |
 | **PESTEL** | Grille d'analyse d'un marché : Politique, Économique, Socioculturel, Technologique, Environnemental, Légal |
 | **Premiumisation** | Montée en gamme : moins de bouteilles vendues, mais à plus forte valeur unitaire |
 | **Quadrant** | L'une des quatre cases d'une matrice à deux axes |
