@@ -3,13 +3,15 @@ import os, re, json, html, base64, io
 from PIL import Image
 
 ORAL = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
-SL = os.path.join(ORAL, 'deck', 'project', 'slides')
+DECK = os.environ.get('DECK_DIR', 'deck')
+RENDU = os.environ.get('RENDU_DIR', 'rendu')
+SL = os.path.join(ORAL, DECK, 'project', 'slides')
 OUT = os.path.join(ORAL, 'guide')
-deck = json.load(open(os.path.join(ORAL, 'deck', 'project', 'deck.json')))
+deck = json.load(open(os.path.join(ORAL, DECK, 'project', 'deck.json')))
 E = html.escape
 
 def thumb(sid, w=560):
-    im = Image.open(os.path.join(ORAL, 'rendu', f'{sid}.png')).convert('RGB')
+    im = Image.open(os.path.join(ORAL, RENDU, f'{sid}.png')).convert('RGB')
     im = im.resize((w, int(w * 1080 / 1920)), Image.LANCZOS)
     b = io.BytesIO(); im.save(b, 'JPEG', quality=82)
     return 'data:image/jpeg;base64,' + base64.b64encode(b.getvalue()).decode()
@@ -25,35 +27,11 @@ def slide_info(sid):
     aside = aside[m.end():] if m else aside
     return title, timing, aside
 
-TITLES = {'cover': 'Couverture', 'accroche': 'Accroche : le couple de Houston', 'sommaire': 'Sommaire'}
+TITLES = {'cover': 'Couverture', 'accroche': 'Accroche : le couple de Houston', 'sommaire': 'Sommaire', 'cloture': 'Clôture : retour au caveau'}
 
 # ---------- banque de questions : mise à jour après les corrections du dossier ----------
 J = open(os.path.join(ORAL, 'jury.md')).read()
-FIX = [
- ("- Diapo de secours : Diapo 13. Pas de B dédiée : mémoriser la ligne Champagne de l'annexe E.", "- Diapo de secours : Diapo 13, puis B4 (version Champagne). À connaître :"),
- ("Diapo 9 en version anonymisée (wine tours provençaux, cave touristique d'Amboise, maison de champagne, caves parisiennes), puis B2.", "Diapo 9 (top 10 anonymisé), puis B2."),
- ("Faille à corriger avant l'oral : le chap. 06 répartit l'effort 60/15/10/10/5 (100 %, distilleries sans part), les fiches de l'annexe A affichent 60/15/10/15/5 (105 %, ICP 4 = œnotourisme ~10 % + salons ~5 %). Choisir une version qui totalise 100 % (par exemple ICP 4 à ~10 %), l'appliquer à la diapo 9 et savoir l'expliquer.",
-  "Répartition de l'effort à savoir expliquer : 60 % domaines avec caveau, 15 % Champagne, 10 % cavistes, 15 % œnotourisme et salons ; les distilleries sont en test, hors répartition (dossier corrigé en ce sens)."),
- ("- Diapo de secours : Diapo 15, puis B4.", "- Diapo de secours : Diapo 15 (feuille de route complète)."),
- ("- Piège : Le dossier se contredit : M1 = octobre (chap. 17, annexe U, chap. 10) mais novembre 2026 (chap. 14) ; le tableau de l'annexe U ne totalise que 1 800 € (LinkedIn et webinaire absents) ; le critère du one-pager au chap. 14 (≥ 95 % des comptes exploitables) est en fait celui du nettoyage CRM. Une seule version sur la diapo 15 et B4.",
-  "- Piège : Le calendrier est désormais unique (chap. 14, 17 et annexe U alignés) : savoir le dérouler sans notes."),
- ("80 % du temps sur les tiers A/B, comptes A = 76 % du CA : content-emma/06.md.", "80 % du temps sur les tiers A/B : content-emma/06.md."),
- ("- Diapo de secours : Aucune : ne jamais projeter de donnée de marge. Au besoin, la ligne « Marge contributive » de B6.", "- Diapo de secours : Aucune : ne jamais projeter de donnée de marge."),
- ("- Diapo de secours : Diapo 4, puis B6 (ligne « Part USA »).", "- Diapo de secours : Diapo 4, puis diapo 17 (64,5 %, suivi trimestriel)."),
- ("- Diapo de secours : Diapo 16 (onboarding 30-60-90), B4 si la question glisse sur la charge.", "- Diapo de secours : Diapo 16 (onboarding 30-60-90), diapo 15 si la question glisse sur la charge."),
- ("Contradiction interne : chap. 15 et avant-propos exigent « les 26 objections sues » à J+30 ; dire « les 26 connues, les 5 premières mot pour mot ».", "Dire « les 26 connues, les 5 premières mot pour mot » (formulation désormais identique au chap. 15 et dans l'avant-propos)."),
- ("Donner un chiffre unique : le résumé exécutif dit « 4-6 semaines » quand le chap. 11 donne trois cycles ; le présenter comme un ordre de grandeur.", "Donner un chiffre unique : il y a trois cycles (chap. 11), le résumé exécutif renvoie désormais à ce détail."),
- ("Le chap. 06 dit « Nurture en dessous de 55 » quand le chap. 11 distingue nurture 35-54 et disqualification sous 35 : retenir le chap. 11, qui fait foi.", "Seuils : nurture de 35 à 54, disqualification ou veille sous 35 (chap. 06 et 11 alignés)."),
- ("et un effort limité à environ 5 %. Il sera réévalué après 90 jours de CRM.", "et un statut de test, hors de la répartition de l'effort. Il sera réévalué après 90 jours de CRM."),
- ("Fiche ICP 5 « ~5 % de l'effort » : fiches-emma.js.", "Fiche ICP 5 « test hors répartition de l'effort » : annexe A."),
- (" Rappel : ces 5 % font passer le total des fiches ICP à 105 % (voir la question ICP).", ""),
- ("Dire « assurance incluse » (le pitch de 2 minutes du chap. 13 le dit encore).", "Dire « assurance incluse » : c'est une option à 3 %."),
- ("Dire « risque zéro » ou « assurance incluse » : le chap. 13 contient encore « Vous ne risquez rien » et « Risque zéro : Assurance incluse » dans le pitch de 2 minutes, ne pas les reprendre.", "Dire « risque zéro » ou « assurance incluse » : on parle de risque maîtrisé, assurance en option."),
- (" (le résumé exécutif parle encore d'« exclusivité » pour le groupage USA, ne pas le reprendre)", ""),
- ("- Diapo de secours : Aucune : le carton ISTA 3A de démonstration en main si le format le permet, sinon diapo 14.", "- Diapo de secours : Aucune : le carton ISTA 3A de démonstration en main si le format le permet, sinon diapo 14."),
- ("Point d'honnêteté à régler AVANT l'oral : l'annexe W et l'avant-propos limitent l'IA à la forme, alors que des passes de mise en cohérence du contenu ont aussi été faites avec l'IA en fin de rédaction (scoring, séquence, probabilité, ordre des annexes). Compléter l'annexe W (chantier « mise en cohérence ») et le dire : un écart découvert par le jury coûterait plus cher que l'aveu. Sans se dévaloriser pour autant.",
-  "Rester exactement alignée sur l'annexe W. Si l'IA t'a aussi aidée à repérer des incohérences en fin de rédaction, le dire simplement : « elle m'a aidée à repérer des écarts, que j'ai tranchés à partir des sources ». Un écart découvert par le jury coûterait plus cher que la précision. Sans se dévaloriser pour autant."),
-]
+FIX = []  # jury.md est désormais corrigé à la source (refonte du 25/10/2026)
 for a, b in FIX:
     if a not in J:
         raise SystemExit('FIX introuvable : ' + a[:70])
@@ -96,8 +74,7 @@ for k, sid in enumerate(main, 1):
 
 backup_rows = []
 JB = J.split('# Diapos de secours')[1].split('# Autoévaluation')[0]
-REPOND = dict(re.findall(r'^### (B\d) — .*?\n.*?- Répond à : (.*?)$', JB, re.S | re.M))
-REPOND['B4'] = "SPIN par persona, « en pleine saison, quel vigneron vous accorde 35 minutes ? », prospection par téléphone."
+REPOND = dict(re.findall(r'^### (B\d+) — .*?\n.*?- Répond à : (.*?)$', JB, re.S | re.M))
 for sid in backs:
     title, _, aside = slide_info(sid)
     b = sid.upper()
@@ -111,6 +88,13 @@ axes = md_list(auto.split("**Axes d'amélioration**")[1].split('**Conclusion**')
 axes = axes.replace(" Quelques incohérences de version repérées après livraison (calendrier de la feuille de route, poids des ICP, renvois du sommaire) seront corrigées dans la version de novembre.", " Quelques incohérences de version (calendrier de la feuille de route, poids des ICP, renvois du sommaire) ont été repérées et corrigées avant l&#x27;oral.")
 concl = E(auto.split('**Conclusion** :')[1].strip())
 
+def start_of(sid):
+    return slide_info(sid)[1].split('→')[0].strip()
+def end_of(sid):
+    return slide_info(sid)[1].split('→')[1].strip()
+T_ICP, T_SPIN, T_SYN, T_END = start_of('icp'), start_of('spin'), start_of('synthese'), end_of('cloture')
+N_MAIN, N_BACK = len(main), len(backs)
+
 CSS = open(os.path.join(os.path.dirname(__file__), 'guide.css')).read()
 H = []
 H.append(f'''<!doctype html><html lang="fr"><head><meta charset="utf-8"><title>Guide de soutenance</title><style>{CSS}</style></head><body>
@@ -118,53 +102,56 @@ H.append(f'''<!doctype html><html lang="fr"><head><meta charset="utf-8"><title>G
 <p class="ey">SOUTENANCE ORALE · BLOC 2 · EURIDIS</p>
 <h1>Guide de soutenance</h1>
 <p class="sub">Sales Playbook Planet Aura</p>
-<p class="who">Emma Soares Britschgy · version du 23 octobre 2026</p>
+<p class="who">Emma Soares Britschgy · version du 25 octobre 2026</p>
 <div class="cbox"><p><b>Ce que contient ce guide</b></p><p>1. L’essentiel en une page · 2. La grille, diapo par diapo · 3. Le script minuté · 4. Les questions du jury et leurs réponses · 5. Les diapos de secours · 6. L’auto-évaluation · 7. Les check-lists de préparation</p></div>
 <p class="conf">Document de travail personnel : ne pas remettre au jury, ne pas diffuser.</p>
 </section>''')
 
-H.append('''<section><p class="ey">1 · L’ESSENTIEL EN UNE PAGE</p><h2>Vingt minutes pour montrer une méthode, pas pour réciter un dossier</h2>
+H.append(f'''<section><p class="ey">1 · L’ESSENTIEL EN UNE PAGE</p><h2>Vingt minutes pour montrer une méthode, pas pour réciter un dossier</h2>
 <div class="g3">
-<div class="k"><p class="kn">20 min</p><p>maximum, viser 18. Le script est calé sur 16 min à 140 mots/minute : la marge sert aux silences et aux regards.</p></div>
-<div class="k"><p class="kn">19 + 7</p><p>diapos présentées, plus 7 diapos de secours après « Merci », pour les questions.</p></div>
+<div class="k"><p class="kn">20 min</p><p>maximum, viser 18. Le script est calé sur {T_END} à 130 mots/minute : la marge sert aux silences et aux regards.</p></div>
+<div class="k"><p class="kn">{N_MAIN} + {N_BACK}</p><p>diapos présentées, plus {N_BACK} diapos de secours après « Merci », pour les questions.</p></div>
 <div class="k"><p class="kn">15 min</p><p>de questions. Le jury n’a pas lu le playbook : il juge la communication et le traitement des objections.</p></div>
 </div>
 <h3>Trois points de passage au chronomètre</h3>
 <table class="t"><tr><th>À l’écran</th><th>Heure visée</th><th>Si je suis en retard</th></tr>
-<tr><td>Diapo 9 · ICP</td><td><b>5:05</b></td><td>Raccourcir la concurrence : statu quo, spécialistes vin, « on vend contre le risque ».</td></tr>
-<tr><td>Diapo 13 · SPIN</td><td><b>9:15</b></td><td>Sur la diapo 12, garder les sept étapes et le premier envoi ; sauter la cadence de prospection.</td></tr>
-<tr><td>Diapo 18 · Synthèse</td><td><b>14:55</b></td><td>Synthèse en deux phrases, puis directement Houston et « Merci ».</td></tr></table>
+<tr><td>Diapo 9 · ICP</td><td><b>{T_ICP}</b></td><td>Raccourcir la concurrence : le statu quo, le trio, le prix assumé.</td></tr>
+<tr><td>Diapo 13 · SPIN</td><td><b>{T_SPIN}</b></td><td>Sur la diapo 12, garder la ligne d’arrivée et la vitesse ; sauter la durée du cycle et les cadences.</td></tr>
+<tr><td>Diapo 18 · Synthèse</td><td><b>{T_SYN}</b></td><td>Synthèse en deux phrases et mon apport, puis directement Houston et « Merci ».</td></tr></table>
 <h3>Six phrases à savoir mot pour mot</h3>
 <ol class="ph">
 <li>« Un couple de Houston voulait 24 bouteilles. Ils sont repartis avec 2 : ils ne savaient pas comment les ramener. »</li>
 <li>« Comment transformer une croissance portée par le bouche-à-oreille en une méthode de vente reproductible et mesurable, pour recruter, activer et fidéliser nos adhérents ? »</li>
-<li>« On ne vend pas contre les autres : on vend contre le risque. »</li>
+<li>« La vente finit au premier envoi, pas à la signature. »</li>
 <li>« Diagnostiquer avant de démontrer : c’est le prospect qui chiffre sa perte. »</li>
 <li>« Le prospect n’achète pas un transport : il cherche à réduire son risque. »</li>
-<li>« 24 bouteilles, 360 euros de transport, les taxes estimées et payées d’avance, livrées en trois semaines environ. Ils repartent les mains libres. »</li>
+<li>« Vingt-quatre bouteilles, 360 euros de transport, les taxes estimées et réglées d’avance, une livraison en trois semaines environ. Ils repartent les mains libres. »</li>
 </ol>
 <div class="warn"><p class="wl">CE QUE JE NE DIS JAMAIS</p>
 <p>Un nom de client ou un CA par client (top 10 anonymisé) · la part du CA faite par les comptes A · « assurance incluse » ou « risque zéro » (option à 3 %, souscrite sur 89,8 % des envois) · « transporteur » (commissionnaire de transport) · « 145 adhérents actifs » (signés) · un objectif présenté comme un résultat · VELA, Gant Blanc, Planet’Stock, entrepôt agréé ou annexe Champagne au présent · « j’ai interviewé 70 clients » (échanges écrits réels, entretiens prévus au T1 2027) · un taux de droits US cité de mémoire · « 207 € par visiteur » (c’est par réservation, 2,9 adultes en moyenne) · un taux de marge · « premier », « unique », « exclusif ».</p></div>
 </section>''')
 
 GRID = [
- ('Capter l’attention (Start with why)', 'Animation', '2 · Accroche', 'Le silence après la phrase de Houston ; le « pourquoi » de Planet Aura.'),
- ('Rythme, langage, support, orthographe, temps', 'Animation', 'Toutes', 'Regarder le jury, pas l’écran ; une idée par diapo ; 18 minutes.'),
- ('Titres du sommaire impactants', 'Argumentation', '3 · Sommaire', 'Quatre verbes : analyser, cibler, vendre, piloter.'),
- ('Introduction qui amène le sujet', 'Argumentation', '2 à 5', 'Houston → marché → enjeux → problématique.'),
- ('Analyse du marché reliée à l’entreprise', 'Argumentation', '4 · Marché', 'Bandeau « Et Planet Aura ? » : 64,5 % USA, +11,6 % à contre-courant.'),
- ('Entreprise : organigramme, CA, offre, concurrence, cibles', 'Argumentation', '6, 7, 8', 'Organigramme 2026, 1,15 M€, offre en trois temps, carte des concurrents.'),
- ('ICP', 'Argumentation', '9 · ICP', 'Top 10 réel anonymisé → 5 critères → 5 ICP → score PA-FIT.'),
- ('Personas', 'Argumentation', '10 · Personas', '5 personas confrontés à 70 contacts et 47 réponses.'),
- ('Problématiques → solutions', 'Argumentation', '11 · Solutions', 'Cible, douleur, solution, preuve, et savoir dire non.'),
- ('Processus de vente et tunnel SPIN', 'Argumentation', '12 · 13 · 14', 'Sept étapes avec SLA, trame SPIN de 35 min, objections en 4 temps.'),
- ('Ressources précises, réalistes, échéancées, chiffrées', 'Argumentation', '15 · Ressources', 'Six chantiers datés, responsables, heures, 3 000 €, critères.'),
- ('Sales Ops : chaque outil et son objectif', 'Argumentation', '16 · Sales Ops', 'Huit cartes outil · mission · règle, statut existant / nouveau.'),
- ('KPI et méthode de suivi', 'Argumentation', '17 · KPI', 'Constaté / baseline / objectif, revue mensuelle de 45 min.'),
- ('Synthèse reliée aux enjeux', 'Argumentation', '18 · Synthèse', 'Avant / avec le playbook, enjeu par enjeu.'),
- ('Ouverture', 'Argumentation', '19 · Ouverture', 'Trois difficultés → trois règles ; la suite datée ; retour à Houston.'),
+ ('Capter l’attention (Start with why)', 'Animation', '2 · Accroche', 'Houston, 2 bouteilles sur 24, puis un silence ; la question du comptoir devient le fil rouge.'),
+ ('Rythme, langage, support, orthographe, temps', 'Animation', 'Toutes', 'Une idée par diapo, chiffres en grand ; vocabulaire métier défini (DDP, CIVC, ADV, cadence) ; 18 minutes.'),
+ ('Titres du sommaire impactants', 'Argumentation', '3 · Sommaire', 'Quatre verbes, chacun relié à son enjeu : analyser, cibler, vendre, piloter.'),
+ ('Introduction qui amène le sujet', 'Argumentation', '2 à 8', 'Houston → marché → entreprise → offre → concurrence → problématique et trois enjeux.'),
+ ('Analyse du marché reliée à l’entreprise', 'Argumentation', '4 · Marché', 'Trois bascules, chacune traduite « Pour Planet Aura » : la sécurité se vend, 64,5 % des envois vers les USA, le caveau comme gisement.'),
+ ('Entreprise : organigramme, CA, offre, concurrence, cibles', 'Argumentation', '5, 6, 7 (+ B9)', 'CA ×4,7 et +11,6 % à contre-courant, équipe et pôles, modèle B2B2C et grille, carte des concurrents ; organigramme complet en B9.'),
+ ('ICP', 'Argumentation', '9 · ICP', 'Top 10 réel anonymisé → 5 critères → 5 ICP → score PA-FIT ; ma décision : 60 % sur les caveaux.'),
+ ('Personas', 'Argumentation', '10 · Personas', 'Qui décide, qui utilise, qui paie ; mon étude d’octobre 2026 (70 contacts, 47 réponses, 15 avis).'),
+ ('Problématiques → solutions', 'Argumentation', '11 · Solutions', 'Cible, douleur, réponse, repère chiffré ; et ce que nous refusons d’emblée.'),
+ ('Processus de vente et tunnel SPIN', 'Argumentation', '12 · 13 · 14 (+ B4, B12, B14)', 'Sept étapes avec SLA, vente finie au premier envoi, durée du cycle à statut ; deux tunnels SPIN ; objections en 4 temps et ROI.'),
+ ('Ressources précises, réalistes, échéancées, chiffrées', 'Argumentation', '15 · Ressources (+ B13)', 'Une preuve par doute ; six chantiers datés, responsables, heures, 3 000 €, critères de passage.'),
+ ('Sales Ops : chaque outil et son objectif', 'Argumentation', '16 · Sales Ops', 'Six outils autour de HubSpot, chacun avec son objectif et son statut ; intégration 30-60-90 ; rituels proposés.'),
+ ('KPI et méthode de suivi', 'Argumentation', '17 · KPI (+ B6)', 'Constaté / point zéro / objectif ; 90 jours de mesure ; revue mensuelle de 45 min close par une décision.'),
+ ('Synthèse reliée aux enjeux', 'Argumentation', '18 · Synthèse (+ B15)', 'Avant / avec le playbook, enjeu par enjeu, avec le pourquoi ; mon apport ; bénéfices attendus.'),
+ ('Ouverture', 'Argumentation', '19 · Ouverture', 'Trois difficultés → trois règles ; autocritique ; jalons datés ; projets au conditionnel.'),
+ ('Conclusion qui revient à l’accroche', 'Animation', '20 · Clôture', 'Houston, 24 bouteilles, les mains libres ; le fil rouge en dernière phrase.'),
+ ('Valeur ajoutée personnelle', 'Transversal', '9, 10, 12-17, 18, B15', 'Étiquettes MON ANALYSE, MON ÉTUDE, MON OUTIL, MES PROPOSITIONS ; « Mon apport » en synthèse.'),
+ ('Raisonnement stratégique', 'Transversal', '7, 9, 11, 12, 17', 'Décisions justifiées : le cap, 60 % sur les caveaux, les refus, la ligne d’arrivée, des cibles de départ plutôt que des promesses.'),
 ]
-H.append('<section><p class="ey">2 · LA GRILLE, DIAPO PAR DIAPO</p><h2>Chaque critère noté a sa diapo et sa preuve</h2><p class="lead">Animation sur 6 points, argumentation sur 14. Le critère « playbook existant » est sans objet : Planet Aura n’en avait pas, le dire en une phrase (diapo 5).</p><table class="t"><tr><th>Critère</th><th>Bloc</th><th>Diapo</th><th>Ce que le jury doit voir ou entendre</th></tr>' +
+H.append('<section><p class="ey">2 · LA GRILLE, DIAPO PAR DIAPO</p><h2>Chaque critère noté a sa diapo et sa preuve</h2><p class="lead">Animation sur 6 points, argumentation sur 14. Le critère « playbook existant » est sans objet : Planet Aura n’en avait pas, le dire en une phrase (diapos 8 et 18, détail en B15).</p><table class="t"><tr><th>Critère</th><th>Bloc</th><th>Diapo</th><th>Ce que le jury doit voir ou entendre</th></tr>' +
  ''.join(f'<tr><td><b>{E(a)}</b></td><td>{E(b)}</td><td>{E(c)}</td><td>{E(d)}</td></tr>' for a, b, c, d in GRID) + '</table></section>')
 
 H.append('<section><p class="ey">3 · LE SCRIPT MINUTÉ</p><h2>Ce que je dis, diapo par diapo</h2><p class="lead">Les mêmes notes figurent en mode présentateur. Elles sont écrites pour l’oral : les apprendre par blocs d’idées, jamais mot à mot, sauf les six phrases de la page 2. Les indications entre parenthèses sont des rappels de régie, à ne pas dire.</p>' + ''.join(script) + '</section>')
@@ -175,7 +162,7 @@ H.append('<section><p class="ey">4 · LES QUESTIONS DU JURY</p><h2>Une méthode 
  '<h3>Les 20 questions les plus probables</h3>' + ''.join(qa_card('Q', *q) for q in top) +
  '<h3>Les 5 questions pièges</h3>' + ''.join(qa_card('P', *q) for q in traps) + '</section>')
 
-H.append('<section><p class="ey">5 · LES DIAPOS DE SECOURS</p><h2>Sept diapos après « Merci », à n’ouvrir que si la question l’appelle</h2><p class="lead">Dans le mode présentation, les atteindre par le panneau des diapos (section « Diapos de secours »). Une réponse sans support convainc souvent davantage : ne pas les montrer par réflexe.</p><table class="t"><tr><th>N°</th><th>Titre</th><th>Répond à</th></tr>' + ''.join(backup_rows) + '</table></section>')
+H.append('<section><p class="ey">5 · LES DIAPOS DE SECOURS</p><h2>' + f'{N_BACK}' + ' diapos après « Merci », à n’ouvrir que si la question l’appelle</h2><p class="lead">Dans le mode présentation, les atteindre par le panneau des diapos (section « Diapos de secours »). Une réponse sans support convainc souvent davantage : ne pas les montrer par réflexe.</p><table class="t"><tr><th>N°</th><th>Titre</th><th>Répond à</th></tr>' + ''.join(backup_rows) + '</table></section>')
 
 H.append(f'<section><p class="ey">6 · L’AUTO-ÉVALUATION</p><h2>Après les questions : un bilan honnête, en deux minutes</h2><p class="lead">Le jury demande souvent une auto-évaluation avant le débrief. Deux forces, deux axes de progrès avec leur plan, une phrase de conclusion.</p><div class="g2"><div class="ab"><p class="abl" style="color:#20768B">POINTS FORTS</p>{forts}</div><div class="ab"><p class="abl" style="color:#722F45">AXES D’AMÉLIORATION</p>{axes}</div></div><div class="concl"><p>{concl}</p></div></section>')
 

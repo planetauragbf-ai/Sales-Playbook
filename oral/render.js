@@ -5,9 +5,10 @@ const fs = require('fs');
 const path = require('path');
 
 const [, , slidesDir, outDir, ...ids] = process.argv;
-const IMG = '/tmp/claude-0/-home-user-Sales-Playbook/937d2675-9cdd-54b9-a3ad-2207ab8c8104/scratchpad/oral/img';
+// images sources locales (non versionnées) : dossier img/ à côté de ce script, ou IMG_DIR
+const IMG = process.env.IMG_DIR || path.join(__dirname, 'img');
 const map = {};
-for (const line of fs.readFileSync(path.join(path.dirname(IMG), 'assets-map.md'), 'utf8').split('\n')) {
+for (const line of fs.readFileSync(path.join(__dirname, 'assets-map.md'), 'utf8').split('\n')) {
   const m = line.match(/^(\S+) \/_blob\/([0-9a-f]+)/);
   if (m) map[m[2]] = `file://${IMG}/${m[1]}.png`;
 }
@@ -32,6 +33,7 @@ ul,ol{padding-left:1.2em}
   for (const id of ids) {
     let html = fs.readFileSync(path.join(slidesDir, `${id}.html`), 'utf8');
     html = html.replace(/\/_blob\/([0-9a-f]+)/g, (m, b) => map[b] || m);
+    html = html.replace(/<x-icon name="(\w+)" style="([^"]*)"><\/x-icon>/g, (m, n, st) => `<span title="${n}" style="display:inline-block;flex:none;${st};border-radius:30%;border:3px solid currentColor;opacity:.8"></span>`);
     const tmp = path.resolve(outDir, `_${id}.html`);
     fs.writeFileSync(tmp, `<!doctype html><html><head><meta charset="utf-8"><style>${CSS}</style></head><body>${html}</body></html>`);
     await page.goto(`file://${tmp}`, { waitUntil: 'load' });

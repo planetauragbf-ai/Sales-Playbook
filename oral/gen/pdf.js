@@ -4,7 +4,7 @@ const path = require('path');
 
 const [, , src, out] = process.argv;
 (async () => {
-  const browser = await chromium.launch({ executablePath: '/opt/pw-browsers/chromium-1194/chrome-linux/chrome' });
+  const browser = await chromium.launch({ executablePath: require('fs').existsSync('/opt/pw-browsers/chromium-1194/chrome-linux/chrome') ? '/opt/pw-browsers/chromium-1194/chrome-linux/chrome' : undefined });
   const page = await browser.newPage();
   await page.goto(`file://${path.resolve(src)}`, { waitUntil: 'load' });
   await page.evaluate(() => document.fonts.ready);
