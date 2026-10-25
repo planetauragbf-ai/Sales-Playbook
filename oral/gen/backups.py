@@ -98,8 +98,8 @@ def b4():
     inner = f'''{bhead(4, 'SPIN sur le terrain', 'Sur le terrain : la permission avant le tunnel')}
 <div style="display:flex;gap:40px;flex:1">
 <div style="flex:1;display:flex;flex-direction:column;gap:16px">
-{box('Au premier appel : la permission en 45 secondes', '« Quelle destination ou quel flux concentre aujourd’hui le plus d’enjeux logistiques ? » · « Le principal risque est-il le délai, la douane, la traçabilité, le coût ou la cohérence RSE ? » · puis proposer 25 minutes de cartographie du flux, avec deux créneaux', ORF)}
-{box('Le calendrier', 'On prospecte avant les pics, pas pendant : les pics de CA tombent en mai, juin et septembre · le bloc 10 h-12 h est réservé au téléphone', SARCF)}
+{box('Compte structuré, premier appel : la permission en 45 s', '« Quelle destination ou quel flux concentre aujourd’hui le plus d’enjeux logistiques ? » · « Le principal risque est-il le délai, la douane, la traçabilité, le coût ou la cohérence RSE ? » · puis proposer 25 minutes de cartographie du flux, avec deux créneaux', ORF)}
+{box('Caveau : un appel de moins de 3 minutes', 'Il vise 30 minutes de démonstration sur ses vins, pas une vente · on prospecte avant les pics (mai, juin, septembre), pas pendant · le playbook réserve le bloc 10 h-12 h au téléphone', SARCF)}
 </div>
 <div style="width:820px;display:flex;flex-direction:column;gap:12px">
 {label('La banque compte 8 lignes : trois exemples de plus', ORF, ls=2)}
@@ -116,11 +116,11 @@ def b5():
 <div style="display:flex;gap:40px;flex:1">
 <div style="flex:1;display:flex;flex-direction:column;gap:16px">
 {box("L'outil et son usage", 'Claude (Anthropic), crédité dès l’avant-propos, prompts représentatifs en annexe W · 8 chantiers de forme : maquette, identité visuelle, pagination et sommaire, ponts de navigation, schémas, calage des pages, ordre des annexes, relecture de forme', SARCF)}
-{box('Aussi, à déclarer', "Des passes de mise en cohérence (chiffres, renvois), chaque correction vérifiée à sa source · ce support oral : titres, mises en page, visualisations et formulation des notes travaillés avec Claude, à partir du dossier, puis relus", OR)}
+{box('Le fond et ses sources', 'Documentation officielle et procédures 2026 · dashboards Planet’Connect au 24/09/2026 · 3 enquêtes (47 réponses) · 25 sources externes datées (OIV, FEVS, Atout France…)', PETROLE)}
 </div>
 <div style="flex:1;display:flex;flex-direction:column;gap:16px">
-{box('Le fond et ses sources', 'Documentation officielle et procédures 2026 · dashboards Planet’Connect au 24/09/2026 · 3 enquêtes (47 réponses) · 25 sources externes datées (OIV, FEVS, Atout France…)', PETROLE)}
-{box('Garde-fous', "Aucune donnée personnelle de client final · aucun identifiant · aucune image générée par IA · chaque chiffre vérifié à sa source (annexe C)", BORD)}
+{box('Aussi, à déclarer', "Des passes de mise en cohérence avec Claude : chiffres corrigés d’après les sources, règles harmonisées (assurance, feuille de route, seuils), bibliographie, renvois ; chaque correction vérifiée à sa source · ce support oral : titres, mises en page, visualisations et formulation des notes travaillés avec Claude, à partir du dossier, puis relus", OR)}
+{box('Garde-fous', "Aucune donnée personnelle de client final · aucun identifiant · aucune image générée par IA (schémas codés à partir des données) · chaque chiffre vérifié à sa source (annexe C)", BORD)}
 </div></div>
 {box('Le test', 'Le meilleur contrôle, c’est vous : quel chiffre ou quelle procédure voulez-vous que je vous explique ?', CHAMP, dark=True)}
 {bfoot(5)}'''
@@ -134,8 +134,8 @@ def b6():
                ['RDV tenus', 'Hebdomadaire', 'Baseline 90 j', "Revoir l'accroche, relancer"],
                ['Win rate', 'Mensuel', '40-60 %', 'Closing, objections'],
                ['Cycle de vente médian', 'Mensuel', '7 à 21 j visés', 'Lever les blocages'],
-               ['OTIF', 'Mensuel', 'Baseline', "Revue avec l'exploitation"],
-               ['Marge contributive', 'Par dossier', '&gt; plancher', 'Sans valeur affichée'],
+               ['OTIF', 'Mensuel', 'Baseline', 'Aligner le discours délais'],
+               ['Marge contributive', 'Par dossier', '&gt; plancher (non affiché)', 'Disqualifier ou renégocier le périmètre'],
                ['Hygiène du forecast', 'Hebdomadaire', '≥ 95 %', 'Sortie du forecast']], [38, 18, 18, 26])
     inner = f'''{bhead(6, 'Indicateurs', 'Chaque KPI a une fréquence, une cible et une action')}
 <div style="display:flex;gap:44px;flex:1">

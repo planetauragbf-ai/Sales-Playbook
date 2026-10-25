@@ -30,7 +30,7 @@ def processus():
                    f'<b><span style="color:{c}">{n}</span></b><br>{s}</p>')
     route = f'<div style="position:relative;width:1664px;height:282px">{"".join(els)}</div>'
     sources = (f'<p style="font-size:24px;color:{BRUME}"><b><span style="color:{CHAMP}">Les prospects arrivent par</span></b> '
-               f'formulaires entrants · recommandations · salons · terrain (caveaux) · comptes ciblés, en cadence</p>')
+               f'formulaires entrants · recommandations · salons · terrain (caveaux) · comptes ciblés, en cadence · partenaires prescripteurs</p>')
 
     scale = 500 / 120
 
@@ -327,7 +327,7 @@ def kpi():
     leg = ''.join(pill(k) for k in ['CONSTATÉ', 'OBJECTIF', 'HYPOTHÈSE', 'PROJET'])
     bottom = (f'<div style="display:flex;align-items:center;gap:16px;background:#FFFFFF;border:1px solid {FILET};border-radius:12px;padding:10px 22px">'
               f'<x-icon name="Clock" style="color:{PETROLE};width:36px;height:36px"></x-icon>'
-              f'<p style="flex:1;font-size:24px;color:{ENCRE}"><b>Revue mensuelle de 45 min</b>, close par une décision</p>'
+              f'<p style="flex:1;font-size:24px;color:{ENCRE}"><b>Revue mensuelle de 45 min</b>, close par une décision (proposée)</p>'
               f'<div style="display:flex;gap:8px">{leg}</div></div>')
     inner = f'''{header('Piloter · Indicateurs', 'Mesuré ou espéré ? Chaque chiffre dit son statut', PETROLE, tg='MON OUTIL')}
 <div style="flex:1;display:grid;grid-template-columns:repeat(3, 1fr);gap:56px">{c1}{c2}{c3}</div>
@@ -361,12 +361,12 @@ def synthese():
                 f'<p style="font-size:24px;line-height:1.35;color:{CLAIR}">{txt}</p></div>')
     right = f'''<div style="flex:1;background:{NUIT};border-radius:20px;padding:20px 26px;display:flex;flex-direction:column;gap:12px">
 <p style="font-family:{T};font-size:34px;font-weight:700;color:#FFFFFF">Mon apport</p>
-{verb('Analysé', 'Top 10 → 5 ICP · 47 réponses sur 70 · 25 sources · enquêtes recalculées')}
+{verb('Analysé', 'Top 10 → 5 ICP · 70 contacts, 47 réponses, 15 avis · 25 sources · enquêtes recalculées')}
 {verb('Conçu et rédigé', 'Pipeline et SLA · SPIN · 26 objections · PA-FIT · KPI à statut · 30-60-90')}
 {verb('Proposé, à ratifier', 'Règles CRM · rituels · câblage Brevo-HubSpot')}
 </div>'''
     ben = (f'<div style="display:flex;align-items:center;gap:12px"><p style="font-family:{L};font-size:24px;font-weight:600;letter-spacing:2px;color:{PETROLE};white-space:nowrap">BÉNÉFICES ATTENDUS</p><div style="flex:1"></div>'
-           f'{pill("OBJECTIF", "letter-spacing:0px", "≥ 70 % des signés actifs à J+30")}{pill("OBJECTIF", "letter-spacing:0px", "Commercial certifié à J+30")}'
+           f'{pill("OBJECTIF", "letter-spacing:0px", "≥ 70 % des signés activés à J+30")}{pill("OBJECTIF", "letter-spacing:0px", "Commercial certifié à J+30")}'
            f'{pill("POINT ZÉRO", "letter-spacing:0px", "Part USA suivie chaque trimestre")}</div>')
     inner = f'''{header('Synthèse', 'Du bouche-à-oreille à une méthode', PETROLE)}
 {start}
@@ -419,7 +419,8 @@ def cloture():
 <p style="font-family:{T};font-style:italic;font-size:36px;line-height:1.25;color:{CHAMP}">Le prospect n'achète pas un transport : il cherche à réduire son risque.</p>
 </div>
 <div style="width:440px;display:flex;flex-direction:column;justify-content:space-between;align-items:flex-end">
-<div style="background:#FFFFFF;border-radius:18px;padding:14px;transform:rotate(-2deg)"><img src="{PHOTO_CARTON}" alt="Photo : un colis d’expédition remis par l’équipe Planet Aura" style="width:400px;height:520px;object-fit:cover;border-radius:10px"></div>
+<div style="background:#FFFFFF;border-radius:18px;padding:14px 14px 10px;transform:rotate(-2deg);display:flex;flex-direction:column;gap:8px"><img src="{PHOTO_CARTON}" alt="Sofian, de l’équipe logistique Planet Aura, porte un colis d’expédition" style="width:400px;height:478px;object-fit:cover;border-radius:10px">
+<p style="font-family:{T};font-style:italic;font-size:26px;text-align:center;color:{GRIS}">Sofian, équipe logistique</p></div>
 <div style="display:flex;align-items:center;gap:20px">
 <img src="{LOGO_MARK_W}" alt="Logo Planet Aura" style="width:66px;height:88px;object-fit:contain">
 <div style="display:flex;flex-direction:column;gap:2px"><p style="font-family:{T};font-size:56px;font-weight:700;line-height:1;color:#FFFFFF">Merci.</p><p style="font-size:28px;color:{BRUME}">Place à vos questions</p></div>

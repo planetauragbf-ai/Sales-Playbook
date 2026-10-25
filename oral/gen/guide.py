@@ -109,7 +109,7 @@ H.append(f'''<!doctype html><html lang="fr"><head><meta charset="utf-8"><title>G
 
 H.append(f'''<section><p class="ey">1 · L’ESSENTIEL EN UNE PAGE</p><h2>Vingt minutes pour montrer une méthode, pas pour réciter un dossier</h2>
 <div class="g3">
-<div class="k"><p class="kn">20 min</p><p>maximum, viser 18. Le script est calé sur {T_END} à 130 mots/minute : la marge sert aux silences et aux regards.</p></div>
+<div class="k"><p class="kn">20 min</p><p>c’est la durée attendue. Le script est calé sur {T_END} à 130 mots/minute : les dernières secondes vont aux silences et aux regards.</p></div>
 <div class="k"><p class="kn">{N_MAIN} + {N_BACK}</p><p>diapos présentées, plus {N_BACK} diapos de secours après « Merci », pour les questions.</p></div>
 <div class="k"><p class="kn">15 min</p><p>de questions. Le jury n’a pas lu le playbook : il juge la communication et le traitement des objections.</p></div>
 </div>
@@ -133,7 +133,7 @@ H.append(f'''<section><p class="ey">1 · L’ESSENTIEL EN UNE PAGE</p><h2>Vingt 
 
 GRID = [
  ('Capter l’attention (Start with why)', 'Animation', '2 · Accroche', 'Houston, 2 bouteilles sur 24, puis un silence ; la question du comptoir devient le fil rouge.'),
- ('Rythme, langage, support, orthographe, temps', 'Animation', 'Toutes', 'Une idée par diapo, chiffres en grand ; vocabulaire métier défini (DDP, CIVC, ADV, cadence) ; 18 minutes.'),
+ ('Rythme, langage, support, orthographe, temps', 'Animation', 'Toutes', 'Une idée par diapo, chiffres en grand ; vocabulaire métier défini (DDP, CIVC, ADV, cadence) ; 20 minutes.'),
  ('Titres du sommaire impactants', 'Argumentation', '3 · Sommaire', 'Quatre verbes, chacun relié à son enjeu : analyser, cibler, vendre, piloter.'),
  ('Introduction qui amène le sujet', 'Argumentation', '2 à 8', 'Houston → marché → entreprise → offre → concurrence → problématique et trois enjeux.'),
  ('Analyse du marché reliée à l’entreprise', 'Argumentation', '4 · Marché', 'Trois bascules, chacune traduite « Pour Planet Aura » : la sécurité se vend, 64,5 % des envois vers les USA, le caveau comme gisement.'),
@@ -194,5 +194,9 @@ H.append('''<section><p class="ey">7 · LES CHECK-LISTS</p><h2>Préparer, vérif
 <div class="warn"><p class="wl">CONFIDENTIALITÉ</p><p>Le playbook est diffusé en interne et aux seuls évaluateurs Euridis, avec l’accord de la direction. À l’oral : aucun nom ni CA par client, aucune donnée personnelle de client final, aucun identifiant, aucun mot de passe, aucune capture d’administration, aucun taux de marge.</p></div>
 </section>''')
 H.append('</body></html>')
-open(os.path.join(OUT, 'guide.html'), 'w').write('\n'.join(H))
+doc = '\n'.join(H)
+head, body = doc.split('</style>', 1)
+body = body.replace('« ', '«\u00a0').replace(' »', '\u00a0»')
+body = re.sub(r' ([:;?!])(?=[\s<])', '\u00a0\\1', body)
+open(os.path.join(OUT, 'guide.html'), 'w').write(head + '</style>' + body)
 print('guide.html ok')

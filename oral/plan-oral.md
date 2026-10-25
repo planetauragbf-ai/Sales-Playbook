@@ -1,7 +1,7 @@
 # Soutenance orale - Sales Playbook Planet Aura (Emma Soares Britschgy, Euridis, Mastère Marketing & Digital Business)
 
 ## Consignes (CDC + grille Euridis)
-- Présentation 20 min MAX (cible 18 min), 15 à 20 diapositives ; puis 15 min d'échanges avec le jury (le jury évalue surtout la maîtrise de la communication, la capacité à comprendre et traiter une objection, à organiser un discours, à convaincre) ; puis délibération, puis autoévaluation + debrief.
+- Présentation de 20 min (durée attendue, confirmée par Emma ; 20 min maximum), 15 à 20 diapositives ; puis 15 min d'échanges avec le jury (le jury évalue surtout la maîtrise de la communication, la capacité à comprendre et traiter une objection, à organiser un discours, à convaincre) ; puis délibération, puis autoévaluation + debrief.
 - Le jury N'A PAS LU le dossier écrit. Ne pas « lire » le playbook.
 - Déroulé imposé : Introduction/contexte (accroche macro, enjeux pour l'entreprise) + Diagnostic (entreprise, offres & clients, stratégie/positionnement/concurrents) = 3 à 5 min ; présentation des parties 8 à 14 = ~15 min ; synthèse et ouverture = 1 min.
 - Parties 8 à 14 du CDC : 8 ICP · 9 buyer personae · 10 enjeux des cibles et solutions · 11 processus de vente (étape par étape, durée idéale du cycle, tunnels SPIN IMPÉRATIFS) · 12 ressources utiles au processus de vente · 13 éléments de Sales Operations et objectifs de chacun · 14 indicateurs de performance + méthode de suivi.
@@ -18,30 +18,30 @@
 - Droits de douane US : 10 % depuis février 2026 (15 % d'août 2025 à février 2026).
 
 ## Plan de la présentation, version refondue du 25/10/2026 (20 diapositives + 15 diapos de secours)
-Minutage des notes à 130 mots/minute, 2 s par changement de diapo : 17:51 de texte, soit environ 18 à 19 min avec les silences. Introduction et diagnostic = 4:55 ; parties 8 à 14 = 10:37 ; synthèse, ouverture et clôture = 2:19.
+Minutage des notes à 130 mots/minute, 2 s par changement de diapo : 19:45 de texte (2480 mots), soit 20 min avec les silences. Introduction et diagnostic = 5:01 ; parties 8 à 14 = 12:27 ; synthèse, ouverture et clôture = 2:17.
 
 | # | Diapo | Une idée forte | Fin visée |
 |---|---|---|---|
 | 1 | Couverture | Sales Playbook Planet Aura, Emma, Euridis, tutrice | 0:08 |
-| 2 | Accroche (Start with why) | Houston : 2 bouteilles sur 24 ; la question du comptoir ; notre pourquoi | 0:47 |
-| 3 | Sommaire | Quatre étapes (analyser, cibler, vendre, piloter), chacune reliée à son enjeu ; définition du Sales Playbook | 1:14 |
-| 4 | Le marché | Trois bascules, chacune traduite « Pour Planet Aura » (OIV, FEVS, Atout France, Winalist) | 1:55 |
-| 5 | L'entreprise | CA ×4,7 (2021-2025), +11,6 % à contre-courant en 2025 ; commissionnaire ; équipe et pôles | 2:41 |
-| 6 | L'offre | Modèle B2B2C en triangle ; grille groupage USA DDP : plus le panier grossit, moins le transport pèse | 3:20 |
-| 7 | La concurrence | Concurrent n° 1 = le statu quo ; quatre familles ; notre case et le cap ; prix assumé | 4:06 |
-| 8 | Diagnostic et problématique | Ce qui se voit / sous la surface ; problématique ; trois enjeux | 4:55 |
-| 9 | Partie 8 · ICP (MON ANALYSE) | Top 10 réel anonymisé → 5 critères → 5 ICP → PA-FIT ; décision : 60 % sur les caveaux | 6:03 |
-| 10 | Partie 9 · Personas (MON ÉTUDE) | Qui décide, qui utilise, qui paie ; étude d'octobre 2026 | 7:13 |
-| 11 | Partie 10 · Enjeux et solutions | Cible → douleur → réponse → repère ; ce que nous refusons | 8:21 |
-| 12 | Partie 11 · Processus (MON OUTIL) | La vente finit au premier envoi ; 7 étapes et SLA ; durée du cycle à statut ; vitesse | 9:39 |
-| 13 | Partie 11 · Tunnels SPIN (MON OUTIL) | RDV de 35 min ; deux tunnels ; le prospect chiffre sa perte | 10:52 |
-| 14 | Partie 11 · Objections (MON OUTIL) | Méthode en 4 temps sur « c'est cher » ; banque de 26 ; ROI (hypothèse d'exemple) | 12:08 |
-| 15 | Partie 12 · Ressources (MON OUTIL) | Une preuve par doute ; six chantiers datés, chiffrés, conditionnés (3 000 €) | 13:13 |
-| 16 | Partie 13 · Sales Ops (MES PROPOSITIONS) | HubSpot source de vérité ; un outil = un objectif ; intégration 30-60-90 ; rituels proposés | 14:16 |
-| 17 | Partie 14 · Indicateurs (MON OUTIL) | Constaté / point zéro / objectif ; revue mensuelle close par une décision | 15:32 |
-| 18 | Synthèse | Avant / avec le playbook, enjeu par enjeu, et pourquoi ; mon apport ; bénéfices attendus | 16:31 |
-| 19 | Ouverture | Trois difficultés → trois règles ; jalons datés ; projets au conditionnel | 17:16 |
-| 20 | Clôture | Retour à Houston : « Ils repartent les mains libres » ; le fil rouge ; merci | 17:51 |
+| 2 | Accroche (Start with why) | Houston : 2 bouteilles sur 24 ; la question du comptoir ; notre pourquoi | 0:53 |
+| 3 | Sommaire | Quatre étapes (analyser, cibler, vendre, piloter), chacune reliée à son enjeu ; définition du Sales Playbook | 1:19 |
+| 4 | Le marché | Trois bascules, chacune traduite « Pour Planet Aura » (OIV, FEVS, Atout France, Winalist) | 2:01 |
+| 5 | L'entreprise | CA ×4,7 (2021-2025), +11,6 % à contre-courant en 2025 ; commissionnaire ; équipe et pôles | 2:46 |
+| 6 | L'offre | Modèle B2B2C en triangle ; grille groupage USA DDP : plus le panier grossit, moins le transport pèse | 3:24 |
+| 7 | La concurrence | Concurrent n° 1 = le statu quo ; quatre familles ; notre case et le cap ; prix assumé | 4:17 |
+| 8 | Diagnostic et problématique | Ce qui se voit / sous la surface ; problématique ; trois enjeux | 5:01 |
+| 9 | Partie 8 · ICP (MON ANALYSE) | Top 10 réel anonymisé → 5 critères → 5 ICP → PA-FIT ; décision : 60 % sur les caveaux | 6:20 |
+| 10 | Partie 9 · Personas (MON ÉTUDE) | Qui décide, qui utilise, qui paie ; étude d'octobre 2026 | 7:40 |
+| 11 | Partie 10 · Enjeux et solutions | Cible → douleur → réponse → repère ; ce que nous refusons | 8:42 |
+| 12 | Partie 11 · Processus (MON OUTIL) | La vente finit au premier envoi ; 7 étapes et SLA ; durée du cycle à statut ; vitesse | 10:12 |
+| 13 | Partie 11 · Tunnels SPIN (MON OUTIL) | RDV de 35 min ; deux tunnels ; le prospect chiffre sa perte | 11:48 |
+| 14 | Partie 11 · Objections (MON OUTIL) | Méthode en 4 temps sur « c'est cher » ; banque de 26 ; ROI (hypothèse d'exemple) | 13:22 |
+| 15 | Partie 12 · Ressources (MON OUTIL) | Une preuve par doute ; six chantiers datés, chiffrés, conditionnés (3 000 €) | 14:36 |
+| 16 | Partie 13 · Sales Ops (MES PROPOSITIONS) | HubSpot source de vérité ; un outil = un objectif ; intégration 30-60-90 ; rituels proposés | 16:01 |
+| 17 | Partie 14 · Indicateurs (MON OUTIL) | Constaté / point zéro / objectif ; revue mensuelle close par une décision | 17:28 |
+| 18 | Synthèse | Avant / avec le playbook, enjeu par enjeu, et pourquoi ; mon apport ; bénéfices attendus | 18:26 |
+| 19 | Ouverture | Trois difficultés → trois règles ; jalons datés ; projets au conditionnel | 19:10 |
+| 20 | Clôture | Retour à Houston : « Ils repartent les mains libres » ; le fil rouge ; merci | 19:45 |
 
 | Secours | Sujet | Sert à répondre à |
 |---|---|---|

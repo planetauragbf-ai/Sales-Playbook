@@ -1,9 +1,9 @@
 # Soutenance orale - Sales Playbook Planet Aura
 
-Sources du support de soutenance (artefact Slides, 20 diapos + 15 diapos de secours) et du guide de soutenance. Version refondue du 25/10/2026 : une idée forte par diapo, chiffres à statut (constaté, objectif, hypothèse, point zéro, projet), contribution personnelle marquée (MON ANALYSE, MON ÉTUDE, MON OUTIL, MES PROPOSITIONS).
+Sources du support de soutenance (artefact Slides, 20 diapos + 15 diapos de secours, oral de 20 min) et du guide de soutenance. Version refondue du 25/10/2026 : une idée forte par diapo, chiffres à statut (constaté, objectif, hypothèse, point zéro, projet), contribution personnelle marquée (MON ANALYSE, MON ÉTUDE, MON OUTIL, MES PROPOSITIONS).
 
 - `deck/project/` : `deck.json` (ordre, sections) et une page HTML par diapo ; les notes orales minutées sont dans `<aside>`.
-- `gen/build.py` : régénère `deck/project/` à partir des scripts ci-dessous et affiche le minutage (130 mots/min, 2 s par transition ; le texte entre parenthèses n'est pas compté). À relancer après toute modification.
+- `gen/build.py` : régénère `deck/project/` à partir des scripts ci-dessous et affiche le minutage (130 mots/min, 2 s par transition ; le texte entre parenthèses n'est pas compté). À relancer après toute modification. `gen/sync_plan.py` recopie ce minutage dans `plan-oral.md`.
   - `gen/kit.py` : palette, typographie (espaces insécables), composants (en-têtes, pastilles de statut, bouteilles, flèches).
   - `gen/part1.py`, `gen/part2.py`, `gen/part3.py` : les 20 diapos principales ; `gen/backups.py` : diapos de secours B1-B15.
   - `gen/notes.py` : script oral de chaque diapo et notes des diapos de secours.

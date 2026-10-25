@@ -161,7 +161,7 @@ def icp():
 {pill('CONSTATÉ', label='CONSTATÉ · 12 MOIS')}
 </div>'''
     crit = ''.join(f'<div style="display:flex;gap:12px;align-items:flex-start"><p style="width:40px;height:40px;border-radius:50%;background:{BORD};color:#FFFFFF;font-family:{L};font-size:24px;font-weight:600;text-align:center;line-height:40px;flex:none">{i}</p><p style="font-size:24px;line-height:1.3;color:{ENCRE}">{t}</p></div>'
-                   for i, t in enumerate(['Clientèle étrangère (&gt; 20 / semaine)', 'Bouteille à plus de 12 €',
+                   for i, t in enumerate(['Clientèle étrangère (&gt; 20 / semaine en saison)', 'Bouteille à plus de 12 €',
                                           'Responsable caveau ou e-shop', 'Destinations, USA en tête', 'Saisonnalité'], 1))
     s2 = f'''<div style="width:330px;display:flex;flex-direction:column;gap:16px">
 {step(2, '5 critères')}
