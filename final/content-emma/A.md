@@ -1,6 +1,6 @@
 # Annexe A - Fiches ICP & personas
 
-*Les dix fiches de référence : cinq profils de clients idéaux (ICP) et cinq personas décideurs. À dégainer avant un rendez-vous : portrait, douleurs, objections favorites, solution recommandée et priorité - avec l'étude de validation, les géographies prioritaires et la cartographie type d'un compte.*
+*Les dix fiches de référence : cinq profils de clients idéaux (ICP) et cinq personas décideurs. À dégainer avant un rendez-vous : portrait, douleurs, objections favorites, solution recommandée et priorité.*
 
 Chaque fiche se lit en une page : qui est le compte (ou le décideur), ce qu'il veut entendre, les preuves qui font mouche, les canaux pour l'atteindre, et la solution type avec son niveau de priorité. Les scripts associés sont au chapitre 10, le traitement complet des objections au chapitre 13.
 
@@ -19,7 +19,7 @@ Méthode (octobre 2026) : croisement de quatre sources internes réelles - 40 co
 | **D · Directeur commercial / export** | 15 | Responsable commercial, export sales manager, directeur commercial de coopérative - y compris dans des domaines familiaux | **Confirmé** : premier rôle rencontré en salon B2B - mais dans les grandes maisons, l'accès réel passe par l'ADV |
 | **E · Client final étranger** | 5 + flux | Particuliers US (règle des 36 bouteilles), managing partner, collectionneur (jusqu'à une palette de 600 bouteilles) | **Confirmé** - deux sous-types : le particulier standard et le collectionneur à forte valeur, proche d'un compte B2B |
 
-Trois ajustements intégrés aux fiches (le chap. 07 en retient l'essentiel), et un angle mort identifié :
+Trois ajustements intégrés aux fiches et au chap. 07, et un angle mort identifié :
 
 1. **Le caviste (C) n'est pas seulement urbain** : les cavistes clients réels sont des caves touristiques (Amboise, caveaux de châteaux), des bars à dégustation, un caviste en ligne et un réseau multi-boutiques.
 2. **Le directeur commercial (D) se rencontre d'abord en salon** - c'est le premier rôle des bases salons, y compris dans des domaines familiaux - mais dans les grandes maisons, l'interlocuteur quotidien est l'ADV ou le customer care, pas le directeur.
@@ -68,28 +68,6 @@ Les dix fiches, dans l'ordre - chaque ICP précise son poids dans l'effort comme
 | Persona E | Le client final étranger | Celui qu'il faut rassurer au comptoir |
 
 \page
-
-## Géographies prioritaires côté adhérents (chap. 01)
-
-| Territoire | Pourquoi c'est prioritaire |
-|---|---|
-| **Provence / Côte d'Azur** | Densité touristique maximale, réseau déjà dense (preuve sociale forte) |
-| **Vallée du Rhône Sud** | Paniers élevés, clientèle américaine |
-| **Champagne** | Panier premium, certificat CIVC obligatoire hors UE : notre service dédié fait mouche, mettre en avant le projet d'annexe en Champagne (chap. 02) |
-| **Bordeaux** | Volume, partenaires sur secteur : Direct Château & Winetailors |
-| **Bourgogne, Loire, Languedoc, Alsace, Sud-Ouest** | Expansion |
-| **Paris & grandes villes** | Cavistes, caves-expériences, conciergeries |
-| **Grand Ouest, Bretagne, Pays de la Loire** | En partenariat avec Aux Vignobles ! (chap. 04) |
-
-## Cartographie type d'un compte, à remplir dans le CRM (chap. 07)
-
-1. Identité : domaine/maison, appellation, volumes, gamme de prix.
-2. Flux visiteurs : nationalités, saisonnalité, panier caveau.
-3. Solution actuelle d'expédition + irritants vécus (litiges, refus, coûts).
-4. Décideur + utilisateurs (qui saisira sur Planet'Connect ?).
-5. Destinations demandées par ses clients (USA ? Canada ? Asie ?).
-6. Potentiel spiritueux / stockage / e-shop.
-7. Prochaine étape datée.
 
 ## ICP 1 - Domaine ou château avec caveau
 

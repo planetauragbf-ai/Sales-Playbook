@@ -1,6 +1,6 @@
 # Bibliographie et sources
 
-*Toutes les références de la recherche documentaire, par catégorie puis par auteur : le code [Sxx] renvoie aux chiffres clés de l'annexe C ; enquêtes, entretiens et tableaux de bord sont reproduits en annexe X, la documentation officielle en annexes F à J et O à Q, les procédures internes [S15] résumées aux chap. 11 et 16 et détaillées en annexe B. Outil de terrain, le glossaire est placé juste avant cette bibliographie.*
+*Toutes les références de la recherche documentaire, par catégorie puis par auteur : le code [Sxx] renvoie aux chiffres clés de l'annexe C ; enquêtes, entretiens et tableaux de bord sont reproduits en annexe X, la documentation officielle en annexes F à J et O à Q, les procédures internes [S15] résumées aux chap. 11 et 16. Outil de terrain, le glossaire est placé juste avant cette bibliographie.*
 
 ## Ouvrages
 

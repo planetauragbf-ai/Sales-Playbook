@@ -2,7 +2,11 @@
 module.exports = {
   '01': [
     { after: '^Saisonnalité : planifier', img: 'pics/dash_ship_evo.png', w: 398, caption: 'Shippings par mois, sept. 2025 - sept. 2026 (dashboard logistique Planet’Connect)' },
-    { after: '^Où chercher, où livrer', img: 'pics/dash_pays.png', w: 320, caption: 'Répartition réelle des shippings par pays sur 12 mois : USA 64,5 %, France 18,6 %' },
+    { after: '^Géographies prioritaires', pair: [
+      { img: 'pics/carte_vignobles.png', w: 235, caption: 'Les régions viticoles - terrains de prospection prioritaires' },
+      { img: 'pics/worldmap2.png', w: 285, caption: 'Les destinations desservies dans le monde' },
+    ] },
+    { after: '^Destinations demandées', img: 'pics/dash_pays.png', w: 320, caption: 'Répartition réelle des shippings par pays sur 12 mois : USA 64,5 %, France 18,6 %' },
   ],
   '02': [
     { after: '^Carte d’identité|^Carte d.identité', img: 'pics/site_castres.png', w: 400, caption: 'Le site Planet Aura à Castres (Tarn) - bureaux et entrepôt en propre' },
@@ -14,14 +18,14 @@ module.exports = {
     { after: '^L’équipe : quatre pôles|^L.équipe : quatre pôles', img: 'pics/team2.png', w: 430, caption: 'L’équipe Planet Aura' },
   ],
   '04': [
-    { after: '^Vue d’ensemble du catalogue|^Vue d.ensemble du catalogue', img: 'pics/vela_boat.png', w: 300, caption: 'Le voilier-cargo VELA - option de transport bas-carbone (conditionnelle, voir « Offres en développement »)' },
-    { after: '^Stockage, cartonnage', img: 'pics/entrepot.png', w: 308, caption: 'L’entrepôt de Castres : stockage et picking en propre' },
-    { after: '^USA Groupage DDP', img: 'diagrams/d04_usabars.png', w: 395, caption: 'Grille USA groupage 2026 : le coût par bouteille passe de 105 € à 14,2 € avec le colisage' },
-    { after: '^Planet’Connect : la plateforme|^Planet.Connect : la plateforme', img: 'pics/pc_sim_usa.png', w: 372, caption: 'Simulation réelle États-Unis dans Planet’Connect : transport, assurance, taxes DDP' },
+    { after: '^Vue d’ensemble du catalogue|^Vue d.ensemble du catalogue', img: 'pics/vela_boat.png', w: 320, caption: 'Le voilier-cargo VELA - option de transport bas-carbone (conditionnelle, voir « Offres en développement »)' },
+    { after: '^Stockage, cartonnage', img: 'pics/entrepot.png', w: 330, caption: 'L’entrepôt de Castres : stockage et picking en propre' },
+    { after: '^USA Groupage DDP', img: 'diagrams/d04_usabars.png', w: 430, caption: 'Grille USA groupage 2026 : le coût par bouteille passe de 105 € à 14,2 € avec le colisage' },
+    { after: '^Planet’Connect : la plateforme|^Planet.Connect : la plateforme', img: 'pics/pc_sim_usa.png', w: 396, caption: 'Simulation réelle États-Unis dans Planet’Connect : transport, assurance, taxes DDP' },
   ],
   '05': [
-    { after: 'familles d’acteurs|familles d.acteurs|carte des intervenants', img: 'diagrams/d10_carte.png', w: 520, caption: 'La carte des intervenants du secteur - chiffre d’affaires × spécialisation/diversification de l’offre' },
-    { after: '^Concurrents directs à la loupe', img: 'diagrams/d10_radar7p.png', w: 385, caption: 'Le face-à-face des spécialistes : analyse 7P, scores internes 0-5 (octobre 2026)' },
+    { after: 'familles d’acteurs|familles d.acteurs|carte des intervenants', img: 'diagrams/d10_carte.png', w: 406, caption: 'La carte des intervenants du secteur - chiffre d’affaires × spécialisation/diversification de l’offre' },
+    { after: '^Concurrents directs à la loupe', img: 'diagrams/d10_radar7p.png', w: 406, caption: 'Le face-à-face des spécialistes : analyse 7P, scores internes 0-5 (octobre 2026)' },
   ],
   '06': [
     { after: '^Le profil de client idéal', img: 'pics/carte_adherents.png', w: 356, caption: 'La carte des adhérents en France (Planet’Connect)' },
@@ -128,11 +132,3 @@ module.exports['X'] = [
 // Annexe J - CGS 2026 : texte intégral (document officiel, 10 pages)
 module.exports['J'] = (module.exports['J'] || []);
 for (let i = 1; i <= 10; i++) module.exports['J'].push({ after: '^Les CGS 2026, texte intégral', img: `annexes/cgs-${i}.png`, w: 520, caption: i === 10 ? 'Conditions Générales de Services Planet Aura 2026 - document officiel (10 pages)' : '' });
-
-// Annexe A - géographies prioritaires (déplacées du chap. 01)
-module.exports['A'] = (module.exports['A'] || []).concat([
-  { after: '^Géographies prioritaires côté adhérents', pair: [
-    { img: 'pics/carte_vignobles.png', w: 235, caption: 'Les régions viticoles - terrains de prospection prioritaires' },
-    { img: 'pics/worldmap2.png', w: 285, caption: 'Les destinations desservies dans le monde' },
-  ] },
-]);

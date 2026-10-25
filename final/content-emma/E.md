@@ -1,5 +1,5 @@
 # Annexe E - Scripts multicanaux et banque SPIN
-*La boîte à outils complète des chap. 06, 10 et 12 : séquences types et leurs embranchements, sources de prospection, appel de permission, emails à froid, LinkedIn, salon, réveil des dormants et banque de questions SPIN par persona - mots exacts prêts à l'emploi, à adapter au ton de chacun, jamais à réciter.*
+*La boîte à outils complète des chap. 06, 10 et 12 : séquences types, appel de permission, emails à froid, LinkedIn, salon, réveil des dormants et banque de questions SPIN par persona - mots exacts prêts à l'emploi, à adapter au ton de chacun, jamais à réciter.*
 
 ## Les trois séquences types (comptes structurés)
 
@@ -11,7 +11,7 @@
 
 ## La séquence automatisée pas à pas (Brevo + HubSpot)
 
-Le déclencheur et le diagramme sont au chap. 10 - voici le pas-à-pas, puis les embranchements :
+Le déclencheur, le diagramme et les embranchements sont au chap. 10 - voici le pas-à-pas :
 
 | Étape | Type | Contenu |
 |---|---|---|
@@ -24,17 +24,6 @@ Le déclencheur et le diagramme sont au chap. 10 - voici le pas-à-pas, puis les
 | J11 | Tâche | Appel 2 + message vocal |
 | J14 | Email 3 | Break-up : 1 / 2 / 3 |
 | J18 | Sortie | Nurture 45 j ou suppression |
-
-### Embranchements : réaction du prospect (chap. 10)
-
-| Embranchement | Réaction prospect | Action automatique | Intervention du commercial |
-|---|---|---|---|
-| Réponse email / rappel | Intérêt, question, refus poli | Cadence stoppée, tâche « répondre < 4 h » | Réponse personnelle, qualification CAVE, proposition de créneau |
-| RDV pris | Créneau accepté | Cadence stoppée, opportunité créée en étape 3 | Préparation du RDV (checklist, annexe B) |
-| Opposition / désinscription | « Ne me recontactez plus » | Cadence stoppée, contact en liste repoussoir HubSpot → Brevo | Aucune, motif « opposition » enregistré |
-| Erreur permanente (adresse invalide) | Bounce | Cadence stoppée, contact marqué à corriger | Recherche d'un autre contact ou clôture |
-| Réponse « 2 - plus tard » | Date indiquée | Sortie de cadence, rappel daté créé | Nurture jusqu'à la date, puis nouvelle cadence |
-| Aucune réaction à J18 | Silence | Nurture 45 jours (newsletter, contenu) | Vérification du signal avant toute nouvelle cadence |
 
 ## Parades express du cold call caveau
 
@@ -180,34 +169,5 @@ Support de préparation des rendez-vous et d'entraînement : choisir une questio
 | Importateur / distributeur (cadre de flux, cotation) | « Comment fonctionnent vos standards fournisseurs actuels ? Combien d'interlocuteurs entre vos fournisseurs et la réception ? » | « Où les standards sont-ils fragmentés d'un fournisseur à l'autre ? » | « Quel coût interne, quel risque d'audit, quelle rupture de responsabilité cela crée-t-il ? » | « Qu'apporterait un cadre unique de suivi et de documentation pour tous vos fournisseurs français ? » |
 | RSE / marketing (option VELA, méthode carbone) | « Quelles preuves d'impact avez-vous aujourd'hui sur le transport de vos vins ? » | « La preuve est-elle incomplète ou non comparable ? » | « Quel risque de greenwashing si un distributeur vous demande votre Scope 3 ? » | « Que feriez-vous d'une méthode attribuée et d'un contenu réutilisable ? » |
 | Distillerie (spiritueux USA) | « Comment répondez-vous aujourd'hui à un amateur américain qui veut vos bouteilles ? » | « Quels prestataires vous ont dit non, et pourquoi ? » | « Quel marché reste fermé faute de solution B2C ? » | « Si vous pouviez expédier 6 litres par personne en DDP aux USA, qui contacteriez-vous en premier ? » |
-
-## Les erreurs de découverte qui coûtent le rendez-vous (chap. 12)
-
-| L'erreur classique | Le réflexe correctif |
-|---|---|
-| Pitcher avant d'avoir diagnostiqué | Revenir à une question d'implication : tant que le prospect n'a pas formulé le coût de son problème, la solution n'a pas de valeur |
-| Enchaîner les questions de situation (effet questionnaire) | Une seule question de situation utile - le reste se prépare avant le rendez-vous (CRM, site, annexe A) |
-| Reformuler sans laisser de trous | La reformulation à trous fait corriger et valider le diagnostic par le prospect : c'est lui qui pose les mots |
-| Noter de mémoire après le rendez-vous | Le bénéfice attendu se note mot pour mot pendant l'échange - c'est cette phrase qui ouvrira la proposition |
-| Conclure sans prochaine étape datée | La clôture engage toujours une action, un responsable et une date - sinon le rendez-vous n'a pas de suite |
-
-## Sources de prospection et outils de la cadence (chap. 10)
-
-| Source | Usage |
-|---|---|
-| Terrain et carte | Google Maps par appellation (domaines avec caveau, avis en anglais = clientèle étrangère), tournées géographiques en basse saison |
-| Annuaires filière | Vignerons Indépendants, interprofessions (CIVC, CIVP, Inter Rhône…), label Vignobles & Découvertes, listes d'exposants des salons |
-| Registres d'entreprises | Pappers / societe.com pour qualifier (forme juridique, dirigeants, santé financière) avant un RDV P1 |
-| Signaux numériques | E-shops sans livraison internationale, avis TripAdvisor/Google mentionnant des étrangers, offres d'emploi saisonnières caveau |
-| Réseau | Recommandations d'adhérents (à chaque premier envoi réussi), prescripteurs œnotourisme, organisateurs de salons |
-
-| Outil | Rôle | Règle d'usage |
-|---|---|---|
-| HubSpot (CRM) | Système de vérité : comptes, contacts, deals, consentements | Tout contact loggé < 24 h, aucune liste hors CRM |
-| Brevo | Séquences email et campagnes réseau | Modèles validés uniquement, lien de désinscription systématique |
-| Planet'Connect | Simulateur en démo, compte de démonstration | La démo se fait toujours sur les vins du prospect |
-| LinkedIn | Social selling : connexion + message de suivi (message 2 de la séquence LinkedIn) | Compte personnel soigné, Sales Navigator selon dotation, à confirmer avec la direction |
-| Téléphone / WhatsApp Business | Canal principal des cadences et de la relation adhérents | Appel loggé dans HubSpot (objet, verbatim utile, next step) |
-| Google Workspace | Supports partagés, visio, dossiers de renouvellement | Documents officiels uniquement depuis le Drive de référence |
 
 > 📌 **À RETENIR -** Tout script de cette annexe obéit aux règles du chap. 10 : personnalisation obligatoire (nom, appellation, un fait vérifiable), toute variable [entre crochets] remplacée par une donnée vérifiée - si la donnée n'existe pas, la phrase saute - et toute réponse arrête l'automatisation et crée une tâche humaine. Les quatre familles SPIN et leur usage en rendez-vous sont au chap. 12.

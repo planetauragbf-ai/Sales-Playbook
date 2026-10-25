@@ -10,15 +10,6 @@
 12 btls|couverture maximale d'un certificat CIVC
 ```
 
-## Les destinations demandées par les clients finaux (chap. 01)
-
-- **USA** : groupage DDP (produit phare), direct pour 18+ États.
-- **UE** (Allemagne, Belgique, Pays-Bas, Italie, Espagne, Scandinavie) : simple, TTC, 3-5 jours.
-- **Royaume-Uni & Suisse** : dès 30 €, 4-5 jours.
-- **Canada** (AB, BC, ON, QC) : DAP, POA + liquor board, cadre à bien expliquer.
-- **Asie** (Japon, Hong Kong, Singapour, Corée, Taïwan) : paniers premium.
-- **Océanie, Norvège, DOM** : DAP, grilles spécifiques.
-
 ## Le cadre commun à toutes les destinations
 
 - **Produits admis (grille standard)** : vins et champagnes ≤ **21°** (hors envois France), destinés à la **consommation personnelle de particuliers**. Spiritueux : uniquement via la solution USA dédiée (2026). B2B : sur étude.
@@ -48,7 +39,7 @@ Le marché américain fonctionne en **three-tier system** (importateur, grossist
 
 ### Qualifier un dossier USA avant de chiffrer : les 8 questions obligatoires
 
-Règle : **ne jamais confondre une demande de prix et un dossier export qualifié.** Dès qu'un dossier sort du B2C particulier standard, dérouler les 8 questions (processus de cotation : chap. 11, détail en annexe B) :
+Règle : **ne jamais confondre une demande de prix et un dossier export qualifié.** Dès qu'un dossier sort du B2C particulier standard, dérouler les 8 questions (processus de cotation au chap. 11) :
 
 1. **Qui est l'importateur officiel ?** (nom, licence, responsabilités)
 2. **B2B, B2C ou B2B2C ?** (schéma de distribution)
