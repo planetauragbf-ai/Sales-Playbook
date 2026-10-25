@@ -211,7 +211,7 @@ Jamais d'invitation générique. Message (moins de 300 caractères) :
 > 3. nous enlevons chez vous, emballons en cartons homologués, gérons douane et taxes prépayées (DDP),
 > 4. il suit son colis jusqu'à sa porte, couvert jusqu'à 20 000 € par l'assurance souscrite à la commande.
 >
-> Un chiffre : 12 bouteilles livrées au Texas, c'est ~210 € de transport, taxes prépayées, assuré. Vos clients américains le paient sans sourciller - c'est le prix de leur excédent bagage, sans le risque.
+> Un chiffre : 12 bouteilles livrées au Texas, c'est ~210 € de transport, taxes prépayées, assurance en option (3 %). Vos clients américains le paient sans sourciller - c'est le prix de leur excédent bagage, sans le risque.
 >
 > 25 minutes pour le voir avec vos vins, avant votre saison ? Je m'adapte aux horaires du caveau.
 >

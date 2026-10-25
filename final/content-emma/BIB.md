@@ -1,6 +1,6 @@
 # Bibliographie et sources
 
-*Toutes les références de la recherche documentaire, par catégorie puis par auteur : le code [Sxx] renvoie aux chiffres clés de l'annexe C, les sources internes sont reproduites en annexe Y.*
+*Toutes les références de la recherche documentaire, par catégorie puis par auteur : le code [Sxx] renvoie aux chiffres clés de l'annexe C ; enquêtes, entretiens et tableaux de bord sont reproduits en annexe Y, la documentation officielle en annexes F à J et O à Q, les procédures internes [S15] résumées aux chap. 11 et 16. Outil de terrain, le glossaire reste en annexe V.*
 
 ## Ouvrages
 
@@ -28,8 +28,9 @@
 
 - MANFREDINI Nicolas, WINALIST (2026). *Observatoire de l'œnotourisme en France 2026 : qui sont vraiment les visiteurs des domaines viticoles ?* [baromètre, 15 000 réservations confirmées en 2025]. Winalist, Reims, 25/05/2026, mis à jour le 28/05/2026. https://www.winalist.fr/blog/observatoires/observatoire-2026. Consulté le 24/10/2026. [S05]
 - McMILLAN Rob, SILICON VALLEY BANK (2026). *State of the U.S. Wine Industry 2026* [rapport annuel, enquête auprès des wineries américaines]. SVB Wine Division, First-Citizens Bank & Trust Company, États-Unis, 15/01/2026. https://www.firstcitizens.com/content/dam/firstcitizens/pdfs/commercial/expertise/wine/wine-report-2026.pdf. Consulté le 24/10/2026. [S19]
-- SOWINE, DYNATA (2026). *Baromètre SOWINE / Dynata 2026 : le digital, au cœur des nouveaux parcours consommateurs* [baromètre annuel, enquête en ligne auprès de 1 003 Français de 18 à 65 ans, décembre 2025]. SOWINE, Paris, 29/04/2026. https://www.sowine.com/blog/barometre-sowine-dynata-2026-le-digital-au-coeur-des-nouveaux-parcours-consommateurs/. Consulté le 24/10/2026. [S06] (édition 2025 : https://www.sowine.com/blog/barometre-sowine-dynata-2025-les-francais-et-le-vin-avec-marie-mascre-partie-1/)
-- XERFI (2026). *Le marché du freight forwarding* [étude de marché payante, réf. 26STR05, 269 p.]. Xerfi, Paris, mise à jour du 19/10/2026. https://www.xerfi.com/presentationetude/le-marche-du-freight-forwarding_STR05. Consulté le 24/10/2026. [S18] (édition antérieure « Le freight forwarding en France » citée dans l'étude Bloc 1, 2025)
+- SOWINE, DYNATA (2025). *Baromètre SOWINE/Dynata 2025 : les Français et le vin avec Marie Mascré* [retranscription du podcast SOWINE Talks 107, baromètre annuel]. SOWINE, Paris, 09/04/2025. https://www.sowine.com/blog/barometre-sowine-dynata-2025-les-francais-et-le-vin-avec-marie-mascre-partie-1/. Consulté le 24/10/2026. [S06]
+- SOWINE, DYNATA (2026). *Baromètre SOWINE / Dynata 2026 : le digital, au cœur des nouveaux parcours consommateurs* [épisode de podcast SOWINE Talks sur le baromètre annuel, enquête en ligne auprès de 1 003 Français de 18 à 65 ans, décembre 2025 ; résultats parus dès mars 2026, cf. Vitisphere]. SOWINE, Paris, 29/04/2026. https://www.sowine.com/blog/barometre-sowine-dynata-2026-le-digital-au-coeur-des-nouveaux-parcours-consommateurs/. Consulté le 24/10/2026. [S06]
+- XERFI (2026). *Le marché du freight forwarding* [fiche de présentation publique d'une étude payante, réf. 26STR05, 269 p.]. Xerfi, Paris, mise à jour du 19/10/2026. https://www.xerfi.com/presentationetude/le-marche-du-freight-forwarding_STR05. Consulté le 24/10/2026. [S18] (édition antérieure « Le freight forwarding en France » citée dans l'étude Bloc 1, 2025)
 
 ## Articles de presse
 
@@ -45,6 +46,7 @@
 - CNIL (2026). *Communications par voie électronique aux prospects et clients : quelles règles respecter ?* [fiche pratique]. Commission nationale de l'informatique et des libertés, Paris, 10/06/2026. https://www.cnil.fr/fr/communication-electronique-quelles-regles. Consulté le 24/10/2026. [S21]
 - CNIL (2026). *Recommandation relative aux pixels de suivi dans les courriers électroniques* [recommandation, version adoptée le 12/03/2026]. CNIL, Paris, publiée le 14/04/2026. https://www.cnil.fr/sites/default/files/2026-04/recommandation-pixels_de_suivi.pdf. Consulté le 24/10/2026. [S22]
 - DGDDI (s. d.). *Exporter du vin et des produits viti-vinicoles* [fiche démarche]. Direction générale des douanes et droits indirects, Montreuil. https://www.douane.gouv.fr/demarche/exporter-du-vin-et-des-produits-viti-vinicoles. Consulté le 24/10/2026. [S11]
+- FEDERAL EXPRESS CANADA CORPORATION (2017). *General Agency Agreement and Power of Attorney with Power to Appoint a Sub-Agent* [formulaire de mandat de dédouanement (POA) Canada, 6 p. avec instructions]. FedEx, Mississauga (Ontario), 02/2017. Document fourni par l'exploitation Planet Aura ; page de mandat reproduite en annexe M.
 - GOOGLE (2026). *Planet Aura : fiche d'établissement et avis clients* [avis publics en ligne, relevés de septembre 2026], repris par le widget d'avis du site Planet Aura. https://planet-aura.com. Consulté le 24/10/2026. [S13]
 - ISTA (2018). *Procedure 3A: Packaged-Products for Parcel Delivery System Shipment 70 kg (150 lb) or Less* [norme d'essai d'emballage, présentation]. International Safe Transit Association, East Lansing (Michigan), 03/2018. https://ista.org/docs/3Aoverview.pdf. Consulté le 24/10/2026. [S24]
 - LA POSTE (s. d.). *Comment expédier du vin aux États-Unis ?* [page conseil aux professionnels]. La Poste, Paris. https://www.laposte.fr/professionnel/expedier/expedier-vin-etats-unis. Consulté le 24/10/2026. [S12]

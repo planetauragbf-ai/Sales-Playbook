@@ -75,7 +75,7 @@
   {
    "file": "08.md",
    "old": "preuve : Planet Provence (n° 1 du top 10), Break Events",
-   "new": "preuve : comptes 1 et 9 du top 10 (chap. 06)",
+   "new": "preuve : deux comptes du top 10 (chap. 06)",
    "count": 1
   },
   {
@@ -105,7 +105,7 @@
   {
    "file": "fiches-emma.js",
    "old": "Planet Provence, premier compte du réseau, né d'un wine tour",
-   "new": "Le compte n° 1 du réseau, né d'un wine tour",
+   "new": "Une agence de wine tours dans le top 10 du réseau",
    "count": 1
   },
   {
@@ -117,7 +117,7 @@
   {
    "file": "C.md",
    "old": "chez un caviste adhérent (La Maison du Vouvray)",
-   "new": "chez un caviste adhérent (Loire)",
+   "new": "chez un caviste adhérent",
    "count": 1
   },
   {
@@ -147,7 +147,7 @@
   {
    "file": "C.md",
    "old": "| Valérie Mingot, Maison du Vouvray · déc. 2020 |",
-   "new": "| Adhérent (Vouvray) · déc. 2020 |",
+   "new": "| Adhérent historique · déc. 2020 |",
    "count": 1
   },
   {
@@ -213,7 +213,7 @@
   {
    "file": "A.md",
    "old": "(La Maison du Vouvray, caviste)",
-   "new": "(un caviste de la Loire)",
+   "new": "(un caviste adhérent)",
    "count": 1
   },
   {
@@ -243,7 +243,7 @@
   {
    "file": "A.md",
    "old": "juin 2019 » (Maison du Vouvray).",
-   "new": "juin 2019 » (un adhérent de Vouvray).",
+   "new": "juin 2019 » (un adhérent historique).",
    "count": 1
   },
   {
@@ -256,6 +256,48 @@
    "file": "image-placements-emma.js",
    "old": "Certificat de Champagne (CIVC) - exemplaire réel",
    "new": "Certificat de Champagne (CIVC) - exemplaire réel, caviardé pour l’édition école",
+   "count": 1
+  },
+  {
+   "file": "02.md",
+   "old": "Planet Provence (wine tours dirigés par Brice) devient le premier client.",
+   "new": "Le premier client vient du réseau des fondateurs.",
+   "count": 1
+  },
+  {
+   "file": "fiches-emma.js",
+   "old": "Le premier compte du réseau est né d'un wine tour",
+   "new": "Un des gros comptes du réseau vient du wine tour",
+   "count": 1
+  },
+  {
+   "file": "fiches-emma.js",
+   "old": "organisateurs de salons (GL events, Aux Vignobles !, Break Events)",
+   "new": "organisateurs de salons et de foires aux vins",
+   "count": 1
+  },
+  {
+   "file": "06.md",
+   "old": "axe organisateurs (GL events, Aux Vignobles !, Break Events)",
+   "new": "axe organisateurs de salons et de foires aux vins",
+   "count": 1
+  },
+  {
+   "file": "04.md",
+   "old": "stockage tampon (GL events, Aux Vignobles !, Break Events…)",
+   "new": "stockage tampon (organisateurs de salons, Aux Vignobles !…)",
+   "count": 1
+  },
+  {
+   "file": "A.md",
+   "old": "caves touristiques (Amboise, caveaux de châteaux)",
+   "new": "caves touristiques (Val de Loire, caveaux de châteaux)",
+   "count": 1
+  },
+  {
+   "file": "A.md",
+   "old": "Le directeur d'une cave touristique de la Loire enchaîne",
+   "new": "Le directeur d'une cave touristique enchaîne",
    "count": 1
   }
  ],
@@ -271,6 +313,10 @@
   {
    "asset": "annexes/planetstock-1.png",
    "redacted": "ecole/planetstock-1.png"
+  },
+  {
+   "asset": "pics/dash_repartitions.png",
+   "redacted": "ecole/dash_repartitions.png"
   }
  ],
  "cover_note": "ÉDITION ÉCOLE · DONNÉES CLIENTS ANONYMISÉES"

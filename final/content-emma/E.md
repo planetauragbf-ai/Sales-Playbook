@@ -68,7 +68,7 @@ Planet Aura est commissionnaire de transport spécialisé vins & champagnes. Con
 
 ### Relance J+4 · Objet : [Domaine X] - un chiffre
 
-Bonjour [Prénom], en un chiffre : 12 bouteilles livrées au Texas = ~210 € de transport, taxes prépayées, assuré. Vos clients américains le paient sans sourciller - c'est le prix de leur excédent bagage, sans le risque. On en parle 20 minutes cette semaine ?
+Bonjour [Prénom], en un chiffre : 12 bouteilles livrées au Texas = ~210 € de transport, taxes prépayées, assurance en option (3 %). Vos clients américains le paient sans sourciller - c'est le prix de leur excédent bagage, sans le risque. On en parle 20 minutes cette semaine ?
 
 ### Relance J+10 · Objet : [Domaine X] - ce qu'un voisin a fait la saison dernière
 

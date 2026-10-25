@@ -13,11 +13,11 @@ Les chiffres d'enquête des chap. 04, 07 et 17 et des annexes A et C reposent su
 | Outil | Google Forms « Questionnaire de satisfaction 2024 » (créé le 20/01/2025), 20 questions hors identification |
 | Canal | E-mail « Chers clients » adressé aux adhérents, puis une relance « Votre avis compte ! » |
 | Collecte | Du 22/01/2025 au 14/02/2025 : 9 réponses du 22 au 24/01, 13 le 30/01, 1 le 14/02 |
-| Population sollicitée | Adhérents clients 2024 : 131 comptes ayant expédié en 2024 (fichier client 2024) |
-| Répondants · taux | 23 répondants, soit un taux de réponse d'environ 18 % |
+| Population de référence | Adhérents clients 2024 : 131 comptes ayant expédié en 2024 (fichier client 2024) |
+| Répondants · taux | 23 répondants, soit un taux de réponse estimé à environ 18 % des 131 comptes du fichier client 2024 |
 | Libellé | « 2024 » désigne l'année évaluée : la collecte a eu lieu en janvier-février 2025 |
 
-*Source : formulaire et fichier de réponses, Drive Planet Aura (23 lignes, colonnes d'identification exclues) ; objet : satisfaction 2024 et attentes pour le nouvel espace adhérent ; traitement de l'auteure, octobre 2026.*
+*Source : formulaire et fichier de réponses, Drive Planet Aura (23 lignes, colonnes d'identification exclues) ; objet : satisfaction 2024 et attentes pour le nouvel espace adhérent ; recalcul à partir du fichier de réponses, octobre 2026.*
 
 ### Le questionnaire
 
@@ -28,9 +28,9 @@ Les chiffres d'enquête des chap. 04, 07 et 17 et des annexes A et C reposent su
 5. Êtes-vous satisfait des informations fournies concernant la livraison et son suivi pour les expéditions vers les États-Unis ? *(oui / non / autre)*
 6. Le suivi de votre expédition a-t-il été clair ? Si non, avez-vous des idées pour améliorer ce suivi ? *(oui / non / autre)*
 7. Quelle est votre opinion sur le processus de commande et de livraison avec Planet Aura, notamment en ce qui concerne les devis, l'envoi de documents, etc. ? *(échelle 1-5)*
-8. Êtes-vous satisfait du service après vente ? Expliquer brièvement pourquoi *(oui / non + précision)*
+8. Êtes-vous satisfait du service après vente [sic] ? Expliquer brièvement pourquoi *(oui / non + précision)*
 9. Quels aspects de notre service vous ont particulièrement satisfaits ? *(texte libre)*
-10. Pourriez vous être intéressé par nos services d'entreposage, notre prestation est modulable et s'adapte à vos besoins (stock palette, manutention, picking et l'enregistrement des commandes...). Si oui, nous vous contacterons afin d'en discuter directement avec vous. *(oui / non)*
+10. Pourriez vous [sic] être intéressé par nos services d'entreposage, notre prestation est modulable et s'adapte à vos besoins (stock palette, manutention, picking et l'enregistrement des commandes...). Si oui, nous vous contacterons afin d'en discuter directement avec vous. *(oui / non)*
 11. Comment évaluez-vous la compétitivité des prix proposés par notre commissionnaire par rapport à d'autres prestataires ? *(cases à cocher + autre)*
 12. Les moyens de communication (téléphone, email, plateforme en ligne, etc.) étaient-ils adaptés et efficaces pour gérer vos demandes ? *(oui / non / autre)*
 13. Quels sont, selon vous, les points forts et les points faibles de Planet Aura ? *(texte libre)*
@@ -62,7 +62,7 @@ Les chiffres d'enquête des chap. 04, 07 et 17 et des annexes A et C reposent su
 
 Réponses ouvertes (Q9, Q13 à Q18), en nombre de répondants sur 23 : **points forts** - réactivité et rapidité d'exécution 19 (83 %), espace adhérent jugé simple et clair 10 (43 %), disponibilité et écoute de l'équipe 8 (35 %), simulateur de prix cité spontanément 7 (30 %), professionnalisme 5, gestion des douanes et taxes 3, gestion des casses 3 ; **axes d'amélioration** - espace adhérent (modernité, ergonomie, recherche, saisie, affichage) 16 (70 %), prix et lisibilité des taxes et frais 5, facturation (envoi, récapitulatif) 5, précision du suivi et information des clients finaux 4, délais d'acheminement vers les États-Unis 4, intégration aux logiciels de gestion 4, couverture (codes postaux USA, nouvelles destinations, enlèvements) 3.
 
-*Lecture : codage thématique par l'auteure, un répondant compté une fois par thème ; trois des sept questions ouvertes portent sur l'espace adhérent (Q15 à Q17). Une seconde vague (questionnaire 2025, 9 réponses du 2 au 6 janvier 2026) n'est pas exploitée : effectif trop faible pour comparer.*
+*Lecture : codage thématique, un répondant compté une fois par thème ; trois des sept questions ouvertes portent sur l'espace adhérent (Q15 à Q17). Une seconde vague (questionnaire 2025, 9 réponses du 2 au 6 janvier 2026) n'est pas exploitée : effectif trop faible pour comparer.*
 
 ## Y.2 Enquête « transport écologique » auprès des clients (mars-juin 2025)
 
@@ -75,7 +75,7 @@ Réponses ouvertes (Q9, Q13 à Q18), en nombre de répondants sur 23 : **points 
 | Répondants · taux | 20 répondants, soit un taux de réponse de 14 % |
 | Profil | 11 vignerons, 9 cavistes ; 11 clients depuis plus de 3 ans ; 12 exportent avec Planet Aura d'abord vers les États-Unis |
 
-*Source : formulaire et fichier de réponses, Drive Planet Aura (20 lignes) ; population et taux d'ouverture : reprise partielle de l'étude de marché Bloc 1 (Euridis, 2025) ; traitement de l'auteure, octobre 2026. Projet VELA en développement, toujours conditionnel (chap. 04).*
+*Source : formulaire et fichier de réponses, Drive Planet Aura (20 lignes) ; population et taux d'ouverture : reprise partielle de l'étude de marché Bloc 1 (Euridis, 2025) ; recalcul à partir du fichier de réponses, octobre 2026. Projet VELA en développement, toujours conditionnel (chap. 04).*
 
 | Question (libellé du formulaire) | Résultats (n = 20) |
 |---|---|
@@ -92,12 +92,12 @@ Réponses ouvertes (Q9, Q13 à Q18), en nombre de répondants sur 23 : **points 
 | Q11 Si Planet Aura vous proposait une offre de transport écoresponsable par voilier cargo, seriez-vous : | Très intéressé 4 (20 %) et intéressé 8 (40 %), soit **12 (60 %)** ; à étudier selon les conditions 6 (30 %) ; peu intéressé 2 (10 %) |
 | Q12 Quels avantages percevriez-vous dans cette offre ? (2 réponses max.) *(cases à cocher)* | Réduction des émissions de CO2 18 (90 %), argument marketing 11 (55 %), image de marque 6 (30 %), cohérence avec les engagements RSE 5 (25 %) |
 | Q13 Et quels freins principaux envisageriez-vous ? (2 réponses max.) *(cases à cocher + autre)* | Allongement des délais 17 (85 %), coût supérieur 17 (85 %), complexité administrative 4 (20 %), contraintes logistiques 3 (15 %), autre (exposition prolongée à la chaleur) 1 |
-| Q14 Quel surcoût maximum seriez-vous prêt à accepter pour une expédition en voilier cargo ? | Jusqu'à +10 % 7 (35 %), entre +10 et +20 % 1 (5 %), à étudier selon les conditions 7 (35 %), aucun 5 (25 %) |
+| Q14 Quel surcoût maximum seriez-vous prêt à accepter pour une expédition en voilier cargo ? | Jusqu'à +10 % 7 (35 %), entre +10 et +20 % 1 (5 %), soit 8 (40 %) qui acceptent un surcoût de +10 % (chap. 04) ; à étudier selon les conditions 7 (35 %), aucun 5 (25 %) |
 | Q15 Quelle fréquence d'utilisation imagineriez-vous pour ce type de transport ? | Régulièrement sur certains marchés 6 (30 %), plusieurs fois par an 6 (30 %), une fois par an 4 (20 %), non concerné 4 (20 %) |
 | Q16 Seriez-vous prêt à mutualiser vos expéditions avec d'autres producteurs pour réduire les coûts ? | Oui 12 (60 %), à étudier selon les conditions 5 (25 %), non 3 (15 %) |
 | Q17 Seriez-vous volontaire pour participer à un projet pilote de Planet Aura autour du transport par voilier cargo ? | Oui, à recontacter 4 (20 %) ; potentiellement, selon les détails 12 (60 %) ; non 4 (20 %) |
 
-*Lecture : choix unique sauf mention. La limite « 2 réponses maximum » n'était pas bloquante (jusqu'à 7 forces cochées), d'où des totaux supérieurs à 100 % en Q5, Q6, Q12 et Q13. Le questionnaire clients ne comportait pas de question sur le délai acceptable : le « délai ≤ 4 semaines » du chap. 04 vient des seuls prospects (Y.3).*
+*Lecture : choix unique sauf mention. La limite « 2 réponses maximum » n'était pas bloquante (jusqu'à 7 forces cochées), d'où des totaux supérieurs à 200 % en Q5 (300 %) et Q13 (210 %). Le questionnaire clients ne comportait pas de question sur le délai acceptable : le « délai ≤ 4 semaines » du chap. 04 vient des seuls prospects (Y.3).*
 
 > ⚠️ **LE POINT DE VIGILANCE -** L'étude de marché Bloc 1 (2025) présentait cette enquête avec 40 réponses et 70 % d'intérêt. Le recalcul ligne par ligne du fichier de réponses horodaté donne **20 réponses (26/03-03/06/2025) et 60 % d'intérêt** : ce sont les chiffres retenus par le playbook.
 
@@ -108,10 +108,10 @@ Réponses ouvertes (Q9, Q13 à Q18), en nombre de répondants sur 23 : **points 
 | Outil | Google Forms « Questionnaire prospect - Étude sur l'intérêt pour le transport écologique par voilier cargo » (créé le 19/03/2025), 18 questions hors identification |
 | Canal | Lien e-mail adressé aux prospects (publipostage « Vela » du 26/03 au 04/04/2025) |
 | Collecte | 1 réponse le 28/03/2025, 3 réponses le 02/06/2025 |
-| Répondants · taux | 4 répondants : échantillon indicatif, sans valeur statistique ; taux de réponse non significatif |
+| Répondants · taux | 4 répondants, dont 1 client ayant aussi répondu à Y.2 : échantillon indicatif, sans valeur statistique ; taux de réponse non calculable |
 | Profil | 2 négociants, 1 producteur de vin ou de champagne, 1 « entreprise » d'une autre activité ; 3 structures de 6 à 20 salariés |
 
-*Source : formulaire et fichier de réponses, Drive Planet Aura (4 lignes) ; traitement de l'auteure, octobre 2026. Choix unique sauf mention ; avec n = 4, résultats en effectifs, sans pourcentage ni verbatim.*
+*Source : formulaire et fichier de réponses, Drive Planet Aura (4 lignes) ; recalcul à partir du fichier de réponses, octobre 2026. Choix unique sauf mention ; avec n = 4, résultats en effectifs, sans pourcentage ni verbatim.*
 
 | Question (libellé du formulaire) | Réponses (n = 4) |
 |---|---|
@@ -120,7 +120,7 @@ Réponses ouvertes (Q9, Q13 à Q18), en nombre de répondants sur 23 : **points 
 | Q3 Quelles sont vos principales zones d'exportation ? (plusieurs réponses possibles) *(cases à cocher)* | Europe 4, États-Unis 1 |
 | Q4 Quels modes de transport utilisez-vous principalement pour l'exportation ? *(cases à cocher)* | Routier 2, maritime (conteneurs) 2, aérien 1 |
 | Q5 Quelle est la fréquence de vos expéditions à l'export ? | 2 à 5 fois par mois 2, toutes les semaines 2 |
-| Q6 Par qui faites-vous appel pour l'organisation logistique ? | Commissionnaire de transport 2, transporteur direct 2 |
+| Q6 Par qui [sic] faites-vous appel pour l'organisation logistique ? | Commissionnaire de transport 2, transporteur direct 2 |
 | Q7 Votre entreprise est-elle engagée dans une démarche RSE ? (définition de la RSE rappelée sous la question) | Oui 2, en cours de réflexion 2 |
 | Q8 Vos produits bénéficient-ils d'un ou plusieurs labels environnementaux ? *(oui / non)* | Oui 2, non 2 |
 | Q9 Dans quelle mesure vos clients (importateurs, consommateurs) expriment-ils une attente en matière de transport durable ? | Modérément 2, faiblement 1, ne sait pas 1 |
@@ -140,7 +140,7 @@ Réponses ouvertes (Q9, Q13 à Q18), en nombre de répondants sur 23 : **points 
 
 ### Les entretiens semi-directifs VELA (2025)
 
-Dans le cadre de l'étude de marché Bloc 1, 20 clients « ambassadeurs », principalement des producteurs indépendants et des cavistes, ont été sollicités pour un entretien semi-directif sur le projet VELA (projet en développement, toujours conditionnel - chap. 04). **10 entretiens ont été réalisés en 2025** ; les autres n'ont pas abouti (absence de réponse, indisponibilité, report sans suite). Ces 20 clients ont été exclus de l'envoi du questionnaire Y.2. L'étude ne détaille pas les entretiens un par un : seuls le guide (60 minutes prévues) et la synthèse publiée sont reproduits, sans identité ni date individuelle.
+Dans le cadre de l'étude de marché Bloc 1, 20 clients « ambassadeurs », principalement des producteurs indépendants et des cavistes, ont été sollicités pour un entretien semi-directif sur le projet VELA (projet en développement, toujours conditionnel - chap. 04). **10 entretiens ont été réalisés en 2025** ; les autres n'ont pas abouti (absence de réponse, indisponibilité, report sans suite). Ces 20 clients ont été exclus de l'envoi du questionnaire Y.2. L'étude ne détaille pas les entretiens un par un : seuls le guide (60 minutes prévues) et la synthèse rédigée sont reproduits, sans identité ni date individuelle.
 
 *Guide d'entretien : introduction (5 min) - présentation succincte du projet VELA, objectifs de l'entretien, assurance de confidentialité ; puis six thèmes ; conclusion (5 min) - remerciements et suites données.*
 
@@ -163,9 +163,9 @@ Dans le cadre de l'étude de marché Bloc 1, 20 clients « ambassadeurs », prin
 17. *Suggestions et recommandations (5 min)* - Avez-vous des suggestions particulières pour améliorer l'offre proposée ?
 18. Souhaitez-vous ajouter quelque chose que nous n'avons pas abordé ?
 
-Synthèse publiée dans l'étude : un accueil favorable au principe (innovant, éthique, différenciant) ; des attentes de différenciation sur les marchés sensibles (États-Unis, Canada) et de cohérence RSE, un surcoût jugé acceptable s'il sert une stratégie premium ; des freins de méconnaissance, de fiabilité (délais, fréquence des départs, météo) et de prix pour les petites structures ; une adhésion conditionnée à la sécurité des produits, à un tarif accessible et à une chaîne intégrée du premier au dernier kilomètre. Deux propos rapportés : « Pour certains marchés, ça peut clairement être un argument commercial » ; « On aime l'idée, mais on ne sait pas comment ça marche concrètement ».
+Synthèse rédigée dans l'étude : un accueil favorable au principe (innovant, éthique, différenciant) ; des attentes de différenciation sur les marchés sensibles (États-Unis, Canada) et de cohérence RSE, un surcoût jugé acceptable s'il sert une stratégie premium ; des freins de méconnaissance, de fiabilité (délais, fréquence des départs, météo) et de prix pour les petites structures ; une adhésion conditionnée à la sécurité des produits, à un tarif accessible et à une chaîne intégrée du premier au dernier kilomètre. Deux propos rapportés : « Pour certains marchés, ça peut clairement être un argument commercial » ; « On aime l'idée, mais on ne sait pas comment ça marche concrètement ».
 
-*Reprise partielle de l'étude de marché Bloc 1 (Soares Britschgy E., Étude de marché et intelligence économique, livrable individuel, Euridis, 2025) : annexe 8 (guide d'entretien) et partie VI (résultats qualitatifs).*
+*Reprise partielle de l'étude de marché Bloc 1 (Soares Britschgy E., Élaboration de la stratégie commerciale et marketing, partie 1, livrable individuel confidentiel, Euridis, 2025) : annexe 8 (guide d'entretien) et partie VI (résultats qualitatifs).*
 
 ### La validation des personas : des échanges écrits, pas des entretiens
 

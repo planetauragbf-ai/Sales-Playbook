@@ -83,7 +83,7 @@ module.exports = {
     "objections": [
       {
         "objection": "« C'est cher, 210 € pour 12 bouteilles »",
-        "reponse": "~17 € par bouteille livrée et assurée ; c'est le client qui paie, et l'alternative c'est de ne pas avoir votre vin",
+        "reponse": "~17 € par bouteille livrée, assurance 3 % en option ; c'est le client qui paie, et l'alternative c'est de ne pas avoir votre vin",
         "ref": "O-1"
       },
       {
@@ -913,7 +913,7 @@ module.exports = {
         "bullets": [
           "« Certificat CIVC géré à chaque envoi. »",
           "« Groupage USA en DDP, 36 bouteilles par envoi, last-mile supervisé par notre équipe US. »",
-          "« Obligation de résultat écrite dans nos CGS ; assurance 20 000 €. »",
+          "« Obligation de résultat écrite dans nos CGS ; assurance en option jusqu'à 20 000 €/envoi. »",
           "« Option maritime à faibles émissions, après diagnostic » (jamais « zéro carbone »)"
         ]
       },
@@ -1015,7 +1015,7 @@ module.exports = {
         "heading": "Ce qu'il veut entendre",
         "bullets": [
           "« Everything is prepaid: no customs paperwork, no surprise fees. Your wine arrives at your door. »",
-          "« About €105 up to 3 bottles, about €210 for 12 to the USA, insured. »",
+          "« About €105 up to 3 bottles, about €210 for 12 to the USA, insurance option 3 %. »",
           "« About three weeks for consolidated shipping, five days express. »"
         ]
       },
@@ -1031,7 +1031,7 @@ module.exports = {
         "heading": "Canaux, vocabulaire et sources",
         "bullets": [
           "Au comptoir, via l'adhérent uniquement ; emails de suivi Planet Aura en anglais",
-          "Vocabulaire : door-to-door, prepaid duties, insured, tracking",
+          "Vocabulaire : door-to-door, prepaid duties, insurance option, tracking",
           "RGPD : ses données servent à l'exécution du contrat, jamais à notre prospection"
         ]
       }

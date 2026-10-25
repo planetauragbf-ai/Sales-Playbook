@@ -1,5 +1,5 @@
 # Avant de commencer
-*Ce qu'il faut lire, savoir et respecter avant d'ouvrir le premier chapitre : remerciements, cadre de confidentialité, mot de la fondatrice et de l'équipe, mode d'emploi du document, règles d'or et planning de vos premiers mois.*
+*Ce qu'il faut lire, savoir et respecter avant d'ouvrir le premier chapitre : remerciements, cadre de confidentialité, mot de la fondatrice et de l'équipe. Le mode d'emploi, les règles d'or et le planning de vos premiers mois suivent le sommaire.*
 
 ## Remerciements
 
@@ -116,7 +116,7 @@ Il est construit à partir de la documentation officielle 2026 (CGS, grilles shi
 | Adhérent | Point de vente ayant signé la documentation annuelle de Planet Aura, sans frais d'adhésion ni minimum |
 | DDP / DAP | Incoterms : droits et taxes payés d'avance par le client (DDP) ou à l'arrivée par le destinataire (DAP) |
 
-**Le plan.** Le document suit le cycle de travail du commercial en quatre parties. La première analyse l'entreprise et son offre : marché, diagnostic, organisation, catalogue et tarifs, concurrence. La deuxième définit les cibles : profils de clients idéaux, personas et comité d'achat, correspondance entre enjeux et solutions. La troisième formalise la prospection et la vente : pipeline, séquences et scripts, qualification, méthode SPIN, argumentaires et objections. La quatrième fournit les outils et organise le pilotage : ressources, Sales Operations, fidélisation et SAV, indicateurs, mise à jour. Les annexes regroupent ce qui se réemploie séparément : grilles tarifaires, conditions générales, fiche réflexe et checklists, conformité par pays, glossaire, sources et documents officiels.
+**Le plan.** Le document suit le cycle de travail du commercial en quatre parties. La première analyse l'entreprise et son offre : marché, diagnostic, organisation, catalogue et tarifs, concurrence. La deuxième définit les cibles : profils de clients idéaux, personas et comité d'achat, correspondance entre enjeux et solutions. La troisième formalise la prospection et la vente : pipeline, séquences et scripts, qualification, méthode SPIN, argumentaires et objections. La quatrième fournit les outils et organise le pilotage : ressources, Sales Operations, fidélisation et SAV, indicateurs, mise à jour. Une bibliographie précède les annexes, qui regroupent ce qui se réemploie séparément : grilles tarifaires, conditions générales, fiche réflexe et checklists, conformité par pays, glossaire, chiffres et documents officiels, sources de la recherche (annexe Y).
 
 > 📌 **À RETENIR -** Un fil conducteur traverse l'ensemble : le prospect n'achète pas un transport, il cherche à réduire son risque. Chaque chapitre sert à démontrer, cible par cible et preuve par preuve, que confier ses expéditions à Planet Aura est la décision la moins risquée pour lui et pour ses clients.
 
