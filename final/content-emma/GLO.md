@@ -37,7 +37,7 @@
 | **Picking** | Prélèvement des bouteilles en stock pour préparer une commande |
 | **Planet'Connect** | Notre plateforme : simulateur, commandes, suivi, factures, e-signature (app.planet-aura.com) |
 | **Planet'Stock** | Extension de Planet'Connect dédiée au stockage et picking : entrées, sorties, références (en déploiement) |
-| **Rate Schedule** | Grille tarifaire en anglais remise aux clients finaux (disponible sur demande auprès de la direction) |
+| **Rate Schedule** | Grille tarifaire en anglais remise aux clients finaux et laissée en rendez-vous (annexe F) |
 | **SogeCommerce** | Solution de paiement en ligne de la Société Générale utilisée pour les liens de paiement |
 | **Statuts particuliers** | ATT INFO (information manquante), DIFFÉRÉ (départ reporté), SINISTRE, RÉEXPÉ, ANNULÉ |
 | **Summer storage** | Stockage gratuit d'été proposé aux clients finaux : le vin acheté en juillet part en septembre-octobre |
@@ -48,7 +48,7 @@
 | Terme | Définition |
 |---|---|
 | **Accises** | Droits perçus sur l'alcool à l'arrivée dans un pays. En DDP, estimés et payés d'avance |
-| **Ad valorem** | Assurance casse/perte à 3 % de la valeur déclarée, couvrant jusqu'à 20 000 €/envoi (sous condition d'emballage homologué) - une option, souscrite pour 9 envois sur 10 (89,8 %) |
+| **Ad valorem** | Assurance casse/perte à 3 % de la valeur (vin + transport), couvrant jusqu'à 20 000 €/envoi (sous condition d'emballage homologué) - une option, souscrite pour 9 envois sur 10 (89,8 %) |
 | **Barème transporteur** | Indemnisation forfaitaire au poids prévue par les transporteurs, sans rapport avec la valeur du vin |
 | **CIVC** | Comité Champagne, qui délivre le certificat d'origine obligatoire hors UE |
 | **Claim** | Réclamation déposée auprès d'un transporteur après casse, perte ou retard. Gérée par nous, jamais par l'adhérent |

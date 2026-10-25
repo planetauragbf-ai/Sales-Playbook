@@ -48,7 +48,7 @@ Le marché américain fonctionne en **three-tier system** (importateur, grossist
 
 ### Qualifier un dossier USA avant de chiffrer : les 8 questions obligatoires
 
-Règle : **ne jamais confondre une demande de prix et un dossier export qualifié.** Dès qu'un dossier sort du B2C particulier standard, dérouler les 8 questions (processus de cotation au chap. 11) :
+Règle : **ne jamais confondre une demande de prix et un dossier export qualifié.** Dès qu'un dossier sort du B2C particulier standard, dérouler les 8 questions (processus de cotation : chap. 11, détail en annexe B) :
 
 1. **Qui est l'importateur officiel ?** (nom, licence, responsabilités)
 2. **B2B, B2C ou B2B2C ?** (schéma de distribution)

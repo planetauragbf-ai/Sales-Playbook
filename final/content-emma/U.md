@@ -20,7 +20,7 @@
 | Mar. | Conformité (annexe K) : USA (États, POA, quotas), Canada, Champagne/CIVC, Suède, RGPD, 8 phrases interdites | Équipe logistique | Les 8 questions USA et les 8 phrases interdites restituées |
 | Mer. | Concurrence (chap. 05) et cibles (chap. 06-08), 3 battlecards jouées en jeu de rôle | Adam | 3 duels : reconnaître, recentrer, questionner |
 | Jeu. | Shadow calls : 5 appels écoutés (cold call caveau, permission 45 s, relance), débrief | Adam | Grille d'écoute remplie |
-| Ven. | Formation caveau observée chez un adhérent, sinistres (chap. 16) : règle 48 h, factures RXP | Adam & équipe logistique | Fiche réflexe comptoir maîtrisée |
+| Ven. | Formation caveau observée chez un adhérent, sinistres (chap. 16 et annexe B) : règle 48 h, factures RXP | Adam & équipe logistique | Fiche réflexe comptoir maîtrisée |
 
 ## Semaine 3 - Terrain accompagné : faire, en binôme
 

@@ -134,7 +134,7 @@ Le planning opérationnel complet - jour par jour pour le premier mois, puis sem
 
 > ⚠️ **LE POINT DE VIGILANCE -** Le mandat SEPA contient les identifiants bancaires du magasin : il se remplit et se transmet via les canaux officiels uniquement, jamais recopié dans un email libre ni dans un support de vente.
 
-> 📌 **À RETENIR -** Cette annexe est la boîte à outils de 30 secondes : la fiche réflexe et ses 4 données (# / kg / € / →) pour le comptoir, les checklists pour ne rien oublier avant et après la signature, le compte-rendu CRM saisi sous 24 h, et le pack adhérent 2026 complet - huit documents, toujours envoyés via les canaux officiels.
+> 📌 **À RETENIR -** Cette annexe est la boîte à outils de 30 secondes : la fiche réflexe et ses 4 données (# / kg / € / →) pour le comptoir, les checklists pour ne rien oublier avant et après la signature, le compte-rendu CRM saisi sous 24 h, et le pack adhérent 2026 complet - huit documents, toujours envoyés via les canaux officiels ; puis les procédures détaillées des chap. 11, 15 et 16 (cotation, sinistre, dictionnaire CRM).
 
 ## Process cotation hors grille 2026 et règles d'engagement (chap. 11)
 

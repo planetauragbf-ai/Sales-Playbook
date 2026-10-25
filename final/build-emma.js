@@ -1126,7 +1126,7 @@ function tocChildren() {
   paras.push(lgLine([
     new TextRun({ text: 'Les termes comme ', size: 15, color: GRAY }),
     new TextRun({ text: 'adhérent', size: 15, color: DEEP_OF[TEAL], underline: { type: UnderlineType.DOTTED, color: DEEP_OF[TEAL] } }),
-    new TextRun({ text: ' renvoient à leur définition au glossaire (en fin de document, avant la bibliographie) - à leur première apparition dans chaque chapitre, cliquables en version numérique. Toutes les entrées de ce sommaire et des sous-sommaires « DANS CE CHAPITRE » sont également cliquables.', size: 15, color: GRAY }),
+    new TextRun({ text: ' renvoient à leur définition au glossaire (après le chap. 18, avant la bibliographie) - à leur première apparition dans chaque chapitre, cliquables en version numérique. Toutes les entrées de ce sommaire et des sous-sommaires « DANS CE CHAPITRE » sont également cliquables.', size: 15, color: GRAY }),
   ]));
   return paras;
 }

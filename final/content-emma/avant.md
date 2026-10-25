@@ -91,7 +91,7 @@ Lisez ce playbook, annotez-le, revenez-y. Mais souvenez-vous qu'aucun guide ne r
 
 > « Et comment je fais pour le rapporter chez moi ? »
 
-Pendant que les tarifs douaniers font la une - les exports français de vins et spiritueux vers les USA ont chuté de 21 % en 2025 (droits d'avril, puis 15 % d'août 2025 à février 2026, 10 % depuis ; dollar faible : FEVS, bilan 2025) -, 5,4 millions de visiteurs étrangers ont parcouru nos vignobles en 2023 (Atout France). Ils posent tous cette question au comptoir. La plupart repartent avec deux bouteilles au lieu de douze.
+Pendant que les tarifs douaniers font la une - les exports français de vins et spiritueux vers les USA ont chuté de 21 % en 2025 (droits d'avril puis 15 % dès août, et dollar faible : FEVS, bilan 2025 ; CP du 01/08/2025 - 10 % depuis février 2026) -, 5,4 millions de visiteurs étrangers ont parcouru nos vignobles en 2023 (Atout France). Ils posent tous cette question au comptoir. La plupart repartent avec deux bouteilles au lieu de douze.
 
 Chez Planet Aura, cette question a une réponse : 6 643 expéditions en douze mois, 64,5 % vers les États-Unis, taxes payées d'avance, assurance proposée à chaque envoi. Ce playbook explique comment la vendre, à qui, avec quelles preuves. Plus les règles se durcissent, plus un spécialiste qui les maîtrise devient précieux.
 
@@ -116,7 +116,7 @@ Il est construit à partir de la documentation officielle 2026 (CGS, grilles shi
 | Adhérent | Point de vente ayant signé la documentation annuelle de Planet Aura, sans frais d'adhésion ni minimum |
 | DDP / DAP | Incoterms : droits et taxes payés d'avance par le client (DDP) ou à l'arrivée par le destinataire (DAP) |
 
-**Le plan.** Le document suit le cycle de travail du commercial en quatre parties. La première analyse l'entreprise et son offre : marché, diagnostic, organisation, catalogue et tarifs, concurrence. La deuxième définit les cibles : profils de clients idéaux, personas et comité d'achat, correspondance entre enjeux et solutions. La troisième formalise la prospection et la vente : pipeline, séquences et scripts, qualification, méthode SPIN, argumentaires et objections. La quatrième fournit les outils et organise le pilotage : ressources, Sales Operations, fidélisation et SAV, indicateurs, mise à jour. Une bibliographie précède les annexes, qui regroupent ce qui se réemploie séparément : grilles tarifaires, conditions générales, fiche réflexe et checklists, conformité par pays, glossaire, chiffres et documents officiels, sources de la recherche (annexe X).
+**Le plan.** Le document suit le cycle de travail du commercial en quatre parties. La première analyse l'entreprise et son offre : marché, diagnostic, organisation, catalogue et tarifs, concurrence. La deuxième définit les cibles : profils de clients idéaux, personas et comité d'achat, correspondance entre enjeux et solutions. La troisième formalise la prospection et la vente : pipeline, séquences et scripts, qualification, méthode SPIN, argumentaires et objections. La quatrième fournit les outils et organise le pilotage : ressources, Sales Operations, fidélisation et SAV, indicateurs, mise à jour. Un glossaire puis une bibliographie précèdent les annexes, qui regroupent ce qui se réemploie séparément : grilles tarifaires, conditions générales, fiche réflexe et checklists, conformité par pays, chiffres et documents officiels, sources de la recherche (annexe X).
 
 > 📌 **À RETENIR -** Un fil conducteur traverse l'ensemble : le prospect n'achète pas un transport, il cherche à réduire son risque. Chaque chapitre sert à démontrer, cible par cible et preuve par preuve, que confier ses expéditions à Planet Aura est la décision la moins risquée pour lui et pour ses clients.
 
@@ -132,7 +132,7 @@ Il est construit à partir de la documentation officielle 2026 (CGS, grilles shi
 
 **Maîtriser ou consulter.** Tout n'est pas à apprendre par cœur. Le **socle** - chap. 00, 02, 04, 06, 08 et 13, les six règles d'or ci-dessous et la fiche réflexe (annexe B) - se maîtrise avant J+30 et fait l'objet de la certification (annexe U) : il est marqué d'un ● au sommaire. Tout le reste est de la **référence**, à consulter quand le cas se présente : conformité par pays, procédures SAV, scripts complets, annexes documentaires.
 
-**Les termes reliés au glossaire** (en fin de document) sont colorés et soulignés de pointillés à leur première apparition dans chaque chapitre : en version numérique, un clic mène à leur définition.
+**Les termes reliés au glossaire** (après le chap. 18, avant la bibliographie) sont colorés et soulignés de pointillés à leur première apparition dans chaque chapitre : en version numérique, un clic mène à leur définition.
 
 ## Les six règles d'or
 

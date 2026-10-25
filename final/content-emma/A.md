@@ -19,7 +19,7 @@ Méthode (octobre 2026) : croisement de quatre sources internes réelles - 40 co
 | **D · Directeur commercial / export** | 15 | Responsable commercial, export sales manager, directeur commercial de coopérative - y compris dans des domaines familiaux | **Confirmé** : premier rôle rencontré en salon B2B - mais dans les grandes maisons, l'accès réel passe par l'ADV |
 | **E · Client final étranger** | 5 + flux | Particuliers US (règle des 36 bouteilles), managing partner, collectionneur (jusqu'à une palette de 600 bouteilles) | **Confirmé** - deux sous-types : le particulier standard et le collectionneur à forte valeur, proche d'un compte B2B |
 
-Trois ajustements intégrés aux fiches et au chap. 07, et un angle mort identifié :
+Trois ajustements intégrés aux fiches (le chap. 07 en retient l'essentiel), et un angle mort identifié :
 
 1. **Le caviste (C) n'est pas seulement urbain** : les cavistes clients réels sont des caves touristiques (Amboise, caveaux de châteaux), des bars à dégustation, un caviste en ligne et un réseau multi-boutiques.
 2. **Le directeur commercial (D) se rencontre d'abord en salon** - c'est le premier rôle des bases salons, y compris dans des domaines familiaux - mais dans les grandes maisons, l'interlocuteur quotidien est l'ADV ou le customer care, pas le directeur.
