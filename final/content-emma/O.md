@@ -6,6 +6,8 @@ Couverture et sommaire reproduits ci-dessous. Le document complet : drive.google
 
 ## Couverture et sommaire
 
+\page
+
 ## Le déroulé opérationnel en 10 étapes pour un groupage USA
 
 Le parcours de référence du produit phare (chap. 04), de l'achat au caveau au justificatif d'export :

@@ -110,7 +110,7 @@ Les points ci-dessus protègent les données des clients finaux de nos adhérent
 | **Transparence** | Identité de l'expéditeur, origine de la donnée, finalité, lien vers la politique de confidentialité |
 | **Opposition** | Moyen simple, gratuit et immédiat, liste repoussoir synchronisée entre les outils |
 | **Automatisation** | Arrêt automatique des cadences sur réponse, RDV, désinscription, erreur ou opportunité ouverte |
-| **Pixels de tracking** | À évaluer séparément (consentement vs intérêt légitime), selon la recommandation CNIL 2026 |
+| **Pixels de tracking** | À évaluer séparément (consentement ou intérêt légitime), selon la recommandation CNIL 2026 |
 | **Rétention** | Dates de collecte et de dernier contact tracées, politique de conservation et purge |
 
 Checklist « contrôle avant campagne » - 8 points : base légale identifiée · source de la donnée documentée · information des personnes en place · moyen d'opposition fonctionnel · circuit de suppression opérationnel · tracking (pixels) évalué · destinataires vérifiés · segmentation validée.

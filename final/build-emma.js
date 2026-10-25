@@ -401,6 +401,7 @@ function statBlock(lines, accent = TEAL) {
       insideVertical: { style: BorderStyle.SINGLE, size: 4, color: 'E2ECEF' },
     },
     rows: [new TableRow({
+      cantSplit: true,
       children: items.map(([v, c], i) => new TableCell({
         width: { size: widths[i], type: WidthType.DXA },
         verticalAlign: VerticalAlign.CENTER,

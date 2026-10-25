@@ -8,7 +8,7 @@ Les chiffres d'activité de ce playbook proviennent d'une source unique : les **
 
 ```stats
 1,15 M€|CA 2025 (+11,6 %)
-+18,7 %|Croissance 2026 vs 2025 à date
++18,7 %|Croissance 2026 par rapport à 2025, au 24/09/2026
 6 643|Expéditions sur 12 mois glissants
 64,5 %|des envois vers les USA
 4,8/5|Avis Google (près de 300 avis)
@@ -17,7 +17,7 @@ Les chiffres d'activité de ce playbook proviennent d'une source unique : les **
 | Chiffre | Valeur officielle | Période |
 |---|---|---|
 | CA 2025 | 1 148 961 € (+11,6 %) | Année 2025 |
-| CA 2026 | 991 568 € (+18,7 % vs 2025 à date) | Janv.-sept. 2026 |
+| CA 2026 | 991 568 € (+18,7 % par rapport à 2025, au 24/09/2026) | Janv.-sept. 2026 |
 | CA vins expédiés (valeur transportée) | 2 781 717 € | Janv.-sept. 2026 |
 | Trajectoire | ×4,7 (246 637 € → 1 148 961 €) | 2021 → 2025 |
 | Expéditions | 6 643 (dont 1,45 % annulées) | 12 mois glissants |
@@ -51,10 +51,12 @@ Trois enquêtes menées par Planet Aura auprès de clients et de prospects (47 r
 4,65/5|note globale moyenne - satisfaction 2024, collecte janv.-févr. 2025 (23 réponses, aucune note sous 4)
 4,87/5|probabilité de recommandation (20 notes « 5 » sur 23)
 100 %|jugent l'équipe professionnelle et courtoise (23 sur 23) · 80 % de service « excellent » selon l'enquête transport écologique 2025 (20 réponses)
-+30 %|de commandes 2024 vs 2023 chez un caviste adhérent (La Maison du Vouvray), selon sa réponse à l'enquête de satisfaction 2024
++30 %|de commandes 2024 par rapport à 2023 chez un caviste adhérent (La Maison du Vouvray), selon sa réponse à l'enquête de satisfaction 2024
 ```
 
 Le point faible assumé par l'enquête : le prix, perçu « moyennement compétitif » par 43 % des répondants (10 sur 23, autant le jugeant compétitif ou très compétitif) - le contre-argument chiffré (coût complet, promotions qui « boostent les expéditions », année record d'un adhérent) est à l'objection O-1 (chap. 13).
+
+\page
 
 ## La banque d'avis Google : qui citer, pour prouver quoi
 
@@ -94,15 +96,15 @@ Chaque source ci-dessous a été vérifiée en ligne (septembre-octobre 2026). E
 | Réf. | Source | Chiffres clés à citer | Lien |
 |---|---|---|---|
 | S01 | **OIV** - État du secteur vitivinicole mondial 2024 | Production mondiale 226 Mhl en 2024 (plus bas depuis 60 ans), consommation 214 Mhl (−3,3 %, plus bas depuis 1961), exports mondiaux 35,9 Md€ / 99,8 Mhl (stables, soit ≈ 3,60 €/l), vignoble 7,1 Mha | oiv.int/press/state-world-vine-and-wine-sector-2024-adaptation-cooperation |
-| S02 | **OIV** - État du secteur vitivinicole mondial 2025 (12/05/2026) | Production 2025 : 227 Mhl (+0,6 % vs le point bas 2024), consommation 208 Mhl (−2,7 %), exports 33,8 Md€ (−6,7 %) / 94,8 Mhl (−4,7 %) : la valeur recule plus vite que le volume, mais le prix moyen (3,56 €/l, −2,1 %) reste historiquement élevé | oiv.int (rapport du 12/05/2026) |
+| S02 | **OIV** - État du secteur vitivinicole mondial 2025 (12/05/2026) | Production 2025 : 227 Mhl (+0,6 % par rapport au point bas de 2024), consommation 208 Mhl (−2,7 %), exports 33,8 Md€ (−6,7 %) / 94,8 Mhl (−4,7 %) : la valeur recule plus vite que le volume, mais le prix moyen (3,56 €/l, −2,1 %) reste historiquement élevé | oiv.int (rapport du 12/05/2026) |
 | S03 | **FEVS** - Bilan export 2025 (dossier de presse, févr. 2026) | Exports FR vins & spiritueux 2025 : **14,3 Md€ (−7,9 %)**, 168 M de caisses (−3 %), **USA : ~3 Md€ (−21 %, droits de douane d'avril + effet change) mais toujours 1er marché** (vin seul : 1 879 M€, −19 %), Chine 767 M€ (−20 %), excédent de 13,2 Md€ (−7,6 %), qui reste le 3e excédent commercial sectoriel de la France, top marchés 2025 (DP p. 19) | fevs.info (DP 10/02/2026) · pleinchamp.com |
 | S03b | **FEVS** - Bilan export 2024 (rappel) | 2024 : 15,6 Md€ (−4 %), volumes stables, USA 3,8 Md€ (+5 %), Chine/HK/SG 2,1 Md€ (−21 %) = ~90 % de la baisse | fevs.info (DP 11/02/2025, bilan export vins & spiritueux 2024) |
-| S04 | **Atout France** - Œnotourisme 2023 | **12 M d'œnotouristes** en France en 2023 (+20 % vs 2016) dont **5,4 M d'étrangers** (+29 %), top nationalités : Britanniques, Belges, Américains | atout-france.fr (actualités : l'œnotourisme en France, 12 millions de visiteurs en 2023) |
+| S04 | **Atout France** - Œnotourisme 2023 | **12 M d'œnotouristes** en France en 2023 (+20 % par rapport à 2016) dont **5,4 M d'étrangers** (+29 %), top nationalités : Britanniques, Belges, Américains | atout-france.fr (actualités : l'œnotourisme en France, 12 millions de visiteurs en 2023) |
 | S05 | **Winalist** - Observatoire de l'œnotourisme 2026 | Une réservation au domaine génère en moyenne **207 € TTC** (billetterie + vin, groupe moyen de 2,9 adultes, soit ~71 €/adulte ; données 2025, 15 000 réservations Winalist), dont **60 % d'achat de vin sur place** (part estimée sur avis post-visite déclaratifs) - l'argument ROI du caveau | winalist.fr/blog/observatoires/observatoire-2026 |
-| S06 | **SOWINE/Dynata** - Baromètre 2026 (terrain déc. 2025, 1 003 Français de 18-65 ans) | **39 %** des 18-65 ans achètent du vin en ligne (+5 pts vs 34 % en 2025) ; édition 2025 : 51 % regardent (presque) toujours les labels environnementaux avant d'acheter | vitisphere.com (24/03/2026) · sowine.com (édition 2025) |
-| S07 | **TTB** (Alcohol and Tobacco Tax and Trade Bureau) - guide importation (version française) | Cadre fédéral US : permis importateur, three-tier system, accises fédérales ~1,07 $/gallon (vin tranquille) vs 13,50 $/proof-gallon (spiritueux) | ttb.gov/import-export/itd/itd-french/importing-alcohol |
+| S06 | **SOWINE/Dynata** - Baromètre 2026 (terrain déc. 2025, 1 003 Français de 18-65 ans) | **39 %** des 18-65 ans achètent du vin en ligne (+5 points par rapport aux 34 % de 2025) ; édition 2025 : 51 % regardent (presque) toujours les labels environnementaux avant d'acheter | vitisphere.com (24/03/2026) · sowine.com (édition 2025) |
+| S07 | **TTB** (Alcohol and Tobacco Tax and Trade Bureau) - guide importation (version française) | Cadre fédéral US : permis importateur, three-tier system, accises fédérales ~1,07 $/gallon (vin tranquille) contre 13,50 $/proof-gallon (spiritueux) | ttb.gov/import-export/itd/itd-french/importing-alcohol |
 | S08 | **FranceAgriMer** - Note « Importation de boissons alcoolisées aux États-Unis » | Synthèse officielle FR du dispositif US (permis, étiquetage, accises) - le document à relire avant tout dossier B2B US | franceagrimer.fr (note de l'Ambassade, fév. 2023, diffusée en 02/2026) |
-| S09 | **VELA** - site officiel & presse (Supply Chain Magazine, Vitisphere, French Morning) | Trimaran-cargo de 67 m (goélette, sans ballast), **600 palettes EU** par traversée, transatlantique en **< 15 jours**, mise en service annoncée par VELA pour 2027 - on n'en parle pas au prospect sans validation direction, et toujours comme **option conditionnelle, jamais exclusive** (règles du chap. 04), partenariat VELA × DHL (offre porte-à-porte, route Caen-Ouistreham - New Haven), ACV Carbone 4 citée par VELA (CP du 22/06/2026) : jusqu'à −90 % de CO2 vs fret maritime conteneurisé, fondée à Bayonne en 2022 (avec François Gabart), clients annoncés : grands crus Bordeaux/Bourgogne, maisons de Champagne et Cognac, **un commissionnaire de transport spécialiste vins & champagnes** | vela-transport.com · supplychainmagazine.fr · vitisphere.com |
+| S09 | **VELA** - site officiel & presse (Supply Chain Magazine, Vitisphere, French Morning) | Trimaran-cargo de 67 m (goélette, sans ballast), **600 palettes EU** par traversée, transatlantique en **< 15 jours**, mise en service annoncée par VELA pour 2027 - on n'en parle pas au prospect sans validation direction, et toujours comme **option conditionnelle, jamais exclusive** (règles du chap. 04), partenariat VELA × DHL (offre porte-à-porte, route Caen-Ouistreham - New Haven), ACV Carbone 4 citée par VELA (CP du 22/06/2026) : jusqu'à −90 % de CO2 par rapport au fret maritime conteneurisé, fondée à Bayonne en 2022 (avec François Gabart), clients annoncés : grands crus Bordeaux/Bourgogne, maisons de Champagne et Cognac, **un commissionnaire de transport spécialiste vins & champagnes** | vela-transport.com · supplychainmagazine.fr · vitisphere.com |
 | S10 | **CIVC** - Comité Champagne | Certificat d'origine obligatoire hors UE, demande : certificat.origine-ext@civc.fr - 03 26 51 19 30 | champagne.fr |
 | S11 | **Douane française** - accises & CRD | Références EMCS/DA, capsules représentatives de droits, circulation des produits soumis à accises | douane.gouv.fr |
 | S12 | **La Poste Pro** - « Expédier du vin aux États-Unis » | Page qui documente publiquement les restrictions des solutions postales - utile face à l'objection « La Poste est moins chère » (O-3) | laposte.fr/professionnel/expedier/expedier-vin-etats-unis |
@@ -125,7 +127,7 @@ Chaque source ci-dessous a été vérifiée en ligne (septembre-octobre 2026). E
 | Chiffre sourcé | Usage en entretien | Réf. |
 |---|---|---|
 | « Malgré −21 % en 2025 (droits de douane + effet change ; vin seul : −19 %), les USA restent le 1er marché des vins & spiritueux : ~3 Md€ » | Le B2C direct-consommateur en DDP sécurise ce qui reste : l'attachement du client américain au domaine | S03 |
-| « 5,4 millions d'œnotouristes étrangers en France en 2023, +29 % vs 2016 » | Le gisement du caveau - chaque visiteur étranger est un envoi potentiel | S04 |
+| « 5,4 millions d'œnotouristes étrangers en France en 2023, +29 % par rapport à 2016 » | Le gisement du caveau - chaque visiteur étranger est un envoi potentiel | S04 |
 | « Une réservation au domaine génère 207 € (groupe moyen de 2,9 adultes), dont 60 % d'achat de vin sur place (données 2025) » | Le service d'expédition augmente directement ce panier | S05 |
 | « 39 % des 18-65 ans achètent du vin en ligne » | L'API Planet'Connect + e-shop : le réachat à distance est devenu la norme | S06 |
 | « La consommation mondiale baisse (−3,3 % en 2024), la valeur résiste » | Vendre la montée en gamme : moins de volume, valeur stable, plus de DTC | S01 |

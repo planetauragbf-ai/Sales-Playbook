@@ -37,7 +37,7 @@ Je pense également aux fournisseurs, transporteurs, courtiers, importateurs et 
 
 ### À Euridis Business School
 
-Euridis Business School - Aurélie et toute l’équipe pédagogique - me sert de guide et de fil rouge depuis 3 ans. Je leur dédie également cette reconnaissance. Leur accompagnement méthodologique, leurs conseils et leur regard extérieur me permettent aujourd’hui de prendre du recul sur mon expérience professionnelle et de transformer plusieurs années de pratiques, de projets et d’apprentissages dans ce livret.
+Aurélie et toute l’équipe pédagogique d’Euridis Business School me servent de guide et de fil rouge depuis 3 ans. Je leur dédie également cette reconnaissance. Leur accompagnement méthodologique, leurs conseils et leur regard extérieur me permettent aujourd’hui de prendre du recul sur mon expérience professionnelle et de transformer plusieurs années de pratiques, de projets et d’apprentissages dans ce livret.
 
 Enfin, je n’oublie pas mes camarades du Mastère Marketing & Digital Business pour les échanges, les conseils, les retours d’expérience et le soutien partagé tout au long de cette formation. Leurs regards, parfois très différents du mien, ont enrichi ma réflexion et m’ont aidée à évoluer dans mon travail.
 
@@ -72,6 +72,8 @@ Ce que nous attendons de vous tient en quelques mots. De la rigueur, parce que n
 Fiabilité, proximité, sens du détail, responsabilité : ce sont nos quatre repères. Ils ne sont pas affichés sur un mur, ils se vivent dans chaque devis, chaque appel, chaque colis.
 
 **Floriane Février** - Fondatrice & Gérante
+
+\page
 
 ## Le mot d'accueil d'Emma et Adam
 

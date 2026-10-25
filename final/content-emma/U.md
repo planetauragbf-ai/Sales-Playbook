@@ -53,7 +53,7 @@
 
 | Semaine | Priorités | Jalon |
 |---|---|---|
-| S9-S10 | Portefeuille en autonomie, revue des tiers A, upsell (stockage, CIVC, spiritueux) sur 3 adhérents | Pipeline pondéré 90 j vs objectif, en rituel |
+| S9-S10 | Portefeuille en autonomie, revue des tiers A, upsell (stockage, CIVC, spiritueux) sur 3 adhérents | Pipeline pondéré 90 j par rapport à l'objectif, en rituel |
 | S11 | Analyse win/loss du trimestre (motifs, cycles, sources), calibrage de son score PA-FIT | Analyse présentée en revue mensuelle |
 | S12 | Bilan J+90 : KPIs (contact, RDV, win rate, activation), proposition d'amélioration du playbook, objectifs T+1 | Entretien J+90, objectifs T+1 écrits |
 

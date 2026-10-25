@@ -35,9 +35,11 @@
 
 **CONTACTS :** 09 79 11 45 07 / 06 59 56 72 72 - contact@planet-aura.com - WhatsApp.
 
+\page
+
 ## Les objections en format court : une phrase + une question de retour
 
-Quand le temps manque (salon, appel entrant, relance) : une réponse courte, puis une question qui rend la parole au prospect. Elle fait émerger l'objection réelle (souvent différente de celle exprimée) et vous garde la main. Le traitement développé des 26 objections est en annexe D, la méthode en quatre temps et le top 5 commenté au chap. 13.
+Quand le temps manque (salon, appel entrant, relance) : une réponse courte, puis une question qui rend la parole au prospect. Elle fait émerger l'objection réelle (souvent différente de celle exprimée), et vous gardez la main. Le traitement développé des 26 objections est en annexe D, la méthode en quatre temps et le top 5 commenté au chap. 13.
 
 | Objection | Réponse courte | Question de retour |
 |---|---|---|
@@ -158,6 +160,8 @@ Cette page déroule la cadence ABM 1:1 du chapitre 10 (8 touches sur 18 jours) s
 ### J1 - Recherche et vue LinkedIn (aucun message)
 
 Adam vérifie le signal et prépare la personnalisation : site et e-shop du domaine (pas de livraison internationale), avis Google en anglais (clientèle étrangère confirmée), annonce de la cuvée « Les Restanques », liste des exposants du salon. Il identifie Claire comme décideuse, consulte son profil LinkedIn sans envoyer d'invitation, et logge le tout dans HubSpot sous 24 h.
+
+\page
 
 ### J2 - Email 1 : le problème et la valeur
 
