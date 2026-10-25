@@ -4,9 +4,9 @@
 
 ### 1. Le tunnel SPIN est impératif dans le cahier des charges. Concrètement, comment votre commercial le déroule-t-il en rendez-vous, avec quelles questions ? Et en pleine saison, quel vigneron vous accorde 35 minutes ?  _(très probable)_
 - Pourquoi : C'est un critère explicite de la grille (« processus de vente et tunnels SPIN ») et la seule partie que le CDC dit impérative. Le jury vérifie que le SPIN est opérationnel (vraies questions, place dans le rendez-vous, adaptation à la saison) et pas une définition de Rackham récitée.
-- Réponse : Avec plaisir, c'est le cœur du rendez-vous. Vous voulez les vraies questions ? Je prends un vigneron avec caveau. Situation, une seule : « Que faites-vous quand un visiteur étranger veut plus que sa valise ? » Problème : « Combien de fois par semaine un client repart avec moins qu'il ne voulait ? » Implication : « Sur une saison, combien de ventes de 12 bouteilles tombent à 2 ? » Bénéfice : « Livrés chez eux, que deviendrait votre panier ? » C'est le bloc de la 8e à la 20e minute d'une trame de 35 minutes, calée avant les pics de saison. Voulez-vous la version maison de Champagne ?
+- Réponse : Avec plaisir, c'est le cœur du rendez-vous. Vous voulez les vraies questions ? Je prends un vigneron avec caveau. Situation, une seule : « Comment organisez-vous vos envois aujourd'hui quand un visiteur étranger veut plus que sa valise ? » Problème : « Combien de fois par semaine un client repart en achetant moins que ce qu'il voulait ? » Implication : « Sur une saison, combien de ventes de 12 bouteilles se réduisent à 2 ? » Bénéfice : « Si vos visiteurs pouvaient se faire livrer chez eux en payant par carte au comptoir, qu'est-ce que ça changerait pour votre panier moyen ? » C'est le bloc de la 8e à la 20e minute d'une trame de 35 minutes, calée avant les pics de saison. Voulez-vous la version maison de Champagne ?
 - Preuve : Trame de 35 min en 6 séquences (0-3 cadrer, 3-8 déclencheur, 8-20 questions SPIN, 20-25 reformulation à trous, 25-30 besoin vers solution, 30-35 décision), « une seule question de situation utile » et questions types du vigneron : content-emma/12.md. Banque SPIN de 8 personas ou offres : content-emma/E.md. « Prospectez avant les pics, pas pendant » : content-emma/01.md. Au téléphone (J4 de la cadence), 2 questions de diagnostic en 45 s : content-emma/10.md.
-- Diapo de secours : Diapo 13 (les deux tunnels, vigneron et maison de Champagne), puis B4 (sur le terrain : au caveau, un appel de moins de 3 minutes pour obtenir 30 minutes de démonstration ; pour un compte structuré, la permission en 45 secondes). Champagne, à connaître : S : « Quels marchés, modes, fréquences et incoterms pour vos particuliers hors UE ? » P : « Où perdez-vous visibilité ou temps : CIVC, douane américaine, suivi ? » I : « Que coûte un colis immobilisé en douane à l'image de la maison ? » B : « Que changerait un plan de flux où le certificat et les taxes sont gérés à chaque envoi ? »
+- Diapo de secours : Diapo 13 (tunnel 1, vigneron avec caveau, question par question), puis B4 (tunnel 2, maison de Champagne ; sur le terrain : au caveau, un appel de moins de 3 minutes pour obtenir 30 minutes de démonstration ; pour un compte structuré, la permission en 45 secondes). Champagne, à connaître (annexe E) : S : « Quels marchés, modes, fréquences et incoterms utilisez-vous pour vos particuliers hors UE ? » P : « Où perdez-vous visibilité ou temps : certificat CIVC, douane américaine, suivi ? » I : « Que coûte un colis immobilisé en douane à l'image de la maison ? » N : « Que changerait un plan de flux documenté où le certificat et les taxes sont gérés à chaque envoi ? »
 - Piège : Réciter les quatre lettres sans exemple. Enchaîner plusieurs questions de situation (l'effet questionnaire que le playbook interdit). Confondre la trame de 35 min et le rendez-vous type de 45 min du chap. 11. Défendre les 35 minutes en juillet : au téléphone, le SPIN se réduit à 2 questions en 45 s. Oublier la reformulation à trous qui conclut le SPIN.
 
 ### 2. Vos cinq personas sont-ils fondés sur des données réelles ou sur votre intuition ? 70 contacts et 47 réponses d'enquête, est-ce vraiment représentatif ?  _(très probable)_
@@ -52,11 +52,11 @@
 - Piège : Minimiser (« l'IA n'a fait que la mise en page ») ou décrire un périmètre différent de l'annexe W. Rester exactement alignée sur l'annexe W. Si l'IA t'a aussi aidée à repérer des incohérences en fin de rédaction, le dire simplement : « elle m'a aidée à repérer des écarts, que j'ai tranchés à partir des sources ». Un écart découvert par le jury coûterait plus cher que la précision. Sans se dévaloriser pour autant.
 
 ### 8. 64,5 % de vos envois partent aux États-Unis, un marché soumis aux droits de douane américains. Si ce marché se ferme, Planet Aura s'effondre, non ?  _(très probable)_
-- Pourquoi : C'est le risque n° 1 du modèle. Le jury vérifie que la candidate le reconnaît, cite des chiffres datés et exacts (taux de droits datés) et présente un plan de diversification concret.
+- Pourquoi : C'est le risque n° 1 du modèle. Le jury vérifie que la candidate le reconnaît, cite des chiffres datés et exacts (sans citer de taux de droits de mémoire) et présente un plan de diversification concret.
 - Réponse : Oui, c'est notre premier risque, et le playbook l'écrit noir sur blanc. Votre crainte porte sur le volume, ou sur le modèle ? Un fait : en 2025, les exports français de vins et spiritueux vers les États-Unis ont chuté de 21 % selon la FEVS, et notre chiffre d'affaires a quand même progressé de 11,6 %. Plus les règles se durcissent, plus le DDP rassure. Mais on ne parie pas tout sur un pays : la part USA est suivie chaque trimestre, et chaque rendez-vous ouvre le Royaume-Uni, l'Europe et le Japon. Ce plan vous paraît-il proportionné ?
-- Preuve : USA = 64,5 % des expéditions sur 12 mois : content-emma/C.md. FEVS : exports FR vers les USA ~3 Md€ en 2025 (−21 %), toujours 1er marché : C.md, S03. CA 2025 1 148 961 € (+11,6 %), 2026 +18,7 % à date : content-emma/02.md. Droits US 15 % d'août 2025 à février 2026, 10 % depuis : content-emma/01.md, C.md (S20, S25). KPI « Part USA : diversifier (UK, UE, Japon), suivi trimestriel » : content-emma/17.md.
+- Preuve : USA = 64,5 % des expéditions sur 12 mois : content-emma/C.md. FEVS : exports FR vers les USA ~3 Md€ en 2025 (−21 %), toujours 1er marché : C.md, S03. CA 2025 1 148 961 € (+11,6 %), 2026 +18,7 % à date : content-emma/02.md. Droits US 15 % d'août 2025 à février 2026, 10 % depuis, selon le dossier : content-emma/01.md, C.md (S20, S25) ; sources externes contradictoires depuis juillet 2026 : le simulateur fait foi. KPI « Part USA : diversifier (UK, UE, Japon), suivi trimestriel » : content-emma/17.md.
 - Diapo de secours : Diapo 4, puis diapo 5 (à contre-courant) et B8 (stratégie).
-- Piège : Mélanger les périodes : −21 % = exports français 2025, +11,6 % = CA Planet Aura 2025, +18,7 % = CA 2026 à date. Confondre les périodes de droits (15 % d'août 2025 à février 2026, 10 % depuis) ou citer un taux de mémoire. Inventer un objectif chiffré de diversification (le playbook n'en fixe pas). Proposer de sortir des USA : le playbook interdit de sacrifier le produit phare. Oublier que la France pèse déjà 18,6 % des envois.
+- Piège : Mélanger les périodes : −21 % = exports français 2025, +11,6 % = CA Planet Aura 2025, +18,7 % = CA 2026 à date. Citer un taux de droits de mémoire : renvoyer au simulateur (sources externes contradictoires depuis juillet 2026). Inventer un objectif chiffré de diversification (le playbook n'en fixe pas). Proposer de sortir des USA : le playbook interdit de sacrifier le produit phare. Oublier que la France pèse déjà 18,6 % des envois.
 
 ### 9. On a beaucoup parlé de prix, très peu de marge. Combien gagne Planet Aura sur un envoi, et comment votre commercial sait-il qu'un dossier est rentable avant de le signer ?  _(très probable)_
 - Pourquoi : Un directeur commercial pilote la rentabilité, pas le CA. Le jury vérifie que la candidate distingue CA, marge contributive et taux de marque, et qu'elle sait garder une donnée confidentielle sans se dérober.
@@ -81,7 +81,7 @@
 
 ### 12. Quelle est la durée idéale de votre cycle de vente ? Est-ce mesuré ou estimé, et est-ce pareil pour une maison de Champagne ?  _(probable)_
 - Pourquoi : La partie 11 demande explicitement la durée idéale d'un cycle. Le jury vérifie le chiffre, sa cohérence avec le pipeline et son statut (observé ou cible).
-- Réponse : Bonne question, parce qu'il n'y a pas un cycle, mais trois. Vous parlez de la signature, ou du premier envoi ? Dossier standard : 7 à 21 jours ; compte récurrent : 30 à 60 ; projet complexe : 60 à 120 jours et plus. Sur le terrain, un formulaire entrant signe en une à deux semaines, une maison de Champagne en six à douze. Ce sont des durées observées, pas encore une médiane CRM : on la recalcule après 90 jours. Et la vente n'est finie qu'au premier envoi, sous 30 jours. Cela répond-il à votre question ?
+- Réponse : Bonne question, parce qu'il n'y a pas un cycle, mais trois. Vous parlez de la signature, ou du premier envoi ? Dossier standard : 7 à 21 jours ; compte récurrent : 30 à 60 ; projet complexe : 60 à 120 jours et plus. Sur le terrain, un formulaire entrant signe en une à deux semaines, une maison de Champagne en six à douze. Les trois premiers sont des cycles recommandés, les deux suivants des durées observées sur le terrain ; aucun n'est encore une médiane CRM : on la recalcule après 90 jours. Et la vente n'est finie qu'au premier envoi, sous 30 jours. Cela répond-il à votre question ?
 - Preuve : Cycles recommandés 7-21 j / 30-60 j / 60-120 j et plus ; observé par source : inbound 1-2 sem., salon ~3 sem., recommandation 2-4 sem., froid 4-8 sem., maison de Champagne 6-12 sem. ; « après 90 jours, recalculer la médiane réelle » : content-emma/11.md, « L'entonnoir de vente ». Activation ≤ 30 j après signature : content-emma/09.md, étape 6.
 - Diapo de secours : Diapo 11, puis B6 (ligne « Cycle médian »).
 - Piège : Donner un chiffre unique : il y a trois cycles (chap. 11), le résumé exécutif renvoie désormais à ce détail. Présenter ces durées comme une médiane mesurée. Mélanger une demande de tarif et un pilote complexe.
@@ -123,16 +123,16 @@
 
 ### 18. Votre ROI de 40 000 € de ventes perdues pour un caveau, vous y croyez vraiment ? Sur quoi repose-t-il ?  _(probable)_
 - Pourquoi : Tester la solidité des hypothèses et l'honnêteté du discours : un chiffre spectaculaire mais non étayé détruit la crédibilité face à un prospect expérimenté.
-- Réponse : Vous avez raison de le challenger : c'est un calcul illustratif, pas une promesse. La méthode du playbook pose trois questions au prospect : combien de visiteurs étrangers par semaine en saison, combien repartent en achetant moins qu'ils ne voulaient, quel panier ils auraient pris. Pour notre domaine type : vingt visiteurs, un sur trois, 300 €, vingt semaines de saison : 40 000 € de ventes de vin perdues. En récupérer un quart, c'est 10 000 €, pour 110 € de cartons. Le playbook fait le même calcul avec trente visiteurs et arrive à 60 000 €. La règle : ses chiffres, jamais les nôtres. Avec vos hypothèses, quel chiffre retiendriez-vous ?
+- Réponse : Vous avez raison de le challenger : c'est une simulation, pas une promesse. La méthode du playbook pose trois questions au prospect : combien de visiteurs étrangers par semaine en saison, combien repartent en achetant moins qu'ils ne voulaient, quel panier ils auraient pris. Pour notre domaine type : vingt visiteurs, un sur trois, 300 €, vingt semaines de saison : 40 000 € de ventes de vin perdues. En récupérer un quart, c'est 10 000 €, pour 110 € de cartons. Le playbook fait le même calcul avec trente visiteurs et arrive à 60 000 €. La règle : ses chiffres, jamais les nôtres. Avec vos hypothèses, quel chiffre retiendriez-vous ?
 - Preuve : « 60 000 € de CA potentiel additionnel/an (10 ventes/sem. × 300 € × 20 sem.) ; 15 000 €/an même à 25 % de conversion réelle ; 110 € d'investissement initial » et « Faites le calcul à voix haute avec les chiffres du prospect, jamais avec les nôtres » : chap. 13, « Le ROI adhérent ». Profil du domaine type (20+ étrangers par semaine, panier ~300 €) : chap. 11.
-- Diapo de secours : Diapo 14 (le ROI, étiqueté « calcul illustratif »).
+- Diapo de secours : Diapo 14 (le bloc « Simulation, profil du cas », tamponné SIMULATION).
 - Piège : Présenter 40 000 € comme constaté, ou ne pas savoir refaire le calcul (20 × 1/3 × 300 € × 20 = 40 000 €). Confondre ces ventes de vin de l'adhérent avec le CA de Planet Aura : le chap. 01 donne ~15 000 €/an de prestation pour 75 envois, c'est un autre modèle.
 
 ### 19. Votre ICP 5, les distilleries, n'apparaît pas dans votre top 10 et l'offre date de 2026. N'est-ce pas une hypothèse déguisée en ICP ?  _(probable)_
 - Pourquoi : Le jury teste la cohérence avec l'exigence de données réelles et la capacité à assumer un ICP stratégique, ce que le CDC autorise (« peut être stratégique, pour entrer sur un marché »).
 - Réponse : Vous avez raison, et je l'assume : c'est le seul ICP qui ne sort pas du top 10. Prouvé ou stratégique ? Stratégique, et le cahier des charges l'admet pour entrer sur un marché : notre offre spiritueux en B2C vers les États-Unis date de 2026. Je l'ai donc bornée par des faits vérifiables plutôt que par une promesse : six litres par personne et par envoi, taxes de 10,3 % plus 3 € par bouteille, et un statut de test, hors de la répartition de l'effort. Il sera réévalué après 90 jours de CRM. Cette distinction entre ICP prouvé et ICP stratégique vous convient-elle ?
 - Preuve : Segment « Distilleries & spiritueux (nouveau 2026) » : 6 L par personne, groupage 21 j, taxes 10,3 % + 3 €/btl : content-emma/06.md et 04.md. Fiche ICP 5 « test hors répartition de l'effort » : annexe A. CDC partie 8 : la liste des 10 clients « peut être stratégique (pour entrer sur un marché) ». Critère non discriminant retiré après 90 jours : content-emma/06.md, REPÈRE.
-- Diapo de secours : Diapo 8 (distilleries : test 2026, hors répartition).
+- Diapo de secours : Diapo 8 (titre de la barre : « distilleries en test », hors de la répartition de l'effort), puis B2 si la question glisse sur le score.
 - Piège : Défendre l'ICP 5 comme prouvé par le top 10. Inventer un volume ou un CA spiritueux. Dire « unique » : le dossier dit « quasi unique » et « offre rare ».
 
 ### 20. VELA, votre voilier-cargo : n'est-ce pas du greenwashing pour faire joli dans la présentation ?  _(possible)_
@@ -179,6 +179,51 @@
 - Preuve : CA ×4,7 entre 2021 (246 637 €) et 2025 (1 148 961 €), « sans année de recul » ; Planet Aura Inc., licences TTB importateur et grossiste : content-emma/02.md. O-11 : content-emma/D.md. Expressistes sous-traitants, « petit, précieux et compliqué », duel sur la taille « perdu d'avance » : content-emma/05.md.
 - Diapo de secours : Diapo 6 (positionnement), puis B3.
 - Piège : Dénigrer nommément DHL, Hillebrand Gori ou Viticolis. Revendiquer « premier », « unique », « exclusif ». Gonfler la taille. Se battre sur le prix ou le réseau. Citer leurs chiffres publics sans préciser qu'ils datent d'octobre 2026.
+
+# Questions difficiles : la méthode et sa preuve
+> Réponse courte, à savoir par cœur : « Ce que je vous présente, c'est une méthode construite, outillée et mesurable ; ce n'est pas encore la preuve de son efficacité. Cette preuve viendra des chiffres : le point zéro est posé au 24 septembre, la première lecture tombe fin décembre. Je préfère vous montrer comment on saura si ça marche plutôt que d'affirmer que ça marche. »
+
+### 1. Concrètement, quels résultats votre Sales Playbook a-t-il déjà produits ?  _(très probable)_
+- Pourquoi : Le jury distingue une méthode écrite d'un résultat prouvé ; il teste l'honnêteté.
+- Réponse : Aucun résultat commercial ne peut encore lui être attribué, et je ne vais pas vous en inventer. Les chiffres constatés, environ 145 signatures en douze mois, sont un résultat de l'équipe, antérieur au playbook. Ce que le playbook a produit, ce sont des livrables : une source unique des chiffres, un point zéro au 24 septembre, un ciblage, un processus, des scripts, un parcours d'intégration. Son effet se lira à partir de fin décembre sur trois indicateurs : les leads qualifiés, le passage du rendez-vous à la proposition, l'activation à trente jours.
+- Preuve : Chap. 17 (preuve en trois statuts : constaté, point zéro, objectif ; lecture à M+3) ; ~145 signés constatés (chap. 09 et 17).
+- Diapo de secours : B15 (existant, apport, statut), puis diapo 19.
+- Piège : Attribuer les ~145 signatures au playbook ; dire « ça marche » sans mesure.
+
+### 2. Comment prouver son efficacité si toutes les actions ne sont pas déployées ?  _(très probable)_
+- Pourquoi : Le jury vérifie que la méthode est mesurable, pas seulement décrite.
+- Réponse : Par construction. Chaque chantier a un critère de passage, chaque indicateur un point zéro : on ne comparera pas des impressions, mais un avant et un après sur la même source, les tableaux de bord et HubSpot. Première lecture fin décembre, puis chaque trimestre. Et si un indicateur ne bouge pas, la règle écrite dit quoi faire : sous cinquante pour cent d'activation, on revoit l'intégration des adhérents. Une méthode que je ne pourrais pas mesurer, je ne l'aurais pas proposée.
+- Preuve : Chap. 17 (chaque KPI : formule, fréquence, responsable, action) ; chap. 14 (critères de passage de la feuille de route).
+- Diapo de secours : B6, B13.
+- Piège : Promettre un résultat ; confondre objectif et constaté.
+
+### 3. Pourquoi ces méthodes et ces outils, SPIN, CAVE, PA-FIT, HubSpot, et pas d'autres ?  _(probable)_
+- Pourquoi : Le jury teste la pertinence des choix, pas leur liste.
+- Réponse : Chacun répond à un problème constaté. SPIN, parce que nos prospects ne se savent pas en perte : la méthode leur fait chiffrer eux-mêmes ce qu'ils perdent. CAVE et PA-FIT, parce que 448 prospects n'étaient pas qualifiés : CAVE trie en quatre questions, PA-FIT priorise, et un point n'est accordé qu'avec sa preuve. HubSpot et Brevo, parce qu'ils existaient déjà : je n'ai pas ajouté d'outil à une équipe de treize personnes, j'ai ajouté des règles.
+- Preuve : Chap. 06 (448 prospects non qualifiés) ; chap. 11 (CAVE, PA-FIT) ; chap. 12 (SPIN, Rackham) ; chap. 15 (outils existants).
+- Diapo de secours : B2 (une seule grille fait foi).
+- Piège : Présenter SPIN comme une invention personnelle ; dire que les outils sont nouveaux.
+
+### 4. Comment contrôlez-vous concrètement les performances, et qui le fait ?  _(probable)_
+- Pourquoi : Le jury vérifie la méthode de suivi exigée par la partie 14.
+- Réponse : À trois rythmes. Chaque lundi, l'hygiène du pipeline : un dossier incomplet sort du forecast. Chaque mois, une revue de quarante-cinq minutes qui se termine par une décision datée et un propriétaire. Chaque trimestre, la revue du playbook. Le commercial porte les indicateurs d'activité et de conversion, la direction le chiffre d'affaires, la marge et le taux de gain, l'exploitation la qualité de livraison. Ces rituels sont proposés, à ratifier en équipe.
+- Preuve : Chap. 17 (« Responsable : le commercial pour les indicateurs d'activité et de funnel, la direction pour CA, marge et win rate, l'exploitation pour l'OTIF ») ; chap. 15 (hygiène du lundi).
+- Diapo de secours : B6.
+- Piège : Présenter les rituels comme déjà tenus sans confirmation de la direction.
+
+### 5. Quelles sont les limites de votre cas fil rouge ?  _(probable)_
+- Pourquoi : Le jury teste la lucidité sur la démonstration.
+- Réponse : Trois. Ce n'est pas une vente réalisée : c'est un parcours type, avec des prix réels et des situations illustratives. Les points du score sont illustratifs : le barème donne des plafonds, pas une règle d'attribution fine. Et les 40 000 € sont une simulation, avec des hypothèses à valider chez le prospect. Ce que le cas prouve, c'est que la méthode s'enchaîne d'un bout à l'autre ; ce qu'il ne prouve pas, c'est son efficacité.
+- Preuve : Chap. 11, « Le fil rouge : une vente de bout en bout, en chiffres réels » : les prix sont ceux de la grille 2026, le domaine est un parcours type, et la dernière ligne du tableau n'est pas documentée (à retirer) ; chap. 13 (méthode du ROI) ; B16.
+- Diapo de secours : B16.
+- Piège : Laisser croire que le domaine existe ou que les 40 000 € seront gagnés.
+
+### 6. Au fond, quelle est votre contribution personnelle ? Qu'est-ce qui vient de vous, et pas de l'entreprise ou de l'IA ?  _(très probable)_
+- Pourquoi : Le jury évalue l'apport de la candidate.
+- Réponse : L'entreprise avait les outils, la grille, les procédures. J'ai apporté la méthode qui les relie : j'ai analysé notre top 10 et nos données pour construire les ICP et le score, confronté les personas à 70 contacts et 47 réponses, écrit le processus, les scripts, la banque d'objections et le parcours d'intégration, et posé une source unique des chiffres. L'IA m'a aidée sur la forme, ce que déclare l'annexe W, et sur des passes de mise en cohérence, chaque correction vérifiée à sa source ; ce support oral a aussi été travaillé avec elle, puis relu. Le fond est sourcé, et je peux vous expliquer chaque chiffre. Sur chaque diapo de contenu, une étiquette distingue l'existant de mon apport.
+- Preuve : B15 ; annexe W (usage de l'IA) ; chap. 06, 07, 09 à 13 ; annexe U.
+- Diapo de secours : B15, puis B5.
+- Piège : S'attribuer Planet'Connect ou les ~145 signatures.
 
 # Questions sur le cas et la démonstration
 ### 1. Votre domaine provençal, c'est un vrai client ?  _(très probable)_
@@ -239,8 +284,8 @@
 
 ### 9. Vous dites que la vente finit au premier envoi. Si le domaine signe mais n'expédie jamais, que fait votre commercial ?  _(possible)_
 - Pourquoi : Le jury teste l'opérationnalité de la règle la plus structurante.
-- Réponse : Il reste responsable jusqu'à l'étape 6 : la formation du caveau a lieu à J+5, le premier envoi est suivi de bout en bout, et sans envoi, une relance d'activation part avant J+30. L'indicateur le dit : au moins 70 % des signés doivent expédier sous 30 jours, avec une alerte sous 50 %, et alors c'est l'onboarding qu'on revoit.
-- Preuve : Chap. 09 (étape 6, responsabilité du commercial), chap. 16 (onboarding J0-J30), chap. 17 (activation ≥ 70 %, alerte sous 50 %).
+- Réponse : Il reste responsable jusqu'à l'étape 6 : la formation du caveau a lieu à J+5, le premier envoi est suivi de bout en bout, et sans premier envoi sous 30 jours, la séquence réveil prend le relais. L'indicateur le dit : au moins 70 % des signés doivent expédier sous 30 jours, avec une alerte sous 50 %, et alors c'est l'onboarding qu'on revoit.
+- Preuve : Chap. 09 (étape 6, responsabilité du commercial), chap. 11 (activation < 30 jours, sinon séquence réveil), chap. 16 (onboarding J0-J30), chap. 17 (activation ≥ 70 %, alerte sous 50 %).
 - Diapo de secours : Diapo 15, puis diapo 19.
 - Piège : Confondre activation (premier envoi sous 30 jours) et adhérent actif (un envoi sur 90 jours).
 
@@ -266,7 +311,7 @@
 - Répond à : Jeu de rôle UPS, taille face aux grands réseaux, différenciation sans dénigrement.
 
 ### B4 — SPIN sur le terrain : la permission avant le tunnel
-- Contenu : au caveau, un appel de moins de 3 minutes qui vise 30 minutes de démonstration ; pour un compte structuré, deux questions en 45 secondes puis 25 minutes de cartographie ; prospecter avant les pics ; trois lignes de plus de la banque SPIN (responsable caveau, caviste, distillerie).
+- Contenu : au caveau, un appel de moins de 3 minutes qui vise 30 minutes de démonstration ; pour un compte structuré, la permission en 45 secondes puis 25 minutes de cartographie ; prospecter avant les pics ; tunnel 2, maison de Champagne (S, P, I, N) ; deux exemples de la banque de 8 profils (responsable caveau, caviste).
 - Répond à : « En pleine saison, quel vigneron vous accorde 35 minutes ? », SPIN par persona.
 
 ### B5 — Transparence IA
@@ -278,7 +323,7 @@
 - Répond à : Origine des cibles, méthode de suivi, adoption du CRM.
 
 ### B7 — Le prix rendu, sans maquillage
-- Contenu : exemple chiffré du playbook (chap. 04), 12 bouteilles, 300 € de vin : 210 € de transport + ~30 € de taxes estimées (exemple du playbook) + 17 € de dossier DDP + assurance en option 3 % × (300 + 210) ≈ 15 € = ≈ 270 € réglés d'avance, ~21 jours estimés ; ≈ 17,50 € de transport par bouteille (15 € sur les 24 bouteilles du cas, total selon la valeur déclarée) ; droits US à 10 % depuis février 2026 (15 % d'août 2025 à février 2026), le simulateur fait foi ; pas de remise sans contrepartie.
+- Contenu : exemple chiffré du playbook (chap. 04), 12 bouteilles, 300 € de vin : 210 € de transport + ~30 € de taxes estimées (exemple du playbook) + 17 € de dossier DDP + assurance en option 3 % × (300 + 210) ≈ 15 € = ≈ 270 € réglés d'avance, ~21 jours estimés ; ≈ 17,50 € de transport par bouteille (15 € sur les 24 bouteilles du cas, total selon la valeur déclarée) ; droits US volatils depuis 2025 : aucun taux cité, le simulateur fait foi ; pas de remise sans contrepartie.
 - Répond à : Objection prix, demande de remise, droits de douane US.
 
 ### B8 — Stratégie : SWOT et horizons
@@ -306,7 +351,7 @@
 - Répond à : Ressources précises, réalistes, échéancées et chiffrées.
 
 ### B14 — Objections : le top 5, une seule preuve chacune
-- Contenu : prix (≈ 17,50 € de transport par bouteille, payés par le client final), casse (assurance en option, 3 %, jusqu'à 20 000 € par envoi, choisie sur 89,8 % des envois, signalement sous 48 h), chaleur (départ différé, altération thermique exclue), statu quo (« comparer sur UN envoi »), temps (3 min de saisie, saisonniers formés en 30 min) ; méthode en 4 temps ; banque de 26 objections (annexe D).
+- Contenu : prix (360 € HT de transport pour 24 bouteilles, 15 € par bouteille, payés par le client final), casse (assurance en option, 3 %, jusqu'à 20 000 € par envoi, choisie sur 89,8 % des envois, signalement sous 48 h), chaleur (départ différé, altération thermique exclue), statu quo (« comparer sur UN envoi »), temps (3 min de saisie, saisonniers formés en 30 min) ; méthode en 4 temps ; banque de 26 objections (annexe D).
 - Répond à : Traitement des objections, jeux de rôle du jury.
 
 ### B15 — Contribution : ce qui existait, ce que j'ai apporté, et pourquoi
@@ -319,7 +364,8 @@
 
 # Autoévaluation
 **Points forts**
-- Une méthode démontrée, pas seulement décrite : un même domaine (parcours type du chapitre 11) traverse les douze étapes, du score PA-FIT au suivi dans HubSpot, avec les vrais outils à l'écran (simulateur, tableau de bord, pages du playbook).
+- Une méthode démontrée, pas seulement décrite : un même domaine (parcours type du chapitre 11) traverse les dix gestes du commercial, du score PA-FIT au suivi dans HubSpot, avec des documents réels à l'écran (grille officielle 2026, tableau de bord, pages du playbook).
+- Des décisions justifiées : chaque recommandation importante est reliée à un constat et à ce que l'on mesurera (soixante pour cent de l'effort sur les caveaux, preuve dans le CRM, ligne d'arrivée au premier envoi, trois chantiers d'abord, revue mensuelle).
 - Une démarche fondée sur la preuve : une source unique pour les chiffres (dashboards Planet'Connect du 24/09/2026), un statut affiché pour chaque chiffre (constaté, objectif, hypothèse, illustratif) et une étiquette pour chaque contribution (existant, mon analyse, ma contribution, à déployer, à mesurer). Je n'ai présenté aucun objectif comme un résultat, ni le cas comme une vente réalisée.
 - Des parties 8 à 14 opérationnelles et reliées : cinq ICP tirés du top 10 anonymisé, des personas confrontés à 70 contacts et 47 réponses, un pipeline en sept étapes avec responsable, preuve, délai et outil, deux tunnels SPIN, six chantiers chiffrés et datés, un parcours d'intégration 30-60-90 et des indicateurs qui ont chacun une source, une fréquence, un responsable et une action.
 - Une connaissance du terrain et du vocabulaire métier acquise en quatre ans chez Planet Aura (DDP, CIVC, POA, statut de commissionnaire), qui me permet de traiter les objections avec la méthode du playbook, sans dénigrer ni surpromettre.

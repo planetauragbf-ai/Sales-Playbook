@@ -66,7 +66,7 @@ def sommaire():
     ]
     blocks = []
     for n, name, c, title, sub, cdc, enj in cols:
-        blocks.append(f'''<div style="flex:1;display:flex;flex-direction:column;gap:12px">
+        blocks.append(f'''<div style="flex:1;display:flex;flex-direction:column;gap:8px">
 {num(n, 72, c)}
 <div style="height:10px;background:{c};border-radius:5px"></div>
 {label(name, c, ls=3)}
@@ -74,7 +74,7 @@ def sommaire():
 <p style="font-size:24px;line-height:1.35;color:{GRIS}">{sub}</p>
 <div style="flex:1"></div>
 <p style="font-size:24px;color:{GRISD}">{cdc}</p>
-<p style="font-size:24px;font-weight:700;color:{TXT.get(c, c)}">{enj}</p>
+<p style="height:60px;font-size:24px;font-weight:700;line-height:1.25;color:{TXT.get(c, c)}">{enj}</p>
 </div>''')
     legend = ''.join(ctag(k) for k in CTAG)
     case = (f'<div style="background:#FFFFFF;border:1px solid {FILET};border-left:8px solid {ORF};border-radius:14px;padding:14px 24px;display:flex;align-items:center;gap:22px">'
@@ -104,7 +104,7 @@ def marche():
            f'{big("Le premier marché vacille", "−21 %", "", "d’exports français de vins et spiritueux vers les USA en 2025 : droits de douane et change", "FEVS, févr. 2026")}'
            f'{big("Le client vient à nous", "5,4 M", "", "œnotouristes étrangers dans nos vignobles (2023) : le caveau devient un canal d’export", "Atout France")}'
            f'</div>')
-    cons = [('Droits de douane', '10 % depuis févr.\u00a02026<br>(15 % dès août\u00a02025)'),
+    cons = [('Droits de douane', 'volatils depuis 2025 ; taux du jour au simulateur'),
             ('Three-tier system', 'importateur licencié obligatoire'),
             ('Procuration (POA)', 'au-delà de 2 100 $ de valeur déclarée'),
             ('Documents', 'DA/EMCS, accises, certificat CIVC'),
@@ -140,7 +140,7 @@ def entreprise():
     ca = f'''<div style="width:520px;display:flex;flex-direction:column;gap:6px">
 <div style="display:flex;align-items:baseline;gap:14px">{num('×4,7', 60, ORF)}<p style="font-size:24px;color:{GRIS}">CA de 2021 à 2025</p></div>
 <div style="display:flex;align-items:flex-end;gap:8px">{bars}</div>
-<p style="font-size:24px;line-height:1.35;color:{ENCRE}">2025 : <b>+11,6 %</b>, à contre-courant<br>2026 : <b>+18,7 %</b> à fin septembre</p>
+<p style="font-size:24px;line-height:1.35;color:{ENCRE}">2025 : <b>+11,6 %</b>, à contre-courant<br>2026 : <b>+18,7 %</b> au 24/09</p>
 </div>'''
     mk = f'''<div style="flex:1;display:flex;flex-direction:column;gap:10px;justify-content:flex-end">
 <p style="font-size:24px;line-height:1.3;color:{GRIS}"><b>262 adhérents</b> · <b>6 643 envois</b> sur 12 mois, vers :</p>
@@ -190,9 +190,9 @@ def offre():
     prom = ''.join(f'<p style="font-size:24px;line-height:1.3;color:{ENCRE};background:#FFFFFF;border:1px solid {FILET};border-radius:999px;padding:6px 16px;white-space:nowrap">{t}</p>'
                    for t in ['Vous vendez plus', 'Vous ne gérez rien', 'Votre risque est maîtrisé'])
     node = lambda t, c: f'<p style="font-family:{L};font-size:24px;font-weight:700;color:#FFFFFF;background:{c};border-radius:10px;padding:6px 14px;white-space:nowrap;flex:none">{t}</p>'
-    step = lambda t: f'<div style="flex:1;display:flex;flex-direction:column;align-items:center;gap:2px"><p style="font-size:24px;line-height:1.15;text-align:center;color:{GRIS}">{t}</p>{arrow(90, 18, BLEU, 3)}</div>'
+    step = lambda t: f'<div style="flex:1;display:flex;flex-direction:column;align-items:center;gap:2px"><p style="font-size:24px;line-height:1.15;text-align:center;color:{GRIS}">{t}</p>{arrow(90, 22, ORF, 4)}</div>'
     flow = f'''<div style="display:flex;flex-direction:column;gap:8px">
-<div style="display:flex;align-items:center;gap:10px">{node('Visiteur', ORF)}{step('vin + transport, au comptoir')}{node('Domaine', BORD)}{step('par SEPA')}{node('Planet Aura', PETROLE)}</div>
+<div style="display:flex;align-items:center;gap:10px">{node('Visiteur', ORF)}{step('vin + transport, au comptoir')}{node('Domaine', BORD)}{step('par SEPA')}{node('Planet Aura', PETROLE)}</div>
 <p style="font-size:24px;line-height:1.3;color:{ENCRE}">Et nous livrons le visiteur en <b>DDP</b> : taxes estimées, réglées d’avance.</p></div>'''
     left = f'''<div style="width:800px;display:flex;flex-direction:column;gap:14px">
 {label('Ce que nous vendons', SARCF, ls=2)}

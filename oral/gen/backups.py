@@ -52,7 +52,7 @@ def b1():
 def b2():
     pts = [(15, 'ICP'), (15, 'Flux'), (15, 'Problème'), (15, 'Volume'), (15, 'Timing'), (10, 'Décision'), (10, 'Prépa.'), (5, '')]
     cols = [PETROLE, SARCF, SARC, '#4FA7BA', '#7DBCCA', ORF, OR, CHAMP]
-    seg = ''.join(f'<div style="flex:{n};height:64px;background:{c};display:flex;align-items:center;justify-content:center"><p style="font-size:24px;font-weight:600;color:#FFFFFF">{n}</p></div>' for (n, _), c in zip(pts, cols))
+    seg = ''.join(f'<div style="flex:{n};height:64px;background:{c};display:flex;align-items:center;justify-content:center"><p style="font-size:24px;font-weight:600;color:{"#FFFFFF" if c in (PETROLE, SARCF, SARC, ORF) else ENCRE}">{n}</p></div>' for (n, _), c in zip(pts, cols))
     lab = ''.join(f'<p style="flex:{n};font-size:24px;text-align:center;color:{GRIS}">{t}</p>' for n, t in pts)
     steps = [('1 · Trier : CAVE', 'Clientèle, Autorité, Volume, Échéance · qualifié = C confirmé, A identifié, E daté'),
              ('2 · Score express /20', 'le brouillon de terrain · ≥ 14 : P1 · 8-13 : P2 · &lt; 8 : nurture'),
@@ -95,17 +95,20 @@ def b3():
 
 
 def b4():
-    inner = f'''{bhead(4, 'SPIN sur le terrain', 'Sur le terrain : la permission avant le tunnel')}
+    t2 = ''.join(f'<p style="font-size:24px;line-height:1.3;color:{ENCRE}"><b><span style="color:{SARCF}">{k}</span></b> {q}</p>' for k, q in [
+        ('S', '« Quels marchés, modes, fréquences et incoterms utilisez-vous pour vos particuliers hors UE ? »'),
+        ('P', '« Où perdez-vous visibilité ou temps : certificat CIVC, douane américaine, suivi ? »'),
+        ('I', '« Que coûte un colis immobilisé en douane à l’image de la maison ? […] »'),
+        ('N', '« Que changerait un plan de flux documenté où le certificat et les taxes sont gérés à chaque envoi ? »')])
+    inner = f'''{bhead(4, 'SPIN sur le terrain', 'La permission avant le tunnel ; un tunnel par profil')}
 <div style="display:flex;gap:40px;flex:1">
 <div style="flex:1;display:flex;flex-direction:column;gap:16px">
-{box('Compte structuré, premier appel : la permission en 45 s', '« Quelle destination ou quel flux concentre aujourd’hui le plus d’enjeux logistiques ? » · « Le principal risque est-il le délai, la douane, la traçabilité, le coût ou la cohérence RSE ? » · puis proposer 25 minutes de cartographie du flux, avec deux créneaux', ORF)}
-{box('Caveau : un appel de moins de 3 minutes', 'Il vise 30 minutes de démonstration sur ses vins, pas une vente · on prospecte avant les pics (mai, juin, septembre), pas pendant · le playbook réserve le bloc 10 h-12 h au téléphone', SARCF)}
+{box('Compte structuré, 1er appel : permission en 45 s', '« Quelle destination ou quel flux concentre aujourd’hui le plus d’enjeux logistiques ? »<br>« Le principal risque est-il le délai, la douane, la traçabilité, le coût ou la cohérence RSE ? »<br>Puis proposer 25 minutes de cartographie du flux, avec deux créneaux', ORF)}
+{box('Caveau : un appel de moins de 3 minutes', 'Il vise 30 minutes de démonstration sur ses vins, pas une vente<br>On prospecte avant les pics (mai, juin, septembre), pas pendant<br>Le playbook réserve le bloc 10 h-12 h au téléphone', SARCF)}
 </div>
 <div style="width:820px;display:flex;flex-direction:column;gap:12px">
-{label('La banque compte 8 lignes : trois exemples de plus', ORF, ls=2)}
-{box('Responsable caveau · I', '« Quel effet a une réponse floue ou un refus sur la vente en cours, et sur l’avis que laissera ce visiteur ? »', SARC)}
-{box('Caviste · I', '« Sur un mois, combien de ventes de 2 bouteilles auraient pu être des ventes de 12 ? »', BORD)}
-{box('Distillerie · P', '« Quels prestataires vous ont dit non, et pourquoi ? »', PETROLE)}
+<div style="background:#FFFFFF;border:1px solid {FILET};border-left:6px solid {SARCF};border-radius:14px;padding:16px 22px;display:flex;flex-direction:column;gap:8px">{label('Tunnel 2 · Maison de champagne', SARCF, ls=2)}{t2}</div>
+{box('La banque compte 8 profils : deux exemples de plus', 'Responsable caveau · I : « Quel effet a une réponse floue ou un refus sur la vente en cours et sur l’avis que laissera ce visiteur ? »<br>Caviste · I : « Sur un mois, combien de ventes de 2 bouteilles auraient pu être des ventes de 12 ? »', ORF)}
 </div></div>
 {bfoot(4)}'''
     return 'b4', inner, dict(gap=36)
@@ -119,7 +122,7 @@ def b5():
 {box('Le fond et ses sources', 'Documentation officielle et procédures 2026 · dashboards Planet’Connect au 24/09/2026 · 3 enquêtes (47 réponses) · 24 références externes vérifiées en ligne (OIV, FEVS, Atout France…)', PETROLE)}
 </div>
 <div style="flex:1;display:flex;flex-direction:column;gap:16px">
-{box('Aussi, à déclarer', "Des passes de mise en cohérence avec Claude : chiffres corrigés d’après les sources, règles harmonisées (assurance, feuille de route, seuils), bibliographie, renvois ; chaque correction vérifiée à sa source · ce support oral : titres, mises en page, visualisations et formulation des notes travaillés avec Claude, à partir du dossier, puis relus", OR)}
+{box('Aussi, à déclarer', "Des passes de mise en cohérence avec Claude : chiffres corrigés d’après les sources, règles harmonisées (assurance, feuille de route, seuils), bibliographie, renvois ; chaque correction vérifiée à sa source · ce support oral : titres, mises en page, visualisations et formulation des notes travaillés avec Claude, à partir du dossier, puis relus", ORF)}
 {box('Garde-fous', "Aucune donnée personnelle de client final · aucun identifiant · aucune image générée par IA (schémas codés à partir des données) · chaque chiffre vérifié à sa source (annexe C)", BORD)}
 </div></div>
 {box('Le test', 'Le meilleur contrôle, c’est vous : quel chiffre ou quelle procédure voulez-vous que je vous explique ?', CHAMP, dark=True)}
@@ -151,21 +154,21 @@ def b6():
 def b7():
     lines = [('Transport, groupage DDP (grille 2026)', '210 €'), ('Taxes estimées (exemple du playbook)', '~30 €'),
              ('Frais de dossier DDP', '17 €'), ('Assurance en option : 3 % × (300 € + 210 €)', '≈ 15 €')]
-    rows = ''.join(f'<div style="display:flex;justify-content:space-between;padding:12px 0px;border-bottom:1px solid {FILET}"><p style="font-size:26px;color:{ENCRE}">{a}</p>'
-                   f'<p style="font-family:{T};font-size:30px;font-weight:700;color:{PETROLE}">{b}</p></div>' for a, b in lines)
+    rows = ''.join(f'<div style="display:flex;justify-content:space-between;align-items:baseline;padding:12px 0px;border-bottom:1px solid {FILET}"><p style="font-size:26px;color:{ENCRE}">{a}</p>'
+                   f'{num(b, 30, PETROLE)}</div>' for a, b in lines)
     inner = f'''{bhead(7, 'Prix rendu', 'Le prix rendu, sans maquillage : le client final paie')}
 <div style="display:flex;gap:56px;flex:1">
 <div style="width:980px;display:flex;flex-direction:column;gap:6px">
 {label('Exemple du playbook (chap. 04) : 12 bouteilles, 300 € de vin', SARCF, ls=2)}
 {rows}
-<div style="display:flex;justify-content:space-between;padding-top:14px"><p style="font-size:28px;font-weight:700;color:{ENCRE}">Total avec l'option assurance, réglé d'avance</p><p style="font-family:{T};font-size:44px;font-weight:700;color:{ORF}">≈ 270 €</p></div>
+<div style="display:flex;justify-content:space-between;align-items:baseline;padding-top:14px"><p style="font-size:28px;font-weight:700;color:{ENCRE}">Total avec l'option assurance, réglé d'avance</p>{num('≈ 270 €', 44, ORF)}</div>
 <p style="font-size:24px;line-height:1.35;color:{GRISD}">Les taxes restent une estimation, révisable (CGS art. 5) · ~21 jours estimés, hors douane · le simulateur fait foi</p>
 </div>
 <div style="flex:1;display:flex;flex-direction:column;gap:16px">
 <div style="background:{NUIT};border-radius:18px;padding:24px 28px;display:flex;flex-direction:column;gap:6px">
-<p style="font-family:{T};font-size:72px;font-weight:700;line-height:1;color:{CHAMP}">≈ 17,50 €</p>
+{num('≈ 17,50 €', 72, CHAMP)}
 <p style="font-size:24px;color:{BRUME}">de transport par bouteille (210 € / 12)</p></div>
-{box('Les règles', 'Droits US : 10 % depuis février 2026 (15 % d’août 2025 à février 2026) · pas de remise sans contrepartie ni validation de la direction · on négocie le périmètre avant le prix', BORD)}
+{box('Les règles', 'Droits US : volatils depuis 2025, taux du jour au simulateur · pas de remise sans contrepartie ni validation de la direction · on négocie le périmètre avant le prix', BORD)}
 </div></div>
 {bfoot(7)}'''
     return 'b7', inner, dict(gap=32)
@@ -342,7 +345,7 @@ def b16():
              ('7 · Récurrent', 'Score de santé ; potentiel 60 à 100 envois par an, tiers B', 'CHAP. 11')]
     rows = [[a, b, f'<b><span style="color:{st[c]}">{c.capitalize().replace("Chap. 11", "Chap. 11")}</span></b>'] for a, b, c in rows_]
     t = table(['Étape', 'Ce que montre le cas', 'Statut'], rows, [18, 66, 16], pad=8)
-    inner = f"""{bhead(16, 'Cas fil rouge', 'Un parcours type : ce qui vient du playbook, ce qui est illustratif')}
+    inner = f"""{bhead(16, 'Cas fil rouge', 'Un parcours type : ce qui vient du playbook, ce qui est illustratif')}
 {t}
 <div style="flex:1"></div>
 <p style="font-size:24px;line-height:1.35;color:{GRIS}"><b><span style="color:{PETROLE}">Source</span></b> : chap. 11, « le fil rouge » (chiffré à 12 btl, 210 €), adapté au panier de 24 btl du chap. 04 et de la fiche ICP 1 ; prix de la grille 2026 ; règles des chap. 09 à 16. <b><span style="color:{PETROLE}">Ce n’est pas une vente réalisée</span></b> : aucun domaine n’est nommé, aucun chiffre client n’est cité.</p>

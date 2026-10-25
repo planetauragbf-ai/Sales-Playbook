@@ -53,22 +53,22 @@ SHOW = {
     'entreprise': 'La barre 2025 et ×4,7 ; puis la ligne « Commercial · Adam · fin 2025 ».',
     'offre': 'Les barres par bouteille : la dorée, 24 bouteilles à 15 € ; puis le bloc « On se débrouille ».',
     'diagnostic': 'Le quadrant « Fragilités », puis la problématique : la lire lentement, une seule fois.',
-    'icp': 'Le score 45, puis la flèche vers 85 : les barres hachurées sont les preuves apportées ensuite.',
-    'personas': 'Les trois encadrés « Ce que je lui dis » ; le bloc sombre « Mon étude ».',
-    'solutions': 'Suivre la première ligne de gauche à droite, du problème à la preuve.',
-    'processus': 'Le bandeau « Mon choix » : la ligne d’arrivée est le premier envoi.',
-    'prospecter': 'La question clé du script d’appel, puis l’objet de l’e-mail.',
-    'spin': 'Descendre les bulles S, P, I, N ; finir sur le bandeau « Reformuler ».',
-    'proposer': 'La grille officielle 2026 : la case encadrée, 24 bouteilles = 360 € ; puis 15 € par bouteille ; le bloc 40 000 €.',
-    'activer': 'La frise J0 → J+30 ; puis le bloc « ≥ 70 % ».',
-    'ressources': 'Les quatre vignettes de pages réelles ; puis le total 3 000 €.',
-    'salesops': 'HubSpot au centre, puis la flèche orange pointillée vers Brevo : à déployer en novembre.',
+    'icp': 'La barre 60 % caveaux et « Ma recommandation » ; puis, à droite, 45 → 60 → 85 : les barres hachurées sont les preuves apportées ensuite.',
+    'personas': 'Les trois citations en grand, de gauche à droite ; puis le bandeau 70 · 47 · 15.',
+    'solutions': 'Suivre la chaîne de gauche à droite, du problème à la preuve ; le pavé sombre « Solution ».',
+    'processus': 'Le rond n° 6 (Activé), puis le bandeau Constat → Ma décision → Mesure.',
+    'prospecter': 'Les trois gestes à gauche (préparer, viser, cadencer) ; puis la question en gras du script.',
+    'spin': 'Descendre S, P, I, N : la question, puis la réponse en beige ; finir sur « Reformuler ».',
+    'proposer': 'La case encadrée de la grille officielle : 24 bouteilles = 360 € ; puis 15 € ; enfin le bloc « Simulation ».',
+    'activer': 'La frise J0 → J+30 ; puis le bandeau Constat → Ma décision → Mesure.',
+    'ressources': 'À gauche, « Créé dans le playbook » ; à droite, les trois chantiers et leur budget ; le bandeau du bas.',
+    'salesops': 'HubSpot au centre, la flèche orange vers Brevo (câblage prévu) ; puis, à droite, les quatre règles marketing-ventes ; finir sur le bandeau : pipeline complet chaque lundi.',
     'onboarding': 'L’escalier J+30, J+60, J+90 ; puis S8 : premier adhérent activé.',
-    'kpi': 'À gauche le constaté (capture réelle), à droite une carte : RDV → proposition.',
+    'kpi': 'À gauche le constaté (capture réelle), à droite la carte RDV → proposition ; puis le bandeau du bas.',
     'conclusion': 'Les 24 bouteilles pleines ; finir en regardant le jury, sans regarder l’écran.',
 }
 SEC = {'marche': 'B10 · B8', 'entreprise': 'B9', 'offre': 'B7 · B3', 'diagnostic': 'B8', 'icp': 'B2 · B16', 'personas': 'B1',
-       'solutions': 'B3', 'processus': 'B6 · B12', 'prospecter': 'B4 · B12', 'spin': 'B4', 'proposer': 'B7 · B14', 'activer': 'B11',
+       'solutions': 'B3 · B14', 'processus': 'B6 · B12', 'prospecter': 'B4 · B12', 'spin': 'B4', 'proposer': 'B7 · B14', 'activer': 'B11',
        'ressources': 'B13', 'salesops': 'B12 · B9', 'kpi': 'B6', 'conclusion': 'B15 · B5'}
 
 # ---------- banque de questions ----------
@@ -88,7 +88,10 @@ def parse_qs(block):
 
 
 top = parse_qs(J.split('# Questions pièges')[0])
-traps = parse_qs(J.split('# Questions pièges')[1].split('# Questions sur le cas')[0])
+traps = parse_qs(J.split('# Questions pièges')[1].split('# Questions difficiles')[0])
+HARDB = J.split('# Questions difficiles')[1].split('# Questions sur le cas')[0]
+hard = parse_qs(HARDB)
+SHORT = re.search(r'^> Réponse courte, à savoir par cœur : (.*)$', HARDB, re.M).group(1)
 cas = parse_qs(J.split('# Questions sur le cas')[1].split('# Diapos de secours')[0])
 JB = J.split('# Diapos de secours')[1].split('# Autoévaluation')[0]
 REPOND = dict(re.findall(r'^### (B\d+) — .*?\n.*?- Répond à : (.*?)$', JB, re.S | re.M))
@@ -125,9 +128,9 @@ H.append(f'''<!doctype html><html lang="fr"><head><meta charset="utf-8"><title>G
 <section class="cover">
 <p class="ey">SOUTENANCE ORALE · BLOC 2 · EURIDIS</p>
 <h1>Guide de soutenance</h1>
-<p class="sub">Sales Playbook Planet Aura · version 3, le cas fil rouge</p>
+<p class="sub">Sales Playbook Planet Aura · version 4, finale</p>
 <p class="who">Emma Soares Britschgy · version du 25 octobre 2026</p>
-<div class="cbox"><p><b>Ce que contient ce guide</b></p><p>1. L’essentiel en une page · 2. Le cas fil rouge en une page · 3. La grille de conformité · 4. Le script minuté, diapo par diapo · 5. Les transitions et les messages clés · 6. Chiffres et définitions · 7. Les questions du jury · 8. Les diapos de secours · 9. Limites et réserves · 10. L’autoévaluation · 11. Les check-lists</p></div>
+<div class="cbox"><p><b>Ce que contient ce guide</b></p><p>1. L’essentiel en une page · 2. Le cas fil rouge et les dix gestes du commercial · 3. La grille de conformité · 4. Le script minuté, diapo par diapo · 5. Les transitions, les messages clés, les passages à tester · 6. Chiffres et définitions · 7. Les questions du jury · 8. Les diapos de secours · 9. Limites et réserves · 10. Avant / après : ce qui a changé et pourquoi · 11. L’autoévaluation et l’évaluation critique · 12. Les check-lists</p></div>
 <p class="conf">Document de travail personnel : ne pas remettre au jury, ne pas diffuser.</p>
 </section>''')
 
@@ -145,41 +148,54 @@ H.append(f'''<section><p class="ey">1 · L’ESSENTIEL EN UNE PAGE</p><h2>Vingt 
 <tr><td><b>Synthèse et ouverture</b></td><td>20</td><td>{end('conclusion')}</td><td>environ 1 min</td></tr></table>
 <h3>Trois points de passage au chronomètre</h3>
 <table class="t"><tr><th>À l’écran</th><th>Heure visée</th><th>Si je suis en retard</th></tr>
-<tr><td>Diapo 8 · ICP</td><td><b>{start('icp')}</b></td><td>Diapo 6 : garder le triangle et « on se débrouille », sauter la carte des familles.</td></tr>
-<tr><td>Diapo 13 · SPIN</td><td><b>{start('spin')}</b></td><td>Diapo 11 : garder la ligne d’arrivée, sauter les durées de cycle.</td></tr>
-<tr><td>Diapo 19 · Indicateurs</td><td><b>{start('kpi')}</b></td><td>Une carte, une décision ; puis directement la conclusion.</td></tr></table>
+<tr><td>Diapo 8 · ICP</td><td><b>{start('icp')}</b></td><td>Diapo 8 : sauter « Le score ne juge pas la taille : il juge la preuve. » (−5 s) ; diapo 10 : sauter « La même logique… caviste. » (−10 s) ; diapo 12 : sauter « Et l’e-mail tient en une phrase… la valise. » (−7 s).</td></tr>
+<tr><td>Diapo 13 · SPIN</td><td><b>{start('spin')}</b></td><td>Diapo 13 : sauter « C’est là que le vigneron… le calcul. » (−6 s) ; diapo 17 : sauter « Et marketing et ventes partagent quatre règles… un lead. » (−10 s) ; diapo 18 : sauter « Chacun forme sur son terrain, moi sur le simulateur. » (−3 s).</td></tr>
+<tr><td>Diapo 19 · Indicateurs</td><td><b>{start('kpi')}</b></td><td>Diapo 19 : sauter « Un indicateur n’a de valeur que si l’on sait s’il est mesuré ou espéré. » (−6 s, le titre le dit) ; diapo 20 : ne rien couper.</td></tr></table>
+<p class="lead">Le minutage est théorique (130 mots par minute, plus 2 s par changement de diapo) : il ne prouve pas la durée réelle. Seules trois répétitions chronométrées à voix haute le confirmeront.</p>
 <h3>Six phrases à savoir mot pour mot</h3>
 <ol class="ph">
 <li>« Un couple de Houston voulait 24 bouteilles. Ils sont repartis avec 2 : ils ne savaient pas comment les ramener. »</li>
 <li>« Comment transformer une croissance portée par le bouche-à-oreille en une méthode de vente reproductible et mesurable, pour recruter, activer et fidéliser nos adhérents ? »</li>
 <li>« Un point n’est accordé qu’avec sa preuve. »</li>
 <li>« La vente finit au premier envoi, pas à la signature. »</li>
-<li>« Vingt-quatre bouteilles, trois cent soixante euros de transport, les taxes estimées et réglées d’avance, une livraison estimée à trois semaines. Ils repartent les mains libres. »</li>
+<li>« Vingt-quatre bouteilles, trois cent soixante euros de transport et dix-sept euros de dossier, les taxes estimées et réglées d’avance, une livraison estimée à trois semaines. Ils repartent les mains libres. »</li>
 <li>« Le prospect n’achète pas seulement du transport : il cherche à réduire son risque. »</li>
 </ol>
 <div class="warn"><p class="wl">CE QUE JE NE DIS JAMAIS</p>
-<p>Que le cas est une vente réelle, ou qu’un compte du top 10 suit cette trajectoire · « souvent » à propos de la scène de Houston · la capture USA du dossier (grille 2025) · un nom ou un CA de client · « assurance incluse », « tout compris », « garanti » · « 210 € » ou « 360 € » comme prix complet (c’est le transport) · « la valeur résiste » (l’OIV dit l’inverse pour 2025) · « 145 adhérents actifs » (ce sont des signés) · « j’ai interviewé » (échanges écrits) · un objectif présenté comme un résultat · les projets au présent · un taux de droits US de mémoire · « premier », « unique », « exclusif ».</p></div>
+<p>Que le cas est une vente réelle, ou qu’un compte du top 10 suit cette trajectoire · « souvent » à propos de la scène de Houston · la capture USA du dossier (grille 2025) · un nom ou un CA de client · « assurance incluse », « tout compris », « garanti » · « 210 € » ou « 360 € » comme prix complet (c’est le transport) · « la valeur résiste » (l’OIV dit l’inverse pour 2025) · « 145 adhérents actifs » (ce sont des signés) · « j’ai interviewé » (échanges écrits) · un objectif présenté comme un résultat · les projets au présent · un taux de droits US de mémoire · les 40 000 € comme un gain (c’est une simulation) · « premier », « unique », « exclusif ».</p></div>
 </section>''')
 
 # ---------- le cas en une page ----------
+GESTES = [('1 · Qualifier un prospect', '8', 'cinq critères, score PA-FIT 45 → 60 → 85, un point par preuve'),
+          ('2 · Choisir son interlocuteur', '9 · 12', 'le vigneron décide, la responsable caveau utilise, le client final paie'),
+          ('3 · Préparer sa prospection', '12', 'site, e-shop, avis, gamme de prix ; cadence de terrain'),
+          ('4 · Conduire l’entretien SPIN', '13', 'quatre familles de questions, chacune avec son rôle'),
+          ('5 · Identifier les besoins', '13', 'la reformulation à trous, validée par le prospect'),
+          ('6 · Présenter une solution adaptée', '10 · 14', 'problème → besoin → solution → bénéfice → preuve ; la grille 2026'),
+          ('7 · Traiter les objections', '14 (+ B14)', '« c’est cher » en quatre temps, une seule preuve'),
+          ('8 · Accompagner l’adhésion', '15', 'signature en ligne, SEPA, premier lot de cartons, formation à J+5'),
+          ('9 · Déclencher le premier envoi', '15', 'le premier envoi suivi de bout en bout ; la ligne d’arrivée'),
+          ('10 · Suivre les résultats', '19', 'prochaine action datée dans HubSpot ; KPI, point zéro, revue mensuelle')]
 CASE = [('1 · Qualifier', '8', 'Domaine provençal avec caveau, 20+ étrangers / semaine en saison, panier ~300 €, e-shop, clientèle US majoritaire, tiers B (60-100 envois/an)', 'Sourcé (chap. 11)'),
-        ('', '', 'Score PA-FIT : 45 au départ (nurture), 85 après preuve de la douleur, de l’échéance et du décideur (P1)', 'Illustratif (barème réel)'),
-        ('2 · Prospecter', '12', 'Cadence caveau J1, J+4, J+10, visite ; script d’appel de moins de 3 min ; e-mail 1 de l’annexe E', 'Règle (chap. 10, annexe E)'),
+        ('', '', 'Score PA-FIT : 45 au départ (nurture), 60 avec l’échéance (cadence), 85 avec le décideur et la douleur (P1)', 'Illustratif (barème réel)'),
+        ('2 · Prospecter', '12', 'Préparer ; viser le décideur et l’utilisatrice ; cadence J1, J+4, J+10, visite ; script d’appel et e-mail 1 de l’annexe E', 'Règle (chap. 10, 11, annexe E)'),
         ('3 · Découvrir', '13', 'Trame de 35 min ; tunnel 1 du vigneron ; reformulation à trous ; phrase de bénéfice notée mot pour mot', 'Règle ; réponses illustratives'),
-        ('4 · Proposer', '14', 'Grille officielle 2026 (document réel) ; 24 bouteilles = 360 € de transport, 15 €/btl ; objection « c’est cher » en 4 temps ; ROI : 40 000 € de ventes perdues', 'Grille 2026 ; ROI : calcul illustratif'),
+        ('4 · Proposer', '14', 'Grille officielle 2026 (document réel) ; 24 bouteilles = 360 € de transport, 15 €/btl ; objection « c’est cher » en 4 temps ; simulation : 40 000 € de ventes potentiellement perdues', 'Grille 2026 ; simulation'),
         ('5 · Activer', '15', 'Signature en ligne, SEPA, 1er lot de cartons ; formation J+5 ; premier envoi ; point J+30 ; score de santé', 'Règle (chap. 16)'),
         ('6 · Suivre', '19', 'Étape 6 dans HubSpot, prochaine action datée (verbe, propriétaire, date, résultat) ; KPI d’activation', 'Illustratif (format sourcé)')]
 H.append('<section><p class="ey">2 · LE CAS FIL ROUGE EN UNE PAGE</p><h2>Un parcours type, pas une vente réalisée : savoir dire ce qui est sourcé</h2>'
          '<p class="lead">Source : chapitre 11, « le fil rouge : une vente de bout en bout ». Les prix viennent de la grille 2026, les étapes des règles du playbook. Aucun domaine n’est nommé, aucun chiffre client n’est cité. Un seul panier dans tout l’oral : 24 bouteilles, 360 € de transport.</p>'
          '<table class="t"><tr><th>Étape</th><th>Diapo</th><th>Ce que montre le cas</th><th>Statut</th></tr>'
          + ''.join(f'<tr><td><b>{E(a)}</b></td><td>{E(b)}</td><td>{E(c)}</td><td>{E(d)}</td></tr>' for a, b, c, d in CASE) + '</table>'
+         '<h3>Les dix gestes du commercial, et où le jury les voit</h3><table class="t"><tr><th>Geste</th><th>Diapo</th><th>Ce qu’il montre</th></tr>'
+         + ''.join(f'<tr><td><b>{E(a)}</b></td><td>{E(b)}</td><td>{E(c)}</td></tr>' for a, b, c in GESTES) + '</table>'
          '<div class="warn"><p class="wl">LA PHRASE DE SÉCURITÉ</p><p>« C’est un parcours type, écrit dans le playbook : les prix sont ceux de notre grille, les situations sont illustratives. Ce qui est réel, ce sont les outils que je vous montre. »</p></div></section>')
 
 # ---------- grille de conformité ----------
 GRID = [
     ('Débute par un « grab attention » (Start with why)', 'Animation', '2', 'Houston : 2 bouteilles sur 24, le silence, la question ; le « pourquoi » dit à voix haute.'),
     ('Présente de manière rythmée et dynamique', 'Animation', 'toutes', 'Une idée par diapo, un cas qui avance, des transitions annoncées ; 20 diapos en 18-19 min.'),
-    ('Bon niveau de langage, vocabulaire métier', 'Animation', 'toutes', 'DDP, POA, CIVC, three-tier, ISTA 3A, PA-FIT, SPIN, cadence, définis à l’oral au premier usage.'),
+    ('Bon niveau de langage, vocabulaire métier', 'Animation', 'toutes', 'DDP, PA-FIT, nurture, cadence et SPIN définis à l’oral au premier usage ; three-tier, POA, CIVC et ISTA 3A expliqués à l’écran (diapo 4), définition prête au glossaire du guide.'),
     ('Support graphiquement agréable et dynamique', 'Animation', 'toutes', 'Document et capture réels (grille officielle 2026, tableau de bord), pages réelles du playbook, frises, score, bandeau du cas.'),
     ('Grammaire et orthographe', 'Animation', 'toutes', 'Typographie française (espaces insécables), relecture par trois relecteurs indépendants.'),
     ('Respecte le temps imparti (20 min max)', 'Animation', '—', f'Script à {tot} ; trois points de passage ; coupes prévues.'),
@@ -187,10 +203,10 @@ GRID = [
     ('Introduction qui amène le sujet', 'Argumentation', '2 à 7', 'Scène → marché → entreprise → offre → diagnostic → problématique et trois enjeux.'),
     ('Analyse le marché en lien avec l’entreprise', 'Argumentation', '4', 'Trois bascules et cinq contraintes réglementaires : « freins pour le vigneron, notre métier ».'),
     ('Présente l’entreprise (organigramme, CA, offre, concurrence, cibles)', 'Argumentation', '5, 6 (+ B9)', 'Équipe et « qui vend, qui décide », CA ×4,7, marchés, grille, positionnement ; organigramme en B9.'),
-    ('Processus de vente et tunnels SPIN', 'Argumentation', '11 à 15', 'Sept étapes (responsable, preuve, délai, outil), prospection, deux tunnels SPIN en action, proposition, activation.'),
-    ('Ressources précises, réalistes, échéancées, chiffrées', 'Argumentation', '16 (+ B13)', 'Pages réelles, une preuve par doute, six chantiers : responsable, temps, budget, critère ; 3 000 €.'),
+    ('Processus de vente et tunnels SPIN', 'Argumentation', '11 à 15 (+ B4)', 'Sept étapes (responsable, preuve, délai, outil), durées de cycle, prospection, tunnel SPIN du vigneron en action, second tunnel en B4, proposition, activation.'),
+    ('Ressources précises, réalistes, échéancées, chiffrées', 'Argumentation', '16 (+ B13)', 'Ce que j’ai créé (pages réelles) ; trois premiers chantiers : mois, responsable, temps, budget, critère ; 800 € sur 3 000 € ; six chantiers en B13.'),
     ('Sales Ops mises en place et objectif de chacune', 'Argumentation', '17, 18', 'Six outils autour de HubSpot, statut de chacun, alignement marketing-ventes, rituels ; onboarding.'),
-    ('SPB existant : améliorations justifiées', 'Argumentation', '7, 20 (+ B15)', 'Sans objet : pas de playbook avant ; existant et apport distingués partout (étiquettes, B15).'),
+    ('SPB existant : améliorations justifiées', 'Argumentation', '8, 11, 15-17, 19 (+ B15)', 'Pas de playbook avant : chaque décision est justifiée par un bandeau Constat → Ma décision → Ce que l’on mesure ; existant et apport distingués partout.'),
     ('Présente les indicateurs de performance', 'Argumentation', '19 (+ B6)', 'Constaté / objectif ; source, fréquence, responsable, action ; revue mensuelle ; exemple de décision.'),
     ('Synthèse en lien avec les enjeux', 'Argumentation', '20', 'Réponse enjeu par enjeu, apport, bénéfices attendus, difficulté, limites.'),
     ('Ouverture', 'Argumentation', '20', 'Diversifier pour réduire la dépendance aux USA ; lecture fin décembre ; entretiens T1 2027.'),
@@ -201,8 +217,8 @@ AUDIT = [
     ('Temps total ≤ 20 min', f'{tot} de texte, soit 18 à 19 min avec les silences.'),
     ('Temps suffisant pour les parties opérationnelles', 'Douze diapos sur vingt, la majorité du temps.'),
     ('ICP et personas distingués', 'Diapo 8 (l’entreprise), diapo 9 (les personnes) ; la phrase le dit.'),
-    ('Tunnels SPIN réellement présentés', 'Diapo 13 : tunnel 1 en action, tunnel 2 en regard ; banque en B4.'),
-    ('Ressources précises, réalistes, datées, chiffrées', 'Diapo 16 : responsable, temps, budget, critère pour chaque chantier.'),
+    ('Tunnels SPIN réellement présentés', 'Diapo 13 : le tunnel du vigneron, question par question ; tunnel 2 et banque des 8 profils en B4.'),
+    ('Ressources précises, réalistes, datées, chiffrées', 'Diapo 16 : mois, responsable, temps, budget, critère pour les trois premiers chantiers ; les six en B13.'),
     ('Sales Ops expliquées avec leurs objectifs', 'Diapo 17 : rôle et statut de chaque outil ; règles proposées.'),
     ('Indicateurs avec méthode de suivi', 'Diapo 19 : source, fréquence, responsable, action ; revue mensuelle.'),
     ('Marché relié aux enjeux de Planet Aura', 'Diapo 4 : chaque bascule traduite en conséquence.'),
@@ -237,11 +253,21 @@ H.append('<section><p class="ey">4 · LE SCRIPT MINUTÉ</p><h2>Ce que je dis, ce
 TRANS = [('Accroche → sommaire', '« Pour la lever, j’ai construit le Sales Playbook de Planet Aura… »'),
          ('Sommaire → comprendre', '« Première étape : comprendre. »'),
          ('Diagnostic → cibler', '« Trois enjeux en découlent, et nous allons les suivre sur notre domaine. » → « Deuxième étape : cibler. »'),
-         ('Personas → vendre', '« Troisième étape : vendre. Chaque solution doit répondre à un problème, et se prouver. »'),
+         ('Personas → vendre', '« Troisième étape : vendre. Chaque solution répond à un problème, et doit se prouver. »'),
+         ('Solutions → processus', '« Pour aller du premier contact au premier envoi, un processus en sept étapes… »'),
          ('Processus → cas', '« Revenons à notre domaine. »'),
-         ('Proposer → activer', '« Quatrième étape : activer, car la signature n’est pas la fin. »'),
+         ('Prospecter → SPIN', '« Le rendez-vous dure quarante-cinq minutes. »'),
+         ('SPIN → proposer', '« Vient la proposition, et l’on montre au lieu de dire. »'),
+         ('Proposer → activer', '« Quatrième étape : activer, car la vente finit au premier envoi, pas à la signature. »'),
          ('Activer → piloter', '« Cinquième étape : piloter, pour transmettre et mesurer. »'),
          ('Indicateurs → conclusion', '« Je reviens à ce couple de Houston. »')]
+TEST = [('2', 'La première phrase, puis le silence', 'Tenir une vraie seconde de silence sans regarder l’écran.'),
+        ('7', 'La problématique', 'La lire lentement, une seule fois, en regardant le jury.'),
+        ('8', '45 → 60 → 85', 'Enchaîner les trois preuves sans hésiter ; montrer les barres hachurées.'),
+        ('14', '360 €, 15 €, puis la simulation à 40 000 €', 'Les nombres en lettres prennent du temps ; marquer la pause avant « ce n’est pas une promesse ».'),
+        ('16', 'Les trois chantiers, 800 € sur 3 000 €', 'Ne pas lire les cartes : dire l’ordre et sa raison.'),
+        ('19', 'Constaté, puis objectif', 'Montrer à gauche, puis à droite ; un seul exemple de décision.'),
+        ('20', 'Bénéfices, limite, dernière phrase', 'Finir en regardant le jury, sans regarder l’écran.')]
 MSG = [('Comprendre', 'Le marché complique l’export ; nos clients viennent à nous ; notre vente reposait sur le bouche-à-oreille.'),
        ('Cibler', 'L’adéquation prime sur la taille ; un point n’est accordé qu’avec sa preuve ; on parle au rôle, pas au portrait.'),
        ('Vendre', 'Chaque solution se prouve ; le prospect chiffre lui-même sa perte ; on montre au lieu de dire.'),
@@ -249,25 +275,27 @@ MSG = [('Comprendre', 'Le marché complique l’export ; nos clients viennent à
        ('Piloter', 'Une donnée, un propriétaire, une décision ; mesuré ou espéré ; une méthode qui se transmet en 90 jours.')]
 H.append('<section><p class="ey">5 · LES TRANSITIONS ET LES MESSAGES CLÉS</p><h2>Le fil qui relie les vingt diapos</h2>'
          '<table class="t tr"><tr><th>Passage</th><th>La phrase de transition</th></tr>' + ''.join(f'<tr><td><b>{E(a)}</b></td><td>{E(b)}</td></tr>' for a, b in TRANS) + '</table>'
-         '<h3>Un message à faire retenir par étape</h3><table class="t"><tr><th>Étape</th><th>Message</th></tr>' + ''.join(f'<tr><td><b>{E(a)}</b></td><td>{E(b)}</td></tr>' for a, b in MSG) + '</table></section>')
+         '<h3>Un message à faire retenir par étape</h3><table class="t"><tr><th>Étape</th><th>Message</th></tr>' + ''.join(f'<tr><td><b>{E(a)}</b></td><td>{E(b)}</td></tr>' for a, b in MSG) + '</table>'
+         '<h3>Les passages à tester à voix haute</h3><p class="lead">Le minutage du script est théorique. Ces passages, chiffrés ou rythmés, sont ceux qui débordent le plus souvent à l’oral : les chronométrer séparément.</p>'
+         '<table class="t"><tr><th>Diapo</th><th>Passage</th><th>Ce qu’il faut vérifier</th></tr>' + ''.join(f'<tr><td><b>{E(a)}</b></td><td>{E(b)}</td><td>{E(c)}</td></tr>' for a, b, c in TEST) + '</table></section>')
 
 # ---------- chiffres et définitions ----------
-NUMS = [('×4,7', 'CA de 2021 à 2025 (1,15 M€ en 2025, +11,6 %) ; +18,7 % à fin sept. 2026', 'Constaté, dashboards 24/09/2026'),
+NUMS = [('×4,7', 'CA de 2021 à 2025 (1,15 M€ en 2025, +11,6 %) ; +18,7 % au 24/09/2026', 'Constaté, dashboards 24/09/2026'),
         ('262 · 6 643', 'adhérents · envois sur 12 mois, dont 64,5 % vers les USA et 18,6 % en France', 'Constaté'),
         ('13 · fin 2025', 'personnes, filiale comprise · arrivée d’Adam, premier commercial dédié', 'Constaté'),
-        ('~145 / 120', 'adhérents signés en 12 mois, pour 120 visés (signés, pas actifs)', 'Constaté'),
+        ('~145', 'adhérents signés en 12 mois (signés, pas actifs ; ne pas les comparer aux « 10 actifs/mois » du chap. 09)', 'Constaté'),
         ('448 / 710', 'prospects non qualifiés sur 710 comptes au CRM', 'Constaté'),
         ('89,8 % · 1,45 %', 'envois assurés (option 3 %, jusqu’à 20 000 €/envoi) · commandes annulées', 'Constaté'),
         ('4,65/5 · 4,8/5', 'satisfaction 2024 (23 réponses) · avis Google (296, sept. 2026)', 'Constaté'),
         ('105 → 510 €', 'groupage USA, 1-3 à 36 bouteilles ; 24 btl = 360 € (15 €/btl) ; + taxes estimées, 17 € de dossier', 'Grille 2026'),
-        ('15 % → 10 %', 'droits US : 15 % d’août 2025 à février 2026, 10 % depuis ; le simulateur fait foi', 'Externe'),
+        ('Droits US', 'jamais de taux cité à l’oral ; le dossier indique 15 % d’août 2025 à février 2026, puis 10 % ; vérification externe du 25/10/2026 : sources contradictoires depuis juillet 2026 (10 % ou 15 %) ; le simulateur fait foi', 'Externe, à vérifier la veille'),
         ('208 Mhl · 3,56 €/l', 'consommation mondiale 2025 (−2,7 %) · prix moyen à l’export (OIV)', 'Externe'),
         ('−21 % · 5,4 M', 'exports FR vers les USA en 2025 (FEVS) · œnotouristes étrangers en 2023 (Atout France)', 'Externe'),
         ('70 · 47 · 15', 'contacts, réponses d’enquête, avis : l’étude des personas (oct. 2026)', 'Constaté'),
-        ('17 · 3 000 € · ≈ 200 h', 'ressources (13 validées, 4 à créer) · plafond externe · temps interne (calcul)', 'Objectif'),
+        ('17 · 3 000 € · ≈ 200 h', 'ressources (13 validées, 4 à créer) · plafond externe · temps interne (calcul)', 'Constaté (répertoire) · objectif (plafond) · calcul'),
         ('≥ 70 % · > 60 % · 40-60 %', 'activation à J+30 · adhérents actifs · taux de gain', 'Objectif'),
         ('75 · 55 · 35', 'seuils PA-FIT : priorité active · cadence · nurture', 'Règle'),
-        ('40 000 € → 10 000 €', 'ROI du cas : 20 étrangers/sem. × 1 sur 3 × 300 € × 20 sem. ; un quart récupéré, pour 110 € de cartons (exemple du playbook : 30 visiteurs → 60 000 €)', 'Calcul illustratif')]
+        ('40 000 € → 10 000 €', 'ventes potentiellement perdues par le domaine du cas : 20 étrangers/sem. × 1 sur 3 × 300 € × 20 sem. ; si un quart était récupéré, ≈ 10 000 €, pour 110 € de cartons (exemple du playbook : 30 visiteurs → 60 000 €)', 'Simulation, jamais un gain')]
 GLOSS = [('Commissionnaire de transport', 'Organise le transport en son nom propre et répond du résultat de bout en bout (obligation de résultat, CGS art. 2).'),
          ('DDP / DAP', 'Taxes payées d’avance par le client (DDP) ou à l’arrivée par le destinataire (DAP).'),
          ('Three-tier system', 'Système américain importateur → grossiste → détaillant ; nos licences couvrent les deux premiers niveaux.'),
@@ -292,6 +320,7 @@ H.append('<section><p class="ey">7 · LES QUESTIONS DU JURY</p><h2>Une méthode 
          '<p class="lead">C’est la méthode du playbook face aux objections : l’appliquer devant le jury, c’est la démontrer. Si je ne sais pas : « Je ne veux pas vous donner un chiffre approximatif ; je le vérifie et je vous le transmets. »</p>'
          f'<h3>Les {len(top)} questions les plus probables</h3>' + ''.join(qa_card('Q', *q) for q in top)
          + f'<h3>Les {len(traps)} questions pièges</h3>' + ''.join(qa_card('P', *q) for q in traps)
+         + f'<h3>Les {len(hard)} questions difficiles : la méthode et sa preuve</h3><div class="warn"><p class="wl">LA RÉPONSE COURTE, À SAVOIR PAR CŒUR</p><p>{E(SHORT)}</p></div>' + ''.join(qa_card('D', *q) for q in hard)
          + f'<h3>Les {len(cas)} questions sur le cas et la démonstration</h3>' + ''.join(qa_card('C', *q) for q in cas) + '</section>')
 
 rows = []
@@ -309,17 +338,20 @@ LIM = [('Rien n’est encore mesuré', 'Le CRM n’historise que depuis 2025 : l
        ('Des durées de cycle à mesurer', '7 à 21 j (objectif) et 6 à 12 semaines en champagne (hypothèse terrain) : médiane réelle après 90 jours.'),
        ('Un saut de CA non expliqué', 'Le +224 % de 2022 n’est pas documenté : « à confirmer avec la direction ».'),
        ('Une formulation à corriger', 'L’annexe F décrit l’assurance comme incluse dans les frais administratifs ; la pratique est une option à 3 % : à remonter pour la grille 2027.'),
-       ('Une dépendance sans cible', 'Part USA 64,5 %, suivie chaque trimestre, sans objectif chiffré de diversification.')]
+       ('Une dépendance sans cible', 'Part USA 64,5 %, suivie chaque trimestre, sans objectif chiffré de diversification.'),
+       ('Des droits US incertains', 'Le dossier indique 10 % depuis février 2026 ; des sources externes récentes divergent (10 % ou 15 %) : ne jamais citer un taux de mémoire, renvoyer au simulateur.')]
 H.append('<section><p class="ey">9 · LIMITES ET RÉSERVES</p><h2>Les dire avant qu’on me les oppose</h2><p class="lead">Une limite annoncée avec son plan devient une preuve de lucidité ; découverte par le jury, elle devient une faiblesse.</p>'
          '<table class="t"><tr><th>Limite</th><th>Ce que je dis, et ce qui est prévu</th></tr>' + ''.join(f'<tr><td><b>{E(a)}</b></td><td>{E(b)}</td></tr>' for a, b in LIM) + '</table></section>')
 
-from autoeval import HTML as selfeval
-H.append(f'<section><p class="ey">10 · L’AUTOÉVALUATION</p><h2>Après les questions : un bilan honnête, en deux minutes</h2><p class="lead">Le jury demande souvent une autoévaluation avant le débrief. Deux forces, deux axes de progrès avec leur plan, une phrase de conclusion.</p><div class="g2"><div class="ab"><p class="abl" style="color:#20768B">POINTS FORTS</p>{forts}</div><div class="ab"><p class="abl" style="color:#722F45">AXES D’AMÉLIORATION</p>{axes}</div></div><div class="concl"><p>{concl}</p></div>{selfeval}</section>')
+from autoeval import HTML as selfeval, BILAN
+H.append(f'<section><p class="ey">10 · AVANT / APRÈS</p><h2>Ce qui a changé dans la version finale, et pourquoi</h2><p class="lead">La structure, le cas fil rouge, les cinq étapes et les chiffres vérifiés sont conservés. Le travail a porté sur les défauts relevés : la densité de quatre diapos, la justification des décisions, la prudence sur les chiffres, la fluidité du script et la préparation aux questions difficiles.</p>{BILAN}</section>')
+H.append(f'<section><p class="ey">11 · L’AUTOÉVALUATION ET L’ÉVALUATION CRITIQUE</p><h2>Après les questions : un bilan honnête, en deux minutes</h2><p class="lead">Le jury demande souvent une autoévaluation avant le débrief. Deux forces, deux axes de progrès avec leur plan, une phrase de conclusion.</p><div class="g2"><div class="ab"><p class="abl" style="color:#20768B">POINTS FORTS</p>{forts}</div><div class="ab"><p class="abl" style="color:#722F45">AXES D’AMÉLIORATION</p>{axes}</div></div><div class="concl"><p>{concl}</p></div>{selfeval}</section>')
 
-H.append('''<section><p class="ey">11 · LES CHECK-LISTS</p><h2>Préparer, vérifier, arriver serein</h2>
+H.append('''<section><p class="ey">12 · LES CHECK-LISTS</p><h2>Préparer, vérifier, arriver serein</h2>
 <div class="g3c">
 <div class="ck"><p class="ckl">LA SEMAINE AVANT</p><ul>
-<li>Trois répétitions complètes au chronomètre, dont une filmée ; viser 18 à 19 minutes.</li>
+<li>Trois répétitions complètes au chronomètre, dont une filmée ; viser 18 à 19 minutes ; noter l’heure réelle aux trois points de passage.</li>
+<li>Tester à voix haute les passages chiffrés (diapos 8, 14, 16, 19) : un nombre écrit en lettres se dit plus lentement qu’il ne se lit.</li>
 <li>Une répétition des questions avec quelqu’un qui joue le jury, pièges et questions sur le cas compris.</li>
 <li>Savoir refaire à voix haute : le score 45 → 60 → 85, le ROI (20 × 1/3 × 300 € × 20 = 40 000 €), 24 bouteilles = 360 €.</li>
 <li>Faire valider par la direction la réponse sur l’assurance (annexe F) et le statut des rituels.</li>
@@ -327,7 +359,7 @@ H.append('''<section><p class="ey">11 · LES CHECK-LISTS</p><h2>Préparer, véri
 <li>Télécharger le deck en PDF et en PPTX ; tester le mode présentateur.</li>
 </ul></div>
 <div class="ck"><p class="ckl">LA VEILLE</p><ul>
-<li>Vérifier au simulateur le taux des droits US (10 % depuis février 2026).</li>
+<li>Vérifier au simulateur et auprès de la direction le taux des droits US du jour : les sources externes divergent depuis juillet 2026.</li>
 <li>Relire chaque date future du deck (câblage Brevo et objections en novembre, lecture fin décembre, chantiers de la diapo 16) : passer au présent ou au passé ce qui est échu, avec l’état réel confirmé.</li>
 <li>Noter le statut réel des chantiers de septembre et d’octobre.</li>
 <li>Savoir si la version de novembre est sortie, selon la date du jury.</li>

@@ -24,7 +24,7 @@ def fr(s):
     s = re.sub(r'(\d) (\d{3})\b', '\\1\u00a0\\2', s)
     s = re.sub(r'(\d) (\d{3})\b', '\\1\u00a0\\2', s)
     s = re.sub(r'(\d) (?=[^\s\d])', '\\1\u00a0', s)
-    s = s.replace("'", '’')
+    s = s.replace("'", '’').replace(' · ', '\u00a0· ').replace('T1 2027', 'T1\u00a02027')
     s = s.replace('New York', 'New\u00a0York').replace('Grain de Sail', 'Grain\u00a0de\u00a0Sail').replace('DB Schenker', 'DB\u00a0Schenker').replace('sous-traitants', 'sous\u2011traitants').replace('Brevo-HubSpot', 'Brevo\u2011HubSpot').replace('PA-FIT', 'PA\u2011FIT').replace('30-60-90', '30\u201160\u201190')
     s = s.replace('ISTA 3A', 'ISTA\u00a03A').replace('top 10', 'top\u00a010').replace('top 5', 'top\u00a05').replace('mot pour mot', 'mot\u00a0pour\u00a0mot').replace('sur 10', 'sur\u00a010').replace('e-mail', 'e\u2011mail').replace('E-mail', 'E\u2011mail')
     s = s.replace('n° ', 'n°\u00a0').replace(' →', '\u00a0→').replace('≈ ', '≈\u00a0').replace('~ ', '~\u00a0').replace('≥ ', '≥\u00a0').replace('≤ ', '≤\u00a0').replace('&lt; ', '&lt;\u00a0').replace('&gt; ', '&gt;\u00a0')
@@ -70,6 +70,7 @@ STAT = {
     'EXTERNE': f'border:2px solid {GRISD};color:{GRISD}',
     'ILLUSTRATIF': f'border:2px dotted {GRISD};color:{GRISD};background:#FFFFFF',
     'RÈGLE': f'border:2px solid {PETROLE};color:{PETROLE};background:#FFFFFF',
+    'SIMULATION': f'border:2px dashed {ORF};color:{ORF};background:#FFFFFF',
 }
 
 
@@ -175,8 +176,8 @@ def num(value, size, color, weight=700, extra=''):
 # Qui a fait quoi : la grille de lecture demandée (existant / mon analyse / ma contribution / à déployer / à mesurer)
 CTAG = {
     'EXISTANT': f'border:2px solid {GRISD};color:{GRISD};background:#FFFFFF',
-    'MON ANALYSE': f'background:{CHAMP};color:#5A4321',
-    'MA CONTRIBUTION': f'background:{SARCF};color:#FFFFFF',
+    'MON ANALYSE': f'background:{CHAMP};border:2px solid {CHAMP};color:#5A4321',
+    'MA CONTRIBUTION': f'background:{SARCF};border:2px solid {SARCF};color:#FFFFFF',
     'À DÉPLOYER': f'border:2px dashed {ORANGE};color:#A84F1E;background:#FFFFFF',
     'À MESURER': f'border:2px dashed {BORD};color:{BORD};background:#FFFFFF',
 }
@@ -246,6 +247,16 @@ def head_case(head, step):
 
 # code visuel unique du cas fil rouge
 CASE_BOX = f'background:#FBF6EA;border-left:6px solid {ORF}'
+
+
+def why3(constat, decision, mesure, extra=''):
+    """L'argument en une ligne : un constat, ma décision, ce que l'on mesure."""
+    cell = lambda lab, txt, c: (f'<div style="flex:1;display:flex;flex-direction:column;gap:4px">'
+                                f'<p style="font-family:{L};font-size:24px;font-weight:700;letter-spacing:2px;color:{c}">{lab}</p>'
+                                f'<p style="font-size:24px;line-height:1.3;color:{CLAIR}">{txt}</p></div>')
+    ar = f'<div style="display:flex;align-items:center;flex:none">{arrow(44, 26, CHAMP, 3)}</div>'
+    return (f'<div style="background:{NUIT};border-radius:16px;padding:14px 26px;display:flex;align-items:stretch;gap:18px;{extra}">'
+            f'{cell("CONSTAT", constat, BLEU)}{ar}{cell("MA DÉCISION", decision, CHAMP)}{ar}{cell("CE QUE L’ON MESURE", mesure, BLEU)}</div>')
 
 
 def decision(text, label='DÉCISION', dark=False, extra=''):

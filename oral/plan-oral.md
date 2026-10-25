@@ -15,42 +15,42 @@
 - Projets en développement (VELA, Gant Blanc, Planet'Stock, entrepôt agréé, annexe Champagne) = au conditionnel.
 - Assurance : couvre jusqu'à 20 000 €/envoi mais reste une OPTION (3 % ad valorem), souscrite 9 envois sur 10 (89,8 %) - jamais « incluse ».
 - Paiement : mandat SEPA par défaut, virement accepté, CB possible (adhérent ou client final) mais chronophage.
-- Droits de douane US : 10 % depuis février 2026 (15 % d'août 2025 à février 2026).
+- Droits de douane US : ne jamais citer de taux à l'oral ; le dossier indique 10 % depuis février 2026 (15 % d'août 2025 à février 2026), mais des sources externes divergent depuis juillet 2026 : renvoyer au simulateur, vérifier la veille.
 
-## Plan de la présentation, version 3 du 25/10/2026 : le cas fil rouge (20 diapositives + 16 diapos de secours)
-Minutage des notes à 130 mots/minute, 2 s par changement de diapo : 18:42 de texte (2345 mots), soit 18 à 19 min avec les silences (20 min au maximum). Introduction et diagnostic = 4:52 ; parties 8 à 14 = 12:34 ; synthèse et ouverture = 1:16.
+## Plan de la présentation, version 4 (finale) du 25/10/2026 : le cas fil rouge (20 diapositives + 16 diapos de secours)
+Minutage des notes à 130 mots/minute, 2 s par changement de diapo : 18:35 de texte (2330 mots), soit 18 à 19 min avec les silences (20 min au maximum). Introduction et diagnostic = 4:52 ; parties 8 à 14 = 12:27 ; synthèse et ouverture = 1:16.
 
 Fil rouge : un domaine provençal avec caveau et clientèle internationale (chap. 11 du playbook). C’est un parcours type, pas une vente réalisée : prix de la grille 2026, règles du playbook, situations illustratives.
 
 | # | Diapo | Une idée forte | Fin visée |
 |---|---|---|---|
 | 1 | Couverture | Sales Playbook Planet Aura, Emma, Euridis, tutrice | 0:08 |
-| 2 | Accroche (Start with why) | Houston, scène type racontée par les adhérents : 2 bouteilles sur 24 ; notre pourquoi | 0:51 |
-| 3 | Sommaire | Cinq étapes titrées par leur idée, reliées aux enjeux ; le cas fil rouge annoncé ; la légende des étiquettes | 1:35 |
-| 4 | Le marché (MON ANALYSE) | Trois chiffres (OIV, FEVS, Atout France) ; cinq contraintes pour une caisse vers les USA : notre métier | 2:26 |
-| 5 | L’entreprise (EXISTANT) | Commissionnaire né en 2019 ; CA ×4,7 ; marchés ; qui vend, qui décide | 3:15 |
-| 6 | L’offre et la concurrence | Nous vendons de la sécurité ; grille USA ; le statu quo comme concurrent n° 1 ; notre case | 4:08 |
+| 2 | Accroche (Start with why) | Houston, scène type entendue sur le terrain : 2 bouteilles sur 24 ; notre pourquoi | 0:53 |
+| 3 | Sommaire | Cinq étapes titrées par leur idée, reliées aux enjeux ; le cas fil rouge annoncé ; la légende des étiquettes | 1:41 |
+| 4 | Le marché (MON ANALYSE) | Trois chiffres (OIV, FEVS, Atout France) ; cinq contraintes pour une caisse vers les USA : notre métier | 2:28 |
+| 5 | L’entreprise (EXISTANT) | Commissionnaire né en 2019 ; CA ×4,7 ; marchés ; qui vend, qui décide | 3:16 |
+| 6 | L’offre et la concurrence | Nous vendons de la sécurité ; grille USA ; le statu quo comme concurrent n° 1 ; notre case | 4:12 |
 | 7 | Diagnostic et problématique (MON ANALYSE) | SWOT en quatre quadrants ; problématique ; trois enjeux | 4:52 |
-| 8 | Partie 8 · ICP (cas : qualifier) | Du top 10 anonymisé au score : PA-FIT du domaine, 45 au départ, 85 après preuve (illustratif) | 6:10 |
-| 9 | Partie 9 · Personas | Décideur, utilisateur, payeur : ce qu’ils veulent, craignent, ce que je leur dis ; étude 70 / 47 / 15 | 7:22 |
-| 10 | Partie 10 · Enjeux et solutions | Problème → besoin → solution → bénéfice → preuve, pour trois cibles ; ce que nous refusons | 8:16 |
-| 11 | Partie 11 · Processus | Sept étapes : responsable, preuve, délai, outil ; durées de cycle ; la vente finit au premier envoi | 9:18 |
-| 12 | Partie 11 · Prospecter (cas) | Qui, par quel canal, quand ; cadence caveau ; extraits réels du script d’appel et de l’e-mail 1 | 10:07 |
-| 13 | Partie 11 · Tunnels SPIN (cas : découvrir) | Trame de 35 min ; tunnel 1 en action, tunnel 2 en regard ; la reformulation | 11:13 |
-| 14 | Partie 11 · Proposer (cas) | Capture réelle du simulateur ; 24 bouteilles = 360 € ; objection en 4 temps ; ROI de l’exemple | 12:28 |
-| 15 | Partie 11 · Activer (cas) | J0 → J+30 : signature, formation, premier envoi, point ; score de santé ; activation ≥ 70 % | 13:38 |
-| 16 | Partie 12 · Ressources | Pages réelles du playbook ; une preuve par doute ; six chantiers datés, chiffrés, attribués (3 000 €) | 14:30 |
-| 17 | Partie 13 · Sales Ops | HubSpot au centre, six outils et leur statut ; alignement marketing-ventes ; rituels proposés | 15:32 |
-| 18 | Partie 13 · Onboarding 30-60-90 | Annexe U ; l’escalier J+30 / J+60 / J+90 ; jalons S1, S4, S8 ; qui forme | 16:25 |
-| 19 | Partie 14 · Indicateurs (cas : suivre) | Constaté / objectif ; quatre KPI avec source, fréquence, responsable, action ; la revue mensuelle | 17:26 |
-| 20 | Synthèse, ouverture, retour à Houston | Réponse à la problématique, apport, bénéfices, limites, ouverture ; « Ils repartent les mains libres » | 18:42 |
+| 8 | Partie 8 · ICP (cas : qualifier) | Du top 10 anonymisé aux critères ; 60 % de l’effort sur les caveaux, justifié et mesuré ; PA-FIT 45 → 60 → 85 (illustratif) | 6:24 |
+| 9 | Partie 9 · Personas | Trois colonnes : qui décide, utilise, paie ; ce qui les juge et les inquiète ; le discours adapté en grand ; étude 70 / 47 / 15 | 7:30 |
+| 10 | Partie 10 · Problèmes et solutions | Une chaîne Problème → Besoin → Solution → Bénéfice → Preuve pour le domaine ; deux autres cibles ; ce que nous refusons | 8:30 |
+| 11 | Partie 11 · Processus | Sept étapes : responsable, preuve, délai, outil ; durées de cycle ; constat → décision → mesure | 9:28 |
+| 12 | Partie 11 · Prospecter (cas) | Préparer, viser les deux interlocuteurs, cadencer ; extraits réels du script d’appel et de l’e-mail 1 | 10:22 |
+| 13 | Partie 11 · Tunnels SPIN (cas : découvrir) | Le tunnel du vigneron : quatre familles, leur rôle, ses réponses ; la reformulation ; tunnel 2 en B4 | 11:32 |
+| 14 | Partie 11 · Proposer (cas) | Grille officielle 2026 : 24 bouteilles = 360 € ; objection en 4 temps ; simulation de 40 000 € de ventes potentiellement perdues | 12:46 |
+| 15 | Partie 11 · Activer (cas) | J0 → J+30 : signature, formation, premier envoi, point ; constat → décision → mesure (≥ 70 % à J+30) | 13:37 |
+| 16 | Partie 12 · Ressources | Ce que j’ai créé / ce qui reste à déployer : trois premiers chantiers datés, attribués, chiffrés (800 € sur 3 000 €) ; six en B13 | 14:33 |
+| 17 | Partie 13 · Sales Ops | HubSpot au centre, six outils et leur statut ; alignement marketing-ventes ; ce que le commercial y gagne | 15:29 |
+| 18 | Partie 13 · Onboarding 30-60-90 | Annexe U ; l’escalier J+30 / J+60 / J+90 ; jalons S1, S4, S8 ; qui forme | 16:17 |
+| 19 | Partie 14 · Indicateurs (cas : suivre) | Constaté / objectif ; quatre KPI avec source, fréquence, responsable, action ; point zéro et revue mensuelle | 17:19 |
+| 20 | Synthèse, ouverture, retour à Houston | Réponse à la problématique, apport, bénéfices, limites, ouverture ; « Ils repartent les mains libres » | 18:35 |
 
 | Secours | Sujet | Sert à répondre à |
 |---|---|---|
 | B1 | Personas confrontés au réel | Représentativité de l’étude |
 | B2 | Priorisation : une seule grille fait foi | « Usine à gaz » |
 | B3 | Fiches de comparaison concurrents | UPS, DHL, Viticolis, Dartess |
-| B4 | SPIN sur le terrain | « Quel vigneron accorde 35 min en saison ? » |
+| B4 | SPIN sur le terrain, tunnel 2 | « Quel vigneron accorde 35 min en saison ? » ; la maison de champagne |
 | B5 | Transparence IA | Usage de l’IA |
 | B6 | Tableau des KPI | Origine et suivi des cibles |
 | B7 | Prix rendu Texas | « C’est trop cher » |
