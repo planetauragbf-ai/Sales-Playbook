@@ -1,23 +1,28 @@
-# Annexe W - Liens utiles
+# Annexe W - Transparence IA : méthode et principaux prompts
 
-*L'index de tous les documents et ressources du playbook : chaque document officiel a son annexe, chaque lien est permanent. Ne jamais envoyer un document non listé ici sans validation.*
+*Conformément au cahier des charges : l'outil utilisé, son périmètre - la mise en page et la navigation du document, pas son fond -, les principaux prompts donnés à l'IA et les garde-fous appliqués.*
 
-| Ressource | Où la trouver |
+## L'outil et le périmètre
+
+La mise en forme de ce document a été assistée par une IA (Claude, Anthropic), pilotée par les instructions d'Emma à chaque itération. Son périmètre : la fabrication matérielle du document - maquette et gabarits de pages, pagination et onglets de parties, sommaire interactif, les « ponts » de navigation (retour au sommaire sur chaque page, renvois cliquables entre chapitres, annexes et glossaire), les schémas dessinés dans la charte graphique et les contrôles de mise en page (pages creuses, blocs orphelins, cohérence des polices et des liens). Le fond - les analyses, les argumentaires, les chiffres, les procédures et les textes - provient de la documentation officielle 2026, des dashboards Planet'Connect (extraction du 24/09/2026), des enquêtes clients et du travail d'Emma avec l'équipe : il a été rédigé, vérifié et arbitré humainement, page par page.
+
+## Les principaux prompts, par chantier de mise en forme
+
+Les instructions réellement données (reformulées pour la lisibilité, sens inchangé) :
+
+| Chantier | Prompt représentatif |
 |---|---|
-| Planet'Connect (plateforme adhérents & admin) | app.planet-aura.com |
-| Site public & avis Google | planet-aura.com |
-| Pack adhérent 2026 complet (dossier officiel) | drive.google.com/drive/folders/1NvrGALc4EUiJn_UAGs5pAc2XlSsGO78C |
-| Conditions Générales de Services 2026 (annexe J) | drive.google.com/file/d/1udHs7oESvTWcF7LOY9Ra9vwpnDoykchT |
-| Grille tarifaire shipping 2026 (annexe F) | drive.google.com/file/d/19LkZlRSpZX0iz0kbDwBXIe08KyQufqob |
-| Grille stockage & picking 2026 (annexe G) | drive.google.com/file/d/1xFTEfOtT9wgRahi2azwqoLtnTuAurzXa |
-| Order Form 2026 (annexe H) | drive.google.com/file/d/1Lx_P4hkVv7ydqC7kD9EkdLQ57Xt_u1dc |
-| Mandat de prélèvement SEPA (annexe I) | drive.google.com/file/d/1ofdzYYs_NLZYnLLfVKxhi5J-x6xY-T3T |
-| Mode d'emploi Planet'Connect, 37 pages (annexe O) | drive.google.com/file/d/1EZhHDdzdbYrLIBJaDj_mLAG9wwJpTjb6 |
-| Manuel utilisateur 2026 (annexe P) | drive.google.com/file/d/1LDVgBTtuW9ZPWJ-c35HWxNaPyEMxPbUY |
-| Formulaire de shipping par email, tableur (annexe Q) | drive.google.com/file/d/1qseseA4vCgayD5FIv9_gtVXsOy-CBLZR |
-| Codes postaux desservis par État - RI, OK, NJ, IL, DE (annexe L) | Liens directs en annexe L |
-| Procédures internes (sinistres, cotations, UE & pays tiers, USA, first/last miles) | Drive interne → Nouveaux process 2026 |
-| Matrice de compétences « Missions Planet Aura » | Drive interne → Nouveaux process 2026 → Informations internes |
-| Boutiques adhérentes connectées à l'API (démonstrations en rendez-vous) | terre-mistral.com · shop.beaupre.fr · domaine-pieracci.com/wine-shipping · dynamiccellars.com · domainenais.fr/boutique |
-| Suivi des sinistres & dashboards admin | Planet'Connect → Administration (accès direction/exploitation) |
-| Retours et corrections sur ce playbook | emma@planet-aura.com |
+| 1 · Maquette & design | « Le design, l'identité visuelle, la pagination, les onglets en bordure, le format A4 et la présentation aérée doivent rester ceux de la maquette. » |
+| 2 · Identité visuelle | « Une couleur par partie, utilisée une seule fois. Le logo bouteille + avion en grand sur la page principale, le logotype secondaire sur les pages de parties. Harmonise le bloc de couverture. » |
+| 3 · Pagination & sommaire | « La page sommaire sur fond blanc ; chaque numéro de page de la même couleur que sa partie ; signale au sommaire le socle à maîtriser en premier. » |
+| 4 · Ponts de navigation | « Ajoute un retour au sommaire sur chaque page et, sur chaque annexe et chaque mot du glossaire, un retour vers l'endroit du texte où l'on s'est arrêté. » |
+| 5 · Schémas | « Le SWOT : pas une image et un texte qui disent la même chose - quelque chose de beau, compréhensible et lisible, dans la charte. Aucune image générée par IA. » |
+| 6 · Calage des pages | « Les pages 42 et 56 sont vides, règle ça. » · « Ce À RETENIR sur la page d'avant. » · « POA Canada : seulement la page à compléter. » · « Le certificat de Champagne sur une seule page. » |
+| 7 · Organisation des annexes | « Organise l'ordre des annexes pour que ce soit logique, avec le moins de pages possible, et bascule les banques de scripts et d'objections en annexes - en gardant les exemples essentiels dans les chapitres. » |
+| 8 · Relecture de forme | « Fais une relecture globale : incohérences de police, de taille, de mise en page - tout ce qu'un correcteur pourrait voir, en sachant que le lecteur ne connaîtra ni l'entreprise ni le marché. » |
+
+## Les garde-fous appliqués
+
+- **Jamais de données personnelles de clients finaux** ; identifiants, clés API et mots de passe exclus du document ; les documents officiels sont reproduits tels quels, jamais altérés.
+- **Aucune image générée par IA** : photos réelles de l'entreprise et schémas codés dans la charte graphique uniquement.
+- **Le fond reste humain** : chaque chiffre, règle et procédure est vérifié à sa source (la hiérarchie de preuve de l'annexe C s'applique partout), les textes personnels (remerciements, certitudes, mot d'accueil) sont écrits par Emma et l'équipe, et chaque page mise en forme a été relue et validée avant intégration. En un mot : l'IA a été l'outil de maquettage et de navigation du document - jamais son auteur.

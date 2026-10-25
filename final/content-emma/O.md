@@ -6,6 +6,15 @@ Couverture et sommaire reproduits ci-dessous. Le document complet : drive.google
 
 ## Couverture et sommaire
 
+## La création du compte en 4 étapes (chap. 04, CGS art. 3)
+
+| Étape | Ce qui se passe |
+|---|---|
+| 1. Informations | L'adhérent complète une fiche contact. |
+| 2. Création du compte | Planet Aura crée un compte. |
+| 3. Identifiants | Les identifiants sont envoyés par email. |
+| 4. Première connexion | L'adhérent change le mot de passe à la première connexion. |
+
 ## Le déroulé opérationnel en 10 étapes pour un groupage USA
 
 Le parcours de référence du produit phare (chap. 04), de l'achat au caveau au justificatif d'export :

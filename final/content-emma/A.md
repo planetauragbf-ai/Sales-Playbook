@@ -1,6 +1,6 @@
 # Annexe A - Fiches ICP & personas
 
-*Les dix fiches de référence : cinq profils de clients idéaux (ICP) et cinq personas décideurs. À dégainer avant un rendez-vous : portrait, douleurs, objections favorites, solution recommandée et priorité.*
+*Les dix fiches de référence : cinq profils de clients idéaux (ICP) et cinq personas décideurs. À dégainer avant un rendez-vous : portrait, douleurs, objections favorites, solution recommandée et priorité - avec l'étude de validation, les géographies prioritaires et la cartographie type d'un compte.*
 
 Chaque fiche se lit en une page : qui est le compte (ou le décideur), ce qu'il veut entendre, les preuves qui font mouche, les canaux pour l'atteindre, et la solution type avec son niveau de priorité. Les scripts associés sont au chapitre 10, le traitement complet des objections au chapitre 13.
 
@@ -28,7 +28,7 @@ Trois ajustements intégrés aux fiches et au chap. 07, et un angle mort identif
 
 ## Le volet enquêtes : 47 réponses de clients et prospects
 
-Trois enquêtes menées par Planet Aura apportent la validation qualitative directe des besoins - des réponses écrites par les clients et prospects eux-mêmes, pas des suppositions (questionnaires, fiches techniques et résultats agrégés en annexe Y) :
+Trois enquêtes menées par Planet Aura apportent la validation qualitative directe des besoins - des réponses écrites par les clients et prospects eux-mêmes, pas des suppositions (questionnaires, fiches techniques et résultats agrégés en annexe X) :
 
 | Enquête | Réponses | Ce qu'elle établit |
 |---|---|---|
@@ -40,7 +40,7 @@ Ce que les enquêtes valident, persona par persona : pour **A**, la gestion doua
 
 ## Synthèse des échanges écrits 2024-2026 : la voix réelle de chaque persona
 
-Synthèses consolidées à partir des échanges écrits réels 2024-2026 (fils email, demandes de devis, SAV, formations) et des avis publics - un portrait par persona, dans les mots des intéressés. Aucun entretien formel n'a encore été mené pour valider les personas : des entretiens dédiés sont prévus au T1 2027 (chap. 18) ; méthode actuelle, par échanges écrits, en annexe Y.4.
+Synthèses consolidées à partir des échanges écrits réels 2024-2026 (fils email, demandes de devis, SAV, formations) et des avis publics - un portrait par persona, dans les mots des intéressés. Aucun entretien formel n'a encore été mené pour valider les personas : des entretiens dédiés sont prévus au T1 2027 (chap. 18) ; méthode actuelle, par échanges écrits, en annexe X.4.
 
 **A · Le vigneron-propriétaire.** Il négocie lui-même, suit lui-même, et confie progressivement : un dirigeant de maison champenoise résume « 90 % de nos flux USA passent par Planet Aura - commandes, transport, douane, assurance, paperasse ». Ses demandes réelles : débloquer un DAE avec les douanes, décaler une livraison pour son client, éviter le statut d'expéditeur certifié. Sa fidélité s'exprime publiquement : « Excellentes relations depuis le tout début de notre collaboration en juin 2019 » (Maison du Vouvray).
 
@@ -68,6 +68,28 @@ Les dix fiches, dans l'ordre - chaque ICP précise son poids dans l'effort comme
 | Persona E | Le client final étranger | Celui qu'il faut rassurer au comptoir |
 
 \page
+
+## Géographies prioritaires côté adhérents (chap. 01)
+
+| Territoire | Pourquoi c'est prioritaire |
+|---|---|
+| **Provence / Côte d'Azur** | Densité touristique maximale, réseau déjà dense (preuve sociale forte) |
+| **Vallée du Rhône Sud** | Paniers élevés, clientèle américaine |
+| **Champagne** | Panier premium, certificat CIVC obligatoire hors UE : notre service dédié fait mouche, mettre en avant le projet d'annexe en Champagne (chap. 02) |
+| **Bordeaux** | Volume, partenaires sur secteur : Direct Château & Winetailors |
+| **Bourgogne, Loire, Languedoc, Alsace, Sud-Ouest** | Expansion |
+| **Paris & grandes villes** | Cavistes, caves-expériences, conciergeries |
+| **Grand Ouest, Bretagne, Pays de la Loire** | En partenariat avec Aux Vignobles ! (chap. 04) |
+
+## Cartographie type d'un compte, à remplir dans le CRM (chap. 07)
+
+1. Identité : domaine/maison, appellation, volumes, gamme de prix.
+2. Flux visiteurs : nationalités, saisonnalité, panier caveau.
+3. Solution actuelle d'expédition + irritants vécus (litiges, refus, coûts).
+4. Décideur + utilisateurs (qui saisira sur Planet'Connect ?).
+5. Destinations demandées par ses clients (USA ? Canada ? Asie ?).
+6. Potentiel spiritueux / stockage / e-shop.
+7. Prochaine étape datée.
 
 ## ICP 1 - Domaine ou château avec caveau
 

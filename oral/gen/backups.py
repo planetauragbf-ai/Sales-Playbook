@@ -166,7 +166,7 @@ S['b5'] = slide('b5', 'B5', 'TRANSPARENCE IA', 'L’IA a servi la forme ; le fon
 '''<div style="display:flex;gap:20px">
 <div style="flex:1;display:flex;flex-direction:column;gap:10px;background:#FFFFFF;border-radius:12px;padding:22px 28px">
 <p style="''' + FONT_P + ''';font-size:24px;font-weight:600;letter-spacing:3px;color:#12475B">L’OUTIL ET SON USAGE</p>
-<p style="font-size:24px;line-height:1.35;color:#3E5058"><b style="color:#14303B">Claude (Anthropic)</b>, crédité dès l’avant-propos, prompts détaillés en annexe X</p>
+<p style="font-size:24px;line-height:1.35;color:#3E5058"><b style="color:#14303B">Claude (Anthropic)</b>, crédité dès l’avant-propos, prompts détaillés en annexe W</p>
 <p style="font-size:24px;line-height:1.35;color:#3E5058">8 chantiers : maquette, identité visuelle, pagination et sommaire, ponts de navigation, schémas, calage des pages, ordre des annexes, relecture de forme</p>
 </div>
 <div style="flex:1;display:flex;flex-direction:column;gap:10px;background:#FFFFFF;border-radius:12px;padding:22px 28px">
@@ -176,7 +176,7 @@ S['b5'] = slide('b5', 'B5', 'TRANSPARENCE IA', 'L’IA a servi la forme ; le fon
 </div>
 ''' + box('GARDE-FOUS', 'Aucune donnée personnelle de client final · aucun identifiant ni clé API · aucune image générée par IA · chaque chiffre vérifié à sa source (annexe C)') + '\n' +
 box('LE TEST', 'Le meilleur contrôle, c’est vous : quel chiffre ou quelle procédure voulez-vous que je vous explique ?', bg='#12475B', lc='#9EC5CE', tc='#F4F8F9'),
-'''Si on me demande ce que l’IA a fait : j’ai utilisé Claude, d’Anthropic, et je l’ai crédité dès l’avant-propos. L’annexe X détaille huit chantiers, avec un prompt représentatif pour chacun : la maquette, l’identité visuelle, la pagination, les ponts de navigation entre les pages, les schémas, le calage des pages, l’ordre des annexes et la relecture de forme.
+'''Si on me demande ce que l’IA a fait : j’ai utilisé Claude, d’Anthropic, et je l’ai crédité dès l’avant-propos. L’annexe W détaille huit chantiers, avec un prompt représentatif pour chacun : la maquette, l’identité visuelle, la pagination, les ponts de navigation entre les pages, les schémas, le calage des pages, l’ordre des annexes et la relecture de forme.
 
 Le fond vient de sources que je peux citer : la documentation officielle 2026, nos tableaux de bord du 24 septembre, nos trois enquêtes clients, et des sources externes datées. Aucune image n’a été générée par IA, aucune donnée personnelle n’a été partagée.
 
@@ -239,12 +239,12 @@ S['b7'] = slide('b7', 'B7', 'PRIX ET ROI', 'Le prix rendu, sans maquillage : c�
 <p style="font-size:24px;line-height:1.3;color:#9EC5CE">Pour 110 € HT de cartons</p>
 </div>
 </div>
-''' + box('LA RÈGLE', 'Le simulateur fait foi, jamais un taux cité de mémoire · droits US de 15 % en vigueur au 24/09/2026 · pas de remise sans contrepartie ni validation de la direction'),
+''' + box('LA RÈGLE', 'Le simulateur fait foi, jamais un taux cité de mémoire · droits US de 10 % depuis février 2026 · pas de remise sans contrepartie ni validation de la direction'),
 '''Si on me dit que c’est trop cher : 43 % de nos clients jugent le prix moyennement compétitif, je ne le cache pas. Je ramène le prix à ce que paie vraiment le client final : pour douze bouteilles au Texas, environ 270 euros avec les taxes estimées, le dossier et l’assurance en option, soit environ 17,50 euros de transport par bouteille livrée. Dans une valise, c’est 50 à 100 euros d’excédent bagage, et aucune assurance si ça casse.
 
 Et pour le domaine, le calcul se fait avec ses propres chiffres : trente visiteurs étrangers par semaine, un sur trois, 300 euros, vingt semaines, soit 60 000 euros de ventes potentielles, et 15 000 euros si 25 % seulement se concrétisent, pour 110 euros de cartons.
 
-(Le simulateur fait foi. Droits US à 15 % au 24/09/2026, baisse annoncée mais non actée : vérifier la veille. L’assurance est une option, jamais « incluse ». Remise : jamais sans contrepartie ni validation de la direction ; on négocie le périmètre avant le prix. Refaire la simulation Texas la veille : les taxes dépendent de la valeur déclarée.)''', gap=26)
+(Le simulateur fait foi. Droits US à 10 % depuis février 2026, après 15 % d’août 2025 à février 2026 : vérifier la veille. L’assurance est une option, jamais « incluse ». Remise : jamais sans contrepartie ni validation de la direction ; on négocie le périmètre avant le prix. Refaire la simulation Texas la veille : les taxes dépendent de la valeur déclarée.)''', gap=26)
 
 for k, v in S.items():
     with open(os.path.join(OUT, f'{k}.html'), 'w') as f:

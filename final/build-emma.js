@@ -12,24 +12,6 @@ const {
 } = require('docx');
 
 const SRC = path.join(__dirname, 'content-emma');
-// édition : « interne » (par défaut) ou « ecole » (EDITION=ecole) - données clients anonymisées,
-// images caviardées ; chaque édition a ses propres fichiers de pagination
-const EDITION = process.env.EDITION === 'ecole' ? 'ecole' : 'interne';
-const SUF = EDITION === 'ecole' ? '-ecole' : '';
-let ANON = { text: [], images: [] };
-if (EDITION === 'ecole') ANON = JSON.parse(fs.readFileSync(path.join(__dirname, 'ecole', 'anonymisation.json'), 'utf8'));
-const IMG_SWAP = Object.fromEntries((ANON.images || []).map(x => [x.asset, x.redacted]));
-// remplacements d'anonymisation appliqués au texte source (contrôle du nombre d'occurrences)
-function anonymise(file, text, jsonEscaped) {
-  let out = text;
-  (ANON.text || []).filter(r => r.file === file).forEach(r => {
-    const enc = (t) => jsonEscaped ? JSON.stringify(t).slice(1, -1) : t;
-    const n = out.split(enc(r.old)).length - 1;
-    if (n !== (r.count || 1)) console.warn(`ANON ${file} : ${n} occurrence(s) au lieu de ${r.count || 1} pour « ${r.old.slice(0, 60)} »`);
-    out = out.split(enc(r.old)).join(enc(r.new));
-  });
-  return out;
-}
 const A = path.join(__dirname, '../build/assets');
 
 // ---- Charte (maquette v2.0)
@@ -73,6 +55,7 @@ const UNITS = [
   { id: '12', file: '12.md' }, { id: '13', file: '13.md' },
   { id: '14', file: '14.md' }, { id: '15', file: '15.md' }, { id: '16', file: '16.md' },
   { id: '17', file: '17.md' }, { id: '18', file: '18.md' },
+  { id: 'GLO', file: 'GLO.md', head: 'GLOSSAIRE' },
   { id: 'BIB', file: 'BIB.md', head: 'BIBLIOGRAPHIE' },
   { id: 'A', file: 'A.md' }, { id: 'B', file: 'B.md' }, { id: 'C', file: 'C.md' }, { id: 'D', file: 'D.md' },
   { id: 'E', file: 'E.md' }, { id: 'F', file: 'F.md' }, { id: 'G', file: 'G.md' }, { id: 'H', file: 'H.md' },
@@ -80,7 +63,6 @@ const UNITS = [
   { id: 'M', file: 'M.md' }, { id: 'N', file: 'N.md' }, { id: 'O', file: 'O.md' }, { id: 'P', file: 'P.md' },
   { id: 'Q', file: 'Q.md' }, { id: 'R', file: 'R.md' }, { id: 'S', file: 'S.md' }, { id: 'T', file: 'T.md' },
   { id: 'U', file: 'U.md' }, { id: 'V', file: 'V.md' }, { id: 'W', file: 'W.md' }, { id: 'X', file: 'X.md' },
-  { id: 'Y', file: 'Y.md' },
 ];
 
 const PARTS = {
@@ -88,7 +70,7 @@ const PARTS = {
   '06': { big: '2', col: PBORDEAUX, tab: 'PARTIE 2 · CIBLER', rom: 'II', num: 'PARTIE 2', title: 'Définir les cibles et les solutions adaptées', sub: 'Les bons comptes, les bonnes réponses', chapters: ['06 · Profils de clients idéaux (ICP)', '07 · Personas et acteurs de la décision', '08 · Correspondance entre enjeux et solutions'] },
   '09': { big: '3', col: POCRE, tab: 'PARTIE 3 · VENDRE', rom: 'III', num: 'PARTIE 3', title: 'Formaliser la prospection et la vente', sub: 'Du premier contact à la signature', chapters: ['09 · Processus d’acquisition et pipeline', '10 · Séquences de prospection et scripts', '11 · Qualification et processus de vente', '12 · Conduite des entretiens (méthode SPIN)', '13 · Argumentaires et objections'] },
   '14': { big: '4', col: NAVY, tab: 'PARTIE 4 · PILOTER', rom: 'IV', num: 'PARTIE 4', title: 'Fournir les outils et organiser le pilotage', sub: 'Outiller, mesurer, faire vivre', chapters: ['14 · Ressources d’aide à la vente', '15 · Organisation et outils', '16 · Activation, fidélisation et SAV', '17 · Indicateurs et méthode de suivi', '18 · Mise à jour et appropriation'] },
-  'A': { big: 'A', col: PBLEU, tab: 'ANNEXES', rom: 'V', num: 'ANNEXES', title: 'Annexes', sub: 'Documents complémentaires', chapters: ['A · Fiches ICP & personas', 'B · Fiche réflexe et modèles', 'C · Chiffres officiels et sources', 'D · Banque des 26 objections', 'E · Scripts et banque SPIN', 'F · Grille tarifaire shipping 2026', 'G · Grille stockage & picking 2026', 'H · Order Form 2026', 'I · Mandat SEPA', 'J · CGS : l\u2019essentiel', 'K · Conformité et fiches pays', 'L · Cartes de zones USA, Norvège', 'M · POA Canada : formulaire vierge', 'N · Certificat de Champagne', 'O · Mode d\u2019emploi Planet\u2019Connect', 'P · Manuel & procédure Suède', 'Q · Formulaire de shipping email', 'R · Planet\u2019Stock en images', 'S · Flyer de prospection', 'T · Organigramme et documents', 'U · Onboarding 0-90 jours', 'V · Glossaire', 'W · Liens utiles', 'X · Transparence IA', 'Y · Sources de la recherche'] },
+  'A': { big: 'A', col: PBLEU, tab: 'ANNEXES', rom: 'V', num: 'ANNEXES', title: 'Annexes', sub: 'Documents complémentaires', chapters: ['A · Fiches ICP & personas', 'B · Fiche réflexe et modèles', 'C · Chiffres officiels et sources', 'D · Banque des 26 objections', 'E · Scripts et banque SPIN', 'F · Grille tarifaire shipping 2026', 'G · Grille stockage & picking 2026', 'H · Order Form 2026', 'I · Mandat SEPA', 'J · CGS 2026 : essentiel et texte', 'K · Conformité et fiches pays', 'L · Cartes de zones USA, Norvège', 'M · POA Canada : formulaire vierge', 'N · Certificat de Champagne', 'O · Mode d\u2019emploi Planet\u2019Connect', 'P · Manuel & procédure Suède', 'Q · Formulaire de shipping email', 'R · Planet\u2019Stock en images', 'S · Flyer de prospection', 'T · Organigramme et documents', 'U · Onboarding 0-90 jours', 'V · Liens utiles', 'W · Transparence IA', 'X · Sources de la recherche'] },
 };
 
 // ---- Sommaire interactif
@@ -97,10 +79,8 @@ const plainHeading = (t) => t.replace(/\*\*/g, '').replace(/[⚠️💡🚫❗�
 
 let IMAGE_PLACEMENTS = {};
 try { IMAGE_PLACEMENTS = require('./image-placements-emma.js'); } catch (e) {}
-if (EDITION === 'ecole') IMAGE_PLACEMENTS = JSON.parse(anonymise('image-placements-emma.js', JSON.stringify(IMAGE_PLACEMENTS), true));
 let FICHES_NATIVE = {};
 try { FICHES_NATIVE = require('./fiches-emma.js'); } catch (e) {}
-if (EDITION === 'ecole') FICHES_NATIVE = JSON.parse(anonymise('fiches-emma.js', JSON.stringify(FICHES_NATIVE), true));
 
 const DIAGRAMS = [
   { match: /Signalement \(≤48 h/, img: 'diagrams/d13_sinistre.png', w: 500 },
@@ -112,12 +92,10 @@ const DIAGRAMS = [
 ];
 
 function img(name, wPx, hPx) {
-  name = IMG_SWAP[name] || name;
   const data = fs.readFileSync(path.join(A, name));
   return new ImageRun({ type: 'png', data, transformation: { width: wPx, height: hPx } });
 }
 function imgAuto(name, wPx) {
-  name = IMG_SWAP[name] || name;
   const { PNG } = require('./png-size.js');
   const [w, h] = PNG(path.join(A, name));
   return img(name, wPx, Math.round(h * wPx / w));
@@ -220,7 +198,7 @@ const GLO_ACRONYM = /^[A-Z0-9\-\s/.'+]+$/;
 const GLO_SLUG = {}; const TERM_SLUG = {}; let GLO_RE = null;
 {
   try {
-    const emd = fs.readFileSync(path.join(SRC, 'V.md'), 'utf8'); // glossaire (annexe V)
+    const emd = fs.readFileSync(path.join(SRC, 'GLO.md'), 'utf8'); // glossaire (avant la bibliographie)
     const variants = [];
     const expand = (v) => v.includes("'") || v.includes('’')
       ? [v.replace(/’/g, "'"), v.replace(/'/g, '’')] : [v];
@@ -542,7 +520,7 @@ function convertBody(md, unit, opts = {}) {
   const ACC = partAcc ? partAcc.col : TEAL;
   const DEEP = DEEP_OF[ACC] || TEALD;
   const TINT = TINT_OF[ACC] || LTEAL;
-  const gloId = (unit.id === 'V' || unit.id === 'BIB' || unit.id === 'avantpre' || unit.id === 'avantpre2') ? null : unit.id;
+  const gloId = (unit.id === 'GLO' || unit.id === 'BIB' || unit.id === 'avantpre' || unit.id === 'avantpre2') ? null : unit.id;
   const BODY = { size: 19, glo: gloId, gloAcc: DEEP };
   const CP = opts.letter ? 112 : opts.compact ? 48 : 62;   // after des paragraphes
   const CL = opts.letter ? 36 : opts.compact ? 14 : 16;   // after des listes
@@ -587,7 +565,7 @@ function convertBody(md, unit, opts = {}) {
     if (/^\s*\|/.test(line) && i + 1 < lines.length && /^\s*\|[\s:|-]+\|?\s*$/.test(lines[i + 1])) {
       const tbl = [];
       while (i < lines.length && /^\s*\|/.test(lines[i])) { tbl.push(lines[i]); i++; }
-      out.push(parseTableBlock(tbl, DEEP, unit.id === 'V'));
+      out.push(parseTableBlock(tbl, DEEP, unit.id === 'GLO'));
       out.push(spacerPara(92));
       continue;
     }
@@ -884,7 +862,7 @@ const PART_OF_UNIT = {};
 {
   let cur = null;
   UNITS.forEach(u => { if (PARTS[u.id]) cur = PARTS[u.id]; PART_OF_UNIT[u.id] = cur; });
-  PART_OF_UNIT['BIB'] = null; // bibliographie : entre la conclusion et les annexes, hors parties
+  PART_OF_UNIT['GLO'] = null; PART_OF_UNIT['BIB'] = null; // glossaire puis bibliographie : entre la conclusion et les annexes, hors parties (ordre du CDC)
 }
 
 // ---------- ouverture de partie ----------
@@ -1005,7 +983,7 @@ function coverChildren() {
     }),
     new Paragraph({
       alignment: AlignmentType.CENTER, spacing: { before: 110 },
-      children: [new TextRun({ text: EDITION === 'ecole' ? (ANON.cover_note || '\u00c9DITION \u00c9COLE  \u00b7  DONN\u00c9ES CLIENTS ANONYMIS\u00c9ES') : 'R\u00c9SERV\u00c9 \u00c0 L\u2019\u00c9QUIPE COMMERCIALE & MARKETING  \u00b7  CONFIDENTIEL', bold: true, size: 16, color: NAVY })]
+      children: [new TextRun({ text: 'R\u00c9SERV\u00c9 \u00c0 L\u2019\u00c9QUIPE COMMERCIALE & MARKETING  \u00b7  CONFIDENTIEL', bold: true, size: 16, color: NAVY })]
     }),
     new Paragraph({
       alignment: AlignmentType.CENTER, spacing: { before: 110 },
@@ -1028,13 +1006,13 @@ function coverChildren() {
 
 // ---------- sommaire ----------
 let tocPages = {};
-try { tocPages = JSON.parse(fs.readFileSync(path.join(__dirname, `toc-pages-emma${SUF}.json`), 'utf8')); } catch (e) {}
+try { tocPages = JSON.parse(fs.readFileSync(path.join(__dirname, 'toc-pages-emma.json'), 'utf8')); } catch (e) {}
 // folio de reprise par partie : l'ouverture de partie ne compte pas dans la numérotation
 // clé de sommaire de chaque unité, d'après le registre de la passe précédente (folios du sous-sommaire des annexes)
 const PREV_KEY = {};
-try { JSON.parse(fs.readFileSync(path.join(__dirname, `toc-map-emma${SUF}.json`), 'utf8')).filter(h => h.level === 1).forEach(h => { PREV_KEY[h.id] = h.key; }); } catch (e) {}
+try { JSON.parse(fs.readFileSync(path.join(__dirname, 'toc-map-emma.json'), 'utf8')).filter(h => h.level === 1).forEach(h => { PREV_KEY[h.id] = h.key; }); } catch (e) {}
 let partStarts = {};
-try { partStarts = JSON.parse(fs.readFileSync(path.join(__dirname, `part-starts-emma${SUF}.json`), 'utf8')); } catch (e) {}
+try { partStarts = JSON.parse(fs.readFileSync(path.join(__dirname, 'part-starts-emma.json'), 'utf8')); } catch (e) {}
 
 function tocChildren() {
   const COL_W = Math.floor((CONTENT_W - 420) / 2);
@@ -1060,6 +1038,7 @@ function tocChildren() {
     'La banque des 26 objections, réponses développées': 'Banque des 26 objections',
     'Fiche réflexe comptoir, checklists et modèles': 'Fiche réflexe, checklists et modèles',
     'Transparence IA : méthode et principaux prompts': 'Transparence IA : méthode et prompts',
+    'Conditions Générales de Services 2026 : l\'essentiel et le texte intégral': 'Conditions générales 2026 (CGS)',
     'Sources de la recherche : enquêtes, entretiens et données': 'Sources de la recherche',
   };
   const entry = (h, labelColor) => {
@@ -1102,12 +1081,12 @@ function tocChildren() {
         ]
       }));
     }
-    if (h.id === 'BIB') {
+    if (h.id === 'GLO') {
       lastPart = null;
       paras.push(new Paragraph({
         keepNext: true,
         spacing: { before: 300, after: 60 },
-        children: [new TextRun({ text: 'BIBLIOGRAPHIE', bold: true, size: 15, color: NAVY, font: LABEL })]
+        children: [new TextRun({ text: 'GLOSSAIRE ET BIBLIOGRAPHIE', bold: true, size: 15, color: NAVY, font: LABEL })]
       }));
     }
     // au sommaire, chaque partie s'affiche dans sa couleur propre (jamais la variante foncée)
@@ -1147,7 +1126,7 @@ function tocChildren() {
   paras.push(lgLine([
     new TextRun({ text: 'Les termes comme ', size: 15, color: GRAY }),
     new TextRun({ text: 'adhérent', size: 15, color: DEEP_OF[TEAL], underline: { type: UnderlineType.DOTTED, color: DEEP_OF[TEAL] } }),
-    new TextRun({ text: ' renvoient à leur définition au glossaire (annexe V) - à leur première apparition dans chaque chapitre, cliquables en version numérique. Toutes les entrées de ce sommaire et des sous-sommaires « DANS CE CHAPITRE » sont également cliquables.', size: 15, color: GRAY }),
+    new TextRun({ text: ' renvoient à leur définition au glossaire (en fin de document, avant la bibliographie) - à leur première apparition dans chaque chapitre, cliquables en version numérique. Toutes les entrées de ce sommaire et des sous-sommaires « DANS CE CHAPITRE » sont également cliquables.', size: 15, color: GRAY }),
   ]));
   return paras;
 }
@@ -1257,7 +1236,7 @@ const sections = [];
 const unitMd = {};
 UNITS.forEach(u => {
   const p = path.join(SRC, u.file);
-  if (fs.existsSync(p)) unitMd[u.id] = anonymise(u.file, fs.readFileSync(p, 'utf8'), false);
+  if (fs.existsSync(p)) unitMd[u.id] = fs.readFileSync(p, 'utf8');
   else {
     const t = u.id === 'avant' ? '# Avant de commencer' : (/^[A-G]$/.test(u.id) ? `# Annexe ${u.id} - (en cours)` : `# ${u.id} - (en cours)`);
     unitMd[u.id] = `${t}\n\n*Unité en cours de rédaction.*\n\n## En attente\n\nContenu à venir.\n`;
@@ -1269,7 +1248,7 @@ UNITS.forEach(u => {
 // des chapitres qui les citent (ancres 'chap'+id posées sur chaque tête de chapitre)
 const GLO_BACKREFS = {}; // slug -> [ids d'unités]
 const ANNEX_BACKREFS = {}; // lettre d'annexe -> [ids d'unités]
-UNITS.filter(u => !['avant', 'V', 'BIB'].includes(u.id)).forEach(u => {
+UNITS.filter(u => !['avant', 'GLO', 'BIB'].includes(u.id)).forEach(u => {
   const md = unitMd[u.id];
   if (GLO_RE) {
     GLO_RE.lastIndex = 0;
@@ -1331,7 +1310,7 @@ UNITS.filter(u => u.id !== 'avant').forEach(u => {
   const kids = [];
   const isPartStart = !!PARTS[u.id];
   if (isPartStart) kids.push(...partOpener(PARTS[u.id]));
-  kids.push(...convertBody(md, u, { noMiniToc: isAnnex || u.id === 'BIB' }));
+  kids.push(...convertBody(md, u, { noMiniToc: isAnnex || u.id === 'BIB' || u.id === 'GLO' }));
   bodySections.push({
     // la page d'ouverture de partie (bloc de couleur) n'affiche ni en-tête ni folio,
     // mais reste comptée dans la numérotation ; l'onglet de bordure y demeure
@@ -1441,8 +1420,8 @@ const doc = new Document({
 });
 
 Packer.toBuffer(doc).then(buf => {
-  fs.writeFileSync(path.join(__dirname, EDITION === 'ecole' ? 'Planet_Aura_Sales_Playbook_FINAL_2026_ECOLE.docx' : 'Planet_Aura_Sales_Playbook_FINAL_2026.docx'), buf);
+  fs.writeFileSync(path.join(__dirname, 'Planet_Aura_Sales_Playbook_FINAL_2026.docx'), buf);
   // registre du sommaire pour la passe de pagination (map-toc-emma.py)
-  fs.writeFileSync(path.join(__dirname, `toc-map-emma${SUF}.json`), JSON.stringify(tocRegistry));
+  fs.writeFileSync(path.join(__dirname, 'toc-map-emma.json'), JSON.stringify(tocRegistry));
   console.log('OK', buf.length, 'bytes,', tocRegistry.length, 'entrées sommaire');
 });

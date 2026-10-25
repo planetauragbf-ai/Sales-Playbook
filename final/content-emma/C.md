@@ -1,6 +1,6 @@
 # Annexe C - Chiffres officiels, hiérarchie de preuve et sources
 
-*Un chiffre sans source, millésime et périmètre ne sort pas : la table qui fait foi, les quatre niveaux de preuve et les chiffres clés des sources S01-S24, détaillées en bibliographie.*
+*Un chiffre sans source, millésime et périmètre ne sort pas : la table qui fait foi, les quatre niveaux de preuve et les chiffres clés des sources S01-S25, détaillées en bibliographie.*
 
 ## La table des chiffres officiels 2026 (source unique)
 
@@ -45,7 +45,7 @@ Avant de citer un chiffre en RDV, dans un email ou dans une proposition, identif
 
 ## Les enquêtes internes : la satisfaction mesurée
 
-Trois enquêtes menées par Planet Aura auprès de clients et de prospects (47 réponses collectées de janvier à juin 2025 - questionnaires et résultats en annexe Y, validation des personas en annexe A). Preuve de **niveau 3** (étude interne documentée, voir la grille ci-dessus) : à citer avec sa date et sa base (« 23 clients, janv.-févr. 2025 ») ; dans une proposition écrite, lui préférer l'avis Google public (S13).
+Trois enquêtes menées par Planet Aura auprès de clients et de prospects (47 réponses collectées de janvier à juin 2025 - questionnaires et résultats en annexe X, validation des personas en annexe A). Preuve de **niveau 3** (étude interne documentée, voir la grille ci-dessus) : à citer avec sa date et sa base (« 23 clients, janv.-févr. 2025 ») ; dans une proposition écrite, lui préférer l'avis Google public (S13).
 
 ```stats
 4,65/5|note globale moyenne - satisfaction 2024, collecte janv.-févr. 2025 (23 réponses, aucune note sous 4)
@@ -111,11 +111,12 @@ Chaque source ci-dessous a été vérifiée en ligne (septembre-octobre 2026). E
 | S17 | **MASA / Agreste** - Infographie « La viticulture française » (18/03/2026) | **53 000** exploitations viticoles (2023), **773 000 ha** de vignes (2024), 3,65 Md L produits et 1,3 Md L exportés (2024), soit plus d'un tiers des volumes - ne pas citer ses 11,7 Md€ d'export, calculés sur une autre base que la FEVS | agriculture.gouv.fr/infographie-la-viticulture-francaise |
 | S18 | **Xerfi** - Le marché du freight forwarding (réf. 26STR05, mise à jour du 19/10/2026) | Marché du freight forwarding en France estimé à **plus de 20 Md€** (fiche de présentation de l'édition 2026, étude payante) - chiffre retenu au chap. 01 (l'étude Bloc 1 de 2025 citait ~40 Md€, non confirmé par l'édition 2026) | xerfi.com (fiche de l'étude, 990 € HT) |
 | S19 | **Silicon Valley Bank** - State of the U.S. Wine Industry 2026 (janv. 2026) | Wineries américaines, CA moyen 2025 : caveau **28 %** + club de vin **25 %** = **53 %**, ventes directes totales **68 %** en moyenne (enquête SVB) - un ordre de grandeur américain, à transposer avec prudence au vignoble français | firstcitizens.com (rapport SVB 2026, PDF) |
-| S20 | **FEVS** - CP « Les vins et spiritueux taxés à 15 % aux États-Unis » (01/08/2025) | Droit de douane américain de **15 %** sur la majorité des produits européens, vins et spiritueux compris, à compter du **7 août 2025** : c'est la source du taux (le bilan export 2025, S03, n'en cite aucun) - position du playbook : 15 % en vigueur au 24/09/2026, baisse annoncée non actée, le barème Planet'Connect fait foi | fevs.info (CP du 01/08/2025) |
+| S20 | **FEVS** - CP « Les vins et spiritueux taxés à 15 % aux États-Unis » (01/08/2025) | Droit de douane américain de **15 %** sur la majorité des produits européens, vins et spiritueux compris, à compter du **7 août 2025** : c'est la source du taux (le bilan export 2025, S03, n'en cite aucun) - taux appliqué d'août 2025 à février 2026, remplacé depuis par 10 % (S25) | fevs.info (CP du 01/08/2025) |
 | S21 | **CNIL** - « Communications par voie électronique aux prospects et clients : quelles règles respecter ? » (10/06/2026) | Trois régimes distincts (prospection, transactionnel, relationnel) ; en B2B, message en rapport avec la fonction du destinataire, information préalable et droit d'opposition simple et gratuit - le cadre de nos séquences (annexe K) | cnil.fr/fr/communication-electronique-quelles-regles |
 | S22 | **CNIL** - Recommandation sur les pixels de suivi dans les courriels (adoptée le 12/03/2026, publiée le 14/04/2026) | Pixel de mesure d'ouverture à finalité marketing ou statistique : **consentement préalable** ; exemptions limitées (sécurité, mesure de délivrabilité) - d'où la règle « pixels à évaluer séparément » (annexe K) | cnil.fr (recommandation, PDF) |
 | S23 | **Code de commerce**, art. L132-1 à L132-9 (Légifrance) | Le commissionnaire « agit en son propre nom ou sous un nom social pour le compte d'un commettant » (L132-1) ; le commissionnaire de transport est garant de l'arrivée, des avaries et des pertes (L132-4 et L132-5) - le socle de notre obligation de résultat (chap. 02, CGS art. 2) | legifrance.gouv.fr (Code de commerce, chapitre « Des commissionnaires ») |
 | S24 | **ISTA** - Procedure 3A (version de mars 2018) | Essai de simulation pour colis de **70 kg** maximum en messagerie (chutes, vibrations) : la norme de référence des cartons « Grand Export » (chap. 04, annexe J) | ista.org/docs/3Aoverview.pdf |
+| S25 | **Hillebrand Gori** - « US tariffs on European wine, beer and spirits 2026 » (note de veille, 26/02/2026) | Après l'arrêt de la Cour suprême des États-Unis du 20/02/2026, qui annule les droits fondés sur la loi d'urgence (IEEPA), droit additionnel de **10 %** ad valorem sur les importations à compter du **24/02/2026** : le taux appliqué par Planet Aura en octobre 2026 - le barème Planet'Connect fait foi à chaque devis | hillebrandgori.com/media/publication/us-tariffs-europe |
 
 > **REPÈRE -** Règle de citation : un chiffre sans source, millésime et périmètre n'entre ni dans un support, ni dans un rendez-vous. En cas de conflit entre deux sources, la plus récente et la plus officielle gagne - et on le note ici.
 
@@ -135,6 +136,6 @@ Chaque source ci-dessous a été vérifiée en ligne (septembre-octobre 2026). E
 | Réf. | Source | Contenu | Accès |
 |---|---|---|---|
 | S14 | **Dashboards admin Planet'Connect** (Logistique / Gestion / Commercial) - *source interne* | Tous les chiffres d'activité du playbook : CA 2021-2026, expéditions, bouteilles, portefeuille, répartitions destinations/régions/catégories, délais réels, sinistres - extraction du **24/09/2026**, table consolidée en tête de cette annexe | app.planet-aura.com/administration (accès interne) |
-| S15 | **Procédures internes 2026** (Drive « Nouveaux process ») - *source interne* | « Gestion des sinistres transport - arbre décisionnel » (chap. 16), « Process cotation » (chap. 11), « Process UE & pays tiers 2K26 », process USA (first/last miles, groupages, retour NY→France), matrice « Missions Planet Aura » | Drive interne, dossier Nouveaux process 2026 |
+| S15 | **Procédures internes 2026** (Drive « Nouveaux process ») - *source interne* | « Gestion des sinistres transport - arbre décisionnel » (chap. 16, annexe B), « Process cotation » (chap. 11, annexe B), « Process UE & pays tiers 2K26 », process USA (first/last miles, groupages, retour NY→France), matrice « Missions Planet Aura » | Drive interne, dossier Nouveaux process 2026 |
 
 > 📌 **À RETENIR -** Une source unique pour les chiffres d'activité (les dashboards Planet'Connect, extraction du 24/09/2026), quatre niveaux de preuve pour tout le reste, et des sources S01-S24 vérifiées, détaillées en bibliographie : avant de citer un chiffre, situez-le dans cette annexe - s'il n'y figure pas avec sa source et son millésime, il ne sort pas.

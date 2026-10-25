@@ -2,11 +2,7 @@
 module.exports = {
   '01': [
     { after: '^Saisonnalité : planifier', img: 'pics/dash_ship_evo.png', w: 398, caption: 'Shippings par mois, sept. 2025 - sept. 2026 (dashboard logistique Planet’Connect)' },
-    { after: '^Géographies prioritaires', pair: [
-      { img: 'pics/carte_vignobles.png', w: 235, caption: 'Les régions viticoles - terrains de prospection prioritaires' },
-      { img: 'pics/worldmap2.png', w: 285, caption: 'Les destinations desservies dans le monde' },
-    ] },
-    { after: '^Destinations demandées', img: 'pics/dash_pays.png', w: 320, caption: 'Répartition réelle des shippings par pays sur 12 mois : USA 64,5 %, France 18,6 %' },
+    { after: '^Où chercher, où livrer', img: 'pics/dash_pays.png', w: 320, caption: 'Répartition réelle des shippings par pays sur 12 mois : USA 64,5 %, France 18,6 %' },
   ],
   '02': [
     { after: '^Carte d’identité|^Carte d.identité', img: 'pics/site_castres.png', w: 400, caption: 'Le site Planet Aura à Castres (Tarn) - bureaux et entrepôt en propre' },
@@ -51,7 +47,8 @@ module.exports = {
 };
 
 module.exports['avantpre2'] = [
-  { after: 'Mot d’accueil|Mot d.accueil', img: 'pics/bitmoji_duo.png', w: 150, caption: '' },
+  { after: 'certitudes de Floriane', img: 'pics/bitmoji_floriane.png', w: 54, caption: '' },
+  { after: 'Mot d’accueil|Mot d.accueil', img: 'pics/bitmoji_duo.png', w: 128, caption: '' },
 ];
 // Annexe A - fiches ICP & personas : composées nativement (fiches-emma.js), plus d'images
 // Annexes documentaires : un document = une annexe
@@ -122,8 +119,20 @@ module.exports['P'] = [
   { after: '^Couverture et sommaire', img: 'annexes/manuel-sommaire.png', w: 330, caption: 'Manuel utilisateur 2026 - couverture et sommaire (9 sections)' },
 ];
 
-// Annexe Y - sources de la recherche : captures datées des tableaux de bord (sans donnée nominative)
-module.exports['Y'] = [
+// Annexe X - sources de la recherche : captures datées des tableaux de bord (sans donnée nominative)
+module.exports['X'] = [
   { after: '^Assurance ad valorem souscrite', img: 'pics/dash_assurance.png', w: 260, caption: 'Assurance ad valorem souscrite sur 12 mois glissants : 89,8 % des expéditions (dashboard Planet\u2019Connect, 24/09/2026)' },
   { after: '^CA, shippings et bouteilles', img: 'pics/dash_ca_graph.png', w: 470, caption: 'CA, shippings et bouteilles par mois, janvier-septembre 2026 (dashboard gestion Planet\u2019Connect, 24/09/2026)' },
 ];
+
+// Annexe J - CGS 2026 : texte intégral (document officiel, 10 pages)
+module.exports['J'] = (module.exports['J'] || []);
+for (let i = 1; i <= 10; i++) module.exports['J'].push({ after: '^Les CGS 2026, texte intégral', img: `annexes/cgs-${i}.png`, w: 520, caption: i === 10 ? 'Conditions Générales de Services Planet Aura 2026 - document officiel (10 pages)' : '' });
+
+// Annexe A - géographies prioritaires (déplacées du chap. 01)
+module.exports['A'] = (module.exports['A'] || []).concat([
+  { after: '^Géographies prioritaires côté adhérents', pair: [
+    { img: 'pics/carte_vignobles.png', w: 235, caption: 'Les régions viticoles - terrains de prospection prioritaires' },
+    { img: 'pics/worldmap2.png', w: 285, caption: 'Les destinations desservies dans le monde' },
+  ] },
+]);

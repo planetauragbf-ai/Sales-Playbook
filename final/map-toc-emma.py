@@ -1,18 +1,15 @@
 #!/usr/bin/env python3
 import json, re, subprocess, sys, unicodedata
-# édition : python3 map-toc-emma.py [ecole]
-EC = len(sys.argv) > 1 and sys.argv[1] == 'ecole'
-SUF = '-ecole' if EC else ''
-PDF = 'Planet_Aura_Sales_Playbook_FINAL_2026' + ('_ECOLE' if EC else '') + '.pdf'
-subprocess.run(['pdftotext','-layout',PDF,'toc-emma'+SUF+'.txt'],check=True)
-pages=open('toc-emma'+SUF+'.txt',encoding='utf-8').read().split('\f')
+PDF = 'Planet_Aura_Sales_Playbook_FINAL_2026.pdf'
+subprocess.run(['pdftotext','-layout',PDF,'toc-emma.txt'],check=True)
+pages=open('toc-emma.txt',encoding='utf-8').read().split('\f')
 def norm(s):
     s=unicodedata.normalize('NFKD',s)
     s=''.join(c for c in s if not unicodedata.combining(c))
     return re.sub(r'[^a-z0-9]','',s.lower())
 np_=[norm(p) for p in pages]
 start=next(i for i,p in enumerate(np_) if 'modedemploiduplaybook' in p)
-reg=json.load(open('toc-map-emma'+SUF+'.json'))
+reg=json.load(open('toc-map-emma.json'))
 out={}; ptr=start; missed=[]
 # passe 1 : niveaux 1 (monotone, en sautant les pages d'ouverture de partie)
 l1=[h for h in reg if h['level']==1]
@@ -46,7 +43,7 @@ for h in l1:
     if h['id'] in part_first and out.get(h['key']):
         part_starts[h['id']]=folio(out[h['key']]-1)
 out={k:folio(v) for k,v in out.items()}
-json.dump(out,open('toc-pages-emma'+SUF+'.json','w'))
-json.dump(part_starts,open('part-starts-emma'+SUF+'.json','w'))
+json.dump(out,open('toc-pages-emma.json','w'))
+json.dump(part_starts,open('part-starts-emma.json','w'))
 print('mapped',len(out),'/',len(reg),'(L1',len(l1),') offset',start,'openers',openers,'starts',part_starts)
 for m2 in missed: print('MISS',m2)

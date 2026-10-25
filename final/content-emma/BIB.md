@@ -1,6 +1,6 @@
 # Bibliographie et sources
 
-*Toutes les références de la recherche documentaire, par catégorie puis par auteur : le code [Sxx] renvoie aux chiffres clés de l'annexe C ; enquêtes, entretiens et tableaux de bord sont reproduits en annexe Y, la documentation officielle en annexes F à J et O à Q, les procédures internes [S15] résumées aux chap. 11 et 16. Outil de terrain, le glossaire reste en annexe V.*
+*Toutes les références de la recherche documentaire, par catégorie puis par auteur : le code [Sxx] renvoie aux chiffres clés de l'annexe C ; enquêtes, entretiens et tableaux de bord sont reproduits en annexe X, la documentation officielle en annexes F à J et O à Q, les procédures internes [S15] résumées aux chap. 11 et 16 et détaillées en annexe B. Outil de terrain, le glossaire est placé juste avant cette bibliographie.*
 
 ## Ouvrages
 
@@ -27,6 +27,7 @@
 ## Études et baromètres privés
 
 - MANFREDINI Nicolas, WINALIST (2026). *Observatoire de l'œnotourisme en France 2026 : qui sont vraiment les visiteurs des domaines viticoles ?* [baromètre, 15 000 réservations confirmées en 2025]. Winalist, Reims, 25/05/2026, mis à jour le 28/05/2026. https://www.winalist.fr/blog/observatoires/observatoire-2026. Consulté le 24/10/2026. [S05]
+- HILLEBRAND GORI (2026). *US tariffs on European wine, beer and spirits 2026* [note de veille réglementaire]. Hillebrand Gori, 26/02/2026. https://www.hillebrandgori.com/media/publication/us-tariffs-europe. Consulté le 25/10/2026. [S25]
 - McMILLAN Rob, SILICON VALLEY BANK (2026). *State of the U.S. Wine Industry 2026* [rapport annuel, enquête auprès des wineries américaines]. SVB Wine Division, First-Citizens Bank & Trust Company, États-Unis, 15/01/2026. https://www.firstcitizens.com/content/dam/firstcitizens/pdfs/commercial/expertise/wine/wine-report-2026.pdf. Consulté le 24/10/2026. [S19]
 - SOWINE, DYNATA (2025). *Baromètre SOWINE/Dynata 2025 : les Français et le vin avec Marie Mascré* [retranscription du podcast SOWINE Talks 107, baromètre annuel]. SOWINE, Paris, 09/04/2025. https://www.sowine.com/blog/barometre-sowine-dynata-2025-les-francais-et-le-vin-avec-marie-mascre-partie-1/. Consulté le 24/10/2026. [S06]
 - SOWINE, DYNATA (2026). *Baromètre SOWINE / Dynata 2026 : le digital, au cœur des nouveaux parcours consommateurs* [épisode de podcast SOWINE Talks sur le baromètre annuel, enquête en ligne auprès de 1 003 Français de 18 à 65 ans, décembre 2025 ; résultats parus dès mars 2026, cf. Vitisphere]. SOWINE, Paris, 29/04/2026. https://www.sowine.com/blog/barometre-sowine-dynata-2026-le-digital-au-coeur-des-nouveaux-parcours-consommateurs/. Consulté le 24/10/2026. [S06]
@@ -56,10 +57,10 @@
 
 ## Sources internes Planet Aura
 
-- PLANET AURA (2025). *Questionnaire de satisfaction 2024* [enquête Google Forms auprès des adhérents, 23 répondants, du 22/01 au 14/02/2025]. Document interne, Castres. Questionnaire et résultats agrégés en annexe Y.1.
-- PLANET AURA (2025). *Évolution vers un transport écologique avec Planet Aura* [enquête Google Forms auprès des clients, 20 répondants, du 26/03 au 03/06/2025]. Document interne, Castres. Annexe Y.2.
-- PLANET AURA (2025). *Étude sur l'intérêt pour le transport écologique par voilier cargo* [enquête Google Forms auprès des prospects, 4 répondants, mars-juin 2025, échantillon indicatif]. Document interne, Castres. Annexe Y.3.
-- PLANET AURA (2026). *Dashboards d'administration Planet'Connect (Gestion, Commercial, Logistique)* [extraction de données internes du 24/09/2026]. Planet'Connect, Castres, accès interne. Table officielle en annexe C, captures en annexe Y.5. [S14]
+- PLANET AURA (2025). *Questionnaire de satisfaction 2024* [enquête Google Forms auprès des adhérents, 23 répondants, du 22/01 au 14/02/2025]. Document interne, Castres. Questionnaire et résultats agrégés en annexe X.1.
+- PLANET AURA (2025). *Évolution vers un transport écologique avec Planet Aura* [enquête Google Forms auprès des clients, 20 répondants, du 26/03 au 03/06/2025]. Document interne, Castres. Annexe X.2.
+- PLANET AURA (2025). *Étude sur l'intérêt pour le transport écologique par voilier cargo* [enquête Google Forms auprès des prospects, 4 répondants, mars-juin 2025, échantillon indicatif]. Document interne, Castres. Annexe X.3.
+- PLANET AURA (2026). *Dashboards d'administration Planet'Connect (Gestion, Commercial, Logistique)* [extraction de données internes du 24/09/2026]. Planet'Connect, Castres, accès interne. Table officielle en annexe C, captures en annexe X.5. [S14]
 - PLANET AURA (2026). *Documentation officielle 2026* : conditions générales de services, grilles tarifaires shipping et stockage & picking, Order Form, mode d'emploi Planet'Connect et manuel utilisateur [documents contractuels et commerciaux]. Planet Aura, Castres. Annexes F à J et O à Q.
 - PLANET AURA (2026). *Procédures internes 2026* : gestion des sinistres transport, process cotation, process UE & pays tiers, process USA, matrice « Missions Planet Aura » [procédures écrites]. Drive interne, dossier « Nouveaux process 2026 », Castres. [S15]
-- SOARES BRITSCHGY Emma (2025). *Élaboration de la stratégie commerciale et marketing, partie 1 : étude de marché et intelligence économique* [livrable individuel, Bloc 1, document confidentiel, dont 10 entretiens semi-directifs VELA]. Euridis Business School, 2025. Guide d'entretien et synthèse repris en annexe Y.4.
+- SOARES BRITSCHGY Emma (2025). *Élaboration de la stratégie commerciale et marketing, partie 1 : étude de marché et intelligence économique* [livrable individuel, Bloc 1, document confidentiel, dont 10 entretiens semi-directifs VELA]. Euridis Business School, 2025. Guide d'entretien et synthèse repris en annexe X.4.

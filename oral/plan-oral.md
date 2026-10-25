@@ -15,7 +15,7 @@
 - Projets en développement (VELA, Gant Blanc, Planet'Stock, entrepôt agréé) = au conditionnel.
 - Assurance : couvre jusqu'à 20 000 €/envoi mais reste une OPTION (3 % ad valorem), souscrite 9 envois sur 10 (89,8 %) - jamais « incluse ».
 - Paiement : mandat SEPA par défaut, virement accepté, CB possible (adhérent ou client final) mais chronophage.
-- Droits de douane US : 15 % en vigueur au 24/09/2026 ; baisse annoncée non actée.
+- Droits de douane US : 10 % depuis février 2026 (15 % d'août 2025 à février 2026).
 
 ## Plan de la présentation (19 diapositives + diapos de secours)
 | # | Diapo | Contenu visé | Temps |
@@ -23,7 +23,7 @@
 | 1 | Couverture | Titre, Emma, Euridis, tutrice Floriane Février, logo | 0:10 |
 | 2 | Accroche - Start with why | Citation terrain « Un couple de Houston voulait 24 bouteilles. Ils sont repartis avec 2 : ils ne savaient pas comment les ramener. » + WHY Planet Aura | 0:40 |
 | 3 | Sommaire | 5 titres impactants (Marché / Entreprise / Cibler / Vendre / Outiller & piloter) + synthèse | 0:15 |
-| 4 | Le marché | accroche macro chiffrée (export vins & spiritueux, USA 1er marché, droits US 15 %, consommation en recul, B2C/œnotourisme) | 0:50 |
+| 4 | Le marché | accroche macro chiffrée (export vins & spiritueux, USA 1er marché, droits US 10 % depuis février 2026, consommation en recul, B2C/œnotourisme) | 0:50 |
 | 5 | Enjeux & problématique | Enjeux pour Planet Aura, problématique du playbook, pourquoi un SPB (pas de playbook existant) | 0:35 |
 | 6 | Planet Aura | identité (commissionnaire de transport, Castres + filiale NY), CA, croissance, clients, expéditions, organigramme | 0:55 |
 | 7 | L'offre | catalogue en 3 temps, prix (12 btl Texas), modèle sans abonnement, simulateur | 0:45 |

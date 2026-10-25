@@ -42,7 +42,6 @@ FIX = [
  ("- Diapo de secours : Diapo 4, puis B6 (ligne « Part USA »).", "- Diapo de secours : Diapo 4, puis diapo 17 (64,5 %, suivi trimestriel)."),
  ("- Diapo de secours : Diapo 16 (onboarding 30-60-90), B4 si la question glisse sur la charge.", "- Diapo de secours : Diapo 16 (onboarding 30-60-90), diapo 15 si la question glisse sur la charge."),
  ("Contradiction interne : chap. 15 et avant-propos exigent « les 26 objections sues » à J+30 ; dire « les 26 connues, les 5 premières mot pour mot ».", "Dire « les 26 connues, les 5 premières mot pour mot » (formulation désormais identique au chap. 15 et dans l'avant-propos)."),
- (" ; le sommaire renvoie encore aux « annexes S et T » au lieu de U et V.", "."),
  ("Donner un chiffre unique : le résumé exécutif dit « 4-6 semaines » quand le chap. 11 donne trois cycles ; le présenter comme un ordre de grandeur.", "Donner un chiffre unique : il y a trois cycles (chap. 11), le résumé exécutif renvoie désormais à ce détail."),
  ("Le chap. 06 dit « Nurture en dessous de 55 » quand le chap. 11 distingue nurture 35-54 et disqualification sous 35 : retenir le chap. 11, qui fait foi.", "Seuils : nurture de 35 à 54, disqualification ou veille sous 35 (chap. 06 et 11 alignés)."),
  ("et un effort limité à environ 5 %. Il sera réévalué après 90 jours de CRM.", "et un statut de test, hors de la répartition de l'effort. Il sera réévalué après 90 jours de CRM."),
@@ -52,8 +51,8 @@ FIX = [
  ("Dire « risque zéro » ou « assurance incluse » : le chap. 13 contient encore « Vous ne risquez rien » et « Risque zéro : Assurance incluse » dans le pitch de 2 minutes, ne pas les reprendre.", "Dire « risque zéro » ou « assurance incluse » : on parle de risque maîtrisé, assurance en option."),
  (" (le résumé exécutif parle encore d'« exclusivité » pour le groupage USA, ne pas le reprendre)", ""),
  ("- Diapo de secours : Aucune : le carton ISTA 3A de démonstration en main si le format le permet, sinon diapo 14.", "- Diapo de secours : Aucune : le carton ISTA 3A de démonstration en main si le format le permet, sinon diapo 14."),
- ("Point d'honnêteté à régler AVANT l'oral : l'annexe X et l'avant-propos limitent l'IA à la forme, alors que des passes de mise en cohérence du contenu ont aussi été faites avec l'IA en fin de rédaction (scoring, séquence, probabilité, ordre des annexes). Compléter l'annexe X (chantier « mise en cohérence ») et le dire : un écart découvert par le jury coûterait plus cher que l'aveu. Sans se dévaloriser pour autant.",
-  "Rester exactement alignée sur l'annexe X. Si l'IA t'a aussi aidée à repérer des incohérences en fin de rédaction, le dire simplement : « elle m'a aidée à repérer des écarts, que j'ai tranchés à partir des sources ». Un écart découvert par le jury coûterait plus cher que la précision. Sans se dévaloriser pour autant."),
+ ("Point d'honnêteté à régler AVANT l'oral : l'annexe W et l'avant-propos limitent l'IA à la forme, alors que des passes de mise en cohérence du contenu ont aussi été faites avec l'IA en fin de rédaction (scoring, séquence, probabilité, ordre des annexes). Compléter l'annexe W (chantier « mise en cohérence ») et le dire : un écart découvert par le jury coûterait plus cher que l'aveu. Sans se dévaloriser pour autant.",
+  "Rester exactement alignée sur l'annexe W. Si l'IA t'a aussi aidée à repérer des incohérences en fin de rédaction, le dire simplement : « elle m'a aidée à repérer des écarts, que j'ai tranchés à partir des sources ». Un écart découvert par le jury coûterait plus cher que la précision. Sans se dévaloriser pour autant."),
 ]
 for a, b in FIX:
     if a not in J:
@@ -145,7 +144,7 @@ H.append('''<section><p class="ey">1 · L’ESSENTIEL EN UNE PAGE</p><h2>Vingt m
 <li>« 24 bouteilles, 360 euros de transport, les taxes estimées et payées d’avance, livrées en trois semaines environ. Ils repartent les mains libres. »</li>
 </ol>
 <div class="warn"><p class="wl">CE QUE JE NE DIS JAMAIS</p>
-<p>Un nom de client ou un CA par client (top 10 anonymisé) · la part du CA faite par les comptes A · « assurance incluse » ou « risque zéro » (option à 3 %, souscrite sur 89,8 % des envois) · « transporteur » (commissionnaire de transport) · « 145 adhérents actifs » (signés) · un objectif présenté comme un résultat · VELA, Gant Blanc, Planet’Stock, entrepôt agréé ou annexe Champagne au présent · « j’ai interviewé 70 clients » (échanges écrits réels, entretiens prévus au T1 2027) · une baisse des droits US comme acquise · « 207 € par visiteur » (c’est par réservation, 2,9 adultes en moyenne) · un taux de marge · « premier », « unique », « exclusif ».</p></div>
+<p>Un nom de client ou un CA par client (top 10 anonymisé) · la part du CA faite par les comptes A · « assurance incluse » ou « risque zéro » (option à 3 %, souscrite sur 89,8 % des envois) · « transporteur » (commissionnaire de transport) · « 145 adhérents actifs » (signés) · un objectif présenté comme un résultat · VELA, Gant Blanc, Planet’Stock, entrepôt agréé ou annexe Champagne au présent · « j’ai interviewé 70 clients » (échanges écrits réels, entretiens prévus au T1 2027) · un taux de droits US cité de mémoire · « 207 € par visiteur » (c’est par réservation, 2,9 adultes en moyenne) · un taux de marge · « premier », « unique », « exclusif ».</p></div>
 </section>''')
 
 GRID = [
@@ -187,11 +186,11 @@ H.append('''<section><p class="ey">7 · LES CHECK-LISTS</p><h2>Préparer, vérif
 <li>Une répétition des questions avec quelqu’un qui joue le jury, pièges compris.</li>
 <li>Savoir refaire à voix haute : le ROI (30 × 1/3 × 300 € × 20 = 60 000 €) et le prix Texas (≈ 270 €).</li>
 <li>Relire la grille shipping 2026 et les seuils POA (2 100 $), 36 bouteilles par personne et par envoi.</li>
-<li>Lire l’annexe X une dernière fois : mon discours sur l’IA doit lui correspondre exactement.</li>
+<li>Lire l’annexe W une dernière fois : mon discours sur l’IA doit lui correspondre exactement.</li>
 <li>Télécharger le deck en PDF et en PPTX (menu de l’artefact) ; tester le mode présentateur.</li>
 </ul></div>
 <div class="ck"><p class="ckl">LA VEILLE</p><ul>
-<li>Vérifier que les droits de douane US sont toujours à 15 % (la Cour suprême a fragilisé leur base légale en février 2026) ; sinon, adapter les diapos 4 et B7.</li>
+<li>Vérifier dans le simulateur que les droits de douane US sont toujours à 10 % (en vigueur depuis février 2026) ; sinon, adapter les diapos 4 et B7.</li>
 <li>Noter le statut réel des chantiers de septembre et d’octobre (fait, en cours, décalé).</li>
 <li>Savoir si la version de novembre est sortie selon la date du jury.</li>
 <li>Copier le deck sur une clé USB et l’envoyer par email à soi-même.</li>

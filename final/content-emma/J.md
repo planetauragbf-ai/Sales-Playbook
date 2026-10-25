@@ -1,4 +1,4 @@
-# Annexe J - Conditions Générales de Services : l'essentiel
+# Annexe J - Conditions Générales de Services 2026 : l'essentiel et le texte intégral
 *La synthèse opérationnelle des CGS 2026 - statut, engagements, assurance, délais, paiement, responsabilités - pour répondre juste en rendez-vous, seul le texte intégral, publié sur Planet'Connect, fait foi.*
 
 ```stats
@@ -7,17 +7,17 @@
 48 h|délai maximal de réserves après livraison, photos à l'appui
 ```
 
-> **REPÈRE -** Le document officiel complet : **Planet Aura 2026 - Conditions Générales de Services** (drive.google.com/file/d/1udHs7oESvTWcF7LOY9Ra9vwpnDoykchT). Cette annexe n'en est que la lecture commentée à usage interne : en cas de doute ou de litige, seules les CGS signées font foi.
+> **REPÈRE -** Le document officiel complet : **Planet Aura 2026 - Conditions Générales de Services** (drive.google.com/file/d/1udHs7oESvTWcF7LOY9Ra9vwpnDoykchT). Cette annexe en donne d'abord la lecture commentée à usage interne, puis le texte intégral, reproduit tel quel : en cas de doute ou de litige, seules les CGS signées font foi.
 
 ## Nature de la prestation : commissionnaire, obligation de résultat
 
-Planet Aura (SARL au capital de 1 000 €, RCS Castres 850 624 636, siège social au 185 avenue de Roquecourbe, 81100 Castres) agit en qualité de **commissionnaire de transport** au sens des articles L.132-1 et suivants du Code de commerce : libre du choix des moyens et des sous-traitants, elle organise l'expédition, sélectionne transporteurs et prestataires, gère les formalités douanières, assure le suivi et prend en charge la gestion des sinistres dans les limites contractuelles - le tout via la plateforme Planet'Connect. Surtout : **Planet Aura s'engage à une obligation de résultat quant à l'acheminement des Produits**, sauf cas de force majeure, cas fortuit, faute du Client ou du Destinataire (art. 2).
+Planet Aura (SARL au capital de 1 000 €, RCS Castres 850 624 636, siège social au 185 avenue de Roquecourbe, 81100 Castres - les CGS 2026 portent encore l'ancienne adresse, 5 impasse François Arago) agit en qualité de **commissionnaire de transport** au sens des articles L.132-1 et suivants du Code de commerce : libre du choix des moyens et des sous-traitants, elle organise l'expédition, sélectionne transporteurs et prestataires, gère les formalités douanières, assure le suivi et prend en charge la gestion des sinistres dans les limites contractuelles - le tout via la plateforme Planet'Connect. Surtout : **Planet Aura s'engage à une obligation de résultat quant à l'acheminement des Produits**, sauf cas de force majeure, cas fortuit, faute du Client ou du Destinataire (art. 2).
 
 > **REPÈRE -** Le statut de commissionnaire n'est pas un détail juridique, c'est un argument : contrairement à un simple revendeur d'étiquettes, le commissionnaire répond du résultat de bout en bout. C'est le fondement contractuel des promesses du chap. 13.
 
 ## Assurance et plafonds (art. 10)
 
-Doctrine unique, identique dans tout le playbook : **l'assurance casse/perte couvre jusqu'à 20 000 € par envoi (sous condition d'emballage homologué) et reste une option** - ad valorem, 3 % de la valeur, souscrite pour 9 envois sur 10 (89,8 %), à souscrire avant expédition. Un envoi parti sans assurance se traite aux conditions de base. La garantie couvre la casse et la perte, elle ne couvre pas l'altération naturelle du vin, l'oxydation, le dépôt, l'évolution du Produit, les bouchons suintants ou sautés ni les taches sur étiquettes. Procédure casse : refus à la livraison ou signalement sous 48 h avec photos à contact@planet-aura.com, puis remplacement à l'identique, substitution équivalente ou remboursement sur la valeur déclarée. Procédure perte : remboursement ou réexpédition au choix du Destinataire, attestation de non-réception et pièce d'identité exigibles (déroulé complet au chap. 16).
+Les CGS fixent la couverture et ses limites ; sa tarification relève de la grille et de Planet'Connect. Doctrine unique, identique dans tout le playbook : **l'assurance casse/perte couvre jusqu'à 20 000 € par envoi (sous condition d'emballage homologué) et reste une option** - ad valorem, 3 % de la valeur, souscrite pour 9 envois sur 10 (89,8 %), à souscrire avant expédition. Un envoi parti sans assurance se traite aux conditions de base. La garantie couvre la casse et la perte, elle ne couvre pas l'altération naturelle du vin, l'oxydation, le dépôt, l'évolution du Produit, les bouchons suintants ou sautés ni les taches sur étiquettes. Procédure casse : refus à la livraison ou signalement sous 48 h avec photos à contact@planet-aura.com, puis remplacement à l'identique, substitution équivalente ou remboursement sur la valeur déclarée. Procédure perte : remboursement ou réexpédition au choix du Destinataire, attestation de non-réception et pièce d'identité exigibles (déroulé complet au chap. 16).
 
 > 🚫 **INTERDIT -** Caisses en bois, cartons vignerons non renforcés et tout emballage non certifié (art. 6) : emballage non conforme = refus d'expédition, refus de prise en charge du sinistre, reconditionnement aux frais du Client et facturation des coûts induits. Seuls les emballages homologués « Grand Export » (double cannelure, intercalaires, procédure ISTA 3A) ouvrent droit à la couverture.
 
@@ -33,7 +33,7 @@ Côté expédition (art. 8) : date d'enlèvement au choix du Client (prise en co
 |---|---|
 | Commandes (art. 4) | Demande écrite via la Plateforme, valable une fois confirmée par Planet Aura, le Client fournit nature des Produits, quantités, poids et volume, valeur déclarée, adresses et contacts, toute erreur ou omission l'engage, modification possible jusqu'à la veille de l'enlèvement (heures ouvrées) par email à contact@planet-aura.com. |
 | Douane & Incoterms (art. 5) | Hors UE : principalement **DDP** (Planet Aura s'acquitte des droits et taxes pour le Destinataire) ou **DAP** (paiement direct par le Destinataire quand la législation locale l'impose), le Client demeure seul garant de la véracité des informations déclarées. |
-| Paiement (art. 7) | **Intégral à la Commande**. En pratique : **mandat SEPA par défaut** (annexe I), **virement accepté**, **CB possible** - adhérent ou client final via order form ou lien de paiement - mais plus lourde à traiter côté Planet Aura, à réserver aux cas où le SEPA ne convient pas. Tarifs valables pour l'année civile, publiés sur Planet'Connect, révisables selon les barèmes officiels. |
+| Paiement (art. 7) | **Intégral à la Commande**, sauf accord écrit. Les CGS citent le mandat SEPA et la carte bancaire ; en pratique : **mandat SEPA par défaut** (annexe I), **virement accepté**, **CB possible** - adhérent ou client final via order form ou lien de paiement - mais plus lourde à traiter côté Planet Aura, à réserver aux cas où le SEPA ne convient pas. Tarifs valables pour l'année civile, publiés sur Planet'Connect, révisables selon les barèmes officiels. |
 | Retard de paiement (art. 7) | Commande suspendue, au-delà de 30 jours : pénalités au taux annuel de 8 % du TTC, indemnité forfaitaire de 40 €/facture, exigibilité immédiate de la totalité des sommes dues. |
 | Annulation (art. 13) | Gratuite avant la date d'enlèvement (par email), 10 € le jour de l'enlèvement, colis remis malgré annulation : commande due et prélevée en intégralité. |
 
@@ -43,6 +43,10 @@ La responsabilité de Planet Aura est **strictement limitée aux plafonds prévu
 
 ## Le texte intégral fait foi
 
-Cette page est un aide-mémoire, pas le contrat. Le texte intégral des CGS 2026 (17 articles + approbation par signature électronique : « je reconnais avoir pris connaissance et accepte sans réserve l'intégralité de la documentation 2026 ») est publié sur **Planet'Connect** et doit être accepté pour enregistrer toute Commande. En cas de doute ou de litige, c'est lui que l'on ouvre - jamais cette synthèse. Les grilles chiffrées associées figurent en annexe F et au chap. 04.
+Cette page est un aide-mémoire, pas le contrat. Le texte intégral des CGS 2026 (17 articles + approbation par signature électronique : « je reconnais avoir pris connaissance et accepte sans réserve l'intégralité de la documentation 2026 ») est reproduit ci-dessous et publié sur **Planet'Connect** ; il doit être accepté pour enregistrer toute Commande. En cas de doute ou de litige, c'est lui que l'on ouvre - jamais cette synthèse. Les grilles chiffrées associées figurent en annexe F et au chap. 04.
 
 > 📌 **À RETENIR -** Les six réflexes CGS du commercial : commissionnaire à **obligation de résultat** (argument, pas jargon) · assurance casse/perte **jusqu'à 20 000 €** (ad valorem **3 %**, une option souscrite 9 fois sur 10, emballage homologué) · **délais estimatifs**, jamais garantis · **réserves sous 48 h** avec photos - à enseigner à l'adhérent pour ses clients finaux · **paiement intégral à la Commande** (SEPA par défaut, virement accepté, CB si nécessaire) · texte intégral sur **Planet'Connect**.
+
+## Les CGS 2026, texte intégral
+
+Le document officiel signé électroniquement par chaque adhérent, reproduit tel quel (10 pages).

@@ -1,5 +1,5 @@
 # Annexe B - Fiche réflexe comptoir, checklists et modèles
-*Tout ce qui se dégaine en 30 secondes : la fiche à plastifier pour le comptoir, les checklists du commercial et les modèles du pack adhérent 2026.*
+*Tout ce qui se dégaine en 30 secondes : la fiche à plastifier pour le comptoir, les checklists du commercial, les modèles du pack adhérent 2026 et les procédures détaillées des chap. 11, 15 et 16 (cotation, sinistre, dictionnaire CRM).*
 
 ## Fiche réflexe comptoir (à plastifier pour les adhérents)
 
@@ -64,6 +64,16 @@ Quand le temps manque (salon, appel entrant, relance) : une réponse courte, pui
 - Objections traitées et verrouillées.
 - Next step daté (signature/formation) + compte-rendu CRM sous 24 h.
 
+### La préparation du rendez-vous en dix minutes (chap. 12)
+
+| Minute | Réflexe |
+|---|---|
+| 0-2 | Relire la fiche compte et le dernier compte-rendu (CRM), vérifier le scoring P1/P2 (chap. 06) |
+| 2-4 | Choisir le persona (annexe A) et les trois questions SPIN prioritaires pour ce profil (annexe E) |
+| 4-6 | Préparer la preuve adaptée : cas client du même segment, simulation Planet'Connect sur SES vins |
+| 6-8 | Anticiper l'objection probable (chap. 13) et le point réglementaire de la destination (annexe K) |
+| 8-10 | Caler l'ouverture mot pour mot et la sortie attendue : une prochaine étape datée |
+
 ## Checklist signature → activation
 
 - Documentation 2026 signée électroniquement (CGS + grilles).
@@ -125,6 +135,93 @@ Le planning opérationnel complet - jour par jour pour le premier mois, puis sem
 > ⚠️ **LE POINT DE VIGILANCE -** Le mandat SEPA contient les identifiants bancaires du magasin : il se remplit et se transmet via les canaux officiels uniquement, jamais recopié dans un email libre ni dans un support de vente.
 
 > 📌 **À RETENIR -** Cette annexe est la boîte à outils de 30 secondes : la fiche réflexe et ses 4 données (# / kg / € / →) pour le comptoir, les checklists pour ne rien oublier avant et après la signature, le compte-rendu CRM saisi sous 24 h, et le pack adhérent 2026 complet - huit documents, toujours envoyés via les canaux officiels.
+
+## Process cotation hors grille 2026 et règles d'engagement (chap. 11)
+
+Quand la demande sort des grilles (palette, pays « sur devis », B2B événementiel, flux atypique, > 120 bouteilles), on ne bricole pas un prix : on suit le process cotation (Drive, Nouveaux process > Cotations).
+
+```stats
+19|envois « sur devis » sur 12 mois
+475 €|panier moyen de ces dossiers
+```
+
+Peu de volume, des dossiers à forte valeur qui ouvrent souvent une relation durable.
+
+| Étape | Contenu |
+|---|---|
+| 1 · Demande | Domaine, caviste ou particulier : mail, téléphone, formulaire |
+| 2 · Informations | Enlèvement, destination, colisage, valeur, incoterm, dates |
+| 3 · Vérifications | Pays ouvert ? accises ? documents ? emballage homologué ? |
+| 4 · Prix transport | Transporteurs / partenaires, comparaison des options |
+| 5 · Devis | Écrit, périmètre précis, validité datée |
+
+Ce que le commercial fournit pour que la cotation parte vite : expéditeur et lieu d'enlèvement, destinataire et destination précise, colisage exact (bouteilles, formats, poids), valeur de la marchandise, incoterm souhaité, contraintes de date. Pour un dossier USA hors B2C standard, les 8 questions obligatoires (importateur, schéma B2B/B2C, incoterm, destination finale, produit/degré/valeur, conditionnement, date impérative, qui paie quoi) sont en annexe K.
+
+### Règles d'engagement internes
+
+- **Tarifs** : aucune remise sur grille sans validation direction, la grille est annuelle et publique pour les adhérents.
+- **Hors grille** : devis par l'exploitation, ne jamais improviser un prix.
+- **Promesses opérationnelles** (enlèvement à date impérative, délai « garanti ») : interdites, reformuler en « estimé ».
+- **Comptes à risque** (impayés, litiges en cours) : consulter l'exploitation avant toute relance.
+- **CRM** : tout contact loggé sous 24 h, chaque opportunité a une prochaine action datée - un deal sans next step est un deal mort.
+
+## Procédure sinistre 2026 : étapes, cas particuliers et clôture (chap. 16)
+
+La procédure 2026, en six étapes :
+
+| Étape | Contenu |
+|---|---|
+| 1 · Signalement | ≤ 48 h, avec photos |
+| 2 · Dossier S_xxxx | Ligne dans le tableur de suivi, dossier Drive partagé, mail sinistre officiel |
+| 3 · Recours transporteur | Déposé dans les meilleurs délais |
+| 4 · Assurance | Courtier Coste Fermon en copie de tout, référence TP26xxxxxx |
+| 5 · Décision client | RXP / substitution / remboursement |
+| 6 · Clôture | Checklist complète |
+
+### La règle des factures : l'incident devient une seconde vente
+
+| Issue choisie | Facture demandée au domaine |
+|---|---|
+| RXP / remplacement | Facture adressée à Planet Aura : les bouteilles uniquement |
+| Remboursement | Facture adressée à Planet Aura : bouteilles + transport + taxes |
+
+### Cas particuliers et recours
+
+| Cas particulier | Conduite à tenir |
+|---|---|
+| Casse partielle (1 bouteille sur 12) | Indemnisation ou remplacement à la bouteille, ne pas promettre une réexpédition complète |
+| Retard groupage | Pas un sinistre : communication proactive (« consolidation en cours »), pas d'indemnisation de retard (délais estimatifs) |
+| Colis retenu en douane (FDA, certificat) | Traité par l'exploitation, le commercial rassure sur le process, ne s'engage pas sur la date |
+| Chaleur | Non couvert, la parade est AVANT l'envoi (départ différé), si l'adhérent insiste, tracer par écrit que l'option a été proposée |
+
+**Côté transporteur :** s'il reconnaît sa responsabilité, on transmet à l'assureur, s'il refuse, on ne bataille pas : l'assureur instruit, si le client réclame avant le retour du transporteur, on n'attend pas. Un dossier sinistre se gagne sur les preuves : les photos sous 48 h sont la pièce n° 1.
+
+### La checklist de clôture (un dossier n'est jamais « à peu près fini »)
+
+Un sinistre est clôturé uniquement quand ces sept conditions sont réunies :
+
+1. Le client a reçu sa RXP ou son remboursement.
+2. Le transporteur ou l'assureur a confirmé le montant de l'indemnisation (si prévue).
+3. Le dossier partagé est complet.
+4. Tous les échanges sont archivés.
+5. L'assureur possède tous les éléments nécessaires.
+6. Le client a été informé de la résolution.
+7. Le domaine a été informé de la résolution.
+
+## Dictionnaire de données CRM et taxonomies (chap. 15)
+
+| Objet CRM | Champs obligatoires | Contrôle |
+|---|---|---|
+| Compte | Raison sociale, SIREN/pays, segment, tier, source, statut, health score, particularités (CIVC, POA, e-shop) | Dédoublonnage hebdomadaire |
+| Contact | Fonction, rôle d'achat, email pro, téléphone, langue, base légale | Validité + opposition respectée, contacts caveau à jour (les saisonniers changent) |
+| Fit | ICP, destination, produits, modes, fréquence, certification, score PA-FIT | Une preuve pour chaque score |
+| Opportunité | Offre, montant, marge, étape, probabilité (fixée par l'étape : pondération du chap. 17, jamais saisie à la main), close date, prochaine action | Aucun champ critique vide |
+| Flux | Origine/destination, volume, poids, valeur, Incoterm, dates, importateur | Dossier prêt avant devis ferme |
+| Décision | Sponsor, décideur, utilisateurs, critères, approbateurs, concurrence | Comité d'achat documenté |
+| Résultat | Gagné/perdu, motif, montant, marge, cycle, source | Clôture sous 48 h |
+| Service | ID Planet'Connect, OTIF, incident, réclamation, CSAT, expansion | Relié au compte après livraison |
+
+**Taxonomies communes** : 10 motifs de perte (prix, délai, faisabilité, concurrence, statu quo, budget, priorité, confiance, données manquantes, absence de décision), 8 motifs d'inactivité (doublon, saisonnalité, prix, service, cessation, changement de contact, absence de besoin, opposition), format de prochaine action : verbe + propriétaire + date + résultat attendu.
 
 ## L'exemple complet : une cadence de nurturing déroulée (J1 à J18)
 
