@@ -1,4 +1,4 @@
-# Diapositives de secours B1 à B13 (questions du jury), même système visuel que le deck principal
+# Diapositives de secours B1 à B16 (questions du jury), même système visuel que le deck principal
 from kit import *
 
 ORG = '/_blob/f6153fe677b16873e49378b0adbd4f01'
@@ -116,7 +116,7 @@ def b5():
 <div style="display:flex;gap:40px;flex:1">
 <div style="flex:1;display:flex;flex-direction:column;gap:16px">
 {box("L'outil et son usage", 'Claude (Anthropic), crédité dès l’avant-propos, prompts représentatifs en annexe W · 8 chantiers de forme : maquette, identité visuelle, pagination et sommaire, ponts de navigation, schémas, calage des pages, ordre des annexes, relecture de forme', SARCF)}
-{box('Le fond et ses sources', 'Documentation officielle et procédures 2026 · dashboards Planet’Connect au 24/09/2026 · 3 enquêtes (47 réponses) · 25 sources externes datées (OIV, FEVS, Atout France…)', PETROLE)}
+{box('Le fond et ses sources', 'Documentation officielle et procédures 2026 · dashboards Planet’Connect au 24/09/2026 · 3 enquêtes (47 réponses) · 24 références externes vérifiées en ligne (OIV, FEVS, Atout France…)', PETROLE)}
 </div>
 <div style="flex:1;display:flex;flex-direction:column;gap:16px">
 {box('Aussi, à déclarer', "Des passes de mise en cohérence avec Claude : chiffres corrigés d’après les sources, règles harmonisées (assurance, feuille de route, seuils), bibliographie, renvois ; chaque correction vérifiée à sa source · ce support oral : titres, mises en page, visualisations et formulation des notes travaillés avec Claude, à partir du dossier, puis relus", OR)}
@@ -133,7 +133,7 @@ def b6():
                ['Activation à J+30', 'Mensuel', '≥ 70 %', "Revoir l'onboarding"],
                ['RDV tenus', 'Hebdomadaire', 'Baseline 90 j', "Revoir l'accroche, relancer"],
                ['Win rate', 'Mensuel', '40-60 %', 'Closing, objections'],
-               ['Cycle de vente médian', 'Mensuel', '7 à 21 j visés', 'Lever les blocages'],
+               ['Cycle de vente médian', 'Mensuel', '7 à 21 j (dossier standard)', 'Lever les blocages'],
                ['OTIF', 'Mensuel', 'Baseline', 'Aligner le discours délais'],
                ['Marge contributive', 'Par dossier', '&gt; plancher (non affiché)', 'Disqualifier ou renégocier le périmètre'],
                ['Hygiène du forecast', 'Hebdomadaire', '≥ 95 %', 'Sortie du forecast']], [38, 18, 18, 26])
@@ -141,7 +141,7 @@ def b6():
 <div style="display:flex;gap:44px;flex:1">
 <div style="width:1080px">{t}</div>
 <div style="flex:1;display:flex;flex-direction:column;gap:16px">
-{box('Entonnoir cible (objectifs)', 'Lead → qualifié 40-60 % · qualifié → RDV tenu 50-70 % · RDV → proposition ≥ 70 % · proposition → signature 40-60 % · signature → activé ≥ 70 % · activé → récurrent ≥ 60 %', BORD)}
+{box('Entonnoir cible (objectifs)', 'Lead → qualifié · 40-60 %<br>Qualifié → RDV tenu · 50-70 %<br>RDV → proposition · ≥ 70 %<br>Proposition → signature · 40-60 %<br>Signature → activé · ≥ 70 %<br>Activé → récurrent · ≥ 60 %', BORD)}
 {box('Satisfaction 2024 (23 réponses)', '4,65/5 de satisfaction · 4,87/5 de probabilité de recommander (ce n’est pas un NPS) · 21 utilisateurs du SAV sur 22 satisfaits', SARCF)}
 </div></div>
 {bfoot(6)}'''
@@ -156,7 +156,7 @@ def b7():
     inner = f'''{bhead(7, 'Prix rendu', 'Le prix rendu, sans maquillage : le client final paie')}
 <div style="display:flex;gap:56px;flex:1">
 <div style="width:980px;display:flex;flex-direction:column;gap:6px">
-{label('12 bouteilles au Texas, 300 € de vin', SARCF, ls=2)}
+{label('Exemple du playbook (chap. 04) : 12 bouteilles, 300 € de vin', SARCF, ls=2)}
 {rows}
 <div style="display:flex;justify-content:space-between;padding-top:14px"><p style="font-size:28px;font-weight:700;color:{ENCRE}">Total avec l'option assurance, réglé d'avance</p><p style="font-family:{T};font-size:44px;font-weight:700;color:{ORF}">≈ 270 €</p></div>
 <p style="font-size:24px;line-height:1.35;color:{GRISD}">Les taxes restent une estimation, révisable (CGS art. 5) · ~21 jours estimés, hors douane · le simulateur fait foi</p>
@@ -211,7 +211,7 @@ def b10():
 {label('Légende', GRISD, ls=2)}
 <div style="display:flex;flex-direction:column;gap:8px">{lg}</div>
 <div style="flex:1"></div>
-{box('Groupage DDP', '36 bouteilles max. par personne et par envoi · POA dès 2 100 $ (≈ 12 bouteilles) · ~21 jours estimés', SARCF)}
+{box('Groupage DDP', '36 bouteilles max. par personne et par envoi · POA au-delà de 2 100 $ de valeur déclarée · ~21 jours estimés', SARCF)}
 <p style="font-size:24px;line-height:1.3;color:{GRISD}">Vermont : livré par un prestataire interne après regroupement</p>
 </div></div>
 {bfoot(10)}'''
@@ -221,9 +221,9 @@ def b10():
 def b11():
     def nd(title, body, c, w):
         return (f'<div style="width:{w}px;background:#FFFFFF;border:1px solid {FILET};border-top:6px solid {c};border-radius:12px;padding:14px 18px;display:flex;flex-direction:column;gap:6px">'
-                f'<p style="font-family:{L};font-size:24px;font-weight:600;color:{c}">{title}</p><p style="font-size:24px;line-height:1.3;color:{ENCRE}">{body}</p></div>')
+                f'<p style="font-family:{L};font-size:24px;font-weight:600;color:{TXT.get(c, c)}">{title}</p><p style="font-size:24px;line-height:1.3;color:{ENCRE}">{body}</p></div>')
     tree = f'''<div style="width:1020px;display:flex;flex-direction:column;gap:14px">
-<p style="background:{NUIT};color:#FFFFFF;font-size:26px;font-weight:600;text-align:center;padding:14px 20px;border-radius:12px">Envoi assuré (option 3 %) · signalement sous 48 h, avec photos : le client choisit</p>
+<p style="background:{NUIT};color:#FFFFFF;font-size:26px;font-weight:600;text-align:center;padding:14px 20px;border-radius:12px">Envoi assuré (option 3 %) · signalement sous 48 h, avec photos : le\u00a0client\u00a0choisit</p>
 <div style="display:flex;gap:20px">
 <div style="flex:1;display:flex;flex-direction:column;gap:12px">
 <p style="background:{SARCF};color:#FFFFFF;font-family:{L};font-size:24px;font-weight:600;text-align:center;padding:10px;border-radius:10px">RÉEXPÉDITION (RXP)</p>
@@ -264,7 +264,7 @@ def b12():
 <div style="flex:1"></div>
 <div style="display:flex;gap:24px">
 {box('Pour qui', '~20 comptes P1 en ABM 1:1 · cadence ouverte dès PA-FIT 55 (P1 et P2) · caveaux : cadence courte, J1, J+4, J+10 puis visite', SARCF)}
-{box('Toute réponse arrête tout', 'Réponse, RDV, opposition ou erreur : cadence stoppée et tâche humaine créée · câblage Brevo + HubSpot en novembre 2026', ORANGE)}
+{box('Toute réponse arrête tout', 'Réponse, RDV, opposition ou erreur : cadence stoppée et tâche humaine créée · câblage Brevo + HubSpot prévu en novembre 2026', ORANGE)}
 {box('Mesurer, chaque vendredi', 'Réponse &lt; 10 % : revoir l’angle · &lt; 5 RDV pour 100 : resserrer · opt-out &gt; 2 % : stopper', BORD)}
 </div>
 {bfoot(12)}'''
@@ -290,7 +290,7 @@ def b13():
 
 
 def b14():
-    objs = [('O-1', 'Le prix', '« C’est cher »', '210 € HT de transport pour 12 btl vers les USA : <b>≈ 17,50 € par bouteille, payés par le client final</b>', BORD),
+    objs = [('O-1', 'Le prix', '« C’est cher »', '360 € HT de transport pour 24 btl vers les USA : <b>15 € par bouteille, payés par le client final</b>', BORD),
             ('O-6', 'La casse', '« Et si ça casse ? »', 'Assurance <b>en option, 3 %</b> (vin + transport), jusqu’à 20 000 € par envoi, choisie sur 89,8 % des envois · signalement sous 48 h, avec photos', SARCF),
             ('O-9', 'La chaleur', '« Et en plein été ? »', '<b>Départ différé</b> · et on le dit : l’altération thermique est exclue de l’assurance (CGS)', ORANGE),
             ('O-12', 'Le statu quo', '« On a déjà quelqu’un »', '« Je ne vous demande pas de changer, <b>je vous demande de comparer sur UN envoi.</b> »', PETROLE),
@@ -298,25 +298,25 @@ def b14():
     rows = ''
     for code, name, quote, proof, c in objs:
         rows += f"""<div style="flex:1;display:flex;align-items:center;gap:24px;background:#FFFFFF;border:1px solid {FILET};border-left:8px solid {c};border-radius:14px;padding:10px 24px">
-<div style="width:300px;display:flex;flex-direction:column;gap:2px;flex:none"><p style="font-family:{L};font-size:24px;font-weight:600;color:{c}">{code} · {name}</p>
+<div style="width:300px;display:flex;flex-direction:column;gap:2px;flex:none"><p style="font-family:{L};font-size:24px;font-weight:600;color:{TXT.get(c, c)}">{code} · {name}</p>
 <p style="font-family:{T};font-style:italic;font-size:26px;color:{ENCRE}">{quote}</p></div>
 <div style="width:40px;flex:none">{arrow(40, 26, c, 3)}</div>
 <p style="flex:1;font-size:24px;line-height:1.35;color:{ENCRE}">{proof}</p></div>"""
     inner = f"""{bhead(14, 'Objections', 'Le top 5 : une objection, une seule preuve')}
 <div style="flex:1;display:flex;flex-direction:column;gap:12px">{rows}</div>
-<p style="font-size:24px;line-height:1.35;color:{GRIS}"><b><span style="color:{PETROLE}">Accueillir → Clarifier → Prouver, une fois → Vérifier</span></b> · réponse du prospect notée mot pour mot · banque de 26 objections (annexe D) · classement terrain, hiérarchisé sur les motifs de perte CRM en novembre 2026</p>
+<p style="font-size:24px;line-height:1.35;color:{GRIS}"><b><span style="color:{PETROLE}">Accueillir → Clarifier → Prouver, une fois → Vérifier</span></b> · réponse du prospect notée mot pour mot · banque de 26 objections (annexe D) · classement terrain, à hiérarchiser sur les motifs de perte CRM (prévu en novembre 2026)</p>
 {bfoot(14)}"""
     return 'b14', inner, dict(gap=26)
 
 
 def b15():
-    ST = {'Livré': SARCF, 'Objectif': BORD, 'Proposé': SARC, 'Règle': PETROLE}
+    ST = {'Livré': SARCF, 'Objectif': BORD, 'Proposé': TXT[SARC], 'Règle': PETROLE}
     data = [('Des chiffres qui divergent d’un support à l’autre', 'Source unique au 24/09/2026, preuve en 3 statuts', 'Un chiffre sans source ni date ne sort pas', 'Livré', ''),
             ('448 prospects non qualifiés', '5 ICP, PA-FIT, tiers A/B/C', 'L’adéquation prime sur la taille', 'Livré', 'recalibré à 90 j'),
-            ('Aucun persona écrit', '5 personas confrontés au réel, angle mort ADV', 'Ne pas parler au mauvais interlocuteur', 'Livré', 'entretiens T1 2027'),
+            ('Pas de personas formalisés ni confrontés au réel', '5 personas confrontés au réel, angle mort ADV', 'Ne pas parler au mauvais interlocuteur', 'Livré', 'entretiens T1 2027'),
             ('Activation jamais mesurée', '7 étapes, SLA, vente finie au 1er envoi', 'Un signé jamais activé ne vaut rien', 'Objectif', '≥ 70 % à J+30'),
             ('Savoirs de vente dispersés', 'SPIN, 26 objections, ROI, négociation', 'Le prix est notre point faible', 'Livré', ''),
-            ('HubSpot, Brevo, Planet’Connect sans règles', 'Dictionnaire CRM, hygiène, RACI, rituels', 'Une donnée, un propriétaire, une décision', 'Proposé', 'à ratifier'),
+            ('HubSpot, Brevo, Planet’Connect sans règles communes', 'Dictionnaire CRM, hygiène, RACI, rituels', 'Une donnée, un propriétaire, une décision', 'Proposé', 'à ratifier'),
             ('Un savoir dans quelques têtes', 'Plan 30-60-90 et annexe U jour par jour', 'Rendre la vente transmissible', 'Livré', 'non testé')]
     rows = []
     for ex, ap, why, st, sub in data:
@@ -331,4 +331,23 @@ def b15():
     return 'b15', inner, dict(gap=24)
 
 
-ALL = [b1, b2, b3, b4, b5, b6, b7, b8, b9, b10, b11, b12, b13, b14, b15]
+def b16():
+    st = {'CHAP. 11': SARCF, 'RÈGLE': PETROLE, 'ILLUSTRATIF': GRISD}
+    rows_ = [('1 · Lead', 'Domaine provençal avec caveau, 20+ étrangers / semaine en saison, panier ~300 €', 'CHAP. 11'),
+             ('2 · Qualifié', 'PA-FIT : 45 au départ (nurture) ; échéance datée : 60, cadence ; décideur et douleur prouvés : 85', 'ILLUSTRATIF'),
+             ('3 · RDV', 'Questions SPIN de l’annexe E (règle) ; réponses du prospect illustratives', 'RÈGLE'),
+             ('4 · Proposition', 'Grille 2026 : 24 btl = 360 € de transport, 15 €/btl ; objection en 4 temps', 'RÈGLE'),
+             ('5 · Adhésion', 'Documentation signée en ligne, SEPA, 1er lot de cartons (110 € HT)', 'RÈGLE'),
+             ('6 · Activé', 'Formation caveau à J+5, premier envoi suivi, point à J+30', 'RÈGLE'),
+             ('7 · Récurrent', 'Score de santé ; potentiel 60 à 100 envois par an, tiers B', 'CHAP. 11')]
+    rows = [[a, b, f'<b><span style="color:{st[c]}">{c.capitalize().replace("Chap. 11", "Chap. 11")}</span></b>'] for a, b, c in rows_]
+    t = table(['Étape', 'Ce que montre le cas', 'Statut'], rows, [18, 66, 16], pad=8)
+    inner = f"""{bhead(16, 'Cas fil rouge', 'Un parcours type : ce qui vient du playbook, ce qui est illustratif')}
+{t}
+<div style="flex:1"></div>
+<p style="font-size:24px;line-height:1.35;color:{GRIS}"><b><span style="color:{PETROLE}">Source</span></b> : chap. 11, « le fil rouge » (chiffré à 12 btl, 210 €), adapté au panier de 24 btl du chap. 04 et de la fiche ICP 1 ; prix de la grille 2026 ; règles des chap. 09 à 16. <b><span style="color:{PETROLE}">Ce n’est pas une vente réalisée</span></b> : aucun domaine n’est nommé, aucun chiffre client n’est cité.</p>
+{bfoot(16)}"""
+    return 'b16', inner, dict(gap=24)
+
+
+ALL = [b1, b2, b3, b4, b5, b6, b7, b8, b9, b10, b11, b12, b13, b14, b15, b16]

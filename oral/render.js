@@ -51,7 +51,12 @@ ul,ol{padding-left:1.2em}
         const r = el.getBoundingClientRect();
         if (r.width === 0 && r.height === 0) continue;
         const pinned = st.position === 'absolute';
-        if (!pinned && !el.closest('[style*="position:absolute"]')) maxBottom = Math.max(maxBottom, r.bottom);
+        if (!pinned && !el.closest('[style*="position:absolute"]')) {
+          maxBottom = Math.max(maxBottom, r.bottom);
+          // marge droite : le flux ne doit pas dépasser le padding droit de la section
+          if (!el.closest('svg') && r.right > 1920 - parseFloat(cs.paddingRight) + 2)
+            issues.push(`MARGE DROITE ${el.tagName} ${Math.round(r.right)} « ${(el.textContent || '').trim().slice(0, 40)} »`);
+        }
         if (r.right > 1920.5 || r.bottom > 1080.5) issues.push(`HORS CADRE ${el.tagName} ${Math.round(r.right)}x${Math.round(r.bottom)} « ${(el.textContent || '').trim().slice(0, 40)} »`);
         // texte qui déborde de sa boîte
         if (['P', 'H1', 'H2', 'H3', 'TD', 'TH', 'LI'].includes(el.tagName) && el.scrollWidth > el.clientWidth + 2)

@@ -1,4 +1,4 @@
-# Kit de composants pour la refonte du deck de soutenance (format Slides, sous-ensemble fermé).
+# Kit de composants du deck de soutenance v3 (format Slides, sous-ensemble fermé) : cas fil rouge, captures réelles, étiquettes de contribution.
 import re
 
 T = "'Playfair Display', Georgia, serif"
@@ -7,11 +7,14 @@ B = "'Inter', Arial, sans-serif"
 L = "'Poppins', Arial, sans-serif"
 
 NUIT, PETROLE, SARC, SARCF, BLEU, BRUME = '#0E3846', '#12475B', '#2D92A8', '#20768B', '#9EC5CE', '#CFE3E8'
-FOND, BLANC, ENCRE, GRIS, GRISD, FILET = '#F6F8F7', '#FFFFFF', '#14303B', '#3E5058', '#6A7B82', '#DCE6E9'
+FOND, BLANC, ENCRE, GRIS, GRISD, FILET = '#F6F8F7', '#FFFFFF', '#14303B', '#3E5058', '#5A6B72', '#DCE6E9'
 BORD, CHAMP, ORF, ORANGE, OR = '#722F45', '#E8D3A6', '#8A6A33', '#C8642A', '#C8A45C'
 CLAIR = '#F4F8F9'
+# couleurs de texte lisibles en projection (contraste ≥ 5:1 sur fond clair) pour les teintes vives
+TXT = {SARC: '#1B7488', ORANGE: '#A84F1E'}
 
-PART = {'Analyser': SARCF, 'Cibler': BORD, 'Vendre': ORF, 'Piloter': PETROLE}
+PART = {'Comprendre': SARCF, 'Cibler': BORD, 'Vendre': ORF, 'Activer': SARC, 'Piloter': PETROLE}
+PARTS = ['Comprendre', 'Cibler', 'Vendre', 'Activer', 'Piloter']
 
 
 def fr(s):
@@ -23,6 +26,7 @@ def fr(s):
     s = re.sub(r'(\d) (?=[^\s\d])', '\\1\u00a0', s)
     s = s.replace("'", '’')
     s = s.replace('New York', 'New\u00a0York').replace('Grain de Sail', 'Grain\u00a0de\u00a0Sail').replace('DB Schenker', 'DB\u00a0Schenker').replace('sous-traitants', 'sous\u2011traitants').replace('Brevo-HubSpot', 'Brevo\u2011HubSpot').replace('PA-FIT', 'PA\u2011FIT').replace('30-60-90', '30\u201160\u201190')
+    s = s.replace('ISTA 3A', 'ISTA\u00a03A').replace('top 10', 'top\u00a010').replace('top 5', 'top\u00a05').replace('mot pour mot', 'mot\u00a0pour\u00a0mot').replace('sur 10', 'sur\u00a010').replace('e-mail', 'e\u2011mail').replace('E-mail', 'E\u2011mail')
     s = s.replace('n° ', 'n°\u00a0').replace(' →', '\u00a0→').replace('≈ ', '≈\u00a0').replace('~ ', '~\u00a0').replace('≥ ', '≥\u00a0').replace('≤ ', '≤\u00a0').replace('&lt; ', '&lt;\u00a0').replace('&gt; ', '&gt;\u00a0')
     return s
 
@@ -33,6 +37,7 @@ def _frhtml(html):
 
 
 def eyebrow(text, color):
+    color = TXT.get(color, color)
     return (f'<p style="font-family:{L};font-size:24px;font-weight:600;letter-spacing:4px;'
             f'text-transform:uppercase;color:{color}">{text}</p>')
 
@@ -55,20 +60,23 @@ def header(eb, title, color, tcolor=PETROLE, tg=None, tsize=64):
 
 
 STAT = {
-    'CONSTATÉ': f'background:{SARCF};color:#FFFFFF',
-    'OBJECTIF': f'background:{BORD};color:#FFFFFF',
-    'HYPOTHÈSE': f'background:{ORF};color:#FFFFFF',
+    'CONSTATÉ': 'border:2px solid #2F7A50;color:#2F7A50;background:#FFFFFF',
+    'OBJECTIF': f'border:2px solid {BORD};color:{BORD};background:#FFFFFF',
+    'HYPOTHÈSE': f'border:2px solid {ORF};color:{ORF};background:#FFFFFF',
     'PROJET': f'border:2px dashed {GRISD};color:{GRISD}',
     'POINT ZÉRO': f'border:2px solid {SARCF};color:{SARCF};background:#FFFFFF',
-    'GRILLE 2026': f'background:{PETROLE};color:#FFFFFF',
+    'GRILLE 2026': f'border:2px solid {PETROLE};color:{PETROLE};background:#FFFFFF',
     'PROPOSÉ': f'border:2px dashed {SARCF};color:{SARCF}',
     'EXTERNE': f'border:2px solid {GRISD};color:{GRISD}',
+    'ILLUSTRATIF': f'border:2px dotted {GRISD};color:{GRISD};background:#FFFFFF',
+    'RÈGLE': f'border:2px solid {PETROLE};color:{PETROLE};background:#FFFFFF',
 }
 
 
 def pill(kind, extra='', label=None):
+    # statut d'un chiffre = tampon rectangulaire ; contribution = pastille arrondie (ctag)
     return (f'<p style="font-family:{L};font-size:24px;font-weight:600;letter-spacing:2px;padding:2px 14px;'
-            f'border-radius:999px;white-space:nowrap;align-self:flex-start;{STAT[kind]};{extra}">{label or kind}</p>')
+            f'border-radius:6px;white-space:nowrap;align-self:flex-start;{STAT[kind]};{extra}">{label or kind}</p>')
 
 
 def footer(num, part=None, dark=False, label=None):
@@ -78,8 +86,8 @@ def footer(num, part=None, dark=False, label=None):
         left = f'<span style="color:{cur or PETROLE}">{label}</span>'
     else:
         bits = []
-        for p in ['Analyser', 'Cibler', 'Vendre', 'Piloter']:
-            bits.append(f'<b><span style="color:{cur or PART[p]}">{p}</span></b>' if p == part else p)
+        for p in PARTS:
+            bits.append(f'<b><span style="color:{cur or TXT.get(PART[p], PART[p])}">{p}</span></b>' if p == part else p)
         left = ' · '.join(bits)
     numc = '#FFFFFF' if dark else PETROLE
     return (f'<p style="position:absolute;left:128px;bottom:64px;width:1300px;font-family:{L};font-size:24px;'
@@ -150,6 +158,7 @@ def p(text, size=32, color=None, weight=None, font=None, extra=''):
 
 
 def label(text, color, size=24, ls=3):
+    color = TXT.get(color, color)
     return (f'<p style="font-family:{L};font-size:{size}px;font-weight:600;letter-spacing:{ls}px;'
             f'text-transform:uppercase;color:{color}">{text}</p>')
 
@@ -157,5 +166,107 @@ def label(text, color, size=24, ls=3):
 def num(value, size, color, weight=700, extra=''):
     """Grand chiffre en Poppins (chiffres alignés), interlettrage resserré."""
     ls = -2 if size >= 80 else (-1 if size >= 44 else 0)
+    color = TXT.get(color, color)
     return (f'<p style="font-family:{L};font-size:{size}px;font-weight:{weight};line-height:1.05;letter-spacing:{ls}px;'
             f'color:{color};{extra}">{value}</p>')
+
+
+# ---------- v3 : contribution, cas fil rouge, captures ----------
+# Qui a fait quoi : la grille de lecture demandée (existant / mon analyse / ma contribution / à déployer / à mesurer)
+CTAG = {
+    'EXISTANT': f'border:2px solid {GRISD};color:{GRISD};background:#FFFFFF',
+    'MON ANALYSE': f'background:{CHAMP};color:#5A4321',
+    'MA CONTRIBUTION': f'background:{SARCF};color:#FFFFFF',
+    'À DÉPLOYER': f'border:2px dashed {ORANGE};color:#A84F1E;background:#FFFFFF',
+    'À MESURER': f'border:2px dashed {BORD};color:{BORD};background:#FFFFFF',
+}
+
+
+def ctag(kind, extra=''):
+    return (f'<p style="font-family:{L};font-size:24px;font-weight:600;letter-spacing:1px;padding:2px 14px;'
+            f'border-radius:999px;white-space:nowrap;align-self:flex-start;{CTAG[kind]};{extra}">{kind}</p>')
+
+
+def _tagw(t):
+    return int(len(t) * 16.5 + 40)
+
+
+def header3(eb, title, color, tags=(), tcolor=PETROLE, tsize=60, dark=False):
+    """En-tête : sur-titre, titre, et pastilles de contribution épinglées en haut à droite."""
+    pins, right = '', 128
+    for t in reversed(list(tags)):
+        w = _tagw(t)
+        st = CTAG[t].replace('background:#FFFFFF', 'background:#FFFFFF' if not dark else 'background:transparent')
+        pins += (f'<p style="position:absolute;right:{right}px;top:116px;width:{w}px;text-align:center;font-family:{L};'
+                 f'font-size:24px;font-weight:600;letter-spacing:1px;padding:2px 0px;border-radius:999px;{st}">{t}</p>')
+        right += w + 12
+    return (f'{pins}<div style="display:flex;flex-direction:column;gap:10px">{eyebrow(eb, color)}'
+            f'<h2 style="font-family:{T};font-size:{tsize}px;font-weight:700;line-height:1.1;color:{tcolor}">{title}</h2></div>')
+
+
+CASE_STEPS = ['Qualifier', 'Prospecter', 'Découvrir', 'Proposer', 'Activer', 'Suivre']
+
+
+def case_bar(step, dark=False):
+    """Bandeau du cas fil rouge : où en est-on du parcours du domaine ?"""
+    i0 = CASE_STEPS.index(step) if step in CASE_STEPS else -1
+    chips = ''
+    for i, s_ in enumerate(CASE_STEPS):
+        if i == i0:
+            st = f'background:{ORF};color:#FFFFFF'
+        elif i < i0:
+            st = f'border:2px solid {ORF};color:{ORF};background:{"transparent" if dark else "#FFFFFF"}'
+        else:
+            st = f'border:2px solid {"#4E7380" if dark else FILET};color:{"#8FB0BA" if dark else GRISD}'
+        chips += (f'<p style="font-family:{L};font-size:24px;font-weight:600;padding:2px 16px;border-radius:999px;'
+                  f'white-space:nowrap;{st}">{s_}</p>')
+    lab = CHAMP if dark else ORF
+    return (f'<div style="display:flex;align-items:center;gap:10px">'
+            f'<p style="font-family:{L};font-size:24px;font-weight:700;letter-spacing:2px;color:{lab};white-space:nowrap;padding-right:6px">CAS FIL ROUGE</p>'
+            f'{chips}</div>')
+
+
+def shot(src, alt, w, h, tool, caption=None, fit='cover', pos='top', kind='Capture réelle', overlay=''):
+    """Capture réelle d'un outil (ou document réel), dans un cadre de fenêtre : on montre la pièce, on ne la décrit pas."""
+    cap = (f'<p style="font-size:24px;line-height:1.3;color:{GRISD}">{caption}</p>' if caption else '')
+    return (f'<div style="width:{w}px;display:flex;flex-direction:column;gap:8px;flex:none">'
+            f'<div style="background:#FFFFFF;border:1px solid {FILET};border-radius:14px;overflow:hidden;display:flex;flex-direction:column">'
+            f'<div style="height:40px;background:#EEF3F4;display:flex;align-items:center;gap:8px;padding:0px 14px">'
+            f'<div style="width:12px;height:12px;border-radius:50%;background:#E2A39A;flex:none"></div>'
+            f'<div style="width:12px;height:12px;border-radius:50%;background:#E8D3A6;flex:none"></div>'
+            f'<div style="width:12px;height:12px;border-radius:50%;background:#A8CFA0;flex:none"></div>'
+            f'<p style="font-family:{L};font-size:24px;font-weight:600;color:{GRISD};padding-left:10px;white-space:nowrap">{kind} · {tool}</p></div>'
+            f'<div style="position:relative;width:{w}px;height:{h}px"><img src="{src}" alt="{alt}" style="width:{w}px;height:{h}px;object-fit:{fit};object-position:{pos}">{overlay}</div></div>{cap}</div>')
+
+
+def head_case(head, step):
+    """En-tête suivi du bandeau du cas, à la même hauteur sur toutes les diapos du cas."""
+    return f'<div style="display:flex;flex-direction:column;gap:16px">{head}{case_bar(step)}</div>'
+
+
+# code visuel unique du cas fil rouge
+CASE_BOX = f'background:#FBF6EA;border-left:6px solid {ORF}'
+
+
+def decision(text, label='DÉCISION', dark=False, extra=''):
+    bg = '#FFFFFF' if dark else NUIT
+    fg = ENCRE if dark else CLAIR
+    lc = BORD if dark else CHAMP
+    return (f'<div style="background:{bg};border-radius:16px;padding:16px 24px;display:flex;align-items:center;gap:20px;{extra}">'
+            f'<p style="font-family:{L};font-size:24px;font-weight:700;letter-spacing:2px;color:{lc};white-space:nowrap">{label}</p>'
+            f'<p style="flex:1;font-size:26px;line-height:1.3;color:{fg}">{text}</p></div>')
+
+
+def bubble(who, text, side='left', illus=False, w=None):
+    """Bulle de dialogue (découverte SPIN). Les réponses du prospect sont illustratives."""
+    if side == 'left':
+        st = f'background:{SARCF};color:#FFFFFF;border-radius:20px 20px 20px 4px'
+        wc = SARCF
+    else:
+        st = f'background:#FFFFFF;color:{ENCRE};border:2px solid {FILET};border-radius:20px 20px 4px 20px'
+        wc = GRISD
+    al = 'flex-start' if side == 'left' else 'flex-end'
+    ww = f'width:{w}px;' if w else ''
+    return (f'<div style="display:flex;flex-direction:column;gap:4px;align-items:{al}">'
+            f'<p style="font-family:{L};font-size:24px;font-weight:600;color:{wc}">{who}</p>'
+            f'<p style="{ww}{st};padding:12px 20px;font-size:26px;line-height:1.3">{text}</p></div>')

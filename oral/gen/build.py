@@ -1,16 +1,16 @@
-# Génère deck2/project/slides/*.html et deck.json, avec minutage des notes à 130 mots/min.
+# Génère deck/project/slides/*.html et deck.json (soutenance v3, cas fil rouge), avec minutage des notes à 130 mots/min.
 import json, os, re, sys
 sys.path.insert(0, os.path.dirname(__file__))
 from kit import section
-import part1
+import s_intro
 try:
-    import part2
+    import s_vendre
 except ImportError:
-    part2 = None
+    s_vendre = None
 try:
-    import part3
+    import s_piloter
 except ImportError:
-    part3 = None
+    s_piloter = None
 try:
     import backups
 except ImportError:
@@ -23,9 +23,9 @@ WPM = 130
 PAUSE = 2  # secondes de respiration au changement de diapo
 
 MAIN = []
-for mod, names in [(part1, ['cover', 'accroche', 'sommaire', 'marche', 'entreprise']),
-                   (part2, ['offre', 'concurrence', 'enjeux', 'icp', 'personas', 'solutions']),
-                   (part3, ['processus', 'spin', 'objections', 'ressources', 'salesops', 'kpi', 'synthese', 'ouverture', 'cloture'])]:
+for mod, names in [(s_intro, ['cover', 'accroche', 'sommaire', 'marche', 'entreprise', 'offre', 'diagnostic']),
+                   (s_vendre, ['icp', 'personas', 'solutions', 'processus', 'prospecter', 'spin', 'proposer', 'activer']),
+                   (s_piloter, ['ressources', 'salesops', 'onboarding', 'kpi', 'conclusion'])]:
     if mod is None:
         continue
     for n in names:

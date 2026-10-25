@@ -17,41 +17,43 @@
 - Paiement : mandat SEPA par défaut, virement accepté, CB possible (adhérent ou client final) mais chronophage.
 - Droits de douane US : 10 % depuis février 2026 (15 % d'août 2025 à février 2026).
 
-## Plan de la présentation, version refondue du 25/10/2026 (20 diapositives + 15 diapos de secours)
-Minutage des notes à 130 mots/minute, 2 s par changement de diapo : 19:45 de texte (2480 mots), soit 20 min avec les silences. Introduction et diagnostic = 5:01 ; parties 8 à 14 = 12:27 ; synthèse, ouverture et clôture = 2:17.
+## Plan de la présentation, version 3 du 25/10/2026 : le cas fil rouge (20 diapositives + 16 diapos de secours)
+Minutage des notes à 130 mots/minute, 2 s par changement de diapo : 18:42 de texte (2345 mots), soit 18 à 19 min avec les silences (20 min au maximum). Introduction et diagnostic = 4:52 ; parties 8 à 14 = 12:34 ; synthèse et ouverture = 1:16.
+
+Fil rouge : un domaine provençal avec caveau et clientèle internationale (chap. 11 du playbook). C’est un parcours type, pas une vente réalisée : prix de la grille 2026, règles du playbook, situations illustratives.
 
 | # | Diapo | Une idée forte | Fin visée |
 |---|---|---|---|
 | 1 | Couverture | Sales Playbook Planet Aura, Emma, Euridis, tutrice | 0:08 |
-| 2 | Accroche (Start with why) | Houston : 2 bouteilles sur 24 ; la question du comptoir ; notre pourquoi | 0:53 |
-| 3 | Sommaire | Quatre étapes (analyser, cibler, vendre, piloter), chacune reliée à son enjeu ; définition du Sales Playbook | 1:19 |
-| 4 | Le marché | Trois bascules, chacune traduite « Pour Planet Aura » (OIV, FEVS, Atout France, Winalist) | 2:01 |
-| 5 | L'entreprise | CA ×4,7 (2021-2025), +11,6 % à contre-courant en 2025 ; commissionnaire ; équipe et pôles | 2:46 |
-| 6 | L'offre | Modèle B2B2C en triangle ; grille groupage USA DDP : plus le panier grossit, moins le transport pèse | 3:24 |
-| 7 | La concurrence | Concurrent n° 1 = le statu quo ; quatre familles ; notre case et le cap ; prix assumé | 4:17 |
-| 8 | Diagnostic et problématique | Ce qui se voit / sous la surface ; problématique ; trois enjeux | 5:01 |
-| 9 | Partie 8 · ICP (MON ANALYSE) | Top 10 réel anonymisé → 5 critères → 5 ICP → PA-FIT ; décision : 60 % sur les caveaux | 6:20 |
-| 10 | Partie 9 · Personas (MON ÉTUDE) | Qui décide, qui utilise, qui paie ; étude d'octobre 2026 | 7:40 |
-| 11 | Partie 10 · Enjeux et solutions | Cible → douleur → réponse → repère ; ce que nous refusons | 8:42 |
-| 12 | Partie 11 · Processus (MON OUTIL) | La vente finit au premier envoi ; 7 étapes et SLA ; durée du cycle à statut ; vitesse | 10:12 |
-| 13 | Partie 11 · Tunnels SPIN (MON OUTIL) | RDV de 35 min ; deux tunnels ; le prospect chiffre sa perte | 11:48 |
-| 14 | Partie 11 · Objections (MON OUTIL) | Méthode en 4 temps sur « c'est cher » ; banque de 26 ; ROI (hypothèse d'exemple) | 13:22 |
-| 15 | Partie 12 · Ressources (MON OUTIL) | Une preuve par doute ; six chantiers datés, chiffrés, conditionnés (3 000 €) | 14:36 |
-| 16 | Partie 13 · Sales Ops (MES PROPOSITIONS) | HubSpot source de vérité ; un outil = un objectif ; intégration 30-60-90 ; rituels proposés | 16:01 |
-| 17 | Partie 14 · Indicateurs (MON OUTIL) | Constaté / point zéro / objectif ; revue mensuelle close par une décision | 17:28 |
-| 18 | Synthèse | Avant / avec le playbook, enjeu par enjeu, et pourquoi ; mon apport ; bénéfices attendus | 18:26 |
-| 19 | Ouverture | Trois difficultés → trois règles ; jalons datés ; projets au conditionnel | 19:10 |
-| 20 | Clôture | Retour à Houston : « Ils repartent les mains libres » ; le fil rouge ; merci | 19:45 |
+| 2 | Accroche (Start with why) | Houston, scène type racontée par les adhérents : 2 bouteilles sur 24 ; notre pourquoi | 0:51 |
+| 3 | Sommaire | Cinq étapes titrées par leur idée, reliées aux enjeux ; le cas fil rouge annoncé ; la légende des étiquettes | 1:35 |
+| 4 | Le marché (MON ANALYSE) | Trois chiffres (OIV, FEVS, Atout France) ; cinq contraintes pour une caisse vers les USA : notre métier | 2:26 |
+| 5 | L’entreprise (EXISTANT) | Commissionnaire né en 2019 ; CA ×4,7 ; marchés ; qui vend, qui décide | 3:15 |
+| 6 | L’offre et la concurrence | Nous vendons de la sécurité ; grille USA ; le statu quo comme concurrent n° 1 ; notre case | 4:08 |
+| 7 | Diagnostic et problématique (MON ANALYSE) | SWOT en quatre quadrants ; problématique ; trois enjeux | 4:52 |
+| 8 | Partie 8 · ICP (cas : qualifier) | Du top 10 anonymisé au score : PA-FIT du domaine, 45 au départ, 85 après preuve (illustratif) | 6:10 |
+| 9 | Partie 9 · Personas | Décideur, utilisateur, payeur : ce qu’ils veulent, craignent, ce que je leur dis ; étude 70 / 47 / 15 | 7:22 |
+| 10 | Partie 10 · Enjeux et solutions | Problème → besoin → solution → bénéfice → preuve, pour trois cibles ; ce que nous refusons | 8:16 |
+| 11 | Partie 11 · Processus | Sept étapes : responsable, preuve, délai, outil ; durées de cycle ; la vente finit au premier envoi | 9:18 |
+| 12 | Partie 11 · Prospecter (cas) | Qui, par quel canal, quand ; cadence caveau ; extraits réels du script d’appel et de l’e-mail 1 | 10:07 |
+| 13 | Partie 11 · Tunnels SPIN (cas : découvrir) | Trame de 35 min ; tunnel 1 en action, tunnel 2 en regard ; la reformulation | 11:13 |
+| 14 | Partie 11 · Proposer (cas) | Capture réelle du simulateur ; 24 bouteilles = 360 € ; objection en 4 temps ; ROI de l’exemple | 12:28 |
+| 15 | Partie 11 · Activer (cas) | J0 → J+30 : signature, formation, premier envoi, point ; score de santé ; activation ≥ 70 % | 13:38 |
+| 16 | Partie 12 · Ressources | Pages réelles du playbook ; une preuve par doute ; six chantiers datés, chiffrés, attribués (3 000 €) | 14:30 |
+| 17 | Partie 13 · Sales Ops | HubSpot au centre, six outils et leur statut ; alignement marketing-ventes ; rituels proposés | 15:32 |
+| 18 | Partie 13 · Onboarding 30-60-90 | Annexe U ; l’escalier J+30 / J+60 / J+90 ; jalons S1, S4, S8 ; qui forme | 16:25 |
+| 19 | Partie 14 · Indicateurs (cas : suivre) | Constaté / objectif ; quatre KPI avec source, fréquence, responsable, action ; la revue mensuelle | 17:26 |
+| 20 | Synthèse, ouverture, retour à Houston | Réponse à la problématique, apport, bénéfices, limites, ouverture ; « Ils repartent les mains libres » | 18:42 |
 
 | Secours | Sujet | Sert à répondre à |
 |---|---|---|
-| B1 | Personas confrontés au réel | Représentativité de l'étude |
+| B1 | Personas confrontés au réel | Représentativité de l’étude |
 | B2 | Priorisation : une seule grille fait foi | « Usine à gaz » |
 | B3 | Fiches de comparaison concurrents | UPS, DHL, Viticolis, Dartess |
 | B4 | SPIN sur le terrain | « Quel vigneron accorde 35 min en saison ? » |
-| B5 | Transparence IA | Usage de l'IA |
+| B5 | Transparence IA | Usage de l’IA |
 | B6 | Tableau des KPI | Origine et suivi des cibles |
-| B7 | Prix rendu Texas | « C'est trop cher » |
+| B7 | Prix rendu Texas | « C’est trop cher » |
 | B8 | SWOT et horizons | Stratégie, dépendance USA |
 | B9 | Organigramme complet | Organisation |
 | B10 | Carte des États-Unis 2026 | Où livre-t-on ? |
@@ -60,10 +62,11 @@ Minutage des notes à 130 mots/minute, 2 s par changement de diapo : 19:45 de te
 | B13 | Feuille de route détaillée | Ressources chiffrées |
 | B14 | Top 5 des objections | Jeux de rôle, objections |
 | B15 | Existant → apport → statut | Valeur ajoutée personnelle |
+| B16 | Le cas fil rouge, étape par étape | « Ce cas est-il réel ? » |
 
 ## Règles de conception du support
 - Une diapo = une idée forte, dite dans le titre ; chiffres en grand, sources sous le chiffre.
-- Statut affiché sur chaque chiffre discutable : CONSTATÉ, OBJECTIF, HYPOTHÈSE, POINT ZÉRO, PROJET.
-- Contribution personnelle marquée : MON ANALYSE, MON ÉTUDE, MON OUTIL, MES PROPOSITIONS.
-- Photos : uniquement des photos réelles du dossier (équipe, couverture) ; aucune image générée par IA.
+- Statut affiché sur chaque chiffre discutable : CONSTATÉ, OBJECTIF, HYPOTHÈSE, POINT ZÉRO, PROJET, GRILLE 2026, ILLUSTRATIF, RÈGLE.
+- Contribution marquée par étiquette : EXISTANT, MON ANALYSE, MA CONTRIBUTION, À DÉPLOYER, À MESURER.
+- Visuels : photos réelles (équipe, avec accord), captures réelles des outils (simulateur, tableau de bord), pages réelles du playbook ; aucune image générée par IA.
 - Les notes du mode présentateur disent ce que l'écran ne montre pas ; les indications entre parenthèses ne se disent pas.
