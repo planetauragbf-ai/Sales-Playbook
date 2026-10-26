@@ -168,7 +168,7 @@ def num(value, size, color, weight=700, extra=''):
     """Grand chiffre en Poppins (chiffres alignés), interlettrage resserré."""
     ls = -2 if size >= 80 else (-1 if size >= 44 else 0)
     color = TXT.get(color, color)
-    return (f'<p style="font-family:{L};font-size:{size}px;font-weight:{weight};line-height:1.05;letter-spacing:{ls}px;'
+    return (f'<p style="font-family:{L};font-size:{size}px;font-weight:{weight};line-height:1.2;letter-spacing:{ls}px;'
             f'color:{color};{extra}">{value}</p>')
 
 

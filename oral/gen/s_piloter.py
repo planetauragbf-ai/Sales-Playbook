@@ -18,183 +18,311 @@ def thumb(src, alt, cap, w=124, h=175):
             f'<p style="font-size:24px;line-height:1.15;color:{GRIS}">{cap}</p></div>')
 
 
+def _ressources_why(constat, decision, mesure):
+    # même bandeau que kit.why3 (Constat → Ma décision → Ce que l'on mesure), avec le statut CONSTATÉ visible à côté du constat chiffré
+    def cell(lab, txt, c, st=''):
+        head = (f'<div style="display:flex;align-items:center;gap:12px">'
+                f'<p style="font-family:{L};font-size:24px;font-weight:700;letter-spacing:2px;color:{c};white-space:nowrap">{lab}</p>{st}</div>')
+        return (f'<div style="flex:1;display:flex;flex-direction:column;gap:6px">{head}'
+                f'<p style="font-size:26px;line-height:1.3;color:{CLAIR}">{txt}</p></div>')
+    ar = f'<div style="display:flex;align-items:center;flex:none">{arrow(44, 26, CHAMP, 3)}</div>'
+    pst = 'align-self:center;padding:0px 12px;line-height:1.2;background:transparent;color:#FFFFFF;border-color:#FFFFFF'
+    return (f'<div style="background:{NUIT};border-radius:16px;padding:18px 28px;display:flex;align-items:stretch;gap:18px">'
+            f'{cell("CONSTAT", constat, BLEU, pill("CONSTATÉ", pst))}{ar}'
+            f'{cell("MA DÉCISION", decision, CHAMP)}{ar}'
+            f'{cell("CE QUE L’ON MESURE", mesure, BLEU)}</div>')
+
+
+def _ressources_page(src, alt, cap, w=164, h=232):
+    # page réelle du playbook, en entier (format A4), légendée d'un mot
+    return (f'<div style="width:{w}px;display:flex;flex-direction:column;gap:10px;flex:none">'
+            f'<img src="{src}" alt="{alt}" style="width:{w}px;height:{h}px;object-fit:cover;border:1px solid {FILET};border-radius:8px;background:#FFFFFF;box-shadow:0 4px 24px rgba(0,0,0,.08)">'
+            f'<p style="font-size:26px;line-height:1.2;color:{ENCRE}">{cap}</p></div>')
+
+
 def ressources():
-    thumbs = (thumb(PG_PERSONA, 'Page réelle du playbook : fiche persona du vigneron-propriétaire', 'Persona', 128, 136)
-              + thumb(PG_SCRIPTS, 'Page réelle du playbook : script d’appel à froid pour un caveau, chapitre 10', 'Script', 128, 136)
-              + thumb(PG_OBJ, 'Page réelle du playbook : objections en format court et checklists, annexe B', 'Objections', 128, 136))
-    made = ''.join(f'<p style="font-size:24px;color:{ENCRE};background:#E8F3F5;border-radius:999px;padding:4px 14px;white-space:nowrap">{t}</p>'
-                   for t in ['Scripts et e-mails', 'Banque SPIN', '26 objections', 'Calcul du ROI', 'Checklists', 'Plan 30-60-90'])
-    doubt = ''.join(f'<p style="font-size:24px;line-height:1.3;color:{GRIS}"><i>{q}</i> <b><span style="color:{OR}">→</span></b> <b><span style="color:{ENCRE}">{a}</span></b></p>'
-                    for q, a in [('« Combien ça coûte ? »', 'le simulateur'), ('« Et si ça casse ? »', 'le carton ISTA 3A'), ('« Ça marche ? »', '4,8/5, 296 avis Google (09/2026)')])
-    left = f"""<div style="width:620px;display:flex;flex-direction:column;gap:12px">
-<div style="display:flex;align-items:center;gap:12px">{label('Créé dans le playbook', SARCF, ls=2)}{ctag('MA CONTRIBUTION')}</div>
-<div style="display:flex;gap:16px;align-items:flex-start">{thumbs}</div>
-<div style="display:flex;flex-wrap:wrap;gap:8px">{made}</div>
-<div style="flex:1"></div>
-<div style="display:flex;align-items:center;gap:12px">{label('Existant, mobilisé', GRISD, ls=2)}{ctag('EXISTANT')}</div>
-{doubt}
-</div>"""
-    ch = [('sept. 2026', 'Nettoyage CRM, listes A/B/C', 'Emma, Adam', '24 h', '0 €', '≥ 95 % des comptes prioritaires exploitables'),
-          ('oct. 2026', 'One-pager par ICP, landing page', 'Emma, Adam', '36 h', '600 €', 'supports validés par la direction'),
-          ('nov. 2026', '3 séquences Brevo, reporting HubSpot', 'Emma', '20 h', '200 €', 'arrêt automatique sur réponse testé')]
-    cards = ''
-    for i, (m, n, who, h, bud, crit) in enumerate(ch, 1):
-        cards += f"""<div style="flex:1;background:#FFFFFF;border:1px solid {FILET};border-top:8px solid {PETROLE};border-radius:16px;padding:14px 18px;display:flex;flex-direction:column;gap:8px">
-<div style="display:flex;align-items:baseline;justify-content:space-between"><p style="font-family:{L};font-size:26px;font-weight:700;color:{PETROLE}">{i} · {m}</p></div>
-<p style="font-size:26px;font-weight:700;line-height:1.2;color:{ENCRE}">{n}</p>
-<p style="font-size:24px;color:{GRIS}">{who} · {h}</p>
-{num(bud, 48, ORF)}
-<p style="font-size:24px;line-height:1.25;color:{GRIS}"><b><span style="color:{ENCRE}">Critère</span></b> : {crit}</p>
-<div style="flex:1"></div></div>"""
-    right = f"""<div style="flex:1;display:flex;flex-direction:column;gap:12px">
-<div style="display:flex;align-items:center;gap:12px">{label('À déployer : trois chantiers d’abord', PETROLE, ls=2)}{ctag('À DÉPLOYER')}</div>
-<div style="flex:1;display:flex;gap:16px">{cards}</div>
-<p style="font-size:24px;line-height:1.3;color:{GRIS}"><b><span style="color:{ENCRE}">Ensuite</span></b> (secours B13) : tests LinkedIn 900 € · webinaire 300 € · deux salons 1 000 € · vidéo et études de cas après validation.</p>
-</div>"""
-    inner = f"""{header3('Piloter · Partie 12 · Ressources', 'Ce que j’ai créé, ce qui reste à déployer', PETROLE, tags=['MA CONTRIBUTION', 'À DÉPLOYER'])}
-<div style="flex:1;display:flex;gap:44px">{left}{right}</div>
-{why3('4 ressources sur 17 manquent ; la donnée du CRM est incomplète.', 'La donnée, puis les supports, puis l’automatisation : <b>800 €</b> sur 3 000 €.', 'Un critère de passage par chantier ; sinon, pas d’étape suivante.')}
-{footer(16, 'Piloter')}"""
-    return 'ressources', inner, dict(gap=14, sect=SECT_PILOTER)
+    # Message (titre) : trois chantiers d'abord, 800 € sur un plafond de 3 000 €.
+    # Point focal : les trois cartes reliées par des flèches (l'ordre est la décision), le budget en grand.
+    # Zone secondaire : trois pages réelles du playbook (ce que j'ai créé, déjà livré).
+    # Hors écran : critères de passage, intitulés complets, suite de la feuille de route (secours B13) ;
+    # pastilles des ressources créées (diapos 13, 14, 18 ; secours B4, B14, B15) ; doute → preuve existante (note).
+    pages = (_ressources_page(PG_PERSONA, 'Page réelle du playbook : fiche persona du vigneron-propriétaire', 'Persona')
+             + _ressources_page(PG_SCRIPTS, 'Page réelle du playbook : script d’appel à froid pour un caveau, chapitre 10', 'Script')
+             + _ressources_page(PG_OBJ, 'Page réelle du playbook : objections en format court et checklists, annexe B', 'Objections'))
+    # rangée du libellé à la hauteur de la rangée à tampon OBJECTIF (42 px) : les deux colonnes partent de la même ligne
+    left = f'''<div style="display:flex;flex-direction:column;gap:18px;flex:none">
+<div style="display:flex;align-items:center;min-height:42px">{label('Déjà livré', SARCF, ls=2)}</div>
+<div style="display:flex;gap:18px;align-items:flex-start">{pages}</div>
+</div>'''
+    ch = [('Septembre', 'Nettoyage CRM', '0 €', 'Emma + Adam · 24 h'),
+          ('Octobre', 'One-pager par\u00a0ICP', '600 €', 'Emma + Adam · 36 h'),
+          ('Novembre', 'Séquences Brevo', '200 €', 'Emma · 20 h')]
+    cards = []
+    for m, n, bud, who in ch:
+        cards.append(f'''<div style="flex:1;background:#FFFFFF;border:1px solid {FILET};border-top:8px solid {PETROLE};border-radius:16px;padding:18px 22px 20px;display:flex;flex-direction:column;gap:8px">
+<p style="font-family:{L};font-size:26px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:{PETROLE}">{m}</p>
+<p style="font-size:28px;font-weight:700;line-height:1.2;color:{ENCRE}">{n}</p>
+{num(bud, 80, ORF)}
+<p style="font-size:24px;line-height:1.25;color:{GRIS}">{who}</p></div>''')
+    ar = f'<div style="display:flex;align-items:center;flex:none">{arrow(44, 30, SARC, 4)}</div>'
+    right = f'''<div style="flex:1;display:flex;flex-direction:column;gap:18px">
+<div style="display:flex;align-items:center;gap:14px">{label('À déployer en 2026', TXT[ORANGE], ls=2)}{pill('OBJECTIF')}</div>
+<div style="display:flex;gap:12px;align-items:stretch">{ar.join(cards)}</div>
+</div>'''
+    why = _ressources_why('4 ressources sur 17 manquent ; CRM\u00a0incomplet.',
+                          'La donnée, puis les supports, puis\u00a0l’automatisation.',
+                          'Un critère par chantier ; sinon, pas\u00a0d’étape suivante.')
+    sp = '<div style="flex:1"></div>'
+    # pied : padding bas 64 + cale fixe de 72 px (sans texte) = même bas de contenu (920 px) que le gabarit standard
+    inner = f'''{header3('Piloter · Partie 12 · Ressources', 'Trois chantiers d’abord : 800 € sur 3 000 €', PETROLE, tags=['MA CONTRIBUTION', 'À DÉPLOYER'])}
+{sp}
+<div style="display:flex;gap:56px;align-items:flex-start">{left}{right}</div>
+{sp}
+{why}
+<div style="height:72px;flex:none"></div>
+{footer(16, 'Piloter')}'''
+    return 'ressources', inner, dict(gap=24, pad='128px 128px 64px', sect=SECT_PILOTER)
+
+
+def _salesops_why(constat, decision, mesure):
+    # même bandeau que kit.why3 (Constat → Ma décision → Ce que l'on mesure), avec le statut OBJECTIF visible à côté de la cible
+    def cell(lab, txt, c, st=''):
+        head = (f'<div style="display:flex;align-items:center;gap:12px">'
+                f'<p style="font-family:{L};font-size:24px;font-weight:700;letter-spacing:2px;color:{c};white-space:nowrap">{lab}</p>{st}</div>')
+        return (f'<div style="flex:1;display:flex;flex-direction:column;gap:6px">{head}'
+                f'<p style="font-size:26px;line-height:1.3;color:{CLAIR}">{txt}</p></div>')
+    ar = f'<div style="display:flex;align-items:center;flex:none">{arrow(44, 26, CHAMP, 3)}</div>'
+    pst = 'align-self:center;padding:0px 12px;line-height:1.2;background:transparent;color:#FFFFFF;border-color:#FFFFFF'
+    return (f'<div style="background:{NUIT};border-radius:16px;padding:18px 28px;display:flex;align-items:stretch;gap:18px">'
+            f'{cell("CONSTAT", constat, BLEU)}{ar}'
+            f'{cell("MA DÉCISION", decision, CHAMP)}{ar}'
+            f'{cell("CE QUE L’ON MESURE", mesure, BLEU, pill("OBJECTIF", pst))}</div>')
+
+
+def _salesops_tool(name, role):
+    # outil existant : carte blanche à filet gris plein (même code que la pastille EXISTANT)
+    return (f'<div style="align-self:center;background:#FFFFFF;border:2px solid #B8C4C8;border-radius:14px;padding:8px 20px;display:flex;flex-direction:column;gap:2px">'
+            f'<p style="font-size:30px;font-weight:700;line-height:1.2;color:{ENCRE}">{name}</p>'
+            f'<p style="font-size:26px;line-height:1.25;color:{GRIS}">{role}</p></div>')
+
+
+def _salesops_add(name, tg, role, box):
+    # ce qui change autour de HubSpot : une pastille de statut par carte
+    return (f'<div style="grid-row:span 2;align-self:center;{box};border-radius:16px;padding:14px 20px;display:flex;flex-direction:column;gap:6px">'
+            f'<div style="display:flex;flex-wrap:wrap;align-items:center;gap:8px 14px"><p style="font-size:30px;font-weight:700;line-height:1.2;color:{ENCRE}">{name}</p>{ctag(tg)}</div>'
+            f'<p style="font-size:26px;line-height:1.25;color:{GRIS}">{role}</p></div>')
 
 
 def salesops():
-    def sat(x, y, name, obj, tg):
-        st = 'background:#E8F4F6;border:3px dashed ' + SARC if tg == 'MA CONTRIBUTION' else 'background:#FFFFFF;border:2px solid #B8C4C8'
-        return (f'<div style="position:absolute;left:{x}px;top:{y}px;width:340px;height:150px;border-radius:14px;{st};padding:8px 16px 6px;display:flex;flex-direction:column;gap:4px">'
-                f'<div style="display:flex;align-items:center;gap:10px"><p style="font-size:24px;font-weight:700;line-height:1.2;color:{ENCRE};white-space:nowrap">{name}</p></div>'
-                f'{ctag(tg, "line-height:1.2")}<p style="font-size:24px;line-height:1.2;color:{GRIS}">{obj}</p></div>')
-    hub = f'''<div style="position:relative;width:1000px;height:470px">
-<svg style="position:absolute;left:0px;top:0px" width="1000" height="470" viewBox="0 0 1000 470"><defs><marker id="m" orient="auto" markerWidth="5" markerHeight="5" refX="2" refY="2" overflow="visible"><path d="M0 0 L4 2 L0 4 Z" fill="{ORANGE}"/></marker></defs>
-<path d="M 340 75 L 415 150" stroke="#B8C4C8" stroke-width="4" fill="none"/>
-<path d="M 585 150 L 662 92" stroke="{ORANGE}" stroke-width="4" stroke-dasharray="12 9" fill="none" marker-end="url(#m)"/>
-<path d="M 340 235 L 375 235" stroke="#B8C4C8" stroke-width="4" fill="none"/>
-<path d="M 625 235 L 660 235" stroke="#B8C4C8" stroke-width="4" fill="none"/>
-<path d="M 340 395 L 415 320" stroke="#B8C4C8" stroke-width="4" fill="none"/>
-<path d="M 585 320 L 660 395" stroke="{SARC}" stroke-width="4" stroke-dasharray="12 9" fill="none"/></svg>
-{sat(0, 0, "Planet'Connect", 'exécuter et tracer chaque envoi', 'EXISTANT')}
-{sat(660, 0, 'Brevo (existant)', 'câblage HubSpot, stop sur réponse : prévu en nov.', 'À DÉPLOYER')}
-{sat(0, 160, 'Tableaux de bord', 'CA en temps réel, délais réels', 'EXISTANT')}
-{sat(660, 160, 'Workspace + WhatsApp', 'documents officiels, messagerie adhérents', 'EXISTANT')}
-{sat(0, 320, 'E-signature + Drive', 'documentation re-signée chaque année', 'EXISTANT')}
-{sat(660, 320, 'Dictionnaire CRM', 'à ratifier : motifs de perte, hygiène', 'MA CONTRIBUTION')}
-<div style="position:absolute;left:375px;top:110px;width:250px;height:250px;border-radius:50%;background:{NUIT};border:6px solid {SARC};display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px">
-<p style="font-family:{T};font-size:44px;font-weight:700;color:#FFFFFF">HubSpot</p><p style="font-size:24px;color:{BRUME}">source de vérité</p>
-<p style="font-size:24px;text-align:center;line-height:1.25;color:{BLEU}">contact loggé<br>&lt; 24 h</p></div>
-</div>'''
-    al = ''.join(f'''<div style="display:flex;gap:12px;align-items:flex-start"><div style="width:30px;height:30px;border-radius:50%;background:{c};display:flex;align-items:center;justify-content:center;flex:none"><p style="font-family:{L};font-size:24px;font-weight:700;color:#FFFFFF">{i}</p></div>
-<p style="font-size:24px;line-height:1.3;color:{ENCRE}">{t}</p></div>''' for i, t, c in [
-        (1, '<b>Même définition</b> : cadence dès PA-FIT 55', SARCF),
-        (2, '<b>Même délai</b> : lead entrant rappelé &lt; 24 h', SARCF),
-        (3, '<b>Le marketing nourrit</b> : nurture 45 j, campagnes de saison', ORF),
-        (4, '<b>Le terrain remonte</b> : motifs de perte → objections', BORD)])
-    rit = ''.join(f'<p style="font-size:24px;color:{ENCRE};background:#FFFFFF;border:1px solid {FILET};border-radius:999px;padding:4px 14px;white-space:nowrap"><b>{a}</b> {b}</p>'
-                  for a, b in [('Jour', '10 min'), ('Semaine', '45 + 30 min'), ('Mois', '45 min'), ('Trimestre', '90 min')])
-    right = f'''<div style="flex:1;display:flex;flex-direction:column;gap:12px">
-<div style="display:flex;align-items:center;gap:12px">{label('Marketing et ventes', PETROLE, ls=2)}{ctag('À DÉPLOYER')}</div>
-{al}
-<div style="flex:1"></div>
-<div style="display:flex;align-items:center;gap:14px">{label('Rituels', PETROLE, ls=2)}{pill('PROPOSÉ', label='PROPOSÉS, À RATIFIER')}</div>
-<div style="display:flex;flex-wrap:wrap;gap:8px">{rit}</div>
-</div>'''
-    inner = f'''{header3('Piloter · Partie 13 · Sales Operations', 'Une donnée, un propriétaire, une décision', PETROLE, tags=['EXISTANT', 'MA CONTRIBUTION', 'À DÉPLOYER'])}
-<div style="flex:1;display:flex;gap:52px">
-<div style="width:1000px;display:flex;flex-direction:column">{hub}</div>
-{right}</div>
-{why3('Des outils déjà là, sans règles communes : 448 prospects non qualifiés.', 'HubSpot source de vérité, un dictionnaire à ratifier, Brevo câblé dessus : chaque relance s’arrête à la réponse.', 'Pipeline complet à ≥ 95 % chaque lundi ; tout contact loggé sous 24 h.')}
+    # Message (titre) : une donnée, un propriétaire, une décision (le principe dit dans la note).
+    # Point focal : HubSpot au centre, source de vérité ; à gauche les quatre outils existants branchés dessus ;
+    # à droite ce qui change : le câblage Brevo (flèche orange, à déployer) et le dictionnaire CRM (ma contribution).
+    # Hors écran : le détail des quatre règles marketing-ventes (note ; cadence dès PA-FIT 55 et nurture 45 j : secours B12 ;
+    # motifs de perte → objections : secours B14) ; les durées des rituels (note : de 10 min par jour à 90 min par trimestre) ;
+    # « contact loggé < 24 h » (note) ; « 448 prospects non qualifiés » (diapo 7, note de la diapo 8, secours B15) ;
+    # « prévu en nov. » (note : « à partir de novembre »). Le score d'hygiène = la mesure du bandeau (pipeline complet ≥ 95 % le lundi).
+    grey = '#B8C4C8'
+    stub = f'<div style="align-self:center;height:4px;background:{grey}"></div>'
+    to_brevo = (f'<svg width="64" height="24" viewBox="0 0 64 24">'
+                f'<path d="M2 12 H50" stroke="{ORANGE}" stroke-width="4" stroke-dasharray="9 6" fill="none"/>'
+                f'<path d="M46 4 L58 12 L46 20" stroke="{ORANGE}" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg>')
+    to_hub = (f'<svg width="64" height="24" viewBox="0 0 64 24">'
+              f'<path d="M62 12 H14" stroke="{SARC}" stroke-width="4" stroke-dasharray="9 6" fill="none"/>'
+              f'<path d="M18 4 L6 12 L18 20" stroke="{SARC}" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg>')
+    hub = (f'<div style="grid-row:span 4;background:{NUIT};border:6px solid {SARC};border-radius:36px;padding:24px 20px;'
+           f'display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px">'
+           f'<p style="font-family:{T};font-size:60px;font-weight:700;line-height:1.1;color:#FFFFFF">HubSpot</p>'
+           f'<p style="font-size:28px;line-height:1.25;text-align:center;color:{BRUME}">source de vérité</p></div>')
+    brevo = _salesops_add('Brevo (existant)', 'À DÉPLOYER', 'câblage HubSpot, stop sur réponse',
+                          f'background:#FFFFFF;border:2px solid {grey}')
+    dico = _salesops_add('Dictionnaire CRM', 'MA CONTRIBUTION', 'motifs de perte, à ratifier',
+                         f'background:#E8F4F6;border:3px dashed {SARC}')
+    tools = [("Planet'Connect", 'trace chaque envoi'), ('Tableaux de bord', 'CA et délais réels'),
+             ('Workspace + WhatsApp', 'documents, messagerie adhérents'), ('E-signature + Drive', 'documentation annuelle')]
+    t = [_salesops_tool(n, r) for n, r in tools]
+    e = '<div></div>'
+    # grille : outils | branchement | HubSpot | branchement | ce qui change ; cellules remplies dans l'ordre du source
+    cells = (f'<div style="display:flex">{ctag("EXISTANT")}</div>{e}{e}{e}{e}'
+             f'{t[0]}{stub}{hub}<div style="grid-row:span 2;align-self:center;display:flex">{to_brevo}</div>{brevo}'
+             f'{t[1]}{stub}'
+             f'{t[2]}{stub}<div style="grid-row:span 2;align-self:center;display:flex">{to_hub}</div>{dico}'
+             f'{t[3]}{stub}')
+    diagram = f'<div style="display:grid;grid-template-columns:1fr 56px 340px 64px 1fr;gap:10px 0px">{cells}</div>'
+    why = _salesops_why('Outils déjà là, sans règles\u00a0communes.',
+                        'Règles communes proposées : marketing-ventes, rituels.',
+                        'Pipeline complet ≥ 95 % chaque\u00a0lundi.')
+    sp = '<div style="flex:1"></div>'
+    # pied : padding bas 64 + cale fixe de 96 px (sans texte) = bas du contenu à 920 px, comme le gabarit standard
+    # en-tête : MA CONTRIBUTION seule ; EXISTANT et À DÉPLOYER sont posés dans le schéma, sur les éléments qu'ils qualifient
+    inner = f'''{header3('Piloter · Partie 13 · Sales Operations', 'Une donnée, un propriétaire, une décision', PETROLE, tags=['MA CONTRIBUTION'])}
+{sp}
+{diagram}
+{sp}
+{why}
+<div style="height:96px;flex:none"></div>
 {footer(17, 'Piloter')}'''
-    return 'salesops', inner, dict(gap=20)
+    return 'salesops', inner, dict(gap=0, pad='128px 128px 64px')
+
+
+def _onboarding_step(day, status, proof, color):
+    # une marche de l'escalier : le jalon en grand, le palier, puis LA preuve qui le valide (celle que dit la note)
+    return (f'<div style="flex:1;background:{color};border-radius:16px 16px 0px 0px;padding:20px 28px 24px;display:flex;flex-direction:column;gap:8px">'
+            f'{num(day, 64, "#FFFFFF")}'
+            f'<p style="font-family:{L};font-size:28px;font-weight:600;letter-spacing:2px;line-height:1.2;color:{CHAMP}">{status}</p>'
+            f'<p style="font-size:30px;line-height:1.25;color:#FFFFFF">{proof}</p></div>')
 
 
 def onboarding():
-    stairs = ''
-    for h, d, s, t, c in [(205, 'J+30', 'CERTIFIÉ', 'offre, ICP, CRM · 1 simulation sans aide · top 5 objections', SARCF),
-                          (235, 'J+60', 'AUTONOME', '5 découvertes observées, 3 propositions sans écart, 1 RDV obtenu seul', PETROLE),
-                          (265, 'J+90', 'PILOTE', 'pipeline propre, analyse gagné/perdu, 1 amélioration du playbook', NUIT)]:
-        stairs += (f'<div style="flex:1;height:{h}px;background:{c};border-radius:12px 12px 0px 0px;padding:14px 18px;display:flex;flex-direction:column;gap:4px">'
-                   f'{num(d, 40, "#FFFFFF")}'
-                   f'<p style="font-family:{L};font-size:24px;font-weight:600;letter-spacing:1px;color:{CHAMP}">{s}</p>'
-                   f'<p style="font-size:24px;line-height:1.25;color:#FFFFFF">{t}</p></div>')
-    wk = ''.join(f'''<div style="flex:1;display:flex;flex-direction:column;gap:4px;border-left:3px solid {SARC};padding-left:12px">
-<p style="font-family:{L};font-size:24px;font-weight:700;color:{SARCF}">{a}</p><p style="font-size:24px;line-height:1.25;color:{ENCRE}">{b}</p></div>''' for a, b in [
-        ('S1', '10 devis justes au simulateur'), ('S2', 'quiz grilles et incoterms ≥ 90 %'), ('S3', 'pipeline complet à ≥ 95 %'),
-        ('S4', 'certification J+30 signée'), ('S8', '1er adhérent signé et activé')])
-    who = ''.join(f'<p style="font-size:24px;color:{ENCRE};background:#FFFFFF;border:1px solid {FILET};border-radius:999px;padding:4px 14px;white-space:nowrap"><b>{a}</b> · {b}</p>'
-                  for a, b in [('Emma', 'simulateur'), ('Adam', 'appels en binôme'), ('Vincent, Frantz', 'entrepôt'), ('Floriane', 'certification')])
-    left = thumb(PG_ONB, 'Page réelle du playbook : annexe U, le parcours d’onboarding jour par jour', 'Annexe U : le parcours, jour par jour', 300, 424)
-    right = f'''<div style="flex:1;display:flex;flex-direction:column;gap:18px">
-<div style="display:flex;gap:12px;align-items:flex-end">{stairs}</div>
-<div style="display:flex;gap:14px">{wk}</div>
-<div style="display:flex;flex-direction:column;gap:8px">{label('Qui le forme', PETROLE, ls=2)}<div style="display:flex;gap:10px">{who}</div></div>
-<p style="font-size:24px;line-height:1.3;color:{GRIS}"><b><span style="color:{ENCRE}">Socle à maîtriser avant J+30</span></b> : six chapitres, six règles d’or, la fiche réflexe. Le reste se consulte, au moment utile.</p>
-</div>'''
-    inner = f'''{header3('Piloter · Partie 13 · Onboarding', 'Un parcours pour être opérationnel en 90 jours', PETROLE, tags=['MA CONTRIBUTION', 'À MESURER'])}
-<div style="flex:1;display:flex;gap:44px">{left}{right}</div>
-{decision('« On observe avant de faire, on fait accompagné avant de faire seul. » Parcours livré, pas encore testé sur un recrutement : c’est sa première mesure.', label='LA RÈGLE')}
+    # Message (titre) : opérationnel en 90 jours, chaque palier validé par une preuve (la note le dit).
+    # Point focal : l'escalier J+30 → J+60 → J+90, une preuve par marche ; le drapeau S8 (premier adhérent
+    # signé et activé, « ligne d'arrivée », même code orange que la diapo 15) est planté sur la marche J+60 : S8 tombe au mois 2.
+    # Coin haut gauche : statut OBJECTIF + « parcours livré, pas encore testé » (limite dite dans la note).
+    # Bandeau : la règle pédagogique. Hors écran : contenus détaillés des paliers, S1-S4 et socle (dossier, chap. 15,
+    # annexe U, avant-propos) ; qui forme qui (ajouté à la note) ; page de l'annexe U (secours B15 la cite).
+    gapc = 16
+    s1 = _onboarding_step('J+30', 'CERTIFIÉ', 'Certification signée', SARCF)
+    s2 = _onboarding_step('J+60', 'AUTONOME', '1 RDV obtenu seul', PETROLE)
+    s3 = _onboarding_step('J+90', 'PILOTE', '1 amélioration du playbook', NUIT)
+    status = (f'<div style="display:flex;flex-direction:column;gap:6px">{pill("OBJECTIF")}'
+              f'<p style="font-size:24px;line-height:1.25;color:{GRIS}">parcours livré, pas encore testé</p></div>')
+    flag = (f'<div style="display:flex;gap:16px;padding-left:28px">'
+            f'<div style="width:6px;background:{ORF};flex:none"></div>'
+            f'<div style="display:flex;flex-direction:column;gap:8px;padding-bottom:16px">'
+            f'<div style="display:flex"><p style="font-family:{L};font-size:24px;font-weight:700;letter-spacing:1px;color:#FFFFFF;background:{ORF};border-radius:999px;padding:2px 16px;white-space:nowrap">LIGNE D’ARRIVÉE</p></div>'
+            f'<div style="display:flex;align-items:center;gap:16px">{num("S8", 52, ORF)}'
+            f'<p style="font-size:28px;font-weight:700;line-height:1.2;color:{ENCRE}">1er adhérent<br>signé et activé</p></div>'
+            f'</div></div>')
+    # marches sans hauteur fixe : chaque colonne s'étire à la hauteur de la plus haute ; la marche remplit (flex:1)
+    # sous une cale sans texte (col. 1) ou sous le drapeau (col. 2) ; la col. 3 est pleine hauteur.
+    col1 = f'<div style="flex:1;display:flex;flex-direction:column">{status}<div style="height:180px;flex:none"></div>{s1}</div>'
+    col2 = f'<div style="flex:1;display:flex;flex-direction:column">{flag}{s2}</div>'
+    col3 = f'<div style="flex:1;display:flex;flex-direction:column">{s3}</div>'
+    stairs = f'<div style="display:flex;gap:{gapc}px;align-items:stretch">{col1}{col2}{col3}</div>'
+    rule = (f'<div style="background:{NUIT};border-radius:16px;padding:18px 28px;display:flex;align-items:center;gap:24px">'
+            f'<p style="font-family:{L};font-size:24px;font-weight:700;letter-spacing:2px;color:{CHAMP};white-space:nowrap">LA RÈGLE</p>'
+            f'<p style="flex:1;font-family:{T};font-style:italic;font-size:32px;line-height:1.25;color:#FFFFFF">« On observe avant de faire, on fait accompagné avant de faire seul. »</p></div>')
+    sp = '<div style="flex:1"></div>'
+    # marge basse : 64 px de padding + 72 px d'entretoise + 24 px d'écart = les 160 px habituels (bas du corps à 920 px)
+    inner = f'''{header3('Piloter · Partie 13 · Onboarding', 'Opérationnel en 90 jours : une preuve par palier', PETROLE, tags=['MA CONTRIBUTION', 'À MESURER'])}
+{sp}
+{stairs}
+{sp}
+{rule}
+<div style="height:72px;flex:none"></div>
 {footer(18, 'Piloter')}'''
-    return 'onboarding', inner, dict(gap=18)
+    return 'onboarding', inner, dict(gap=24, pad='128px 128px 64px')
+
+
+def _kpi_why(constat, decision, mesure):
+    # même bandeau que kit.why3 (Constat → Ma décision → Ce que l'on mesure), texte à 26 px comme les autres candidates
+    def cell(lab, txt, c, f=1):
+        return (f'<div style="flex:{f};display:flex;flex-direction:column;gap:6px">'
+                f'<p style="font-family:{L};font-size:24px;font-weight:700;letter-spacing:2px;color:{c};white-space:nowrap">{lab}</p>'
+                f'<p style="font-size:26px;line-height:1.3;color:{CLAIR}">{txt}</p></div>')
+    ar = f'<div style="display:flex;align-items:center;flex:none">{arrow(44, 26, CHAMP, 3)}</div>'
+    return (f'<div style="background:{NUIT};border-radius:16px;padding:18px 28px;display:flex;align-items:stretch;gap:18px">'
+            f'{cell("CONSTAT", constat, BLEU)}{ar}{cell("MA DÉCISION", decision, CHAMP)}{ar}{cell("CE QUE L’ON MESURE", mesure, BLEU)}</div>')
+
+
+def _kpi_mini(name, tgt):
+    # objectif secondaire : un nom, une cible (fréquence et action si écart : secours B6)
+    return (f'<div style="background:#FFFFFF;border:1px solid {FILET};border-left:6px solid {BORD};border-radius:14px;padding:10px 16px;'
+            f'display:flex;align-items:center;justify-content:space-between;gap:16px">'
+            f'<p style="font-size:26px;font-weight:700;line-height:1.2;color:{ENCRE};white-space:nowrap">{name}</p>{num(tgt, 32, BORD)}</div>')
 
 
 def kpi():
-    cap = shot(DASH_NEW, 'Capture réelle du tableau de bord Planet’Connect : évolution des nouveaux adhérents du 24/09/2025 au 24/09/2026', 640, 186, 'Planet’Connect', fit='contain')
-    const = ''.join(f'''<div style="flex:1;display:flex;flex-direction:column;gap:0px">{num(v, 34, SARCF)}<p style="font-size:24px;line-height:1.15;color:{GRIS}">{t}</p></div>'''
-                    for v, t in [('~145', 'signés en 12 mois'), ('1,45 %', 'annulations'), ('89,8 %', 'envois assurés')])
-    crm = f'''<div style="{CASE_BOX};border-radius:14px;padding:6px 16px;display:flex;align-items:center;gap:16px">
-{label('Le cas, dans HubSpot', ORF, ls=1)}<p style="flex:1;font-size:24px;line-height:1.25;color:{ENCRE}"><b>Activé (6 sur 7)</b> · tiers B · santé <b><span style="color:#3A8A5C">verte</span></b> · prochaine action : <b>le commercial appelle à\u00a0J+30</b></p>{pill('ILLUSTRATIF')}</div>'''
-    left = f'''<div style="width:640px;display:flex;flex-direction:column;gap:12px">
-<div style="display:flex;align-items:center;gap:12px">{pill('CONSTATÉ')}<p style="font-size:24px;color:{GRISD}">point zéro, 24/09/2026</p></div>
+    # Message (titre) : mesuré ou espéré ? Chaque KPI déclenche une action.
+    # Point focal : à droite, la fiche de l'indicateur d'activation (cible ≥ 70 % en grand ; source · fréquence · responsable ;
+    # l'action si l'écart se creuse) où l'on retrouve le domaine du cas ; à gauche, le constaté (capture réelle, ~145 signés).
+    # Hors écran : 1,45 % d'annulations (dit dans la note) ; 89,8 % d'envois assurés (secours B11 · B14) ; formules, sources,
+    # responsables et actions des trois autres indicateurs (secours B6 et indication de la note) ; « puis chaque trimestre » (note) ;
+    # « close par une décision » (note).
+    cap = shot(DASH_NEW, 'Capture réelle du tableau de bord Planet’Connect : évolution des nouveaux adhérents du 24/09/2025 au 24/09/2026',
+               540, 166, 'Planet’Connect', fit='contain')
+    left = f'''<div style="width:540px;flex:none;display:flex;flex-direction:column;gap:14px">
+<div style="display:flex;align-items:center;gap:14px">{pill('CONSTATÉ', 'align-self:center')}<p style="font-size:24px;line-height:1.3;color:{GRISD};white-space:nowrap">point zéro, 24/09/2026</p></div>
 {cap}
-<div style="display:flex;gap:16px">{const}</div>
+<div style="display:flex;align-items:center;gap:20px">{num('~145', 56, SARCF)}<p style="font-size:28px;line-height:1.2;color:{ENCRE}">signés en 12 mois</p></div>
 </div>'''
-    cards = [('Activation à J+30', '≥ 70 %', '1er envoi sous 30 j / signés', 'CRM · mensuel · commercial', 'sous 50 % : revoir l’onboarding'),
-             ('RDV → proposition', '≥ 70 %', 'qualité de la découverte', 'HubSpot · mensuel · commercial', 'en dessous : retravailler le SPIN'),
-             ('Adhérents actifs', '&gt; 60 %', '≥ 1 envoi sur 90 j / parc', 'Planet’Connect · mensuel · commercial', 'sinon : campagne réveil'),
-             ('Taux de gain', '40-60 %', 'gagnées / clôturées', 'HubSpot · mensuel · direction', 'sinon : closing et objections')]
-    cc = ''
-    for n, tgt, f, src, act in cards:
-        cc += f'''<div style="background:#FFFFFF;border:1px solid {FILET};border-top:6px solid {BORD};border-radius:12px;padding:8px 16px;display:flex;flex-direction:column;gap:2px">
-<div style="display:flex;align-items:baseline;justify-content:space-between"><p style="font-family:{L};font-size:24px;font-weight:700;color:{ENCRE}">{n}</p>{num(tgt, 32, BORD)}</div>
-<p style="font-size:24px;line-height:1.2;color:{GRIS}">{f}</p>
-<p style="font-size:24px;line-height:1.2;color:{GRISD}">{src}</p>
-<p style="font-size:24px;line-height:1.2;color:{ENCRE}"><b>→</b> {act}</p></div>'''
-    right = f'''<div style="flex:1;display:flex;flex-direction:column;gap:12px">
-<div style="display:flex;align-items:center;gap:12px">{pill('OBJECTIF')}<p style="font-size:24px;color:{GRISD}">pas encore mesuré : source · fréquence · responsable</p></div>
-<div style="display:grid;grid-template-columns:repeat(2, 1fr);gap:12px">{cc}</div>
+    focal = f'''<div style="flex:1.25;background:#FFFFFF;border:2px solid {BORD};border-top:10px solid {BORD};border-radius:16px;padding:16px 26px 20px;display:flex;flex-direction:column;gap:12px">
+<div style="display:flex;align-items:center;justify-content:space-between;gap:20px"><p style="font-family:{L};font-size:32px;font-weight:700;line-height:1.2;color:{ENCRE}">Activation J+30</p>{num('≥ 70 %', 72, BORD)}</div>
+<p style="font-size:26px;line-height:1.25;color:{GRISD}">CRM · mensuel · commercial</p>
+<p style="background:#F6EAEE;border-radius:10px;padding:8px 18px;font-size:28px;line-height:1.25;color:{ENCRE}"><b>Sous 50 %</b> → revoir l’onboarding</p>
+<div style="display:flex;align-items:center;gap:14px;flex-wrap:wrap"><p style="{CASE_BOX};border-radius:10px;padding:6px 18px;font-family:{T};font-style:italic;font-size:28px;line-height:1.25;color:{ENCRE};white-space:nowrap">Domaine activé</p>{pill('ILLUSTRATIF', 'align-self:center')}</div>
 </div>'''
-    inner = f'''{head_case(header3('Piloter · Partie 14 · Indicateurs', 'Mesuré ou espéré ? Chaque indicateur déclenche une action', PETROLE, tags=['EXISTANT', 'MA CONTRIBUTION', 'À MESURER']), 'Suivre')}
-<div style="flex:1;display:flex;gap:36px">{left}{right}</div>
-{crm}
-{why3('~145 signatures en 12 mois ; conversions et activation jamais mesurées.', 'Point zéro au 24/09/2026 ; revue mensuelle proposée, close par une décision.', 'Première lecture fin décembre 2026, puis chaque trimestre.')}
+    minis = ''.join(_kpi_mini(n, t) for n, t in [('RDV → proposition', '≥ 70 %'), ('Taux de gain', '40–60 %'), ('Adhérents actifs', '&gt; 60 %')])
+    right = f'''<div style="flex:1;display:flex;flex-direction:column;gap:14px">
+{pill('OBJECTIF')}
+<div style="flex:1;display:flex;gap:20px;align-items:stretch">{focal}<div style="flex:1;display:flex;flex-direction:column;justify-content:space-between;gap:12px">{minis}</div></div>
+</div>'''
+    why = _kpi_why('Conversions et activation jamais mesurées.',
+                   'Revue mensuelle proposée.',
+                   'Première lecture : fin décembre.')
+    sp = '<div style="flex:1"></div>'
+    # marge basse : 64 px de padding + entretoise fixe de 76 px (sans texte) + 20 px d'écart = bas du contenu à 920 px,
+    # même dispositif que les autres candidates (au rendu +10 %, le pied de page épinglé reste hors du flux).
+    inner = f'''{head_case(header3('Piloter · Partie 14 · Indicateurs', 'Mesuré ou espéré ? Chaque KPI déclenche une action', PETROLE, tags=['EXISTANT', 'MA CONTRIBUTION', 'À MESURER']), 'Suivre')}
+{sp}
+<div style="display:flex;gap:56px;align-items:stretch">{left}{right}</div>
+{sp}
+{why}
+<div style="height:76px;flex:none"></div>
 {footer(19, 'Piloter')}'''
-    return 'kpi', inner, dict(gap=12)
+    return 'kpi', inner, dict(gap=20, pad='128px 128px 64px')
+
+
+def _conclusion_enjeu(i, enjeu, reponse):
+    # même pastille et même libellé que les trois enjeux du diagnostic (diapo 7) : la réponse se lit enjeu par enjeu
+    return (f'<div style="flex:1;display:flex;gap:16px;align-items:flex-start">'
+            f'<div style="width:48px;height:48px;border-radius:50%;background:{CHAMP};display:flex;align-items:center;justify-content:center;flex:none">'
+            f'<p style="font-family:{L};font-size:26px;font-weight:700;color:{NUIT}">{i}</p></div>'
+            f'<div style="flex:1;display:flex;flex-direction:column;gap:6px">'
+            f'<p style="font-family:{T};font-size:32px;font-weight:700;line-height:1.2;color:#FFFFFF">{enjeu}</p>'
+            f'<p style="font-size:28px;line-height:1.3;color:{BRUME}">{reponse}</p></div></div>')
+
+
+def _conclusion_cell(lab, c, text, extra=''):
+    return (f'<div style="flex:1;border-top:4px solid {c};padding-top:12px;display:flex;flex-direction:column;gap:8px">'
+            f'<div style="display:flex;align-items:center;gap:14px">{label(lab, c, ls=2)}{extra}</div>'
+            f'<p style="font-size:28px;line-height:1.3;color:{CLAIR}">{text}</p></div>')
 
 
 def conclusion():
-    band = f'''{bottles(24, width=1664, bw=40, bh=120)}
-<div style="display:flex;align-items:center;gap:40px">
-<p style="font-family:{T};font-size:60px;font-weight:700;line-height:1.05;color:#FFFFFF;white-space:nowrap">Ils repartent les mains libres.</p>
-<p style="flex:1;font-size:26px;line-height:1.3;color:{BRUME}">24 bouteilles · <b><span style="color:{CHAMP}">360 € de transport HT</span></b> + taxes estimées et 17 € de dossier, réglés d’avance · assurance en option</p>
+    # Message (titre) : retour à l'accroche, ils repartent les mains libres.
+    # Point focal : les 24 bouteilles pleines, au même gabarit que les 2 sur 24 de l'accroche (diapo 2).
+    # Puis la réponse à la problématique, enjeu par enjeu (mêmes pastilles que la diapo 7), et un bandeau :
+    # bénéfice visé (OBJECTIF), limite, ouverture. Le panier, l'apport détaillé, la difficulté, le second bénéfice,
+    # la phrase finale sur le risque sont dits dans la note ; l'apport et la difficulté sont aussi en secours B15.
+    answer = f'''<div style="display:flex;flex-direction:column;gap:20px">
+<div style="display:flex;align-items:baseline;gap:18px">{label('Ma réponse', BLEU, ls=3)}<p style="font-family:{T};font-size:34px;font-weight:700;line-height:1.2;color:{CHAMP}">une méthode reproductible et mesurable</p></div>
+<div style="display:flex;gap:40px">
+{_conclusion_enjeu(1, 'Recruter les bons comptes', '5 ICP, un score, une cadence')}
+{_conclusion_enjeu(2, 'Activer et fidéliser', 'la vente finit au 1er envoi')}
+{_conclusion_enjeu(3, 'Transmettre et mesurer', '90 jours, des KPI à statut')}
+</div></div>'''
+    merci = (f'<div style="display:flex;align-items:flex-end;gap:18px;flex:none">'
+             f'<img src="{LOGO_MARK_W}" alt="Logo Planet Aura" style="width:54px;height:72px;object-fit:contain">'
+             f'<p style="font-family:{T};font-size:52px;font-weight:700;line-height:1.1;color:#FFFFFF">Merci.</p></div>')
+    band = f'''<div style="display:flex;gap:40px;align-items:flex-end">
+<div style="flex:1;display:flex;gap:40px;align-items:stretch">
+{_conclusion_cell('Bénéfice visé', CHAMP, '<b>≥ 70 %</b> des signés<br>activés à J+30', pill('OBJECTIF', 'line-height:1.2'))}
+{_conclusion_cell('Limite', '#E2A39A', '<b>Effet pas encore mesuré</b> :<br>lecture fin décembre')}
+{_conclusion_cell('Ouverture', BLEU, '<b>Diversifier</b> :<br>UK, UE, Japon')}
+</div>
+{merci}
 </div>'''
-
-    def col(t, c, items):
-        li = ''.join(f'<p style="font-size:26px;line-height:1.3;color:{CLAIR}">{i}</p>' for i in items)
-        return (f'<div style="flex:1;border-top:4px solid {c};padding-top:10px;display:flex;flex-direction:column;gap:8px">'
-                f'{label(t, c, ls=2)}{li}</div>')
-    cols = f'''<div style="display:flex;gap:40px">
-{col('La réponse', CHAMP, ['Une méthode <b>reproductible et mesurable</b>', '<b>Recruter</b> : 5 ICP, un score, une cadence', '<b>Activer</b> : la vente finit au 1er envoi', '<b>Transmettre</b> : 90 jours, des KPI à statut'])}
-{col('Mon apport', BLEU, ['<b>Analysé</b> : top 10, 70 contacts, 24 sources', '<b>Construit</b> : 18 chapitres, 24 annexes', '<b>Proposé</b> : règles CRM, rituels, câblage', '<b>J’accompagne</b> : mises à jour, formation'])}
-{col('Limites et suite', '#E2A39A', ['<b>Effet pas encore mesuré</b> : lecture fin déc.', 'Personas : entretiens au T1 2027', 'Parcours à tester au 1er recrutement', '<b>Difficulté</b> : chiffres divergents → une source datée', '<b>Ouverture</b> : diversifier, UK, UE, Japon'])}
-</div>'''
-    inner = f'''{band}
-<div style="height:2px;background:#2A5765"></div>
-{cols}
-<div style="flex:1"></div>
-<div style="display:flex;align-items:center;gap:14px;flex-wrap:wrap">{label('Bénéfices attendus', CHAMP, ls=2)}<div style="width:6px"></div>{pill('OBJECTIF', 'letter-spacing:0px', '≥ 70 % des signés activés à J+30')}{pill('OBJECTIF', 'letter-spacing:0px', 'Un commercial certifié à J+30')}{pill('POINT ZÉRO', 'letter-spacing:0px;background:transparent;color:#FFFFFF;border-color:#FFFFFF', 'Part USA suivie chaque trimestre')}</div>
-<div style="flex:1"></div>
-<div style="display:flex;align-items:flex-end;gap:40px">
-<p style="flex:1;font-family:{T};font-style:italic;font-size:34px;line-height:1.25;color:{CHAMP}">Le prospect n’achète pas seulement du transport : il cherche à réduire son risque.</p>
-<div style="display:flex;align-items:center;gap:18px"><img src="{LOGO_MARK_W}" alt="Logo Planet Aura" style="width:54px;height:72px;object-fit:contain">
-<div style="display:flex;flex-direction:column;gap:2px"><p style="font-family:{T};font-size:48px;font-weight:700;line-height:1;color:#FFFFFF">Merci.</p><p style="font-size:26px;color:{BRUME}">Place à vos questions</p></div></div>
-</div>'''
-    return 'conclusion', inner, dict(bg=NUIT, color=CLAIR, pad='96px 128px 96px', gap=22,
+    sp = '<div style="flex:1;min-height:20px"></div>'
+    inner = f'''{header3('Synthèse et ouverture', 'Ils repartent les mains libres', BLEU, tags=['MA CONTRIBUTION', 'À MESURER'], tcolor='#FFFFFF')}
+{sp}
+{bottles(24)}
+{sp}
+{answer}
+{sp}
+{band}
+<div style="height:96px;flex:none"></div>
+{footer(20, dark=True, label='Comprendre · Cibler · Vendre · Activer · Piloter')}'''
+    # marge basse : 64 px de padding + 96 px d'entretoise sans texte = les 160 px habituels (bas du corps à 920 px) ;
+    # le pied de page (les cinq étapes en blanc : le parcours est complet) reste dans la limite du banc, même à +10 %
+    return 'conclusion', inner, dict(bg=NUIT, color=CLAIR, gap=0, pad='128px 128px 64px',
                                      sect="Synthèse et ouverture : réponse à la problématique, apport, limites, retour à l'accroche")
