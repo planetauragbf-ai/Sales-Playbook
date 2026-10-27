@@ -20,13 +20,13 @@
 2. **Vérifier** : adresse complète **sans PO Box**, email + téléphone du client, bouteilles ≤ 21° avec CRD.
 3. **Encaisser le vin** (vous) + **le service** : mandat SEPA du magasin par défaut, ou CB du client final (order form - pas d'Amex - ou lien de paiement).
 4. **Saisir la commande** sur Planet'Connect : produits, quantités, **valeur déclarée exacte** (base de l'assurance), incoterm DDP/DAP, date d'enlèvement souhaitée.
-5. **Emballer** dans les cartons Planet Aura (ou polystyrène certifié), pochette documents à l'extérieur, champagne hors UE : **les 2 pages originales du certificat CIVC** dans la pochette.
+5. **Emballer** dans les cartons Planet Aura (ou votre propre emballage homologué ISTA 3A, validé en amont par Planet Aura), pochette documents à l'extérieur, champagne hors UE : **les 2 pages originales du certificat CIVC** dans la pochette.
 6. **Remettre au transporteur** uniquement les produits déclarés.
 
 **CAS PARTICULIERS :**
 
 - **USA > 2 100 $** : POA avec SSN (email automatique au client) - prévenir le client et l'y préparer : c'est une formalité normale.
-- **Canada** : POA obligatoire (départ suspendu sans retour) + ticket de caisse + taxes au liquor board à l'arrivée.
+- **Canada** : POA obligatoire (formulaire FedEx à faire signer par le destinataire, départ suspendu sans retour) + ticket de caisse + taxes au liquor board à l'arrivée.
 - **Canicule** : proposer le **départ différé** (l'altération thermique n'est pas assurée).
 - **Magnums** : cartons spécifiques obligatoires.
 - **Plus de 36 bouteilles USA (6 L spiritueux)** : fractionner en plusieurs envois ou expédier à des destinataires distincts et réels.
@@ -39,7 +39,7 @@
 
 ## Les objections en format court : une phrase + une question de retour
 
-Quand le temps manque (salon, appel entrant, relance) : une réponse courte, puis une question qui rend la parole au prospect. Elle fait émerger l'objection réelle (souvent différente de celle exprimée), et vous gardez la main. Le traitement développé des 26 objections est en annexe D, la méthode en quatre temps et le top 5 commenté au chap. 13.
+Quand le temps manque (salon, appel entrant, relance) : une réponse courte, puis une question qui rend la parole au prospect et fait émerger l'objection réelle, souvent différente de celle exprimée. Le traitement développé des 26 objections est en annexe D, la méthode en quatre temps et le top 5 (une preuve par objection) au chap. 13. Ces douze situations courantes ne reprennent pas une à une les 26 objections numérotées.
 
 | Objection | Réponse courte | Question de retour |
 |---|---|---|
@@ -50,7 +50,7 @@ Quand le temps manque (salon, appel entrant, relance) : une réponse courte, pui
 | Déjà un transitaire | Comparons un flux mal couvert, pas tout le compte. | Où est-il le moins adapté ? |
 | Envoyez des infos | Oui, ciblons le document utile. | Prix, délai, douane, impact ou sécurité ? |
 | Pas de budget | Non prioritaire ou non budgété ? | Quand l'arbitrage a-t-il lieu ? |
-| Pas le temps | Votre part se limite à 3 minutes de saisie. | Qui saisirait les commandes côté équipe ? |
+| Pas le temps | Votre part : 3 minutes de saisie par envoi, 30 minutes de formation une fois. | Qui saisirait les commandes côté équipe ? |
 | Température / casse | Validons spécifications, emballage et assurance. | Quelles exigences sont obligatoires ? |
 | Douane complexe | Clarifions importateur, incoterm et données. | Où est la zone d'incertitude ? |
 | Plusieurs décideurs | Faisons une revue commune par risque. | Qui doit participer ? |
@@ -62,24 +62,24 @@ Quand le temps manque (salon, appel entrant, relance) : une réponse courte, pui
 - Matériel : tablette (simulateur), grilles FR + EN imprimées, carton démo, order form, manuel utilisateur.
 - Questions CAVE posées (Clientèle, Autorité, Volume, Échéance).
 - Démo simulateur faite **sur leurs vins, vers la destination de leur dernier client étranger**.
-- ROI calculé avec leurs chiffres.
+- ROI calculé avec leurs chiffres (méthode : annexe Y, fiche 9).
 - Objections traitées et verrouillées.
-- Next step daté (signature/formation) + compte-rendu CRM sous 24 h.
+- Next step daté (signature/formation) + compte rendu CRM (modèle ci-dessous).
 
 ## Checklist signature → activation
 
 - Documentation 2026 signée électroniquement (CGS + grilles).
-- Mode de paiement défini : mandat SEPA signé par défaut, virement accepté, CB (client final ou adhérent) si nécessaire.
+- Mode de paiement défini : point de vente payeur par défaut, client final en alternative (étape 3 de la fiche réflexe ; mandat vierge en annexe I ; règles : annexe Y, fiche 8).
 - 1er lot de cartons commandé (110 € HT) + formats 1 et 3 bouteilles (gratuits).
 - Fiche adhérent transmise à l'exploitation (adresse d'enlèvement, contacts, horaires, particularités).
-- Formation caveau planifiée (30 min) et réalisée.
+- Formation caveau planifiée (30 min, contenu minuté au chap. 16) et réalisée.
 - PLV/affichette remise (« We ship worldwide »).
-- Premier envoi réalisé en moins de 30 jours et débriefé à livraison.
+- Premier envoi réalisé en moins de 30 jours et débriefé à livraison (annexe Y, fiche 16).
 - Demande de recommandation faite.
 
 ## Modèle de compte-rendu de RDV (CRM)
 
-À saisir sous 24 h après le rendez-vous, champ par champ :
+À saisir sous 24 h après le rendez-vous (SLA : annexe Y, fiche 15), champ par champ :
 
 | Champ | À renseigner |
 |---|---|
@@ -91,24 +91,9 @@ Quand le temps manque (salon, appel entrant, relance) : une réponse courte, pui
 | ROI & objections | ROI évoqué (calcul) - objections (lesquelles + traitement) |
 | Next step | Action datée - étape de pipeline mise à jour (la probabilité suit l'étape, chap. 17) |
 
-## Le parcours d'onboarding 0-90 jours
-
-Le planning opérationnel complet - jour par jour pour le premier mois, puis semaine par semaine jusqu'à J+90, avec les rituels d'équipe - est devenu une annexe à part entière : il est en **annexe U**. Les jalons J+30 / J+60 / J+90 et le contrat minimal d'activité sont dans l'avant-propos.
-
 ## Documents officiels à envoyer (pack adhérent 2026)
 
-| Document | Usage |
-|---|---|
-| CGS 2026 | Contrat cadre - signature électronique |
-| Grille tarifaire shipping 2026 (FR) + Rate Schedule EN | Prix - remis en RDV et joints à la proposition |
-| Grille stockage & picking 2026 | Si besoin logistique |
-| Manuel utilisateur 2026 | Onboarding - process, cartonnage, destinations spécifiques |
-| Mode d'emploi Planet'Connect | Prise en main de la plateforme |
-| Order Form 2026 | Encaissement CB du client final au comptoir |
-| Formulaire mandat SEPA | Si magasin payeur |
-| Formulaire de shipping par email (xlsx) | Alternative à la saisie plateforme |
-
-*(Dossiers sources : « $DOCUMENTS PLANET AURA ADHERENT 2026 » → « DOCUMENT ADH 2026 (NOUVEAU CLIENT) » / « (CLIENT ACTIF AU 1/04) » / version Corse dédiée.)*
+Le pack de bienvenue réunit les six documents officiels 2026 de l'annexe T (usage, emplacement Drive, moment d'envoi et règles de diffusion), les CGS 2026 signées électroniquement (synthèse et texte en annexe J) et le manuel utilisateur adhérent (annexe P).
 
 ### Zoom sur trois documents clés du kit
 
@@ -120,150 +105,71 @@ Le planning opérationnel complet - jour par jour pour le premier mois, puis sem
 - Cases à cocher d'acceptation des conditions (le client déclare avoir lu et accepté les termes, la responsabilité hors périmètre transport, le droit de refuser une expédition).
 - Bloc paiement CB : numéro, expiration, code de sécurité, type de carte - mention en rouge **« No American Express please »**.
 
-**Manuel utilisateur adhérent 2026** - 9 sections, dans l'ordre : interlocuteurs, fonctionnement, cartonnage, procédure d'envoi, assurances & litiges, certificat Champagne, destinations spécifiques, spiritueux, stockage. C'est le document de référence de la formation caveau (chap. 16) : le commercial doit savoir y renvoyer l'adhérent section par section.
+**Manuel utilisateur adhérent 2026** - 9 sections, dans l'ordre : interlocuteurs, fonctionnement, cartonnage, procédure d'envoi, assurances & litiges, certificat Champagne, destinations spécifiques, spiritueux, stockage. C'est le document de référence de la formation caveau (chap. 16) : le commercial doit savoir y renvoyer l'adhérent section par section (annexe P).
 
-**Mode d'emploi Planet'Connect** - manuel de 37 pages couvrant la prise en main complète de la plateforme (simulateur, commandes, suivi, factures, e-signature). À joindre systématiquement au pack de bienvenue.
-
-> ⚠️ **LE POINT DE VIGILANCE -** Le mandat SEPA contient les identifiants bancaires du magasin : il se remplit et se transmet via les canaux officiels uniquement, jamais recopié dans un email libre ni dans un support de vente.
-
-> 📌 **À RETENIR -** Cette annexe est la boîte à outils de 30 secondes : la fiche réflexe et ses 4 données (# / kg / € / →) pour le comptoir, les checklists pour ne rien oublier avant et après la signature, le compte-rendu CRM saisi sous 24 h, et le pack adhérent 2026 complet - huit documents, toujours envoyés via les canaux officiels.
+**Mode d'emploi Planet'Connect** - le manuel complet de la plateforme (37 pages, annexe O), à joindre systématiquement au pack de bienvenue.
 
 ## L'exemple complet : une cadence de nurturing déroulée (J1 à J18)
 
 *L'exemple qui suit est entièrement fictif : le Domaine des Trois Cyprès, sa gérante Claire et tous les détails du compte ont été inventés pour les besoins de la démonstration.*
 
-Cette page déroule la cadence ABM 1:1 du chapitre 10 (8 touches sur 18 jours) sur un seul compte, du repérage au break-up, avec chaque message prêt à l'emploi. Elle sert de gabarit : gardez le squelette, remplacez le signal, les prénoms et chaque variable par une donnée vérifiée - si la donnée n'existe pas, la phrase saute. Et la règle absolue reste la même : toute réponse arrête l'automatisation et crée une tâche humaine.
+Cette page déroule la cadence ABM 1:1 du chapitre 10 (8 touches sur 18 jours) sur un seul compte - un domaine avec caveau scoré P1 : c'est la priorité PA-FIT, pas le segment, qui ouvre cette cadence (chap. 10) -, du repérage au break-up. Les textes ne sont pas recopiés : emails, invitation LinkedIn et break-up sont les modèles de l'annexe E, instanciés ici avec le signal, les variables et les créneaux de Claire ; si une donnée n'existe pas, la phrase saute. La règle absolue reste la même : toute réponse arrête l'automatisation et crée une tâche humaine traitée en moins de 4 heures.
 
 ### Le compte fictif et son signal
 
 | Élément | Donnée |
 |---|---|
-| Compte | Domaine des Trois Cyprès - domaine avec caveau, Provence |
+| Compte | Domaine des Trois Cyprès - domaine avec caveau, Provence, scoré P1 (adéquation totale : flux étranger récurrent, cuvée à valeur, décideuse accessible) |
 | Contact | Claire, gérante (décideuse et utilisatrice caveau) |
 | Clientèle étrangère | ~2 000 visiteurs étrangers par an, pic estival |
 | Signal déclencheur | Lancement de la cuvée « Les Restanques » + présence annoncée au salon des Vignerons Indépendants |
-| Statut | Compte P1 qualifié (score PA-FIT ≥ 55, base légale vérifiée, pas d'opportunité ouverte) → ajouté à la liste de cadence HubSpot, emails envoyés par Brevo, appels et LinkedIn créés en tâches humaines |
+| Statut | Compte P1 qualifié (score PA-FIT ≥ 75, base légale vérifiée, pas d'opportunité ouverte) → ajouté à la liste de cadence HubSpot, emails envoyés par Brevo, appels et LinkedIn créés en tâches humaines |
 
 ### La cadence en un coup d'œil : 8 touches sur 18 jours
 
-| Jour | Canal | Objectif | Contenu |
+| Jour | Canal | Ce qui est propre à Claire | Texte à utiliser |
 |---|---|---|---|
-| J1 | Recherche compte + vue LinkedIn (sans invitation) | Identifier signal et comité d'achat, se rendre visible | Repérage |
-| J2 | Email 1 | Problème + valeur, CTA 25 minutes | Valise |
-| J4 | Appel 1 | Permission + diagnostic (2 questions en 45 s) | Diagnostic |
-| J6 | Invitation LinkedIn contextualisée | Crédibilité | Connexion |
-| J8 | Email 2 | Prouver la méthode | Preuve |
-| J11 | Appel 2 (+ message vocal) | Traiter objection / timing | Relance |
-| J14 | Email 3 « de décision » | Décision simple : maintenant / plus tard / hors sujet | Break-up |
-| J18 | Sortie de cadence | Protéger la relation | Sortie |
-
-### J1 - Recherche et vue LinkedIn (aucun message)
-
-Adam vérifie le signal et prépare la personnalisation : site et e-shop du domaine (pas de livraison internationale), avis Google en anglais (clientèle étrangère confirmée), annonce de la cuvée « Les Restanques », liste des exposants du salon. Il identifie Claire comme décideuse, consulte son profil LinkedIn sans envoyer d'invitation, et logge le tout dans HubSpot sous 24 h.
-
-\page
-
-### J2 - Email 1 : le problème et la valeur
-
-**Objet :** Domaine des Trois Cyprès - vos visiteurs américains repartent les mains vides ?
-
-> Bonjour Claire,
->
-> Bravo pour la cuvée « Les Restanques » - et j'ai vu que vous exposerez au salon des Vignerons Indépendants. Avec vos visiteurs étrangers au caveau, une scène se répète chaque été : un Américain achète 2 bouteilles alors qu'il en voulait 12. Le frein n'est pas le prix, c'est la valise.
->
-> Planet Aura est commissionnaire de transport spécialisé vins & champagnes. Concrètement, pour le Domaine des Trois Cyprès :
->
-> - votre client achète, paie le transport par CB et repart les mains libres,
-> - nous gérons enlèvement, emballage homologué, douane et taxes payées d'avance (DDP), jusqu'aux États-Unis (36 bouteilles par envoi),
-> - assurance casse/perte jusqu'à 20 000 € par envoi (option à cocher à la commande),
-> - sans abonnement ni minimum pour vous.
->
-> 25 minutes suffisent pour cartographier votre flux et vous montrer le simulateur avec vos vins. Seriez-vous disponible mardi matin ou jeudi après-midi ?
->
-> Adam
+| J1 | Recherche compte + vue LinkedIn (sans invitation) | Signal vérifié : site et e-shop sans livraison internationale, avis Google en anglais, annonce des Restanques, liste des exposants du salon ; Claire identifiée comme décideuse ; loggé dans HubSpot le jour même | Aucun message |
+| J2 | Email 1 | Objet « Domaine des Trois Cyprès - vos visiteurs américains repartent les mains vides ? » ; variables : la cuvée, le salon ; CTA 25 minutes, mardi matin ou jeudi après-midi | Email 1 · Domaine (annexe E) |
+| J4 | Appel 1 | Déclinaison caveau de l'appel permission en 45 secondes : ci-dessous | Squelette : annexe E |
+| J6 | Invitation LinkedIn contextualisée | Moins de 300 caractères, jamais générique : bravo pour Les Restanques, domaines de Provence accompagnés, « ici ou au salon des Vignerons Indépendants » | Connexion LinkedIn (annexe E) |
+| J8 | Email 2 | Objet « Domaine des Trois Cyprès - comment ça marche, concrètement » : le flux du comptoir au salon de son client (les 4 données, paiement au comptoir, enlèvement-emballage-douane en DDP, suivi, assurance en option), le chiffre du panier de référence, « avant votre saison » | Relance « un chiffre » (annexe E) ; panier : annexe Y, fiche 9 |
+| J11 | Appel 2 (+ message vocal) | Objection et timing : ci-dessous | Squelette : annexe E |
+| J14 | Email 3 « de décision » | Objet « Domaine des Trois Cyprès - 1, 2 ou 3 ? » ; « 2 - plus tard » = après le salon ; signature « Belle saison avec Les Restanques » | Break-up 1 / 2 / 3 (annexe E) |
+| J18 | Sortie de cadence | Protéger la relation : ci-dessous | Aucun message |
 
 ### J4 - Appel 1 : permission et diagnostic en 45 secondes
 
 **Accroche permission -** « Bonjour Claire, Adam, de Planet Aura. Je vous appelle à froid, je serai bref. J'ai vu le lancement des Restanques et votre présence annoncée au salon des Vignerons Indépendants. Puis-je vous poser deux questions en 45 secondes ? »
 
-**Raison du call -** « Je ne sais pas encore si nous sommes pertinents pour vous. Notre métier : livrer chez eux les clients étrangers des caveaux, jusqu'aux États-Unis en DDP, taxes payées d'avance. »
+**Q1 · le flux -** « Aujourd'hui, quand un visiteur américain voudrait repartir avec 12 bouteilles, qu'est-ce que vous lui proposez ? »
 
-**Question SPIN situation -** « Aujourd'hui, quand un visiteur américain voudrait repartir avec 12 bouteilles, qu'est-ce que vous lui proposez ? »
+**(Réponses types : rien / La Poste / il se débrouille) -** « C'est exactement le cas que nous traitons : le client paie le transport au comptoir, nous gérons enlèvement, douane, taxes prépayées, assurance en option et livraison chez lui. »
 
-**(Réponses types : rien / La Poste / il se débrouille) -** « C'est exactement le cas que nous traitons : le client paie le transport par carte, nous gérons enlèvement, douane, taxes prépayées, assurance et livraison chez lui. »
+**Q2 · le risque -** « Et quand vous devez refuser, le frein est plutôt la douane, la casse ou le coût pour le client ? »
 
 **Proposition de créneau -** « Le plus parlant, c'est 25 minutes au domaine ou en visio : je cartographie votre flux et je vous montre le simulateur avec VOS vins. Plutôt mardi matin ou jeudi après-midi ? »
 
-**Si « pas le temps » -** « Justement : notre service vous fait gagner du temps. 25 minutes une fois, et ensuite chaque envoi prend 3 minutes sur la plateforme. Quel est le meilleur moment dans votre semaine ? »
-
-### J6 - LinkedIn : l'invitation contextualisée
-
-Jamais d'invitation générique. Message (moins de 300 caractères) :
-
-« Bonjour Claire, bravo pour la cuvée Les Restanques. Nous accompagnons des domaines de Provence sur la livraison de leurs visiteurs étrangers chez eux (USA en DDP notamment). Au plaisir d'échanger, ici ou au salon des Vignerons Indépendants. Adam »
-
-### J8 - Email 2 : prouver la méthode
-
-**Objet :** Domaine des Trois Cyprès - comment ça marche, concrètement
-
-> Bonjour Claire,
->
-> Pas de réponse, c'est peut-être que le « comment » n'est pas clair. Voici le flux réel, de votre comptoir au salon de votre client :
->
-> 1. au caveau, votre équipe collecte 4 données : nombre de bouteilles, poids, valeur, adresse de livraison + date souhaitée,
-> 2. votre client paie le transport par carte et repart les mains libres,
-> 3. nous enlevons chez vous, emballons en cartons homologués, gérons douane et taxes prépayées (DDP),
-> 4. il suit son colis jusqu'à sa porte, couvert jusqu'à 20 000 € par l'assurance souscrite à la commande.
->
-> Un chiffre : 12 bouteilles livrées au Texas, c'est ~210 € de transport, taxes prépayées, assurance en option (3 %). Vos clients américains le paient sans sourciller - c'est le prix de leur excédent bagage, sans le risque.
->
-> 25 minutes pour le voir avec vos vins, avant votre saison ? Je m'adapte aux horaires du caveau.
->
-> Adam
+**Si « pas le temps » -** la parade unique du format court ci-dessus, puis : « Quel est le meilleur moment dans votre semaine ? »
 
 ### J11 - Appel 2 : objection et timing (+ message vocal)
 
-**Accroche permission -** « Bonjour Claire, Adam de Planet Aura. Je vous ai écrit au sujet de vos visiteurs étrangers. Vous avez 30 secondes ? »
+**Accroche -** « Bonjour Claire, Adam de Planet Aura. Je vous ai écrit au sujet de vos visiteurs étrangers. Vous avez 30 secondes ? »
 
-**Raison du call -** « Je préfère un échange court à une relance de plus : mon objectif est de vérifier un cas réel chez vous, pas de présenter Planet Aura à tout prix. »
+**Question · le frein -** « Sur ces ventes au caveau, le principal frein est-il le temps au comptoir, la douane, le coût pour le client ou simplement le timing de votre saison ? »
 
-**Question SPIN situation -** « Sur ces ventes au caveau, le principal frein est-il le temps au comptoir, la douane, le coût pour le client ou simplement le timing de votre saison ? »
+**Proposition de créneau -** « Si le sujet est réel, 25 minutes suffisent - et sinon, dites-le moi et je clos le dossier. Plutôt mardi matin ou jeudi après-midi ? »
 
-**Proposition de créneau -** « Si le sujet est réel, 25 minutes suffisent, au domaine ou en visio - et sinon, dites-le moi et je clos le dossier. Plutôt mardi matin ou jeudi après-midi ? »
+**Si « ce n'est pas le moment » -** « Je comprends, la saison approche. C'est précisément le moment où les visiteurs étrangers affluent : un créneau avant le salon, même tôt le matin ? »
 
-**Si « pas le temps » -** « Je comprends, la saison approche. C'est précisément le moment où les visiteurs étrangers affluent : un créneau avant le salon, même tôt le matin ? »
-
-**Message vocal (si répondeur) -** « Bonjour Claire, Adam de Planet Aura. J'ai vu le lancement des Restanques et votre présence au salon des Vignerons Indépendants. Je cherche juste à vérifier si le cas des visiteurs étrangers qui repartent les mains vides existe chez vous. Je vous renvoie un email avec deux créneaux. Bonne journée. »
-
-### J14 - Email 3 : le break-up
-
-**Objet :** Domaine des Trois Cyprès - 1, 2 ou 3 ?
-
-> Bonjour Claire,
->
-> Trois messages sans réponse, c'est souvent une réponse en soi. Pour ne pas encombrer votre boîte, quel choix décrit le mieux votre situation :
->
-> 1 - maintenant : on cale 25 minutes et je vous montre le simulateur sur vos vins,
-> 2 - plus tard : dites-moi quand (après le salon ?), je vous recontacte à cette date, pas avant,
-> 3 - hors sujet : je clos le dossier, sans relance.
->
-> Une réponse avec 1, 2 ou 3 suffit.
->
-> Belle saison avec Les Restanques,
-> Adam
+**Message vocal (si répondeur) -** le signal (Les Restanques, le salon), l'objectif - vérifier si le cas des visiteurs étrangers qui repartent les mains vides existe chez elle - et l'annonce d'un email avec deux créneaux (consignes en annexe E).
 
 ### J18 - Sortie de cadence (aucun message)
 
-Si Claire n'a réagi à aucune touche, la cadence s'arrête d'elle-même : pas de neuvième message. Le compte bascule en nurture 45 jours (newsletter, contenu), le motif « aucune réaction à J18 » est enregistré dans HubSpot, et aucune nouvelle cadence ne démarre sans vérification d'un nouveau signal. Le Domaine des Trois Cyprès reste ciblé par les campagnes saisonnières (« Prêts pour la saison », « Noël USA ») et par la tournée terrain en Provence.
+Si Claire n'a réagi à aucune touche, la cadence s'arrête d'elle-même : pas de neuvième message. Le compte bascule en nurture 45 jours (newsletter, campagnes saisonnières, rappel avant saison), le motif « aucune réaction à J18 » est enregistré dans HubSpot, et aucune nouvelle cadence ne démarre sans vérification d'un nouveau signal : le silence vaut veille (règle unique au chap. 10). Le Domaine des Trois Cyprès reste ciblé par les campagnes « Prêts pour la saison » et « Noël USA » et par la tournée terrain en Provence.
 
 ### Et après ? Les trois issues possibles
 
-| Issue | Ce qui se passe | Où aller dans le playbook |
-|---|---|---|
-| RDV obtenu (réponse « 1 » ou créneau accepté) | Cadence stoppée, opportunité créée en étape 3, préparation du RDV | Chap. 11-12 (RDV, démo, proposition) + checklist annexe B |
-| Réponse négative (« 3 - hors sujet » ou refus poli) | Cadence stoppée, réponse personnelle sous 4 h, motif qualifié dans le CRM, nurture de fond trimestriel via les campagnes saisonnières | Chap. 10 (campagnes saisonnières, règles d'hygiène) |
-| Silence à J18 | Nurture 45 jours, puis traitement en dormant : nouvelle cadence uniquement sur re-signal vérifié | Chap. 10 (séquence réveil des dormants) + chap. 09 (signaux et entonnoir) |
+Les embranchements sont ceux du chap. 10 ; pour Claire : un rendez-vous obtenu (réponse « 1 » ou créneau accepté) stoppe la cadence et ouvre une opportunité en étape 3, préparée avec la checklist ci-dessus (chap. 11-12) ; un refus (« 3 » ou refus poli) reçoit une réponse personnelle sous 4 h et un motif qualifié dans le CRM ; « 2 - plus tard » crée un rappel daté (après le salon), puis une nouvelle cadence à cette date ; le silence est traité ci-dessus.
 
-Et le cas intermédiaire, la réponse « 2 - plus tard » : sortie de cadence, rappel daté créé, nurture jusqu'à la date indiquée, puis nouvelle cadence.
-
-> 📌 **À RETENIR -** Cet exemple ne se récite pas, il se rejoue : même squelette de 8 touches sur 18 jours, mais un signal réel, des variables vérifiées et jamais le même message sur deux canaux. Toute réponse de Claire, à n'importe quelle touche, arrête l'automatisation et crée une tâche humaine traitée en moins de 4 heures.
+> 📌 **À RETENIR -** Au comptoir, tout part de quatre données (# / kg / € / →) et de six gestes : la fiche réflexe se plastifie. Pour le commercial, deux checklists, un compte rendu CRM champ par champ et le pack adhérent 2026 (annexe T) encadrent le rendez-vous et l'activation. L'exemple Claire se rejoue et ne se récite pas : même squelette ABM, un signal réel, des variables vérifiées, les textes de l'annexe E.

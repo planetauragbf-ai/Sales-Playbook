@@ -230,8 +230,8 @@ module.exports = {
   },
   "ICP 3": {
     "badge": "ICP",
-    "title": "Caviste et cave touristique urbaine",
-    "subtitle": "Flux régulier toute l'année · ~10 % de l'effort · Paris, Nice, Lyon, Bordeaux, Reims",
+    "title": "Caviste et cave touristique",
+    "subtitle": "Flux régulier toute l'année · ~10 % de l'effort · Paris, Nice, Lyon, Bordeaux, Reims, Amboise et caveaux de châteaux",
     "quoteLabel": "CE QU'ON ENTEND SUR LE TERRAIN",
     "quote": "« Ils achètent deux bouteilles souvenirs. Ils en voulaient douze, mais ils rentrent à Chicago en avion. »",
     "portrait": [
@@ -340,7 +340,7 @@ module.exports = {
         "text": "P2 par défaut (motion inbound et passage en boutique), P1 si flux étranger massif et gérant décideur. Tiers A possible : un caviste à fort flux dépasse 150 envois/an. Red flag : vente B2B / CHR dominante."
       }
     ],
-    "aretenir": "Le caviste urbain est un flux régulier douze mois sur douze, sans saisonnalité de vendanges. Vente courte, décision rapide, preuve immédiate : le simulateur et l'order form au comptoir. Chap. 06, 08, 13."
+    "aretenir": "Le caviste est un flux régulier douze mois sur douze, sans saisonnalité de vendanges. Vente courte, décision rapide, preuve immédiate : le simulateur et l'order form au comptoir. Chap. 06, 08, 13."
   },
   "ICP 4": {
     "badge": "ICP",
@@ -761,8 +761,8 @@ module.exports = {
   },
   "Persona C": {
     "badge": "PERSONA C",
-    "title": "Le caviste urbain",
-    "subtitle": "Paris, Nice, Lyon · gérant-décideur · ICP 3",
+    "title": "Le caviste",
+    "subtitle": "Villes et caves touristiques · gérant-décideur · ICP 3",
     "quoteLabel": "DANS SES MOTS",
     "quote": "« Je n'avance pas un euro, et le client repart content avec ses douze bouteilles livrées ? Montrez-moi. »",
     "portrait": [

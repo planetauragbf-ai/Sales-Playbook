@@ -8,4 +8,4 @@
 
 Conditions de lecture, grilles UE / DOM / pays tiers, USA groupage et direct, spiritueux, options et frais. Original : drive.google.com/file/d/19LkZlRSpZX0iz0kbDwBXIe08KyQufqob
 
-> 📌 **À RETENIR -** Ces tarifs sont les **prix officiels 2026 à communiquer tels quels**. La couverture casse/perte (jusqu'à 20 000 €/envoi, emballage homologué) relève de l'assurance ad valorem (3 % de la valeur), qui reste une option - souscrite pour 9 envois sur 10 (89,8 %).
+> 📌 **À RETENIR -** Ces tarifs sont les **prix officiels 2026 à communiquer tels quels**. La couverture casse/perte (jusqu'à 20 000 €/envoi, emballage homologué) relève de l'assurance ad valorem (3 % de la valeur vin + transport), qui reste une option - souscrite sur 89,8 % des expéditions (annexe Y, fiche 1).

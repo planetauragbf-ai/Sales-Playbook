@@ -62,7 +62,7 @@ const UNITS = [
   { id: 'I', file: 'I.md' }, { id: 'J', file: 'J.md' }, { id: 'K', file: 'K.md' }, { id: 'L', file: 'L.md' },
   { id: 'M', file: 'M.md' }, { id: 'N', file: 'N.md' }, { id: 'O', file: 'O.md' }, { id: 'P', file: 'P.md' },
   { id: 'Q', file: 'Q.md' }, { id: 'R', file: 'R.md' }, { id: 'S', file: 'S.md' }, { id: 'T', file: 'T.md' },
-  { id: 'U', file: 'U.md' }, { id: 'V', file: 'V.md' }, { id: 'W', file: 'W.md' }, { id: 'X', file: 'X.md' },
+  { id: 'U', file: 'U.md' }, { id: 'V', file: 'V.md' }, { id: 'W', file: 'W.md' }, { id: 'X', file: 'X.md' }, { id: 'Y', file: 'Y.md' },
 ];
 
 const PARTS = {
@@ -70,7 +70,7 @@ const PARTS = {
   '06': { big: '2', col: PBORDEAUX, tab: 'PARTIE 2 · CIBLER', rom: 'II', num: 'PARTIE 2', title: 'Définir les cibles et les solutions adaptées', sub: 'Les bons comptes, les bonnes réponses', chapters: ['06 · Profils de clients idéaux (ICP)', '07 · Personas et acteurs de la décision', '08 · Correspondance entre enjeux et solutions'] },
   '09': { big: '3', col: POCRE, tab: 'PARTIE 3 · VENDRE', rom: 'III', num: 'PARTIE 3', title: 'Formaliser la prospection et la vente', sub: 'Du premier contact à la signature', chapters: ['09 · Processus d’acquisition et pipeline', '10 · Séquences de prospection et scripts', '11 · Qualification et processus de vente', '12 · Conduite des entretiens (méthode SPIN)', '13 · Argumentaires et objections'] },
   '14': { big: '4', col: NAVY, tab: 'PARTIE 4 · PILOTER', rom: 'IV', num: 'PARTIE 4', title: 'Fournir les outils et organiser le pilotage', sub: 'Outiller, mesurer, faire vivre', chapters: ['14 · Ressources d’aide à la vente', '15 · Organisation et outils', '16 · Activation, fidélisation et SAV', '17 · Indicateurs et méthode de suivi', '18 · Mise à jour et appropriation'] },
-  'A': { big: 'A', col: PBLEU, tab: 'ANNEXES', rom: 'V', num: 'ANNEXES', title: 'Annexes', sub: 'Documents complémentaires', chapters: ['A · Fiches ICP & personas', 'B · Fiche réflexe et modèles', 'C · Chiffres officiels et sources', 'D · Banque des 26 objections', 'E · Scripts et banque SPIN', 'F · Grille tarifaire shipping 2026', 'G · Grille stockage & picking 2026', 'H · Order Form 2026', 'I · Mandat SEPA', 'J · CGS 2026 : essentiel et texte', 'K · Conformité et fiches pays', 'L · Cartes de zones USA, Norvège', 'M · POA Canada : formulaire vierge', 'N · Certificat de Champagne', 'O · Mode d\u2019emploi Planet\u2019Connect', 'P · Manuel & procédure Suède', 'Q · Formulaire de shipping email', 'R · Planet\u2019Stock en images', 'S · Flyer de prospection', 'T · Organigramme et documents', 'U · Onboarding 0-90 jours', 'V · Liens utiles', 'W · Transparence IA', 'X · Sources de la recherche'] },
+  'A': { big: 'A', col: PBLEU, tab: 'ANNEXES', rom: 'V', num: 'ANNEXES', title: 'Annexes', sub: 'Documents complémentaires', chapters: ['A · Fiches ICP & personas', 'B · Fiche réflexe et modèles', 'C · Chiffres officiels et sources', 'D · Banque des 26 objections', 'E · Scripts et banque SPIN', 'F · Grille tarifaire shipping 2026', 'G · Grille stockage & picking 2026', 'H · Order Form 2026', 'I · Mandat SEPA', 'J · CGS 2026 : essentiel et texte', 'K · Conformité et fiches pays', 'L · Cartes de zones USA, Norvège', 'M · POA Canada : formulaire vierge', 'N · Certificat de Champagne', 'O · Mode d\u2019emploi Planet\u2019Connect', 'P · Manuel & procédure Suède', 'Q · Formulaire de shipping email', 'R · Planet\u2019Stock en images', 'S · Flyer de prospection', 'T · Organigramme et documents', 'U · Onboarding 0-90 jours', 'V · Liens utiles', 'W · Transparence IA', 'X · Sources de la recherche', 'Y · Fiches de référence'] },
 };
 
 // ---- Sommaire interactif
@@ -164,6 +164,8 @@ function pushTextEmoji(runs, text, style) {
 // pointillés et cliquable vers sa définition.
 const GLO_VARIANT_OVERRIDES = {
   'DDP / DAP': ['DDP', 'DAP'],
+  'Réserves / Sinistre': ['sinistre', 'Sinistre', 'réserves à la livraison'],
+  'Quota / Franchise douanière': ['franchise douanière', 'quota douanier'],
   'DA / EMCS / DAU': ['EMCS', 'DAU'],
   'MQL / SQL': ['MQL', 'SQL'],
   'POA / SSN': ['POA', 'SSN'],

@@ -2,9 +2,9 @@
 
 *Les pièces que le lecteur ne peut pas consulter ailleurs : trois questionnaires et leurs résultats agrégés, le guide des entretiens VELA, la méthode de validation des personas et deux captures des tableaux de bord cités dans le playbook.*
 
-Les chiffres d'enquête des chap. 04, 07 et 17 et des annexes A et C reposent sur des sources internes que le jury ne peut pas ouvrir : formulaires Google Forms et fichiers de réponses de Planet Aura, étude de marché Bloc 1, back-office Planet'Connect. Elles sont reproduites ici sous forme anonymisée : aucune identité, adresse e-mail, raison sociale ni réponse permettant de reconnaître un répondant ; les réponses ouvertes sont résumées par thème. Seules les annexes A et C citent nommément quelques adhérents répondants, ce que permet la diffusion strictement interne de ce document. Les questions sont reprises mot pour mot des en-têtes des fichiers de réponses, le type de réponse est déduit des réponses enregistrées. Les pourcentages portent sur le nombre de répondants : une question à choix multiples peut dépasser 100 %. Les éléments repris de l'étude de marché Bloc 1 (Euridis, 2025) sont signalés comme tels ; tous les résultats chiffrés de X.1 à X.3 sont recalculés à partir des fichiers de réponses d'origine, ce qui explique les écarts signalés en X.2.
+Les chiffres d'enquête des chap. 04, 07 et 17 et des annexes A et C reposent sur des sources internes que le jury ne peut pas ouvrir : formulaires Google Forms et fichiers de réponses de Planet Aura (Drive), étude de marché Bloc 1 (référence complète en X.4), back-office Planet'Connect. Elles sont reproduites ici sous forme anonymisée : rien qui permette de reconnaître un répondant, réponses ouvertes résumées par thème (seules les annexes A et C citent nommément quelques adhérents répondants, ce que permet la diffusion strictement interne de ce document). Les questions sont reprises mot pour mot des en-têtes des fichiers de réponses, le type de réponse est déduit des réponses enregistrées ; les pourcentages portent sur le nombre de répondants, une question à choix multiples pouvant dépasser 100 %. Tous les résultats de X.1 à X.3 ont été recalculés en octobre 2026 à partir des fichiers de réponses d'origine, d'où les écarts avec l'étude Bloc 1 signalés en X.2. Le projet VELA, objet de X.2 à X.4, reste en développement et se présente au conditionnel (annexe Y, fiche 14).
 
-> **REPÈRE -** Ces enquêtes sont des études internes documentées : preuve de **niveau 3** dans la hiérarchie de l'annexe C. Elles se citent avec leur date de collecte et leur base (« 23 adhérents, janv.-févr. 2025 »), jamais comme une mesure de tout le portefeuille.
+> **REPÈRE -** Ces enquêtes sont des études internes documentées : preuve de **niveau 3** dans la hiérarchie de l'annexe C. Leur règle de citation (base et date : « 23 adhérents, janv.-févr. 2025 » ; avis Google public préféré dans une proposition écrite) y est fixée.
 
 ## X.1 Enquête de satisfaction clients 2024 (collecte janvier-février 2025)
 
@@ -14,10 +14,9 @@ Les chiffres d'enquête des chap. 04, 07 et 17 et des annexes A et C reposent su
 | Canal | E-mail « Chers clients » adressé aux adhérents, puis une relance « Votre avis compte ! » |
 | Collecte | Du 22/01/2025 au 14/02/2025 : 9 réponses du 22 au 24/01, 13 le 30/01, 1 le 14/02 |
 | Population de référence | Adhérents clients 2024 : 131 comptes ayant expédié en 2024 (fichier client 2024) |
-| Répondants · taux | 23 répondants, soit un taux de réponse estimé à environ 18 % des 131 comptes du fichier client 2024 |
-| Libellé | « 2024 » désigne l'année évaluée : la collecte a eu lieu en janvier-février 2025 |
+| Répondants · taux | 23 répondants, soit un taux de réponse estimé à environ 18 % |
 
-*Source : formulaire et fichier de réponses, Drive Planet Aura (23 lignes, colonnes d'identification exclues) ; objet : satisfaction 2024 et attentes pour le nouvel espace adhérent ; recalcul à partir du fichier de réponses, octobre 2026.*
+*Objet : satisfaction 2024 et attentes pour le nouvel espace adhérent ; fichier de 23 lignes, colonnes d'identification exclues.*
 
 ### Le questionnaire
 
@@ -70,12 +69,9 @@ Réponses ouvertes (Q9, Q13 à Q18), en nombre de répondants sur 23 : **points 
 |---|---|
 | Outil | Google Forms « Questionnaire (Clients actuels) - Évolution vers un transport écologique avec Planet Aura » (créé le 19/03/2025), 17 questions hors identification |
 | Canal | E-mailing aux clients actifs à partir du 26/03/2025 (taux d'ouverture 59 %, selon l'étude Bloc 1) |
-| Population sollicitée | 140 clients actifs : 160, moins les 20 « ambassadeurs » réservés aux entretiens (X.4) |
+| Population sollicitée | 140 clients : les 160 clients actifs recensés par l'étude Bloc 1, moins les 20 « ambassadeurs » réservés aux entretiens (X.4) |
 | Collecte | Du 26/03/2025 au 03/06/2025 : 17 réponses du 26/03 au 13/04, 3 réponses les 2 et 3/06 |
 | Répondants · taux | 20 répondants, soit un taux de réponse de 14 % |
-| Profil | 11 vignerons, 9 cavistes ; 11 clients depuis plus de 3 ans ; 12 exportent avec Planet Aura d'abord vers les États-Unis |
-
-*Source : formulaire et fichier de réponses, Drive Planet Aura (20 lignes) ; population et taux d'ouverture : reprise partielle de l'étude de marché Bloc 1 (Euridis, 2025) ; recalcul à partir du fichier de réponses, octobre 2026. Projet VELA en développement, toujours conditionnel (chap. 04).*
 
 | Question (libellé du formulaire) | Résultats (n = 20) |
 |---|---|
@@ -109,9 +105,8 @@ Réponses ouvertes (Q9, Q13 à Q18), en nombre de répondants sur 23 : **points 
 | Canal | Lien e-mail adressé aux prospects (publipostage « Vela » du 26/03 au 04/04/2025) |
 | Collecte | 1 réponse le 28/03/2025, 3 réponses le 02/06/2025 |
 | Répondants · taux | 4 répondants, dont 1 client ayant aussi répondu à X.2 : échantillon indicatif, sans valeur statistique ; taux de réponse non calculable |
-| Profil | 2 négociants, 1 producteur de vin ou de champagne, 1 « entreprise » d'une autre activité ; 3 structures de 6 à 20 salariés |
 
-*Source : formulaire et fichier de réponses, Drive Planet Aura (4 lignes) ; recalcul à partir du fichier de réponses, octobre 2026. Choix unique sauf mention ; avec n = 4, résultats en effectifs, sans pourcentage ni verbatim.*
+*Lecture : choix unique sauf mention ; avec n = 4, résultats en effectifs, sans pourcentage ni verbatim.*
 
 | Question (libellé du formulaire) | Réponses (n = 4) |
 |---|---|
@@ -140,7 +135,7 @@ Réponses ouvertes (Q9, Q13 à Q18), en nombre de répondants sur 23 : **points 
 
 ### Les entretiens semi-directifs VELA (2025)
 
-Dans le cadre de l'étude de marché Bloc 1, 20 clients « ambassadeurs », principalement des producteurs indépendants et des cavistes, ont été sollicités pour un entretien semi-directif sur le projet VELA (projet en développement, toujours conditionnel - chap. 04). **10 entretiens ont été réalisés en 2025** ; les autres n'ont pas abouti (absence de réponse, indisponibilité, report sans suite). Ces 20 clients ont été exclus de l'envoi du questionnaire X.2. L'étude ne détaille pas les entretiens un par un : seuls le guide (60 minutes prévues) et la synthèse rédigée sont reproduits, sans identité ni date individuelle.
+Dans le cadre de l'étude de marché Bloc 1, les 20 clients « ambassadeurs », principalement des producteurs indépendants et des cavistes, ont été sollicités pour un entretien semi-directif sur le projet VELA. **10 entretiens ont été réalisés en 2025** ; les autres n'ont pas abouti (absence de réponse, indisponibilité, report sans suite). Seuls le guide (60 minutes prévues) et la synthèse rédigée sont reproduits, sans identité ni date individuelle.
 
 *Guide d'entretien : introduction (5 min) - présentation succincte du projet VELA, objectifs de l'entretien, assurance de confidentialité ; puis six thèmes ; conclusion (5 min) - remerciements et suites données.*
 
@@ -169,16 +164,16 @@ Synthèse rédigée dans l'étude : un accueil favorable au principe (innovant, 
 
 ### La validation des personas : des échanges écrits, pas des entretiens
 
-Les portraits de l'annexe A (« Synthèse des échanges écrits 2024-2026 ») ne reposent sur **aucun entretien formel**. Ils consolident des échanges écrits réels de 2024 à 2026 (fils e-mail, demandes de devis, SAV, formations), les 47 réponses aux trois enquêtes X.1 à X.3 et 15 avis Google publics, croisés avec 70 contacts professionnels dont le rôle est connu (échanges e-mail, bases salons et CRM). Les formulations reprises « dans les mots des intéressés » viennent de ces écrits et de ces avis. Des entretiens dédiés avec chaque persona sont prévus au T1 2027 (chap. 18) : ils compléteront les fiches à la révision suivante.
+Les portraits de l'annexe A (« Synthèse des échanges écrits 2024-2026 ») ne reposent sur **aucun entretien formel**. Ils consolident des échanges écrits réels de 2024 à 2026 (fils e-mail, demandes de devis, SAV, formations), les 47 réponses aux trois enquêtes X.1 à X.3 et des avis Google publics, croisés avec les contacts professionnels dont le rôle est connu (effectifs et méthode de l'étude de validation : annexe A). Les formulations reprises « dans les mots des intéressés » viennent de ces écrits et de ces avis. Des entretiens dédiés avec chaque persona sont prévus au T1 2027 (chap. 18).
 
 ## X.5 Extraction des tableaux de bord Planet'Connect du 24/09/2026
 
-Les chiffres d'activité du playbook proviennent d'une extraction unique des tableaux de bord d'administration de Planet'Connect (Gestion, Commercial, Logistique) du 24/09/2026 : table officielle et source S14 en annexe C. Ces écrans n'étant pas accessibles au lecteur, les vues du corps (chap. 01, 02, 06, 09 et 17) sont complétées par deux captures contrôlées : ni nom d'adhérent ou de client final, ni e-mail, ni numéro d'expédition, ni adresse d'administration.
+Extraction unique des tableaux de bord d'administration de Planet'Connect (Gestion, Commercial, Logistique) du 24/09/2026 : table officielle et source S14 en annexe C, statut de chaque chiffre en annexe Y, fiche 12. Ces écrans n'étant pas accessibles au lecteur, deux captures contrôlées complètent les vues du corps : ni nom d'adhérent ou de client final, ni e-mail, ni numéro d'expédition, ni adresse d'administration.
 
 ### Assurance ad valorem souscrite, 24/09/2025 - 24/09/2026
 
-L'option est souscrite sur 89,8 % des expéditions en 12 mois glissants, le chiffre repris aux chap. 02 et 17 et dans la table officielle. L'assurance reste une option (3 % ad valorem, jusqu'à 20 000 € par envoi), jamais incluse d'office.
+L'option est souscrite sur 89,8 % des expéditions en 12 mois glissants, pour un objectif ≥ 90 % (chap. 17) ; les conditions de l'option sont en annexe Y, fiche 1.
 
 ### CA, shippings et bouteilles par mois, janvier-septembre 2026
 
-La saisonnalité 2026 : montée de mars à juin, repli en juillet et août, reprise en septembre, avec un CA mensuel de l'ordre de 160 à 170 k€ en mai, juin et septembre (chap. 02).
+La saisonnalité 2026 : janvier-février sous 40 k€, montée de mars à juin, repli dès juillet et creux en août (103 k€), reprise en septembre ; trois pics à 160-170 k€ (mai, juin, septembre), les plus hauts de l'historique (lecture commerciale au chap. 01, courbe pluriannuelle au chap. 02).

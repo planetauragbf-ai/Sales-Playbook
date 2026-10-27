@@ -91,16 +91,14 @@ module.exports['10'] = (module.exports['10'] || []).concat([
 // chap. 00 - le cycle de vente en cartes (design maquette)
 module.exports['00'] = [
   { after: '^Notre métier en une image', img: 'diagrams/d00_metier.png', w: 520, caption: 'Notre métier en une image : cinq étapes, un seul responsable de bout en bout' },
-  { after: '^Le cycle de vente en bref', img: 'diagrams/d00_cycle.png', w: 520, caption: 'Le cycle de vente en bref : six étapes, l’activation comme vraie ligne d’arrivée' },
 ];
 
 // schémas complémentaires (escalade, trame SPIN, pyramide de preuve)
 module.exports['03'] = (module.exports['03'] || []).concat([
   { after: '^Les règles de fonctionnement', img: 'diagrams/d03_escalade.png', w: 520, caption: 'Le circuit d\u2019escalade : ce que chacun d\u00e9cide, et quand passer la main' },
 ]);
-module.exports['12'] = (module.exports['12'] || []).concat([
-  { after: '^La trame du rendez-vous de d\u00e9couverte|^La trame du rendez-vous', img: 'diagrams/d12_trame.png', w: 520, caption: 'La trame des 35 minutes : six s\u00e9quences, une sortie attendue par s\u00e9quence' },
-]);
+// chap. 12 : schéma de la trame de 35 minutes retiré (trame unique de 45 min au chap. 11)
+
 module.exports['C'] = (module.exports['C'] || []).concat([
   { after: '^La hi\u00e9rarchie de preuve', img: 'diagrams/d14_preuve.png', w: 440, caption: 'La hi\u00e9rarchie de preuve : citer le niveau le plus haut disponible' },
 ]);
