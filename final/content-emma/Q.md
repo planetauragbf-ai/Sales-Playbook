@@ -1,6 +1,6 @@
-# Annexe Q - Formulaire de shipping par email
+# Annexe Q · Formulaire de shipping par email
 
-*L'alternative normalisée, au format Excel, à la saisie sur la plateforme, pour les adhérents qui préfèrent l'email - à retourner à contact@planet-aura.com.*
+*L'alternative normalisée, au format Excel, à la saisie sur la plateforme, pour les adhérents qui préfèrent l'email, à retourner à contact@planet-aura.com.*
 
 Original (tableur) : drive.google.com/file/d/1qseseA4vCgayD5FIv9_gtVXsOy-CBLZR
 
@@ -8,7 +8,7 @@ Original (tableur) : drive.google.com/file/d/1qseseA4vCgayD5FIv9_gtVXsOy-CBLZR
 
 ## La checklist avant envoi
 
-Les champs qui bloquent un dossier s'ils manquent - à vérifier avant de transmettre le formulaire d'un adhérent :
+Les champs qui bloquent un dossier s'ils manquent, à vérifier avant de transmettre le formulaire d'un adhérent :
 
 - [ ] Donneur d'ordre complet (entreprise, contact, email, téléphone)
 - [ ] Lieu d'enlèvement avec adresse complète

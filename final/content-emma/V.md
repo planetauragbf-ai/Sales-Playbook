@@ -1,4 +1,4 @@
-# Annexe V - Liens utiles
+# Annexe V · Liens utiles
 
 *L'index de tous les documents et ressources du playbook : chaque document officiel a son annexe, chaque lien est permanent. Ne jamais envoyer un document non listé ici sans validation.*
 
@@ -15,7 +15,7 @@
 | Mode d'emploi Planet'Connect, 37 pages (annexe O) | drive.google.com/file/d/1EZhHDdzdbYrLIBJaDj_mLAG9wwJpTjb6 |
 | Manuel utilisateur 2026 (annexe P) | drive.google.com/file/d/1LDVgBTtuW9ZPWJ-c35HWxNaPyEMxPbUY |
 | Formulaire de shipping par email, tableur (annexe Q) | drive.google.com/file/d/1qseseA4vCgayD5FIv9_gtVXsOy-CBLZR |
-| Codes postaux desservis par État - RI, OK, NJ, IL, DE (annexe L) | Liens directs en annexe L |
+| Codes postaux desservis par État : RI, OK, NJ, IL, DE (annexe L) | Liens directs en annexe L |
 | Procédures internes (sinistres, cotations, UE & pays tiers, USA, first/last miles) | Drive interne → Nouveaux process 2026 |
 | Matrice de compétences « Missions Planet Aura » | Drive interne → Nouveaux process 2026 → Informations internes |
 | Boutiques adhérentes connectées à l'API (démonstrations en rendez-vous) | terre-mistral.com · shop.beaupre.fr · domaine-pieracci.com/wine-shipping · dynamiccellars.com · domainenais.fr/boutique |

@@ -1,4 +1,4 @@
-# Annexe G - Grille tarifaire stockage & picking 2026
+# Annexe G · Grille tarifaire stockage & picking 2026
 
 *Le document officiel en 3 pages : grilles palettes et colis, fournitures, assurance et conditions de l'entrepôt de Castres.*
 

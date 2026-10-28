@@ -14,7 +14,7 @@
 | **CGS** | Conditions Générales de Services : le contrat qui fait foi avec l'adhérent (annexe J) |
 | **Commissionnaire de transport** | Organisateur qui achemine la marchandise **en son nom propre**, avec obligation de résultat : notre statut (annexe Y, fiche 10) ; le commettant, qui la lui confie, est l'adhérent |
 | **Freight forwarding** | Commission de transport international : organiser l'acheminement en choisissant transporteurs, modes et formalités. Notre marché, dominé par des généralistes |
-| **Mandataire** | Organisateur agissant **au nom de son mandant** : la responsabilité reste chez le client - jamais à confondre avec le commissionnaire |
+| **Mandataire** | Organisateur agissant **au nom de son mandant** : la responsabilité reste chez le client ; jamais à confondre avec le commissionnaire |
 | **Transitaire** | Terme courant pour l'organisateur de transport international (commissionnaire ou mandataire) |
 
 ## 2 · Offre, plateforme & paiement
@@ -62,7 +62,7 @@
 |---|---|
 | **FEVS / OIV** | Fédération des Exportateurs de Vins & Spiritueux / Organisation Internationale de la Vigne et du Vin : nos sources marché (annexe C) |
 | **Œnotourisme** | Tourisme des vignobles : le caveau devient un canal international (chap. 01) |
-| **Vedette / parité / bruit** | Les quatre statuts d'un argument : vedette (ouvrir et prouver), parité utile (rassurer), innovation (piloter), bruit (retirer) - chap. 05 |
+| **Vedette / parité / bruit** | Les quatre statuts d'un argument : vedette (ouvrir et prouver), parité utile (rassurer), innovation (piloter), bruit (retirer) ; chap. 05 |
 
 ## 5 · Ciblage & prospection
 
@@ -116,18 +116,18 @@
 | **Forecast** | Prévision de CA qui suit l'étape de l'opportunité, jamais saisie à la main (chap. 17) |
 | **SLA** | Délai maximal convenu pour agir : répondre, relancer, transmettre (annexe Y, fiche 15) |
 | **Ticketing (à venir)** | Chaque sinistre deviendrait un ticket Planet'Connect ; en attendant, email et photos (annexe Y, fiche 2) |
-| **Tiers A/B/C** | Potentiel annuel d'envois : fixe le rythme de suivi, jamais la priorité (PA-FIT) - chap. 06 |
+| **Tiers A/B/C** | Potentiel annuel d'envois : fixe le rythme de suivi, jamais la priorité (PA-FIT) ; chap. 06 |
 | **Win rate** | Part des propositions transformées en signatures ; le win/loss analyse ce qui a fait la différence (chap. 17) |
 
 ## FAQ express (réponses en une phrase)
 
-1. **Combien coûte l'adhésion, y a-t-il un minimum ?** - Aucun frais, abonnement ni minimum : seule dépense initiale, le premier lot de cartons, les suivants offerts (annexe Y, fiche 8).
-2. **Qui paie le transport ?** - Le client final, au comptoir avec son vin ; le point de vente règle Planet Aura par SEPA, ou le client paie directement (annexe Y, fiche 8).
-3. **Vous livrez où ?** - UE, Royaume-Uni, Suisse, USA, Canada, Asie, Océanie, DOM : grille en annexe F, recherche possible au-delà (annexe Y, fiche 13).
-4. **Délais ?** - Toujours estimés, en jours ouvrables, hors douane : 5 jours pour les USA en direct comme pour le Japon (annexe F ; USA : annexe Y, fiche 3).
-5. **Et si ça casse ?** - Avec l'option assurance : réserves à la livraison ou signalement avec photos, puis réexpédition ou remboursement au choix du client (annexe Y, fiches 1 et 2).
-6. **Combien de bouteilles max aux USA ?** - Un plafond par personne et par envoi ; au-delà, plusieurs envois ou des destinataires distincts et réels (annexe Y, fiche 3).
-7. **Vous prenez les spiritueux ?** - Oui, vers les USA uniquement, en groupage DDP (annexe Y, fiche 6).
-8. **Caisse bois, palette, B2B, pays absent de la grille ?** - Hors grille : devis écrit par l'exploitation, aucun prix donné par le commercial (annexe Y, fiche 13).
-9. **Mon client peut-il suivre son colis ?** - Oui : numéro de suivi envoyé automatiquement par email à chaque étape.
-10. **Qui appeler ?** - L'exploitation (coordonnées au chap. 03), la direction pour toute exception.
+1. **Combien coûte l'adhésion, y a-t-il un minimum ?** Aucun frais, abonnement ni minimum : seule dépense initiale, le premier lot de cartons, les suivants offerts (annexe Y, fiche 8).
+2. **Qui paie le transport ?** Le client final, au comptoir avec son vin ; le point de vente règle Planet Aura par SEPA, ou le client paie directement (annexe Y, fiche 8).
+3. **Vous livrez où ?** UE, Royaume-Uni, Suisse, USA, Canada, Asie, Océanie, DOM : grille en annexe F, recherche possible au-delà (annexe Y, fiche 13).
+4. **Délais ?** Toujours estimés, en jours ouvrables, hors douane : 5 jours pour les USA en direct comme pour le Japon (annexe F ; USA : annexe Y, fiche 3).
+5. **Et si ça casse ?** Avec l'option assurance : réserves à la livraison ou signalement avec photos, puis réexpédition ou remboursement au choix du client (annexe Y, fiches 1 et 2).
+6. **Combien de bouteilles max aux USA ?** Un plafond par personne et par envoi ; au-delà, plusieurs envois ou des destinataires distincts et réels (annexe Y, fiche 3).
+7. **Vous prenez les spiritueux ?** Oui, vers les USA uniquement, en groupage DDP (annexe Y, fiche 6).
+8. **Caisse bois, palette, B2B, pays absent de la grille ?** Hors grille : devis écrit par l'exploitation, aucun prix donné par le commercial (annexe Y, fiche 13).
+9. **Mon client peut-il suivre son colis ?** Oui : numéro de suivi envoyé automatiquement par email à chaque étape.
+10. **Qui appeler ?** L'exploitation (coordonnées au chap. 03), la direction pour toute exception.

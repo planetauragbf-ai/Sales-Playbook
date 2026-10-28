@@ -43,7 +43,7 @@
 
 ## Sites et documents d'organismes
 
-- CIVC - COMITÉ CHAMPAGNE (s. d.). *Le Certificat d'Origine Champagne (CO)* [aide en ligne de l'application eCO]. Comité interprofessionnel du vin de Champagne, Épernay. https://eco.comitechampagne.fr/Pub/Help/Fr/1_1__le_certificat_d_origine_champagne__co_.htm. Consulté le 24/10/2026. [S10] (site institutionnel : https://www.champagne.fr/fr)
+- CIVC, COMITÉ CHAMPAGNE (s. d.). *Le Certificat d'Origine Champagne (CO)* [aide en ligne de l'application eCO]. Comité interprofessionnel du vin de Champagne, Épernay. https://eco.comitechampagne.fr/Pub/Help/Fr/1_1__le_certificat_d_origine_champagne__co_.htm. Consulté le 24/10/2026. [S10] (site institutionnel : https://www.champagne.fr/fr)
 - CNIL (2026). *Communications par voie électronique aux prospects et clients : quelles règles respecter ?* [fiche pratique]. Commission nationale de l'informatique et des libertés, Paris, 10/06/2026. https://www.cnil.fr/fr/communication-electronique-quelles-regles. Consulté le 24/10/2026. [S21]
 - CNIL (2026). *Recommandation relative aux pixels de suivi dans les courriers électroniques* [recommandation, version adoptée le 12/03/2026]. CNIL, Paris, publiée le 14/04/2026. https://www.cnil.fr/sites/default/files/2026-04/recommandation-pixels_de_suivi.pdf. Consulté le 24/10/2026. [S22]
 - DGDDI (s. d.). *Exporter du vin et des produits viti-vinicoles* [fiche démarche]. Direction générale des douanes et droits indirects, Montreuil. https://www.douane.gouv.fr/demarche/exporter-du-vin-et-des-produits-viti-vinicoles. Consulté le 24/10/2026. [S11]

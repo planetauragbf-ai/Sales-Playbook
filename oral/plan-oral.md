@@ -5,15 +5,15 @@
 - Le jury N'A PAS LU le dossier écrit. Ne pas « lire » le playbook.
 - Déroulé imposé : Introduction/contexte (accroche macro, enjeux pour l'entreprise) + Diagnostic (entreprise, offres & clients, stratégie/positionnement/concurrents) = 3 à 5 min ; présentation des parties 8 à 14 = ~15 min ; synthèse et ouverture = 1 min.
 - Parties 8 à 14 du CDC : 8 ICP · 9 buyer personae · 10 enjeux des cibles et solutions · 11 processus de vente (étape par étape, durée idéale du cycle, tunnels SPIN IMPÉRATIFS) · 12 ressources utiles au processus de vente · 13 éléments de Sales Operations et objectifs de chacun · 14 indicateurs de performance + méthode de suivi.
-- Grille - Capacités d'animation /6 : débute par un « grab attention » (Start with why) lié au sujet ; rythme et dynamisme ; bon niveau de langage + vocabulaire métier ; support graphique agréable et dynamique ; grammaire et orthographe ; temps (max 20 min).
-- Grille - Argumentation et analyse /14 : titres précis et impactants dans le sommaire ; introduction qui amène le sujet ; analyse du marché en lien avec l'entreprise ; présente l'entreprise (organigramme, CA, offre, concurrence, cibles) ; processus de vente + tunnels SPIN ; ressources utiles (PRÉCISES, RÉALISTES, ÉCHÉANCÉES, CHIFFRÉES) ; éléments de Sales Operations et objectifs de chacun ; (cas SPB existant : sans objet - Planet Aura n'avait pas de playbook) ; indicateurs de performance ; synthèse en lien avec les enjeux ; ouverture.
+- Grille · Capacités d'animation /6 : débute par un « grab attention » (Start with why) lié au sujet ; rythme et dynamisme ; bon niveau de langage + vocabulaire métier ; support graphique agréable et dynamique ; grammaire et orthographe ; temps (max 20 min).
+- Grille · Argumentation et analyse /14 : titres précis et impactants dans le sommaire ; introduction qui amène le sujet ; analyse du marché en lien avec l'entreprise ; présente l'entreprise (organigramme, CA, offre, concurrence, cibles) ; processus de vente + tunnels SPIN ; ressources utiles (PRÉCISES, RÉALISTES, ÉCHÉANCÉES, CHIFFRÉES) ; éléments de Sales Operations et objectifs de chacun ; (cas SPB existant : sans objet, Planet Aura n'avait pas de playbook) ; indicateurs de performance ; synthèse en lien avec les enjeux ; ouverture.
 
 ## Règles de confidentialité pour l'oral
 - Le top 10 clients est strictement interne : à l'oral, ANONYMISER (« une cave touristique du Val de Loire », « une maison de champagne »), pas de CA par client.
 - Jamais de données personnelles de clients finaux (pas de nom d'auteur d'avis particulier).
 - Aucun identifiant, mot de passe, clé API.
 - Projets en développement (VELA, Gant Blanc, Planet'Stock, entrepôt agréé, annexe Champagne) = au conditionnel.
-- Assurance : couvre jusqu'à 20 000 €/envoi mais reste une OPTION (3 % ad valorem), souscrite sur 89,8 % des envois (jamais « 9 envois sur 10 ») - jamais « incluse ».
+- Assurance : couvre jusqu'à 20 000 €/envoi mais reste une OPTION (3 % ad valorem), souscrite sur 89,8 % des envois (jamais « 9 envois sur 10 ») ; jamais « incluse ».
 - Paiement : mandat SEPA par défaut, virement accepté, CB possible (adhérent ou client final) mais chronophage.
 - Droits de douane US : ne jamais citer de taux à l'oral ; le dossier indique 10 % depuis février 2026 (15 % d'août 2025 à février 2026), mais des sources externes divergent depuis juillet 2026 : renvoyer au simulateur, vérifier la veille.
 

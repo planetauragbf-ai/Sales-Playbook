@@ -1,8 +1,8 @@
-# Annexe L - Cartes de zones USA & Norvège
+# Annexe L · Cartes de zones USA & Norvège
 
-*Les cartes de référence à vérifier avant d'annoncer une faisabilité - l'État, puis le code postal (chap. 04 et annexe K).*
+*Les cartes de référence à vérifier avant d'annoncer une faisabilité : l'État, puis le code postal (chap. 04 et annexe K).*
 
-> ⚠️ **LE POINT DE VIGILANCE -** Pour la Norvège, annoncer la zone en disant **Sud ou Nord** et vérifier le **comté** : sur la carte 2026 ci-dessous, la Zone 1 est le Nord (Finnmark, Troms, Nordland, Trøndelag) et la Zone 2 le Sud. Avant de chiffrer, contrôler la correspondance avec la grille tarifaire (annexe F) - en cas d'écart, la grille et Planet'Connect font foi.
+> ⚠️ **LE POINT DE VIGILANCE :** Pour la Norvège, annoncer la zone en disant **Sud ou Nord** et vérifier le **comté** : sur la carte 2026 ci-dessous, la Zone 1 est le Nord (Finnmark, Troms, Nordland, Trøndelag) et la Zone 2 le Sud. Avant de chiffrer, contrôler la correspondance avec la grille tarifaire (annexe F) ; en cas d'écart, la grille et Planet'Connect font foi.
 
 En rendez-vous : vérifier l'État sur la carte, puis le code postal dans les listes ci-dessous avant tout engagement. Au moindre doute, Planet'Connect ou l'exploitation tranche.
 

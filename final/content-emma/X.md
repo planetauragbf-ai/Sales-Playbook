@@ -1,10 +1,10 @@
-# Annexe X - Sources de la recherche : enquêtes, entretiens et données
+# Annexe X · Sources de la recherche : enquêtes, entretiens et données
 
 *Les pièces que le lecteur ne peut pas consulter ailleurs : trois questionnaires et leurs résultats agrégés, le guide des entretiens VELA, la méthode de validation des personas et deux captures des tableaux de bord cités dans le playbook.*
 
 Les chiffres d'enquête des chap. 04, 07 et 17 et des annexes A et C reposent sur des sources internes que le jury ne peut pas ouvrir : formulaires Google Forms et fichiers de réponses de Planet Aura (Drive), étude de marché Bloc 1 (référence complète en X.4), back-office Planet'Connect. Elles sont reproduites ici sous forme anonymisée : rien qui permette de reconnaître un répondant, réponses ouvertes résumées par thème (seules les annexes A et C citent nommément quelques adhérents répondants, ce que permet la diffusion strictement interne de ce document). Les questions sont reprises mot pour mot des en-têtes des fichiers de réponses, le type de réponse est déduit des réponses enregistrées ; les pourcentages portent sur le nombre de répondants, une question à choix multiples pouvant dépasser 100 %. Tous les résultats de X.1 à X.3 ont été recalculés en octobre 2026 à partir des fichiers de réponses d'origine, d'où les écarts avec l'étude Bloc 1 signalés en X.2. Le projet VELA, objet de X.2 à X.4, reste en développement et se présente au conditionnel (annexe Y, fiche 14).
 
-> **REPÈRE -** Ces enquêtes sont des études internes documentées : preuve de **niveau 3** dans la hiérarchie de l'annexe C. Leur règle de citation (base et date : « 23 adhérents, janv.-févr. 2025 » ; avis Google public préféré dans une proposition écrite) y est fixée.
+> **REPÈRE :** Ces enquêtes sont des études internes documentées : preuve de **niveau 3** dans la hiérarchie de l'annexe C. Leur règle de citation (base et date : « 23 adhérents, janv.-févr. 2025 » ; avis Google public préféré dans une proposition écrite) y est fixée.
 
 ## X.1 Enquête de satisfaction clients 2024 (collecte janvier-février 2025)
 
@@ -59,7 +59,7 @@ Les chiffres d'enquête des chap. 04, 07 et 17 et des annexes A et C reposent su
 | Q19 Probabilité de recommandation *(1-5)* | Moyenne **4,87** : 20 notes de 5, 3 notes de 4 |
 | Q20 Note globale *(1-5)* | Moyenne **4,65** : 15 notes de 5, 8 notes de 4, aucune note sous 4 |
 
-Réponses ouvertes (Q9, Q13 à Q18), en nombre de répondants sur 23 : **points forts** - réactivité et rapidité d'exécution 19 (83 %), espace adhérent jugé simple et clair 10 (43 %), disponibilité et écoute de l'équipe 8 (35 %), simulateur de prix cité spontanément 7 (30 %), professionnalisme 5, gestion des douanes et taxes 3, gestion des casses 3 ; **axes d'amélioration** - espace adhérent (modernité, ergonomie, recherche, saisie, affichage) 16 (70 %), prix et lisibilité des taxes et frais 5, facturation (envoi, récapitulatif) 5, précision du suivi et information des clients finaux 4, délais d'acheminement vers les États-Unis 4, intégration aux logiciels de gestion 4, couverture (codes postaux USA, nouvelles destinations, enlèvements) 3.
+Réponses ouvertes (Q9, Q13 à Q18), en nombre de répondants sur 23. **Points forts** : réactivité et rapidité d'exécution 19 (83 %), espace adhérent jugé simple et clair 10 (43 %), disponibilité et écoute de l'équipe 8 (35 %), simulateur de prix cité spontanément 7 (30 %), professionnalisme 5, gestion des douanes et taxes 3, gestion des casses 3 ; **axes d'amélioration** : espace adhérent (modernité, ergonomie, recherche, saisie, affichage) 16 (70 %), prix et lisibilité des taxes et frais 5, facturation (envoi, récapitulatif) 5, précision du suivi et information des clients finaux 4, délais d'acheminement vers les États-Unis 4, intégration aux logiciels de gestion 4, couverture (codes postaux USA, nouvelles destinations, enlèvements) 3.
 
 *Lecture : codage thématique, un répondant compté une fois par thème ; trois des sept questions ouvertes portent sur l'espace adhérent (Q15 à Q17). Une seconde vague (questionnaire 2025, 9 réponses du 2 au 6 janvier 2026) n'est pas exploitée : effectif trop faible pour comparer.*
 
@@ -67,7 +67,7 @@ Réponses ouvertes (Q9, Q13 à Q18), en nombre de répondants sur 23 : **points 
 
 | Fiche technique | Détail |
 |---|---|
-| Outil | Google Forms « Questionnaire (Clients actuels) - Évolution vers un transport écologique avec Planet Aura » (créé le 19/03/2025), 17 questions hors identification |
+| Outil | Google Forms « Questionnaire (Clients actuels) : Évolution vers un transport écologique avec Planet Aura » (créé le 19/03/2025), 17 questions hors identification |
 | Canal | E-mailing aux clients actifs à partir du 26/03/2025 (taux d'ouverture 59 %, selon l'étude Bloc 1) |
 | Population sollicitée | 140 clients : les 160 clients actifs recensés par l'étude Bloc 1, moins les 20 « ambassadeurs » réservés aux entretiens (X.4) |
 | Collecte | Du 26/03/2025 au 03/06/2025 : 17 réponses du 26/03 au 13/04, 3 réponses les 2 et 3/06 |
@@ -95,13 +95,13 @@ Réponses ouvertes (Q9, Q13 à Q18), en nombre de répondants sur 23 : **points 
 
 *Lecture : choix unique sauf mention. La limite « 2 réponses maximum » n'était pas bloquante (jusqu'à 7 forces cochées), d'où des totaux supérieurs à 200 % en Q5 (300 %) et Q13 (210 %). Le questionnaire clients ne comportait pas de question sur le délai acceptable : le « délai ≤ 4 semaines » du chap. 04 vient des seuls prospects (X.3).*
 
-> ⚠️ **LE POINT DE VIGILANCE -** L'étude de marché Bloc 1 (2025) présentait cette enquête avec 40 réponses et 70 % d'intérêt. Le recalcul ligne par ligne du fichier de réponses horodaté donne **20 réponses (26/03-03/06/2025) et 60 % d'intérêt** : ce sont les chiffres retenus par le playbook.
+> ⚠️ **LE POINT DE VIGILANCE :** L'étude de marché Bloc 1 (2025) présentait cette enquête avec 40 réponses et 70 % d'intérêt. Le recalcul ligne par ligne du fichier de réponses horodaté donne **20 réponses (26/03-03/06/2025) et 60 % d'intérêt** : ce sont les chiffres retenus par le playbook.
 
 ## X.3 Enquête « voilier-cargo » auprès des prospects (2025, échantillon indicatif)
 
 | Fiche technique | Détail |
 |---|---|
-| Outil | Google Forms « Questionnaire prospect - Étude sur l'intérêt pour le transport écologique par voilier cargo » (créé le 19/03/2025), 18 questions hors identification |
+| Outil | Google Forms « Questionnaire prospect : Étude sur l'intérêt pour le transport écologique par voilier cargo » (créé le 19/03/2025), 18 questions hors identification |
 | Canal | Lien e-mail adressé aux prospects (publipostage « Vela » du 26/03 au 04/04/2025) |
 | Collecte | 1 réponse le 28/03/2025, 3 réponses le 02/06/2025 |
 | Répondants · taux | 4 répondants, dont 1 client ayant aussi répondu à X.2 : échantillon indicatif, sans valeur statistique ; taux de réponse non calculable |
@@ -129,7 +129,7 @@ Réponses ouvertes (Q9, Q13 à Q18), en nombre de répondants sur 23 : **points 
 | Q17 Selon vous, le transport écologique peut-il être un argument commercial auprès de vos clients ? | Oui, clairement 3 ; oui, partiellement 1 |
 | Q18 Seriez-vous volontaire pour participer à un projet pilote de Planet Aura autour du transport par voilier cargo ? | Oui, à recontacter 2 ; potentiellement, selon les détails 1 ; non 1 |
 
-> **REPÈRE -** Les « contacts chauds » du chap. 04 additionnent les réponses « oui, à recontacter » des deux enquêtes : 4 clients (X.2) et 2 prospects (X.3), soit 6 réponses mais **5 contacts distincts**, un même répondant ayant rempli les deux questionnaires.
+> **REPÈRE :** Les « contacts chauds » du chap. 04 additionnent les réponses « oui, à recontacter » des deux enquêtes : 4 clients (X.2) et 2 prospects (X.3), soit 6 réponses mais **5 contacts distincts**, un même répondant ayant rempli les deux questionnaires.
 
 ## X.4 Entretiens et échanges
 
@@ -137,25 +137,25 @@ Réponses ouvertes (Q9, Q13 à Q18), en nombre de répondants sur 23 : **points 
 
 Dans le cadre de l'étude de marché Bloc 1, les 20 clients « ambassadeurs », principalement des producteurs indépendants et des cavistes, ont été sollicités pour un entretien semi-directif sur le projet VELA. **10 entretiens ont été réalisés en 2025** ; les autres n'ont pas abouti (absence de réponse, indisponibilité, report sans suite). Seuls le guide (60 minutes prévues) et la synthèse rédigée sont reproduits, sans identité ni date individuelle.
 
-*Guide d'entretien : introduction (5 min) - présentation succincte du projet VELA, objectifs de l'entretien, assurance de confidentialité ; puis six thèmes ; conclusion (5 min) - remerciements et suites données.*
+*Guide d'entretien : introduction (5 min) : présentation succincte du projet VELA, objectifs de l'entretien, assurance de confidentialité ; puis six thèmes ; conclusion (5 min) : remerciements et suites données.*
 
-1. *Profil du répondant et contexte professionnel (5 min)* - Pouvez-vous présenter brièvement votre activité professionnelle et votre rôle ?
+1. *Profil du répondant et contexte professionnel (5 min)* : Pouvez-vous présenter brièvement votre activité professionnelle et votre rôle ?
 2. Quel est votre volume actuel d'exportation de vins et/ou champagnes ?
 3. Utilisez-vous d'autres moyens logistiques pour vos exportations ?
-4. *Perception initiale du transport maritime durable (10 min)* - Que pensez-vous spontanément lorsque l'on parle de transport maritime durable ?
+4. *Perception initiale du transport maritime durable (10 min)* : Que pensez-vous spontanément lorsque l'on parle de transport maritime durable ?
 5. Avez-vous déjà entendu parler des voiliers cargos ? Si oui, quel est votre avis à leur sujet ?
 6. Quels avantages percevez-vous à utiliser un transport maritime bas-carbone pour vos exportations ?
 7. Quelles réserves éventuelles avez-vous concernant ce type de transport ?
-8. *Attentes spécifiques vis-à-vis du projet VELA (10 min)* - Quels critères sont prioritaires pour vous dans le choix d'un transporteur pour vos vins/champagnes (délai, coût, sécurité, empreinte carbone…) ?
+8. *Attentes spécifiques vis-à-vis du projet VELA (10 min)* : Quels critères sont prioritaires pour vous dans le choix d'un transporteur pour vos vins/champagnes (délai, coût, sécurité, empreinte carbone…) ?
 9. Dans quelles conditions seriez-vous prêt(e) à adopter la solution proposée par VELA ?
 10. Y a-t-il des services ou garanties supplémentaires que vous souhaiteriez voir associés au transport maritime par voilier cargo ?
-11. *Freins potentiels à l'adoption du transport par voilier cargo (10 min)* - Quels obstacles majeurs percevez-vous dans l'utilisation d'un voilier cargo (délai, coûts, sécurité, disponibilité, flexibilité…) ?
+11. *Freins potentiels à l'adoption du transport par voilier cargo (10 min)* : Quels obstacles majeurs percevez-vous dans l'utilisation d'un voilier cargo (délai, coûts, sécurité, disponibilité, flexibilité…) ?
 12. Comment pourrions-nous lever ces obstacles selon vous ?
 13. Pensez-vous que vos clients finaux seraient sensibles au choix d'un transport durable ? Pourquoi ?
-14. *Leviers et argumentaires clés à développer (10 min)* - Quels arguments vous convaincraient le plus facilement d'opter pour ce mode de transport ?
+14. *Leviers et argumentaires clés à développer (10 min)* : Quels arguments vous convaincraient le plus facilement d'opter pour ce mode de transport ?
 15. Quel rôle pourrait jouer la communication sur le transport durable dans votre stratégie marketing et commerciale ?
 16. Seriez-vous intéressé(e) par une certification ou un label indiquant l'utilisation d'un transport maritime durable ?
-17. *Suggestions et recommandations (5 min)* - Avez-vous des suggestions particulières pour améliorer l'offre proposée ?
+17. *Suggestions et recommandations (5 min)* : Avez-vous des suggestions particulières pour améliorer l'offre proposée ?
 18. Souhaitez-vous ajouter quelque chose que nous n'avons pas abordé ?
 
 Synthèse rédigée dans l'étude : un accueil favorable au principe (innovant, éthique, différenciant) ; des attentes de différenciation sur les marchés sensibles (États-Unis, Canada) et de cohérence RSE, un surcoût jugé acceptable s'il sert une stratégie premium ; des freins de méconnaissance, de fiabilité (délais, fréquence des départs, météo) et de prix pour les petites structures ; une adhésion conditionnée à la sécurité des produits, à un tarif accessible et à une chaîne intégrée du premier au dernier kilomètre. Deux propos rapportés : « Pour certains marchés, ça peut clairement être un argument commercial » ; « On aime l'idée, mais on ne sait pas comment ça marche concrètement ».
@@ -170,7 +170,7 @@ Les portraits de l'annexe A (« Synthèse des échanges écrits 2024-2026 ») ne
 
 Extraction unique des tableaux de bord d'administration de Planet'Connect (Gestion, Commercial, Logistique) du 24/09/2026 : table officielle et source S14 en annexe C, statut de chaque chiffre en annexe Y, fiche 12. Ces écrans n'étant pas accessibles au lecteur, deux captures contrôlées complètent les vues du corps : ni nom d'adhérent ou de client final, ni e-mail, ni numéro d'expédition, ni adresse d'administration.
 
-### Assurance ad valorem souscrite, 24/09/2025 - 24/09/2026
+### Assurance ad valorem souscrite, 24/09/2025 · 24/09/2026
 
 L'option est souscrite sur 89,8 % des expéditions en 12 mois glissants, pour un objectif ≥ 90 % (chap. 17) ; les conditions de l'option sont en annexe Y, fiche 1.
 

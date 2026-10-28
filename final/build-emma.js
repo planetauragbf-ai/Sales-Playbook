@@ -503,7 +503,7 @@ function ficheBody(f) {
       width: { size: CONTENT_W, type: WidthType.DXA }, shading: { type: ShadingType.CLEAR, fill: DARKBG },
       margins: { top: 68, bottom: 68, left: 215, right: 195 },
       children: [new Paragraph({ spacing: { before: 18, after: 18 }, children: [
-        new TextRun({ text: 'À RETENIR -', bold: true, size: 16, color: 'F4C9A8' }),
+        new TextRun({ text: 'À RETENIR', bold: true, size: 16, color: 'F4C9A8' }),
         new TextRun({ text: '  ' }),
         ...inlineRuns(f.aretenir, { size: 17, color: 'FFFFFF' }),
       ] })],
@@ -594,7 +594,7 @@ function convertBody(md, unit, opts = {}) {
       if (lvl === 1) {
         // Tête de chapitre : kicker partie, numéro · titre serif, sous-titre, filet, mini-sommaire
         h1Seen = true;
-        const hm = txt.match(/^(Annexe\s+)?([0-9A-Y]{1,2})\s*[—–-]\s*(.*)$/) || [null, '', '', txt];
+        const hm = txt.match(/^(Annexe\s+)?([0-9A-Y]{1,2})\s*[—–·-]\s*(.*)$/) || [null, '', '', txt];
         const isAnnex = !!hm[1];
         const num = hm[2]; const title = hm[3] || txt;
         const part = PARTS[unit.id];
@@ -779,7 +779,7 @@ function convertBody(md, unit, opts = {}) {
         const lm = qi === 0 ? q.match(/^([⚠️💡🚫❗✅📌🚨]*\s*)\*\*([^*]+?)(\s*[—:-])?\*\*\s*(.*)$/) : null;
         if (lm) {
           kids = [
-            new TextRun({ text: lm[2].toUpperCase().replace(/^LE POINT/, 'LE POINT') + (lm[3] ? ' -' : ''), bold: true, size: 16, color: labelColor }),
+            new TextRun({ text: lm[2].toUpperCase().replace(/^LE POINT/, 'LE POINT') , bold: true, size: 16, color: labelColor }),
             new TextRun({ text: '  ' }),
             ...inlineRuns(lm[4] || '', { size: 18, color: txtColor })
           ];
@@ -1046,7 +1046,7 @@ function tocChildren() {
   };
   const entry = (h, labelColor) => {
     const page = tocPages[h.key] !== undefined ? String(tocPages[h.key]) : '0';
-    const m = h.text.match(/^(Annexe\s+)?([0-9A-Y]{1,2})\s*[—–-]\s*(.*)$/);
+    const m = h.text.match(/^(Annexe\s+)?([0-9A-Y]{1,2})\s*[—–·-]\s*(.*)$/);
     if (m && TOC_SHORT[m[3]]) m[3] = TOC_SHORT[m[3]];
     const kids = [];
     if (m) {
@@ -1118,18 +1118,18 @@ function tocChildren() {
     sw(PBLEU), new TextRun({ text: 'Annexes', size: 16, color: INK }),
   ]));
   paras.push(lgLine([new TextRun({ text: 'L’onglet de bordure, les titres, les tableaux et les encadrés de repère de chaque chapitre suivent la couleur de sa partie.', size: 15, color: GRAY })]));
-  paras.push(lgLine([new TextRun({ text: '\u25cf  ', bold: true, size: 15, color: DEEP_OF[TEAL] }), new TextRun({ text: 'Le socle : six chapitres et la fiche r\u00e9flexe (annexe B) \u00e0 ma\u00eetriser avant J+30 (certification en annexe U) - le reste se consulte quand le cas se pr\u00e9sente.', size: 15, color: GRAY })]));
+  paras.push(lgLine([new TextRun({ text: '\u25cf  ', bold: true, size: 15, color: DEEP_OF[TEAL] }), new TextRun({ text: 'Le socle : six chapitres et la fiche r\u00e9flexe (annexe B) \u00e0 ma\u00eetriser avant J+30 (certification en annexe U) ; le reste se consulte quand le cas se pr\u00e9sente.', size: 15, color: GRAY })]));
   paras.push(lgTitle('LES ENCADRÉS'));
-  paras.push(lgLine([sw(TEAL), new TextRun({ text: 'REPÈRE', bold: true, size: 15, color: DEEP_OF[TEAL] }), new TextRun({ text: ' - contexte et points d’appui (teinte de la partie)', size: 15, color: GRAY })]));
-  paras.push(lgLine([sw(ORANGE), new TextRun({ text: 'LE CONSEIL / LE POINT DE VIGILANCE', bold: true, size: 15, color: ORANGE }), new TextRun({ text: ' - bonnes pratiques et pièges', size: 15, color: GRAY })]));
-  paras.push(lgLine([sw(RED), new TextRun({ text: 'INTERDIT', bold: true, size: 15, color: RED }), new TextRun({ text: ' - règles bloquantes, sans exception', size: 15, color: GRAY })]));
-  paras.push(lgLine([sw(GREEN), new TextRun({ text: 'CE QUI FONCTIONNE', bold: true, size: 15, color: GREEN }), new TextRun({ text: ' - pratiques éprouvées sur le terrain', size: 15, color: GRAY })]));
-  paras.push(lgLine([sw(NAVY), new TextRun({ text: 'À RETENIR', bold: true, size: 15, color: NAVY }), new TextRun({ text: ' - la synthèse à mémoriser, en fin de chapitre', size: 15, color: GRAY })]));
+  paras.push(lgLine([sw(TEAL), new TextRun({ text: 'REPÈRE', bold: true, size: 15, color: DEEP_OF[TEAL] }), new TextRun({ text: ' · contexte et points d’appui (teinte de la partie)', size: 15, color: GRAY })]));
+  paras.push(lgLine([sw(ORANGE), new TextRun({ text: 'LE CONSEIL / LE POINT DE VIGILANCE', bold: true, size: 15, color: ORANGE }), new TextRun({ text: ' · bonnes pratiques et pièges', size: 15, color: GRAY })]));
+  paras.push(lgLine([sw(RED), new TextRun({ text: 'INTERDIT', bold: true, size: 15, color: RED }), new TextRun({ text: ' · règles bloquantes, sans exception', size: 15, color: GRAY })]));
+  paras.push(lgLine([sw(GREEN), new TextRun({ text: 'CE QUI FONCTIONNE', bold: true, size: 15, color: GREEN }), new TextRun({ text: ' · pratiques éprouvées sur le terrain', size: 15, color: GRAY })]));
+  paras.push(lgLine([sw(NAVY), new TextRun({ text: 'À RETENIR', bold: true, size: 15, color: NAVY }), new TextRun({ text: ' · la synthèse à mémoriser, en fin de chapitre', size: 15, color: GRAY })]));
   paras.push(lgTitle('GLOSSAIRE ET NAVIGATION'));
   paras.push(lgLine([
     new TextRun({ text: 'Les termes comme ', size: 15, color: GRAY }),
     new TextRun({ text: 'adhérent', size: 15, color: DEEP_OF[TEAL], underline: { type: UnderlineType.DOTTED, color: DEEP_OF[TEAL] } }),
-    new TextRun({ text: ' renvoient à leur définition au glossaire (après le chap. 18, avant la bibliographie) - à leur première apparition dans chaque chapitre, cliquables en version numérique. Toutes les entrées de ce sommaire et des sous-sommaires « DANS CE CHAPITRE » sont également cliquables.', size: 15, color: GRAY }),
+    new TextRun({ text: ' renvoient à leur définition au glossaire (après le chap. 18, avant la bibliographie), à leur première apparition dans chaque chapitre, cliquables en version numérique. Toutes les entrées de ce sommaire et des sous-sommaires « DANS CE CHAPITRE » sont également cliquables.', size: 15, color: GRAY }),
   ]));
   return paras;
 }
@@ -1379,7 +1379,7 @@ sections.push({
               border: { top: { style: BorderStyle.SINGLE, size: 6, color: '4A7B8E' } },
               alignment: AlignmentType.CENTER, spacing: { before: 220, after: 90 },
               indent: { left: 900, right: 900 },
-              children: [new TextRun({ text: 'Document interne et confidentiel - r\u00e9serv\u00e9 \u00e0 l\u2019\u00e9quipe commerciale & marketing Planet Aura', size: 18, color: 'D7E5EA' })]
+              children: [new TextRun({ text: 'Document interne et confidentiel, r\u00e9serv\u00e9 \u00e0 l\u2019\u00e9quipe commerciale & marketing Planet Aura', size: 18, color: 'D7E5EA' })]
             }),
             new Paragraph({
               alignment: AlignmentType.CENTER, spacing: { after: 900 },

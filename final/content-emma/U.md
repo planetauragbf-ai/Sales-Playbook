@@ -1,8 +1,8 @@
-# Annexe U - Parcours d'onboarding 0-90 jours
+# Annexe U · Parcours d'onboarding 0-90 jours
 
 *Le planning remis au nouvel arrivant le jour 1 : jour par jour le premier mois, puis semaine par semaine jusqu'à J+90. Paliers, preuves et règle de progression : avant-propos (« Vos 90 premiers jours ») ; volumes hebdomadaires : contrat minimal d'activité (chap. 15) ; SLA et règles CRM : annexe Y, fiche 15.*
 
-#### Semaine 1 - Immersion : comprendre l'entreprise, les outils et le terrain
+#### Semaine 1 · Immersion : comprendre l'entreprise, les outils et le terrain
 
 | Jour | Activités | Avec | Livrable |
 |---|---|---|---|
@@ -12,7 +12,7 @@
 | Jeu. | Formation Planet'Connect (16 modules, annexe O), simulateur sur 10 scénarios (UE, UK, USA, Canada, spiritueux) | Emma | 10 devis justes au simulateur |
 | Ven. | Rituels en observateur (pipeline, commerce-ops), lecture des chap. 01-03, bilan de semaine | Floriane, Adam | Questions consignées |
 
-## Semaine 2 - Maîtrise de l'offre : chiffrer, expliquer et cadrer sans aide
+## Semaine 2 · Maîtrise de l'offre : chiffrer, expliquer et cadrer sans aide
 
 | Jour | Activités | Avec | Livrable |
 |---|---|---|---|
@@ -22,7 +22,7 @@
 | Jeu. | Shadow calls : 5 appels écoutés (cold call caveau, permission 45 s, relance), débrief | Adam | Grille d'écoute remplie |
 | Ven. | Formation caveau observée chez un adhérent ; sinistres (annexe Y, fiche 2) | Adam et équipe logistique | Fiche réflexe comptoir maîtrisée |
 
-## Semaine 3 - Terrain accompagné : faire, en binôme
+## Semaine 3 · Terrain accompagné : faire, en binôme
 
 | Jour | Activités | Avec | Livrable |
 |---|---|---|---|
@@ -31,7 +31,7 @@
 | Jeu. | Appels supervisés : 10 appels de cadence, 10 emails personnalisés (chap. 10) | Adam | Appels loggés le jour même, 1 créneau obtenu |
 | Ven. | Co-rédaction d'une proposition (email récap + documentation 2026 + accès), les 26 objections à l'oral (annexe D) | Floriane | Proposition envoyée, objections sues |
 
-## Semaine 4 - Certification et lancement : premier rendez-vous seul
+## Semaine 4 · Certification et lancement : premier rendez-vous seul
 
 | Jour | Activités | Avec | Livrable |
 |---|---|---|---|
@@ -40,7 +40,7 @@
 | Jeu. | Formation caveau animée (30 min, chap. 16) chez un nouvel adhérent, demande de recommandation | Emma | Adhérent formé, 1 recommandation |
 | Ven. | Certification J+30 (les quatre fondamentaux et les trois preuves de l'avant-propos), objectifs J+60 fixés, proposition d'amélioration du playbook | Floriane, Emma | Certification signée, objectifs écrits |
 
-## Mois 2 - Gagner en autonomie commerciale (J+31 → J+60)
+## Mois 2 · Gagner en autonomie commerciale (J+31 → J+60)
 
 Chaque semaine : 25 appels · 25 emails · 4-6 RDV · 2 visites · 3 demandes de recommandation (S7 : + 8 contacts salon).
 
@@ -51,7 +51,7 @@ Chaque semaine : 25 appels · 25 emails · 4-6 RDV · 2 visites · 3 demandes de
 | S7 | Salon ou tournée terrain par appellation (RDV prébookés, suivi < 48 h), cotation hors grille avec l'exploitation | 8 RDV qualifiés, 1 devis hors grille suivi |
 | S8 | Premier adhérent signé et activé (annexe Y, fiche 16), analyse de ses 3 premières pertes | 1 signature, 3 motifs de perte enregistrés, bilan J+60 |
 
-## Mois 3 - Piloter son activité (J+61 → J+90)
+## Mois 3 · Piloter son activité (J+61 → J+90)
 
 | Semaine | Priorités | Jalon |
 |---|---|---|
@@ -63,4 +63,4 @@ Chaque semaine : 25 appels · 25 emails · 4-6 RDV · 2 visites · 3 demandes de
 
 Les cinq rituels d'équipe (cadences, durées et sorties obligatoires : chap. 17) s'appliquent dès l'arrivée, avec une montée en responsabilité : **signaux chauds** pris en main dès la S3 ; **pipeline** en observateur en S1-S2, puis ses propres deals ; **commerce-opérations** : ses faisabilités dès la S3 ; **performance** mensuelle : ses chiffres dès le mois 2 ; **playbook** trimestriel : sa proposition d'amélioration à J+90. La feuille de route commerciale budgétée qui encadre cette montée en charge est au chap. 14.
 
-> 📌 **À RETENIR -** Trois mois, trois paliers : certifié à J+30, autonome à J+60, pilote à J+90 - ce qui se négocie, c'est l'ordre des blocs, jamais leur existence. Chaque semaine ajoute une responsabilité dans les rituels, et chaque adhérent signé se prouve par son premier envoi réel (annexe Y, fiche 16).
+> 📌 **À RETENIR :** Trois mois, trois paliers : certifié à J+30, autonome à J+60, pilote à J+90 ; ce qui se négocie, c'est l'ordre des blocs, jamais leur existence. Chaque semaine ajoute une responsabilité dans les rituels, et chaque adhérent signé se prouve par son premier envoi réel (annexe Y, fiche 16).

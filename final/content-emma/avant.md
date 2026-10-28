@@ -45,39 +45,39 @@ Enfin, je n’oublie pas mes camarades du Mastère Marketing & Digital Business 
 
 Pour finir, mes pensées vont à ma famille pour son soutien constant tout au long de mon parcours. Une pensée toute particulière pour mes grands-parents et ma mère, qui m’ont toujours encouragée, accompagnée et poussée à croire en mes projets et, également à Hugo, mon compagnon, pour sa patience dans mes périodes de doute.
 
-**Méthode et outils.** La mise en page de ce document a été assistée par une IA (Claude, Anthropic), créditée conformément au cahier des charges : maquette, pagination, sommaire et renvois cliquables, schémas dans la charte graphique, contrôles de mise en forme. Le fond - analyses, argumentaires, chiffres et procédures - est issu de la documentation 2026, des dashboards Planet'Connect, des enquêtes (annexe X) et du travail de l'équipe, vérifié et validé humainement. Le périmètre détaillé et les principaux prompts sont présentés en annexe W.
+**Méthode et outils.** La mise en page de ce document a été assistée par une IA (Claude, Anthropic), créditée conformément au cahier des charges : maquette, pagination, sommaire et renvois cliquables, schémas dans la charte graphique, contrôles de mise en forme. Le fond (analyses, argumentaires, chiffres et procédures) est issu de la documentation 2026, des dashboards Planet'Connect, des enquêtes (annexe X) et du travail de l'équipe, vérifié et validé humainement. Le périmètre détaillé et les principaux prompts sont présentés en annexe W.
 
 ## Confidentialité
 
-Ce Sales Playbook est un document de diffusion interne à Planet Aura, réservé à l'équipe commerciale, au marketing et à la direction. Une seule exception est autorisée : sa communication aux évaluateurs d'Euridis Business School, dans le strict cadre de l'évaluation du diplôme et avec l'accord de la direction - ces évaluateurs s'engagent alors à ne pas le reproduire, l'utiliser ou le communiquer à une autre fin.
+Ce Sales Playbook est un document de diffusion interne à Planet Aura, réservé à l'équipe commerciale, au marketing et à la direction. Une seule exception est autorisée : sa communication aux évaluateurs d'Euridis Business School, dans le strict cadre de l'évaluation du diplôme et avec l'accord de la direction ; ces évaluateurs s'engagent alors à ne pas le reproduire, l'utiliser ou le communiquer à une autre fin.
 
 Il contient des chiffres d'activité, des grilles et conditions tarifaires, des procédures internes et des références nominatives : il ne doit jamais être transféré, reproduit ou communiqué, en totalité ou en partie, à un prospect, un client ou un partenaire. Seuls sortent de l'entreprise les supports approuvés par la direction : les six documents officiels 2026 (annexe T), les devis et simulations Planet'Connect, et tout support validé par la direction (flyer à jour, cas client avec accord écrit). En cas de doute sur ce qui peut être montré, la question se pose avant l'envoi, jamais après.
 
-> 🚫 **INTERDIT -** Transférer ce document ou en montrer des extraits (captures d'écran comprises) à quiconque hors de l'entreprise et des évaluateurs Euridis habilités : les chiffres internes, les références nominatives et les marges de manœuvre commerciales qu'il contient sont à usage strictement interne.
+> 🚫 **INTERDIT :** Transférer ce document ou en montrer des extraits (captures d'écran comprises) à quiconque hors de l'entreprise et des évaluateurs Euridis habilités : les chiffres internes, les références nominatives et les marges de manœuvre commerciales qu'il contient sont à usage strictement interne.
 
 \page
 
 ## Les certitudes de Floriane
 
-Bienvenue chez Planet Aura. Nous avons fait un choix simple et exigeant : ne transporter qu'un seul type de produit, mais le transporter mieux que quiconque. Le vin, le champagne et les spiritueux ne sont pas des marchandises comme les autres : derrière chaque bouteille, il y a un vigneron, une récolte, une réputation - et derrière chaque colis que nous expédions, cette promesse à tenir, intacte, jusqu'à l'autre bout du monde.
+Bienvenue chez Planet Aura. Nous avons fait un choix simple et exigeant : ne transporter qu'un seul type de produit, mais le transporter mieux que quiconque. Le vin, le champagne et les spiritueux ne sont pas des marchandises comme les autres : derrière chaque bouteille, il y a un vigneron, une récolte, une réputation ; et derrière chaque colis que nous expédions, cette promesse à tenir, intacte, jusqu'à l'autre bout du monde.
 
 Nous sommes commissionnaire de transport. Ce n'est pas un détail juridique : nous organisons le transport en notre nom propre et nous portons une obligation de résultat sur l'ensemble de la chaîne. Quand un client nous confie ses bouteilles, il ne nous confie pas une simple expédition : il nous confie la promesse qu'il a faite à son propre client.
 
-> « Vos clients américains méritent mieux qu'un colis bloqué à la douane. » - Notre conviction, et notre porte d'entrée commerciale.
+> « Vos clients américains méritent mieux qu'un colis bloqué à la douane. », notre conviction, et notre porte d'entrée commerciale.
 
-En quelques années, nous sommes passés de quelques expéditions à plus de 200 clients actifs et un chiffre d'affaires dépassant le million d'euros, avec une filiale aux États-Unis qui nous permet d'accompagner nos clients jusqu'au dernier kilomètre. Notre ambition est claire : devenir la référence du transport international du vin pour les professionnels de la filière, et prouver qu'exigence et responsabilité vont de pair - jusqu'à préparer, avec le voilier-cargo VELA, une option maritime décarbonée pour la traversée transatlantique.
+En quelques années, nous sommes passés de quelques expéditions à plus de 200 clients actifs et un chiffre d'affaires dépassant le million d'euros, avec une filiale aux États-Unis qui nous permet d'accompagner nos clients jusqu'au dernier kilomètre. Notre ambition est claire : devenir la référence du transport international du vin pour les professionnels de la filière, et prouver qu'exigence et responsabilité vont de pair, jusqu'à préparer, avec le voilier-cargo VELA, une option maritime décarbonée pour la traversée transatlantique.
 
 Ce que nous attendons de vous tient en quelques mots. De la rigueur, parce que nos clients nous jugent sur notre fiabilité. De l'écoute, parce qu'on ne vend pas une solution logistique sans comprendre l'enjeu humain qui se trouve derrière. De l'honnêteté, parce qu'une promesse non tenue coûte toujours plus cher qu'un dossier refusé.
 
 Fiabilité, proximité, sens du détail, responsabilité : ce sont nos quatre repères. Ils ne sont pas affichés sur un mur, ils se vivent dans chaque devis, chaque appel, chaque colis.
 
-**Floriane Février** - Fondatrice & Gérante
+**Floriane Février**, Fondatrice & Gérante
 
 ## Le mot d'accueil d'Emma et Adam
 
 Vous faites partie d'une équipe petite, soudée et ambitieuse. Chez Planet Aura, personne n'est un simple exécutant : chacun voit l'effet concret de son travail, du premier échange avec un prospect jusqu'à la photo d'un colis bien arrivé à l'autre bout du monde. C'est ce qui rend ce métier passionnant et exigeant.
 
-Notre façon de travailler - la boussole d'équipe - tient en trois idées simples :
+Notre façon de travailler, la boussole d'équipe, tient en trois idées simples :
 
 1. **On dit ce qu'on fait, et on fait ce qu'on dit.** Un client préfère toujours une vérité utile à une promesse confortable : si un délai est tendu, on le dit, si un envoi présente un risque, on l'explique.
 2. **On apprend ensemble.** Le vin, la douane, les Incoterms, les droits d'accises : personne ne maîtrise tout en arrivant. Ce playbook est là pour accélérer votre montée en puissance, et vos collègues aussi. Posez vos questions, toujours.
@@ -85,13 +85,13 @@ Notre façon de travailler - la boussole d'équipe - tient en trois idées simpl
 
 Lisez ce playbook, annotez-le, revenez-y. Mais souvenez-vous qu'aucun guide ne remplace le terrain : c'est en écoutant vos clients que vous deviendrez un excellent commercial. Bonne lecture.
 
-**Emma** - Chargée de projets & développement · **Adam** - Commercial
+**Emma**, Chargée de projets & développement · **Adam**, Commercial
 
 ## À propos de ce playbook
 
 > « Et comment je fais pour le rapporter chez moi ? »
 
-Pendant que les tarifs douaniers font la une - les exports français de vins et spiritueux vers les USA ont chuté de 21 % en 2025 (droits d'avril, 15 % jusqu'en février 2026, dollar faible : FEVS, bilan 2025 ; CP du 01/08/2025) -, 5,4 millions de visiteurs étrangers ont parcouru nos vignobles en 2023 (Atout France). Ils posent tous cette question au comptoir. La plupart repartent avec deux bouteilles au lieu de douze.
+Les tarifs douaniers font la une : les exports français de vins et spiritueux vers les USA ont chuté de 21 % en 2025 (droits d'avril, dollar faible : FEVS, bilan 2025). Pendant ce temps, 5,4 millions de visiteurs étrangers ont parcouru nos vignobles en 2023 (Atout France), et tous posent cette question au comptoir. La plupart repartent avec deux bouteilles au lieu de douze.
 
 Chez Planet Aura, cette question a une réponse : 6 643 expéditions en douze mois, 64,5 % vers les États-Unis, taxes estimées réglées à la commande, assurance proposée en option à chaque envoi. Ce playbook explique comment la vendre, à qui, avec quelles preuves. Plus les règles se durcissent, plus un spécialiste qui les maîtrise devient précieux.
 
@@ -104,7 +104,7 @@ Chez Planet Aura, cette question a une réponse : 6 643 expéditions en douze mo
 
 > « On ne vend pas du transport. On rassure des professionnels. »
 
-Ce document est le référentiel opérationnel de vente de Planet Aura, commissionnaire de transport spécialisé dans l'expédition internationale B2B2C de vins, champagnes et spiritueux. Il rassemble, en dix-huit chapitres compacts - les annexes regroupant les documents et outils réutilisables -, ce qu'un commercial doit connaître, dire et faire pour recruter, activer et fidéliser des adhérents : domaines, maisons de champagne, cavistes, acteurs de l'œnotourisme et distilleries.
+Ce document est le référentiel opérationnel de vente de Planet Aura, commissionnaire de transport spécialisé dans l'expédition internationale B2B2C de vins, champagnes et spiritueux. Il rassemble, en dix-huit chapitres compacts (les annexes regroupant les documents et outils réutilisables), ce qu'un commercial doit connaître, dire et faire pour recruter, activer et fidéliser des adhérents : domaines, maisons de champagne, cavistes, acteurs de l'œnotourisme et distilleries.
 
 Il est construit à partir de la documentation officielle 2026 (CGS, grilles, formulaires, manuel utilisateur et mode d'emploi Planet'Connect : annexes T et P), des procédures internes 2026 (sinistres, cotations, USA), des dashboards de gestion Planet'Connect (extraction du 24/09/2026) et de sources de marché vérifiées (FEVS, OIV, Atout France, XERFI, Winalist : annexe C et bibliographie).
 
@@ -118,7 +118,7 @@ Il est construit à partir de la documentation officielle 2026 (CGS, grilles, fo
 
 **Le plan.** Le document suit le cycle de travail du commercial en quatre parties. La première analyse l'entreprise et son offre : marché, diagnostic, organisation, catalogue et tarifs, concurrence. La deuxième définit les cibles : profils de clients idéaux, personas et comité d'achat, correspondance entre enjeux et solutions. La troisième formalise la prospection et la vente : pipeline, séquences et scripts, qualification, méthode SPIN, argumentaires et objections. La quatrième fournit les outils et organise le pilotage : ressources, Sales Operations, fidélisation et SAV, indicateurs, mise à jour. Glossaire et bibliographie précèdent les annexes, qui regroupent ce qui se réemploie séparément : grilles tarifaires, conditions générales, fiche réflexe et checklists, conformité par pays, chiffres et documents officiels, sources de la recherche (annexe X), fiches de référence (annexe Y).
 
-> 📌 **À RETENIR -** Un fil conducteur traverse l'ensemble : le prospect n'achète pas un transport, il cherche à réduire son risque. Chaque chapitre sert à démontrer, cible par cible et preuve par preuve, que confier ses expéditions à Planet Aura est la décision la moins risquée pour lui et pour ses clients.
+> 📌 **À RETENIR :** Un fil conducteur traverse l'ensemble : le prospect n'achète pas un transport, il cherche à réduire son risque. Chaque chapitre sert à démontrer, cible par cible et preuve par preuve, que confier ses expéditions à Planet Aura est la décision la moins risquée pour lui et pour ses clients.
 
 ## Comment l'utiliser
 
@@ -130,7 +130,7 @@ Il est construit à partir de la documentation officielle 2026 (CGS, grilles, fo
 | En charge du suivi adhérents | Chap. 16, 17 |
 | Manager commercial | Chap. 09, 15, 17, 18 |
 
-**Maîtriser ou consulter.** Tout n'est pas à apprendre par cœur. Le **socle** - chap. 00, 02, 04, 06, 08 et 13, les six règles d'or ci-dessous et la fiche réflexe (annexe B) - se maîtrise avant J+30 et fait l'objet de la certification (annexe U) : il est marqué d'un ● au sommaire. Tout le reste est de la **référence**, à consulter quand le cas se présente : conformité par pays, procédures SAV, scripts complets, annexes documentaires.
+**Maîtriser ou consulter.** Tout n'est pas à apprendre par cœur. Le **socle** (chap. 00, 02, 04, 06, 08 et 13, les six règles d'or ci-dessous et la fiche réflexe de l'annexe B) se maîtrise avant J+30 et fait l'objet de la certification (annexe U) : il est marqué d'un ● au sommaire. Tout le reste est de la **référence**, à consulter quand le cas se présente : conformité par pays, procédures SAV, scripts complets, annexes documentaires.
 
 **Les termes reliés au glossaire.** À leur première apparition dans un chapitre, les termes définis au glossaire (après le chap. 18) sont soulignés de pointillés : en version numérique, un clic renvoie à leur définition.
 
@@ -138,14 +138,14 @@ Il est construit à partir de la documentation officielle 2026 (CGS, grilles, fo
 
 1. **Nous vendons de la sérénité, pas du transport.** L'adhérent vend plus de vin parce que la question « comment je le ramène chez moi ? » a une réponse simple.
 2. **Le service est vendu au client final par l'adhérent.** Notre premier travail : rendre le point de vente capable et confiant de vendre notre prestation.
-3. **Jamais de délai ferme ni de couverture hors cadre.** Les grilles et les CGS font foi, les délais sont estimatifs, l'assurance casse/perte (jusqu'à 20 000 €/envoi, emballage homologué) reste une option - ad valorem, 3 % de la valeur (vin + transport), cochée à la commande et souscrite sur 89,8 % des expéditions : elle se propose à chaque commande, jamais comme un inclus.
+3. **Jamais de délai ferme ni de couverture hors cadre.** Les grilles et les CGS font foi, les délais sont estimatifs, l'assurance casse/perte (jusqu'à 20 000 €/envoi, emballage homologué) reste une option, ad valorem, 3 % de la valeur (vin + transport), cochée à la commande et souscrite sur 89,8 % des expéditions : elle se propose à chaque commande, jamais comme un inclus.
 4. **DDP par défaut, DAP quand la réglementation ou la valeur l'exige.** Un commercial qui maîtrise les incoterms inspire confiance.
 5. **Aucun engagement sur un pays ou un État non couvert** sans vérification sur Planet'Connect ou auprès de l'exploitation.
 6. **La documentation 2026 signée électroniquement (CGS + grilles)** est le point de bascule officiel prospect → adhérent.
 
 ## Vos 90 premiers jours : trois paliers
 
-La montée en puissance est balisée sur trois mois - la règle : **on observe avant de faire, on fait accompagné avant de faire seul.** Le planning détaillé, jour par jour pour le premier mois puis semaine par semaine jusqu'à J+90, avec les rituels d'équipe, est en **annexe U** : c'est le document de travail remis le jour 1.
+La montée en puissance est balisée sur trois mois, avec une règle : **on observe avant de faire, on fait accompagné avant de faire seul.** Le planning détaillé, jour par jour pour le premier mois puis semaine par semaine jusqu'à J+90, avec les rituels d'équipe, est en **annexe U** : c'est le document de travail remis le jour 1.
 
 | Jalon | Palier | Preuves attendues |
 |---|---|---|
@@ -153,4 +153,4 @@ La montée en puissance est balisée sur trois mois - la règle : **on observe a
 | **J+60** | Autonome | 5 diagnostics observés, 3 propositions sans écart, 1 RDV obtenu seul |
 | **J+90** | Pilote son activité | Pipeline propre, analyse win/loss, 1 proposition d'amélioration du playbook |
 
-> 📌 **À RETENIR -** Trois mois, trois paliers : certifié à J+30, autonome à J+60, pilote à J+90. Un bloc téléphone 10 h-12 h sanctuarisé, un CRM à jour chaque soir et un premier envoi réel pour chaque adhérent signé : le contrat minimal d'activité. Le parcours détaillé est en annexe U.
+> 📌 **À RETENIR :** Trois mois, trois paliers : certifié à J+30, autonome à J+60, pilote à J+90. Un bloc téléphone 10 h-12 h sanctuarisé, un CRM à jour chaque soir et un premier envoi réel pour chaque adhérent signé : le contrat minimal d'activité. Le parcours détaillé est en annexe U.
