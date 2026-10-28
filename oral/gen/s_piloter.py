@@ -294,6 +294,7 @@ def conclusion():
     # Puis la réponse à la problématique, enjeu par enjeu (mêmes pastilles que la diapo 7), et un bandeau :
     # bénéfice visé (OBJECTIF), limite, ouverture. Le panier, l'apport détaillé, la difficulté, le second bénéfice,
     # la phrase finale sur le risque sont dits dans la note ; l'apport et la difficulté sont aussi en secours B15.
+    # Ouverture : liste de diversification officielle du dossier (chap. 02 et 17, charte point 86), la même qu'en B8.
     answer = f'''<div style="display:flex;flex-direction:column;gap:20px">
 <div style="display:flex;align-items:baseline;gap:18px">{label('Ma réponse', BLEU, ls=3)}<p style="font-family:{T};font-size:34px;font-weight:700;line-height:1.2;color:{CHAMP}">une méthode reproductible et mesurable</p></div>
 <div style="display:flex;gap:40px">
@@ -308,7 +309,7 @@ def conclusion():
 <div style="flex:1;display:flex;gap:40px;align-items:stretch">
 {_conclusion_cell('Bénéfice visé', CHAMP, '<b>≥ 70 %</b> des signés<br>activés à J+30', pill('OBJECTIF', 'line-height:1.2'))}
 {_conclusion_cell('Limite', '#E2A39A', '<b>Effet pas encore mesuré</b> :<br>lecture fin décembre')}
-{_conclusion_cell('Ouverture', BLEU, '<b>Diversifier</b> :<br>UK, UE, Japon')}
+{_conclusion_cell('Ouverture', BLEU, '<b>Diversifier</b> : UK, UE (dont<br>Scandinavie), Canada, Japon')}
 </div>
 {merci}
 </div>'''

@@ -232,7 +232,7 @@ CUTROWS = ''.join(cut_row(*c) for c in CUTS)
 # Phrases à savoir mot pour mot (sauf la première, citée telle qu'à l'écran) : présentes dans le texte dit des notes.
 for p in ['Comment transformer une croissance portée par le bouche-à-oreille en une méthode de vente reproductible et mesurable, pour recruter, activer et fidéliser nos adhérents ?',
           'Un point n’est accordé qu’avec sa preuve.', 'La vente finit au premier envoi, pas à la signature.',
-          'Vingt-quatre bouteilles, trois cent soixante euros de transport et dix-sept euros de dossier, les taxes estimées et réglées d’avance, l’assurance en option, une livraison estimée à trois semaines. Ils repartent les mains libres.',
+          'Vingt-quatre bouteilles, trois cent soixante euros de transport et dix-sept euros de dossier, les taxes estimées et réglées d’avance, l’assurance en option, une livraison estimée à environ un mois. Ils repartent les mains libres.',
           'Le prospect n’achète pas seulement du transport : il cherche à réduire son risque.']:
     if norm(p).lower() not in ' '.join(said(s) for s in main).lower():
         CHECK.append(f'phrase à savoir absente des notes : {p}')
@@ -257,7 +257,7 @@ H.append(f'''<section><p class="ey">1 · L’ESSENTIEL EN UNE PAGE</p><h2>Vingt 
 <li>« Comment transformer une croissance portée par le bouche-à-oreille en une méthode de vente reproductible et mesurable, pour recruter, activer et fidéliser nos adhérents ? »</li>
 <li>« Un point n’est accordé qu’avec sa preuve. »</li>
 <li>« La vente finit au premier envoi, pas à la signature. »</li>
-<li>« Vingt-quatre bouteilles, trois cent soixante euros de transport et dix-sept euros de dossier, les taxes estimées et réglées d’avance, l’assurance en option, une livraison estimée à trois semaines. Ils repartent les mains libres. »</li>
+<li>« Vingt-quatre bouteilles, trois cent soixante euros de transport et dix-sept euros de dossier, les taxes estimées et réglées d’avance, l’assurance en option, une livraison estimée à environ un mois. Ils repartent les mains libres. »</li>
 <li>« Le prospect n’achète pas seulement du transport : il cherche à réduire son risque. »</li>
 </ol>
 <div class="warn"><p class="wl">CE QUE JE NE DIS JAMAIS</p>
@@ -279,7 +279,7 @@ GESTES = [('1 · Qualifier un prospect', '8', 'cinq critères et score PA-FIT 45
 CASE = [('1 · Qualifier', '8 (+ B16)', 'Domaine provençal avec caveau, 20+ étrangers / semaine en saison, panier ~300 €, e-shop, clientèle US majoritaire, tiers B (60-100 envois/an). À l’écran : caveau, clientèle US, 60-100 envois/an ; étrangers par semaine, panier et tiers : secours B16', 'Sourcé (chap. 11)'),
         ('', '', 'Score PA-FIT : 45 au départ (nurture), 60 avec l’échéance (P2 : cadence), 85 avec le décideur et la douleur (P1)', 'Illustratif (barème réel, B2)'),
         ('2 · Prospecter', '12', 'Préparer ; viser le décideur et l’utilisatrice ; cadence J1, J+4, J+10, visite ; script d’appel et e-mail 1 de l’annexe E', 'Règle (chap. 10, 11, annexe E)'),
-        ('3 · Découvrir', '13', 'Rendez-vous de 45 min, dont 12 min de questions SPIN (dits ; trame de 35 min au chap. 12) ; tunnel 1 du vigneron, une question par famille ; reformulation à trous ; phrase de bénéfice notée mot pour mot (dite)', 'Règle ; réaction du vigneron illustrative'),
+        ('3 · Découvrir', '13', 'Rendez-vous de 45 min : découverte SPIN des minutes 5 à 20, démo 20-30 (dits ; trame unique au chap. 11) ; tunnel 1 du vigneron, une question par famille ; reformulation à trous ; phrase de bénéfice notée mot pour mot (dite)', 'Règle ; réaction du vigneron illustrative'),
         ('4 · Proposer', '14', 'Grille officielle 2026 (document réel) ; 24 bouteilles = 360 € de transport, 15 €/btl ; objection « c’est cher » en 4 temps ; simulation : 40 000 € de ventes potentiellement perdues', 'Grille 2026 ; simulation'),
         ('5 · Activer', '15 (+ B16)', 'Signature en ligne, SEPA, cartons ; formation J+5 ; premier envoi ; point J+30 ; premier lot de cartons, dit ; score de santé : seulement si on le demande, secours B16', 'Règle (chap. 16)'),
         ('6 · Suivre', '19 (+ B16)', 'À l’écran : l’étiquette « Domaine activé » sur la carte Activation J+30. Dit : le domaine serait activé dans HubSpot, avec une prochaine action datée, l’appel du commercial à J+30. Étapes 6 et 7 du cas : secours B16', 'Illustratif (format sourcé)')]
@@ -312,7 +312,7 @@ GRID = [
     ('SPB existant : améliorations justifiées', 'Argumentation', '8, 11, 15-17, 19 (+ B15)', 'Pas de playbook avant : chaque décision est justifiée, par le bandeau Constat → Ma décision → Ce que l’on mesure (diapos 11, 15, 16, 17, 19) ou par « Ma recommandation » (diapo 8) ; existant et apport distingués par les étiquettes.'),
     ('Présente les indicateurs de performance', 'Argumentation', '19 (+ B6)', 'Constaté et objectif côte à côte ; activation à J+30 : source, fréquence, responsable et action à l’écran ; les trois autres : cible à l’écran, le reste en B6 ; revue mensuelle ; un exemple de décision.'),
     ('Synthèse en lien avec les enjeux', 'Argumentation', '20 (+ B15)', 'Réponse enjeu par enjeu, bénéfice visé et limite à l’écran ; apport et difficulté, dits (détail en B15).'),
-    ('Ouverture', 'Argumentation', '20 (+ B8)', 'Diversifier (UK, UE, Japon) pour réduire la dépendance aux USA ; lecture fin décembre ; entretiens T1 2027 (dits diapo 9, B1) ; horizons stratégiques du dossier en B8.'),
+    ('Ouverture', 'Argumentation', '20 (+ B8)', 'Diversifier (UK, UE dont Scandinavie, Canada, Japon) pour réduire la dépendance aux USA ; lecture fin décembre ; entretiens T1 2027 (dits diapo 9, B1) ; horizons stratégiques du dossier en B8.'),
 ]
 AUDIT = [
     ('Tous les critères de la grille sont couverts', 'Oui : tableau ci-dessus.'),

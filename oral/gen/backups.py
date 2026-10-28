@@ -132,14 +132,15 @@ def _b2_band(rng, meaning, bg, fg):
 
 
 def b2():
-    # Message : quatre outils, un rôle chacun, et une seule grille saisie au CRM, le PA-FIT.
+    # Message : trois outils, un rôle chacun, et une seule grille saisie au CRM, le PA-FIT.
     # Point focal : le PA-FIT, 8 critères en barres proportionnelles (100 points), et ce que le total décide (75 · 55 · 35).
-    # En haut : la chaîne CAVE → express /20 → PA-FIT /100 → tiers ; en bas, la règle (bandeau sombre).
+    # En haut : la chaîne CAVE → PA-FIT /100 → tiers (le score express /20 n'existe plus dans le dossier : charte, point 69) ;
+    # en bas, la règle (bandeau sombre).
     # Hors écran (indications non dites de la note) : sens de CAVE et « qualifié = C confirmé, A identifié, E daté » ;
-    # paliers du score express (≥ 14, 8-13, < 8). Rôle de chaque outil et cadence dès 55 : dits dans la note.
+    # premier tri de terrain sans note chiffrée (cinq questions éclair + CAVE). Rôle de chaque outil et cadence dès 55 : dits dans la note.
     ar = f'<div style="display:flex;align-items:center;flex:none">{arrow(44, 26, BLEU, 4)}</div>'
     chain = (f'<div style="display:flex;align-items:stretch;gap:12px">'
-             f'{_b2_chip("CAVE", "trier")}{ar}{_b2_chip("Express /20", "brouillon")}{ar}'
+             f'{_b2_chip("CAVE", "trier")}{ar}'
              f'{_b2_chip("PA-FIT /100", "fait foi", hi=True)}{ar}{_b2_chip("Tiers A · B · C", "rythme")}</div>')
     crits = [('ICP', 15, BORD), ('Flux', 15, BORD), ('Problème', 15, BORD), ('Volume', 15, BORD), ('Timing', 15, BORD),
              ('Décision', 10, '#A86A7E'), ('Préparation', 10, '#A86A7E'), ('Valeur stratégique', 5, '#C9A5B1')]
@@ -194,6 +195,8 @@ def b3():
     # Point focal : la méthode en trois étapes fléchées (en-têtes de colonnes), appliquée aux cinq fiches.
     # En bas (bandeau sombre) : les trois questions gagnantes, communes à tous les concurrents.
     # Hors écran : les trois faiblesses assumées (dites dans la note) ; la date des sources publiques (indication de la note).
+    # Promesse officielle (charte, point 11) : « un seul responsable, de bout en bout », jamais « un seul interlocuteur » ;
+    # à l'écran, forme courte « un seul responsable » (130 mots visibles au plus), la forme longue est dite (note de la diapo Solutions).
     head = (f'<div style="display:flex;align-items:center;gap:16px;padding-bottom:10px;border-bottom:3px solid {BRUME}">'
             f'<div style="width:{_b3_W[0]}px;flex:none">{label("Le prospect dit", GRISD, ls=2)}</div>'
             f'<div style="width:{_b3_W[1]}px;flex:none">{_b3_head("On reconnaît", PETROLE)}</div>'
@@ -201,7 +204,7 @@ def b3():
             f'<div style="flex:1">{_b3_head("On demande", SARCF, tail=False)}</div></div>')
     rows = [('« J’ai déjà un compte\u00a0UPS »', 'Le transport physique', 'Douane, taxes, suivi, destinataire', '« Qui intervient en cas de blocage ? »'),
             (f'« Viticolis est moins cher\u00a0<span style="color:{GRISD}">[…]</span> »', 'Un très bon standard digital', 'Comparer le flux complet', '« Quel cas sort de leur standard ? »'),
-            ('« Dartess offre tout »', 'Une forte capacité', 'Agilité, un seul interlocuteur', '« Quelle personnalisation vous manque ? »'),
+            ('« Dartess offre tout »', 'Une forte capacité', 'Agilité, un seul responsable', '« Quelle personnalisation vous manque ? »'),
             ('« DHL est mondial »', 'Un réseau incontestable', 'L’expertise vin', '« Qui connaît votre cuvée et vos\u00a0contraintes ? »'),
             ('« On gère tout en\u00a0interne »', 'Une équipe qui connaît ses\u00a0clients', 'Temps et risque', '« Que se passe\u2011t\u2011il quand la personne référente est\u00a0absente ? »')]
     table = head + ''.join(_b3_row(*r, last=(i == len(rows) - 1)) for i, r in enumerate(rows))
@@ -383,7 +386,7 @@ def b7():
     # Message (titre) : le prix rendu, sans maquillage : le client final paie.
     # Point focal : le ticket de l'exemple du playbook (chap. 04), qui s'additionne jusqu'au total ≈ 270 € en grand.
     # Le ≈ 17,50 € par bouteille passe sous le total (une ligne, chiffre en num() 32 px), au lieu d'un second grand chiffre concurrent.
-    # À droite, d'un bloc : les règles (droits US, remise, périmètre), puis les réserves (taxes estimées, ~21 jours, le simulateur fait foi).
+    # À droite, d'un bloc : les règles (droits US, remise, périmètre), puis les réserves (taxes estimées, ~21 jours ouvrables, le simulateur fait foi).
     # Hors écran (note, indication non dite) : « volatils depuis 2025 » pour les droits US.
     lines = ''.join([
         _b7_line('Transport, groupage DDP', '210 €', pill('GRILLE 2026', 'align-self:center')),
@@ -409,7 +412,7 @@ def b7():
 </div>'''
     note = (f'<div style="border-left:6px solid {BLEU};padding:4px 0px 4px 22px;display:flex;flex-direction:column;gap:4px">'
             f'<p style="font-size:26px;line-height:1.3;color:{GRIS}">Taxes estimées, révisables (CGS art.\u00a05)</p>'
-            f'<p style="font-size:26px;line-height:1.3;color:{GRIS}">~21 jours estimés, hors douane</p>'
+            f'<p style="font-size:26px;line-height:1.3;color:{GRIS}">~21 jours ouvrables estimés, hors douane</p>'
             f'<p style="font-size:26px;font-weight:700;line-height:1.3;color:{PETROLE}">Le simulateur fait foi</p></div>')
     right = f'<div style="flex:1;display:flex;flex-direction:column;gap:20px">{rules}{note}</div>'
     # marge basse : 64 px de padding + 72 px d'entretoise + 24 px d'écart = les 160 px habituels (bas du corps à 920 px)
@@ -439,8 +442,9 @@ def _b8_cell(when, what, c, f=1):
 def b8():
     # Message (titre) : miser sur le trio (statut, filiale, plateforme), diversifier sans sacrifier les USA.
     # Titre raccourci (« Capitaliser » → « Miser ») pour tenir sur une ligne, même à +10 %.
-    # Point focal : le SWOT en quatre colonnes, le trio mis en évidence dans les forces (CONSTATÉ : le seul chiffre, 9 fois sur 10) ;
+    # Point focal : le SWOT en quatre colonnes, le trio mis en évidence dans les forces (CONSTATÉ : le seul chiffre, 89,8 %) ;
     # en bas, le bandeau des trois horizons (0–12 mois → 1–3 ans → 3 ans et plus), les trois durées en CHAMP (aucune hiérarchie).
+    # Liste de diversification officielle (charte, point 86) : « UK, UE (dont Scandinavie), Canada, Japon ».
     # Hors écran (note, indication non dite) : « lancer Spiritueux USA », « assainir le CRM », « événementiel, importateurs » ;
     # les mots « court, moyen, long terme » sont dits dans la note.
     # trois noms en gras, un par force ; « obligation de résultat » en sous-ligne grise, sous « Commissionnaire »
@@ -451,7 +455,7 @@ def b8():
                                 'Filiale US licenciée', 'Planet’Connect'])
             + '</div>')
     swot = f'''<div style="display:flex;gap:16px">
-{_b8_quad('Forces', SARCF, '#E8F3F5', ['Spécialiste vins, champagnes, spiritueux', 'Assurance en option, choisie 9 fois sur 10'], top=trio, tag=pill('CONSTATÉ', 'align-self:center'))}
+{_b8_quad('Forces', SARCF, '#E8F3F5', ['Spécialiste vins, champagnes, spiritueux', 'Assurance en option : 89,8 % des envois'], top=trio, tag=pill('CONSTATÉ', 'align-self:center'))}
 {_b8_quad('Faiblesses', BORD, '#F6EAEE', ['Notoriété limitée', 'Capacité commerciale de PME', 'Dépendance aux partenaires', 'Forte concentration sur quelques grands comptes'])}
 {_b8_quad('Opportunités', '#3A8A5C', '#EAF4EE', ['Vente directe et œnotourisme', 'Nouvelles destinations', 'Demande RSE', 'Vignerons indépendants à équiper'])}
 {_b8_quad('Menaces', ORANGE, '#FBEFE8', ['Droits US, volatilité réglementaire', 'Recul de la consommation', 'Pression tarifaire', 'Coûts logistiques et énergie'])}
@@ -459,7 +463,7 @@ def b8():
     ar = f'<div style="display:flex;align-items:center;flex:none">{arrow(44, 26, CHAMP, 3)}</div>'
     band = (f'<div style="background:{NUIT};border-radius:16px;padding:14px 30px 16px 30px;display:flex;align-items:stretch;gap:16px">'
             f'{_b8_cell("0–12 mois", "Consolider le groupage USA, activer les signés", CHAMP)}{ar}'
-            f'{_b8_cell("1–3 ans", "Diversifier : UK, Canada, Japon, Scandinavie", CHAMP)}{ar}'
+            f'{_b8_cell("1–3 ans", "Diversifier : UK, UE (dont Scandinavie), Canada, Japon", CHAMP)}{ar}'
             f'{_b8_cell("3 ans et plus", "Devenir la référence du transport international du vin (projets en développement)", CHAMP, 1.6)}</div>')
     # marge basse : 64 px de padding + 76 px d'entretoise + 20 px d'écart = les 160 px habituels (bas du corps à 920 px)
     inner = f'''{bhead(8, 'Stratégie', 'Miser sur le trio, diversifier sans sacrifier les USA')}
@@ -550,6 +554,7 @@ def b10():
     # la dernière entrée de la légende (l'anneau orange qui cercle le VT sur la carte), en deux lignes équilibrées
     # (plus de mot seul en fin de bloc). L'étiquette « Légende » est retirée (les pastilles de couleur se lisent seules),
     # ce qui rend la hauteur nécessaire à la colonne de droite au rendu +10 %. Seul mot ajouté : le tampon de statut.
+    # Délai : « ~21 j ouvrables, estimés » (charte, point 27 : jours ouvrables, hors douane, jamais garanti).
     # Marge basse : 64 px de padding + 72 px d'entretoise + 24 px d'écart = les 160 px habituels (bas du corps à 920 px).
     leg = [('#A6CEE3', 'Ouvert'), ('#B1DE89', 'Groupage et direct'), ('#C9B1D4', 'Groupage (certains codes postaux) et direct'),
            ('#EBEB30', 'Envoi direct uniquement'), ('#FED9A6', 'Certains codes postaux'), ('#999999', 'Fermé')]
@@ -562,7 +567,7 @@ def b10():
 <div style="display:flex;align-items:center;gap:14px">{label('Groupage DDP', SARCF, ls=2)}<div style="flex:1"></div>{pill('RÈGLE', 'align-self:center')}</div>
 {_b10_rule('36', 'bouteilles max.<br>par personne et par envoi')}
 {_b10_rule('2 100 $', 'de valeur déclarée : POA au-delà')}
-{_b10_rule('~21 j', 'estimés')}
+{_b10_rule('~21 j', 'ouvrables, estimés')}
 </div>'''
     inner = f'''{bhead(10, 'États-Unis', 'Où livre-t-on aux États-Unis ? La carte 2026')}
 <div style="flex:1;display:flex;gap:40px;align-items:flex-start">
@@ -676,7 +681,8 @@ def b12():
     # une accolade sous J2 → J14 dit « 6 contacts actifs » (rappel de la note, désormais visible).
     # En appui : « Pour qui » et les trois seuils du vendredi ; en bas, le bandeau sombre de la règle d'or
     # (toute réponse arrête tout), avec le câblage Brevo + HubSpot étiqueté À DÉPLOYER.
-    # Retiré : « (P1 et P2) » (déjà contenu dans « dès PA-FIT 55 » ; seuils détaillés en secours B2).
+    # La cadence se choisit par la priorité PA-FIT, jamais par le segment (charte, point 65) : en cadence dès 55,
+    # P2 → cadence courte (J1, J+4, J+10, visite), P1 (≥ 75) → les 8 touches ; seuils détaillés en secours B2.
     # Coupures posées à la main (« problème » / « + valeur », bandeau en deux lignes) : deux colonnes voisines
     # ne se touchent plus et aucun mot ne reste seul en fin de bloc, même à +10 %.
     # Marge basse : 64 px de padding + 76 px d'entretoise + 20 px d'écart = les 160 px habituels (bas du corps à 920 px).
@@ -693,8 +699,8 @@ def b12():
              f'<div style="grid-column:span 6;display:flex;align-items:center;gap:16px;padding:0px 40px">'
              f'{piece("left")}<p style="font-family:{L};font-size:26px;font-weight:600;line-height:1.2;color:{PETROLE};white-space:nowrap">6 contacts actifs</p>{piece("right")}</div>'
              f'<div></div></div>')
-    who = _b12_card('Pour qui', SARCF, ['<b>~20 comptes P1</b>, en ABM 1:1', 'Cadence ouverte dès PA-FIT 55',
-                                        'Caveaux : cadence courte, J1, J+4, J+10, visite'])
+    who = _b12_card('Pour qui', SARCF, ['<b>~20 comptes P1</b> (PA-FIT ≥ 75), en ABM 1:1', 'En cadence dès PA-FIT 55',
+                                        'P2 (55–74) : cadence courte, J1, J+4, J+10, visite'])
     fri = _b12_card('Mesurer chaque vendredi', BORD, ['Réponse &lt; 10 % : revoir l’angle', '&lt; 5 RDV pour 100 : resserrer',
                                               'Opt-out &gt; 2 % : stopper'], pill('RÈGLE', 'align-self:center'))
     band = (f'<div style="background:{NUIT};border-radius:16px;padding:16px 28px 18px 32px;display:flex;align-items:center;gap:24px">'
@@ -782,6 +788,8 @@ def b14():
     # Message (titre) : le top 5, une objection → une seule preuve.
     # Point focal : les cinq lignes, citation du prospect (italique) → preuve unique (gras), statut du chiffre à droite.
     # En bas : le bandeau des quatre temps et la banque de 26 objections (annexe D).
+    # Chaleur (charte, point 5) : « non couverte par notre assurance (transport non réfrigéré) », l'exclusion thermique
+    # n'est pas dans les CGS (qui excluent l'altération naturelle) : plus de « (CGS) » sur cette ligne.
     # Hors écran : « classement terrain, hiérarchisé sur les motifs de perte CRM en novembre » (note, dit) ;
     # « Je ne vous demande pas de changer » (note) ; signalement sous 48 h avec photos (secours B11) ;
     # codes O-1 à O-14 (annexe D) ;
@@ -792,7 +800,7 @@ def b14():
         _b14_row('Casse', '« Et si ça casse ? »', 'Assurance en option : 3 % (vin + transport)',
                  'jusqu’à 20 000 € par envoi · choisie sur 89,8 % des envois', SARCF, pill('CONSTATÉ')),
         _b14_row('Chaleur', '« Le vin va cuire dans le camion en été. »', 'Départ différé',
-                 'l’altération thermique est exclue de l’assurance (CGS)', ORANGE),
+                 'l’altération thermique n’est pas couverte par notre assurance (transport non réfrigéré)', ORANGE),
         _b14_row('Statu quo', '« On a déjà quelqu’un »', 'Comparer sur UN envoi', '', PETROLE),
         _b14_row('Temps', f'« Je n’ai pas le temps <span style="color:{GRISD}">[…]</span> »', '3 min de saisie par envoi',
                  'saisonniers formés en 30 min', ORF, pill('OBJECTIF')),

@@ -13,12 +13,12 @@
 - Jamais de données personnelles de clients finaux (pas de nom d'auteur d'avis particulier).
 - Aucun identifiant, mot de passe, clé API.
 - Projets en développement (VELA, Gant Blanc, Planet'Stock, entrepôt agréé, annexe Champagne) = au conditionnel.
-- Assurance : couvre jusqu'à 20 000 €/envoi mais reste une OPTION (3 % ad valorem), souscrite 9 envois sur 10 (89,8 %) - jamais « incluse ».
+- Assurance : couvre jusqu'à 20 000 €/envoi mais reste une OPTION (3 % ad valorem), souscrite sur 89,8 % des envois (jamais « 9 envois sur 10 ») - jamais « incluse ».
 - Paiement : mandat SEPA par défaut, virement accepté, CB possible (adhérent ou client final) mais chronophage.
 - Droits de douane US : ne jamais citer de taux à l'oral ; le dossier indique 10 % depuis février 2026 (15 % d'août 2025 à février 2026), mais des sources externes divergent depuis juillet 2026 : renvoyer au simulateur, vérifier la veille.
 
 ## Plan de la présentation, version 5 du 26/10/2026 : des diapos lisibles en 3 s, autour du cas fil rouge (20 diapositives + 17 diapos de secours)
-Minutage des notes à 130 mots/minute, 2 s par changement de diapo : 18:34 de texte (2 326 mots), soit 18 à 19 min avec les silences (20 min au maximum). Introduction et diagnostic = 4:52 ; parties 8 à 14 = 12:19 ; synthèse et ouverture = 1:23. Minutage théorique : la durée réelle reste à chronométrer à voix haute.
+Minutage des notes à 130 mots/minute, 2 s par changement de diapo : 18:39 de texte (2 338 mots), soit 18 à 19 min avec les silences (20 min au maximum). Introduction et diagnostic = 4:52 ; parties 8 à 14 = 12:23 ; synthèse et ouverture = 1:24. Minutage théorique : la durée réelle reste à chronométrer à voix haute.
 
 Version 5 : chaque diapo porte un message (son titre) et un point focal ; le détail passe à l’oral (notes) ou dans une diapo de secours. Nouvelle diapo de secours B17 : le responsable, la preuve, le délai et l’outil de chacune des sept étapes ; la diapo 11 ne garde que la preuve de chaque étape et la fiche complète de l’étape 6.
 
@@ -35,17 +35,17 @@ Fil rouge : un domaine provençal avec caveau et clientèle internationale (chap
 | 7 | Diagnostic et problématique (MON ANALYSE) | Forces et fragilités constatées ; la problématique en bandeau ; trois enjeux numérotés (SWOT complet en B8) | 4:52 |
 | 8 | Partie 8 · ICP (cas : qualifier) | Le score juge la preuve, pas la taille : cinq critères ICP ; 60 % de l’effort sur les caveaux (objectif) ; PA-FIT 45 → 60 → 85 (illustratif, barème en B2) | 6:19 |
 | 9 | Partie 9 · Personas | Trois cartes : qui décide, utilise, paie ; sa crainte et le discours qui y répond, en grand ; confrontés au réel : 70 / 47 / 15, 5/5 confirmés (détail en B1) | 7:22 |
-| 10 | Partie 10 · Problèmes et solutions | Une chaîne Problème → Besoin → Solution → Bénéfice → Preuve pour le domaine ; champagne et caviste, dits ; ce que nous refusons | 8:21 |
-| 11 | Partie 11 · Processus | Sept étapes, une preuve pour passer chacune ; ligne d’arrivée à l’étape 6, le premier envoi ; durées de cycle, dites ; constat → décision → mesure (détail par étape en B17) | 9:21 |
-| 12 | Partie 11 · Prospecter (cas) | L’appel ne vend pas, il obtient la démo : préparer, viser, cadencer ; la question clé du script d’appel en grand ; l’e-mail en une phrase | 10:08 |
-| 13 | Partie 11 · Tunnels SPIN (cas : découvrir) | Le tunnel du vigneron : les quatre questions S, P, I, N en entier, l’implication en avant ; la reformulation à trous ; tunnel 2 en B4 | 11:05 |
-| 14 | Partie 11 · Proposer (cas) | 15 € de transport par bouteille, payés par son client : grille officielle 2026, 24 bouteilles = 360 € HT ; « C’est cher » en quatre temps ; simulation de 40 000 € de ventes potentiellement perdues | 12:21 |
-| 15 | Partie 11 · Activer (cas) | La vente finit au premier envoi : J0 → J+30, signature, bienvenue, formation, premier envoi, point d’étape ; constat → décision → mesure (≥ 70 % à J+30) | 13:12 |
-| 16 | Partie 12 · Ressources | Déjà livré (trois pages réelles), puis trois chantiers d’abord, datés, attribués, chiffrés : 800 € sur 3 000 € ; critères et suite en B13 | 14:16 |
-| 17 | Partie 13 · Sales Ops | Une donnée, un propriétaire, une décision : HubSpot source de vérité, quatre outils existants, Brevo à câbler, dictionnaire CRM ; règles marketing-ventes et rituels, dits | 15:16 |
-| 18 | Partie 13 · Onboarding 30-60-90 | Opérationnel en 90 jours : l’escalier J+30 certifié, J+60 autonome, J+90 pilote, une preuve par palier ; ligne d’arrivée en S8 ; qui forme, dit | 16:08 |
-| 19 | Partie 14 · Indicateurs (cas : suivre) | Mesuré ou espéré : ~145 signés (constaté, point zéro) ; Activation J+30 ≥ 70 % avec source, fréquence, responsable, action ; revue mensuelle (détail en B6) | 17:11 |
-| 20 | Synthèse, ouverture, retour à Houston | « Ils repartent les mains libres » : les 24 bouteilles pleines ; ma réponse enjeu par enjeu ; bénéfice visé, limite, ouverture | 18:34 |
+| 10 | Partie 10 · Problèmes et solutions | Une chaîne Problème → Besoin → Solution → Bénéfice → Preuve pour le domaine ; champagne et caviste, dits ; ce que nous refusons | 8:23 |
+| 11 | Partie 11 · Processus | Sept étapes, une preuve pour passer chacune ; ligne d’arrivée à l’étape 6, le premier envoi ; durées de cycle, dites ; constat → décision → mesure (détail par étape en B17) | 9:23 |
+| 12 | Partie 11 · Prospecter (cas) | L’appel ne vend pas, il obtient la démo : préparer, viser, cadencer ; la question clé du script d’appel en grand ; l’e-mail en une phrase | 10:10 |
+| 13 | Partie 11 · Tunnels SPIN (cas : découvrir) | Le tunnel du vigneron : les quatre questions S, P, I, N en entier, l’implication en avant ; la reformulation à trous ; tunnel 2 en B4 | 11:09 |
+| 14 | Partie 11 · Proposer (cas) | 15 € de transport par bouteille, payés par son client : grille officielle 2026, 24 bouteilles = 360 € HT ; « C’est cher » en quatre temps ; simulation de 40 000 € de ventes potentiellement perdues | 12:25 |
+| 15 | Partie 11 · Activer (cas) | La vente finit au premier envoi : J0 → J+30, signature, bienvenue, formation, premier envoi, point d’étape ; constat → décision → mesure (≥ 70 % à J+30) | 13:16 |
+| 16 | Partie 12 · Ressources | Déjà livré (trois pages réelles), puis trois chantiers d’abord, datés, attribués, chiffrés : 800 € sur 3 000 € ; critères et suite en B13 | 14:20 |
+| 17 | Partie 13 · Sales Ops | Une donnée, un propriétaire, une décision : HubSpot source de vérité, quatre outils existants, Brevo à câbler, dictionnaire CRM ; règles marketing-ventes et rituels, dits | 15:21 |
+| 18 | Partie 13 · Onboarding 30-60-90 | Opérationnel en 90 jours : l’escalier J+30 certifié, J+60 autonome, J+90 pilote, une preuve par palier ; ligne d’arrivée en S8 ; qui forme, dit | 16:12 |
+| 19 | Partie 14 · Indicateurs (cas : suivre) | Mesuré ou espéré : ~145 signés (constaté, point zéro) ; Activation J+30 ≥ 70 % avec source, fréquence, responsable, action ; revue mensuelle (détail en B6) | 17:15 |
+| 20 | Synthèse, ouverture, retour à Houston | « Ils repartent les mains libres » : les 24 bouteilles pleines ; ma réponse enjeu par enjeu ; bénéfice visé, limite, ouverture | 18:39 |
 
 | Secours | Sujet | Sert à répondre à |
 |---|---|---|

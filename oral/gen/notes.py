@@ -10,15 +10,15 @@ BACKUP_NOTES = {
 
 (Ne jamais dire « j'ai interviewé 70 clients ». 49 contacts rattachés : 14 + 8 + 7 + 15 + 5 ; s'y ajoutent une dizaine d'ADV, comptables et logisticiens, et un seul cas de conciergerie. Les 70 : 40 issus des e-mails 2024-2026, 30 des salons et du CRM. Les 47 réponses : satisfaction 2024, 23 ; transport écologique 2025, 20 ; prospects voilier-cargo, 4. Aucun nom.)""",
 
-'b2': """(Si on me dit que c'est une usine à gaz.) (Montrer la chaîne du haut, de gauche à droite.) Chaque outil a un rôle différent, et un seul fait foi. CAVE sert à trier, avant d'investir du temps. Le score express sur 20 est un brouillon de terrain. (Montrer les barres du PA-FIT, puis « Le total décide ».) Le PA-FIT sur 100 est la seule grille saisie dans le CRM : c'est lui qui décide de l'entrée en cadence, à partir de 55. Et les tiers A, B, C ne disent pas qui appeler en premier : ils fixent le rythme de suivi.
+'b2': """(Si on me dit que c'est une usine à gaz.) (Montrer la chaîne du haut, de gauche à droite.) Chaque outil a un rôle différent, et un seul fait foi. CAVE sert à trier, au téléphone, avec cinq questions éclair, avant d'investir du temps, sans note chiffrée. (Montrer les barres du PA-FIT, puis « Le total décide ».) Le PA-FIT sur 100 est la seule grille saisie dans le CRM : c'est lui qui décide de l'entrée en cadence, à partir de 55. Et les tiers A, B, C ne disent pas qui appeler en premier : ils fixent le rythme de suivi.
 
 (Montrer le bandeau sombre.) La règle qui évite l'usine à gaz : un score sans preuve vaut zéro, et le barème sera recalibré après 90 jours.
 
-(CAVE : Clientèle, Autorité, Volume, Échéance ; qualifié = C confirmé, A identifié, E daté. Score express : 14 et plus, P1 ; 8 à 13, P2 ; moins de 8, nurture. Ne jamais citer la part du CA réalisée sur les comptes A.)""",
+(CAVE : Clientèle, Autorité, Volume, Échéance ; qualifié = C confirmé, A identifié, E daté. Premier tri de terrain sans note chiffrée : cinq questions éclair et CAVE au téléphone ; le PA-FIT dans le CRM. Plus de score express sur 20. Ne jamais citer la part du CA réalisée sur les comptes A.)""",
 
 'b3': """(Si on me demande comment je me bats contre UPS ou DHL.) On ne dénigre jamais. (Montrer les trois en-têtes fléchés, puis la ligne du concurrent cité.) On reconnaît ce que le concurrent fait bien, on recentre sur ce qui fait mal au prospect, la douane, les taxes, la casse, et on pose une question qui l'amène à le constater lui-même. (Montrer le bandeau sombre : trois questions qui marchent face à tous.)
 
-Et j'assume nos faiblesses avant qu'on me les oppose : 21 jours en groupage, mais le direct existe en cinq jours environ ; un prix unitaire élevé sur les petites quantités, que je ramène au coût par bouteille ; notre taille, compensée par un statut réglementé et une filiale aux États-Unis.
+Et j'assume nos faiblesses avant qu'on me les oppose : 21 jours ouvrables en groupage, mais le direct existe en cinq jours environ ; un prix unitaire élevé sur les petites quantités, que je ramène au coût par bouteille ; notre taille, compensée par un statut réglementé et une filiale aux États-Unis.
 
 (Ce sont les fiches de comparaison du chapitre 05, sources publiques datées d'octobre 2026. Les trois faiblesses ne sont plus à l'écran : les dire. Le premier adversaire reste le statu quo, sans pourcentage.)""",
 
@@ -26,11 +26,11 @@ Et j'assume nos faiblesses avant qu'on me les oppose : 21 jours en groupage, mai
 
 (Montrer le tunnel 2, de S à N.) Et si vous voulez le second tunnel, celui de la maison de champagne : en situation, je demande ses marchés, ses modes et ses incoterms hors Union européenne ; en problème, où elle perd du temps, certificat CIVC, douane américaine, suivi ; en implication, ce que coûte à son image un colis immobilisé en douane ; et en need-payoff, ce que changerait un plan de flux où le certificat et les taxes sont gérés à chaque envoi.
 
-La banque de questions décline le tunnel par profil : huit lignes, du vigneron à la distillerie.
+La banque de questions décline le tunnel par profil : huit profils, quatre personas et quatre rôles, du vigneron à la distillerie.
 
 (Les pics : mai, juin, septembre. Les deux questions de permission : « Quelle destination ou quel flux concentre aujourd'hui le plus d'enjeux logistiques ? » et « Le principal risque est-il le délai, la douane, la traçabilité, le coût ou la cohérence RSE ? », puis deux créneaux au choix. Deux exemples de la banque, en implication : responsable caveau, « Quel effet a une réponse floue ou un refus sur la vente en cours et sur l'avis que laissera ce visiteur ? » ; caviste, « Sur un mois, combien de ventes de 2 bouteilles auraient pu être des ventes de 12 ? »)
 
-(45 min sur place, dont 35 de découverte : chap. 11 et 12.)""",
+(Rendez-vous type de 45 min : découverte CAVE + SPIN des minutes 5 à 20, démo 20-30, trame unique au chap. 11. Huit profils de la banque SPIN, annexe E : les personas A à D et quatre rôles, ADV/logistique, importateur, RSE/marketing, distillerie.)""",
 
 'b5': """(Si on me demande ce que l'IA a fait.) (Montrer à gauche : « La forme ».) J'ai utilisé Claude, d'Anthropic, et je l'ai crédité dès l'avant-propos. L'annexe W détaille huit chantiers de forme, avec un prompt représentatif pour chacun.
 
@@ -54,21 +54,21 @@ Je le complète honnêtement : des passes de mise en cohérence ont aussi été 
 
 'b8': """(Si on me demande la stratégie.) (Montrer l'encadré « Le trio », dans les forces.) Le SWOT fait ressortir un trio de forces, le statut, la filiale, la plateforme, et une dépendance aux États-Unis. Les priorités en découlent : capitaliser sur le trio, diversifier sans sacrifier le produit phare, vendre la conformité comme un service, prospecter les paniers élevés. (Montrer le bandeau sombre, de gauche à droite.) À court terme, consolider et activer ; à moyen terme, diversifier destinations et segments ; à long terme, devenir la référence, les projets restant au conditionnel.
 
-(En réserve, le détail des horizons. Court terme : consolider le groupage USA, lancer Spiritueux USA, activer les signés, assainir le CRM. Moyen terme : UK, Canada, Japon, Scandinavie ; événementiel, importateurs. Concentration du CA : jamais de chiffre.)""",
+(En réserve, le détail des horizons. Court terme : consolider le groupage USA, lancer Spiritueux USA, activer les signés, assainir le CRM. Moyen terme : UK, UE dont la Scandinavie, Canada, Japon ; événementiel, importateurs. Concentration du CA : jamais de chiffre.)""",
 
 'b9': """(Montrer le bandeau Direction, puis les quatre colonnes de gauche à droite : Commerce et développement, Adam et Emma ; la filiale ; la logistique et l'exploitation ; l'administration ; finir sur la phrase en italique, en bas.) L'organigramme complet : direction, commerce et développement, filiale de New York, logistique et administration. Treize personnes nommées, filiale comprise. Un commercial parle directement à la direction, à l'exploitation et à l'administration : c'est pourquoi le playbook propose une matrice de décision, à ratifier.""",
 
-'b10': """Aux États-Unis, la carte 2026 dit où l'on livre en groupage, en direct, ou pas du tout. (Montrer la carte, puis l'encadré « Groupage DDP » : 36, 2 100 $, ~21 j.) En groupage, 36 bouteilles au maximum par personne et par envoi ; au-delà de 2 100 dollars, une procuration du destinataire est obligatoire, et on ne cherche jamais à l'éviter.
+'b10': """Aux États-Unis, la carte 2026 dit où l'on livre en groupage, en direct, ou pas du tout. (Montrer la carte, puis l'encadré « Groupage DDP » : 36, 2 100 $, ~21 j ouvrables.) En groupage, 36 bouteilles au maximum par personne et par envoi ; dès 2 100 dollars de valeur déclarée, une procuration du destinataire est obligatoire, et on ne cherche jamais à l'éviter.
 
-(POA = power of attorney. La carte officielle fait foi : ne pas citer de liste d'États de mémoire.)""",
+(POA = power of attorney ; seuil en valeur, jamais d'équivalence en bouteilles. Délai : ~21 jours ouvrables estimés hors douane, environ un mois, jamais garanti. La carte officielle fait foi, c'est la carte vin : ne pas citer de liste d'États de mémoire.)""",
 
-'b11': """Qui paie quand ça casse ? L'assurance est une option, 3 % de la valeur du vin et du transport, jusqu'à 20 000 euros par envoi, choisie sur près de neuf envois sur dix. Le client signale sous 48 heures, avec photos, et choisit entre réexpédition et remboursement ; client et domaine sont informés à chaque étape. En réexpédition, le domaine nous facture seulement les bouteilles : l'incident devient une seconde vente. Sans l'option, on reste aux conditions de base, pas au régime ad valorem. Et je dis franchement les exclusions : la chaleur, l'oxydation, les bouchons, les étiquettes.
+'b11': """Qui paie quand ça casse ? L'assurance est une option, 3 % de la valeur du vin et du transport, jusqu'à 20 000 euros par envoi, souscrite sur 89,8 % des envois. Le client signale sous 48 heures, avec photos, et choisit entre réexpédition et remboursement ; client et domaine sont informés à chaque étape. En réexpédition, le domaine nous facture seulement les bouteilles : l'incident devient une seconde vente. Sans l'option, on reste aux conditions de base, pas au régime ad valorem. Et je dis franchement les limites : la chaleur, non couverte, transport non réfrigéré ; et les exclusions des conditions générales, l'oxydation, les bouchons, les étiquettes.
 
 (Montrer l'arbre de haut en bas : le bandeau « Envoi assuré », le choix du client, puis la feuille sombre « La seconde vente » ; à droite, 3 % et 89,8 %.)
 
 (Si on m'oppose l'annexe F, qui dit les frais administratifs « incluant » l'assurance : la couverture est décrite dans la grille, mais facturée en option à 3 %, proposée à chaque commande, et choisie sur 89,8 % des envois. Formulation à faire valider par Floriane.)""",
 
-'b12': """La cadence complète : huit touches en dix-huit jours, pour une vingtaine de comptes prioritaires en approche individualisée ; la cadence s'ouvre dès 55 points de PA-FIT, et les caveaux ont une cadence plus courte et plus terrain. La règle d'or : toute réponse arrête l'automatisation et crée une tâche humaine. Le câblage Brevo-HubSpot est prévu en novembre ; d'ici là, les mêmes étapes avec des tâches manuelles.
+'b12': """La cadence complète : huit touches en dix-huit jours, pour une vingtaine de comptes prioritaires en approche individualisée ; on entre en cadence dès 55 points de PA-FIT : cadence courte et terrain pour les P2, les huit touches pour les P1, à 75 et plus. La règle d'or : toute réponse arrête l'automatisation et crée une tâche humaine. Le câblage Brevo-HubSpot est prévu en novembre ; d'ici là, les mêmes étapes avec des tâches manuelles.
 
 (Montrer la frise de J1 à J18 et l'accolade « 6 contacts actifs » ; finir sur le bandeau sombre « Règle d'or ».)
 
@@ -94,5 +94,5 @@ Le chapitre 11 dit « en chiffres réels » : ce sont les prix de la grille qui 
 
 'b17': """(Si on me demande qui fait quoi, et en combien de temps.) Voici les sept étapes, chacune avec son responsable, sa preuve, son délai et son outil. Le commercial reste responsable jusqu'au premier envoi, étape 6 incluse. (Montrer la ligne 6.) Les délais sont des objectifs : un lead entrant est rappelé sous vingt-quatre heures, et la proposition part moins de vingt-quatre heures après le rendez-vous.
 
-(Source : dossier, chapitre 9, « Le pipeline en sept étapes ». Le délai de l'étape 1 vise la demande entrante : rappel sous 24 h, sous 4 h si elle est chaude.)""",
+(Source : dossier, chapitre 9, « Le pipeline en sept étapes ». Le délai de l'étape 1 vise la demande entrante : accusé de réception sous 1 h, rappel sous 24 h, le jour même si elle arrive avant 16 h ; « < 4 h » ne vaut que pour une réaction à une cadence.)""",
 }

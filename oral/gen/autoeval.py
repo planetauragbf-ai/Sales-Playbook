@@ -92,7 +92,7 @@ ARG = [
      'Aucun résultat du playbook n’est encore mesuré ; la décision citée est une règle conditionnelle ; première lecture fin décembre.', 'Réponse courte prête : la méthode, pas encore la preuve.'),
     ('Améliorations et justifications', 'Maîtrisé', 'Cinq bandeaux Constat → Ma décision → Ce que l’on mesure (diapos 11, 15, 16, 17, 19), dix mots au plus par case.', '—', '—'),
     ('Synthèse en lien avec les enjeux', 'Maîtrisé', 'Retour à Houston ; réponse enjeu par enjeu ; bénéfice visé, limite ; apport et difficulté dits (détail en B15).', '—', '—'),
-    ('Ouverture', 'Maîtrisé', 'Diversifier (UK, UE, Japon), réduire la dépendance aux États-Unis ; première lecture fin décembre.', 'Sans objectif chiffré de diversification.', 'Dire qu’il sera fixé après la première lecture.'),
+    ('Ouverture', 'Maîtrisé', 'Diversifier (UK, UE dont Scandinavie, Canada, Japon), réduire la dépendance aux États-Unis ; première lecture fin décembre.', 'Sans objectif chiffré de diversification.', 'Dire qu’il sera fixé après la première lecture.'),
 ]
 CRIT = [
     ('Fond', '18,5 / 20', 'Aucun critère évalué retiré : ce qui a quitté l’écran est dit, ou placé en secours (B17 ajoutée) ; statuts à côté des chiffres ; un cas cohérent de bout en bout ; chaque décision reliée à un constat et à une mesure ; contribution lisible.',
