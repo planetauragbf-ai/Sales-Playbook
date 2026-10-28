@@ -28,7 +28,7 @@
 | **Order form** | Bon de commande en anglais rempli par le client final au comptoir, avec bloc de paiement CB (annexe K) |
 | **Picking** | Prélèvement des bouteilles en stock pour préparer une commande |
 | **Planet'Connect** | Notre plateforme (simulateur, commandes, suivi, factures, e-signature) ; la grille publiée fait foi ; compte démo pour les rendez-vous (annexe Y, fiche 11) |
-| **Planet'Stock** | Extension stockage et picking, en cours de déploiement : au futur ou au conditionnel (annexe Y, fiche 11) |
+| **Planet'Stock** | Logiciel de stockage et picking de Planet Aura, en service à l'entrepôt de Castres : scan des bouteilles, picking par scan, suivi du taux d'occupation (annexe R) |
 | **VELA** | Projet d'option maritime à faibles émissions (voilier-cargo) : conditionnelle, jamais exclusive, jamais citée sans validation direction (annexe Y, fiche 14) |
 
 ## 3 · Douane, conformité & assurance

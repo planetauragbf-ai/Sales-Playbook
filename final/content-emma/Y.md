@@ -160,7 +160,7 @@ Planet'Connect (app.planet-aura.com) est la plateforme et son API : l'adhérent 
 
 - **La grille 2026 publiée sur Planet'Connect fait foi (règle CGS art. 7.1) et le simulateur l'applique** : taxes, dossier et assurance chiffrés en direct, jamais un prix de mémoire, toujours Planet'Connect devant le prospect, sur ses vins.
 - **API gratuite** (documentation et identifiants dans le compte adhérent) ; l'interfaçage reste à la charge de l'adhérent. Exemples en service au chap. 04.
-- **Planet'Stock**, extension dédiée au stock, est en cours de déploiement : elle se décrit au futur ou au conditionnel (annexe R).
+- **Planet'Stock**, logiciel de stockage et picking, est en service : trois adhérents stockent à Castres ; scan des bouteilles, picking par scan, suivi du taux d'occupation, intégration d'IA (annexe R). Il se présente au présent, comme Planet'Connect.
 - Deux périmètres de source, pas deux vérités : chiffres d'activité = dashboards Planet'Connect (annexe C) ; donnée commerciale (comptes, opportunités, consentements, motifs, funnel) = HubSpot (chap. 15).
 
 Où c'est utilisé : chap. 00, 04, 10, 11, 12, 15 ; annexes O, R, T, V, GLO.
@@ -201,7 +201,7 @@ Où c'est utilisé : avant-propos, chap. 03, 04, 11, 13 ; annexes J, K.
 
 ## Y.14 · Projets en développement et VELA : statut, mots autorisés et interdits
 
-Liste de référence unique (chap. 04, « Offres en développement ») : service Gant Blanc, logistique événementielle, offres USA « all-inclusive », ligne retour USA → France, option VELA ; projets d'entreprise : Planet'Stock (en cours de déploiement), annexe en Champagne, entrepôt certifié / entrepositaire agréé, autonomie élargie de la filiale US. Tous se présentent **au conditionnel**, l'état d'avancement vérifié auprès de la direction avant d'en parler à un prospect ; tout engagement chiffré passe par la direction.
+Liste de référence unique (chap. 04, « Offres en développement ») : service Gant Blanc, logistique événementielle, offres USA « all-inclusive », ligne retour USA → France, option VELA ; projets d'entreprise : annexe en Champagne, entrepôt certifié / entrepositaire agréé, autonomie élargie de la filiale US. Tous se présentent **au conditionnel**, l'état d'avancement vérifié auprès de la direction avant d'en parler à un prospect ; tout engagement chiffré passe par la direction.
 
 | VELA | Formulation |
 |---|---|
@@ -209,7 +209,7 @@ Liste de référence unique (chap. 04, « Offres en développement ») : service
 | Allégation autorisée | « Jusqu'à −90 % de CO2 par rapport au fret maritime conteneurisé selon l'ACV Carbone 4 citée par VELA » (S09, annexe C) |
 | Données internes | Enquêtes 2025 (annexe X) : 12 adhérents sur 20 et les 4 prospects intéressés, surcoût ≤ +10 % accepté par 8 adhérents ; niveau 3 |
 
-> 🚫 **INTERDIT :** « Décarbonée », « zéro carbone », « premier », « exclusif », « méthode VELA/ACV », VELA au catalogue ou comme différenciateur actuel, Planet'Stock au présent.
+> 🚫 **INTERDIT :** « Décarbonée », « zéro carbone », « premier », « exclusif », « méthode VELA/ACV », VELA au catalogue ou comme différenciateur actuel.
 
 Où c'est utilisé : chap. 01, 02, 03, 04, 05, 13, 18 ; annexes C, R, X, GLO.
 

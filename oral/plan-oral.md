@@ -12,7 +12,7 @@
 - Le top 10 clients est strictement interne : à l'oral, ANONYMISER (« une cave touristique du Val de Loire », « une maison de champagne »), pas de CA par client.
 - Jamais de données personnelles de clients finaux (pas de nom d'auteur d'avis particulier).
 - Aucun identifiant, mot de passe, clé API.
-- Projets en développement (VELA, Gant Blanc, Planet'Stock, entrepôt agréé, annexe Champagne) = au conditionnel.
+- Projets en développement (VELA, Gant Blanc, entrepôt agréé, annexe Champagne) = au conditionnel.
 - Assurance : couvre jusqu'à 20 000 €/envoi mais reste une OPTION (3 % ad valorem), souscrite sur 89,8 % des envois (jamais « 9 envois sur 10 ») ; jamais « incluse ».
 - Paiement : mandat SEPA par défaut, virement accepté, CB possible (adhérent ou client final) mais chronophage.
 - Droits de douane US : ne jamais citer de taux à l'oral ; le dossier indique 10 % depuis février 2026 (15 % d'août 2025 à février 2026), mais des sources externes divergent depuis juillet 2026 : renvoyer au simulateur, vérifier la veille.
