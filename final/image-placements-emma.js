@@ -129,4 +129,4 @@ module.exports['X'] = [
 
 // Annexe J - CGS 2026 : texte intégral (document officiel, 10 pages)
 module.exports['J'] = (module.exports['J'] || []);
-for (let i = 1; i <= 10; i++) module.exports['J'].push({ after: '^Les CGS 2026, texte intégral', img: `annexes/cgs-${i}.png`, w: 520, caption: i === 10 ? 'Conditions Générales de Services Planet Aura 2026 - document officiel (10 pages)' : '' });
+module.exports['J'].push({ after: '^Les CGS 2026, texte intégral', img: 'annexes/cgs-1.png', w: 520, caption: 'CGS 2026, première page - texte intégral : lien en annexe V et documentation 2026 sur Planet’Connect' });

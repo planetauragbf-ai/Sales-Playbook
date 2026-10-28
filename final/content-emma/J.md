@@ -37,4 +37,4 @@ Cette page est un aide-mémoire, pas le contrat. Le texte intégral des CGS 2026
 
 ## Les CGS 2026, texte intégral
 
-Le document officiel signé électroniquement par chaque adhérent, reproduit tel quel (10 pages).
+Le document officiel signé électroniquement par chaque adhérent : première page reproduite ci-dessous ; le texte intégral (10 pages, 17 articles) est en ligne sur drive.google.com/file/d/1udHs7oESvTWcF7LOY9Ra9vwpnDoykchT (annexe V) et sur Planet'Connect, dans la documentation 2026 signée par l'adhérent.

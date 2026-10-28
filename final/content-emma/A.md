@@ -41,42 +41,22 @@ Les dix fiches, dans l'ordre - chaque ICP précise son poids dans l'effort comme
 | Persona D | Le directeur commercial de maison de Champagne | Arbitre économique |
 | Persona E | Le client final étranger | Celui qu'il faut rassurer au comptoir |
 
-\page
-
 ## ICP 1 - Domaine ou château avec caveau
-
-\page
 
 ## ICP 2 - Maison ou vigneron de Champagne
 
-\page
-
 ## ICP 3 - Caviste et cave touristique
-
-\page
 
 ## ICP 4 - Œnotourisme, prescripteurs et organisateurs de salons
 
-\page
-
 ## ICP 5 - Distillerie et producteur de spiritueux
-
-\page
 
 ## Persona A - Le vigneron-propriétaire
 
-\page
-
 ## Persona B - La responsable caveau / œnotourisme
-
-\page
 
 ## Persona C - Le caviste
 
-\page
-
 ## Persona D - Le directeur commercial de maison de Champagne
-
-\page
 
 ## Persona E - Le client final étranger

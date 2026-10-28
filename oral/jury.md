@@ -245,7 +245,7 @@
 - Réponse : Vous avez l'œil. Le document décrit la couverture : perte et casse, jusqu'à 20 000 € par envoi. Dans la pratique commerciale, elle est facturée en option, 3 % de la valeur du vin et du transport, proposée à chaque commande, et 89,8 % des envois la prennent. Je fais remonter l'écart de formulation pour la grille 2027. Cela répond-il à votre question ?
 - Preuve : Grille 2026 (annexe F) ; doctrine assurance du playbook (avant-propos, annexes J et X) ; indicateur « envois assurés » 89,8 % (chap. 17).
 - Diapo de secours : B11 (encadré « L'assurance, une option » : 3 % de la valeur, vin + transport, jusqu'à 20 000 € par envoi, 89,8 % des envois l'ont choisie, CONSTATÉ).
-- Piège : Dire « incluse », ou nier l'écart. Réponse à faire valider par la direction avant l'oral.
+- Piège : Dire « incluse », ou nier l'écart. Réponse validée par la direction : l'assurance est une option cochée à la commande.
 
 ### 4. Pourquoi montrer une grille tarifaire plutôt qu'une capture du simulateur ?  _(possible)_
 - Pourquoi : Le jury teste la cohérence des chiffres projetés et l'authenticité des preuves.

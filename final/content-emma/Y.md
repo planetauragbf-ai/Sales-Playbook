@@ -9,7 +9,7 @@ L'assurance casse/perte, une option à 3 % de la valeur (vin + transport) coché
 
 | Point | Règle | Statut · source |
 |---|---|---|
-| Base | 3 % de la valeur (vin + transport), cochée sur l'order form client final | Grille 2026, à confirmer par Floriane |
+| Base | 3 % de la valeur (vin + transport), cochée sur l'order form client final | Grille 2026, validé par la direction |
 | Plafond | 20 000 €/envoi, emballages homologués seuls ; au-delà, assurance complémentaire à souscrire par le Client avant expédition | Règle CGS art. 10 |
 | Souscription | 89,8 % des expéditions (objectif ≥ 90 %) | Constaté, table C |
 | Sans l'option | « Conditions de base » : indemnisation forfaitaire au poids du barème transporteur (plafonds CMR), sans rapport avec la valeur du vin | Règle CGS art. 11 |

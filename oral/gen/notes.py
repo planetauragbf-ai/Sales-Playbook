@@ -66,7 +66,7 @@ Je le complète honnêtement : des passes de mise en cohérence ont aussi été 
 
 (Montrer l'arbre de haut en bas : le bandeau « Envoi assuré », le choix du client, puis la feuille sombre « La seconde vente » ; à droite, 3 % et 89,8 %.)
 
-(Si on m'oppose l'annexe F, qui dit les frais administratifs « incluant » l'assurance : la couverture est décrite dans la grille, mais facturée en option à 3 %, proposée à chaque commande, et choisie sur 89,8 % des envois. Formulation à faire valider par Floriane.)""",
+(Si on m'oppose l'annexe F, qui dit les frais administratifs « incluant » l'assurance : la couverture est décrite dans la grille, mais facturée en option à 3 %, proposée à chaque commande, et choisie sur 89,8 % des envois. Formulation validée par la direction.)""",
 
 'b12': """La cadence complète : huit touches en dix-huit jours, pour une vingtaine de comptes prioritaires en approche individualisée ; on entre en cadence dès 55 points de PA-FIT : cadence courte et terrain pour les P2, les huit touches pour les P1, à 75 et plus. La règle d'or : toute réponse arrête l'automatisation et crée une tâche humaine. Le câblage Brevo-HubSpot est prévu en novembre ; d'ici là, les mêmes étapes avec des tâches manuelles.
 
