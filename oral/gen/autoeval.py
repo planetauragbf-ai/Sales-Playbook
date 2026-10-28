@@ -76,8 +76,8 @@ ANIM = [
      'Minutage théorique : 130 mots/min est une hypothèse de débit, jamais vérifiée à voix haute.', 'Noter l’heure réelle aux trois points de passage, à chaque répétition ; appliquer le plan de coupe dès 30 s de retard.'),
 ]
 ARG = [
-    ('Titres du sommaire', 'Maîtrisé', 'Cinq étapes titrées par leur idée ; en v5, le renvoi à la problématique et les trois enjeux en regard, reliés aux parties du cahier des charges.', '—', '—'),
-    ('Introduction qui amène le sujet', 'Maîtrisé', f'Scène → marché → entreprise → offre → diagnostic → problématique, en {INTRO} (minutage théorique).', '—', '—'),
+    ('Titres du sommaire', 'Maîtrisé', 'Cinq étapes titrées par leur idée ; en v5, le renvoi à la problématique et les trois enjeux en regard, reliés aux parties du cahier des charges.', '-', '-'),
+    ('Introduction qui amène le sujet', 'Maîtrisé', f'Scène → marché → entreprise → offre → diagnostic → problématique, en {INTRO} (minutage théorique).', '-', '-'),
     ('Marché relié à l’entreprise', 'Maîtrisé', 'Trois chiffres sourcés, en grand ; cinq contraintes ; un titre-message : « L’export se complique : c’est notre métier ».',
      'Droits US : sources externes contradictoires depuis juillet 2026.', 'Renvoyer au simulateur ; ne jamais citer un taux de mémoire.'),
     ('Entreprise : organigramme, CA, offre, concurrence, cibles', 'Maîtrisé', 'CA ×4,7 constaté, 262 adhérents, part USA, « qui vend, qui décide », photo de l’équipe ; offre et concurrence sur la diapo 6.',
@@ -90,8 +90,8 @@ ARG = [
      'Rituels et dictionnaire proposés, pas ratifiés ; les quatre règles marketing-ventes ne sont plus visibles.', 'Faire confirmer le statut par la direction ; si on demande les règles : B12 (PA-FIT 55, nurture 45 j) et B17 (rappel du lead entrant < 24 h).'),
     ('Indicateurs de performance', 'En cours → maîtrisé', 'Mesuré ou espéré : ~145 signés constatés, point zéro au 24/09/2026 ; Activation J+30 ≥ 70 % avec source, fréquence, responsable, action ; revue mensuelle ; détail en B6.',
      'Aucun résultat du playbook n’est encore mesuré ; la décision citée est une règle conditionnelle ; première lecture fin décembre.', 'Réponse courte prête : la méthode, pas encore la preuve.'),
-    ('Améliorations et justifications', 'Maîtrisé', 'Cinq bandeaux Constat → Ma décision → Ce que l’on mesure (diapos 11, 15, 16, 17, 19), dix mots au plus par case.', '—', '—'),
-    ('Synthèse en lien avec les enjeux', 'Maîtrisé', 'Retour à Houston ; réponse enjeu par enjeu ; bénéfice visé, limite ; apport et difficulté dits (détail en B15).', '—', '—'),
+    ('Améliorations et justifications', 'Maîtrisé', 'Cinq bandeaux Constat → Ma décision → Ce que l’on mesure (diapos 11, 15, 16, 17, 19), dix mots au plus par case.', '-', '-'),
+    ('Synthèse en lien avec les enjeux', 'Maîtrisé', 'Retour à Houston ; réponse enjeu par enjeu ; bénéfice visé, limite ; apport et difficulté dits (détail en B15).', '-', '-'),
     ('Ouverture', 'Maîtrisé', 'Diversifier (UK, UE dont Scandinavie, Canada, Japon), réduire la dépendance aux États-Unis ; première lecture fin décembre.', 'Sans objectif chiffré de diversification.', 'Dire qu’il sera fixé après la première lecture.'),
 ]
 CRIT = [
@@ -158,10 +158,10 @@ AVANT_APRES = [
      'Finir sur l’image de l’accroche, et sur le jury'),
     (f'Secours B1 à B{len(B16)}', f'14 à 217 → {min(VIS[s] for s in B16)} à {max(VIS[s] for s in B16)}', 'Chaque secours à 130 mots au plus, même système visuel',
      'Détail resté dans les notes de secours et le dossier', 'Lisibles dès qu’une question les ouvre'),
-    ('Secours B17 (nouvelle)', f'— → {VIS["b17"]}', 'Les sept étapes : responsable, preuve, délai (objectif), outil ; l’étape 6 surlignée',
+    ('Secours B17 (nouvelle)', f'- → {VIS["b17"]}', 'Les sept étapes : responsable, preuve, délai (objectif), outil ; l’étape 6 surlignée',
      'Reçoit le détail retiré de la diapo 11 ; fiche ajoutée dans la banque de questions', '« Quel délai, qui, quel outil à l’étape 2 ? »'),
-    ('Rendu au banc', '—', f'{NS} diapos sans aucun signalement (débordement, chevauchement), rendu normal et agrandi de 10 % (render5.js, vraies polices)',
-     '—', 'En v4, des textes se chevauchaient et des grands chiffres touchaient leur légende'),
+    ('Rendu au banc', '-', f'{NS} diapos sans aucun signalement (débordement, chevauchement), rendu normal et agrandi de 10 % (render5.js, vraies polices)',
+     '-', 'En v4, des textes se chevauchaient et des grands chiffres touchaient leur légende'),
     ('Script oral', f'2 330 → {num(WORDS)} mots dits', f'{TOTAL} à 130 mots/min (+2 s par diapo), introduction à {INTRO} ; en v4 : 18:35, introduction à 4:52',
      'Ce qui a quitté l’écran se dit sans allonger : ajouts compensés par la coupe des redites et des relectures d’écran',
      'Le temps reste dans la cible ; il reste à le chronométrer à voix haute'),

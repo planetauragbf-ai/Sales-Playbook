@@ -298,71 +298,71 @@
 
 # Diapos de secours
 
-### B1 — Personas : cinq sur cinq confirmés par nos données
+### B1 · Personas : cinq sur cinq confirmés par nos données
 - Contenu : cinq lignes persona / contacts rattachés / verdict, toutes « Confirmé » (A vigneron-propriétaire 14 ; B responsable caveau 8, fort turnover ; C caviste 7, confirmé et élargi ; D directeur commercial 15, accès par l'ADV dans les grandes maisons ; E client final étranger 5 : 49 contacts rattachés, CONSTATÉ) ; l'angle mort (une dizaine d'ADV, comptables et logisticiens, traités par le comité d'achat) ; la base, CONSTATÉ (70 contacts pro : 40 e-mails, 30 salons et CRM ; 47 réponses de 3 enquêtes ; 15 avis Google ; top 10 anonymisé) ; limite assumée (échanges écrits, prospects sous-représentés, 4 réponses, entretiens prévus au T1 2027). En note seulement : le détail des réponses (23 + 20 + 4) et le cas de conciergerie.
 - Répond à : Personas réels ou intuition, représentativité de l'échantillon, « si c'était à refaire », méthode de la partie 9.
 
-### B2 — Priorisation : une seule grille fait foi
+### B2 · Priorisation : une seule grille fait foi
 - Contenu : la chaîne CAVE (trier) → PA-FIT /100 (fait foi) → tiers A · B · C (rythme) ; les 8 critères du PA-FIT en barres (5 × 15, 2 × 10, 5) ; « Le total décide » (RÈGLE) : 75-100 P1, 55-74 P2, 35-54 nurture, < 35 disqualifié ou veille ; tiers en envois par an (OBJECTIF) : A > 150, B 40-150, C < 40, 80 % du temps sur A et B ; « un score sans preuve vaut zéro », barème recalibré après 90 jours. En note seulement : le détail de CAVE et le premier tri de terrain sans note chiffrée (cinq questions éclair + CAVE ; plus de score express sur 20).
 - Répond à : Usine à gaz des grilles, ICP contre taille, priorisation du temps commercial.
 
-### B3 — Concurrence : reconnaître, recentrer, questionner, sans dénigrer
+### B3 · Concurrence : reconnaître, recentrer, questionner, sans dénigrer
 - Contenu : cinq situations (compte UPS, Viticolis, Dartess, DHL, gestion interne), chacune en trois temps : on reconnaît, on recentre, on demande ; 3 questions gagnantes en bandeau. En note seulement : les 3 faiblesses assumées (délai du groupage, prix des petites quantités, taille) et les sources publiques d'octobre 2026.
 - Répond à : Jeu de rôle UPS, taille face aux grands réseaux, différenciation sans dénigrement.
 
-### B4 — SPIN sur le terrain : la permission avant le tunnel, un tunnel par profil
+### B4 · SPIN sur le terrain : la permission avant le tunnel, un tunnel par profil
 - Contenu : « Avant le tunnel » (RÈGLE) : au caveau, moins de 3 minutes d'appel pour 30 minutes de démonstration, pas une vente ; pour un compte structuré, 45 secondes de permission puis 25 minutes de cartographie du flux ; avant les pics, pas pendant ; bloc 10 h-12 h au téléphone ; tunnel 2, maison de Champagne (S, P, I, N, l'implication en bande dorée) ; « la banque de questions décline le tunnel en 8 profils ». En note seulement : les deux questions de permission et deux exemples de la banque (responsable caveau, caviste).
 - Répond à : « En pleine saison, quel vigneron vous accorde 45 minutes ? » (rendez-vous type de 45 minutes : découverte minutes 5-20, démo 20-30 ; on demande 30 minutes en terrain, 25 en ABM), SPIN par profil (huit profils : quatre personas et quatre rôles).
 
-### B5 — Transparence IA : l'IA a aidé la forme, le fond reste sourcé
+### B5 · Transparence IA : l'IA a aidé la forme, le fond reste sourcé
 - Contenu : la forme : Claude (Anthropic), crédité dès l'avant-propos, 8 chantiers de forme, prompts en annexe W ; à déclarer aussi : des mises en cohérence, chaque correction vérifiée à sa source, et ce support oral, travaillé avec Claude puis relu ; le fond : chaque chiffre vérifié à sa source (annexe C), documentation officielle 2026, tableaux de bord Planet'Connect au 24/09/2026, 3 enquêtes (47 réponses), 24 références externes vérifiées ; les garde-fous : aucune image générée par IA, aucune donnée personnelle de client final ; « Quel chiffre ou quelle procédure voulez-vous que je vous explique ? ».
 - Répond à : Usage de l'IA, part personnelle du travail, conformité au CDC.
 
-### B6 — Indicateurs : chaque KPI, sa fréquence, sa cible, son action
+### B6 · Indicateurs : chaque KPI, sa fréquence, sa cible, son action
 - Contenu : 9 KPI groupés par fréquence, cibles en OBJECTIF : mensuel (adhérents actifs, activation à J+30, RDV → proposition, taux de gain, cycle de vente médian, OTIF), hebdomadaire (RDV tenus, hygiène du forecast), par dossier (marge contributive, plancher non affiché) ; bandeau CONSTATÉ : satisfaction 2024, 4,65/5 sur 23 réponses, recommandation 4,87/5, pas un NPS. En note seulement : l'entonnoir cible complet, le SAV 21/22, les sources et les responsables.
 - Répond à : Origine des cibles, méthode de suivi, adoption du CRM.
 
-### B7 — Prix rendu : sans maquillage, le client final paie
+### B7 · Prix rendu : sans maquillage, le client final paie
 - Contenu : exemple du playbook (chap. 04), ILLUSTRATIF, 12 bouteilles, 300 € de vin : 210 € de transport (GRILLE 2026) + ~30 € de taxes estimées + 17 € de dossier DDP + assurance en option 3 % × (300 + 210) ≈ 15 € = ≈ 270 € réglés d'avance ; ≈ 17,50 € de transport par bouteille ; les règles : droits US, taux du jour au simulateur (aucun taux cité), pas de remise sans contrepartie ni validation de la direction, le périmètre avant le prix ; taxes estimées, révisables (CGS art. 5), ~21 jours ouvrables estimés hors douane (environ un mois, jamais garanti), le simulateur fait foi. Dit, pas à l'écran : 15 € par bouteille sur les 24 bouteilles du cas, total selon la valeur déclarée ; droits volatils depuis 2025.
 - Répond à : Objection prix, demande de remise, droits de douane US.
 
-### B8 — Stratégie : miser sur le trio, diversifier sans sacrifier les USA
+### B8 · Stratégie : miser sur le trio, diversifier sans sacrifier les USA
 - Contenu : SWOT (forces, CONSTATÉ : le trio, commissionnaire à obligation de résultat, filiale US licenciée, Planet'Connect, puis spécialisation vins, champagnes, spiritueux et assurance en option sur 89,8 % des envois ; faiblesses dont la concentration sur quelques grands comptes, sans chiffre ; opportunités ; menaces, dont les droits US, sans taux) et trois horizons : 0–12 mois (consolider le groupage USA, activer les signés), 1–3 ans (diversifier : UK, UE dont Scandinavie, Canada, Japon), 3 ans et plus (devenir la référence du transport international du vin, projets en développement, au conditionnel).
 - Répond à : Positionnement et stratégie, dépendance aux USA, diversification.
 
-### B9 — Organisation : treize personnes, quatre pôles et une filiale
+### B9 · Organisation : treize personnes, quatre pôles et une filiale
 - Contenu : organigramme 2026 (direction ; commerce et développement ; filiale Planet Aura Inc. de New York ; logistique et exploitation ; administration), contacts masqués ; règles de délégation au chap. 03.
 - Répond à : Qui fait quoi, taille de l'équipe, place d'Emma.
 
-### B10 — États-Unis : où livre-t-on ? La carte 2026
+### B10 · États-Unis : où livre-t-on ? La carte 2026
 - Contenu : carte officielle 2026 des États (ouvert ; groupage et direct ; groupage pour certains codes postaux et direct ; envoi direct uniquement ; certains codes postaux ; fermé ; Vermont livré par un prestataire interne après regroupement) ; groupage DDP (RÈGLE) : 36 bouteilles max. par personne et par envoi, POA au-delà de 2 100 $ de valeur déclarée (seuil en valeur, jamais d'équivalence en bouteilles), ~21 jours ouvrables estimés. Carte projetée : la carte vin (statuts 2026), pas la carte spiritueux.
 - Répond à : « Livrez-vous tel État ? », POA, limites du groupage.
 
-### B11 — Procédure sinistre 2026 : si ça casse, l'incident devient une seconde vente
+### B11 · Procédure sinistre 2026 : si ça casse, l'incident devient une seconde vente
 - Contenu : envoi assuré, signalement sous 48 h avec photos, le client choisit ; réexpédition (le domaine a-t-il encore les bouteilles ? oui : enlèvement et RXP suivie ; non : remplacement équivalent, sinon remboursement) et « la seconde vente » : le domaine facture les seules bouteilles ; remboursement (dossier vérifié, instruction avec l'assureur ; le domaine facture bouteilles, transport et taxes) ; l'assurance, une option : 3 % (vin + transport), jusqu'à 20 000 € par envoi avec emballage homologué, choisie sur 89,8 % des envois (CONSTATÉ) ; exclusions (altération thermique, oxydation, bouchons, étiquettes) ; sans option, conditions de base.
 - Répond à : « Qui paie quand ça casse ? », chaleur, casse.
 
-### B12 — Cadence : 8 touches en 18 jours, et la réponse arrête tout
+### B12 · Cadence : 8 touches en 18 jours, et la réponse arrête tout
 - Contenu : frise J1 à J18 (6 contacts actifs) ; pour ~20 comptes P1 (PA-FIT ≥ 75) en ABM 1:1 ; en cadence dès PA-FIT 55 : P2 (55-74) → cadence courte (J1, J+4, J+10, visite), jamais par segment ; seuils de mesure du vendredi (RÈGLE) ; règle d'or : réponse, RDV, opposition ou erreur, cadence stoppée et tâche humaine créée ; câblage Brevo + HubSpot À DÉPLOYER, novembre 2026.
 - Répond à : Prospection, automatisation, charge de la petite équipe.
 
-### B13 — Feuille de route : pas de critère atteint, pas d'étape suivante
+### B13 · Feuille de route : pas de critère atteint, pas d'étape suivante
 - Contenu : six chantiers, de septembre 2026 à juillet 2027, chacun avec son échéance, son budget, son responsable, son temps et son critère de passage ; plafond de 3 000 € de dépenses externes (OBJECTIF). En note seulement : le hors-budget, après validations (vidéo démo, études de cas autorisées, pilote VELA, encore à l'état de projet).
 - Répond à : Ressources précises, réalistes, échéancées et chiffrées.
 
-### B14 — Objections : le top 5, une objection, une seule preuve
+### B14 · Objections : le top 5, une objection, une seule preuve
 - Contenu : prix (15 € par bouteille, payés par le client final ; 360 € HT de transport pour 24 bouteilles vers les USA, GRILLE 2026), casse (assurance en option, 3 %, vin + transport, jusqu'à 20 000 € par envoi, choisie sur 89,8 % des envois, CONSTATÉ), chaleur (départ différé ; l'altération thermique n'est pas couverte par notre assurance, transport non réfrigéré ; les CGS excluent l'altération naturelle), statu quo (« Comparer sur UN envoi »), temps (3 min de saisie par envoi, saisonniers formés en 30 min, OBJECTIF) ; bandeau Accueillir, Clarifier, Prouver, Vérifier ; réponse notée mot pour mot ; 26 objections, annexe D. Les numéros O- ne sont plus à l'écran ; le signalement sous 48 h est en B11.
 - Répond à : Traitement des objections, jeux de rôle du jury.
 
-### B15 — Contribution : mon apport, la méthode qui relie l'existant
+### B15 · Contribution : mon apport, la méthode qui relie l'existant
 - Contenu : sept lignes « ma contribution → pourquoi → statut » (source unique et preuve en 3 statuts ; 5 ICP, PA-FIT, tiers A/B/C ; 5 personas confrontés au réel ; SPIN, 26 objections, ROI, négociation : livrés ; 7 étapes, vente finie au 1er envoi : objectif ≥ 70 % à J+30 ; dictionnaire CRM, RACI, rituels : proposé, à ratifier ; plan 30-60-90, annexe U : livré, non testé) ; bandeau EXISTANT : CGS, grilles 2026 et filiale (direction), procédures 2026 et ~145 signés (équipe), Planet'Connect développé avec Halt Solutions (contribution d'Emma). En note seulement : ce qui manquait avant le playbook (chiffres divergents, 448 prospects non qualifiés, personas jamais formalisés, activation jamais mesurée, outils sans règles communes).
 - Répond à : Valeur ajoutée personnelle, cas « playbook existant » sans objet, question sur l'IA.
 
-### B16 — Cas fil rouge : un parcours type, pas une vente réalisée
+### B16 · Cas fil rouge : un parcours type, pas une vente réalisée
 - Contenu : les sept étapes du pipeline appliquées au domaine du cas, chacune avec sa source ou son statut (chap. 11, RÈGLE, GRILLE 2026, et ILLUSTRATIF pour les points PA-FIT 45 → 60 → 85) ; bandeau des sources : chap. 11, règles des chap. 09 à 16, grille 2026 ; aucun domaine nommé, aucun chiffre client.
 - Répond à : « Votre cas est-il réel ? », honnêteté de la démonstration.
 
-### B17 — Processus : qui, preuve, délai, outil
+### B17 · Processus : qui, preuve, délai, outil
 - Contenu : les sept étapes du pipeline, chacune avec son responsable, sa preuve, son délai (OBJECTIF) et son outil : 1 Lead, commercial (+ marketing), ICP et signal vérifiés, rappel < 24 h, HubSpot ; 2 Qualifié, commercial, CAVE + score PA-FIT, < 7 j, HubSpot ; 3 RDV · démo, commercial, reformulation validée, CR < 24 h, simulateur ; 4 Proposition, commercial + exploitation, faisabilité validée, < 24 h, Doc. 2026 ; 5 Adhésion, adhérent + commercial, signée + cartons, ≤ 14 j, e-signature ; 6 Activé, la ligne d'arrivée surlignée, commercial + exploitation, 1er envoi fait et débriefé, ≤ 30 j, Planet'Connect ; 7 Récurrent, commercial, ≥ 3 envois par trimestre, retour < 2 j, dashboards ; source : dossier, chap. 09, « Le pipeline en sept étapes » ; outils : chap. 15. En note seulement : le rappel sous 24 h vise la demande entrante (accusé de réception sous 1 h, le jour même avant 16 h ; « < 4 h » ne vaut que pour une réaction à une cadence).
 - Répond à : « Quel délai, qui, quel outil à l'étape 2 ? », qui fait quoi jusqu'au premier envoi, délais du processus étape par étape.
 

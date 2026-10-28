@@ -151,7 +151,7 @@ hard = parse_qs(HARDB)
 SHORT = re.search(r'^> Réponse courte, à savoir par cœur : (.*)$', HARDB, re.M).group(1)
 cas = parse_qs(J.split('# Questions sur le cas')[1].split('# Diapos de secours')[0])
 JB = J.split('# Diapos de secours')[1].split('# Autoévaluation')[0]
-REPOND = dict(re.findall(r'^### (B\d+) — .*?\n.*?- Répond à : (.*?)$', JB, re.S | re.M))
+REPOND = dict(re.findall(r'^### (B\d+) [—·] .*?\n.*?- Répond à : (.*?)$', JB, re.S | re.M))
 for sid in backs:
     if sid.upper() not in REPOND:
         CHECK.append(f'« Répond à » manquant pour {sid.upper()}')
@@ -301,7 +301,7 @@ GRID = [
      + (f'aucune espace sécable avant : ; ? ! % » sur les {len(deck["order"])} diapos, contrôle automatique' if not TYPO
         else f'contrôle automatique sur les {len(deck["order"])} diapos : espace sécable à corriger en {", ".join(TYPO)}')
      + '), relectures croisées, rendu vérifié diapo par diapo ; dernière relecture à voix haute la veille, phrase anglaise de la diapo 9 comprise.'),
-    ('Respecte le temps imparti (20 min max)', 'Animation', '—', f'Script à {tot}, introduction jusqu’à {end("diagnostic")} ; trois points de passage ; coupes prévues, chiffrées en secondes.'),
+    ('Respecte le temps imparti (20 min max)', 'Animation', '-', f'Script à {tot}, introduction jusqu’à {end("diagnostic")} ; trois points de passage ; coupes prévues, chiffrées en secondes.'),
     ('Titres précis et impactants dans le sommaire', 'Argumentation', '3', 'Cinq étapes titrées par leur idée : « La vente finit au premier envoi », « Outiller, former, mesurer » ; à droite, le renvoi « → la problématique » (énoncée diapo 7) et les trois enjeux, reliés aux parties 8 à 14 du cahier des charges ; le contenu de chaque étape (ICP et personas, processus et SPIN, ressources et indicateurs), dit.'),
     ('Introduction qui amène le sujet', 'Argumentation', '2 à 7', 'Scène → marché → entreprise → offre → diagnostic → problématique et trois enjeux.'),
     ('Analyse le marché en lien avec l’entreprise', 'Argumentation', '4 (+ 5)', 'Trois bascules chiffrées et cinq contraintes pour expédier chez un particulier américain : « Pour le vigneron, ce sont des freins. Pour nous, c’est le métier. » Chaque bascule traduite pour nous, à l’oral ; part USA de nos envois (64,5 %) à l’écran, diapo 5.'),
