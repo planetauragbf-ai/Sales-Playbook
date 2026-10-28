@@ -1,6 +1,6 @@
 # Annexe R · Planet'Stock en images
 
-*L'extension de Planet'Connect dédiée au stockage et au picking à l'entrepôt de Castres : références, emplacements, entrées et sorties ; deux écrans pour comprendre l'outil.*
+*L'extension de Planet'Connect dédiée au stockage et au picking à l'entrepôt de Castres : références, emplacements, entrées et sorties ; deux écrans pour comprendre l'outil, et une vidéo de démonstration (lien en annexe V).*
 
 Planet'Stock outille le service de stockage vendu aux adhérents (grille officielle en annexe G) : chaque référence porte un QR code et un emplacement précis (cave, allée, niveau, position), chaque sortie se prépare par un picking scanné qui réserve le stock. Côté vente, c'est un argument de sérieux : l'adhérent qui confie son stock voit des mouvements tracés à la bouteille près. L'offre de stockage se vend au chap. 04.
 

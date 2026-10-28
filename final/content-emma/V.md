@@ -13,6 +13,7 @@
 | Order Form 2026 (annexe H) | drive.google.com/file/d/1Lx_P4hkVv7ydqC7kD9EkdLQ57Xt_u1dc |
 | Mandat de prélèvement SEPA (annexe I) | drive.google.com/file/d/1ofdzYYs_NLZYnLLfVKxhi5J-x6xY-T3T |
 | Mode d'emploi Planet'Connect, 37 pages (annexe O) | drive.google.com/file/d/1EZhHDdzdbYrLIBJaDj_mLAG9wwJpTjb6 |
+| Vidéo de démonstration Planet'Stock (annexe R) | canva.com/design/DAHZI7tHQ3g/xozDtKghg1pVSv3hlOsMuA/watch |
 | Manuel utilisateur 2026 (annexe P) | drive.google.com/file/d/1LDVgBTtuW9ZPWJ-c35HWxNaPyEMxPbUY |
 | Formulaire de shipping par email, tableur (annexe Q) | drive.google.com/file/d/1qseseA4vCgayD5FIv9_gtVXsOy-CBLZR |
 | Codes postaux desservis par État : RI, OK, NJ, IL, DE (annexe L) | Liens directs en annexe L |
