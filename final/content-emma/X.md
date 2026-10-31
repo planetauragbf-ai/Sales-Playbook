@@ -166,14 +166,14 @@ Synthèse rédigée dans l'étude : un accueil favorable au principe (innovant, 
 
 Les portraits de l'annexe A (« Synthèse des échanges écrits 2024-2026 ») ne reposent sur **aucun entretien formel**. Ils consolident des échanges écrits réels de 2024 à 2026 (fils e-mail, demandes de devis, SAV, formations), les 47 réponses aux trois enquêtes X.1 à X.3 et des avis Google publics, croisés avec les contacts professionnels dont le rôle est connu (effectifs et méthode de l'étude de validation : annexe A). Les formulations reprises « dans les mots des intéressés » viennent de ces écrits et de ces avis. Des entretiens dédiés avec chaque persona sont prévus au T1 2027 (chap. 18).
 
-## X.5 Extraction des tableaux de bord Planet'Connect du 24/09/2026
+## X.5 Extraction des tableaux de bord Planet'Connect du 31/10/2026
 
-Extraction unique des tableaux de bord d'administration de Planet'Connect (Gestion, Commercial, Logistique) du 24/09/2026 : table officielle et source S14 en annexe C, statut de chaque chiffre en annexe Y, fiche 12. Ces écrans n'étant pas accessibles au lecteur, deux captures contrôlées complètent les vues du corps : ni nom d'adhérent ou de client final, ni e-mail, ni numéro d'expédition, ni adresse d'administration.
+Extraction unique des tableaux de bord d'administration de Planet'Connect (Gestion, Commercial, Logistique) du 31/10/2026 : table officielle et source S14 en annexe C, statut de chaque chiffre en annexe Y, fiche 12. Ces écrans n'étant pas accessibles au lecteur, deux captures contrôlées complètent les vues du corps : ni nom d'adhérent ou de client final, ni e-mail, ni numéro d'expédition, ni adresse d'administration.
 
-### Assurance ad valorem souscrite, 24/09/2025 · 24/09/2026
+### Assurance ad valorem souscrite, 31/10/2025 · 31/10/2026
 
-L'option est souscrite sur 89,8 % des expéditions en 12 mois glissants, pour un objectif ≥ 90 % (chap. 17) ; les conditions de l'option sont en annexe Y, fiche 1.
+L'option est souscrite sur 88,9 % des expéditions en 12 mois glissants, pour un objectif ≥ 90 % (chap. 17) ; les conditions de l'option sont en annexe Y, fiche 1.
 
-### CA, shippings et bouteilles par mois, janvier-septembre 2026
+### CA, shippings et bouteilles par mois, janvier-octobre 2026
 
-La saisonnalité 2026 : janvier-février sous 40 k€, montée de mars à juin, repli dès juillet et creux en août (103 k€), reprise en septembre ; trois pics à 160-170 k€ (mai, juin, septembre), les plus hauts de l'historique (lecture commerciale au chap. 01, courbe pluriannuelle au chap. 02).
+La saisonnalité 2026 : janvier-février sous 40 k€, montée de mars à juin, repli dès juillet et creux en août (103 k€), reprise en septembre et octobre ; pics de mai-juin (160-170 k€) et de septembre-octobre (plus de 200 k€, octobre record à 214 438 €), les plus hauts de l'historique (lecture commerciale au chap. 01, courbe pluriannuelle au chap. 02).

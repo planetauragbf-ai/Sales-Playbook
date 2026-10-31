@@ -1,17 +1,17 @@
 # Annexe Y · Fiches de référence : les points clés, une fois pour toutes
 *Seize notions que tout le playbook mobilise, développées ici une seule fois : le chiffre, son statut, sa source et les chapitres qui s'en servent.*
 
-Cette annexe est la « maison » des points répétés du dossier : chaque chapitre dit une notion une fois, brièvement, puis renvoie à sa fiche (« annexe Y, fiche 3 »). En cas d'écart, la fiche l'emporte sur le chapitre ; la documentation officielle (CGS, grille 2026, table de l'annexe C) l'emporte sur la fiche. Statuts : **constaté** (dashboards du 24/09/2026), **objectif**, **grille 2026**, **règle CGS**, **illustratif** (exemple du playbook, jamais une donnée).
+Cette annexe est la « maison » des points répétés du dossier : chaque chapitre dit une notion une fois, brièvement, puis renvoie à sa fiche (« annexe Y, fiche 3 »). En cas d'écart, la fiche l'emporte sur le chapitre ; la documentation officielle (CGS, grille 2026, table de l'annexe C) l'emporte sur la fiche. Statuts : **constaté** (dashboards du 31/10/2026), **objectif**, **grille 2026**, **règle CGS**, **illustratif** (exemple du playbook, jamais une donnée).
 
 ## Y.1 · Assurance casse/perte : une option à 3 %
 
-L'assurance casse/perte, une option à 3 % de la valeur (vin + transport) cochée à la commande, couvre jusqu'à 20 000 € par envoi sous condition d'emballage homologué ; souscrite sur 89,8 % des expéditions. Forme courte : « assurance casse/perte en option, jusqu'à 20 000 € ».
+L'assurance casse/perte, une option à 3 % de la valeur (vin + transport) cochée à la commande, couvre jusqu'à 20 000 € par envoi sous condition d'emballage homologué ; souscrite sur 88,9 % des expéditions. Forme courte : « assurance casse/perte en option, jusqu'à 20 000 € ».
 
 | Point | Règle | Statut · source |
 |---|---|---|
 | Base | 3 % de la valeur (vin + transport), cochée sur l'order form client final | Grille 2026, validé par la direction |
 | Plafond | 20 000 €/envoi, emballages homologués seuls ; au-delà, assurance complémentaire à souscrire par le Client avant expédition | Règle CGS art. 10 |
-| Souscription | 89,8 % des expéditions (objectif ≥ 90 %) | Constaté, table C |
+| Souscription | 88,9 % des expéditions (objectif ≥ 90 %) | Constaté, table C |
 | Sans l'option | « Conditions de base » : indemnisation forfaitaire au poids du barème transporteur (plafonds CMR), sans rapport avec la valeur du vin | Règle CGS art. 11 |
 | Exclusions | Altération naturelle, oxydation, dépôt ou évolution du Produit, bouchons suintants ou sautés, taches sur étiquettes ; l'altération thermique n'est pas couverte non plus (transport non réfrigéré) : d'où le départ différé en canicule | Règle CGS art. 10 ; thermique à confirmer |
 
@@ -167,20 +167,20 @@ Où c'est utilisé : chap. 00, 04, 10, 11, 12, 15 ; annexes O, R, T, V, GLO.
 
 ## Y.12 · Chiffres d'activité officiels : la table de l'annexe C fait foi
 
-Source unique : dashboards admin Planet'Connect, extraction du 24/09/2026 ; la table complète est en annexe C et ne se recopie pas. Un chiffre ne sort pas sans source, millésime, périmètre et niveau de preuve.
+Source unique : dashboards admin Planet'Connect, extraction du 31/10/2026 ; la table complète est en annexe C et ne se recopie pas. Un chiffre ne sort pas sans source, millésime, périmètre et niveau de preuve.
 
 | Chiffre | Statut |
 |---|---|
 | CA 2025 : 1 148 961 € (+11,6 %) ; ×4,7 de 2021 à 2025 | Constaté |
-| CA janv.-sept. 2026 : 991 568 € (+18,7 %) ; pics mai, juin, septembre (160-170 k€), creux janvier-février et août | Constaté |
-| 6 643 expéditions sur 12 mois (1,45 % annulées), 64,5 % vers les USA | Constaté |
-| 262 adhérents = 227 récents (une commande dans les 9 derniers mois) + 35 dormants ; 710 comptes = 448 prospects + 262 | Constaté (total calculé) |
-| ~145 nouveaux adhérents signés en 12 mois ; objectif 10 signés par mois (120/an) | Constaté / objectif à confirmer |
-| 89,8 % des expéditions assurées ad valorem ; cible ≥ 90 % | Constaté / objectif |
+| CA janv.-oct. 2026 : 1 250 661 € (+27,5 %, déjà au-dessus du total 2025) ; pics mai-juin (160-170 k€) et septembre-octobre (plus de 200 k€, octobre record), creux janvier-février et août | Constaté |
+| 6 967 expéditions sur 12 mois (1,55 % annulées), 64,3 % vers les USA | Constaté |
+| 277 adhérents = 236 récents (une commande dans les 9 derniers mois) + 41 dormants ; 726 comptes = 449 prospects + 277 | Constaté (total calculé) |
+| ~150 nouveaux adhérents signés en 12 mois ; objectif 10 signés par mois (120/an) | Constaté / objectif à confirmer |
+| 88,9 % des expéditions assurées ad valorem ; cible ≥ 90 % | Constaté / objectif |
 | Avis Google 4,8/5, près de 300 avis (296, relevé sept. 2026) ; jamais le widget 5/5 du site | Constaté, à vérifier en direct |
 | Enquêtes internes : 4,65/5 et 4,87/5 (« 23 adhérents, janv.-févr. 2025 ») | Niveau 3, annexe X |
 
-> 🚫 **INTERDIT :** « 227 actifs » (réservé au KPI du chap. 17), « plus de 200 clients actifs », top 10 nominatif, CA par client, « ~145 » présenté comme actifs ou attribuable au playbook.
+> 🚫 **INTERDIT :** « 236 actifs » (réservé au KPI du chap. 17), « plus de 200 clients actifs », top 10 nominatif, CA par client, « ~150 » présenté comme actifs ou attribuable au playbook.
 
 Où c'est utilisé : avant-propos, chap. 00, 02, 06, 17, 18 ; annexes C, X.
 
@@ -241,7 +241,7 @@ La vente n'est finie qu'au premier envoi réel : le commercial est responsable j
 | J+5 | Formation caveau (30 min), contenu minuté de référence au chap. 16 : pitch client final, saisie et simulation, valeur déclarée exacte, encaissement, emballage et documents, cas particuliers (Canada, USA > 2 100 $, canicule, magnums) |
 | J+7 → J+30 | Premier envoi réel suivi de bout en bout, débrief à la livraison ; point d'étape à J+30 avec demande de recommandation |
 
-Objectifs : taux d'activation (1er envoi < 30 j / signés) ≥ 70 %, alerte sous 50 % (à mesurer, point zéro au 24/09/2026) ; adhérents actifs (≥ 1 envoi sur 90 jours / parc signé) > 60 %, KPI distinct des 227 « récents ≤ 9 mois » ; dormant = sans commande depuis 9 mois. Parade « pas le temps », une seule preuve : « 3 minutes de saisie par envoi, équipes formées en 30 minutes une fois, tout le reste géré par Planet Aura ».
+Objectifs : taux d'activation (1er envoi < 30 j / signés) ≥ 70 %, alerte sous 50 % (à mesurer, point zéro au 31/10/2026) ; adhérents actifs (≥ 1 envoi sur 90 jours / parc signé) > 60 %, KPI distinct des 236 « récents ≤ 9 mois » ; dormant = sans commande depuis 9 mois. Parade « pas le temps », une seule preuve : « 3 minutes de saisie par envoi, équipes formées en 30 minutes une fois, tout le reste géré par Planet Aura ».
 
 Où c'est utilisé : chap. 00, 09, 11, 13 (O-14), 16, 17 ; annexes B, D, E, U.
 

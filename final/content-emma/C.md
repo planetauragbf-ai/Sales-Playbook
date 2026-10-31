@@ -4,23 +4,24 @@
 
 ## La table des chiffres officiels 2026 (source unique)
 
-Les chiffres d'activité de ce playbook proviennent d'une source unique : les **dashboards admin de Planet'Connect**, extraction du **24/09/2026**. En cas de doute ou de divergence avec un ancien support, c'est cette table qui fait foi, et le dashboard du jour pour tout usage récent. Elle couvre les chiffres d'activité (CA, expéditions, portefeuille, avis) ; la donnée commerciale (comptes, contacts, opportunités, consentements, motifs de perte, indicateurs de funnel du chap. 17) a HubSpot pour source de vérité (chap. 15). Le statut de chaque chiffre et les formulations interdites sont en annexe Y, fiche 12.
+Les chiffres d'activité de ce playbook proviennent d'une source unique : les **dashboards admin de Planet'Connect**, extraction du **31/10/2026**. En cas de doute ou de divergence avec un ancien support, c'est cette table qui fait foi, et le dashboard du jour pour tout usage récent. Elle couvre les chiffres d'activité (CA, expéditions, portefeuille, avis) ; la donnée commerciale (comptes, contacts, opportunités, consentements, motifs de perte, indicateurs de funnel du chap. 17) a HubSpot pour source de vérité (chap. 15). Le statut de chaque chiffre et les formulations interdites sont en annexe Y, fiche 12.
 
 | Chiffre | Valeur officielle | Période |
 |---|---|---|
 | CA 2025 | 1 148 961 € (+11,6 %) | Année 2025 |
-| CA 2026 | 991 568 € (+18,7 % par rapport à 2025, au 24/09/2026) | Janv.-sept. 2026 |
-| CA vins expédiés (valeur transportée) | 2 781 717 € | Janv.-sept. 2026 |
+| CA 2026 | 1 250 661 € (+27,5 % par rapport à janvier-octobre 2025, au 31/10/2026 ; déjà au-dessus du total de l'année 2025) | Janv.-oct. 2026 |
+| CA vins expédiés (valeur transportée) | 3 481 796 € | Janv.-oct. 2026 |
 | Trajectoire | ×4,7 (246 637 € → 1 148 961 €) | 2021 → 2025 |
-| Expéditions | 6 643 (dont 1,45 % annulées) | 12 mois glissants |
-| Shippings | 5 092 | Janv.-sept. 2026 |
-| Bouteilles | 65 277 | Janv.-sept. 2026 |
-| Base comptes (Planet'Connect) | 710 = 448 prospects + 227 adhérents récents (≤ 9 mois) + 35 dormants (> 9 mois), soit **262 adhérents** (total calculé) | Au 24/09/2026 |
-| Nouveaux adhérents | ~145 | 12 mois glissants |
-| CA mensuel 2026 | Pics : mai 160 395 €, juin 170 121 €, sept. 163 616 € ; creux : janv. 39 611 €, févr. 34 727 €, août 103 278 € | Janv.-sept. 2026 |
-| Répartition destinations | USA 64,5 %, France 18,6 % | 12 mois glissants |
-| Assurance ad valorem souscrite | 89,8 % des expéditions | 12 mois glissants |
-| Colisage dominant | Cartons 6 bt (33,4 %) et 12 bt (31,3 %) | 12 mois glissants |
+| Expéditions | 6 967 (dont 1,55 % annulées) | 12 mois glissants |
+| Shippings | 6 138 | Janv.-oct. 2026 |
+| Bouteilles | 79 875 | Janv.-oct. 2026 |
+| Base comptes (Planet'Connect) | 726 = 449 prospects + 236 adhérents récents (≤ 9 mois) + 41 dormants (> 9 mois), soit **277 adhérents** (total calculé) | Au 31/10/2026 |
+| Nouveaux adhérents | ~150 | 12 mois glissants |
+| CA mensuel 2026 | Pics : mai 160 395 €, juin 169 254 €, sept. 209 190 €, oct. 214 438 € ; creux : janv. 39 611 €, févr. 34 727 €, août 103 272 € | Janv.-oct. 2026 |
+| Octobre 2026 | 214 438 € de CA, 935 shippings, 12 893 bouteilles : meilleur mois de l'historique | Octobre 2026 |
+| Répartition destinations | USA 64,3 %, France 18,7 % | 12 mois glissants |
+| Assurance ad valorem souscrite | 88,9 % des expéditions | 12 mois glissants |
+| Colisage dominant | Cartons 6 bt (32,9 %) et 12 bt (30,8 %) | 12 mois glissants |
 | Avis Google | 4,8/5, près de 300 avis (fiche Google : 296 avis, relevé de sept. 2026 ; le widget du site, 5/5 sur 291 avis, ne se cite pas) | Vérifier en direct avant citation |
 
 ## La hiérarchie de preuve (4 niveaux)
@@ -111,4 +112,4 @@ Chaque source ci-dessous a été vérifiée en ligne (septembre-octobre 2026).
 | S14 | **Dashboards admin Planet'Connect** (Logistique / Gestion / Commercial) · *source interne* | Source de la table en tête d'annexe : CA 2021-2026, expéditions, bouteilles, portefeuille, répartitions (destinations, régions, catégories), délais réels, sinistres | app.planet-aura.com/administration (accès interne) |
 | S15 | **Procédures internes 2026** (Drive « Nouveaux process ») · *source interne* | « Gestion des sinistres transport : arbre décisionnel » (chap. 16), « Process cotation » (chap. 11), « Process UE & pays tiers 2K26 », process USA (first/last miles, groupages, retour NY→France), matrice « Missions Planet Aura » | Drive interne, dossier Nouveaux process 2026 |
 
-> 📌 **À RETENIR :** Une seule table pour les chiffres d'activité (dashboards Planet'Connect, 24/09/2026), quatre niveaux de preuve pour tout le reste, des sources S01-S25 vérifiées une à une. Un chiffre qui ne figure pas ici avec sa source et son millésime ne sort pas ; un avis Google se cite au mot près, fiche à l'appui.
+> 📌 **À RETENIR :** Une seule table pour les chiffres d'activité (dashboards Planet'Connect, 31/10/2026), quatre niveaux de preuve pour tout le reste, des sources S01-S25 vérifiées une à une. Un chiffre qui ne figure pas ici avec sa source et son millésime ne sort pas ; un avis Google se cite au mot près, fiche à l'appui.

@@ -63,7 +63,7 @@ Planet Aura est commissionnaire de transport spécialisé vins & champagnes. Con
 
 - Votre client achète, paie le transport au comptoir, et repart les mains libres,
 - Nous gérons enlèvement, emballage homologué, douane, taxes payées d'avance (DDP), jusqu'aux États-Unis (36 bouteilles par envoi),
-- Assurance casse/perte jusqu'à 20 000 € par envoi (en option, souscrite sur 89,8 % des expéditions),
+- Assurance casse/perte jusqu'à 20 000 € par envoi (en option, souscrite sur 88,9 % des expéditions),
 - Sans abonnement ni minimum : des domaines de [région] l'utilisent déjà.
 
 30 minutes suffisent pour vous montrer le simulateur avec vos vins. Seriez-vous disponible [date 1] ou [date 2] ?

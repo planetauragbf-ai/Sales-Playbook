@@ -1,17 +1,17 @@
 // Placements d'images du document final (clé = id d'unité) : photos réelles + schémas codés charte uniquement.
 module.exports = {
   '01': [
-    { after: '^Saisonnalité : planifier', img: 'pics/dash_ship_evo.png', w: 398, caption: 'Shippings par mois, sept. 2025 à sept. 2026 (dashboard logistique Planet’Connect)' },
+    { after: '^Saisonnalité : planifier', img: 'pics/dash_ship_evo.png', w: 398, caption: 'Shippings par mois, oct. 2025 à oct. 2026 (dashboard logistique Planet’Connect)' },
     { after: '^Géographies prioritaires', pair: [
       { img: 'pics/carte_vignobles.png', w: 235, caption: 'Les régions viticoles : terrains de prospection prioritaires' },
       { img: 'pics/worldmap2.png', w: 285, caption: 'Les destinations desservies dans le monde' },
     ] },
-    { after: '^Destinations demandées', img: 'pics/dash_pays.png', w: 320, caption: 'Répartition réelle des shippings par pays sur 12 mois : USA 64,5 %, France 18,6 %' },
+    { after: '^Destinations demandées', img: 'pics/dash_pays.png', w: 320, caption: 'Répartition réelle des shippings par pays sur 12 mois : USA 64,3 %, France 18,7 %' },
   ],
   '02': [
     { after: '^Carte d’identité|^Carte d.identité', img: 'pics/site_castres.png', w: 400, caption: 'Le site Planet Aura à Castres (Tarn) : bureaux et entrepôt en propre' },
     { after: '^La filiale américaine', img: 'pics/ny_site.png', w: 282, caption: 'Planet Aura Inc., 95 Inip Dr, Inwood (New York)' },
-    { after: '^Chiffres clés et trajectoire', img: 'pics/dash_histo_ca.png', w: 406, caption: 'Historique du CA mensuel 2021-2026 (dashboard gestion Planet’Connect, 24/09/2026)' },
+    { after: '^Chiffres clés et trajectoire', img: 'pics/dash_histo_ca.png', w: 406, caption: 'Historique du CA mensuel 2021-2026, d’après le dashboard gestion Planet’Connect (31/10/2026)' },
     { after: '^Analyse SWOT', img: 'diagrams/d01_swot.png', w: 520, caption: 'La matrice SWOT Planet Aura 2026' },
   ],
   '03': [
@@ -29,11 +29,11 @@ module.exports = {
   ],
   '06': [
     { after: '^Le profil de client idéal', img: 'pics/carte_adherents.png', w: 356, caption: 'La carte des adhérents en France (Planet’Connect)' },
-    { after: '^Les dix clients de référence', img: 'pics/dash_repartitions.png', w: 406, caption: 'Répartition du portefeuille par région et par catégorie (dashboard commercial, 24/09/2026)' },
-    { after: '^Gérer le portefeuille', img: 'pics/dash_prospects.png', w: 406, caption: 'La photographie du portefeuille : 448 prospects, 227 adhérents récents, 35 dormants' },
+    { after: '^Les dix clients de référence', img: 'pics/dash_repartitions.png', w: 406, caption: 'Répartition du portefeuille par région et par catégorie (dashboard commercial, 31/10/2026)' },
+    { after: '^Gérer le portefeuille', img: 'pics/dash_prospects.png', w: 406, caption: 'La photographie du portefeuille au 31/10/2026 : 449 prospects, 236 adhérents récents, 41 dormants' },
   ],
   '09': [
-    { after: '^L’entonnoir d’acquisition|^L.entonnoir', img: 'pics/dash_nouveaux.png', w: 360, caption: 'Nouveaux adhérents par mois et cumul 12 mois (~145, au-dessus de l\u2019objectif de 10/mois) : dashboard commercial' },
+    { after: '^L’entonnoir d’acquisition|^L.entonnoir', img: 'pics/dash_nouveaux.png', w: 360, caption: 'Nouveaux adhérents par mois et cumul 12 mois (~150, au-dessus de l\u2019objectif de 10/mois) : dashboard commercial' },
   ],
   '13': [
     { after: '^Commencer par le pourquoi', img: 'diagrams/d06_why.png', w: 390, caption: 'Le Golden Circle Planet Aura : WHY, HOW, WHAT' },
@@ -46,7 +46,7 @@ module.exports = {
     { after: 'sinistre', img: 'diagrams/d13_arbre.png', w: 436, caption: 'Sinistres : l’arbre décisionnel officiel 2026 : RXP ou remboursement' },
   ],
   '17': [
-    { after: 'tableau de bord|dashboards|Indicateurs', img: 'pics/dash_gestion.png', w: 410, caption: 'Le dashboard gestion réel : CA, CA vins expédiés, shippings, bouteilles (janv.-sept. 2026)' },
+    { after: 'tableau de bord|dashboards|Indicateurs', img: 'pics/dash_gestion.png', w: 410, caption: 'Le dashboard gestion réel : CA, CA vins expédiés, shippings, bouteilles (janv.-oct. 2026)' },
   ],
 };
 
@@ -123,8 +123,8 @@ module.exports['P'] = [
 
 // Annexe X : sources de la recherche : captures datées des tableaux de bord (sans donnée nominative)
 module.exports['X'] = [
-  { after: '^Assurance ad valorem souscrite', img: 'pics/dash_assurance.png', w: 260, caption: 'Assurance ad valorem souscrite sur 12 mois glissants : 89,8 % des expéditions (dashboard Planet\u2019Connect, 24/09/2026)' },
-  { after: '^CA, shippings et bouteilles', img: 'pics/dash_ca_graph.png', w: 470, caption: 'CA, shippings et bouteilles par mois, janvier-septembre 2026 (dashboard gestion Planet\u2019Connect, 24/09/2026)' },
+  { after: '^Assurance ad valorem souscrite', img: 'pics/dash_assurance.png', w: 260, caption: 'Assurance ad valorem souscrite sur 12 mois glissants : 88,9 % des expéditions (dashboard Planet\u2019Connect, 31/10/2026)' },
+  { after: '^CA, shippings et bouteilles', img: 'pics/dash_ca_graph.png', w: 470, caption: 'CA, shippings et bouteilles par mois, janvier-octobre 2026 (dashboard gestion Planet\u2019Connect, 31/10/2026)' },
 ];
 
 // Annexe J : CGS 2026 : texte intégral (document officiel, 10 pages)

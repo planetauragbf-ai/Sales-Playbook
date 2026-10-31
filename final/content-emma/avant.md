@@ -93,7 +93,7 @@ Lisez ce playbook, annotez-le, revenez-y. Mais souvenez-vous qu'aucun guide ne r
 
 Les tarifs douaniers font la une : les exports français de vins et spiritueux vers les USA ont chuté de 21 % en 2025 (droits d'avril, dollar faible : FEVS, bilan 2025). Pendant ce temps, 5,4 millions de visiteurs étrangers ont parcouru nos vignobles en 2023 (Atout France), et tous posent cette question au comptoir. La plupart repartent avec deux bouteilles au lieu de douze.
 
-Chez Planet Aura, cette question a une réponse : 6 643 expéditions en douze mois, 64,5 % vers les États-Unis, taxes estimées réglées à la commande, assurance proposée en option à chaque envoi. Ce playbook explique comment la vendre, à qui, avec quelles preuves. Plus les règles se durcissent, plus un spécialiste qui les maîtrise devient précieux.
+Chez Planet Aura, cette question a une réponse : 6 967 expéditions en douze mois, 64,3 % vers les États-Unis, taxes estimées réglées à la commande, assurance proposée en option à chaque envoi. Ce playbook explique comment la vendre, à qui, avec quelles preuves. Plus les règles se durcissent, plus un spécialiste qui les maîtrise devient précieux.
 
 ```stats
 −21 %|Chute des exports français de vins et spiritueux vers les USA en 2025 (FEVS)
@@ -106,7 +106,7 @@ Chez Planet Aura, cette question a une réponse : 6 643 expéditions en douze mo
 
 Ce document est le référentiel opérationnel de vente de Planet Aura, commissionnaire de transport spécialisé dans l'expédition internationale B2B2C de vins, champagnes et spiritueux. Il rassemble, en dix-huit chapitres compacts (les annexes regroupant les documents et outils réutilisables), ce qu'un commercial doit connaître, dire et faire pour recruter, activer et fidéliser des adhérents : domaines, maisons de champagne, cavistes, acteurs de l'œnotourisme et distilleries.
 
-Il est construit à partir de la documentation officielle 2026 (CGS, grilles, formulaires, manuel utilisateur et mode d'emploi Planet'Connect : annexes T et P), des procédures internes 2026 (sinistres, cotations, USA), des dashboards de gestion Planet'Connect (extraction du 24/09/2026) et de sources de marché vérifiées (FEVS, OIV, Atout France, XERFI, Winalist : annexe C et bibliographie).
+Il est construit à partir de la documentation officielle 2026 (CGS, grilles, formulaires, manuel utilisateur et mode d'emploi Planet'Connect : annexes T et P), des procédures internes 2026 (sinistres, cotations, USA), des dashboards de gestion Planet'Connect (extraction du 31/10/2026) et de sources de marché vérifiées (FEVS, OIV, Atout France, XERFI, Winalist : annexe C et bibliographie).
 
 | Terme clé | Définition retenue dans ce document |
 |---|---|
@@ -138,7 +138,7 @@ Il est construit à partir de la documentation officielle 2026 (CGS, grilles, fo
 
 1. **Nous vendons de la sérénité, pas du transport.** L'adhérent vend plus de vin parce que la question « comment je le ramène chez moi ? » a une réponse simple.
 2. **Le service est vendu au client final par l'adhérent.** Notre premier travail : rendre le point de vente capable et confiant de vendre notre prestation.
-3. **Jamais de délai ferme ni de couverture hors cadre.** Les grilles et les CGS font foi, les délais sont estimatifs, l'assurance casse/perte (jusqu'à 20 000 €/envoi, emballage homologué) reste une option, ad valorem, 3 % de la valeur (vin + transport), cochée à la commande et souscrite sur 89,8 % des expéditions : elle se propose à chaque commande, jamais comme un inclus.
+3. **Jamais de délai ferme ni de couverture hors cadre.** Les grilles et les CGS font foi, les délais sont estimatifs, l'assurance casse/perte (jusqu'à 20 000 €/envoi, emballage homologué) reste une option, ad valorem, 3 % de la valeur (vin + transport), cochée à la commande et souscrite sur 88,9 % des expéditions : elle se propose à chaque commande, jamais comme un inclus.
 4. **DDP par défaut, DAP quand la réglementation ou la valeur l'exige.** Un commercial qui maîtrise les incoterms inspire confiance.
 5. **Aucun engagement sur un pays ou un État non couvert** sans vérification sur Planet'Connect ou auprès de l'exploitation.
 6. **La documentation 2026 signée électroniquement (CGS + grilles)** est le point de bascule officiel prospect → adhérent.
