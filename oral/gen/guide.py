@@ -72,7 +72,7 @@ SHOW = {
     'marche': 'Les trois chiffres de gauche à droite (deux reculs en orange, une opportunité en sarcelle), puis le bandeau sombre : cinq contraintes, de la douane à l’emballage.',
     'entreprise': 'Le ×4,7, puis la barre 2025, en foncé ; ensuite le bandeau sombre « Qui vend » : Adam, le seul commercial dédié, arrivé fin 2025 ; enfin la photo de l’équipe, à droite.',
     'offre': 'Les barres du transport par bouteille, puis la dorée : 24 btl, 15 € ; ensuite le bloc sombre « On se débrouille », la ligne surlignée « Spécialistes vin » (nos vrais duels) et « Notre place ».',
-    'diagnostic': 'La carte « Fragilités » (448 / 710, activation jamais mesurée), puis le bandeau sombre : lire la problématique lentement, une seule fois ; finir sur les trois pastilles numérotées.',
+    'diagnostic': 'La carte « Fragilités » (449 / 726, activation jamais mesurée), puis le bandeau sombre : lire la problématique lentement, une seule fois ; finir sur les trois pastilles numérotées.',
     'icp': '« Ma recommandation » : 60 % de l’effort sur les caveaux ; puis, à droite, les trois barres 45 → 60 → 85 : les parties hachurées sont les preuves apportées ensuite.',
     'personas': 'Les trois cartes de gauche à droite (Décide, Utilise, Paie) : la ligne « Craint », puis la citation qui y répond ; enfin le bandeau du bas : 70 · 47 · 15, constaté, 5/5 confirmés.',
     'solutions': 'Suivre la chaîne de gauche à droite, de 24 → 2 jusqu’à la preuve ; s’arrêter sur le pavé sombre « Solution » ; finir sur le bandeau « Nous refusons ».',
@@ -84,7 +84,7 @@ SHOW = {
     'ressources': 'À gauche, les trois pages réelles « Déjà livré » ; puis les trois cartes de gauche à droite : l’ordre, et 800 € sur 3 000 € ; enfin le bandeau du bas.',
     'salesops': 'HubSpot au centre, avec à gauche les quatre outils existants ; puis la flèche orange vers Brevo (câblage à déployer) et le dictionnaire CRM (ma contribution) ; finir sur le bandeau : règles communes proposées, pipeline complet chaque lundi.',
     'onboarding': 'L’escalier J+30, J+60, J+90, une preuve par marche ; puis le drapeau S8 sur la deuxième marche : premier adhérent signé et activé.',
-    'kpi': 'À gauche le constaté (la capture réelle, puis ~145) ; à droite la grande carte Activation J+30 et son action, puis l’étiquette « Domaine activé » ; enfin « point zéro, 24/09/2026 » en haut à gauche, et le bandeau du bas.',
+    'kpi': 'À gauche le constaté (la capture réelle, puis ~150) ; à droite la grande carte Activation J+30 et son action, puis l’étiquette « Domaine activé » ; enfin « point zéro, 31/10/2026 » en haut à gauche, et le bandeau du bas.',
     'conclusion': 'Les 24 bouteilles pleines, puis les trois enjeux de gauche à droite ; finir en regardant le jury, sans regarder l’écran.',
 }
 # Renvois aux secours : tous ceux que nomment les notes, plus ceux où est passé le détail retiré de l'écran en v5.
@@ -261,7 +261,7 @@ H.append(f'''<section><p class="ey">1 · L’ESSENTIEL EN UNE PAGE</p><h2>Vingt 
 <li>« Le prospect n’achète pas seulement du transport : il cherche à réduire son risque. »</li>
 </ol>
 <div class="warn"><p class="wl">CE QUE JE NE DIS JAMAIS</p>
-<p>Que le cas est une vente réelle, ou qu’un compte du top 10 suit cette trajectoire · « souvent » à propos de la scène de Houston · la capture USA du dossier (grille 2025) · un nom ou un CA de client · « assurance incluse », « tout compris », « garanti » · « 210 € » ou « 360 € » comme prix complet (c’est le transport) · « la valeur résiste » (l’OIV dit l’inverse pour 2025) · « 145 adhérents actifs » (ce sont des signés) · « j’ai interviewé » (échanges écrits) · un objectif présenté comme un résultat · les projets au présent · un taux de droits US de mémoire · les 40 000 € comme un gain (c’est une simulation) · « les seuls », « les premiers », « uniques », « exclusifs » pour parler de Planet Aura.</p></div>
+<p>Que le cas est une vente réelle, ou qu’un compte du top 10 suit cette trajectoire · « souvent » à propos de la scène de Houston · la capture USA du dossier (grille 2025) · un nom ou un CA de client · « assurance incluse », « tout compris », « garanti » · « 210 € » ou « 360 € » comme prix complet (c’est le transport) · « la valeur résiste » (l’OIV dit l’inverse pour 2025) · « 150 adhérents actifs » (ce sont des signés) · « j’ai interviewé » (échanges écrits) · un objectif présenté comme un résultat · les projets au présent · un taux de droits US de mémoire · les 40 000 € comme un gain (c’est une simulation) · « les seuls », « les premiers », « uniques », « exclusifs » pour parler de Planet Aura.</p></div>
 </section>''')
 
 # ---------- le cas en une page ----------
@@ -304,15 +304,15 @@ GRID = [
     ('Respecte le temps imparti (20 min max)', 'Animation', '-', f'Script à {tot}, introduction jusqu’à {end("diagnostic")} ; trois points de passage ; coupes prévues, chiffrées en secondes.'),
     ('Titres précis et impactants dans le sommaire', 'Argumentation', '3', 'Cinq étapes titrées par leur idée : « La vente finit au premier envoi », « Outiller, former, mesurer » ; à droite, le renvoi « → la problématique » (énoncée diapo 7) et les trois enjeux, reliés aux parties 8 à 14 du cahier des charges ; le contenu de chaque étape (ICP et personas, processus et SPIN, ressources et indicateurs), dit.'),
     ('Introduction qui amène le sujet', 'Argumentation', '2 à 7', 'Scène → marché → entreprise → offre → diagnostic → problématique et trois enjeux.'),
-    ('Analyse le marché en lien avec l’entreprise', 'Argumentation', '4 (+ 5)', 'Trois bascules chiffrées et cinq contraintes pour expédier chez un particulier américain : « Pour le vigneron, ce sont des freins. Pour nous, c’est le métier. » Chaque bascule traduite pour nous, à l’oral ; part USA de nos envois (64,5 %) à l’écran, diapo 5.'),
-    ('Présente l’entreprise (organigramme, CA, offre, concurrence, cibles)', 'Argumentation', '5 à 7 (+ B9, B8)', 'Photo de l’équipe (13 personnes, filiale comprise) et « qui vend, qui décide », avec les interlocuteurs du commercial, dits (direction, exploitation, administration) ; CA ×4,7, 262 adhérents, marchés (diapo 5) ; offre, concurrence et positionnement « Notre place » (diapo 6) ; forces et fragilités (diapo 7) ; cibles : diapo 8 ; organigramme complet en B9, SWOT complet et horizons stratégiques en B8.'),
+    ('Analyse le marché en lien avec l’entreprise', 'Argumentation', '4 (+ 5)', 'Trois bascules chiffrées et cinq contraintes pour expédier chez un particulier américain : « Pour le vigneron, ce sont des freins. Pour nous, c’est le métier. » Chaque bascule traduite pour nous, à l’oral ; part USA de nos envois (64,3 %) à l’écran, diapo 5.'),
+    ('Présente l’entreprise (organigramme, CA, offre, concurrence, cibles)', 'Argumentation', '5 à 7 (+ B9, B8)', 'Photo de l’équipe (13 personnes, filiale comprise) et « qui vend, qui décide », avec les interlocuteurs du commercial, dits (direction, exploitation, administration) ; CA ×4,7, 277 adhérents, marchés (diapo 5) ; offre, concurrence et positionnement « Notre place » (diapo 6) ; forces et fragilités (diapo 7) ; cibles : diapo 8 ; organigramme complet en B9, SWOT complet et horizons stratégiques en B8.'),
     ('Processus de vente et tunnels SPIN', 'Argumentation', '11 à 15 (+ B17, B4)', 'Sept étapes et leur preuve à l’écran ; responsable, délai et outil : à l’écran pour l’étape 6, dits pour le principe, détaillés étape par étape en B17 ; durées de cycle, dites ; prospection ; tunnel SPIN du vigneron, question par question ; second tunnel en B4 ; proposition ; activation.'),
     ('Ressources précises, réalistes, échéancées, chiffrées', 'Argumentation', '16 (+ B13)', 'Ce que j’ai créé (trois pages réelles) ; trois premiers chantiers à l’écran : mois, budget, responsable, temps ; 800 € sur 3 000 € ; 80 h de temps interne, dites ; le principe du critère de passage à l’écran, chaque critère et les six chantiers en B13.'),
     ('Sales Ops mises en place et objectif de chacune', 'Argumentation', '17, 18', 'Six éléments autour de HubSpot, chacun avec son rôle et son statut (existant, à déployer, ma contribution) ; règles communes marketing-ventes et rituels proposés (bandeau ; détail dit) ; onboarding (diapo 18).'),
     ('SPB existant : améliorations justifiées', 'Argumentation', '8, 11, 15-17, 19 (+ B15)', 'Pas de playbook avant : chaque décision est justifiée, par le bandeau Constat → Ma décision → Ce que l’on mesure (diapos 11, 15, 16, 17, 19) ou par « Ma recommandation » (diapo 8) ; existant et apport distingués par les étiquettes.'),
     ('Présente les indicateurs de performance', 'Argumentation', '19 (+ B6)', 'Constaté et objectif côte à côte ; activation à J+30 : source, fréquence, responsable et action à l’écran ; les trois autres : cible à l’écran, le reste en B6 ; revue mensuelle ; un exemple de décision.'),
     ('Synthèse en lien avec les enjeux', 'Argumentation', '20 (+ B15)', 'Réponse enjeu par enjeu, bénéfice visé et limite à l’écran ; apport et difficulté, dits (détail en B15).'),
-    ('Ouverture', 'Argumentation', '20 (+ B8)', 'Diversifier (UK, UE dont Scandinavie, Canada, Japon) pour réduire la dépendance aux USA ; lecture fin décembre ; entretiens T1 2027 (dits diapo 9, B1) ; horizons stratégiques du dossier en B8.'),
+    ('Ouverture', 'Argumentation', '20 (+ B8)', 'Diversifier (UK, UE dont Scandinavie, Canada, Japon) pour réduire la dépendance aux USA ; lecture fin janvier ; entretiens T1 2027 (dits diapo 9, B1) ; horizons stratégiques du dossier en B8.'),
 ]
 AUDIT = [
     ('Tous les critères de la grille sont couverts', 'Oui : tableau ci-dessus.'),
@@ -397,12 +397,12 @@ H.append(f'<section><p class="ey">5 · LES TRANSITIONS ET LES MESSAGES CLÉS</p>
          '<table class="t"><tr><th>Diapo</th><th>Passage</th><th>Ce qu’il faut vérifier</th></tr>' + ''.join(f'<tr><td><b>{E(a)}</b></td><td>{E(b)}</td><td>{E(c)}</td></tr>' for a, b, c in TEST) + '</table></section>')
 
 # ---------- chiffres et définitions ----------
-NUMS = [('×4,7', 'CA de 2021 à 2025 (1,15 M€ en 2025, +11,6 %) ; +18,7 % au 24/09/2026', 'Constaté, dashboards 24/09/2026'),
-        ('262 · 6 643', 'adhérents · envois sur 12 mois, dont 64,5 % vers les USA et 18,6 % en France', 'Constaté'),
+NUMS = [('×4,7', 'CA de 2021 à 2025 (1,15 M€ en 2025, +11,6 %) ; +27,5 % au 31/10/2026', 'Constaté, dashboards 31/10/2026'),
+        ('277 · 6 967', 'adhérents · envois sur 12 mois, dont 64,3 % vers les USA et 18,7 % en France', 'Constaté'),
         ('13 · fin 2025', 'personnes, filiale comprise · arrivée d’Adam, le seul commercial dédié', 'Constaté'),
-        ('~145', 'adhérents signés en 12 mois (signés, pas actifs ; ne pas les comparer aux « 10 actifs/mois » du chap. 09)', 'Constaté'),
-        ('448 / 710', 'prospects non qualifiés sur 710 comptes au CRM', 'Constaté'),
-        ('89,8 % · 1,45 %', 'envois assurés (option 3 %, jusqu’à 20 000 €/envoi) · commandes annulées', 'Constaté'),
+        ('~150', 'adhérents signés en 12 mois (signés, pas actifs ; ne pas les comparer aux « 10 actifs/mois » du chap. 09)', 'Constaté'),
+        ('449 / 726', 'prospects non qualifiés sur 726 comptes au CRM', 'Constaté'),
+        ('88,9 % · 1,55 %', 'envois assurés (option 3 %, jusqu’à 20 000 €/envoi) · commandes annulées', 'Constaté'),
         ('4,65/5 · 4,8/5', 'satisfaction 2024 (23 réponses) · avis Google (296, sept. 2026)', 'Constaté'),
         ('105 → 510 €', 'groupage USA, 1-3 à 36 bouteilles ; 24 btl = 360 € (15 €/btl) ; + taxes estimées, 17 € de dossier', 'Grille 2026'),
         ('Droits US', 'jamais de taux cité à l’oral ; le dossier indique 15 % d’août 2025 à février 2026, puis 10 % ; vérification externe du 25/10/2026 : sources contradictoires depuis juillet 2026 (10 % ou 15 %) ; le simulateur fait foi', 'Externe, à vérifier la veille'),
@@ -449,7 +449,7 @@ for sid in backs:
     rows.append(f'<tr><td class="bn">{b}</td><td><b>{E(title)}</b></td><td>{E(REPOND.get(b, ""))}</td></tr>')
 H.append(f'<section><p class="ey">8 · LES DIAPOS DE SECOURS</p><h2>{len(backs)} diapos après « Merci », à n’ouvrir que si la question l’appelle</h2><p class="lead">Les atteindre par le panneau des diapos (section « Diapositives de secours »). Une réponse sans support convainc souvent davantage : ne pas les montrer par réflexe.</p><table class="t"><tr><th>N°</th><th>Titre</th><th>Répond à</th></tr>' + ''.join(rows) + '</table></section>')
 
-LIM = [('Rien n’est encore mesuré', 'Le CRM n’historise que depuis 2025 : les cibles sont des objectifs de départ ; point zéro au 24/09/2026, première lecture fin décembre 2026.'),
+LIM = [('Rien n’est encore mesuré', 'Le CRM n’historise que depuis 2025 : les cibles sont des objectifs de départ ; point zéro au 31/10/2026, première lecture fin janvier 2026.'),
        ('Des personas sur échanges écrits', 'Aucun entretien formel ; prospects sous-représentés (4 réponses) : entretiens prévus au T1 2027.'),
        ('Un parcours d’intégration non testé', 'Livré, mesurable (S1, S4, S8), mais jamais suivi par un recrutement : sa première mesure viendra avec lui.'),
        ('Des règles proposées, pas ratifiées', 'Dictionnaire CRM, score d’hygiène, semaine type, RACI, rituels : à valider en équipe ; câblage Brevo-HubSpot en novembre 2026.'),
@@ -457,7 +457,7 @@ LIM = [('Rien n’est encore mesuré', 'Le CRM n’historise que depuis 2025 : l
        ('Des durées de cycle à mesurer', 'Une à trois semaines pour un dossier standard (objectif, 7 à 21 j en B6) ; quatre à huit semaines à froid, six à douze en champagne (repères de terrain) : médiane réelle après 90 jours.'),
        ('Un saut de CA non expliqué', 'Le +224 % de 2022 n’est pas documenté : « à confirmer avec la direction ».'),
        ('Une formulation à corriger', 'L’annexe F décrit l’assurance comme incluse dans les frais administratifs ; la pratique est une option à 3 % : à remonter pour la grille 2027.'),
-       ('Une dépendance sans cible', 'Part USA 64,5 %, suivie chaque trimestre, sans objectif chiffré de diversification.'),
+       ('Une dépendance sans cible', 'Part USA 64,3 %, suivie chaque trimestre, sans objectif chiffré de diversification.'),
        ('Des droits US incertains', 'Le dossier indique 10 % depuis février 2026 ; des sources externes récentes divergent (10 % ou 15 %) : ne jamais citer un taux de mémoire, renvoyer au simulateur.')]
 H.append('<section><p class="ey">9 · LIMITES ET RÉSERVES</p><h2>Les dire avant qu’on me les oppose</h2><p class="lead">Une limite annoncée avec son plan devient une preuve de lucidité ; découverte par le jury, elle devient une faiblesse.</p>'
          '<table class="t"><tr><th>Limite</th><th>Ce que je dis, et ce qui est prévu</th></tr>' + ''.join(f'<tr><td><b>{E(a)}</b></td><td>{E(b)}</td></tr>' for a, b in LIM) + '</table></section>')
@@ -480,7 +480,7 @@ H.append('''<section><p class="ey">12 · LES CHECK-LISTS</p><h2>Préparer, véri
 </ul></div>
 <div class="ck"><p class="ckl">LA VEILLE</p><ul>
 <li>Vérifier au simulateur et auprès de la direction le taux des droits US du jour : les sources externes divergent depuis juillet 2026.</li>
-<li>Relire chaque date future du deck (câblage Brevo et objections en novembre, lecture fin décembre, chantiers de la diapo 16) : passer au présent ou au passé ce qui est échu, avec l’état réel confirmé.</li>
+<li>Relire chaque date future du deck (câblage Brevo et objections en novembre, lecture fin janvier, chantiers de la diapo 16) : passer au présent ou au passé ce qui est échu, avec l’état réel confirmé.</li>
 <li>Noter le statut réel des chantiers de septembre et d’octobre.</li>
 <li>Savoir si la version de novembre est sortie, selon la date du jury.</li>
 <li>Copier le deck sur une clé USB ; l’envoyer par e-mail à soi-même.</li>

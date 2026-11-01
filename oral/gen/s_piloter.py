@@ -6,7 +6,7 @@ PG_OBJ = '/_blob/1a1249ec783f083e93f39c9e6ce07821'       # p. 110 : objections e
 PG_SCRIPTS = '/_blob/ae61ce0322e73dc18d6f021d00343874'   # p. 54 : script cold call caveau
 PG_ONB = '/_blob/733e333b40678a6a91b5f36643e93151'       # p. 169 : annexe U, onboarding jour par jour
 PG_ROAD = '/_blob/254d126c9282167d65058c0e3ff94597'      # p. 171 : feuille de route budgétée
-DASH_NEW = '/_blob/23896dc16cb677697a898418b408bfda'
+DASH_NEW = '/_blob/f846171a795701438cd5d846e2171c83'
 LOGO_MARK_W = '/_blob/8b40700e136fb4e2e66480f214bc3ee5'
 
 SECT_PILOTER = 'Piloter : ressources, Sales Operations, onboarding et indicateurs'
@@ -238,12 +238,12 @@ def kpi():
     # Hors écran : 1,45 % d'annulations (dit dans la note) ; 89,8 % d'envois assurés (secours B11 · B14) ; formules, sources,
     # responsables et actions des trois autres indicateurs (secours B6 et indication de la note) ; « puis chaque trimestre » (note) ;
     # « close par une décision » (note).
-    cap = shot(DASH_NEW, 'Capture réelle du tableau de bord Planet’Connect : évolution des nouveaux adhérents du 24/09/2025 au 24/09/2026',
+    cap = shot(DASH_NEW, 'Capture réelle du tableau de bord Planet’Connect : évolution des nouveaux adhérents du 31/10/2025 au 31/10/2026',
                540, 166, 'Planet’Connect', fit='contain')
     left = f'''<div style="width:540px;flex:none;display:flex;flex-direction:column;gap:14px">
-<div style="display:flex;align-items:center;gap:14px">{pill('CONSTATÉ', 'align-self:center')}<p style="font-size:24px;line-height:1.3;color:{GRISD};white-space:nowrap">point zéro, 24/09/2026</p></div>
+<div style="display:flex;align-items:center;gap:14px">{pill('CONSTATÉ', 'align-self:center')}<p style="font-size:24px;line-height:1.3;color:{GRISD};white-space:nowrap">point zéro, 31/10/2026</p></div>
 {cap}
-<div style="display:flex;align-items:center;gap:20px">{num('~145', 56, SARCF)}<p style="font-size:28px;line-height:1.2;color:{ENCRE}">signés en 12 mois</p></div>
+<div style="display:flex;align-items:center;gap:20px">{num('~150', 56, SARCF)}<p style="font-size:28px;line-height:1.2;color:{ENCRE}">signés en 12 mois</p></div>
 </div>'''
     focal = f'''<div style="flex:1.25;background:#FFFFFF;border:2px solid {BORD};border-top:10px solid {BORD};border-radius:16px;padding:16px 26px 20px;display:flex;flex-direction:column;gap:12px">
 <div style="display:flex;align-items:center;justify-content:space-between;gap:20px"><p style="font-family:{L};font-size:32px;font-weight:700;line-height:1.2;color:{ENCRE}">Activation J+30</p>{num('≥ 70 %', 72, BORD)}</div>
@@ -258,7 +258,7 @@ def kpi():
 </div>'''
     why = _kpi_why('Conversions et activation jamais mesurées.',
                    'Revue mensuelle proposée.',
-                   'Première lecture : fin décembre.')
+                   'Première lecture : fin janvier.')
     sp = '<div style="flex:1"></div>'
     # marge basse : 64 px de padding + entretoise fixe de 76 px (sans texte) + 20 px d'écart = bas du contenu à 920 px,
     # même dispositif que les autres candidates (au rendu +10 %, le pied de page épinglé reste hors du flux).
@@ -308,7 +308,7 @@ def conclusion():
     band = f'''<div style="display:flex;gap:40px;align-items:flex-end">
 <div style="flex:1;display:flex;gap:40px;align-items:stretch">
 {_conclusion_cell('Bénéfice visé', CHAMP, '<b>≥ 70 %</b> des signés<br>activés à J+30', pill('OBJECTIF', 'line-height:1.2'))}
-{_conclusion_cell('Limite', '#E2A39A', '<b>Effet pas encore mesuré</b> :<br>lecture fin décembre')}
+{_conclusion_cell('Limite', '#E2A39A', '<b>Effet pas encore mesuré</b> :<br>lecture fin janvier')}
 {_conclusion_cell('Ouverture', BLEU, '<b>Diversifier</b> : UK, UE (dont<br>Scandinavie), Canada, Japon')}
 </div>
 {merci}

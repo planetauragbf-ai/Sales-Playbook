@@ -202,10 +202,10 @@ def entreprise():
 </div>'''
     mk = f'''<div style="display:flex;flex-direction:column;gap:10px">
 <div style="display:flex;align-items:baseline;justify-content:space-between;gap:24px">
-<p style="font-size:26px;line-height:1.3;color:{ENCRE}"><b>262 adhérents</b> · <b>6 643 envois</b> en 12 mois</p>
-<p style="font-size:24px;line-height:1.3;color:{GRISD};white-space:nowrap">Planet’Connect, 24/09/2026</p></div>
-<div style="display:flex;gap:4px;height:30px"><div style="flex:64.5;background:{PETROLE}"></div><div style="flex:18.6;background:{SARC}"></div><div style="flex:16.9;background:{BRUME}"></div></div>
-<p style="font-size:24px;line-height:1.3;color:{GRIS}"><b><span style="color:{PETROLE}">USA 64,5 %</span></b> · <b><span style="color:{SARCF}">France 18,6 %</span></b> · autres 16,9 %</p>
+<p style="font-size:26px;line-height:1.3;color:{ENCRE}"><b>277 adhérents</b> · <b>6 967 envois</b> en 12 mois</p>
+<p style="font-size:24px;line-height:1.3;color:{GRISD};white-space:nowrap">Planet’Connect, 31/10/2026</p></div>
+<div style="display:flex;gap:4px;height:30px"><div style="flex:64.3;background:{PETROLE}"></div><div style="flex:18.7;background:{SARC}"></div><div style="flex:17.0;background:{BRUME}"></div></div>
+<p style="font-size:24px;line-height:1.3;color:{GRIS}"><b><span style="color:{PETROLE}">USA 64,3 %</span></b> · <b><span style="color:{SARCF}">France 18,7 %</span></b> · autres 17,0 %</p>
 </div>'''
     left = f'''<div style="flex:1;display:flex;flex-direction:column;gap:30px">
 <div style="display:flex;align-items:flex-end;gap:40px">{big}{chart}</div>
@@ -293,7 +293,7 @@ def diagnostic():
                 f'{pill("CONSTATÉ", extra="align-self:center")}</div>{li}</div>')
     diag = (f'<div style="display:flex;gap:28px;align-items:stretch">'
             f'{card("Forces", SARCF, "#E8F3F5", ["Le trio : statut, filiale, plateforme", "CA <b>×4,7</b> en quatre ans"], 660)}'
-            f'{card("Fragilités", BORD, "#F6EAEE", ["<b>448 / 710</b> prospects non qualifiés", "Activation <b>jamais mesurée</b>", "<b>Aucun référentiel</b> commun"], None)}'
+            f'{card("Fragilités", BORD, "#F6EAEE", ["<b>449 / 726</b> prospects non qualifiés", "Activation <b>jamais mesurée</b>", "<b>Aucun référentiel</b> commun"], None)}'
             f'</div>')
     # pastilles claires (CHAMP) : lisibles sur le fond NUIT, quel que soit le numéro
     enj = ''.join(f'''<div style="display:flex;align-items:center;gap:14px"><div style="width:48px;height:48px;border-radius:50%;background:{CHAMP};display:flex;align-items:center;justify-content:center;flex:none"><p style="font-family:{L};font-size:26px;font-weight:700;color:{NUIT}">{i}</p></div>

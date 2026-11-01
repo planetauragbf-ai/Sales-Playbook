@@ -28,7 +28,7 @@ Et j'assume nos faiblesses avant qu'on me les oppose : 21 jours ouvrables en gro
 
 La banque de questions décline le tunnel par profil : huit profils, quatre personas et quatre rôles, du vigneron à la distillerie.
 
-(Les pics : mai, juin, septembre. Les deux questions de permission : « Quelle destination ou quel flux concentre aujourd'hui le plus d'enjeux logistiques ? » et « Le principal risque est-il le délai, la douane, la traçabilité, le coût ou la cohérence RSE ? », puis deux créneaux au choix. Deux exemples de la banque, en implication : responsable caveau, « Quel effet a une réponse floue ou un refus sur la vente en cours et sur l'avis que laissera ce visiteur ? » ; caviste, « Sur un mois, combien de ventes de 2 bouteilles auraient pu être des ventes de 12 ? »)
+(Les pics : mai, juin, septembre, octobre. Les deux questions de permission : « Quelle destination ou quel flux concentre aujourd'hui le plus d'enjeux logistiques ? » et « Le principal risque est-il le délai, la douane, la traçabilité, le coût ou la cohérence RSE ? », puis deux créneaux au choix. Deux exemples de la banque, en implication : responsable caveau, « Quel effet a une réponse floue ou un refus sur la vente en cours et sur l'avis que laissera ce visiteur ? » ; caviste, « Sur un mois, combien de ventes de 2 bouteilles auraient pu être des ventes de 12 ? »)
 
 (Rendez-vous type de 45 min : découverte CAVE + SPIN des minutes 5 à 20, démo 20-30, trame unique au chap. 11. Huit profils de la banque SPIN, annexe E : les personas A à D et quatre rôles, ADV/logistique, importateur, RSE/marketing, distillerie.)""",
 
@@ -36,13 +36,13 @@ La banque de questions décline le tunnel par profil : huit profils, quatre pers
 
 Je le complète honnêtement : des passes de mise en cohérence ont aussi été faites avec l'IA, chiffres corrigés d'après les sources, règles harmonisées, bibliographie, renvois, chaque correction vérifiée à sa source. Et ce support oral, ses titres, ses visuels et la formulation de mes notes, a été travaillé avec Claude à partir de mon dossier, puis relu.
 
-(Montrer à droite : « Le fond ».) Le fond vient de sources que je peux citer : la documentation officielle 2026, nos tableaux de bord du 24 septembre, nos trois enquêtes, et vingt-quatre références externes, vérifiées en ligne. Aucune image n'a été générée par IA : les schémas sont codés à partir des données. (Montrer le bandeau sombre.) Et je retourne la question avec le sourire : quel chiffre ou quelle procédure voulez-vous que je vous explique ?
+(Montrer à droite : « Le fond ».) Le fond vient de sources que je peux citer : la documentation officielle 2026, nos tableaux de bord du 31 octobre, nos trois enquêtes, et vingt-quatre références externes, vérifiées en ligne. Aucune image n'a été générée par IA : les schémas sont codés à partir des données. (Montrer le bandeau sombre.) Et je retourne la question avec le sourire : quel chiffre ou quelle procédure voulez-vous que je vous explique ?
 
 (En réserve, si on demande le détail. Les huit chantiers de l'annexe W : maquette, identité visuelle, pagination et sommaire, ponts de navigation, schémas, calage des pages, ordre des annexes, relecture de forme. Règles harmonisées : assurance, feuille de route, seuils. Sources internes : documentation officielle et procédures 2026, tableaux de bord Planet'Connect. Références externes : OIV, FEVS, Atout France… Garde-fous : aucune donnée personnelle de client final, aucun identifiant ; chaque chiffre vérifié à sa source, annexe C.)""",
 
 'b6': """(Si on me demande d'où viennent les cibles.) (Montrer la pastille « Objectif ».) Ce sont des objectifs de pilotage, étiquetés comme tels, parce que notre CRM n'historise que depuis 2025. (Montrer le tableau, groupe par groupe : mensuel, hebdomadaire, par dossier.) Chaque indicateur a une fréquence, une cible et une action si l'écart se creuse. Là où je n'ai pas de base, j'écris « baseline 90 jours » plutôt que d'inventer un chiffre.
 
-(Le bandeau du bas est le seul constaté : satisfaction 2024, 4,65/5 sur 23 réponses. 4,87/5 est une probabilité de recommandation sur 23 réponses, pas un NPS ; SAV : 21 utilisateurs sur 22 satisfaits. Les 227 adhérents récents ne sont pas le KPI « actifs ». La marge contributive se suit par dossier, sans valeur affichée.)
+(Le bandeau du bas est le seul constaté : satisfaction 2024, 4,65/5 sur 23 réponses. 4,87/5 est une probabilité de recommandation sur 23 réponses, pas un NPS ; SAV : 21 utilisateurs sur 22 satisfaits. Les 236 adhérents récents ne sont pas le KPI « actifs ». La marge contributive se suit par dossier, sans valeur affichée.)
 
 (En réserve, si on demande l'entonnoir cible, ce sont des objectifs : lead → qualifié, 40 à 60 % ; qualifié → RDV tenu, 50 à 70 % ; RDV → proposition, au moins 70 % ; proposition → signature, 40 à 60 % ; signature → activé, au moins 70 % ; activé → récurrent, au moins 60 %.)
 
@@ -62,11 +62,11 @@ Je le complète honnêtement : des passes de mise en cohérence ont aussi été 
 
 (POA = power of attorney ; seuil en valeur, jamais d'équivalence en bouteilles. Délai : ~21 jours ouvrables estimés hors douane, environ un mois, jamais garanti. La carte officielle fait foi, c'est la carte vin : ne pas citer de liste d'États de mémoire.)""",
 
-'b11': """Qui paie quand ça casse ? L'assurance est une option, 3 % de la valeur du vin et du transport, jusqu'à 20 000 euros par envoi, souscrite sur 89,8 % des envois. Le client signale sous 48 heures, avec photos, et choisit entre réexpédition et remboursement ; client et domaine sont informés à chaque étape. En réexpédition, le domaine nous facture seulement les bouteilles : l'incident devient une seconde vente. Sans l'option, on reste aux conditions de base, pas au régime ad valorem. Et je dis franchement les limites : la chaleur, non couverte, transport non réfrigéré ; et les exclusions des conditions générales, l'oxydation, les bouchons, les étiquettes.
+'b11': """Qui paie quand ça casse ? L'assurance est une option, 3 % de la valeur du vin et du transport, jusqu'à 20 000 euros par envoi, souscrite sur 88,9 % des envois. Le client signale sous 48 heures, avec photos, et choisit entre réexpédition et remboursement ; client et domaine sont informés à chaque étape. En réexpédition, le domaine nous facture seulement les bouteilles : l'incident devient une seconde vente. Sans l'option, on reste aux conditions de base, pas au régime ad valorem. Et je dis franchement les limites : la chaleur, non couverte, transport non réfrigéré ; et les exclusions des conditions générales, l'oxydation, les bouchons, les étiquettes.
 
-(Montrer l'arbre de haut en bas : le bandeau « Envoi assuré », le choix du client, puis la feuille sombre « La seconde vente » ; à droite, 3 % et 89,8 %.)
+(Montrer l'arbre de haut en bas : le bandeau « Envoi assuré », le choix du client, puis la feuille sombre « La seconde vente » ; à droite, 3 % et 88,9 %.)
 
-(Si on m'oppose l'annexe F, qui dit les frais administratifs « incluant » l'assurance : la couverture est décrite dans la grille, mais facturée en option à 3 %, proposée à chaque commande, et choisie sur 89,8 % des envois. Formulation validée par la direction.)""",
+(Si on m'oppose l'annexe F, qui dit les frais administratifs « incluant » l'assurance : la couverture est décrite dans la grille, mais facturée en option à 3 %, proposée à chaque commande, et choisie sur 88,9 % des envois. Formulation validée par la direction.)""",
 
 'b12': """La cadence complète : huit touches en dix-huit jours, pour une vingtaine de comptes prioritaires en approche individualisée ; on entre en cadence dès 55 points de PA-FIT : cadence courte et terrain pour les P2, les huit touches pour les P1, à 75 et plus. La règle d'or : toute réponse arrête l'automatisation et crée une tâche humaine. Le câblage Brevo-HubSpot est prévu en novembre ; d'ici là, les mêmes étapes avec des tâches manuelles.
 
@@ -82,9 +82,9 @@ Je le complète honnêtement : des passes de mise en cohérence ont aussi été 
 
 (Montrer chaque citation, puis sa preuve, de haut en bas ; finir sur les quatre temps du bandeau. Ne jamais dire « tout est assuré ».)""",
 
-'b15': """(Si on me demande ce qui vient vraiment de moi.) Voici ce qui existait, ce que j'ai apporté, et pourquoi. Les outils, les conditions générales, les procédures et la filiale existaient avant le playbook ; Planet'Connect a été développé avec Halt Solutions, et j'y ai contribué. Ce qui manquait : des chiffres qui divergeaient, 448 prospects non qualifiés, des personas jamais formalisés, une activation jamais mesurée, des outils sans règles communes, un savoir dans quelques têtes. Mon apport, c'est la méthode qui relie l'existant ; chaque ligne porte son statut.
+'b15': """(Si on me demande ce qui vient vraiment de moi.) Voici ce qui existait, ce que j'ai apporté, et pourquoi. Les outils, les conditions générales, les procédures et la filiale existaient avant le playbook ; Planet'Connect a été développé avec Halt Solutions, et j'y ai contribué. Ce qui manquait : des chiffres qui divergeaient, 449 prospects non qualifiés, des personas jamais formalisés, une activation jamais mesurée, des outils sans règles communes, un savoir dans quelques têtes. Mon apport, c'est la méthode qui relie l'existant ; chaque ligne porte son statut.
 
-(Montrer les sept lignes et leur statut, puis le bandeau gris « Existant », en bas. Ne pas s'attribuer les ~145 signatures, ni Planet'Connect seule : « au développement de laquelle j'ai contribué ».)""",
+(Montrer les sept lignes et leur statut, puis le bandeau gris « Existant », en bas. Ne pas s'attribuer les ~150 signatures, ni Planet'Connect seule : « au développement de laquelle j'ai contribué ».)""",
 
 'b16': """(Si on me demande si ce cas est réel.) C'est un parcours type, tiré du chapitre 11 du playbook. Les prix viennent de la grille 2026, les étapes des règles du playbook ; les réponses du prospect et les points du score sont illustratifs. Je n'ai pas voulu présenter une vente réelle : aucun domaine n'est nommé, aucun chiffre client n'est cité, parce que notre top 10 reste confidentiel.
 

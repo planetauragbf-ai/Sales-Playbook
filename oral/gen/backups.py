@@ -300,7 +300,7 @@ def b5():
                        '<b>Aussi, à déclarer</b> : des mises en cohérence, chaque\u00a0correction vérifiée à sa\u00a0source',
                        '<b>Ce support oral</b>, travaillé avec Claude, puis\u00a0relu'])
     fond = _b5_panel('Le fond', 'chaque chiffre<br>vérifié à sa source (annexe\u00a0C)', PETROLE,
-                     ['<b>Documentation officielle 2026</b>, tableaux de bord Planet’Connect au\u00a024/09/2026',
+                     ['<b>Documentation officielle 2026</b>, tableaux de bord Planet’Connect au\u00a031/10/2026',
                       '<b>3 enquêtes</b> (47 réponses), <b>24 références externes</b>\u00a0vérifiées',
                       '<b>Aucune image générée par IA</b>, aucune donnée personnelle de client\u00a0final'])
     test = (f'<div style="background:{NUIT};border-radius:16px;padding:14px 32px 16px 32px;display:flex;flex-direction:column;gap:4px">'
@@ -455,7 +455,7 @@ def b8():
                                 'Filiale US licenciée', 'Planet’Connect'])
             + '</div>')
     swot = f'''<div style="display:flex;gap:16px">
-{_b8_quad('Forces', SARCF, '#E8F3F5', ['Spécialiste vins, champagnes, spiritueux', 'Assurance en option : 89,8 % des envois'], top=trio, tag=pill('CONSTATÉ', 'align-self:center'))}
+{_b8_quad('Forces', SARCF, '#E8F3F5', ['Spécialiste vins, champagnes, spiritueux', 'Assurance en option : 88,9 % des envois'], top=trio, tag=pill('CONSTATÉ', 'align-self:center'))}
 {_b8_quad('Faiblesses', BORD, '#F6EAEE', ['Notoriété limitée', 'Capacité commerciale de PME', 'Dépendance aux partenaires', 'Forte concentration sur quelques grands comptes'])}
 {_b8_quad('Opportunités', '#3A8A5C', '#EAF4EE', ['Vente directe et œnotourisme', 'Nouvelles destinations', 'Demande RSE', 'Vignerons indépendants à équiper'])}
 {_b8_quad('Menaces', ORANGE, '#FBEFE8', ['Droits US, volatilité réglementaire', 'Recul de la consommation', 'Pression tarifaire', 'Coûts logistiques et énergie'])}
@@ -640,7 +640,7 @@ def b11():
 {label('L’assurance, une option', SARCF, ls=2)}
 {_b11_stat('3 %', 'de la valeur<br>(vin + transport)')}
 <p style="font-size:26px;line-height:1.3;color:{ENCRE}">Jusqu’à <b>20 000 € par envoi</b>,<br>avec emballage homologué</p>
-{_b11_stat('89,8 %', 'des envois<br>l’ont choisie', pill('CONSTATÉ'))}
+{_b11_stat('88,9 %', 'des envois<br>l’ont choisie', pill('CONSTATÉ'))}
 </div>'''
     excl = f'''<div style="background:#FFFFFF;border:1px solid {FILET};border-left:6px solid {ORANGE};border-radius:16px;padding:20px 26px 22px 26px;display:flex;flex-direction:column;gap:8px">
 {label('Les exclusions', ORANGE, ls=2)}
@@ -798,7 +798,7 @@ def b14():
         _b14_row('Prix', f'« C’est cher <span style="color:{GRISD}">[…]</span> »', '15 € par bouteille, payés par le client final',
                  '360 € HT de transport pour 24 btl vers les USA', BORD, pill('GRILLE 2026')),
         _b14_row('Casse', '« Et si ça casse ? »', 'Assurance en option : 3 % (vin + transport)',
-                 'jusqu’à 20 000 € par envoi · choisie sur 89,8 % des envois', SARCF, pill('CONSTATÉ')),
+                 'jusqu’à 20 000 € par envoi · choisie sur 88,9 % des envois', SARCF, pill('CONSTATÉ')),
         _b14_row('Chaleur', '« Le vin va cuire dans le camion en été. »', 'Départ différé',
                  'l’altération thermique n’est pas couverte par notre assurance (transport non réfrigéré)', ORANGE),
         _b14_row('Statu quo', '« On a déjà quelqu’un »', 'Comparer sur UN envoi', '', PETROLE),
@@ -861,7 +861,7 @@ def b15():
             f'display:flex;align-items:center;gap:28px">'
             f'<div style="width:160px;flex:none;display:flex">{ctag("EXISTANT")}</div>'
             f'{_b15_item("CGS, grilles 2026, filiale", "direction")}'
-            f'{_b15_item("Procédures 2026, ~145 signés", "équipe")}'
+            f'{_b15_item("Procédures 2026, ~150 signés", "équipe")}'
             f'{_b15_item("Planet’Connect", "développé avec Halt Solutions, j’y ai contribué", 1.25)}</div>')
     # marge basse : padding 64 + cale fixe de 76 px + écart 20 = les 160 px habituels (bas du corps à 920 px)
     sp = '<div style="flex:1"></div>'

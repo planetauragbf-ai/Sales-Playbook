@@ -13,7 +13,7 @@
 - Jamais de données personnelles de clients finaux (pas de nom d'auteur d'avis particulier).
 - Aucun identifiant, mot de passe, clé API.
 - Projets en développement (VELA, Gant Blanc, entrepôt agréé, annexe Champagne) = au conditionnel.
-- Assurance : couvre jusqu'à 20 000 €/envoi mais reste une OPTION (3 % ad valorem), souscrite sur 89,8 % des envois (jamais « 9 envois sur 10 ») ; jamais « incluse ».
+- Assurance : couvre jusqu'à 20 000 €/envoi mais reste une OPTION (3 % ad valorem), souscrite sur 88,9 % des envois (jamais « 9 envois sur 10 ») ; jamais « incluse ».
 - Paiement : mandat SEPA par défaut, virement accepté, CB possible (adhérent ou client final) mais chronophage.
 - Droits de douane US : ne jamais citer de taux à l'oral ; le dossier indique 10 % depuis février 2026 (15 % d'août 2025 à février 2026), mais des sources externes divergent depuis juillet 2026 : renvoyer au simulateur, vérifier la veille.
 
@@ -30,7 +30,7 @@ Fil rouge : un domaine provençal avec caveau et clientèle internationale (chap
 | 2 | Accroche (Start with why) | Houston, scène type entendue sur le terrain : 2 bouteilles sur 24 ; notre pourquoi | 0:53 |
 | 3 | Sommaire | Cinq étapes titrées par leur idée, la problématique et les trois enjeux en regard ; le cas fil rouge (parcours type) ; la légende des étiquettes | 1:39 |
 | 4 | Le marché (MON ANALYSE) | L’export se complique : c’est notre métier. Trois chiffres en grand (OIV, FEVS, Atout France) ; cinq contraintes pour expédier chez un particulier américain | 2:27 |
-| 5 | L’entreprise (EXISTANT) | Une croissance portée par le bouche-à-oreille : CA ×4,7 (constaté) ; 262 adhérents, part USA ; qui vend, qui décide (organigramme complet en B9) | 3:17 |
+| 5 | L’entreprise (EXISTANT) | Une croissance portée par le bouche-à-oreille : CA ×4,7 (constaté) ; 277 adhérents, part USA ; qui vend, qui décide (organigramme complet en B9) | 3:17 |
 | 6 | L’offre et la concurrence | Nous vendons de la sécurité : groupage USA DDP, 15 € de transport par bouteille à 24 bouteilles (grille 2026) ; « on se débrouille », concurrent n° 1 ; notre place | 4:12 |
 | 7 | Diagnostic et problématique (MON ANALYSE) | Forces et fragilités constatées ; la problématique en bandeau ; trois enjeux numérotés (SWOT complet en B8) | 4:52 |
 | 8 | Partie 8 · ICP (cas : qualifier) | Le score juge la preuve, pas la taille : cinq critères ICP ; 60 % de l’effort sur les caveaux (objectif) ; PA-FIT 45 → 60 → 85 (illustratif, barème en B2) | 6:19 |
@@ -44,7 +44,7 @@ Fil rouge : un domaine provençal avec caveau et clientèle internationale (chap
 | 16 | Partie 12 · Ressources | Déjà livré (trois pages réelles), puis trois chantiers d’abord, datés, attribués, chiffrés : 800 € sur 3 000 € ; critères et suite en B13 | 14:20 |
 | 17 | Partie 13 · Sales Ops | Une donnée, un propriétaire, une décision : HubSpot source de vérité, quatre outils existants, Brevo à câbler, dictionnaire CRM ; règles marketing-ventes et rituels, dits | 15:21 |
 | 18 | Partie 13 · Onboarding 30-60-90 | Opérationnel en 90 jours : l’escalier J+30 certifié, J+60 autonome, J+90 pilote, une preuve par palier ; ligne d’arrivée en S8 ; qui forme, dit | 16:12 |
-| 19 | Partie 14 · Indicateurs (cas : suivre) | Mesuré ou espéré : ~145 signés (constaté, point zéro) ; Activation J+30 ≥ 70 % avec source, fréquence, responsable, action ; revue mensuelle (détail en B6) | 17:15 |
+| 19 | Partie 14 · Indicateurs (cas : suivre) | Mesuré ou espéré : ~150 signés (constaté, point zéro) ; Activation J+30 ≥ 70 % avec source, fréquence, responsable, action ; revue mensuelle (détail en B6) | 17:15 |
 | 20 | Synthèse, ouverture, retour à Houston | « Ils repartent les mains libres » : les 24 bouteilles pleines ; ma réponse enjeu par enjeu ; bénéfice visé, limite, ouverture | 18:39 |
 
 | Secours | Sujet | Sert à répondre à |

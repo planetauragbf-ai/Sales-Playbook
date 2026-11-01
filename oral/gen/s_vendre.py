@@ -492,7 +492,7 @@ def activer():
     cols = '1fr 1fr 1fr 1.3fr 1.1fr'  # la ligne d'arrivée plus large (carte du cas) ; la dernière colonne tient sa légende sur une ligne
     frise = (f'<div style="display:grid;grid-template-columns:{cols};gap:12px 0px">'
              f'{"".join(flags)}{"".join(dots)}{"".join(days)}{"".join(names)}{"".join(subs)}</div>')
-    why = _activer_why('~145 signés en 12 mois, activation non\u00a0mesurée.',
+    why = _activer_why('~150 signés en 12 mois, activation non\u00a0mesurée.',
                        'Commercial responsable jusqu’au premier envoi.',
                        '≥ 70 % des signés expédient sous 30 jours.')
     sp = '<div style="flex:1"></div>'
